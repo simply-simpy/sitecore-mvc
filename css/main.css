@@ -1,0 +1,17 @@
+.heading {
+  display: flex;
+  color: red;
+  outline: 1px dotted red;
+  float: left;
+  padding: 10em; }
+
+.one {
+  display: inline-flex; }
+
+.contentTitle {
+  font-size: 50px;
+  display: block;
+  height: 50px; }
+
+#LeftContent {
+  background: orange; }
