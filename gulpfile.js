@@ -3,7 +3,7 @@ var gulp = require('gulp');
 var run = require('gulp-run-command').default;
 var bs = require('browser-sync').create(); // create a browser sync instance.
 var sass = require('gulp-sass');
-var scss = "./scss/*.scss";
+var scss = "./scss/**/*.scss";
 var destCss = "./css";
 
 gulp.task('browser-sync', function () {
@@ -29,3 +29,4 @@ gulp.task('default', gulp.parallel('sass', 'sass:watch','browser-sync'), functio
     browserSync.reload();
     done();
 });
+
