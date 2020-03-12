@@ -1,0 +1,45 @@
+----item----
+version: 1
+id: {46D2F427-4CE5-4E1F-BA10-EF3636F43534}
+database: web
+path: /sitecore/layout/Devices/Print
+parent: {E18F4BC6-46A2-4842-898B-B6613733F06F}
+name: Print
+master: {2194A3B3-A357-4404-83D4-123782FC3A12}
+template: {B6F7EEB4-E8D7-476F-8936-5ACE6A76F20B}
+templatekey: Device
+created: 20160729T132116Z
+
+----field----
+field: {32326F99-C0DA-4817-9DBE-79E6DE8005E4}
+name: Query string
+key: query string
+content-length: 3
+
+p=1
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 56
+
+/sitecore/shell/themes/standard/people/16x16/printer.png
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 2
+
+30
+----version----
+language: en
+version: 1
+revision: 265C88A7-78AA-4D85-8BD7-8249EE88521C
+
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+265C88A7-78AA-4D85-8BD7-8249EE88521C

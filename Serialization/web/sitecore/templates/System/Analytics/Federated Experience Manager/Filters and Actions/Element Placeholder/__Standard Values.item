@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {AD582CEA-81A7-4C07-8628-549ED1115FB2}
+database: web
+path: /sitecore/templates/System/Analytics/Federated Experience Manager/Filters and Actions/Element Placeholder/__Standard Values
+parent: {10E23679-55DB-4059-B8F2-E417A2F78FCB}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {10E23679-55DB-4059-B8F2-E417A2F78FCB}
+templatekey: Element Placeholder
+created: 20160729T132117Z
+
+----field----
+field: {0789F313-0E00-4E40-801B-9A4002505BA7}
+name: Position
+key: position
+content-length: 38
+
+{FDBF46B4-5B52-4C7A-A254-B588EC52944E}
+----field----
+field: {8D4E863F-9BE1-4572-A684-BE6D93578D5B}
+name: Type
+key: type
+content-length: 65
+
+Sitecore.FXM.Matchers.Element.ContentElementMatcher, Sitecore.FXM
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 196
+
+<?xml version="1.0" encoding="utf-16"?><r xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"></d></r>
+----version----
+language: en
+version: 1
+revision: 3c7b5da6-7a27-493a-b202-0f097eecba1e
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140515T150458
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3c7b5da6-7a27-493a-b202-0f097eecba1e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20141014T132313:635488897932417793Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

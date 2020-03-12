@@ -1,0 +1,251 @@
+----item----
+version: 1
+id: {9DC2A721-7521-4D25-A079-FC57BC4A5963}
+database: core
+path: /sitecore/client/Business Component Library/version 2/Content/Guidance/Renderings/Forms/Form/PageSettings/Tabs/Galleries/Galleries/Tabs/Label to the left/FormComponentsLabelLeft/ButtonTextBox
+parent: {4A73D0C9-9A87-4295-BA15-CBE323E6CA36}
+name: ButtonTextBox
+master: {00000000-0000-0000-0000-000000000000}
+template: {70DD47CF-7D1E-4C82-B064-2E5CFB396788}
+templatekey: FormButtonTextBox Parameters
+created: 20160729T132116Z
+
+----field----
+field: {8216FA80-FD1B-4C9B-8399-97685AC2B8C0}
+name: ButtonType
+key: buttontype
+content-length: 7
+
+Default
+----field----
+field: {E53DD72A-CC21-4771-A6B4-17762365E2B7}
+name: IsRequired
+key: isrequired
+content-length: 1
+
+1
+----version----
+language: de-DE
+version: 1
+revision: 3e193920-9f8e-4031-8438-8a75c5838d2f
+
+----field----
+field: {25780A5A-43C5-49C7-BB85-40760B745CFA}
+name: ButtonText
+key: buttontext
+content-length: 2
+
+OK
+----field----
+field: {85F7FB0C-B383-4D91-B42E-90247EA49ACB}
+name: HelpText
+key: helptext
+content-length: 9
+
+Hilfstext
+----field----
+field: {3885A716-2EED-47AE-9132-32225F0458FF}
+name: FormLabel
+key: formlabel
+content-length: 13
+
+ButtonTextBox
+----field----
+field: {2D4CECE7-1092-404A-8CE9-8936D3A4BA88}
+name: Value
+key: value
+content-length: 4
+
+Wert
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 13
+
+ButtonTextBox
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133509Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3e193920-9f8e-4031-8438-8a75c5838d2f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133509Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 68ad5c72-4f71-478d-a910-4f568383b8b0
+
+----field----
+field: {25780A5A-43C5-49C7-BB85-40760B745CFA}
+name: ButtonText
+key: buttontext
+content-length: 2
+
+Ok
+----field----
+field: {85F7FB0C-B383-4D91-B42E-90247EA49ACB}
+name: HelpText
+key: helptext
+content-length: 8
+
+HelpText
+----field----
+field: {3885A716-2EED-47AE-9132-32225F0458FF}
+name: FormLabel
+key: formlabel
+content-length: 13
+
+ButtonTextBox
+----field----
+field: {2D4CECE7-1092-404A-8CE9-8936D3A4BA88}
+name: Value
+key: value
+content-length: 5
+
+Value
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151109T132706Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+68ad5c72-4f71-478d-a910-4f568383b8b0
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20151127T125922Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 5cd4bc64-e4e3-4ec6-bbd2-938c42c79bcb
+
+----field----
+field: {25780A5A-43C5-49C7-BB85-40760B745CFA}
+name: ButtonText
+key: buttontext
+content-length: 2
+
+OK
+----field----
+field: {85F7FB0C-B383-4D91-B42E-90247EA49ACB}
+name: HelpText
+key: helptext
+content-length: 8
+
+ヘルプ テキスト
+----field----
+field: {3885A716-2EED-47AE-9132-32225F0458FF}
+name: FormLabel
+key: formlabel
+content-length: 13
+
+ボタン テキスト ボックス
+----field----
+field: {2D4CECE7-1092-404A-8CE9-8936D3A4BA88}
+name: Value
+key: value
+content-length: 1
+
+値
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 13
+
+ボタン テキスト ボックス
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133636Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5cd4bc64-e4e3-4ec6-bbd2-938c42c79bcb
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133636Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

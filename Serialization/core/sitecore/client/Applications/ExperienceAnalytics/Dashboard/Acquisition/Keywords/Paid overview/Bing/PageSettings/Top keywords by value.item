@@ -1,0 +1,319 @@
+----item----
+version: 1
+id: {9B14FAC3-6B8E-4E5A-A81A-6CB5B70B334A}
+database: core
+path: /sitecore/client/Applications/ExperienceAnalytics/Dashboard/Acquisition/Keywords/Paid overview/Bing/PageSettings/Top keywords by value
+parent: {BBE88334-6436-4F1B-954B-2EE7C388EC0D}
+name: Top keywords by value
+master: {00000000-0000-0000-0000-000000000000}
+template: {230EE01C-6CB0-46D6-925F-6C70A30706BA}
+templatekey: ExperienceAnalyticsBarChart Parameters
+created: 20160729T132117Z
+
+----field----
+field: {6D0C0AB0-BC40-4BD0-8ACB-16612A180F14}
+name: IsVisible
+key: isvisible
+content-length: 1
+
+1
+----field----
+field: {7E9E1C5C-9988-462E-94EC-B1549D1CD0E4}
+name: Metric
+key: metric
+content-length: 38
+
+{A7E070C2-8656-4E22-AE7C-213F225DC754}
+----field----
+field: {EA8BA01B-98C4-4DBD-9E11-E584FE1C7666}
+name: TargetPage
+key: targetpage
+content-length: 38
+
+{371A5435-4EBD-4E2A-80B2-11B51285DFD7}
+----field----
+field: {D1184319-38CA-4D82-899D-64A76F8F7603}
+name: Segments
+key: segments
+content-length: 38
+
+{76B6FB92-6C87-449D-B9D9-CB3E4951B3CA}
+----field----
+field: {7489900F-C46F-4D41-B704-1F96694A7190}
+name: KeysCount
+key: keyscount
+content-length: 1
+
+8
+----field----
+field: {13CF962B-9899-4421-8206-8BDC3BF117D1}
+name: KeysSortByMetric
+key: keyssortbymetric
+content-length: 38
+
+{A7E070C2-8656-4E22-AE7C-213F225DC754}
+----field----
+field: {5D6BC769-813B-4D41-8A88-73DCA65D66B5}
+name: KeysSortDirection
+key: keyssortdirection
+content-length: 38
+
+{D54D6C57-A761-412F-BCE8-A2B181B443FF}
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+300
+----version----
+language: da
+version: 1
+revision: 97d9582a-fb63-437d-b8b8-2c2d7f80a9f0
+
+----field----
+field: {E17D3534-A424-47E3-8F2C-3DBBA705565F}
+name: Tooltip
+key: tooltip
+content-length: 30
+
+De bedste nøgleord efter værdi
+----field----
+field: {8C985BE6-4752-4134-BA85-F52055C8012E}
+name: Title
+key: title
+content-length: 30
+
+De bedste nøgleord efter værdi
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 30
+
+De bedste nøgleord efter værdi
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133339Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+97d9582a-fb63-437d-b8b8-2c2d7f80a9f0
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133339Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 8422164a-1035-4c2b-9525-5ca485773053
+
+----field----
+field: {E17D3534-A424-47E3-8F2C-3DBBA705565F}
+name: Tooltip
+key: tooltip
+content-length: 22
+
+Top Keywords nach Wert
+----field----
+field: {8C985BE6-4752-4134-BA85-F52055C8012E}
+name: Title
+key: title
+content-length: 22
+
+Top Keywords nach Wert
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 22
+
+Top Keywords nach Wert
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133509Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+8422164a-1035-4c2b-9525-5ca485773053
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133509Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: ac42eaee-5022-444a-823e-449b7752bc25
+
+----field----
+field: {E17D3534-A424-47E3-8F2C-3DBBA705565F}
+name: Tooltip
+key: tooltip
+content-length: 21
+
+Top keywords by value
+----field----
+field: {8C985BE6-4752-4134-BA85-F52055C8012E}
+name: Title
+key: title
+content-length: 21
+
+Top keywords by value
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20141007T110744Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ac42eaee-5022-444a-823e-449b7752bc25
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150526T114937:635682377777403258Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 61b2b8e0-d612-490d-aa6f-a7c66b9680da
+
+----field----
+field: {E17D3534-A424-47E3-8F2C-3DBBA705565F}
+name: Tooltip
+key: tooltip
+content-length: 12
+
+バリューの多いキーワード
+----field----
+field: {8C985BE6-4752-4134-BA85-F52055C8012E}
+name: Title
+key: title
+content-length: 12
+
+バリューの多いキーワード
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 12
+
+バリューの多いキーワード
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133636Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+61b2b8e0-d612-490d-aa6f-a7c66b9680da
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133636Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,73 @@
+----item----
+version: 1
+id: {9FDDF7B8-F667-410E-A2B9-891FA829FE5E}
+database: web
+path: /sitecore/templates/System/Social/Klout/Klout Application/__Standard Values
+parent: {3E8C8DF4-0BF5-4FE8-800E-00CFC2E87D19}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {3E8C8DF4-0BF5-4FE8-800E-00CFC2E87D19}
+templatekey: Klout Application
+created: 20160729T132117Z
+
+----field----
+field: {059ACD46-C0E3-4916-AAF1-4CCE88FEABEC}
+name: Calls per second
+key: calls per second
+content-length: 2
+
+10
+----field----
+field: {F16C6AA7-1E50-4685-B676-B650F1980083}
+name: Calls per day
+key: calls per day
+content-length: 5
+
+20000
+----version----
+language: en
+version: 1
+revision: 2119db33-e892-40f2-8cd6-b611cc3e20b2
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140523T130605
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+2119db33-e892-40f2-8cd6-b611cc3e20b2
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140523T130620:635364471806012737
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

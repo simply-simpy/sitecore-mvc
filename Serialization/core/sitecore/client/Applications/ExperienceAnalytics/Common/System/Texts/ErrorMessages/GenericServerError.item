@@ -1,0 +1,249 @@
+----item----
+version: 1
+id: {A87285AB-07E4-4196-A486-D832599FFD0C}
+database: core
+path: /sitecore/client/Applications/ExperienceAnalytics/Common/System/Texts/ErrorMessages/GenericServerError
+parent: {2276BEBF-5AD5-49EF-9A56-6B775BF7EB0F}
+name: GenericServerError
+master: {00000000-0000-0000-0000-000000000000}
+template: {76F63DF7-0235-4164-86AB-84B5EC48CB2A}
+templatekey: Text
+created: 20160729T132117Z
+
+----version----
+language: da
+version: 1
+revision: 8e904b33-f347-4d24-8e0a-831560a3ab55
+
+----field----
+field: {B3F89D3B-FC37-4699-860E-DB8FB37323C1}
+name: Text
+key: text
+content-length: 108
+
+{{COMPONENT_NAME}} {{COMPONENT_TYPE}} kan ikke blive vist pga. en serverfejl. Kontakt systemadministratoren.
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 99
+
+COMPONENT_NAME COMPONENT_TYPE kan ikke blive vist pga. en serverfejl. Kontakt systemadministratoren
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133341Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+8e904b33-f347-4d24-8e0a-831560a3ab55
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133341Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: df9d43db-2154-4bbd-a475-6257759e4436
+
+----field----
+field: {B3F89D3B-FC37-4699-860E-DB8FB37323C1}
+name: Text
+key: text
+content-length: 147
+
+Der {{KOMPONENTEN_NAME}} {{KOMPONENTEN_TYP}} kann nicht angezeigt werden, da ein Serverfehler vorliegt. Kontaktieren Sie Ihren Systemadministrator.
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 23
+
+GenerischerServerFehler
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133511Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+df9d43db-2154-4bbd-a475-6257759e4436
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133511Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 9a776bcf-8999-4477-b461-e12ea4197df0
+
+----field----
+field: {B3F89D3B-FC37-4699-860E-DB8FB37323C1}
+name: Text
+key: text
+content-length: 118
+
+The {{COMPONENT_NAME}} {{COMPONENT_TYPE}} cannot be displayed due to a server error. Contact you system administrator.
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+00010101T000000
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+9a776bcf-8999-4477-b461-e12ea4197df0
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160129T044043Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 2b24eaee-23b3-4cd0-a0d5-69452f285cae
+
+----field----
+field: {B3F89D3B-FC37-4699-860E-DB8FB37323C1}
+name: Text
+key: text
+content-length: 77
+
+サーバー エラーが原因で {{COMPONENT_NAME}} {{COMPONENT_TYPE}} を表示できません。システム管理者に連絡してください。
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 12
+
+一般的なサーバー エラー
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133639Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+2b24eaee-23b3-4cd0-a0d5-69452f285cae
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133639Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

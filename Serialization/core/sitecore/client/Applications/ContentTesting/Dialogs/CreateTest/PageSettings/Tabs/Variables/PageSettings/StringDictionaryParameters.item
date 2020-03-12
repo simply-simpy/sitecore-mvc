@@ -1,0 +1,214 @@
+----item----
+version: 1
+id: {5FD5168F-621C-41E0-9163-73579CB49B89}
+database: core
+path: /sitecore/client/Applications/ContentTesting/Dialogs/CreateTest/PageSettings/Tabs/Variables/PageSettings/StringDictionaryParameters
+parent: {C5488873-9CB0-42F0-9168-832E9CC18346}
+name: StringDictionaryParameters
+master: {00000000-0000-0000-0000-000000000000}
+template: {27A16AA3-F74C-405A-B260-71981D1FCA5F}
+templatekey: StringDictionary Parameters
+created: 20160729T132117Z
+
+----field----
+field: {432869AE-8C21-4508-B7FB-9AF760C13726}
+name: Phrases
+key: phrases
+content-length: 986
+
+The <%= variableCount %> variable has <%= valueCount %> variations, which together create <%= experienceCount %> experiences.|The <%= variableCount %> variables have combined <%= valueCount %> variations, which together create <%= experienceCount %> experiences.|Based on historical data this page has <%= dailyVisists %> visitors per day, with a traffic allocation of <%= trafficAllocation %>% and a confidence level of <%= confidenceLevel %>% the test is expected to last <%= duration %> days, and the maximum duration of the test is <%= maximumDuration %> days.|Based on historical data this page has <%= dailyVisists %> visitors per day, with a traffic allocation of <%= trafficAllocation %>% and a confidence level of <%= confidenceLevel %>% the test is expected to last <%= duration %> days.|The traffic allocation is set to <%= trafficAllocation %>% and the confidence level is <%= confidenceLevel %>%. There is not enough historical data to forecast duration.|variable|variables
+----version----
+language: da
+version: 1
+revision: 9c11e157-d5a6-4a95-92d2-25747cbbe804
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 26
+
+StringDictionary-parametre
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133329Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+9c11e157-d5a6-4a95-92d2-25747cbbe804
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133329Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: ffeb6b58-da03-40c7-b3f8-c4d64b4f1ad9
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 26
+
+StringDictionary Parameter
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133457Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ffeb6b58-da03-40c7-b3f8-c4d64b4f1ad9
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133457Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: b0cf8869-87b0-46c6-9cdd-9e17b9e97e00
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20141029T051115Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b0cf8869-87b0-46c6-9cdd-9e17b9e97e00
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150319T035029:635623338296062460Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: fadf9a8e-695c-461a-a2ff-c4eb18e05710
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 12
+
+文字列用辞書パラメーター
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133624Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+fadf9a8e-695c-461a-a2ff-c4eb18e05710
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133624Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

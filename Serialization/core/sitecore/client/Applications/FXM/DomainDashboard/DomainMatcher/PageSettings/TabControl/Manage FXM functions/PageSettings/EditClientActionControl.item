@@ -1,0 +1,263 @@
+----item----
+version: 1
+id: {9CD044F6-18F4-40D7-94C5-FC33E8EAE66D}
+database: core
+path: /sitecore/client/Applications/FXM/DomainDashboard/DomainMatcher/PageSettings/TabControl/Manage FXM functions/PageSettings/EditClientActionControl
+parent: {985009CC-9E50-4203-9A64-903ABDAE17C2}
+name: EditClientActionControl
+master: {00000000-0000-0000-0000-000000000000}
+template: {670C0D88-4291-4385-A842-646326CFAF8E}
+templatekey: EditClientActionControl-Parameters
+created: 20160729T132117Z
+
+----field----
+field: {67F0030A-7433-485F-916E-A447C8862D43}
+name: TabControl
+key: tabcontrol
+content-length: 38
+
+{B80AB97F-002F-42C9-A4A0-D8212AD8413C}
+----field----
+field: {412DBCE9-823C-41E9-ABD1-1389B815183A}
+name: NameControlId
+key: namecontrolid
+content-length: 23
+
+ClientActionNameTextBox
+----field----
+field: {CB04FC41-596C-440B-9572-EBA610F2C494}
+name: CampaignsPickerControlId
+key: campaignspickercontrolid
+content-length: 40
+
+ClientActionCampaignsAnalyticsItemPicker
+----field----
+field: {C0BB6851-848B-43B0-840E-66CD0BE75B23}
+name: EventsPickerControlId
+key: eventspickercontrolid
+content-length: 37
+
+ClientActionEventsAnalyticsItemPicker
+----field----
+field: {5103193E-C54A-42FD-BE56-F6B9F5FBB64A}
+name: GoalsPickerControlId
+key: goalspickercontrolid
+content-length: 36
+
+ClientActionGoalsAnalyticsItemPicker
+----field----
+field: {DBF8E40C-368C-41C0-BBB5-C51A426D285A}
+name: OutcomesPickerControlId
+key: outcomespickercontrolid
+content-length: 39
+
+ClientActionOutcomesAnalyticsItemPicker
+----version----
+language: da
+version: 1
+revision: ee53b9a3-7666-42bd-9ebf-214787d11569
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 23
+
+EditClientActionControl
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133339Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ee53b9a3-7666-42bd-9ebf-214787d11569
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133339Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: cd824156-1ae1-496f-86e7-c218321cdb08
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 31
+
+BearbeitenClientAktionSteuerung
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133509Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+cd824156-1ae1-496f-86e7-c218321cdb08
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133509Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: ee799ce0-bb3f-439e-8097-5223ab51b801
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20141016T144426Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ee799ce0-bb3f-439e-8097-5223ab51b801
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150417T100115:635648616758486600Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 64ef5498-9a58-4130-b181-56be327c2bd4
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 22
+
+クライアント アクション コントロールを編集
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133636Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+64ef5498-9a58-4130-b181-56be327c2bd4
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133636Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

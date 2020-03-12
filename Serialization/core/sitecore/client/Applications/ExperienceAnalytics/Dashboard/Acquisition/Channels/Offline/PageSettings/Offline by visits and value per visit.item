@@ -1,0 +1,305 @@
+----item----
+version: 1
+id: {F18A6B43-8F37-474A-B620-856FBAD6A411}
+database: core
+path: /sitecore/client/Applications/ExperienceAnalytics/Dashboard/Acquisition/Channels/Offline/PageSettings/Offline by visits and value per visit
+parent: {B2F2F960-6DE0-46E1-8C08-A53989F961A8}
+name: Offline by visits and value per visit
+master: {00000000-0000-0000-0000-000000000000}
+template: {DAD532FA-6524-45CB-A57C-848CC34EB238}
+templatekey: ExperienceAnalyticsLineChart Parameters
+created: 20160729T132117Z
+
+----field----
+field: {6D0C0AB0-BC40-4BD0-8ACB-16612A180F14}
+name: IsVisible
+key: isvisible
+content-length: 1
+
+1
+----field----
+field: {7A078F89-9956-4F04-9006-EE085053DDF4}
+name: Metrics
+key: metrics
+content-length: 77
+
+{CC835378-DE1E-41E9-A603-2F7997C14157}|{C72A8033-1895-4BD8-BB27-4922DD281533}
+----field----
+field: {D1184319-38CA-4D82-899D-64A76F8F7603}
+name: Segments
+key: segments
+content-length: 38
+
+{786FBA3A-4573-445E-A745-04E3CA5E48C1}
+----field----
+field: {9FA68517-4EEE-4D52-8BD4-4FC281D05A52}
+name: Keys
+key: keys
+content-length: 36
+
+3648772F-0CB9-4B90-9E65-A97B2C729008
+----field----
+field: {5B3AC62D-EEDB-4F89-A311-EF958BBDB762}
+name: DrilldownOption
+key: drilldownoption
+content-length: 0
+
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+100
+----version----
+language: da
+version: 1
+revision: 52cd2eaa-c935-49bd-8604-f8d14bb411d6
+
+----field----
+field: {E17D3534-A424-47E3-8F2C-3DBBA705565F}
+name: Tooltip
+key: tooltip
+content-length: 38
+
+Offline efter besøg og værdi pr. besøg
+----field----
+field: {8C985BE6-4752-4134-BA85-F52055C8012E}
+name: Title
+key: title
+content-length: 38
+
+Offline efter besøg og værdi pr. besøg
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 38
+
+Offline efter besøg og værdi pr. besøg
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133353Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+52cd2eaa-c935-49bd-8604-f8d14bb411d6
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133353Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 9d52a9b3-d605-4df8-aafd-c475f553097c
+
+----field----
+field: {E17D3534-A424-47E3-8F2C-3DBBA705565F}
+name: Tooltip
+key: tooltip
+content-length: 41
+
+Offline nach Besuchen und Wert pro Besuch
+----field----
+field: {8C985BE6-4752-4134-BA85-F52055C8012E}
+name: Title
+key: title
+content-length: 41
+
+Offline nach Besuchen und Wert pro Besuch
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 41
+
+Offline nach Besuchen und Wert pro Besuch
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133526Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+9d52a9b3-d605-4df8-aafd-c475f553097c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133526Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: b9e54de8-6ac0-4f6a-a9d7-647f2d4f5057
+
+----field----
+field: {E17D3534-A424-47E3-8F2C-3DBBA705565F}
+name: Tooltip
+key: tooltip
+content-length: 46
+
+Offline channels by visits and value per visit
+----field----
+field: {8C985BE6-4752-4134-BA85-F52055C8012E}
+name: Title
+key: title
+content-length: 46
+
+Offline channels by visits and value per visit
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20141013T080727Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b9e54de8-6ac0-4f6a-a9d7-647f2d4f5057
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150723T143958:635732591984341287Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: a1f8a597-624f-4ecc-a7d4-9cc74d168f8f
+
+----field----
+field: {E17D3534-A424-47E3-8F2C-3DBBA705565F}
+name: Tooltip
+key: tooltip
+content-length: 18
+
+オフラインの訪問数と訪問毎のバリュー
+----field----
+field: {8C985BE6-4752-4134-BA85-F52055C8012E}
+name: Title
+key: title
+content-length: 18
+
+オフラインの訪問数と訪問毎のバリュー
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 18
+
+オフラインの訪問数と訪問毎のバリュー
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133655Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a1f8a597-624f-4ecc-a7d4-9cc74d168f8f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133655Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

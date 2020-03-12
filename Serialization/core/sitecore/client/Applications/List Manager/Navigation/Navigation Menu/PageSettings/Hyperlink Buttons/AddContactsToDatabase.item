@@ -1,0 +1,242 @@
+----item----
+version: 1
+id: {DF3DE964-C642-4C79-AE16-EA68A923F6E4}
+database: core
+path: /sitecore/client/Applications/List Manager/Navigation/Navigation Menu/PageSettings/Hyperlink Buttons/AddContactsToDatabase
+parent: {7CBCC5E9-0DE0-4DC0-8059-28584046A170}
+name: AddContactsToDatabase
+master: {00000000-0000-0000-0000-000000000000}
+template: {6B2C1723-B4E0-49BE-8EF2-F1D12C969E54}
+templatekey: HyperlinkButton Parameters
+created: 20160729T132117Z
+
+----field----
+field: {9F2E12C5-F236-441D-AE2F-1DF11A343D81}
+name: Click
+key: click
+content-length: 77
+
+javascript:_sc.trigger('import:new:contacts:dialog:add:contacts:to:database')
+----version----
+language: da
+version: 1
+revision: 4b35c3f6-f25b-4464-952f-9563a9c9d790
+
+----field----
+field: {368E1AB6-8708-4F58-AF08-7DAA53A5BF32}
+name: Text
+key: text
+content-length: 43
+
+Importér kontakter uden at oprette en liste
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 21
+
+AddContactsToDatabase
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133350Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4b35c3f6-f25b-4464-952f-9563a9c9d790
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133350Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: ac9ea2d2-66a7-413b-936b-28bb6ed93ca0
+
+----field----
+field: {368E1AB6-8708-4F58-AF08-7DAA53A5BF32}
+name: Text
+key: text
+content-length: 45
+
+Kontakte importieren  ohne Liste zu erstellen
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 29
+
+FügtKontakteZurDatenbankHinzu
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133522Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ac9ea2d2-66a7-413b-936b-28bb6ed93ca0
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133522Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 8e070507-a66b-4c35-bbb0-c8cb2b8725da
+
+----field----
+field: {368E1AB6-8708-4F58-AF08-7DAA53A5BF32}
+name: Text
+key: text
+content-length: 39
+
+Import contacts without creating a list
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20141114T094929Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+8e070507-a66b-4c35-bbb0-c8cb2b8725da
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20141118T134322:635519150020027008Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 73c1a74e-3c3e-4966-834e-adbac9abdc5f
+
+----field----
+field: {368E1AB6-8708-4F58-AF08-7DAA53A5BF32}
+name: Text
+key: text
+content-length: 22
+
+リストを作成せずにコンタクトをインポートする
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 17
+
+コンタクトをデータベースに追加する
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133651Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+73c1a74e-3c3e-4966-834e-adbac9abdc5f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133651Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

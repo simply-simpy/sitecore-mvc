@@ -1,0 +1,298 @@
+----item----
+version: 1
+id: {A161EF72-FD1B-49B7-96C0-4F1A37587D13}
+database: core
+path: /sitecore/client/Applications/ExperienceAnalytics/Dashboard/Behavior/Page URLs/Exit page URLs/Exit page URL/PageSettings/Exit page URL conversion rate
+parent: {987C4D23-3883-4DB2-B885-6DA6ED32B3B6}
+name: Exit page URL conversion rate
+master: {00000000-0000-0000-0000-000000000000}
+template: {5BE5B7A7-7EC6-4736-B176-B9268238F41E}
+templatekey: ExperienceAnalyticsAreaChart Parameters
+created: 20160729T132118Z
+
+----field----
+field: {6D0C0AB0-BC40-4BD0-8ACB-16612A180F14}
+name: IsVisible
+key: isvisible
+content-length: 1
+
+1
+----field----
+field: {7E9E1C5C-9988-462E-94EC-B1549D1CD0E4}
+name: Metric
+key: metric
+content-length: 38
+
+{C4ADF946-E5C8-420B-9981-1B3E6A27B676}
+----field----
+field: {D1184319-38CA-4D82-899D-64A76F8F7603}
+name: Segments
+key: segments
+content-length: 38
+
+{09A3529A-38BF-4A97-8657-E4A5FC05C7FA}
+----field----
+field: {5B3AC62D-EEDB-4F89-A311-EF958BBDB762}
+name: DrilldownOption
+key: drilldownoption
+content-length: 38
+
+{3B4EF40B-2BF9-4143-B930-65B080F6D357}
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+400
+----version----
+language: da
+version: 1
+revision: bc2ad7e8-8392-4940-8e42-ac678b088662
+
+----field----
+field: {E17D3534-A424-47E3-8F2C-3DBBA705565F}
+name: Tooltip
+key: tooltip
+content-length: 50
+
+Webadresse for udgangsside efter konverteringsrate
+----field----
+field: {8C985BE6-4752-4134-BA85-F52055C8012E}
+name: Title
+key: title
+content-length: 50
+
+Webadresse for udgangsside efter konverteringsrate
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 45
+
+Webadresse for udgangsside, konverteringsrate
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133340Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+bc2ad7e8-8392-4940-8e42-ac678b088662
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133340Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 66d1f47a-931b-43da-9547-d647c1ed0fc4
+
+----field----
+field: {E17D3534-A424-47E3-8F2C-3DBBA705565F}
+name: Tooltip
+key: tooltip
+content-length: 35
+
+Ausstiegsseite nach Konversionsrate
+----field----
+field: {8C985BE6-4752-4134-BA85-F52055C8012E}
+name: Title
+key: title
+content-length: 35
+
+Ausstiegsseite nach Konversionsrate
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 71
+
+Ausstiegsseite Konversionsrate - ExperienceAnalyticsAreaChart Parameter
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133510Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+66d1f47a-931b-43da-9547-d647c1ed0fc4
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133510Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: ebb27c2a-51ad-4407-9950-65407471c1a9
+
+----field----
+field: {E17D3534-A424-47E3-8F2C-3DBBA705565F}
+name: Tooltip
+key: tooltip
+content-length: 32
+
+Exit page URL by conversion rate
+----field----
+field: {8C985BE6-4752-4134-BA85-F52055C8012E}
+name: Title
+key: title
+content-length: 32
+
+Exit page URL by conversion rate
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20141009T083828Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ebb27c2a-51ad-4407-9950-65407471c1a9
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20141209T174259:635537437798507174Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 6bce4728-fb02-4f18-b967-42f25bcc5bc5
+
+----field----
+field: {E17D3534-A424-47E3-8F2C-3DBBA705565F}
+name: Tooltip
+key: tooltip
+content-length: 22
+
+離脱ページ URL のコンバージョン レート
+----field----
+field: {8C985BE6-4752-4134-BA85-F52055C8012E}
+name: Title
+key: title
+content-length: 22
+
+離脱ページ URL のコンバージョン レート
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 22
+
+離脱ページ URL のコンバージョン レート
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133637Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+6bce4728-fb02-4f18-b967-42f25bcc5bc5
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133637Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

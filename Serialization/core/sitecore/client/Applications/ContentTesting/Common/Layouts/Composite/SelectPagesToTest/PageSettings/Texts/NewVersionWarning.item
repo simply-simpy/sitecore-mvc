@@ -1,0 +1,235 @@
+----item----
+version: 1
+id: {AFDBFD3D-E73C-40C3-A41A-2BFDCECD8113}
+database: core
+path: /sitecore/client/Applications/ContentTesting/Common/Layouts/Composite/SelectPagesToTest/PageSettings/Texts/NewVersionWarning
+parent: {E299D958-38FF-40A7-AC9A-8E1EBB29B79D}
+name: NewVersionWarning
+master: {00000000-0000-0000-0000-000000000000}
+template: {1B868F3C-E34E-4421-8EAC-CC026D8199B5}
+templatekey: Label Parameters
+created: 20160729T132117Z
+
+----version----
+language: da
+version: 1
+revision: 1edfdf16-49f7-44e2-80f3-31729bbffcde
+
+----field----
+field: {730A4068-4647-4006-B41C-CE28325432C7}
+name: Text
+key: text
+content-length: 107
+
+Ved hjælp af denne indstilling oprettes en ny version af elementet. Er du sikker på, at det er det, du vil?
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 17
+
+NewVersionWarning
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133342Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+1edfdf16-49f7-44e2-80f3-31729bbffcde
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133342Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 99232fe7-8b3d-45a7-9440-68dedb7de6ff
+
+----field----
+field: {730A4068-4647-4006-B41C-CE28325432C7}
+name: Text
+key: text
+content-length: 88
+
+Diese Option erstellt eine neue Version des Items. Sind Sie sicher, dass Sie das wollen?
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 18
+
+NeueVersionWarnung
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133513Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+99232fe7-8b3d-45a7-9440-68dedb7de6ff
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133513Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 90c161d2-c230-42b3-b519-0ddbd8195c1a
+
+----field----
+field: {730A4068-4647-4006-B41C-CE28325432C7}
+name: Text
+key: text
+content-length: 82
+
+This option creates a new version of the item. Are you sure that is what you want?
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20141008T234535Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+90c161d2-c230-42b3-b519-0ddbd8195c1a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20141009T001055:635484102556656221Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: be6587fb-54a6-4267-8395-4789abf53b96
+
+----field----
+field: {730A4068-4647-4006-B41C-CE28325432C7}
+name: Text
+key: text
+content-length: 49
+
+このオプションはアイテムの新しいバージョンを作成します。本当にこの操作を実行してもよろしいですか？
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 11
+
+新しいバージョンの警告
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133641Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+be6587fb-54a6-4267-8395-4789abf53b96
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133641Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

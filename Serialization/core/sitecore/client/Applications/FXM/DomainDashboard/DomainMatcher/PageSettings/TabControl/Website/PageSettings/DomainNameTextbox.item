@@ -1,0 +1,256 @@
+----item----
+version: 1
+id: {087E3054-DA4B-4D46-9D53-CCE42384CCCA}
+database: core
+path: /sitecore/client/Applications/FXM/DomainDashboard/DomainMatcher/PageSettings/TabControl/Website/PageSettings/DomainNameTextbox
+parent: {9A671957-B93D-4255-B1FB-34167DD6DB46}
+name: DomainNameTextbox
+master: {00000000-0000-0000-0000-000000000000}
+template: {16494224-6913-4B34-98AC-8EB69DD0A334}
+templatekey: TextBox Parameters
+created: 20160729T132117Z
+
+----field----
+field: {CB6941FC-D4D1-437E-81F2-6EAEADE178BF}
+name: WidthPolicy
+key: widthpolicy
+content-length: 0
+
+
+----version----
+language: da
+version: 1
+revision: b7c10e9f-2451-42db-a88e-bf1e0e7503d1
+
+----field----
+field: {9378805D-F410-4DB5-B343-16A3BE940979}
+name: Watermark
+key: watermark
+content-length: 15
+
+Indtast et navn
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 17
+
+DomainNameTextbox
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133315Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b7c10e9f-2451-42db-a88e-bf1e0e7503d1
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133315Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: b935173f-e568-4f77-ab4f-53c6d7b64c0b
+
+----field----
+field: {9378805D-F410-4DB5-B343-16A3BE940979}
+name: Watermark
+key: watermark
+content-length: 25
+
+Geben Sie einen Namen ein
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 17
+
+DomainNameTextbox
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 35
+
+20141022T014235:635495389556492413Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b935173f-e568-4f77-ab4f-53c6d7b64c0b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133440Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 7ceceb22-50bc-471a-a261-3cefdd12f7e2
+
+----field----
+field: {9378805D-F410-4DB5-B343-16A3BE940979}
+name: Watermark
+key: watermark
+content-length: 12
+
+Enter a name
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20140730T133005Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+7ceceb22-50bc-471a-a261-3cefdd12f7e2
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20140730T133529:635423241299995036Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 23e8a1e1-78b7-4983-a762-16684da257d0
+
+----field----
+field: {9378805D-F410-4DB5-B343-16A3BE940979}
+name: Watermark
+key: watermark
+content-length: 11
+
+名前を入力してください
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 14
+
+ドメイン名テキスト ボックス
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133607Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+23e8a1e1-78b7-4983-a762-16684da257d0
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133607Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

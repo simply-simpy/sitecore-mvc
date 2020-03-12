@@ -1,0 +1,287 @@
+----item----
+version: 1
+id: {3B66BF31-4E8C-4FD5-9538-C877AC653B06}
+database: core
+path: /sitecore/client/Applications/FXM/DomainDashboard/DomainMatcher/PageSettings/TabControl/Manage FXM functions
+parent: {D25B65C0-19D6-4BEF-9327-8E399A0608DD}
+name: Manage FXM functions
+master: {00000000-0000-0000-0000-000000000000}
+template: {F62B4CD7-754C-4461-810F-2B6BD2C92A0D}
+templatekey: Tab
+created: 20160729T132117Z
+
+----field----
+field: {DEAB3795-056F-4421-ADF0-758844461B72}
+name: Placeholder Name
+key: placeholder name
+content-length: 10
+
+Validation
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 2
+
+50
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 2914
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+    <r id="{CB83D434-31ED-4AC3-A280-CCE2B63F9743}" par="PageCodeTypeName=Sitecore.FXM.Speak.PageCode.DomainMatcherRulesTab%2c+Sitecore.FXM.Speak" uid="{C33F9EED-C854-4AC7-B0E8-CDB1AE82F5A4}" />
+    <r ds="{4E50BAA0-A6AE-4073-866A-B5EF2FD53528}" id="{442BD093-FBAD-4E36-BC08-489E16C82D08}" par="Id=RulesTabAccordion&amp;IsVisible=1&amp;IsCollapsible=1" uid="{ABB1A014-1F79-4495-93E2-2EE4FC3F7F2F}" />
+    <r ds="{7AD43CFA-89BF-4BA5-9EF1-5AFC29C578B1}" id="{913AB005-2527-4C2D-9827-FB3A8DFB135C}" par="Click=trigger%3asave%3afxmfunction&amp;Id=SaveRuleItem" ph="RulesTabAccordion.ActionBar" uid="{78229B1A-860D-4681-8856-BAE4D2E728E0}" />
+    <r id="{910155C7-3881-4A56-90FB-D126490EDE55}" par="Id=RulesTabMessageBar" ph="RulesTabAccordion.Body" uid="{F1913F1B-5DD0-43FF-9FED-929BC6020F0E}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=RulesTabAccordionWrapper" ph="RulesTabAccordion.Body" uid="{91D1B81D-08E9-4A42-8FE6-AB6533108EAC}" />
+    <r id="{C4393722-39FA-4869-9582-3A8EB8983A0D}" par="Id=AccordionRowPanel" ph="RulesTabAccordionWrapper.Content" uid="{E2712E4A-FDF8-4B27-9D6F-40D010D5CAF1}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=TreeViewColumnPanel&amp;GridColumns=3" ph="AccordionRowPanel.Content" uid="{F5C2C7F4-1A6F-41ED-8869-EC55C56298A2}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=TreeViewColumnPanelBorder&amp;UsePadding=1" ph="TreeViewColumnPanel.Content" uid="{03CE059F-F092-483D-ADA9-7B41D7F8716C}" />
+    <r ds="{A9B18F2F-F6A0-45A0-A4C7-3D0FF5C567DF}" id="{AEA8B813-E1ED-4274-9329-B2BCBBDAE80A}" par="Database=master&amp;Id=RulesTabTreeview&amp;WhiteList=*" ph="TreeViewColumnPanelBorder.Content" uid="{767D4540-1935-4417-8E50-679586FB93BA}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=DetailsViewColumnPanel&amp;GridColumns=9" ph="AccordionRowPanel.Content" uid="{EF62C243-E70E-4713-9671-45957823865A}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=DetailsViewColumnPanelBorder&amp;UsePadding=1" ph="DetailsViewColumnPanel.Content" uid="{7A47590C-EF73-41EB-B5C8-D6770AE76ED2}" />
+    <r ds="{9CD044F6-18F4-40D7-94C5-FC33E8EAE66D}" id="{2B57561F-B50D-47C8-8263-8EC90AB8D5E9}" par="Id=EditClientActionControl&amp;IsVisible=0" ph="DetailsViewColumnPanelBorder.Content" uid="{B16C1658-9BF2-4904-A3C0-BD54349994EB}" />
+    <r ds="{B9A5A2F5-DEA3-4F39-9BA9-218EB64472CA}" id="{78CA46D0-7325-4A3C-8574-1918916C4B7B}" par="Id=EditElementReplacerControl&amp;IsVisible=0" ph="DetailsViewColumnPanelBorder.Content" uid="{569BF860-1729-4F87-A74C-3C9C67471A58}" />
+    <r ds="{D06D1671-53DB-4756-B036-3A2F7D218B53}" id="{D5636E28-4C9C-4F2C-A5AA-6B06C6DD8FBE}" par="Id=EditPageMatcherControl&amp;IsVisible=0&amp;IsInExperienceEditorRendering=0" ph="DetailsViewColumnPanelBorder.Content" uid="{EBA9731B-7366-4A8A-9F08-AEF6D689FD24}" />
+  </d>
+</r>
+----version----
+language: da
+version: 1
+revision: 816cef92-801c-42cb-ab68-a3db4bb6eebe
+
+----field----
+field: {AEA872FB-AA91-4D1A-B877-3CA6FBBB4FD4}
+name: Header
+key: header
+content-length: 10
+
+Validering
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 14
+
+FXM-funktioner
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133324Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+816cef92-801c-42cb-ab68-a3db4bb6eebe
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133324Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: e80f4b11-888b-4c53-be5d-18ec44aac065
+
+----field----
+field: {AEA872FB-AA91-4D1A-B877-3CA6FBBB4FD4}
+name: Header
+key: header
+content-length: 24
+
+FXM Funktionen verwalten
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 24
+
+FXM Funktionen verwalten
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133450Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e80f4b11-888b-4c53-be5d-18ec44aac065
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133450Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 2dadcde3-3a22-43cb-a0fe-1f36800cc3d5
+
+----field----
+field: {AEA872FB-AA91-4D1A-B877-3CA6FBBB4FD4}
+name: Header
+key: header
+content-length: 20
+
+Manage FXM functions
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20140604T152044Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+2dadcde3-3a22-43cb-a0fe-1f36800cc3d5
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20151123T140838Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 72bcaaee-df2b-4809-b9a0-1f5437cee13f
+
+----field----
+field: {AEA872FB-AA91-4D1A-B877-3CA6FBBB4FD4}
+name: Header
+key: header
+content-length: 9
+
+FXM 機能の管理
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 9
+
+FXM 機能の管理
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133617Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+72bcaaee-df2b-4809-b9a0-1f5437cee13f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133617Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

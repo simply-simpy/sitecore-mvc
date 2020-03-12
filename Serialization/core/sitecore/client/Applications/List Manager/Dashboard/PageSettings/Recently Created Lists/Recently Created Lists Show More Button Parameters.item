@@ -1,0 +1,242 @@
+----item----
+version: 1
+id: {0C5A0EDC-90F1-429F-B8CD-381F0CC70B53}
+database: core
+path: /sitecore/client/Applications/List Manager/Dashboard/PageSettings/Recently Created Lists/Recently Created Lists Show More Button Parameters
+parent: {FB5565FD-5AF0-43B9-A3AD-6006965D16E9}
+name: Recently Created Lists Show More Button Parameters
+master: {00000000-0000-0000-0000-000000000000}
+template: {8A9F4991-322D-4FA3-B40B-41B1C715C34B}
+templatekey: Button Parameters
+created: 20160729T132117Z
+
+----version----
+language: da
+version: 1
+revision: 97563093-26e9-4430-a4db-c9b3266272ec
+
+----field----
+field: {99A761CF-5262-4D10-B53E-4CD9E79C232D}
+name: Text
+key: text
+content-length: 11
+
+Vis mere...
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 56
+
+Parametre for Vis mere-knap for senest oprettede lister.
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133316Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+97563093-26e9-4430-a4db-c9b3266272ec
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133316Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 8eb7cc12-33f3-4927-89d0-681ad4ac4466
+
+----field----
+field: {99A761CF-5262-4D10-B53E-4CD9E79C232D}
+name: Text
+key: text
+content-length: 14
+
+Mehr anzeigen…
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 56
+
+Kürzlich erstellte Listen Mehr Button Parameter anzeigen
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133441Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+8eb7cc12-33f3-4927-89d0-681ad4ac4466
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133441Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: e03227a6-6c83-4e0b-a532-6d3edb201da4
+
+----field----
+field: {99A761CF-5262-4D10-B53E-4CD9E79C232D}
+name: Text
+key: text
+content-length: 12
+
+Show more...
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140513T152602
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e03227a6-6c83-4e0b-a532-6d3edb201da4
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140513T152613:635355915732656921
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 2f1dad75-8c05-4048-969b-b7a365b11f2a
+
+----field----
+field: {99A761CF-5262-4D10-B53E-4CD9E79C232D}
+name: Text
+key: text
+content-length: 5
+
+その他..
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 26
+
+最近作成されたリストの詳細を表示ボタン パラメーター
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133608Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+2f1dad75-8c05-4048-969b-b7a365b11f2a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133608Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

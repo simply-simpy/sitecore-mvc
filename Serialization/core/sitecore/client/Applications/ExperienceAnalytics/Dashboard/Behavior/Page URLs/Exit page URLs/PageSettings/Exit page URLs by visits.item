@@ -1,0 +1,305 @@
+----item----
+version: 1
+id: {BD3905A3-3FDC-4F7D-9E37-8C0DA16BF88F}
+database: core
+path: /sitecore/client/Applications/ExperienceAnalytics/Dashboard/Behavior/Page URLs/Exit page URLs/PageSettings/Exit page URLs by visits
+parent: {4988985C-F541-4049-9F69-90F4893E8281}
+name: Exit page URLs by visits
+master: {00000000-0000-0000-0000-000000000000}
+template: {DAD532FA-6524-45CB-A57C-848CC34EB238}
+templatekey: ExperienceAnalyticsLineChart Parameters
+created: 20160729T132117Z
+
+----field----
+field: {6D0C0AB0-BC40-4BD0-8ACB-16612A180F14}
+name: IsVisible
+key: isvisible
+content-length: 1
+
+1
+----field----
+field: {7A078F89-9956-4F04-9006-EE085053DDF4}
+name: Metrics
+key: metrics
+content-length: 38
+
+{CC835378-DE1E-41E9-A603-2F7997C14157}
+----field----
+field: {D1184319-38CA-4D82-899D-64A76F8F7603}
+name: Segments
+key: segments
+content-length: 38
+
+{09A3529A-38BF-4A97-8657-E4A5FC05C7FA}
+----field----
+field: {7489900F-C46F-4D41-B704-1F96694A7190}
+name: KeysCount
+key: keyscount
+content-length: 1
+
+8
+----field----
+field: {13CF962B-9899-4421-8206-8BDC3BF117D1}
+name: KeysSortByMetric
+key: keyssortbymetric
+content-length: 38
+
+{CC835378-DE1E-41E9-A603-2F7997C14157}
+----field----
+field: {5D6BC769-813B-4D41-8A88-73DCA65D66B5}
+name: KeysSortDirection
+key: keyssortdirection
+content-length: 38
+
+{D54D6C57-A761-412F-BCE8-A2B181B443FF}
+----version----
+language: da
+version: 1
+revision: 4e6a99ba-c909-4be1-9cf2-3f360f27639f
+
+----field----
+field: {E17D3534-A424-47E3-8F2C-3DBBA705565F}
+name: Tooltip
+key: tooltip
+content-length: 40
+
+Webadresser for udgangssider efter besøg
+----field----
+field: {8C985BE6-4752-4134-BA85-F52055C8012E}
+name: Title
+key: title
+content-length: 40
+
+Webadresser for udgangssider efter besøg
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 40
+
+Webadresser for udgangssider efter besøg
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133344Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4e6a99ba-c909-4be1-9cf2-3f360f27639f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133344Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: de04ba14-0396-41ed-aa91-ef4a0eb1a29b
+
+----field----
+field: {E17D3534-A424-47E3-8F2C-3DBBA705565F}
+name: Tooltip
+key: tooltip
+content-length: 36
+
+Vorhandene Seiten-URLs nach Besuchen
+----field----
+field: {8C985BE6-4752-4134-BA85-F52055C8012E}
+name: Title
+key: title
+content-length: 36
+
+Vorhandene Seiten-URLs nach Besuchen
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 36
+
+Vorhandene Seiten-URLs nach Besuchen
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133515Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+de04ba14-0396-41ed-aa91-ef4a0eb1a29b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133515Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 55c64224-1691-44be-b340-6df86d172de0
+
+----field----
+field: {E17D3534-A424-47E3-8F2C-3DBBA705565F}
+name: Tooltip
+key: tooltip
+content-length: 24
+
+Exit page URLs by visits
+----field----
+field: {8C985BE6-4752-4134-BA85-F52055C8012E}
+name: Title
+key: title
+content-length: 24
+
+Exit page URLs by visits
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20141208T100421Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+55c64224-1691-44be-b340-6df86d172de0
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20141208T100447:635536298871053317Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 8f4905f0-44ac-4af9-8f8a-397bd779c882
+
+----field----
+field: {E17D3534-A424-47E3-8F2C-3DBBA705565F}
+name: Tooltip
+key: tooltip
+content-length: 13
+
+離脱ページ URLの訪問数
+----field----
+field: {8C985BE6-4752-4134-BA85-F52055C8012E}
+name: Title
+key: title
+content-length: 13
+
+離脱ページ URLの訪問数
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 13
+
+離脱ページ URLの訪問数
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133643Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+8f4905f0-44ac-4af9-8f8a-397bd779c882
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133643Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

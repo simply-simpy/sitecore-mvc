@@ -1,0 +1,270 @@
+----item----
+version: 1
+id: {2BE51640-C947-4742-9C9E-14952A4A10E5}
+database: core
+path: /sitecore/client/Applications/ExperienceAnalytics/Common/System/ChartFields/Metrics/Count per visit
+parent: {C0BABFB3-DEE6-4645-A657-B3ADF81D74AF}
+name: Count per visit
+master: {00000000-0000-0000-0000-000000000000}
+template: {ECD7D8B0-B6CE-4DEB-8994-A51674A03887}
+templatekey: ChartField
+created: 20160729T132117Z
+
+----field----
+field: {29B1C584-0F87-49A2-BE09-EA4FB0A0ABF1}
+name: DataField
+key: datafield
+content-length: 13
+
+avgVisitCount
+----field----
+field: {11E2EA30-AAB3-45A5-A279-21370B0F006C}
+name: MultiAxisChartPosition
+key: multiaxischartposition
+content-length: 4
+
+Left
+----field----
+field: {1349C42B-35A9-418F-BED5-693CF8913467}
+name: NumberScale
+key: numberscale
+content-length: 38
+
+{2E47DEBE-06C0-47D0-91B4-F1BF58F46348}
+----version----
+language: da
+version: 1
+revision: 23d9e1ab-afae-41ea-82bf-17256653cfee
+
+----field----
+field: {B4929234-6DCC-4ADB-827E-CDCDC128B8AF}
+name: HeaderText
+key: headertext
+content-length: 21
+
+"Optælling" pr. besøg
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 19
+
+Optælling pr. besøg
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133321Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+23d9e1ab-afae-41ea-82bf-17256653cfee
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133321Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: d3d11b52-280a-4b1b-b633-e5e7f4dcc23f
+
+----field----
+field: {B4929234-6DCC-4ADB-827E-CDCDC128B8AF}
+name: HeaderText
+key: headertext
+content-length: 19
+
+"Anzahl" pro Besuch
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 17
+
+Anzahl pro Besuch
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133447Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d3d11b52-280a-4b1b-b633-e5e7f4dcc23f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133447Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 766e0d99-c985-4b84-ac97-4be70dca9b28
+
+----field----
+field: {B4929234-6DCC-4ADB-827E-CDCDC128B8AF}
+name: HeaderText
+key: headertext
+content-length: 15
+
+Count per visit
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140603T105156
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+766e0d99-c985-4b84-ac97-4be70dca9b28
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150424T085738:635654626585781260Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: fa421062-6c23-441f-86a5-ec8d5a98beaf
+
+----field----
+field: {B4929234-6DCC-4ADB-827E-CDCDC128B8AF}
+name: HeaderText
+key: headertext
+content-length: 8
+
+訪問毎のカウント
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 8
+
+訪問毎のカウント
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133614Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+fa421062-6c23-441f-86a5-ec8d5a98beaf
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133614Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,242 @@
+----item----
+version: 1
+id: {D4B1E11C-BFC0-4B03-9168-6761823B8929}
+database: core
+path: /sitecore/client/Applications/FXM/System/Messages/PublishStatusError
+parent: {0A7E085C-7604-4693-B721-E3B92138ABCF}
+name: PublishStatusError
+master: {00000000-0000-0000-0000-000000000000}
+template: {27F53C6B-04A8-4413-8130-9415223597DC}
+templatekey: Error Message
+created: 20160729T132117Z
+
+----field----
+field: {2A471C94-914F-4724-9552-ED0AC2FD5423}
+name: IsClosable
+key: isclosable
+content-length: 1
+
+1
+----version----
+language: da
+version: 1
+revision: a75ede32-999f-4eb5-a54f-8605a99a2948
+
+----field----
+field: {D281BD0C-D3EF-4012-B560-5DAAF3FA37A8}
+name: Text
+key: text
+content-length: 36
+
+Kunne ikke validere udgivelsesstatus
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 18
+
+PublishStatusError
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133348Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a75ede32-999f-4eb5-a54f-8605a99a2948
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133348Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 10e99362-f1f4-4935-90b9-ca482d9823d1
+
+----field----
+field: {D281BD0C-D3EF-4012-B560-5DAAF3FA37A8}
+name: Text
+key: text
+content-length: 53
+
+Veröffentlichungsstatus konnte nicht validiert werden
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 27
+
+VeröffentlichenStatusFehler
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133520Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+10e99362-f1f4-4935-90b9-ca482d9823d1
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133520Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 9e8f5123-a802-4602-9a56-b80234e54f51
+
+----field----
+field: {D281BD0C-D3EF-4012-B560-5DAAF3FA37A8}
+name: Text
+key: text
+content-length: 33
+
+Could not validate publish status
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20140606T150657Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+9e8f5123-a802-4602-9a56-b80234e54f51
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20140801T075659:635424766194674161Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: bd865eda-1393-4c6c-b525-15d1085945a5
+
+----field----
+field: {D281BD0C-D3EF-4012-B560-5DAAF3FA37A8}
+name: Text
+key: text
+content-length: 23
+
+パブリッシュ ステータスを検証できませんでした
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 16
+
+パブリッシュ ステータス エラー
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133649Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+bd865eda-1393-4c6c-b525-15d1085945a5
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133649Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

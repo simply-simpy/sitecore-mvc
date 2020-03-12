@@ -1,0 +1,73 @@
+----item----
+version: 1
+id: {43EC421F-55E4-4838-AC06-568145BF215B}
+database: web
+path: /sitecore/templates/System/Social/Sharing/Facebook Share Button Parameters/__Standard Values
+parent: {3432EFBF-9E54-4C70-87AF-03288D3D97CE}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {3432EFBF-9E54-4C70-87AF-03288D3D97CE}
+templatekey: Facebook Share Button Parameters
+created: 20160729T132117Z
+
+----field----
+field: {3094D236-5985-4C4F-AE6A-E30740885532}
+name: Caching
+key: caching
+content-length: 15
+
+0|0|0|0|0|0|0|0
+----version----
+language: en
+version: 1
+revision: d52d4389-2fb9-4f05-b32d-b1c39b54acb6
+
+----field----
+field: {747F8F55-E617-4E3B-BD99-D0AC554B2940}
+name: Goal
+key: goal
+content-length: 38
+
+{FE65DCC7-4A2A-4C31-BCA9-3BC9F1630373}
+----field----
+field: {C60E2EBD-8870-4323-89D2-4B755C1CB108}
+name: Campaign
+key: campaign
+content-length: 38
+
+{F01366D9-2BAC-4C65-9A47-D8F66A56615D}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20120703T114143
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d52d4389-2fb9-4f05-b32d-b1c39b54acb6
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20120705T170333:634771046132454796
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,284 @@
+----item----
+version: 1
+id: {598EDA59-38F0-4859-89DC-37BC3E88D110}
+database: core
+path: /sitecore/client/Applications/List Manager/Global Settings/ListTaskPageSettings/List Source Accordion/List Source ActionControl Parameters/List Source ActionColumn/List Source ActionGroup/Add source
+parent: {B9469C72-265C-4AC4-9C8B-351338D59612}
+name: Add source
+master: {00000000-0000-0000-0000-000000000000}
+template: {5EE9A69B-BC29-452E-B2D0-AD421A04E7BF}
+templatekey: Action
+created: 20160729T132116Z
+
+----field----
+field: {549DA08F-8B0E-4A2F-9F1F-B35C474FE2A0}
+name: ImageUrl
+key: imageurl
+content-length: 37
+
+~/icon/Office/16x16/navigate_plus.png
+----field----
+field: {377BCA4B-8687-4A89-B0D7-CC56765AD81B}
+name: Click
+key: click
+content-length: 27
+
+trigger:taskpage:add:source
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 1
+
+0
+----version----
+language: da
+version: 1
+revision: 89560fd0-ec9f-45b0-9182-320a7cf59ae2
+
+----field----
+field: {443C0046-CEB9-432A-9DB0-CBC11787C786}
+name: Title
+key: title
+content-length: 12
+
+Tilføj kilde
+----field----
+field: {9384139B-2F73-4F0F-8650-0C7A1D4C6DDC}
+name: Tooltip
+key: tooltip
+content-length: 21
+
+Føj kilde til listen.
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 12
+
+Tilføj kilde
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133328Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+89560fd0-ec9f-45b0-9182-320a7cf59ae2
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133328Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 51a516ae-0c4a-405e-bbba-97e1ae9b5e0f
+
+----field----
+field: {443C0046-CEB9-432A-9DB0-CBC11787C786}
+name: Title
+key: title
+content-length: 17
+
+Quelle hinzufügen
+----field----
+field: {9384139B-2F73-4F0F-8650-0C7A1D4C6DDC}
+name: Tooltip
+key: tooltip
+content-length: 32
+
+Die Quelle der Liste hinzufügen.
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 17
+
+Quelle hinzufügen
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133456Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+51a516ae-0c4a-405e-bbba-97e1ae9b5e0f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133456Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: f2f3c674-022f-44ba-9ad0-2c0d15da6448
+
+----field----
+field: {443C0046-CEB9-432A-9DB0-CBC11787C786}
+name: Title
+key: title
+content-length: 10
+
+Add source
+----field----
+field: {9384139B-2F73-4F0F-8650-0C7A1D4C6DDC}
+name: Tooltip
+key: tooltip
+content-length: 23
+
+Add source to the list.
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140505T124844
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f2f3c674-022f-44ba-9ad0-2c0d15da6448
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20140812T071151:635434243117469047Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 4dc21c30-70bf-4d62-884e-eb87ad46cb4b
+
+----field----
+field: {443C0046-CEB9-432A-9DB0-CBC11787C786}
+name: Title
+key: title
+content-length: 6
+
+ソースを追加
+----field----
+field: {9384139B-2F73-4F0F-8650-0C7A1D4C6DDC}
+name: Tooltip
+key: tooltip
+content-length: 10
+
+ソースをリストに追加
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 6
+
+ソースを追加
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133622Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4dc21c30-70bf-4d62-884e-eb87ad46cb4b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133622Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

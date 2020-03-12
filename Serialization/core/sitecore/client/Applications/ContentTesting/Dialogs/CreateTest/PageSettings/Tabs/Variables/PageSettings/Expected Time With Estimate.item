@@ -1,0 +1,235 @@
+----item----
+version: 1
+id: {953B24B8-70E4-488F-9366-32C04BC3C004}
+database: core
+path: /sitecore/client/Applications/ContentTesting/Dialogs/CreateTest/PageSettings/Tabs/Variables/PageSettings/Expected Time With Estimate
+parent: {C5488873-9CB0-42F0-9168-832E9CC18346}
+name: Expected Time With Estimate
+master: {00000000-0000-0000-0000-000000000000}
+template: {89E58DDA-BCD8-406E-82A2-E459F4130CA8}
+templatekey: TextTemplate Parameters
+created: 20160729T132117Z
+
+----version----
+language: da
+version: 1
+revision: a527c3de-5cbb-4b0c-a842-889b2b736e61
+
+----field----
+field: {EE7FC573-596E-41DF-BE8D-2D343AC8E9A6}
+name: Text
+key: text
+content-length: 261
+
+På baggrund af historiske data har denne side <%= dailyVisists %> besøgende pr. dag, med en trafikfordeling på <%= trafficAllocation %>% og et konfidensniveau på <%= confidenceLevel %>% forventes testen at vare i <%= Math.max(duration, minimumDuration) %> dage.
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 25
+
+Forventet tid med estimat
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133338Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a527c3de-5cbb-4b0c-a842-889b2b736e61
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133338Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: af51b221-83b2-4bbb-9f29-8e4061e26954
+
+----field----
+field: {EE7FC573-596E-41DF-BE8D-2D343AC8E9A6}
+name: Text
+key: text
+content-length: 291
+
+Basierend auf vergangenen Daten, hat diese Seite < % = TäglicheBesuche %> Besucher pro Tag, mit einer Trafficverteilung von < % = Trafficverteilung % > % und einem Vertrauensniveau von < % = Vertrauensniveau % > % der Test dauert voraussichtlich < % = Math.max (Dauer, Mindestdauer) %> Tage.
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 29
+
+Erwartete Zeih ohne Schätzung
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133508Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+af51b221-83b2-4bbb-9f29-8e4061e26954
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133508Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: b12bfd05-ef00-46e9-97da-90e30eb7f459
+
+----field----
+field: {EE7FC573-596E-41DF-BE8D-2D343AC8E9A6}
+name: Text
+key: text
+content-length: 259
+
+Based on historical data this page has <%= dailyVisists %> visitors per day, with a traffic allocation of <%= trafficAllocation %>% and a confidence level of <%= confidenceLevel %>% the test is expected to last <%= Math.max(duration, minimumDuration) %> days.
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150422T031548Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b12bfd05-ef00-46e9-97da-90e30eb7f459
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150423T020734:635653516545285194Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 3bbfe6f9-a624-444c-a696-b4c2aea3fa9f
+
+----field----
+field: {EE7FC573-596E-41DF-BE8D-2D343AC8E9A6}
+name: Text
+key: text
+content-length: 162
+
+データ履歴によると、このページには 1 日あたり <%= dailyVisists %> 人の訪問者がいます。トラフィックは <%= trafficAllocation %>% 割り当てられ、信頼度は <%= confidenceLevel %>% です。テストは <%= duration %> 日間続くことが予測されます
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 12
+
+推測値を使用した推定時間
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133635Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3bbfe6f9-a624-444c-a696-b4c2aea3fa9f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133635Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

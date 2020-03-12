@@ -1,0 +1,291 @@
+----item----
+version: 1
+id: {4169FAAB-8576-4C64-8041-537B5D0B9934}
+database: core
+path: /sitecore/client/Applications/ContentTesting/Common/Layouts/Composite/Statistics/PageSettings/ToolTipParameters
+parent: {8425D467-9238-4839-9BA0-3300E97AE2BD}
+name: ToolTipParameters
+master: {00000000-0000-0000-0000-000000000000}
+template: {0F15C584-3F82-44EB-BDB7-53274363679D}
+templatekey: ToolTip Parameters
+created: 20160729T132117Z
+
+----field----
+field: {3F83CC97-EA69-4F91-BB73-3894B5E2FD02}
+name: Simple
+key: simple
+content-length: 1
+
+1
+----field----
+field: {3BA1FE61-F794-4E17-BEEF-F91857749728}
+name: ContainsHTML
+key: containshtml
+content-length: 0
+
+
+----version----
+language: da
+version: 1
+revision: 16b5ca53-a431-441d-8612-ca72c5f4a11e
+
+----field----
+field: {B4ABFEF0-9602-4687-87CE-94458DF7F5BB}
+name: Content
+key: content
+content-length: 165
+
+Angiv minimumgrænsen for den konfidens, som testen skal opnå, før resultatet betegnes som statistisk signifikant. En høj grænse kræver en længere varighed af testen.
+----field----
+field: {7B2398CA-EF99-4470-9385-2C916C2E6AD0}
+name: Title
+key: title
+content-length: 17
+
+ToolTipParameters
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 17
+
+ToolTipParameters
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133325Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+16b5ca53-a431-441d-8612-ca72c5f4a11e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133325Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 97d759f0-bb07-46e9-beb9-9e32d50e45e3
+
+----field----
+field: {B4ABFEF0-9602-4687-87CE-94458DF7F5BB}
+name: Content
+key: content
+content-length: 185
+
+Legen Sie die Mindestvertrauensschwelle fest, den der Test erreichen muss, bevor das statistisch relevante Ergebnis ausgegeben wird. Eine hohe Schwelle erfordert eine längere Testdauer.
+----field----
+field: {7B2398CA-EF99-4470-9385-2C916C2E6AD0}
+name: Title
+key: title
+content-length: 17
+
+ToolTippParameter
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 17
+
+ToolTippParameter
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133451Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+97d759f0-bb07-46e9-beb9-9e32d50e45e3
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133451Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: fb337b10-648d-49ec-bd2b-10edc4f0082a
+
+----field----
+field: {B4ABFEF0-9602-4687-87CE-94458DF7F5BB}
+name: Content
+key: content
+content-length: 148
+
+Set the minimum confidence level the test needs before it declares the result statistically significant. A high level requires longer test duration.
+----field----
+field: {7B2398CA-EF99-4470-9385-2C916C2E6AD0}
+name: Title
+key: title
+content-length: 17
+
+ToolTipParameters
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 17
+
+ToolTipParameters
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140331T151322
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+fb337b10-648d-49ec-bd2b-10edc4f0082a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150430T093514:635659833141745075Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 449a6da1-99ce-4bf2-aceb-49e9792c48c4
+
+----field----
+field: {B4ABFEF0-9602-4687-87CE-94458DF7F5BB}
+name: Content
+key: content
+content-length: 76
+
+テスト結果の統計情報を宣言する前に、テストで達成する必要がある最低限の確実なしきい値を設定します。しきい値を高く設定した場合、テスト期間が長くなります。
+----field----
+field: {7B2398CA-EF99-4470-9385-2C916C2E6AD0}
+name: Title
+key: title
+content-length: 13
+
+ツールチップ パラメーター
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 13
+
+ツールチップ パラメーター
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133618Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+449a6da1-99ce-4bf2-aceb-49e9792c48c4
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133618Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

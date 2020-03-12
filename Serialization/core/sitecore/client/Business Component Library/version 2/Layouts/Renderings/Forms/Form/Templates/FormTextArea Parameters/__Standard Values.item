@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {D9FEF846-3A44-493E-845C-A7CAB7976B26}
+database: core
+path: /sitecore/client/Business Component Library/version 2/Layouts/Renderings/Forms/Form/Templates/FormTextArea Parameters/__Standard Values
+parent: {04EE4321-B2DB-44F1-9E75-886CF3CE86ED}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {04EE4321-B2DB-44F1-9E75-886CF3CE86ED}
+templatekey: FormTextArea Parameters
+created: 20160729T132117Z
+
+----field----
+field: {3E079FC3-6B2D-41C9-9204-374A786FC761}
+name: BindingConfiguration
+key: bindingconfiguration
+content-length: 16
+
+%7bName%7d=Value
+----field----
+field: {C5217339-80D0-4725-9340-574EED8E9082}
+name: RenderingItemId
+key: renderingitemid
+content-length: 38
+
+{302B2B4F-C1C6-48C2-B27C-4F45B504CBA6}
+----version----
+language: en
+version: 1
+revision: a25ae3fb-220e-4ca8-8e6a-3540f523287c
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150610T075408Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a25ae3fb-220e-4ca8-8e6a-3540f523287c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20151109T121950Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

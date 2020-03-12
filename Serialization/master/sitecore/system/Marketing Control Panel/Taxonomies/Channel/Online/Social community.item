@@ -1,0 +1,256 @@
+----item----
+version: 1
+id: {B869646E-F584-412F-8DC4-FC613451CA19}
+database: master
+path: /sitecore/system/Marketing Control Panel/Taxonomies/Channel/Online/Social community
+parent: {D07286FA-67CE-4D66-8783-0140B8B91EF1}
+name: Social community
+master: {00000000-0000-0000-0000-000000000000}
+template: {3BA3D006-1648-4CC7-8D19-FFADFDC46D0F}
+templatekey: Channel group
+created: 20160729T132117Z
+
+----field----
+field: {8FB875EB-3AD3-44FF-87E1-998370CC3199}
+name: Code
+key: code
+content-length: 2
+
+91
+----field----
+field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
+name: __Workflow
+key: __workflow
+content-length: 0
+
+
+----version----
+language: da
+version: 1
+revision: ae9dbde7-d563-4eb6-a1d8-065eebd93c02
+
+----field----
+field: {8BDEE96A-E8F5-446A-A1D2-568C3018C98E}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{53C13607-D632-4354-8777-5ADF3E07BE92}" />
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 13
+
+Socialt medie
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133418Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ae9dbde7-d563-4eb6-a1d8-065eebd93c02
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133418Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 3f74150b-fe36-4989-b8b7-9d6c31af5716
+
+----field----
+field: {8BDEE96A-E8F5-446A-A1D2-568C3018C98E}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{53C13607-D632-4354-8777-5ADF3E07BE92}" />
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 16
+
+Social Community
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133549Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3f74150b-fe36-4989-b8b7-9d6c31af5716
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133549Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: da364e0e-caf7-44af-9152-0de7cab2c1b4
+
+----field----
+field: {8BDEE96A-E8F5-446A-A1D2-568C3018C98E}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{53C13607-D632-4354-8777-5ADF3E07BE92}" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20141115T101503Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+da364e0e-caf7-44af-9152-0de7cab2c1b4
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20150727T093708Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 0
+
+
+----version----
+language: ja-JP
+version: 1
+revision: cb459522-fe29-48a1-a6dd-35cab0350fc8
+
+----field----
+field: {8BDEE96A-E8F5-446A-A1D2-568C3018C98E}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{53C13607-D632-4354-8777-5ADF3E07BE92}" />
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 12
+
+ソーシャル コミュニティ
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133719Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+cb459522-fe29-48a1-a6dd-35cab0350fc8
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133719Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

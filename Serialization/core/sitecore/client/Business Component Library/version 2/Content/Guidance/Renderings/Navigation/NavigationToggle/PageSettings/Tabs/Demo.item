@@ -1,0 +1,275 @@
+----item----
+version: 1
+id: {0BD31CBE-F7BB-465C-8CDA-918DEA911CF6}
+database: core
+path: /sitecore/client/Business Component Library/version 2/Content/Guidance/Renderings/Navigation/NavigationToggle/PageSettings/Tabs/Demo
+parent: {80915F7D-E87B-45BB-9014-47B1D497322E}
+name: Demo
+master: {00000000-0000-0000-0000-000000000000}
+template: {8A7ACB1A-0990-4C9E-A6F0-9612D0F5F51C}
+templatekey: Tab
+created: 20160729T132116Z
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 804
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoPanel1&amp;Description=The+NavigationToggle+component+is+specifically+for+use+with+page+structures+that+have+navigation+panes.+The+component+collapses+the+navigation+pane+and+shows+a+button+instead+when+the+width+of+the+page+becomes+too+small.+This+happens+on+small+devices+and+when+users+resize+browser+windows+to+be+very+narrow.+Users+can+click+this+button+to+show+and+hide+the+navigation+pane+when+the+screen+is+small.&amp;Title=Showing+and+hiding+the+navigation+panel" uid="{8B9E3BF4-1E88-4A1D-8FE1-906626859748}" />
+    <r id="{1E1E272D-AC0C-4908-B86E-056F18C8DC99}" par="Id=NavigationToggle1" ph="DemoPanel1.Content" uid="{9480972F-07F3-44E9-B87C-60CEE1DA7D4A}" />
+  </d>
+</r>
+----version----
+language: da
+version: 1
+revision: b2df1ec3-b5e5-4379-82dd-81e8eaf8d7d2
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 4
+
+Demo
+----field----
+field: {772AEA8A-4D70-43F4-BD6B-EDE5FB060623}
+name: Tooltip
+key: tooltip
+content-length: 4
+
+Demo
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 4
+
+Demo
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133316Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b2df1ec3-b5e5-4379-82dd-81e8eaf8d7d2
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133316Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 7999dc20-d6cd-4dc8-bfcb-7eb2c082ac43
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 4
+
+Demo
+----field----
+field: {772AEA8A-4D70-43F4-BD6B-EDE5FB060623}
+name: Tooltip
+key: tooltip
+content-length: 4
+
+Demo
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 4
+
+Demo
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133441Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+7999dc20-d6cd-4dc8-bfcb-7eb2c082ac43
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133441Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 9b3f06c1-4f9b-4330-91cb-d39a1308350b
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 4
+
+Demo
+----field----
+field: {772AEA8A-4D70-43F4-BD6B-EDE5FB060623}
+name: Tooltip
+key: tooltip
+content-length: 4
+
+Demo
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150519T134340Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+9b3f06c1-4f9b-4330-91cb-d39a1308350b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160310T144746Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 3155825f-08cc-4eed-8bb4-1af7633b600d
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 2
+
+デモ
+----field----
+field: {772AEA8A-4D70-43F4-BD6B-EDE5FB060623}
+name: Tooltip
+key: tooltip
+content-length: 2
+
+デモ
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 2
+
+デモ
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133608Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3155825f-08cc-4eed-8bb4-1af7633b600d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133608Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,249 @@
+----item----
+version: 1
+id: {C962F4C5-90D5-4B63-8B71-F0013D0EE6E0}
+database: core
+path: /sitecore/client/Applications/Marketing/Utilities/DeployMarketingDefinition/PageSettings/Text-DeploymentError
+parent: {B1B8FBC6-1A1B-4771-8A11-EFA4A8AC6D18}
+name: Text-DeploymentError
+master: {00000000-0000-0000-0000-000000000000}
+template: {76F63DF7-0235-4164-86AB-84B5EC48CB2A}
+templatekey: Text
+created: 20160729T132117Z
+
+----version----
+language: da
+version: 1
+revision: 379cc916-b486-40b9-b1d9-a34cac25df2f
+
+----field----
+field: {B3F89D3B-FC37-4699-860E-DB8FB37323C1}
+name: Text
+key: text
+content-length: 96
+
+Der opstod en fejl under implementering af definitionen. Se Sitecore-logs for flere oplysninger.
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 24
+
+Tekst-ImplementeringFejl
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133346Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+379cc916-b486-40b9-b1d9-a34cac25df2f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133346Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: d3b63966-c0e0-4970-b7c9-a500723ab1c6
+
+----field----
+field: {B3F89D3B-FC37-4699-860E-DB8FB37323C1}
+name: Text
+key: text
+content-length: 121
+
+Beim Einsatz der Definition ist ein Fehler aufgetreten. Weitere Informationen finden Sie in den Protokollen von Sitecore.
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 18
+
+Test-Einsatzfehler
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133518Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d3b63966-c0e0-4970-b7c9-a500723ab1c6
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133518Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 9f6ed048-371b-4e2e-91de-0d7c0d61b158
+
+----field----
+field: {B3F89D3B-FC37-4699-860E-DB8FB37323C1}
+name: Text
+key: text
+content-length: 92
+
+There was an error deploying the definition. Consult the Sitecore logs for more information.
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20141203T043757Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+9f6ed048-371b-4e2e-91de-0d7c0d61b158
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20141203T043925:635531783652640604Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 6c7ea1d0-a1a0-41c5-a7ef-e50eb1fcd95a
+
+----field----
+field: {B3F89D3B-FC37-4699-860E-DB8FB37323C1}
+name: Text
+key: text
+content-length: 42
+
+定義の配置時にエラーが発生しました。詳細は Sitecore ログを確認してください
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 10
+
+テキスト-配置エラー
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133646Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+6c7ea1d0-a1a0-41c5-a7ef-e50eb1fcd95a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133646Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,249 @@
+----item----
+version: 1
+id: {C382775B-5B1A-4253-8241-D4B8D0DEA5C2}
+database: core
+path: /sitecore/client/Applications/ContentTesting/Common/Texts/Emails/ContentTestCompleteDecreasedValue
+parent: {656A5582-640D-4D07-980C-8A8720BF96A4}
+name: ContentTestCompleteDecreasedValue
+master: {00000000-0000-0000-0000-000000000000}
+template: {76F63DF7-0235-4164-86AB-84B5EC48CB2A}
+templatekey: Text
+created: 20160729T132117Z
+
+----version----
+language: da
+version: 1
+revision: 4a126539-1c78-4e78-bfd4-219034350348
+
+----field----
+field: {B3F89D3B-FC37-4699-860E-DB8FB37323C1}
+name: Text
+key: text
+content-length: 92
+
+Indholdstesten blev fuldført: Den nye version mindskede efterstillet værdi med $testPercent%
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 32
+
+IndholdTestFuldførtMindsketVærdi
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133345Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4a126539-1c78-4e78-bfd4-219034350348
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133345Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 3f46b055-0183-4bbe-ad97-d519120a7641
+
+----field----
+field: {B3F89D3B-FC37-4699-860E-DB8FB37323C1}
+name: Text
+key: text
+content-length: 85
+
+Inhaltstest vollständig: Neue Version hat den Schleppwert um $testPercent% verringert
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 37
+
+InhaltTestVollständigVerringerterWert
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133517Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3f46b055-0183-4bbe-ad97-d519120a7641
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133517Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 6c2e3fea-e627-432d-815e-b6205cf3d807
+
+----field----
+field: {B3F89D3B-FC37-4699-860E-DB8FB37323C1}
+name: Text
+key: text
+content-length: 77
+
+Content test completed: New version decreased trailing value by $testPercent%
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20140923T115621Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+6c2e3fea-e627-432d-815e-b6205cf3d807
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20150818T013748Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: ebf7f5ec-23c3-4649-a141-fb710e9b22a9
+
+----field----
+field: {B3F89D3B-FC37-4699-860E-DB8FB37323C1}
+name: Text
+key: text
+content-length: 50
+
+コンテンツ テストが完了しました：新しいバージョンは $testPercent% 追跡値減少しました
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 16
+
+コンテンツ テスト完了：値の減少
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133645Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ebf7f5ec-23c3-4649-a141-fb710e9b22a9
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133645Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

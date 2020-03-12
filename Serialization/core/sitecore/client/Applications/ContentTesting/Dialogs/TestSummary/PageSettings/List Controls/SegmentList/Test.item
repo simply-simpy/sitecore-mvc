@@ -1,0 +1,256 @@
+----item----
+version: 1
+id: {B67AEB5F-B35F-4041-9AED-F0882650D867}
+database: core
+path: /sitecore/client/Applications/ContentTesting/Dialogs/TestSummary/PageSettings/List Controls/SegmentList/Test
+parent: {A81FD583-6BCD-4DCC-867C-EBEFE0D00052}
+name: Test
+master: {00000000-0000-0000-0000-000000000000}
+template: {D3CEFE6E-E51B-4A84-B92E-AAF8AA8E8DC8}
+templatekey: ColumnField
+created: 20160729T132117Z
+
+----field----
+field: {35E827FF-BB6C-4ED6-B79F-C41750EA5D46}
+name: HTMLTemplate
+key: htmltemplate
+content-length: 39
+
+<input type="checkbox" id="tp_{{id}}"/>
+----version----
+language: da
+version: 1
+revision: 06981a4e-1506-4712-9adf-eacfbfd897e4
+
+----field----
+field: {2E9FD749-0F47-4397-8BA2-C56C65366BF0}
+name: HeaderText
+key: headertext
+content-length: 16
+
+Testforudsigelse
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 4
+
+Test
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133343Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+06981a4e-1506-4712-9adf-eacfbfd897e4
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133343Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 9a973c0f-2a8e-4f5e-af95-8e2bcb514624
+
+----field----
+field: {2E9FD749-0F47-4397-8BA2-C56C65366BF0}
+name: HeaderText
+key: headertext
+content-length: 14
+
+Testvorhersage
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 4
+
+Test
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133514Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+9a973c0f-2a8e-4f5e-af95-8e2bcb514624
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133514Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: c05e404c-487a-4caa-8c02-abd8fe25fb60
+
+----field----
+field: {2E9FD749-0F47-4397-8BA2-C56C65366BF0}
+name: HeaderText
+key: headertext
+content-length: 15
+
+Test prediction
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140815T123120
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c05e404c-487a-4caa-8c02-abd8fe25fb60
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140815T123216:635437027360797402
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 6e186ea2-a3a0-4879-91d9-b84417b950ef
+
+----field----
+field: {2E9FD749-0F47-4397-8BA2-C56C65366BF0}
+name: HeaderText
+key: headertext
+content-length: 5
+
+テスト予測
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 3
+
+テスト
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133642Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+6e186ea2-a3a0-4879-91d9-b84417b950ef
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133642Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

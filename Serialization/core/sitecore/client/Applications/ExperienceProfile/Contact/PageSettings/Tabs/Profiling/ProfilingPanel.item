@@ -1,0 +1,254 @@
+----item----
+version: 1
+id: {107970DE-5786-4730-8A80-7B772D4C2B88}
+database: core
+path: /sitecore/client/Applications/ExperienceProfile/Contact/PageSettings/Tabs/Profiling/ProfilingPanel
+parent: {C0CB88CA-A7AF-48BF-8833-E5694574C987}
+name: ProfilingPanel
+master: {00000000-0000-0000-0000-000000000000}
+template: {F62B4CD7-754C-4461-810F-2B6BD2C92A0D}
+templatekey: Tab
+created: 20160729T132117Z
+
+----field----
+field: {DEAB3795-056F-4421-ADF0-758844461B72}
+name: Placeholder Name
+key: placeholder name
+content-length: 14
+
+ProfilingPanel
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+500
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 5421
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{759BEFD1-3323-404D-A243-E0ED81163C03}">
+    <r id="{CB83D434-31ED-4AC3-A280-CCE2B63F9743}" par="PageCodeScriptFileName=%2fsitecore%2fshell%2fclient%2fApplications%2fExperienceProfile%2fContact%2fProfiling%2fProfiling.js" ph="Page.Body" uid="{7788DDB0-0E02-469D-A3E2-A6BD7C39A0BB}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=ProfilingTabBorder" ph="Page.Body" uid="{0A33EA4D-EACC-4BBD-8075-5DF5A2EB7F47}" />
+    <r id="{910155C7-3881-4A56-90FB-D126490EDE55}" par="Id=ProfilingTabMessageBar" ph="ProfilingTabBorder.Content" uid="{E35106B8-E586-4871-9611-AECF57A1546B}" />
+    <r id="{A549BF50-5566-461A-B279-F9A8F6F7DCC1}" par="Id=ProfilingDataRepeater&amp;ItemId=%7bF904A652-09B4-42C3-8E3A-BB482F030B7A%7d&amp;Database=core" ph="ProfilingTabBorder.Content" uid="{BE1F0482-7BFF-44A1-B59C-5211C31F124E}" />
+    <r ds="{88134D50-FA78-406D-8C52-8286EB12BB25}" id="{FE9723FC-56E4-4CA8-9C64-CB34F29462A5}" par="Id=ProfilingProgressIndicator&amp;IsBusy=%7bBinding+ProfilingDataProvider.IsBusy%7d&amp;TargetControl=ProfilingTabBorder" ph="ProfilingTabBorder.Content" uid="{02C1BBC7-5969-44A2-8D6D-7BB62D972316}" />
+    <r ds="{11A970BE-75C5-48D2-939A-93F5B4F4DE6C}" id="{442BD093-FBAD-4E36-BC08-489E16C82D08}" par="Id=NoProfilingDataAccordion&amp;IsVisible=%7bBinding+ProfilingDataProvider.HasNoData%7d&amp;IsCollapsible=0" ph="ProfilingTabBorder.Content" uid="{6445BD7A-8B88-467C-B4C2-D9A364527BE6}" />
+    <r id="{A91523CD-6E56-4F08-8B21-C39018E0134A}" par="Id=ProfilingDataProvider&amp;PageNumber=1&amp;PageSize=5" ph="ProfilingTabBorder.Content" uid="{57B842F0-7807-460A-B8C5-74AE15F0F2E3}" />
+    <r ds="{7FE4B60B-C65B-4801-901A-C27BC53FB939}" id="{913AB005-2527-4C2D-9827-FB3A8DFB135C}" par="Click=javascript%3aapp.ProfilingDataProvider.nextListData()&amp;Id=MoreProfilesButton&amp;Dimension=Large" ph="MoreProfilesBorder.Content" uid="{8668D7F5-284F-4CDE-9285-1231E06E9FB8}" />
+    <r id="{054CA6D7-125D-46D0-957C-D38A26190274}" par="Dimension=Normal&amp;Id=SmartPanelProfiling" ph="ProfilingTabBorder.Content" uid="{D9C344ED-720C-4B42-9D34-D9571E2185A2}" />
+    <r ds="{D148F19E-D926-48E2-8C78-F56654EFAC32}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=NoPatternCards&amp;IsVisible=%7bBinding+ProfilingDataProvider.HasNoData%7d" ph="SmartPanelProfiling.Content" uid="{328E9590-1248-453B-9F8A-D2AF78486005}" />
+    <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=SmartPanelHeaderText&amp;TextType=LargeValue" ph="SmartPanelProfiling.Header" uid="{0E6A8E69-7D17-4164-98AB-B626D68141ED}" />
+    <r id="{FE9723FC-56E4-4CA8-9C64-CB34F29462A5}" par="Id=ProgressIndicator&amp;IsBusy=%7bBinding+SmartPanelDataProvider.IsBusy%7d&amp;TargetControl=SmartPanelProfiling" ph="SmartPanelProfiling.Content" uid="{16068BAF-FA79-45A3-8864-FFB182454B8E}" />
+    <r id="{A549BF50-5566-461A-B279-F9A8F6F7DCC1}" par="Id=SmartPanelDataRepeater&amp;ItemId=%7b8248A3B2-BEEE-402F-9B30-31343945D207%7d&amp;Database=core" ph="SmartPanelProfiling.Content" uid="{9DFBEBA2-8BFC-4597-9A06-58B6ECBC9939}" />
+    <r id="{A91523CD-6E56-4F08-8B21-C39018E0134A}" par="Id=SmartPanelDataProvider&amp;PageNumber=1&amp;PageSize=10" ph="SmartPanelProfiling.Content" uid="{D2D520D1-19C4-40B8-A5CA-7CC6837BDBC4}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=MoreProfilesBorder&amp;IsVisible=%7bBinding+ProfilingDataProvider.HasMoreData%7d&amp;ContentAlignment=Center&amp;UsePadding=1" ph="ProfilingTabBorder.Content" uid="{A951F56F-AEE9-449A-9410-0494E680712F}" />
+    <r ds="{2277F866-A236-4B1F-A6DD-B58F80D6815A}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=NoProfilesFound&amp;IsVisible=False" ph="ProfilingTabBorder.Content" uid="{FE943D0C-A410-4DF1-A8D7-E1C1C9221EE8}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=CardsErrorBorder&amp;IsVisible=%7bBinding+SmartPanelDataProvider.hasError%7d&amp;UsePadding=1" ph="SmartPanelProfiling.Content" uid="{EA4FF791-30D4-4558-B33F-60F23DD4E505}" />
+    <r id="{F517C5E4-9A53-46C3-B922-5B44E6DAAA48}" par="Id=CardsErrorImage&amp;ImageUrl=%2fsitecore%2fshell%2fclient%2fApplications%2fExperienceProfile%2fCommon%2fimages%2ferror_red.png&amp;Width=16px&amp;Height=16px" ph="CardsErrorBorder.Content" uid="{E0425E5C-96C3-4E5F-AA34-E0036AFB230F}" />
+    <r ds="{2B5DE738-19C8-48D7-87E8-052A3498FBE9}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=CardsErrorHeader" ph="CardsErrorBorder.Content" uid="{3DB7917A-2EB6-4FED-8D1D-59A4C3D48038}" />
+    <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=CardsErrorText&amp;TextType=Label&amp;Text=%7bBinding+SmartPanelDataProvider.errorMessage%7d" ph="CardsErrorBorder.Content" uid="{77843299-393D-4A6B-92FE-9B4049110C81}" />
+    <r id="{F517C5E4-9A53-46C3-B922-5B44E6DAAA48}" par="Id=ProfilingPanleIndicatorImage&amp;IsVisible=%7bBinding+ProfilingDataProvider.IsBusy%7d&amp;Width=40px&amp;Height=40px" ph="ProfilingTabBorder.Content" uid="{AB94FCCC-9FAB-4B95-A2DE-8E692EC8A865}" />
+    <r ds="{0EE45078-0DE8-4AB8-900D-E934AF1214F0}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=NoProfilingDataText" ph="NoProfilingDataBorder.Content" uid="{49E55230-6640-4A98-89D3-164CA1BA99D0}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=NoProfilingDataBorder&amp;ContentAlignment=Center&amp;UsePadding=1" ph="NoProfilingDataAccordion.Body" uid="{F591E762-9741-4086-93EB-31E9A778BFCF}" />
+  </d>
+</r>
+----version----
+language: da
+version: 1
+revision: c5a4dfed-c2de-4f48-b90e-6c1b769f36f6
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 14
+
+ProfilingPanel
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133317Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c5a4dfed-c2de-4f48-b90e-6c1b769f36f6
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133317Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 45a181fc-f4b1-4e9a-bb3c-cecaf7f81685
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 14
+
+ProfilingPanel
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 34
+
+20140611T164251:635381017711932441
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+45a181fc-f4b1-4e9a-bb3c-cecaf7f81685
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133442Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 7d54730a-879f-40c8-91ce-b65720092353
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20131121T121351
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+7d54730a-879f-40c8-91ce-b65720092353
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20140721T111520:635415381206646774Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 621c0527-e06e-45e2-a22b-25c3948d6a92
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 12
+
+プロファイリング パネル
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133608Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+621c0527-e06e-45e2-a22b-25c3948d6a92
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133608Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

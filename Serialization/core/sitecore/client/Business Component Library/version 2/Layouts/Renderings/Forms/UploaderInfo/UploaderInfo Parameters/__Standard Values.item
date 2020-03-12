@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {B5FA531F-CC7D-4986-AC14-AAF530CD71DA}
+database: core
+path: /sitecore/client/Business Component Library/version 2/Layouts/Renderings/Forms/UploaderInfo/UploaderInfo Parameters/__Standard Values
+parent: {4A9304D3-DE85-4118-B169-5E3F17C99F4D}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {4A9304D3-DE85-4118-B169-5E3F17C99F4D}
+templatekey: UploaderInfo Parameters
+created: 20160729T132117Z
+
+----field----
+field: {640A5FEF-5EEF-412B-BAC8-8DFE71B17057}
+name: ShowNameField
+key: shownamefield
+content-length: 1
+
+1
+----field----
+field: {CD3914FE-EE8E-41BE-8EB8-4C9836064D77}
+name: ShowDescriptionField
+key: showdescriptionfield
+content-length: 1
+
+1
+----field----
+field: {058B16A8-9A4A-4B63-B8EC-600F2DEB3008}
+name: ShowAlternateTextField
+key: showalternatetextfield
+content-length: 1
+
+1
+----version----
+language: en
+version: 1
+revision: 5b6df26c-62fc-41ae-a90d-6ed7540726f0
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150427T113041Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5b6df26c-62fc-41ae-a90d-6ed7540726f0
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150624T155858:635707583389701051Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

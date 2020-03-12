@@ -1,0 +1,209 @@
+----item----
+version: 1
+id: {1CDBC05C-7CD2-473B-96C9-2297DC4A957D}
+database: core
+path: /sitecore/client/Business Component Library/version 2/Content/Guidance/Renderings/Forms/Form/PageSettings/Tabs/Galleries/Galleries/Tabs/Label to the left/FormComponentsLabelLeft/DatePicker
+parent: {4A73D0C9-9A87-4295-BA15-CBE323E6CA36}
+name: DatePicker
+master: {00000000-0000-0000-0000-000000000000}
+template: {102613B8-11DD-4502-B8B0-71FD5D1A500E}
+templatekey: FormDatePicker Parameters
+created: 20160729T132116Z
+
+----field----
+field: {88C88C86-F63D-4885-906E-5DC7A0C76C51}
+name: Date
+key: date
+content-length: 0
+
+
+----field----
+field: {E53DD72A-CC21-4771-A6B4-17762365E2B7}
+name: IsRequired
+key: isrequired
+content-length: 1
+
+1
+----version----
+language: de-DE
+version: 1
+revision: 497362f0-8851-461b-9620-cc1b93593334
+
+----field----
+field: {85F7FB0C-B383-4D91-B42E-90247EA49ACB}
+name: HelpText
+key: helptext
+content-length: 9
+
+Hilfstext
+----field----
+field: {3885A716-2EED-47AE-9132-32225F0458FF}
+name: FormLabel
+key: formlabel
+content-length: 12
+
+DatumsPicker
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 12
+
+DatumsPicker
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133444Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+497362f0-8851-461b-9620-cc1b93593334
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133444Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 308b004f-4c48-4714-8a29-f5b097ce7b36
+
+----field----
+field: {85F7FB0C-B383-4D91-B42E-90247EA49ACB}
+name: HelpText
+key: helptext
+content-length: 8
+
+HelpText
+----field----
+field: {3885A716-2EED-47AE-9132-32225F0458FF}
+name: FormLabel
+key: formlabel
+content-length: 10
+
+DatePicker
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151112T133128Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+308b004f-4c48-4714-8a29-f5b097ce7b36
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20151127T131226Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: ff275c7c-ca52-4fa7-896c-4828a2a0c911
+
+----field----
+field: {85F7FB0C-B383-4D91-B42E-90247EA49ACB}
+name: HelpText
+key: helptext
+content-length: 8
+
+ヘルプ テキスト
+----field----
+field: {3885A716-2EED-47AE-9132-32225F0458FF}
+name: FormLabel
+key: formlabel
+content-length: 5
+
+日付の選択
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 5
+
+日付の選択
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133611Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ff275c7c-ca52-4fa7-896c-4828a2a0c911
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133611Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

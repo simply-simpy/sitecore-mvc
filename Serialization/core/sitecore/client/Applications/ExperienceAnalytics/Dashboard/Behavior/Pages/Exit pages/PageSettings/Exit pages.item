@@ -1,0 +1,312 @@
+----item----
+version: 1
+id: {D4F61B8E-3409-478F-90CF-40A289E5C029}
+database: core
+path: /sitecore/client/Applications/ExperienceAnalytics/Dashboard/Behavior/Pages/Exit pages/PageSettings/Exit pages
+parent: {DDAEC6D1-CE8C-43A8-83CC-ACE829ECE76C}
+name: Exit pages
+master: {00000000-0000-0000-0000-000000000000}
+template: {A010B940-0C85-438B-890F-D79B7BC47FED}
+templatekey: ExperienceAnalyticsListControl Parameters
+created: 20160729T132117Z
+
+----field----
+field: {6D0C0AB0-BC40-4BD0-8ACB-16612A180F14}
+name: IsVisible
+key: isvisible
+content-length: 1
+
+1
+----field----
+field: {F29C2F09-1B91-487E-BB57-FA11D59FF8BC}
+name: TargetPage
+key: targetpage
+content-length: 38
+
+{5FE50958-C402-4BAD-83EB-4D8DE4BFF6E5}
+----field----
+field: {D1184319-38CA-4D82-899D-64A76F8F7603}
+name: Segments
+key: segments
+content-length: 38
+
+{36F0FF1F-6E9F-46C4-A103-4FD7EE553592}
+----field----
+field: {7489900F-C46F-4D41-B704-1F96694A7190}
+name: KeysCount
+key: keyscount
+content-length: 1
+
+8
+----field----
+field: {13CF962B-9899-4421-8206-8BDC3BF117D1}
+name: KeysSortByMetric
+key: keyssortbymetric
+content-length: 38
+
+{6F2040FC-BA97-47C9-BC8A-33220F3DC163}
+----field----
+field: {5D6BC769-813B-4D41-8A88-73DCA65D66B5}
+name: KeysSortDirection
+key: keyssortdirection
+content-length: 38
+
+{D54D6C57-A761-412F-BCE8-A2B181B443FF}
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+600
+----version----
+language: da
+version: 1
+revision: d56f248c-1501-4bce-8ca3-1ce708ac0da3
+
+----field----
+field: {1BE70B49-6B4C-4ECB-AF59-5BFFE2AC73D4}
+name: Title
+key: title
+content-length: 20
+
+Engagement-analytics
+----field----
+field: {E17D3534-A424-47E3-8F2C-3DBBA705565F}
+name: Tooltip
+key: tooltip
+content-length: 17
+
+Alle udgangssider
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 12
+
+Udgangssider
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133348Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d56f248c-1501-4bce-8ca3-1ce708ac0da3
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133348Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 682fc2dc-1d3e-431f-8e10-ccf393944138
+
+----field----
+field: {1BE70B49-6B4C-4ECB-AF59-5BFFE2AC73D4}
+name: Title
+key: title
+content-length: 18
+
+Sitecore Analytics
+----field----
+field: {E17D3534-A424-47E3-8F2C-3DBBA705565F}
+name: Tooltip
+key: tooltip
+content-length: 20
+
+Alle Ausstiegsseiten
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 62
+
+Ausstiegsseiten -  ExperienceAnalyticsListeSteuerung Parameter
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133520Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+682fc2dc-1d3e-431f-8e10-ccf393944138
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133520Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 1b06d7ca-58e0-4d98-ab41-6c83f2b7511f
+
+----field----
+field: {1BE70B49-6B4C-4ECB-AF59-5BFFE2AC73D4}
+name: Title
+key: title
+content-length: 0
+
+
+----field----
+field: {E17D3534-A424-47E3-8F2C-3DBBA705565F}
+name: Tooltip
+key: tooltip
+content-length: 14
+
+All exit pages
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20141009T082345Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+1b06d7ca-58e0-4d98-ab41-6c83f2b7511f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150522T135143:635678995036426258Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 3cbf8a74-3910-41e5-8efb-95e728b6ae74
+
+----field----
+field: {1BE70B49-6B4C-4ECB-AF59-5BFFE2AC73D4}
+name: Title
+key: title
+content-length: 16
+
+エクスペリエンス アナリティクス
+----field----
+field: {E17D3534-A424-47E3-8F2C-3DBBA705565F}
+name: Tooltip
+key: tooltip
+content-length: 9
+
+すべての離脱ページ
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 42
+
+離脱ページ - エクスペリエンス アナリティクスのリスト コントロール パラメーター
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133649Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3cbf8a74-3910-41e5-8efb-95e728b6ae74
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133649Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

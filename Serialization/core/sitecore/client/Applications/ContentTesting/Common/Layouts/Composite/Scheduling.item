@@ -1,0 +1,247 @@
+----item----
+version: 1
+id: {D9604B51-7F6E-4B35-A09D-9502BD4293DD}
+database: core
+path: /sitecore/client/Applications/ContentTesting/Common/Layouts/Composite/Scheduling
+parent: {F9D4F466-9353-448B-9AFE-96339C328864}
+name: Scheduling
+master: {00000000-0000-0000-0000-000000000000}
+template: {F62B4CD7-754C-4461-810F-2B6BD2C92A0D}
+templatekey: Tab
+created: 20160729T132117Z
+
+----field----
+field: {DEAB3795-056F-4421-ADF0-758844461B72}
+name: Placeholder Name
+key: placeholder name
+content-length: 10
+
+Scheduling
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 3359
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+    <r ds="{975E0D71-B3DD-453F-B880-E53D4C2C9E9F}" id="{D97873D4-FA6F-4E14-86E3-5E189F72C60D}" par="Id=SchedulingProtection&amp;UsePadding=0&amp;RequiresRead=1" uid="{ACD6D6C6-C582-46CA-A7B5-D5D6102228F2}" />
+    <r id="{8BE75D0B-EA4E-4FEE-976C-A5CCB5BE5011}" par="Settings=ContentTesting.MinimumDuration%2cContentTesting.MaximumContentTestDuration&amp;Id=SchedulingSettingsDictionary" ph="SchedulingProtection.Content" uid="{11B6C858-B486-4C5B-964F-771B69131EEC}" />
+    <r id="{094F4B1E-4FB9-43CC-AA34-88016DF56974}" par="Id=MaximumDurationDataSource&amp;RootItem=%7b91394658-F06D-4E06-8CC9-8270014FC8E2%7d&amp;Query=*&amp;Database=core" ph="SchedulingProtection.Content" uid="{F0C23DA7-58C3-4C5E-A18C-00EDCD73B0BE}" />
+    <r id="{094F4B1E-4FB9-43CC-AA34-88016DF56974}" par="Id=MinimumDurationDataSource&amp;RootItem=%7bC1B19C3E-1437-4D87-8EBF-808CDC6FB1D1%7d&amp;Query=*&amp;Database=core" ph="SchedulingProtection.Content" uid="{9649EDD2-5F33-46FA-9AC0-A7D32EA418C6}" />
+    <r ds="{B8EC9D43-1EF3-49BB-B955-F166D33718C0}" id="{442BD093-FBAD-4E36-BC08-489E16C82D08}" par="Id=SchedulingAccordion" ph="SchedulingProtection.Content" uid="{433F291F-1E2C-4763-9822-A35ADA345C87}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=SchedulingContentBorder&amp;UsePadding=1" ph="SchedulingAccordion.Body" uid="{FB509043-ADBD-4436-B892-5C5FEDD8C8D9}" />
+    <r id="{C4393722-39FA-4869-9582-3A8EB8983A0D}" par="UsePadding=1&amp;Id=MinimumRow" ph="SchedulingContentBorder.Content" uid="{2D001D5D-6D2E-4BB9-8D28-E580F4854BA6}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=MinimumLabelPanel&amp;GridColumns=2" ph="MinimumRow.Content" uid="{ED183993-4442-460A-9C87-53789AECBAD7}" />
+    <r ds="{D91AA405-FC34-43C1-8B00-EA87F84F7114}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=MinimumLabel" ph="MinimumLabelPanel.Content" uid="{70EBB137-9852-4DB6-9C8D-1A63FF48651D}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=MinimumPanel&amp;GridColumns=10" ph="MinimumRow.Content" uid="{94E54DF3-D5CD-443A-85B2-A2B8C059D7E5}" />
+    <r id="{25D357D3-3648-4336-9B53-55EED7CFA078}" par="Id=MinimumSelect&amp;DisplayFieldName=Title&amp;Items=%7bBinding+MinimumDurationDataSource.Items%7d&amp;ValueFieldName=Value" ph="MinimumPanel.Content" uid="{07558236-1585-4BDB-A92E-68C1DB16AD42}" />
+    <r id="{C4393722-39FA-4869-9582-3A8EB8983A0D}" par="UsePadding=1&amp;Id=MaximumRow" ph="SchedulingContentBorder.Content" uid="{CC0206C1-0817-4BCF-9BDB-360DC3556B66}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=MaximumLabelPanel&amp;GridColumns=2" ph="MaximumRow.Content" uid="{98568B84-7B6B-41C2-8463-728AEE0FB4AB}" />
+    <r ds="{C1D8D521-8267-471F-BDB8-1B05873F9808}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=MaximumLabel" ph="MaximumLabelPanel.Content" uid="{FEC74C2F-B68E-4A93-9DB4-30C09A8CE23E}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=MaximumPanel&amp;GridColumns=10" ph="MaximumRow.Content" uid="{46B5DF54-FADF-49D7-96DE-95E2486E6659}" />
+    <r id="{25D357D3-3648-4336-9B53-55EED7CFA078}" par="Id=MaximumSelect&amp;DisplayFieldName=Title&amp;Items=%7bBinding+MaximumDurationDataSource.Items%7d&amp;ValueFieldName=Value" ph="MaximumPanel.Content" uid="{6ECD4092-55F3-47E6-BCDC-1978E61B452D}" />
+  </d>
+</r>
+----version----
+language: da
+version: 1
+revision: e9a2fd77-d633-4b4a-a9da-12ceb3a13040
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 16
+
+Skemaplanlægning
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133349Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e9a2fd77-d633-4b4a-a9da-12ceb3a13040
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133349Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 50c53100-ec13-41fa-8425-e14b0d1141b5
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 13
+
+Terminplanung
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133521Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+50c53100-ec13-41fa-8425-e14b0d1141b5
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133521Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: edd4dff8-7b7d-4319-adf4-d1b3e391f811
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 0
+
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140710T151843
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+edd4dff8-7b7d-4319-adf4-d1b3e391f811
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150420T071131:635651106914517802Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 3ef5c1c9-2e75-4948-b759-cdbf3738af1f
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 8
+
+スケジューリング
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133650Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3ef5c1c9-2e75-4948-b759-cdbf3738af1f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133650Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

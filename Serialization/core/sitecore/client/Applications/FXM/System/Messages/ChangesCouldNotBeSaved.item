@@ -1,0 +1,242 @@
+----item----
+version: 1
+id: {0DF43741-4214-412D-8B44-CF5B3D1EC808}
+database: core
+path: /sitecore/client/Applications/FXM/System/Messages/ChangesCouldNotBeSaved
+parent: {0A7E085C-7604-4693-B721-E3B92138ABCF}
+name: ChangesCouldNotBeSaved
+master: {00000000-0000-0000-0000-000000000000}
+template: {27F53C6B-04A8-4413-8130-9415223597DC}
+templatekey: Error Message
+created: 20160729T132117Z
+
+----field----
+field: {2A471C94-914F-4724-9552-ED0AC2FD5423}
+name: IsClosable
+key: isclosable
+content-length: 1
+
+1
+----version----
+language: da
+version: 1
+revision: 7c6eff04-d542-4907-b25d-600b24a8c83e
+
+----field----
+field: {D281BD0C-D3EF-4012-B560-5DAAF3FA37A8}
+name: Text
+key: text
+content-length: 49
+
+Ændringerne Kunne ikke gemmes for det valgte Item
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 29
+
+Ændringerne Kunne ikke gemmes
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133316Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+7c6eff04-d542-4907-b25d-600b24a8c83e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133316Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 3a49f5c9-7130-4b8c-b337-3380a017b047
+
+----field----
+field: {D281BD0C-D3EF-4012-B560-5DAAF3FA37A8}
+name: Text
+key: text
+content-length: 73
+
+Für das ausgewählte Item konnten die Änderungen nicht gespeichert werden.
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 39
+
+ÄnderungenKonntenNichtGespeichertWerden
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133441Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3a49f5c9-7130-4b8c-b337-3380a017b047
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133441Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 8d6eced3-f9c3-4e00-96df-df9f6e7e2dfc
+
+----field----
+field: {D281BD0C-D3EF-4012-B560-5DAAF3FA37A8}
+name: Text
+key: text
+content-length: 49
+
+Changes could not be saved for the selected item.
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20141218T125112Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+8d6eced3-f9c3-4e00-96df-df9f6e7e2dfc
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20141218T125149:635545039096078222Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: da39ab62-d0f8-43cc-8115-95ffac797dac
+
+----field----
+field: {D281BD0C-D3EF-4012-B560-5DAAF3FA37A8}
+name: Text
+key: text
+content-length: 22
+
+選択したアイテムの変更を保存できませんでした
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 13
+
+変更を保存できませんでした
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133608Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+da39ab62-d0f8-43cc-8115-95ffac797dac
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133608Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

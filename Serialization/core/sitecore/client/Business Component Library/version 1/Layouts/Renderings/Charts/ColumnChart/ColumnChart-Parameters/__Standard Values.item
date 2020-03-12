@@ -1,0 +1,45 @@
+----item----
+version: 1
+id: {EADACE94-1213-4029-863C-B7A21BBD0B25}
+database: core
+path: /sitecore/client/Business Component Library/version 1/Layouts/Renderings/Charts/ColumnChart/ColumnChart-Parameters/__Standard Values
+parent: {F7E8E4CD-B509-4665-B5C2-E834F2FA3583}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {F7E8E4CD-B509-4665-B5C2-E834F2FA3583}
+templatekey: ColumnChart-Parameters
+created: 20160729T132116Z
+
+----version----
+language: en
+version: 1
+revision: 609f85db-4037-4cc6-a0eb-4e3c1b18b98e
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150812T114459Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+609f85db-4037-4cc6-a0eb-4e3c1b18b98e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160311T120944Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,298 @@
+----item----
+version: 1
+id: {D04638DD-023E-4AC4-B568-EB12A5B50A71}
+database: core
+path: /sitecore/client/Applications/ExperienceAnalytics/Dashboard/Audience/Overview/PageSettings/TopLanguagesByVisits
+parent: {6B697BC9-C4E9-44A0-A5AB-2176CBC7B864}
+name: TopLanguagesByVisits
+master: {00000000-0000-0000-0000-000000000000}
+template: {7329265E-7C8E-46CE-BD7A-E72A29F16A8E}
+templatekey: ExperienceAnalyticsPieChart Parameters
+created: 20160729T132117Z
+
+----field----
+field: {7E9E1C5C-9988-462E-94EC-B1549D1CD0E4}
+name: Metric
+key: metric
+content-length: 38
+
+{CC835378-DE1E-41E9-A603-2F7997C14157}
+----field----
+field: {DDB780F4-F045-477F-AA8A-5F596FFF490D}
+name: TargetPage
+key: targetpage
+content-length: 38
+
+{6F46E4DE-E465-41BB-92D3-FD44A371644F}
+----field----
+field: {D1184319-38CA-4D82-899D-64A76F8F7603}
+name: Segments
+key: segments
+content-length: 38
+
+{EA364D4D-B85C-4C07-88D1-51EDCAA1A160}
+----field----
+field: {7489900F-C46F-4D41-B704-1F96694A7190}
+name: KeysCount
+key: keyscount
+content-length: 1
+
+8
+----field----
+field: {5D6BC769-813B-4D41-8A88-73DCA65D66B5}
+name: KeysSortDirection
+key: keyssortdirection
+content-length: 38
+
+{D54D6C57-A761-412F-BCE8-A2B181B443FF}
+----version----
+language: da
+version: 1
+revision: bf5b8269-ded8-4ea4-b5d0-69915d1ae469
+
+----field----
+field: {E17D3534-A424-47E3-8F2C-3DBBA705565F}
+name: Tooltip
+key: tooltip
+content-length: 27
+
+De bedste sprog efter besøg
+----field----
+field: {8C985BE6-4752-4134-BA85-F52055C8012E}
+name: Title
+key: title
+content-length: 27
+
+De bedste sprog efter besøg
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 21
+
+BedsteSprogEfterBesøg
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133347Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+bf5b8269-ded8-4ea4-b5d0-69915d1ae469
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133347Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 5553854b-7fad-452d-be55-e18c76a01617
+
+----field----
+field: {E17D3534-A424-47E3-8F2C-3DBBA705565F}
+name: Tooltip
+key: tooltip
+content-length: 26
+
+Top Sprachen nach Besuchen
+----field----
+field: {8C985BE6-4752-4134-BA85-F52055C8012E}
+name: Title
+key: title
+content-length: 26
+
+Top Sprachen nach Besuchen
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 23
+
+TopSprachenNachBesuchen
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133519Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5553854b-7fad-452d-be55-e18c76a01617
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133519Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: c06564a3-77c8-4544-9235-e7a0afadb712
+
+----field----
+field: {E17D3534-A424-47E3-8F2C-3DBBA705565F}
+name: Tooltip
+key: tooltip
+content-length: 23
+
+Top languages by visits
+----field----
+field: {8C985BE6-4752-4134-BA85-F52055C8012E}
+name: Title
+key: title
+content-length: 23
+
+Top languages by visits
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150722T082321Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c06564a3-77c8-4544-9235-e7a0afadb712
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150722T082454:635731502940325213Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: fb2e968c-d92f-4e98-a5e9-8aa0e55c35a8
+
+----field----
+field: {E17D3534-A424-47E3-8F2C-3DBBA705565F}
+name: Tooltip
+key: tooltip
+content-length: 8
+
+訪問数の多い言語
+----field----
+field: {8C985BE6-4752-4134-BA85-F52055C8012E}
+name: Title
+key: title
+content-length: 8
+
+訪問数の多い言語
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 8
+
+訪問別の上位言語
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133648Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+fb2e968c-d92f-4e98-a5e9-8aa0e55c35a8
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133648Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

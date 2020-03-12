@@ -1,0 +1,277 @@
+----item----
+version: 1
+id: {75832DC6-4883-4AB8-B994-5223238561C1}
+database: core
+path: /sitecore/client/Applications/Launchpad/PageSettings/Tiles/Figure2
+parent: {54C55A0C-D46D-4287-8643-D51ACA584084}
+name: Figure2
+master: {00000000-0000-0000-0000-000000000000}
+template: {3B8662FC-2516-4EAD-B262-BB94B261E932}
+templatekey: LaunchPad-Tile
+created: 20160729T132117Z
+
+----version----
+language: da
+version: 1
+revision: 0c0632ae-4186-4d1e-8130-7a77c6c9b028
+
+----field----
+field: {38C7D191-9DCD-4D5E-9508-A077718774A2}
+name: DisplayName
+key: displayname
+content-length: 14
+
+Værdi og besøg
+----field----
+field: {AE54D761-334D-42C4-993C-2BC9A3079D64}
+name: Text
+key: text
+content-length: 87
+
+<img src="/sitecore/shell/client/Applications/LaunchPad/Assets/Value-and-visits.png" />
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 7
+
+Figure2
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133333Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+0c0632ae-4186-4d1e-8130-7a77c6c9b028
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133333Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 47364ac8-f287-41e5-a811-e4f07ab8b32a
+
+----field----
+field: {38C7D191-9DCD-4D5E-9508-A077718774A2}
+name: DisplayName
+key: displayname
+content-length: 16
+
+Wert und Besuche
+----field----
+field: {AE54D761-334D-42C4-993C-2BC9A3079D64}
+name: Text
+key: text
+content-length: 87
+
+<img src="/sitecore/shell/client/Applications/LaunchPad/Assets/Value-and-visits.png" />
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 10
+
+Abbildung2
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133501Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+47364ac8-f287-41e5-a811-e4f07ab8b32a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133501Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 49d4171f-958e-48d8-9ffe-478b3b8f2cef
+
+----field----
+field: {38C7D191-9DCD-4D5E-9508-A077718774A2}
+name: DisplayName
+key: displayname
+content-length: 16
+
+Value and Visits
+----field----
+field: {AE54D761-334D-42C4-993C-2BC9A3079D64}
+name: Text
+key: text
+content-length: 87
+
+<img src="/sitecore/shell/client/Applications/LaunchPad/Assets/Value-and-visits.png" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140619T114953
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+49d4171f-958e-48d8-9ffe-478b3b8f2cef
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20140827T082652:635447248125350847Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 31015333-e84c-42be-853f-aaa03b3d1f60
+
+----field----
+field: {38C7D191-9DCD-4D5E-9508-A077718774A2}
+name: DisplayName
+key: displayname
+content-length: 7
+
+バリューと訪問
+----field----
+field: {AE54D761-334D-42C4-993C-2BC9A3079D64}
+name: Text
+key: text
+content-length: 87
+
+<img src="/sitecore/shell/client/Applications/LaunchPad/Assets/Value-and-visits.png" />
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 3
+
+図 2
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133629Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+31015333-e84c-42be-853f-aaa03b3d1f60
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133629Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

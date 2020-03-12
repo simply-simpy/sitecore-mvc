@@ -1,0 +1,256 @@
+----item----
+version: 1
+id: {9BE19086-0C22-4E15-8C91-E51ECDE91937}
+database: core
+path: /sitecore/client/Applications/ExperienceAnalytics/Dashboard/Audience/Locations/Regions/Region/City/PageSettings/Cities in region - ExperienceAnalyticsListControl Parameters
+parent: {A0E9CF63-B78E-4750-A733-13474EC3B085}
+name: Cities in region - ExperienceAnalyticsListControl Parameters
+master: {00000000-0000-0000-0000-000000000000}
+template: {A010B940-0C85-438B-890F-D79B7BC47FED}
+templatekey: ExperienceAnalyticsListControl Parameters
+created: 20160729T132116Z
+
+----field----
+field: {F29C2F09-1B91-487E-BB57-FA11D59FF8BC}
+name: TargetPage
+key: targetpage
+content-length: 38
+
+{100CC384-B53E-4036-B733-F2C2F9D0737F}
+----field----
+field: {D1184319-38CA-4D82-899D-64A76F8F7603}
+name: Segments
+key: segments
+content-length: 38
+
+{6DE11049-4E31-4242-9601-CD53D023F95F}
+----field----
+field: {5B3AC62D-EEDB-4F89-A311-EF958BBDB762}
+name: DrilldownOption
+key: drilldownoption
+content-length: 38
+
+{00BDDE0C-FF01-4450-AAFD-10C260DAFC1B}
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+700
+----version----
+language: da
+version: 1
+revision: 92a4791a-b1a1-48f7-af02-88aa282c22f2
+
+----field----
+field: {1BE70B49-6B4C-4ECB-AF59-5BFFE2AC73D4}
+name: Title
+key: title
+content-length: 60
+
+Byer i region – parametre for ExperienceAnalyticsListControl
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 60
+
+Byer i region – parametre for ExperienceAnalyticsListControl
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133339Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+92a4791a-b1a1-48f7-af02-88aa282c22f2
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133339Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 9bd07abc-3d6a-42f7-b826-d1c853410d63
+
+----field----
+field: {1BE70B49-6B4C-4ECB-AF59-5BFFE2AC73D4}
+name: Title
+key: title
+content-length: 62
+
+Städte in Region - ExperienceAnalyticsListeSteuerung Parameter
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 62
+
+Städte in Region - ExperienceAnalyticsListeSteuerung Parameter
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133509Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+9bd07abc-3d6a-42f7-b826-d1c853410d63
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133509Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 93255ebe-62ab-4453-86e6-9d6ea77ef166
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20141006T095356Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+93255ebe-62ab-4453-86e6-9d6ea77ef166
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20141106T102522:635508663226797373Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 15d0a39c-e578-4d25-a52f-2c210abe2447
+
+----field----
+field: {1BE70B49-6B4C-4ECB-AF59-5BFFE2AC73D4}
+name: Title
+key: title
+content-length: 45
+
+都道府県の市街区 - エクスペリエンス アナリティクスのリスト コントロール パラメーター
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 45
+
+都道府県の市街区 - エクスペリエンス アナリティクスのリスト コントロール パラメーター
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133636Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+15d0a39c-e578-4d25-a52f-2c210abe2447
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133636Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

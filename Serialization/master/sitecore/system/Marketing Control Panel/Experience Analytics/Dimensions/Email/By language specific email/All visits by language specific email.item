@@ -1,0 +1,263 @@
+----item----
+version: 1
+id: {24CF37B4-B556-4D49-9248-23746597954E}
+database: master
+path: /sitecore/system/Marketing Control Panel/Experience Analytics/Dimensions/Email/By language specific email/All visits by language specific email
+parent: {214E8E8C-519A-4803-8579-3CA466F9F29F}
+name: All visits by language specific email
+master: {00000000-0000-0000-0000-000000000000}
+template: {A87EE256-044E-450D-A73C-9A464AA773EF}
+templatekey: Segment
+created: 20160729T132117Z
+
+----field----
+field: {39C4902E-9960-4469-AEEF-E878E9C8218F}
+name: __Hidden
+key: __hidden
+content-length: 1
+
+1
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 0
+
+
+----field----
+field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
+name: __Workflow
+key: __workflow
+content-length: 38
+
+{933DFBF3-3D97-4FF7-9F5E-74579BD1A219}
+----version----
+language: da
+version: 1
+revision: 67a29018-90e6-46c8-a516-354c067543c9
+
+----field----
+field: {9B0413DA-641E-46D9-8A2A-D8598479952C}
+name: Name
+key: name
+content-length: 35
+
+Alle besøg efter sprogspecifik mail
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 35
+
+Alle besøg efter sprogspecifik mail
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133409Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+67a29018-90e6-46c8-a516-354c067543c9
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133409Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: f29e021d-152d-4729-8f07-d9aca871af17
+
+----field----
+field: {9B0413DA-641E-46D9-8A2A-D8598479952C}
+name: Name
+key: name
+content-length: 42
+
+Alle Besuche nach sprachspezifischer Email
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 42
+
+Alle Besuche nach sprachspezifischer Email
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133539Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f29e021d-152d-4729-8f07-d9aca871af17
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133539Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: c8821d2c-d748-4e96-860b-edd3d2cd7f88
+
+----field----
+field: {9B0413DA-641E-46D9-8A2A-D8598479952C}
+name: Name
+key: name
+content-length: 37
+
+All visits by language specific email
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20141117T144447Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c8821d2c-d748-4e96-860b-edd3d2cd7f88
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160201T085136Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 38
+
+{3C70E8B1-D6D2-42CC-8E21-1AE8EC72A0FB}
+----version----
+language: ja-JP
+version: 1
+revision: 4d5341ba-3e27-470a-bc62-4fb350d0e3f3
+
+----field----
+field: {9B0413DA-641E-46D9-8A2A-D8598479952C}
+name: Name
+key: name
+content-length: 18
+
+言語固有の電子メール別のすべての訪問
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 18
+
+言語固有の電子メール別のすべての訪問
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133708Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4d5341ba-3e27-470a-bc62-4fb350d0e3f3
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133708Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

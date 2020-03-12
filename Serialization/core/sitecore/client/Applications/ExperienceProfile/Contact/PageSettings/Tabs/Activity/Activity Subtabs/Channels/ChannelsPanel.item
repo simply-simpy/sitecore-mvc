@@ -1,0 +1,245 @@
+----item----
+version: 1
+id: {2849054F-5345-4575-A785-CB6A1DBC8768}
+database: core
+path: /sitecore/client/Applications/ExperienceProfile/Contact/PageSettings/Tabs/Activity/Activity Subtabs/Channels/ChannelsPanel
+parent: {3B94589C-E79F-4B26-A6AD-403B381DDB9B}
+name: ChannelsPanel
+master: {00000000-0000-0000-0000-000000000000}
+template: {F62B4CD7-754C-4461-810F-2B6BD2C92A0D}
+templatekey: Tab
+created: 20160729T132117Z
+
+----field----
+field: {DEAB3795-056F-4421-ADF0-758844461B72}
+name: Placeholder Name
+key: placeholder name
+content-length: 13
+
+ChannelsPanel
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+400
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 5515
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{759BEFD1-3323-404D-A243-E0ED81163C03}">
+    <r id="{CB83D434-31ED-4AC3-A280-CCE2B63F9743}" par="PageCodeScriptFileName=%2fsitecore%2fshell%2fclient%2fApplications%2fExperienceProfile%2fContact%2fChannels%2fChannels.js" ph="Page.Body" uid="{073E0D8B-E05D-4552-8F9D-CE97594B8C70}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=ChannelTabBorder" ph="Page.Body" uid="{0A33EA4D-EACC-4BBD-8075-5DF5A2EB7F47}" />
+    <r id="{910155C7-3881-4A56-90FB-D126490EDE55}" par="Id=ChannelTabMessageBar" ph="ChannelTabBorder.Content" uid="{5BFB64F0-475B-43FF-B811-07B7D5A198D5}" />
+    <r ds="{C6EFE395-6D5A-4427-941F-62CF979D6817}" id="{442BD093-FBAD-4E36-BC08-489E16C82D08}" par="Id=DistributionEdvancedExpander&amp;IsCollapsible=0" ph="ChannelTabBorder.Content" uid="{36B0E5DE-7138-47A0-B426-36733DA22D6B}" />
+    <r ds="{88134D50-FA78-406D-8C52-8286EB12BB25}" id="{FE9723FC-56E4-4CA8-9C64-CB34F29462A5}" par="Id=InteractionDistributionProgressIndicator1&amp;IsBusy=%7bBinding+InteractionDistributionDataProvider.IsBusy%7d&amp;TargetControl=InteractionDistributionChart" ph="DistributionEdvancedExpander.Body" uid="{7CDFC095-C9E3-4E45-A711-5D7EAA9739F9}" />
+    <r ds="{88134D50-FA78-406D-8C52-8286EB12BB25}" id="{FE9723FC-56E4-4CA8-9C64-CB34F29462A5}" par="Id=GoalDistributionProgressIndicator&amp;IsBusy=%7bBinding+GoalDistributionDataProvider.IsBusy%7d&amp;TargetControl=GoalDistributionChart" ph="DistributionEdvancedExpander.Body" uid="{7CDFC095-C9E3-4E45-A711-5D7EAA9739F9}" />
+    <r ds="{6CD06869-4264-420C-A161-3220DD3AB7BA}" id="{A91523CD-6E56-4F08-8B21-C39018E0134A}" par="Id=InteractionDistributionDataProvider" ph="DistributionEdvancedExpander.Body" uid="{E6641AAB-AFE0-4B60-88F8-60FDBD5E1ED6}" />
+    <r ds="{6CD06869-4264-420C-A161-3220DD3AB7BA}" id="{A91523CD-6E56-4F08-8B21-C39018E0134A}" par="Id=GoalDistributionDataProvider" ph="DistributionEdvancedExpander.Body" uid="{E6641AAB-AFE0-4B60-88F8-60FDBD5E1ED6}" />
+    <r id="{C4393722-39FA-4869-9582-3A8EB8983A0D}" par="Id=ChannelRowPanel" ph="DistributionEdvancedExpander.Body" uid="{06654D59-6556-4BF8-94AE-6E7ECB79A481}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=InteractionDistributionColumnPanel&amp;GridColumns=6&amp;ContentAlign=Center" ph="ChannelRowPanel.Content" uid="{D812B32A-0F45-429F-AEC4-7042FD43596F}" />
+    <r ds="{EC3B7914-CFBF-4637-A308-138D3F9757B4}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=InteractionDistributionText&amp;TextType=LargeLabel" ph="InteractionDistributionColumnPanel.Content" uid="{B7E6306D-7BD0-4F6C-A1F0-CDE92C7F462B}" />
+    <r id="{45F8355B-3FDC-437A-94CD-85112E57390F}" par="Id=InteractionDistributionChart&amp;SingleChartWidth=300&amp;ShowLegend=True&amp;CategoryChartField=%7b57604220-9DC5-4C2D-B08D-C3766774B2F9%7d&amp;ValueChartFields=%7bEE0E3118-0D43-4716-8F67-FC3DED1FA107%7d&amp;Data=%7bBinding+InteractionDistributionDataProvider.Data%7d&amp;SingleChartHeight=300" ph="InteractionDistributionColumnPanel.Content" uid="{23502906-E00C-4509-AEAD-FDB9FF1C842A}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=GoalDistributionColumnPanel&amp;GridColumns=6&amp;ContentAlign=Center" ph="ChannelRowPanel.Content" uid="{D812B32A-0F45-429F-AEC4-7042FD43596F}" />
+    <r ds="{D30B260F-919C-4076-8434-1E668264B9A7}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=GoalDistributionText&amp;TextType=LargeLabel" ph="GoalDistributionColumnPanel.Content" uid="{B7E6306D-7BD0-4F6C-A1F0-CDE92C7F462B}" />
+    <r id="{45F8355B-3FDC-437A-94CD-85112E57390F}" par="Id=GoalDistributionChart&amp;SingleChartWidth=300&amp;ShowLegend=True&amp;CategoryChartField=%7b57604220-9DC5-4C2D-B08D-C3766774B2F9%7d&amp;ValueChartFields=%7bEE0E3118-0D43-4716-8F67-FC3DED1FA107%7d&amp;Data=%7bBinding+GoalDistributionDataProvider.Data%7d&amp;SingleChartHeight=300" ph="GoalDistributionColumnPanel.Content" uid="{23502906-E00C-4509-AEAD-FDB9FF1C842A}" />
+    <r ds="{232E70A0-8FF8-4F38-A0CB-D1AA99272475}" id="{442BD093-FBAD-4E36-BC08-489E16C82D08}" par="Id=SummaryEdvancedExpander&amp;IsCollapsible=0" ph="ChannelTabBorder.Content" uid="{36B0E5DE-7138-47A0-B426-36733DA22D6B}" />
+    <r ds="{88134D50-FA78-406D-8C52-8286EB12BB25}" id="{FE9723FC-56E4-4CA8-9C64-CB34F29462A5}" par="Id=SummaryIndicatorInternalList&amp;IsBusy=%7bBinding+SummaryDataProvider.IsBusy%7d&amp;TargetControl=SummaryListControl" ph="SummaryEdvancedExpander.Body" uid="{7CDFC095-C9E3-4E45-A711-5D7EAA9739F9}" />
+    <r ds="{6CD06869-4264-420C-A161-3220DD3AB7BA}" id="{A91523CD-6E56-4F08-8B21-C39018E0134A}" par="Id=SummaryDataProvider" ph="SummaryEdvancedExpander.Body" uid="{E6641AAB-AFE0-4B60-88F8-60FDBD5E1ED6}" />
+    <r ds="{AC0B8D4C-F3F9-4D40-A61A-A378B0A260EC}" id="{ACE0AFD6-3DE0-42CF-8E62-4E68CD810A8D}" par="Id=SummaryListControl&amp;Items=%7bBinding+SummaryDataProvider.cidata%7d" ph="SummaryEdvancedExpander.Body" uid="{5CCC2DA5-46D1-4852-B008-77A22931F453}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=MoreEventsBorder&amp;IsVisible=%7bBinding+SummaryDataProvider.HasMoreData%7d&amp;ContentAlignment=Center&amp;UsePadding=1" ph="SummaryEdvancedExpander.Body" uid="{A951F56F-AEE9-449A-9410-0494E680712F}" />
+    <r ds="{7FE4B60B-C65B-4801-901A-C27BC53FB939}" id="{913AB005-2527-4C2D-9827-FB3A8DFB135C}" par="Click=javascript%3aapp.SummaryDataProvider.nextListData()&amp;Id=MoreEventsButton&amp;Dimension=Large" ph="MoreEventsBorder.Content" uid="{D8549A22-909E-4329-956E-254D87FEB0D2}" />
+  </d>
+</r>
+----version----
+language: da
+version: 1
+revision: 763b2024-9c3d-4185-b3da-ee03cd0f53e4
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 13
+
+ChannelsPanel
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133321Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+763b2024-9c3d-4185-b3da-ee03cd0f53e4
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133321Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: a111c3ad-3139-4dfd-8ef2-a0746ec45332
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 11
+
+KanälePanel
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 34
+
+20140611T164454:635381018941031223
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a111c3ad-3139-4dfd-8ef2-a0746ec45332
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133446Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 90f002eb-9f22-4356-84e1-3782aeb94f1b
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20131121T121351
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+90f002eb-9f22-4356-84e1-3782aeb94f1b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20140806T084013:635429112133325636Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 39d20401-b6cb-47b3-85b0-caef02a72faf
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 8
+
+チャネル パネル
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133613Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+39d20401-b6cb-47b3-85b0-caef02a72faf
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133613Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

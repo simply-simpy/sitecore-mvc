@@ -1,0 +1,249 @@
+----item----
+version: 1
+id: {5B68D304-925B-40C1-9514-4DC169FD59F3}
+database: core
+path: /sitecore/client/Applications/ContentTesting/Common/Layouts/Composite/SelectPagesToTest/PageSettings/AddPageParameters
+parent: {23376337-6A93-46E7-B0B9-CED33150ED07}
+name: AddPageParameters
+master: {00000000-0000-0000-0000-000000000000}
+template: {6B2C1723-B4E0-49BE-8EF2-F1D12C969E54}
+templatekey: HyperlinkButton Parameters
+created: 20160729T132117Z
+
+----field----
+field: {9F2E12C5-F236-441D-AE2F-1DF11A343D81}
+name: Click
+key: click
+content-length: 35
+
+javascript:app.AddPageDialog.show()
+----version----
+language: da
+version: 1
+revision: db110996-80db-47f9-b595-6f3bff510a6a
+
+----field----
+field: {368E1AB6-8708-4F58-AF08-7DAA53A5BF32}
+name: Text
+key: text
+content-length: 6
+
+tilføj
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 17
+
+AddPageParameters
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133329Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+db110996-80db-47f9-b595-6f3bff510a6a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133329Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: ea55f4b6-caf0-4fd6-b61e-abd88a635390
+
+----field----
+field: {368E1AB6-8708-4F58-AF08-7DAA53A5BF32}
+name: Text
+key: text
+content-length: 10
+
+Hinzufügen
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 25
+
+SeitenparameterHinzufügen
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133456Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ea55f4b6-caf0-4fd6-b61e-abd88a635390
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133456Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: dfa65903-1490-40ac-8e32-e2b01cc88a22
+
+----field----
+field: {368E1AB6-8708-4F58-AF08-7DAA53A5BF32}
+name: Text
+key: text
+content-length: 3
+
+add
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140704T103637
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+dfa65903-1490-40ac-8e32-e2b01cc88a22
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20150904T054520Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: d1974f5b-f557-4bb5-b2c3-36b7f13926fe
+
+----field----
+field: {368E1AB6-8708-4F58-AF08-7DAA53A5BF32}
+name: Text
+key: text
+content-length: 2
+
+追加
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 11
+
+ページ追加パラメーター
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133623Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d1974f5b-f557-4bb5-b2c3-36b7f13926fe
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133623Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

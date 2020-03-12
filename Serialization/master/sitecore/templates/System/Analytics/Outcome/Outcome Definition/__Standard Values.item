@@ -1,0 +1,87 @@
+----item----
+version: 1
+id: {935FC736-D86F-47BB-9FE1-E7430F046A00}
+database: master
+path: /sitecore/templates/System/Analytics/Outcome/Outcome Definition/__Standard Values
+parent: {EE43C2F0-6277-4144-B144-8CA2CEFCCF12}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {EE43C2F0-6277-4144-B144-8CA2CEFCCF12}
+templatekey: Outcome Definition
+created: 20160729T132117Z
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+300
+----field----
+field: {CA9B9F52-4FB0-4F87-A79F-24DEA62CDA65}
+name: __Default workflow
+key: __default workflow
+content-length: 38
+
+{689E2994-4656-4C58-9112-7826CB46EE69}
+----version----
+language: en
+version: 1
+revision: b774e485-f273-4343-9a3f-0536c6566430
+
+----field----
+field: {2A8D9AB0-B1C1-4DA3-B17D-1610AD23D697}
+name: Name
+key: name
+content-length: 5
+
+$name
+----field----
+field: {4674871A-2885-4504-9CDE-CFBA07B2FA69}
+name: Monetary Value Applicable
+key: monetary value applicable
+content-length: 0
+
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20140704T133402Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b774e485-f273-4343-9a3f-0536c6566430
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20141030T122607:635502687675011806Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

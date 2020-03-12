@@ -1,0 +1,228 @@
+----item----
+version: 1
+id: {8978F05E-F69D-4C97-9443-020E1BBC6930}
+database: core
+path: /sitecore/client/Applications/ContentTesting/ExperienceOptimization/Dashboard/PageTest/PageSettings/TextsParameters
+parent: {A93C25B6-16EB-4BDE-832C-C163343E520F}
+name: TextsParameters
+master: {00000000-0000-0000-0000-000000000000}
+template: {27A16AA3-F74C-405A-B260-71981D1FCA5F}
+templatekey: StringDictionary Parameters
+created: 20160729T132117Z
+
+----field----
+field: {432869AE-8C21-4508-B7FB-9AF760C13726}
+name: Phrases
+key: phrases
+content-length: 1680
+
+You must select a page to test|Page|Status|Created by|Created date|Expected time|Traffic allocation|Traffic allocation is set to|Confidence level|Test objective|Maximum duration|Minimum duration|The item has already been added|Select page to add to test|Item:|Version:|Created:|by|The test will require <%= visits %> visitors to find a winner. We do not have enough historical data to provide a forecasting on duration.|Based on historical visitor data, it will take more than <%= days %> days to finish a test for the <%= pages %> pages included.  To speed up the test, disable some of the pages or adjust test settings.|Based on historical visitor data, it will take about <%= days %> days to finish a test for the <%= pages %> pages included.|The test has not been saved|Test saved successfully|Test started|An error occurred|days|visitors|An error occurred during save. Your test may not have been saved.|The selected page has a different template. Please select another page|Use the slider to predict how the test will effect the visitor engagement. Your prediction is used as an extra indicator for validation of the test result, and it has an effect on your performance report. You can use this to improve your optimization skill.|Set the minimum confidence threshold the test needs to achieve before declaring the result statistical significant. High threshold will require a longer duration of the test.|This page has an active test. Please select another page.|This page has a draft test. Please select another page.|Do you want to cancel the test?|Do you want to delete the draft test?|An error occurred.|Page|of|The item does not have a version in the current language
+----field----
+field: {A5840A65-B6CD-41FD-B3BA-2F05F64DA824}
+name: Dictionary
+key: dictionary
+content-length: 0
+
+
+----version----
+language: da
+version: 1
+revision: 494bf258-2881-4624-9f87-960ac6c77b76
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 15
+
+TextsParameters
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133336Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+494bf258-2881-4624-9f87-960ac6c77b76
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133336Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: c1f29ac5-ce35-4452-a691-e5d8a5065c04
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 14
+
+TexteParameter
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133505Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c1f29ac5-ce35-4452-a691-e5d8a5065c04
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133505Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 13a8f8c3-ad9c-483a-be08-89b4a6bd4f72
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+00010101T000000
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+13a8f8c3-ad9c-483a-be08-89b4a6bd4f72
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20150827T205448Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: e969e296-aff9-40a5-9011-bf91f01bba01
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 11
+
+テキスト パラメーター
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133632Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e969e296-aff9-40a5-9011-bf91f01bba01
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133632Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

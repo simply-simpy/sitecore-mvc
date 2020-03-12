@@ -1,0 +1,223 @@
+----item----
+version: 1
+id: {D47A58D6-CB4B-4E1C-9E0E-CEED4F251821}
+database: core
+path: /sitecore/client/Business Component Library/version 2/Content/Guidance/Renderings/Forms/Form/PageSettings/Tabs/Galleries/Galleries/Tabs/Label to the left/FormComponentsLabelLeft/Slider
+parent: {4A73D0C9-9A87-4295-BA15-CBE323E6CA36}
+name: Slider
+master: {00000000-0000-0000-0000-000000000000}
+template: {A5A7778D-074C-43BF-A890-7A4AEE4F22CF}
+templatekey: FormSlider Parameters
+created: 20160729T132116Z
+
+----field----
+field: {8D146F79-4EDB-497D-A321-458B706810AB}
+name: IsLabelVisible
+key: islabelvisible
+content-length: 0
+
+
+----field----
+field: {6C4382FB-44C3-4F0F-9C1B-D1F48453B68D}
+name: Minimum
+key: minimum
+content-length: 1
+
+0
+----field----
+field: {DB1AD4DC-D6F8-41BC-B202-0F2AFCD0E942}
+name: Maximum
+key: maximum
+content-length: 2
+
+10
+----field----
+field: {FB062AB0-4415-458D-A2C4-2F68A2C67750}
+name: SelectedValue
+key: selectedvalue
+content-length: 1
+
+5
+----version----
+language: de-DE
+version: 1
+revision: 4abb74f6-1aae-442e-8d04-9381c22ac472
+
+----field----
+field: {85F7FB0C-B383-4D91-B42E-90247EA49ACB}
+name: HelpText
+key: helptext
+content-length: 9
+
+Hilfstext
+----field----
+field: {3885A716-2EED-47AE-9132-32225F0458FF}
+name: FormLabel
+key: formlabel
+content-length: 6
+
+Slider
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 6
+
+Slider
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133520Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4abb74f6-1aae-442e-8d04-9381c22ac472
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133520Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 3528557b-6d24-46f1-a6ba-6e158e1d8ce1
+
+----field----
+field: {85F7FB0C-B383-4D91-B42E-90247EA49ACB}
+name: HelpText
+key: helptext
+content-length: 8
+
+HelpText
+----field----
+field: {3885A716-2EED-47AE-9132-32225F0458FF}
+name: FormLabel
+key: formlabel
+content-length: 6
+
+Slider
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151105T133905Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3528557b-6d24-46f1-a6ba-6e158e1d8ce1
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20151127T131845Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: f55ebeaf-6915-4283-a1e9-42c33fcaecd9
+
+----field----
+field: {85F7FB0C-B383-4D91-B42E-90247EA49ACB}
+name: HelpText
+key: helptext
+content-length: 8
+
+ヘルプ テキスト
+----field----
+field: {3885A716-2EED-47AE-9132-32225F0458FF}
+name: FormLabel
+key: formlabel
+content-length: 5
+
+スライダー
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 5
+
+スライダー
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133649Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f55ebeaf-6915-4283-a1e9-42c33fcaecd9
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133649Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

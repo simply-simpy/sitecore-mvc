@@ -1,0 +1,277 @@
+----item----
+version: 1
+id: {80D68AD1-ADBE-46B1-A1C6-CB2EC3C22EF6}
+database: core
+path: /sitecore/client/Business Component Library/version 2/Content/Guidance/Renderings/LegacyCharts/LegacyAreaChart/PageSettings/ChartFields/ValueChartFields/Value
+parent: {ACE76EE4-FEF0-4399-AAA3-F47F71B89EEF}
+name: Value
+master: {00000000-0000-0000-0000-000000000000}
+template: {8FED7B56-7E10-41A7-8ED4-D99BC136B671}
+templatekey: ChartField
+created: 20160729T132116Z
+
+----field----
+field: {65A414F0-859A-4181-9E6F-1A5161709FAB}
+name: DataField
+key: datafield
+content-length: 5
+
+value
+----field----
+field: {773FD406-B015-413E-9FB6-B07290402B7B}
+name: MultiAxisChartPosition
+key: multiaxischartposition
+content-length: 5
+
+Right
+----field----
+field: {85BCAAB5-CA1A-4E0D-B6F6-20461316F75A}
+name: NumberScale
+key: numberscale
+content-length: 38
+
+{4814F377-0998-4C61-887C-88473C5ACE5F}
+----version----
+language: da
+version: 1
+revision: 53708582-4f27-4558-a8fb-7bcf88208b68
+
+----field----
+field: {86CCFF1C-4B15-4849-988C-FD44B37A7C22}
+name: HeaderText
+key: headertext
+content-length: 5
+
+Værdi
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 5
+
+Værdi
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133335Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+53708582-4f27-4558-a8fb-7bcf88208b68
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133335Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 52a6762c-97e9-4de2-aaa6-8fbf6ff4c020
+
+----field----
+field: {86CCFF1C-4B15-4849-988C-FD44B37A7C22}
+name: HeaderText
+key: headertext
+content-length: 4
+
+Wert
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 4
+
+Wert
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133503Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+52a6762c-97e9-4de2-aaa6-8fbf6ff4c020
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133503Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: bd313ac0-4680-4352-a9a7-0b40a3dca9e1
+
+----field----
+field: {86CCFF1C-4B15-4849-988C-FD44B37A7C22}
+name: HeaderText
+key: headertext
+content-length: 5
+
+Value
+----field----
+field: {D0617BE3-C16C-45CE-9649-39E98FAED5E0}
+name: Prefix
+key: prefix
+content-length: 0
+
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20131106T120555
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+bd313ac0-4680-4352-a9a7-0b40a3dca9e1
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150518T135406:635675540465794263Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: bcc174b4-d9d6-411b-a838-a49ed76ad63a
+
+----field----
+field: {86CCFF1C-4B15-4849-988C-FD44B37A7C22}
+name: HeaderText
+key: headertext
+content-length: 1
+
+値
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 1
+
+値
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133631Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+bcc174b4-d9d6-411b-a838-a49ed76ad63a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133631Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

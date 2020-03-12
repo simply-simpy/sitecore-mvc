@@ -1,0 +1,296 @@
+----item----
+version: 1
+id: {9E2C4395-1562-4728-8571-BD1FCEDD0312}
+database: core
+path: /sitecore/client/Applications/FXM/DomainDashboard/DomainMatcher/PageSettings/TabControl/Website
+parent: {D25B65C0-19D6-4BEF-9327-8E399A0608DD}
+name: Website
+master: {00000000-0000-0000-0000-000000000000}
+template: {F62B4CD7-754C-4461-810F-2B6BD2C92A0D}
+templatekey: Tab
+created: 20160729T132117Z
+
+----field----
+field: {DEAB3795-056F-4421-ADF0-758844461B72}
+name: Placeholder Name
+key: placeholder name
+content-length: 6
+
+Domain
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 1
+
+0
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 5003
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{A069BE58-EE8C-48EF-8699-0F0C049F84BC}">
+    <r ds="{582124AF-67FC-4CC3-95F7-AE92895DC81C}" id="{442BD093-FBAD-4E36-BC08-489E16C82D08}" par="Id=DomainTabGeneralAccordion" uid="{86A90069-6751-4C8F-AD01-2A9FB819E6F9}" />
+    <r id="{910155C7-3881-4A56-90FB-D126490EDE55}" par="Id=DomainTabMessageBar" ph="DomainTabGeneralAccordion.Body" uid="{2C19E7F8-F3AE-48E3-8425-E53EBB27DF1C}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=ContentBorder&amp;UsePadding=1" ph="DomainTabGeneralAccordion.Body" uid="{844A958F-720D-4310-A0F9-4018B4592854}" />
+    <r id="{C4393722-39FA-4869-9582-3A8EB8983A0D}" par="UsePadding=True&amp;Id=DomainTabNameRow" ph="ContentBorder.Content" uid="{9021CD08-46A5-4D41-8BAA-2558A05A3418}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=ColumnPanel1&amp;ApplyGridColumsToAllSizes=True&amp;GridColumns=2" ph="DomainTabNameRow.Content" uid="{4525F96B-F514-41E6-B5DC-29AAF19CFBB7}" />
+    <r ds="{662BF1D9-077D-4652-84EE-959D2BFFC713}" id="{98316BB6-F3F5-4E6F-81F0-79F173D151D8}" par="Id=DomainTabNameLabel&amp;Target=%7bBinding+DomainTabNameTextBox%7d" ph="ColumnPanel1.Content" uid="{0E5E84C8-8649-47A9-96FA-4583B5801A6A}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=ColumnPanel2&amp;ApplyGridColumsToAllSizes=True&amp;GridColumns=10&amp;ContentAlign=Left" ph="DomainTabNameRow.Content" uid="{E8564B95-A616-4F53-B469-3227ED57EA4B}" />
+    <r ds="{087E3054-DA4B-4D46-9D53-CCE42384CCCA}" id="{57F86E9A-1844-45CE-BF8A-62900AE17A92}" par="IsEnabled=True&amp;Id=DomainTabNameTextBox&amp;IsVisible=True" ph="ColumnPanel2.Content" uid="{7B918758-5341-4818-824D-E9E34DAFB01A}" />
+    <r id="{C4393722-39FA-4869-9582-3A8EB8983A0D}" par="UsePadding=True&amp;Id=DomainTabUrlRow" ph="ContentBorder.Content" uid="{D010822D-A5C9-4E2A-99B9-BFA651123F41}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=ColumnPanel3&amp;ApplyGridColumsToAllSizes=True&amp;GridColumns=2" ph="DomainTabUrlRow.Content" uid="{2BFD3DCA-C574-4EAD-8B2C-71E2D2FC582B}" />
+    <r ds="{C6C836C5-AFCB-4FD8-BB4A-636798F07612}" id="{98316BB6-F3F5-4E6F-81F0-79F173D151D8}" par="Id=DomainTabUrlLabel&amp;Target=%7bBinding+DomainTabUrlTextBox%7d" ph="ColumnPanel3.Content" uid="{B3B5CCCC-4CF9-4408-8D99-9159B0C5C943}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=ColumnPanel4&amp;ApplyGridColumsToAllSizes=True&amp;GridColumns=10&amp;ContentAlign=Left" ph="DomainTabUrlRow.Content" uid="{831DDFC4-5088-4433-BF67-CED598A6CEC1}" />
+    <r ds="{31BC04D1-84F4-44AD-8A96-A25E407CDEC9}" id="{57F86E9A-1844-45CE-BF8A-62900AE17A92}" par="IsEnabled=True&amp;Id=DomainTabUrlTextBox&amp;IsVisible=True" ph="ColumnPanel4.Content" uid="{5BA48DF8-230D-42A7-A406-E85C266BC30C}" />
+    <r ds="{6CA70565-52F0-4344-BB54-519AD2DFD3C5}" id="{442BD093-FBAD-4E36-BC08-489E16C82D08}" par="Id=DomainTabValidationAccordion" uid="{41D3AFC6-FCAA-4759-827E-981B78AA05E2}" />
+    <r id="{910155C7-3881-4A56-90FB-D126490EDE55}" par="Id=DomainTabValidationMessageBar" ph="DomainTabValidationAccordion.Body" uid="{9169939E-F84F-499E-8CB7-57A99E00FD29}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=DomainTabValidationContentBorder&amp;UsePadding=1" ph="DomainTabValidationAccordion.Body" uid="{5DB9C22E-589C-4B5A-B018-10E29C713BDC}" />
+    <r ds="{C4A1B7F1-B929-46E8-81D2-0B00524C670F}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=DomainTabValidationIntroText" ph="DomainTabValidationContentBorder.Content" uid="{88A8C6C4-505B-4435-810E-CDBD7BC7101D}" />
+    <r id="{C4393722-39FA-4869-9582-3A8EB8983A0D}" par="UsePadding=True&amp;Id=DomainTabValidationGeneratedScriptRow" ph="DomainTabValidationContentBorder.Content" uid="{2481BAF7-F72A-4328-8378-DD2890E29647}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=DomainTabValidationColumnPanel1&amp;ApplyGridColumsToAllSizes=True&amp;GridColumns=2" ph="DomainTabValidationGeneratedScriptRow.Content" uid="{75053D35-E525-4ACF-8797-F0CDF7A3C206}" />
+    <r ds="{A2516C82-DD6C-4EE0-9BAC-42CC326AC9EF}" id="{98316BB6-F3F5-4E6F-81F0-79F173D151D8}" par="Id=DomainTabValidationGeneratedScriptLabel" ph="DomainTabValidationColumnPanel1.Content" uid="{C46476AB-0145-45E1-B7B2-B6C6C5A29F29}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=DomainTabValidationColumnPanel2&amp;ApplyGridColumsToAllSizes=True&amp;GridColumns=10" ph="DomainTabValidationGeneratedScriptRow.Content" uid="{340DCBE1-68C6-496F-9773-B1EEF4ACDD1A}" />
+    <r ds="{9D501D3D-708D-4233-9588-B362649A93DC}" id="{9918B36C-92ED-4EB8-A95A-009E2523C672}" par="IsReadOnly=true&amp;Id=DomainTabValidationGeneratedScriptTextArea" ph="DomainTabValidationColumnPanel2.Content" uid="{190FE33E-0B9D-4669-9462-7F1CA29046EA}" />
+    <r ds="{1E8C976F-8961-4632-89D3-EE220D18F4D1}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=ScriptHelpText" ph="DomainTabValidationColumnPanel2.Content" uid="{77D651C4-4F42-4F12-983F-0E7059661068}" />
+  </d>
+</r>
+----version----
+language: da
+version: 1
+revision: 0d0080fb-e9f5-4465-8ae0-af72d4644c1d
+
+----field----
+field: {AEA872FB-AA91-4D1A-B877-3CA6FBBB4FD4}
+name: Header
+key: header
+content-length: 6
+
+Domæne
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 6
+
+Domæne
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133339Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+0d0080fb-e9f5-4465-8ae0-af72d4644c1d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133339Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 48fee877-0d18-4d76-bc18-da89b9c3bbee
+
+----field----
+field: {AEA872FB-AA91-4D1A-B877-3CA6FBBB4FD4}
+name: Header
+key: header
+content-length: 7
+
+Website
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 7
+
+Website
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 35
+
+20141022T014537:635495391376966180Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+48fee877-0d18-4d76-bc18-da89b9c3bbee
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133509Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 2686ecbe-30b8-4758-99fe-36c44faf8865
+
+----field----
+field: {AEA872FB-AA91-4D1A-B877-3CA6FBBB4FD4}
+name: Header
+key: header
+content-length: 7
+
+Website
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20140604T152033Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+2686ecbe-30b8-4758-99fe-36c44faf8865
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20141218T120017:635545008175188562Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 3e034db1-190e-47e5-86e8-870f41629f7d
+
+----field----
+field: {AEA872FB-AA91-4D1A-B877-3CA6FBBB4FD4}
+name: Header
+key: header
+content-length: 4
+
+ドメイン
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 4
+
+ドメイン
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133636Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3e034db1-190e-47e5-86e8-870f41629f7d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133636Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

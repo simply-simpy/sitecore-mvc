@@ -1,0 +1,284 @@
+----item----
+version: 1
+id: {AF161CEA-6115-42E7-A238-5226F52D9D73}
+database: core
+path: /sitecore/client/Business Component Library/version 2/Content/Guidance/Renderings/Common/ToggleButton/PageSettings/Tabs/Demo
+parent: {D68EB0E7-8C83-4F16-BF1D-35EEA3762B7F}
+name: Demo
+master: {1A934758-1761-446E-AA0E-D19B3369292B}
+template: {8A7ACB1A-0990-4C9E-A6F0-9612D0F5F51C}
+templatekey: Tab
+created: 20160729T132116Z
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+100
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 0
+
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 5060
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border" uid="{91549225-1FAA-4A75-A8EE-726362BACD17}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=Border1&amp;ConfigurationDetails=ButtonType%3a%3dDefault%2c+Inverse%2c+and+Primary&amp;Description=The+ButtonType+property+influences+the+appearance+of+the+control%2c+but+not+the+behavior.&amp;Title=Enabled+appearance+of+the+button+types" ph="Border.Content" uid="{AFC2825F-E356-4FD5-B66F-D9C596CAC550}" />
+    <r id="{C0182326-91FE-45C6-8BF0-C1C3AFE1D21A}" par="Id=DefaultButton1&amp;Text=Default&amp;Tooltip=Default+button+tooltip" ph="Border1.Content" uid="{B7C8CF6B-F1E7-4972-B148-774CCF105326}" />
+    <r id="{C0182326-91FE-45C6-8BF0-C1C3AFE1D21A}" par="Id=InverseButton1&amp;Text=Inverse&amp;ButtonType=Inverse&amp;Tooltip=Inverse" ph="Border1.Content" uid="{A2F41F7D-EAE8-4957-8D0B-993811CC2582}" />
+    <r id="{C0182326-91FE-45C6-8BF0-C1C3AFE1D21A}" par="Id=PrimaryButton1&amp;Text=Primary&amp;ButtonType=Primary&amp;Tooltip=Primary" ph="Border1.Content" uid="{DB27B7B7-B3F4-476A-83AB-E8CE736BD4A5}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=Border4&amp;ConfigurationDetails=IsEnabled%3dFalse&amp;Description=The+IsEnabled+property+disables+the+control+when+False.&amp;Title=Disabled+appearance" ph="Border.Content" uid="{AFC2825F-E356-4FD5-B66F-D9C596CAC550}" />
+    <r id="{C0182326-91FE-45C6-8BF0-C1C3AFE1D21A}" par="Id=DefaultDisabledButton1&amp;IsEnabled=0&amp;Text=Default&amp;Tooltip=Default+Disabled" ph="Border4.Content" uid="{1F9B60B3-F525-4247-B0FD-9B9069575E97}" />
+    <r id="{C0182326-91FE-45C6-8BF0-C1C3AFE1D21A}" par="Id=InverseDisabledButton1&amp;IsEnabled=0&amp;Text=Inverse&amp;ButtonType=Inverse&amp;Tooltip=Inverse+Disabled" ph="Border4.Content" uid="{097B3902-FBBD-4899-8D75-D1C46C469EAC}" />
+    <r id="{C0182326-91FE-45C6-8BF0-C1C3AFE1D21A}" par="Id=PrimaryDisabledButton1&amp;IsEnabled=0&amp;Text=Primary&amp;ButtonType=Primary&amp;Tooltip=Primary+Disabled" ph="Border4.Content" uid="{FC55DF3E-E09A-4E82-88A2-F06DDBF860D7}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=Border2&amp;ConfigurationDetails=Icon%3d%2fsitecore%2fshell%2fclient%2fSpeak%2fAssets%2fimg%2fsc-sprite.png%26SpritePosition%3d-153px+-136px&amp;Description=The+Icon+property+provides+the+URL+of+an+image+%22sprite+sheet%22+and+the+SpritePosition+property+specifies+the+location+of+a+16x16+pixel+area+within+the+sprite+sheet+that+the+control+shows+as+an+icon.&amp;Title=Using+icons+on+a+button" ph="Border.Content" uid="{AFC2825F-E356-4FD5-B66F-D9C596CAC550}" />
+    <r id="{C0182326-91FE-45C6-8BF0-C1C3AFE1D21A}" par="SpritePosition=-153px+-136px&amp;Id=IconNoTextButton1&amp;Icon=%2fsitecore%2fshell%2fclient%2fSpeak%2fAssets%2fimg%2fsc-sprite.png" ph="Border2.Content" uid="{03A275C2-26EF-4124-9F73-C9D0ECAD37DA}" />
+    <r id="{C0182326-91FE-45C6-8BF0-C1C3AFE1D21A}" par="SpritePosition=-153px+-136px&amp;Id=IconTextButton1&amp;Icon=%2fsitecore%2fshell%2fclient%2fSpeak%2fAssets%2fimg%2fsc-sprite.png&amp;Text=Icon" ph="Border2.Content" uid="{83CA28A9-B555-4E75-9131-923956706274}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=Border3&amp;ConfigurationDetails=IsFullWidth%3dTrue&amp;Description=The+IsFullWidth+property+specifies+whether+the+button+sizes+itself+based+on+its+container+(IsFullWidth+%3d+True)+or+its+content+(IsFullWidth+%3d+False).&amp;Title=Showing+a+full-width+button" ph="Border.Content" uid="{AFC2825F-E356-4FD5-B66F-D9C596CAC550}" />
+    <r id="{C0182326-91FE-45C6-8BF0-C1C3AFE1D21A}" par="Id=IconTextLargeButton1&amp;Text=Full+Width+ToggleButton&amp;IsFullWidth=1" ph="Border3.Content" uid="{2A33A45F-79DA-449A-AEA5-CF98136EC197}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanel1&amp;ConfigurationDetails=IsOpen%3dTrue&amp;Description=The+IsOpen+property+specifies+that+the+control+shows+the+button+in+the+same+state+as+after+a+user+click+the+button.+A+further+user+click+returns+the+button+on+the+%22unclicked%22+state.&amp;Title=Specifying+%22open%22+state" ph="Border.Content" uid="{5C6702CB-36A4-4DAD-A286-22B68DBB69D5}" />
+    <r id="{C0182326-91FE-45C6-8BF0-C1C3AFE1D21A}" par="Id=ToggleButton1&amp;Text=Pre-pressed&amp;IsOpen=1" ph="DemoComponentPanel1.Content" uid="{F5CEDD91-AA12-46ED-A4AE-45B60FC395B5}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanel2&amp;ConfigurationDetails=ShowArrow%3dTrue&amp;Description=The+ShowArrow+property+specifies+that+the+control+shows+an+arrow+on+the+button.+When+the+button+is+in+the+%22unclicked%22+state%2c+the+arrow+points+down.+When+a+users+clicks+the+button+and+the+button+state+changes%2c+the+arrow+points+up.&amp;Title=Showing+an+arrow" ph="Border.Content" uid="{5C6702CB-36A4-4DAD-A286-22B68DBB69D5}" />
+    <r id="{C0182326-91FE-45C6-8BF0-C1C3AFE1D21A}" par="Id=ToggleButton2&amp;Text=Button+with+arrow&amp;ShowArrow=1" ph="DemoComponentPanel2.Content" uid="{F5CEDD91-AA12-46ED-A4AE-45B60FC395B5}" />
+  </d>
+</r>
+----version----
+language: da
+version: 1
+revision: eeda02b8-d45f-45f9-adff-097ff77ad141
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 4
+
+Fane
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 4
+
+Demo
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133342Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+eeda02b8-d45f-45f9-adff-097ff77ad141
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133342Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: b13cdca7-a591-4c5d-ae27-a33bfea73b41
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 3
+
+Tab
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 4
+
+Demo
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133513Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b13cdca7-a591-4c5d-ae27-a33bfea73b41
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133513Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 16e375f1-347a-4260-a0f6-331e79223ab8
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 3
+
+Tab
+----field----
+field: {772AEA8A-4D70-43F4-BD6B-EDE5FB060623}
+name: Tooltip
+key: tooltip
+content-length: 0
+
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150318T143354Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+16e375f1-347a-4260-a0f6-331e79223ab8
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160404T131743Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: c71e4c02-f287-4236-bb35-2c92e83697cd
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 2
+
+タブ
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 2
+
+デモ
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133640Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c71e4c02-f287-4236-bb35-2c92e83697cd
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133640Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

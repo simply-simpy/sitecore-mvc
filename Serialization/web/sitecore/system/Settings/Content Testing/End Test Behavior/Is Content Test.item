@@ -1,0 +1,62 @@
+----item----
+version: 1
+id: {3CF6A4D2-3C30-4410-8EEE-F8D3FACE6FB6}
+database: web
+path: /sitecore/system/Settings/Content Testing/End Test Behavior/Is Content Test
+parent: {B2FAFB1E-3E71-4086-9526-7CAD4C2C56A1}
+name: Is Content Test
+master: {00000000-0000-0000-0000-000000000000}
+template: {349CDA24-CAB7-4991-BA2E-86116017995C}
+templatekey: Rule Container
+created: 20160729T132117Z
+
+----version----
+language: en
+version: 1
+revision: e6144b6a-ca47-49d9-8e5f-4ccc2a52b0e9
+
+----field----
+field: {48747FDE-21C1-44C8-9B40-EE2571F9F2F9}
+name: Rule
+key: rule
+content-length: 605
+
+<ruleset>
+  <rule uid="{5629BF25-C3BE-4FB2-BD38-F2A52E29D09B}">
+    <conditions>
+      <condition id="{78850667-6474-4AB2-8C67-466D653952AF}" uid="D1F8647461C24C599E74B5F972671783" />
+    </conditions>
+    <actions>
+      <action id="{CB33EFD9-66F6-47C8-9B85-83BAB754FE06}" uid="0E2759ECAF634956965F4A24B9F0C759" DataSource="{825A32D9-990E-4826-8359-101D15C92ABD}" Rule="{825A32D9-990E-4826-8359-101D15C92ABD}" />
+      <action id="{CB33EFD9-66F6-47C8-9B85-83BAB754FE06}" uid="87A55F8BA8C945DA87D0838F0A3A1E1B" Rule="{839B3D01-517B-4A35-98E9-CFFAF85FC705}" />
+    </actions>
+  </rule>
+</ruleset>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140721T165159
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e6144b6a-ca47-49d9-8e5f-4ccc2a52b0e9
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140721T181441:635415632811027060
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

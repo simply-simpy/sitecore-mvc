@@ -1,0 +1,256 @@
+----item----
+version: 1
+id: {A9B18F2F-F6A0-45A0-A4C7-3D0FF5C567DF}
+database: core
+path: /sitecore/client/Applications/FXM/DomainDashboard/DomainMatcher/PageSettings/TabControl/Manage FXM functions/PageSettings/RulesTabTreeView
+parent: {985009CC-9E50-4203-9A64-903ABDAE17C2}
+name: RulesTabTreeView
+master: {00000000-0000-0000-0000-000000000000}
+template: {E3C2C360-49FC-4BC1-8390-7267858BE759}
+templatekey: FilteredTreeview Parameters
+created: 20160729T132117Z
+
+----field----
+field: {4C1682F4-F453-41BF-A0BB-031C40233661}
+name: Database
+key: database
+content-length: 6
+
+master
+----field----
+field: {473D9AE3-EA48-4C41-977A-1CD170C75408}
+name: WhiteList
+key: whitelist
+content-length: 1
+
+*
+----field----
+field: {FCF7175C-CCF3-46A1-ABF4-45A91CC46F42}
+name: ClickFolderMode
+key: clickfoldermode
+content-length: 1
+
+3
+----field----
+field: {7EBF12E9-A284-4A92-A724-9B412878F225}
+name: IsCheckboxEnabled
+key: ischeckboxenabled
+content-length: 1
+
+0
+----field----
+field: {BF3EDBC1-CD91-4598-B338-8C9867F41D95}
+name: SelectMode
+key: selectmode
+content-length: 1
+
+1
+----version----
+language: da
+version: 1
+revision: d4d1b857-37bf-48bc-a3ae-aaf801662b07
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 16
+
+RulesTabTreeView
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133341Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d4d1b857-37bf-48bc-a3ae-aaf801662b07
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133341Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 05372b15-0f36-4946-83d8-315639bc259d
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 20
+
+RegelnTabBaumansicht
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133512Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+05372b15-0f36-4946-83d8-315639bc259d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133512Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: ffd8f8fe-0f65-44b9-bc8c-b60b353b49fe
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20140801T065418Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ffd8f8fe-0f65-44b9-bc8c-b60b353b49fe
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20141022T102713:635495704338742268Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: e2ece576-e5be-4bb0-99a0-deb455f7fe0d
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 14
+
+ルール タブ ツリー ビュー
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133639Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e2ece576-e5be-4bb0-99a0-deb455f7fe0d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133639Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

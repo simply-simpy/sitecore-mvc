@@ -1,0 +1,273 @@
+----item----
+version: 1
+id: {B9E0FCF5-72FD-4860-A962-19D084A46251}
+database: core
+path: /sitecore/client/Business Component Library/version 2/Content/Guidance/Renderings/Data/SearchDataSource/PageSettings/Tabs/Demo
+parent: {5DBE2727-F615-4E94-AF7A-8B40EDB3C761}
+name: Demo
+master: {00000000-0000-0000-0000-000000000000}
+template: {8A7ACB1A-0990-4C9E-A6F0-9612D0F5F51C}
+templatekey: Tab
+created: 20160729T132116Z
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 4
+
+-100
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 5115
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{759BEFD1-3323-404D-A243-E0ED81163C03}">
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border1" ph="Page.Body" uid="{271F5342-3B58-4863-84A0-F090F9B04A7A}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanel1&amp;ConfigurationDetails=Database%3d%24context_contentdatabase%26SearchQuery%3dpage%26DropList+DynamicData%3d%7bBinding+DataSource1.SearchQuery%7d&amp;Description=This+demo+shows+that+the+component%27s+default+behavior+is+to+load+data+when+the+page+and+the+component+have+finished+loading.+The+component+queries+the+database+specified+in+the+Database+property+for+the+term+specified+in+the+SearchQuery+property.+The+DynamicData+property+of+the+DropList+control+binds+to+the+Items+property+and+the+DropList+control+shows+the+result+of+the+query.&amp;Title=Loading+data+when+page+has+loaded" ph="Border1.Content" uid="{7D63A65B-A040-42F5-BEF4-484F74ABC1B0}" />
+    <r id="{E6FBC365-732C-4DCD-8C56-10E8C3B963F5}" par="SearchRootItemId=%7b3D6658D8-A0BF-4E75-B3E2-D050FABCF4E1%7d&amp;Id=DataSource1&amp;Database=%24context_contentdatabase&amp;Language=%24context_language&amp;PageIndex=0&amp;PageSize=10&amp;SearchQuery=page" ph="DemoComponentPanel1.Content" uid="{C9E82025-1F08-4C73-AA94-074CFBE21DC3}" />
+    <r id="{C02DE599-FC31-4059-9B9F-89C0018E0576}" par="Id=DropList1&amp;DisplayFieldName=%24displayName&amp;DynamicData=%7bBinding+DataSource1.Items%7d&amp;ValueFieldName=%24displayName" ph="DemoComponentPanel1.Content" uid="{14BB4F66-4201-4858-85E9-541A7D367692}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanel2&amp;ConfigurationDetails=IsLoadDataDeferred%3dTrue%26Query%3d%7bBinding+TextBox1.Value%7d&amp;Description=The+IsLoadDataDeferred+property+specifies+if+the+component+loads+data+immediately.+When+True%2c+the+component+does+not+run+the+query+until+the+query+changes.+In+this+example%2c+the+query+changes+when+en+user+enters+a+string+in+the+text+box+and+presses+Enter.&amp;Title=Loading+data+when+query+changes" ph="Border1.Content" uid="{986598CF-FF29-4811-BA2A-65C31DE41791}" />
+    <r id="{E6FBC365-732C-4DCD-8C56-10E8C3B963F5}" par="SearchRootItemId=%7b3D6658D8-A0BF-4E75-B3E2-D050FABCF4E1%7d&amp;IsLoadDataDeferred=1&amp;Id=DataSource2&amp;Database=%24context_database&amp;Language=%24context_language&amp;PageIndex=0&amp;PageSize=10&amp;SearchConfigItemId=%7b4D82D138-259C-481C-AE5D-C8B967D1D023%7d&amp;SearchQuery=%7bBinding+TextBox1.Value%7d" ph="DemoComponentPanel2.Content" uid="{C9E82025-1F08-4C73-AA94-074CFBE21DC3}" />
+    <r id="{86A75B44-5A2A-4950-AC4E-232C2C2A5D00}" par="Id=TextBox1&amp;IsVisible=1&amp;IsEnabled=1&amp;Watermark=Specify+search+text" ph="DemoComponentPanel2.Content" uid="{5E7E64A4-FA6F-4E74-B0AA-D278CD62652B}" />
+    <r id="{C02DE599-FC31-4059-9B9F-89C0018E0576}" par="Id=DropList2&amp;DisplayFieldName=%24displayName&amp;DynamicData=%7bBinding+DataSource1.Items%7d&amp;ValueFieldName=%24displayName" ph="DemoComponentPanel2.Content" uid="{14BB4F66-4201-4858-85E9-541A7D367692}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoSearchConfig1&amp;ConfigurationDetails=SearchConfigItemId%3d%7b4D82D138-259C-481C-AE5D-C8B967D1D023%7d&amp;Description=The+SearchConfigItemId+property+points+to+a+configuration+item.+A+configuration+item+is+a+regular+Sitecore+item+with+fields+that+correspond+to+properties+of+the+SearchDataSource+component.+Use+the+SearchPanel+Config+template+for+the+configuration+item.++&amp;Title=Using+a+configuration+item+(first+method)" ph="Border1.Content" uid="{6A8247A7-3ED6-4C6D-98BD-60E74B1F911B}" />
+    <r id="{E6FBC365-732C-4DCD-8C56-10E8C3B963F5}" par="Id=DataSource3&amp;Database=%24context_contentdatabase&amp;Language=%24context_language&amp;SearchConfigItemId=%7b4D82D138-259C-481C-AE5D-C8B967D1D023%7d" ph="DemoSearchConfig1.Content" uid="{C9F67B11-714B-4B5E-BC88-17DDFF5F1822}" />
+    <r id="{C02DE599-FC31-4059-9B9F-89C0018E0576}" par="Id=DropList3&amp;DynamicData=%7bBinding+DataSource3.Items%7d" ph="DemoSearchConfig1.Content" uid="{E672FC3C-4EE3-4D03-A8B2-F5C87061D4A1}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoSearchConfig2&amp;ConfigurationDetails=ConfigurationItem%3d%7b5F0FC14E-374D-4765-AB2F-6FC91ADBF2AE%7d&amp;Description=The+ConfigurationItem+property+points+to+an+item%2c+and+the+configuration+item+is+a+child+of+this+item.+This+property+only+works+only+if+the+SearchConfigItemId+property+is+not+set.&amp;Title=Using+a+configuration+item+(second+method)" ph="Border1.Content" uid="{9F497313-5885-446A-A757-5B154131C709}" />
+    <r id="{E6FBC365-732C-4DCD-8C56-10E8C3B963F5}" par="ConfigurationItem=%7b5F0FC14E-374D-4765-AB2F-6FC91ADBF2AE%7d&amp;Id=DataSource4&amp;Database=%24context_contentdatabase&amp;Language=%24context_language" ph="DemoSearchConfig2.Content" uid="{7B462A49-B265-4D4D-96AB-FE8F07B5F969}" />
+    <r id="{C02DE599-FC31-4059-9B9F-89C0018E0576}" par="Id=DropList4&amp;DynamicData=%7bBinding+DataSource4.Items%7d" ph="DemoSearchConfig2.Content" uid="{F4CD10B4-83E0-41F4-8D11-28D9610C0819}" />
+  </d>
+</r>
+----version----
+language: da
+version: 1
+revision: 2c06e5a0-2ac7-485d-aea8-0461d0ab7a7f
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 4
+
+Fane
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 4
+
+Demo
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133343Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+2c06e5a0-2ac7-485d-aea8-0461d0ab7a7f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133343Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 2d5b1dca-156f-4865-abcd-da329ff791ca
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 3
+
+Tab
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 4
+
+Demo
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133515Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+2d5b1dca-156f-4865-abcd-da329ff791ca
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133515Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: a29f106d-c214-4ad9-9365-17663f773822
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 3
+
+Tab
+----field----
+field: {772AEA8A-4D70-43F4-BD6B-EDE5FB060623}
+name: Tooltip
+key: tooltip
+content-length: 0
+
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150402T111002Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a29f106d-c214-4ad9-9365-17663f773822
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160414T083019Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 0bc130e0-1137-4ed3-afb9-52e03ba30d1b
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 2
+
+タブ
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 2
+
+デモ
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133643Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+0bc130e0-1137-4ed3-afb9-52e03ba30d1b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133643Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

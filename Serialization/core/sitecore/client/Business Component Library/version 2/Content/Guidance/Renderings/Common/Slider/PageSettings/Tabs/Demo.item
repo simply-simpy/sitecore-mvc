@@ -1,0 +1,233 @@
+----item----
+version: 1
+id: {52607913-72A2-4234-B32C-C4E9583A3AC9}
+database: core
+path: /sitecore/client/Business Component Library/version 2/Content/Guidance/Renderings/Common/Slider/PageSettings/Tabs/Demo
+parent: {626DC371-B401-485A-B3F2-9E76739302BC}
+name: Demo
+master: {00000000-0000-0000-0000-000000000000}
+template: {8A7ACB1A-0990-4C9E-A6F0-9612D0F5F51C}
+templatekey: Tab
+created: 20160729T132116Z
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 11726
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanel1&amp;ConfigurationDetails=Minimum%3d1%26Maximum%3d10&amp;IsVisible=1&amp;Description=The+Minimum+and+Maximum+properties+specify+the+values+of+the+end-points+of+the+slider.+The+value+of+Minimum+must+be+lower+than+the+value+of+Maximum.+The+SelectedValue+contains+the+currently+selected+value.+&amp;Title=Specifying+selection+range" uid="{E85A3ADA-83F4-4588-8574-0C9C7A898ECD}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border1&amp;IsVisible=1&amp;UsePadding=1" ph="DemoComponentPanel1.Content" uid="{13A5343C-3C9F-4FE7-B1FE-77A99F192856}" />
+    <r id="{FBBB0431-6B50-45EA-BA7C-2E02E154CC9B}" par="Id=Slider1&amp;Maximum=10&amp;Minimum=1" ph="Border1.Content" uid="{7EE4BCEE-BADF-4C20-A686-29D200039150}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border21&amp;UsePadding=1" ph="Border1.Content" uid="{4DEE77C0-1E40-4CB0-89AE-07999B1FF64F}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=Text21&amp;Text=SelectedValue%3a+" ph="Border21.Content" uid="{72C113AB-4D94-47BD-96FE-B81CB876C6DA}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=Text22&amp;Text=%7bBinding+Slider1.SelectedValue%7d" ph="Border21.Content" uid="{B80DBEE2-13A1-4E6B-A965-8D9E7490E71F}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanel2&amp;ConfigurationDetails=Step%3d2&amp;IsVisible=1&amp;Description=The+Step+property+specifies+the+increment+between+values.+The+default+value+is+1.&amp;Title=Specifying+increment+between+values" uid="{E85A3ADA-83F4-4588-8574-0C9C7A898ECD}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border2&amp;IsVisible=1&amp;UsePadding=1" ph="DemoComponentPanel2.Content" uid="{13A5343C-3C9F-4FE7-B1FE-77A99F192856}" />
+    <r id="{FBBB0431-6B50-45EA-BA7C-2E02E154CC9B}" par="Id=Slider2&amp;Step=2&amp;Maximum=11&amp;Minimum=1" ph="Border2.Content" uid="{7EE4BCEE-BADF-4C20-A686-29D200039150}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanel3&amp;ConfigurationDetails=SelectedValue%3d5&amp;IsVisible=1&amp;Description=The+SelectedValue+property+contains+the+currently+selected+value.+If+you+specify+a+value+at+design-time%2c+the+control+uses+this+value+when+it+loads.+If+you+do+not+specify+a+value%2c+the+control+uses+a+value+of+1+when+it+loads.&amp;Title=Reading+and+writing+the+selected+value" uid="{E85A3ADA-83F4-4588-8574-0C9C7A898ECD}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border3&amp;IsVisible=1&amp;UsePadding=1" ph="DemoComponentPanel3.Content" uid="{13A5343C-3C9F-4FE7-B1FE-77A99F192856}" />
+    <r id="{FBBB0431-6B50-45EA-BA7C-2E02E154CC9B}" par="Id=Slider3&amp;Step=1&amp;Maximum=10&amp;Minimum=1&amp;SelectedValue=5" ph="Border3.Content" uid="{7EE4BCEE-BADF-4C20-A686-29D200039150}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border10&amp;UsePadding=1" ph="Border3.Content" uid="{4DEE77C0-1E40-4CB0-89AE-07999B1FF64F}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=Text1&amp;Text=SelectedValue%3a+" ph="Border10.Content" uid="{72C113AB-4D94-47BD-96FE-B81CB876C6DA}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=Text2&amp;Text=%7bBinding+Slider3.SelectedValue%7d" ph="Border10.Content" uid="{B80DBEE2-13A1-4E6B-A965-8D9E7490E71F}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanel4&amp;ConfigurationDetails=Type%3dRange%26SelectedValueStart%3d4%26SelectedValueEnd%3d6&amp;IsVisible=1&amp;Description=The+Type+property+specifies+if+the+slider+provides+single-value+selection+or+range+selection+(users+select+a+range+by+selecting+the+start+and+the+end+values).+Values+include+Single+(the+default)+and+Range.+When+Range%2c+the+SelectedValueStart+and+the+SelectedValueEnd+properties+contain+the+currently+selected+start+and+end+of+the+selected+range.+&amp;Title=Specifying+range+selection" uid="{E85A3ADA-83F4-4588-8574-0C9C7A898ECD}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border4&amp;IsVisible=1&amp;UsePadding=1" ph="DemoComponentPanel4.Content" uid="{13A5343C-3C9F-4FE7-B1FE-77A99F192856}" />
+    <r id="{FBBB0431-6B50-45EA-BA7C-2E02E154CC9B}" par="Type=Range&amp;Id=Slider4&amp;Step=1&amp;SelectedValueEnd=6&amp;Maximum=10&amp;Minimum=1&amp;SelectedValueStart=4" ph="Border4.Content" uid="{7EE4BCEE-BADF-4C20-A686-29D200039150}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border11&amp;UsePadding=1" ph="Border4.Content" uid="{4DEE77C0-1E40-4CB0-89AE-07999B1FF64F}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=Text3&amp;Text=SelectedValueStart%3a+" ph="Border11.Content" uid="{72C113AB-4D94-47BD-96FE-B81CB876C6DA}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=Text4&amp;Text=%7bBinding+Slider4.SelectedValueStart%7d" ph="Border11.Content" uid="{B80DBEE2-13A1-4E6B-A965-8D9E7490E71F}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border12&amp;UsePadding=1" ph="Border4.Content" uid="{4DEE77C0-1E40-4CB0-89AE-07999B1FF64F}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=Text5&amp;Text=SelectedValueEnd%3a++" ph="Border12.Content" uid="{72C113AB-4D94-47BD-96FE-B81CB876C6DA}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=Text6&amp;Text=%7bBinding+Slider4.SelectedValueEnd%7d" ph="Border12.Content" uid="{B80DBEE2-13A1-4E6B-A965-8D9E7490E71F}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanel5&amp;ConfigurationDetails=StaticData%3d%7b71641430-E3FC-443D-8591-BD24CF614E01%7d%26DisplayFiedName%3dName%26ValueFieldName%3dValue&amp;IsVisible=1&amp;Description=The+StaticData+property+points+to+a+folder+that+contains+items+based+on+the+SliderStep+template.+The+SliderStep+items+have+a+name%2c+value+and+description+fields.+The+DisplayFieldName+and+the+ValueFieldName+properties+specify+the+fields+in+the+SliderStep+items+that+the+control+uses+for+the+value+and+the+label%2c+respectively.&amp;Title=Loading+data+from+items" uid="{E85A3ADA-83F4-4588-8574-0C9C7A898ECD}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border5&amp;IsVisible=1&amp;UsePadding=1" ph="DemoComponentPanel5.Content" uid="{13A5343C-3C9F-4FE7-B1FE-77A99F192856}" />
+    <r id="{FBBB0431-6B50-45EA-BA7C-2E02E154CC9B}" par="DisplayFieldName=Name&amp;Id=Slider5&amp;Step=1&amp;StaticData=%7b71641430-E3FC-443D-8591-BD24CF614E01%7d&amp;ValueFieldName=Value&amp;SelectedValue=2" ph="Border5.Content" uid="{7EE4BCEE-BADF-4C20-A686-29D200039150}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanel6&amp;ConfigurationDetails=IsLabelVisible%3dTrue%26IsTooltipHidden%3dTrue&amp;IsVisible=1&amp;Description=The+IsLabelVisible+property+specifies+if+the+control+shows+labels+above+the+slider.+When+True%2c+the+control+shows+the+step+values+as+labels.+The+IsTooltipHidden+property+specifies+if+the+control+shows+tooltips.+When++True%2c+the+control+displays++the+content+of+the+Toolip+property+as+a+tooltip+when+users+mouse+over+the+control.&amp;Title=Showing+labels+and+hiding+tooltips" uid="{E85A3ADA-83F4-4588-8574-0C9C7A898ECD}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border6&amp;IsVisible=1&amp;UsePadding=1" ph="DemoComponentPanel6.Content" uid="{13A5343C-3C9F-4FE7-B1FE-77A99F192856}" />
+    <r id="{FBBB0431-6B50-45EA-BA7C-2E02E154CC9B}" par="Id=Slider6&amp;IsTooltipHidden=1&amp;Step=1&amp;Maximum=10&amp;Minimum=1&amp;IsLabelVisible=1" ph="Border6.Content" uid="{7EE4BCEE-BADF-4C20-A686-29D200039150}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanel9&amp;ConfigurationDetails=ValuePrefix%3d%22a%22%26ValueSuffix%3d%22s%22%26IsLabelVisible%3dTrue&amp;IsVisible=1&amp;Description=The+ValuePrefix+and+the+ValueSuffux+properties+specify+text+strings+the+control+adds+to+labels+when+it+shows+labels.+ValuePrefix+adds+the+string+before+the+value%3b+ValueSuffix+adds+the+string+after+the+value.&amp;Title=Adding+text+to+labels" uid="{E85A3ADA-83F4-4588-8574-0C9C7A898ECD}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border9&amp;IsVisible=1&amp;UsePadding=1" ph="DemoComponentPanel9.Content" uid="{13A5343C-3C9F-4FE7-B1FE-77A99F192856}" />
+    <r id="{FBBB0431-6B50-45EA-BA7C-2E02E154CC9B}" par="Id=Slider9&amp;ValueSuffix=s&amp;ValuePrefix=a&amp;Step=1&amp;Maximum=10&amp;Minimum=1&amp;IsLabelVisible=1" ph="Border9.Content" uid="{7EE4BCEE-BADF-4C20-A686-29D200039150}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanel7&amp;ConfigurationDetails=IsLabelVisible%3dTrue%26StaticData%3d%7b71641430-E3FC-443D-8591-BD24CF614E01%7d%26DisplayFiedName%3dName%26ValueFieldName%3dValue&amp;IsVisible=1&amp;Description=The+IsLabelVisible+property+specifies+if+the+control+shows+labels+above+the+slider.+When+True%2c+the+control+shows+the+step+values+as+labels.+If+the+ImageUrl+field+of+the+SliderStep+item+points+to+an+image%2c+the+control+shows+this+image+instead+of+a+text+label+defined+by+DisplayFieldName.&amp;Title=Showing+image+labels" uid="{E85A3ADA-83F4-4588-8574-0C9C7A898ECD}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border7&amp;IsVisible=1&amp;UsePadding=1" ph="DemoComponentPanel7.Content" uid="{13A5343C-3C9F-4FE7-B1FE-77A99F192856}" />
+    <r id="{FBBB0431-6B50-45EA-BA7C-2E02E154CC9B}" par="DisplayFieldName=Name&amp;Id=Slider7&amp;IsTooltipHidden=1&amp;Step=1&amp;StaticData=%7b71641430-E3FC-443D-8591-BD24CF614E01%7d&amp;ValueFieldName=Value&amp;IsLabelVisible=1&amp;SelectedValue=2" ph="Border7.Content" uid="{7EE4BCEE-BADF-4C20-A686-29D200039150}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanel8&amp;ConfigurationDetails=IsSelectedBarTransparent%3dTrue&amp;IsVisible=1&amp;Description=The+IsSelectedBarTransparent+property+specifies+whether+the+selected+part+of+the+slider+is+transparent.+If+True%2c+the+control+shows+this+part+of+the+slider+with+no+color%2c+the+same+way+as+if+shows+the+unselected+part+of+the+slider.+If+False+(the+default)%2c+the+control+shows+the+selected+part+of+the+slider+in+blue.&amp;Title=Specifying+whether+the+selected+part+is+transparent" uid="{E85A3ADA-83F4-4588-8574-0C9C7A898ECD}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border8&amp;IsVisible=1&amp;UsePadding=1" ph="DemoComponentPanel8.Content" uid="{13A5343C-3C9F-4FE7-B1FE-77A99F192856}" />
+    <r id="{FBBB0431-6B50-45EA-BA7C-2E02E154CC9B}" par="DisplayFieldName=Name&amp;IsSelectedBarTransparent=1&amp;Id=Slider8&amp;IsTooltipHidden=1&amp;Step=1&amp;StaticData=%7b71641430-E3FC-443D-8591-BD24CF614E01%7d&amp;ValueFieldName=Value&amp;IsLabelVisible=1&amp;SelectedValue=2" ph="Border8.Content" uid="{7EE4BCEE-BADF-4C20-A686-29D200039150}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanel13&amp;ConfigurationDetails=LabelsStep%3d2&amp;IsVisible=1&amp;Description=The+LabelsStep+property+specifies+which+labels+the+control+shows.+If+the+value+of+the+property+is+1+(the+default)%2c+the+control+shows+a+label+for+each+value%3b+if+the+value+is+2%2c+a+label+for+every+other+value%3b+and+so+forth.&amp;Title=Specifying+number+of+labels+to+show" uid="{E85A3ADA-83F4-4588-8574-0C9C7A898ECD}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border13&amp;IsVisible=1&amp;UsePadding=1" ph="DemoComponentPanel13.Content" uid="{13A5343C-3C9F-4FE7-B1FE-77A99F192856}" />
+    <r id="{FBBB0431-6B50-45EA-BA7C-2E02E154CC9B}" par="Id=Slider13&amp;IsTooltipHidden=1&amp;Step=1&amp;Maximum=10&amp;LabelsStep=2&amp;Minimum=0&amp;IsLabelVisible=1" ph="Border13.Content" uid="{7EE4BCEE-BADF-4C20-A686-29D200039150}" />
+  </d>
+</r>
+----version----
+language: de-DE
+version: 1
+revision: 2fef58da-5e2d-4486-a446-c51327c6ac7b
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 7
+
+Tooltip
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 4
+
+Demo
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133454Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+2fef58da-5e2d-4486-a446-c51327c6ac7b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133454Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: f87b4ca3-01e5-4eb4-9135-636d317eca4e
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 7
+
+Tooltip
+----field----
+field: {772AEA8A-4D70-43F4-BD6B-EDE5FB060623}
+name: Tooltip
+key: tooltip
+content-length: 0
+
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150817T063542Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f87b4ca3-01e5-4eb4-9135-636d317eca4e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160309T145800Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 84e40bd4-c955-4353-b09d-54d4f75f52e4
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 6
+
+ツールチップ
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 2
+
+デモ
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133621Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+84e40bd4-c955-4353-b09d-54d4f75f52e4
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133621Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

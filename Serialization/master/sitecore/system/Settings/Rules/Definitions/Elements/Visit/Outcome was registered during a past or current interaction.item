@@ -1,0 +1,256 @@
+----item----
+version: 1
+id: {2C772C7C-E368-4553-893A-2A4CCFD32C36}
+database: master
+path: /sitecore/system/Settings/Rules/Definitions/Elements/Visit/Outcome was registered during a past or current interaction
+parent: {27553992-0618-4C76-84B2-1B71F7FA558B}
+name: Outcome was registered during a past or current interaction
+master: {00000000-0000-0000-0000-000000000000}
+template: {F0D16EEE-3A05-4E43-A082-795A32B873C0}
+templatekey: Condition
+created: 20160729T132117Z
+
+----field----
+field: {AB51C8B2-F0E1-4471-9AAE-CC080D774923}
+name: Type
+key: type
+content-length: 130
+
+Sitecore.Analytics.Outcome.Rules.Conditions.OutcomeWasRegisteredDuringPastOrCurrentInteractionCondition,Sitecore.Analytics.Outcome
+----version----
+language: da
+version: 1
+revision: afb6766e-5fa8-4b81-8826-4d6d9fc554fe
+
+----field----
+field: {AF321234-4EB9-4EF5-9197-65903351939C}
+name: Text
+key: text
+content-length: 430
+
+hvor [OutcomeId,Tree,root=/sitecore/system/Marketing Control Panel/Outcomes,specific] resultatet blev registreret under en tidligere eller aktuel interaktion, og hvor antallet af dage, der er gået [NumberOfElapsedDaysOperatorId,Operator,,compares to] [NumberOfElapsedDays,Integer,,number] og hvor det seneste antal interaktioner [NumberOfPastInteractionsOperatorId,Operator,,compares to] [NumberOfPastInteractions,Integer,,number]
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 71
+
+Resultatet blev registreret under en tidligere eller aktuel interaktion
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133410Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+afb6766e-5fa8-4b81-8826-4d6d9fc554fe
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133410Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 4f5594e7-e979-4ccb-a9ba-97138dfa8e9d
+
+----field----
+field: {AF321234-4EB9-4EF5-9197-65903351939C}
+name: Text
+key: text
+content-length: 454
+
+wo das [OutcomeId,Tree,root=/sitecore/system/Marketing Control Panel/Outcomes,specific] Ergebnis registriert wurde, während einer vergangenen oder aktuellen Interaktion und wo die Anzahl der vergangen Tage [NumberOfElapsedDaysOperatorId,Operator,,vergleicht mit] [NumberOfElapsedDays,Integer,,number] und wo die Anzahl der vergangenen Interaktionen [NumberOfPastInteractionsOperatorId,Operator,,vergleicht mit] [NumberOfPastInteractions, Integer,,number]
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 79
+
+Ergebnis wurde während einer vergangenen oder aktuellen Interaktion registriert
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133539Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4f5594e7-e979-4ccb-a9ba-97138dfa8e9d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133539Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: d9646ab5-40aa-42fb-84f9-ce25008ff5a9
+
+----field----
+field: {AF321234-4EB9-4EF5-9197-65903351939C}
+name: Text
+key: text
+content-length: 421
+
+where the [OutcomeId,Tree,root=/sitecore/system/Marketing Control Panel/Outcomes,specific] outcome was registered during a past or current interaction and when the number of elapsed days [NumberOfElapsedDaysOperatorId,Operator,,compares to] [NumberOfElapsedDays,Integer,,number] and when the past number of interactions [NumberOfPastInteractionsOperatorId,Operator,,compares to] [NumberOfPastInteractions,Integer,,number]
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150615T171020Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d9646ab5-40aa-42fb-84f9-ce25008ff5a9
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150615T171411:635699852511724830Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 5feacb80-e612-4e06-927c-a5f233d85127
+
+----field----
+field: {AF321234-4EB9-4EF5-9197-65903351939C}
+name: Text
+key: text
+content-length: 311
+
+条件：過去または現在のインタラクションで [OutcomeId,Tree,root=/sitecore/system/Marketing Control Panel/Outcomes,特定の] 成果が登録された場合、かつ経過日数が [NumberOfElapsedDays,Integer,,数]  [NumberOfElapsedDaysOperatorId,Operator,,と比較する] 場合、かつ過去のインタラクションの数が [NumberOfPastInteractions,Integer,,数] [NumberOfPastInteractionsOperatorId,Operator,,と比較する] 場合
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 28
+
+過去または現在のインタラクション中に成果が登録された場合
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133708Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5feacb80-e612-4e06-927c-a5f233d85127
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133708Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,249 @@
+----item----
+version: 1
+id: {9701CE0E-B0C7-4622-B170-098A630C70F7}
+database: core
+path: /sitecore/client/Applications/CampaignManager/Dialogs/YesNoCancelDialog/PageSettings/LeavePageDialog
+parent: {D2AFD788-C1D4-4FD6-910A-DE84E2C58DEB}
+name: LeavePageDialog
+master: {00000000-0000-0000-0000-000000000000}
+template: {4D96D06C-54EE-47F3-97E5-1B4FA4B902B0}
+templatekey: DialogWindow Parameters
+created: 20160729T132117Z
+
+----field----
+field: {6A80F83A-4295-47E0-BFB5-2F88729AB09B}
+name: Size
+key: size
+content-length: 38
+
+{C2E3A7F7-BD13-4312-A6A7-C03E08951DCC}
+----field----
+field: {91B99AF8-8C82-4F69-A1AB-D2C6B90140BF}
+name: Backdrop
+key: backdrop
+content-length: 4
+
+True
+----version----
+language: da
+version: 1
+revision: f1f271ac-0a1f-4326-8d4c-cbbe117be1de
+
+----field----
+field: {7065AC6A-3607-4F0B-97CF-9D0B46B961FF}
+name: HeaderText
+key: headertext
+content-length: 6
+
+Besked
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 20
+
+ForladSideDialogboks
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133338Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f1f271ac-0a1f-4326-8d4c-cbbe117be1de
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133338Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 015acb8d-dec5-46ed-afa3-7b70e7121e4a
+
+----field----
+field: {7065AC6A-3607-4F0B-97CF-9D0B46B961FF}
+name: HeaderText
+key: headertext
+content-length: 9
+
+Nachricht
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 20
+
+SeitenDialogBelassen
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133508Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+015acb8d-dec5-46ed-afa3-7b70e7121e4a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133508Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 7da10e5d-5d15-4d37-b575-1bf49d934595
+
+----field----
+field: {7065AC6A-3607-4F0B-97CF-9D0B46B961FF}
+name: HeaderText
+key: headertext
+content-length: 7
+
+Message
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150324T153159Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+7da10e5d-5d15-4d37-b575-1bf49d934595
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150325T134818:635628880984693491Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 86b69e16-9e67-48e5-a97e-2f1e259e32ea
+
+----field----
+field: {7065AC6A-3607-4F0B-97CF-9D0B46B961FF}
+name: HeaderText
+key: headertext
+content-length: 5
+
+メッセージ
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 11
+
+終了ページ ダイアログ
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133635Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+86b69e16-9e67-48e5-a97e-2f1e259e32ea
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133635Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

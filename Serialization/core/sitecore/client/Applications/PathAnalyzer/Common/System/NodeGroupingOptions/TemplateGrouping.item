@@ -1,0 +1,270 @@
+----item----
+version: 1
+id: {2DD6D132-7B64-4685-A026-E17CD2D0A323}
+database: core
+path: /sitecore/client/Applications/PathAnalyzer/Common/System/NodeGroupingOptions/TemplateGrouping
+parent: {0B8E5B1B-0A03-472F-B8BF-AD67AC626D09}
+name: TemplateGrouping
+master: {00000000-0000-0000-0000-000000000000}
+template: {D5B095A2-2CBE-49AC-BAC0-CF7840CA4E24}
+templatekey: GroupByTemplateOption
+created: 20160729T132117Z
+
+----field----
+field: {02A5F0C4-FD1C-4B6C-8A45-20185758D437}
+name: Type
+key: type
+content-length: 76
+
+Sitecore.PathAnalyzer.TreeConversions.TemplateGrouping,Sitecore.PathAnalyzer
+----field----
+field: {64D6B17A-A0C2-42C2-B9FE-147119DF2F04}
+name: Excluded Templates
+key: excluded templates
+content-length: 0
+
+
+----field----
+field: {54BFD55B-5B20-4CDC-95DC-3DD9CDB89311}
+name: Excluded Items
+key: excluded items
+content-length: 38
+
+{110D559F-DEA5-42EA-9C1C-8A5DF7E70EF9}
+----version----
+language: da
+version: 1
+revision: 6cc834ab-1590-4b75-bad1-73566d842158
+
+----field----
+field: {DCDD6247-0D3B-43C5-AA83-915032497828}
+name: Title
+key: title
+content-length: 22
+
+Gruppér efter skabelon
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 18
+
+SkabelonGruppering
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133322Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+6cc834ab-1590-4b75-bad1-73566d842158
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133322Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: f94dfc59-9c72-4ea6-b532-c5b1dcc7a13f
+
+----field----
+field: {DCDD6247-0D3B-43C5-AA83-915032497828}
+name: Title
+key: title
+content-length: 18
+
+Gruppe Karte Daten
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 18
+
+VorlageGruppierung
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133448Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f94dfc59-9c72-4ea6-b532-c5b1dcc7a13f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133448Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 7c771755-edde-4050-bfe5-6bb60fd030c9
+
+----field----
+field: {DCDD6247-0D3B-43C5-AA83-915032497828}
+name: Title
+key: title
+content-length: 14
+
+Group map data
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+00010101T000000Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+7c771755-edde-4050-bfe5-6bb60fd030c9
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160611T192329Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 5514c899-a482-4e6d-bce2-4ea69c0b8304
+
+----field----
+field: {DCDD6247-0D3B-43C5-AA83-915032497828}
+name: Title
+key: title
+content-length: 12
+
+グループ マップ データ
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 9
+
+テンプレートの分類
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133614Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5514c899-a482-4e6d-bce2-4ea69c0b8304
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133614Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

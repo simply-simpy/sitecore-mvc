@@ -1,0 +1,256 @@
+----item----
+version: 1
+id: {CB6002AA-6DBC-4053-AC0F-E9681C778118}
+database: core
+path: /sitecore/client/Applications/List Manager/Global Settings/ListTaskPageSettings/List Source Accordion/List source ListManagementAccordion Parameters
+parent: {094B35FA-6FC1-45DF-98CD-C062A037AB1F}
+name: List source ListManagementAccordion Parameters
+master: {00000000-0000-0000-0000-000000000000}
+template: {1C98E698-030C-43FF-8B6C-08D6D7E1B8DC}
+templatekey: AdvancedExpander Parameters
+created: 20160729T132116Z
+
+----field----
+field: {0EA58259-0F86-47BB-B1B7-2EB33D905D15}
+name: IsOpen
+key: isopen
+content-length: 1
+
+1
+----field----
+field: {6D0C0AB0-BC40-4BD0-8ACB-16612A180F14}
+name: IsVisible
+key: isvisible
+content-length: 1
+
+1
+----version----
+language: da
+version: 1
+revision: 9187ae42-f44b-4008-b429-4626cb63373d
+
+----field----
+field: {8D593EBB-4A48-4B85-8E79-BF745023BD61}
+name: Header
+key: header
+content-length: 18
+
+INKLUDEREDE LISTER
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 48
+
+ListManagementAccordion-parametre for listekilde
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133346Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+9187ae42-f44b-4008-b429-4626cb63373d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133346Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 94abda20-3c42-474f-a23f-a85ae2385fee
+
+----field----
+field: {8D593EBB-4A48-4B85-8E79-BF745023BD61}
+name: Header
+key: header
+content-length: 15
+
+Umfasste Listen
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 48
+
+Liste Quelle ListenManagementAccordion Parameter
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133518Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+94abda20-3c42-474f-a23f-a85ae2385fee
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133518Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: d1ada3ec-a121-4564-bae1-435f9b4b0179
+
+----field----
+field: {8D593EBB-4A48-4B85-8E79-BF745023BD61}
+name: Header
+key: header
+content-length: 14
+
+Included lists
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140505T130033
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d1ada3ec-a121-4564-bae1-435f9b4b0179
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20151223T151656Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 0abd5cb4-8cfd-40cb-bb71-6709007348b5
+
+----field----
+field: {8D593EBB-4A48-4B85-8E79-BF745023BD61}
+name: Header
+key: header
+content-length: 8
+
+選択されたリスト
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 34
+
+リスト ソースのリスト マネージメント アコーディオン パラメーター
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133647Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+0abd5cb4-8cfd-40cb-bb71-6709007348b5
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133647Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

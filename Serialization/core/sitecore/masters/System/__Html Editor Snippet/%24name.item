@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {0DE059B9-3CDF-4AEB-AD2D-3488DB635AEC}
+database: core
+path: /sitecore/masters/System/__Html Editor Snippet/$name
+parent: {2C9E00E7-4A4F-42E8-9251-B50A3FDF356F}
+name: $name
+master: {00000000-0000-0000-0000-000000000000}
+template: {3825FE6A-6CA1-489B-A7C9-C3B4B3B38272}
+templatekey: Html Editor Snippet
+created: 20160729T132117Z
+
+----version----
+language: en
+version: 1
+revision: eadb139b-5404-4942-9f37-f61a9e16b8c3
+
+----field----
+field: {C8F93AFE-BFD4-4E8F-9C61-152559854661}
+name: __Valid from
+key: __valid from
+content-length: 15
+
+20050602T112553
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20050602T112553
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 13
+
+sitecoreAdmin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+eadb139b-5404-4942-9f37-f61a9e16b8c3
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20080623T112546:633498171468888867
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {E70AFCF6-21AD-4E48-832D-27BA5EA510E2}
+database: core
+path: /sitecore/templates/System/WebEdit/Edit Frame Button Folder/__Standard Values
+parent: {B0666CFE-8C7B-4CC1-8E32-8253742EBFA9}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {B0666CFE-8C7B-4CC1-8E32-8253742EBFA9}
+templatekey: Edit Frame Button Folder
+created: 20160729T132118Z
+
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 77
+
+{3EFFA15A-C432-493E-A3E4-C6DD5F79CC16}|{1AB4F9AD-B004-413C-8924-3E07143A614B}
+----version----
+language: en
+version: 1
+revision: 1495d6bf-219f-476e-b606-755bf497d5a0
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20081224T132709
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+1495d6bf-219f-476e-b606-755bf497d5a0
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20100120T122042:633995868421480499
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,226 @@
+----item----
+version: 1
+id: {27D62AC2-992B-4556-AC59-E2E01AA205D5}
+database: core
+path: /sitecore/client/Applications/ExperienceEditor/Dialogs/SelectDateTime
+parent: {AE3C8335-0ECA-4AFE-BE7A-879DFDE36C2F}
+name: SelectDateTime
+master: {00000000-0000-0000-0000-000000000000}
+template: {8152CF09-9DD0-40C0-B806-6E91FDF389BC}
+templatekey: Speak-DialogPage
+created: 20160729T132117Z
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 2063
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{4F72A793-BDBC-4262-9523-6AADD8FEA487}">
+    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="PageCodeTypeName=Sitecore.ExperienceEditor.Speak.Dialogs.SelectDateTime%2c+Sitecore.ExperienceEditor.Speak&amp;PageCodeScriptFileName=%2fsitecore%2fshell%2fclient%2fSitecore%2fExperienceEditor%2fDialogs%2fSelectDateTime.js" ph="Page.Code" uid="{ED47EC77-B5CA-4BCD-AD57-6FA64872E866}" />
+    <r ds="{B2C622EE-8BB1-4EAD-8716-C291E0F086B3}" id="{39F10B5B-6CED-4B3A-B0A6-AC0C9F15A2A2}" par="Id=BaseDialogMockup1" ph="Page.Body" uid="{6710D4D6-958D-494E-8C5F-F583F9BF82F5}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=SelectedDateBorder&amp;UsePadding=1&amp;ShowBorder=0" ph="Dialog.Content" uid="{7479F2DF-A3C2-4110-9DF4-45B75E20C78A}" />
+    <r ds="{4CCFCE6D-F9A0-4A42-95D8-DF992A6F824F}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=DateTimeText" ph="SelectedDateBorder.Content" uid="{A9F2E6E4-A69D-4E72-AC4B-3336472A2E4C}" />
+    <r id="{3CAC8515-EA11-4B97-A1E5-546DC6FC5E59}" par="Id=SelectedDate&amp;Time=%7bBinding+SelectedTime.Time%7d" ph="SelectedDateBorder.Content" uid="{EFA5E2C2-307A-4283-840F-6EB4F012BC69}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=SelectedTimeBorder&amp;UsePadding=1&amp;ShowBorder=0" ph="Dialog.Content" uid="{44C75175-0D83-4387-A45F-39EC947BB2FE}" />
+    <r id="{2C2B43A1-404B-46F5-8D9B-435EFDDBF526}" par="Id=SelectedTime&amp;IsAnyValueAccepted=0&amp;IsDefaultCurrentTime=0" ph="SelectedTimeBorder.Content" uid="{00E4DD5D-E33D-4C85-B381-1A9050A37903}" />
+    <r ds="{56F2002E-BE8D-468B-9193-E6D5C2CA2D77}" id="{913AB005-2527-4C2D-9827-FB3A8DFB135C}" par="Click=trigger%3abutton%3aok&amp;Id=OkButton&amp;ButtonType=Primary" ph="Dialog.Buttons" uid="{CCE1FDDF-5425-4B29-B984-8AAAB1FCC449}" />
+    <r ds="{92D6B4F2-2E69-4D38-841A-2B662FBFAA90}" id="{913AB005-2527-4C2D-9827-FB3A8DFB135C}" par="Click=trigger%3abutton%3acancel&amp;Id=CancelButton" ph="Dialog.Buttons" uid="{26C85E4C-9CFB-4934-B615-6E2323A554AC}" />
+  </d>
+</r>
+----version----
+language: da
+version: 1
+revision: b238b6c5-56f6-4f22-b251-b1a9fe247b33
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 14
+
+SelectDateTime
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133320Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b238b6c5-56f6-4f22-b251-b1a9fe247b33
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133320Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 9788a51c-6182-4585-b6ef-8ee72373d1ca
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 21
+
+DatumUhrzeitAuswählen
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133446Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+9788a51c-6182-4585-b6ef-8ee72373d1ca
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133446Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: ad0601d9-9718-42d0-992d-5cdad4d305fa
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130827T110018
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ad0601d9-9718-42d0-992d-5cdad4d305fa
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20151020T143807Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 562ffc3d-2fc6-4e63-bb79-f90bf5aab128
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 5
+
+日時を選択
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133613Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+562ffc3d-2fc6-4e63-bb79-f90bf5aab128
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133613Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

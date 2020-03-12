@@ -1,0 +1,73 @@
+----item----
+version: 1
+id: {A1068531-B1F3-445E-ADC7-14ABDEF66457}
+database: core
+path: /sitecore/client/Business Component Library/version 2/Layouts/Renderings/Lists and Grids/ItemTreeView/ItemTreeView Parameters/__Standard Values
+parent: {AA697A95-4189-4015-8A0B-DA76D6A83589}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {AA697A95-4189-4015-8A0B-DA76D6A83589}
+templatekey: ItemTreeView Parameters
+created: 20160729T132117Z
+
+----field----
+field: {B69B5D49-A984-4C3F-9F1C-97197FB1DBEC}
+name: ShowSitecoreIcons
+key: showsitecoreicons
+content-length: 1
+
+1
+----field----
+field: {82E7894F-D12D-4110-9D50-33CC59F288B2}
+name: ShowIconImage
+key: showiconimage
+content-length: 1
+
+1
+----field----
+field: {4B231227-AB32-45DA-9D5C-C48F5FD87BF9}
+name: ClickFolderMode
+key: clickfoldermode
+content-length: 0
+
+
+----field----
+field: {E0F5C2E5-EA32-4463-AEF5-925D4194B4A2}
+name: IsCheckModeEnabled
+key: ischeckmodeenabled
+content-length: 1
+
+1
+----version----
+language: en
+version: 1
+revision: 93bcf9f2-3413-4993-b967-534e5084a0e2
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150729T110705Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+93bcf9f2-3413-4993-b967-534e5084a0e2
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20150810T134124Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

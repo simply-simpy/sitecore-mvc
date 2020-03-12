@@ -1,0 +1,238 @@
+----item----
+version: 1
+id: {7DB1387F-E2B4-4376-89E2-80995A8E6215}
+database: core
+path: /sitecore/client/Business Component Library/version 2/Content/Guidance/Renderings/Containers/ProgressIndicatorPanel/PageSettings/Tabs/Demo
+parent: {4DB7AA2A-A5E3-41AD-AC38-A73EDABA1CC6}
+name: Demo
+master: {00000000-0000-0000-0000-000000000000}
+template: {8A7ACB1A-0990-4C9E-A6F0-9612D0F5F51C}
+templatekey: Tab
+created: 20160729T132116Z
+
+----field----
+field: {3A98ADC3-530B-4281-880D-2D56DCC605AF}
+name: IsLazyLoaded
+key: islazyloaded
+content-length: 0
+
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 4
+
+-100
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 10116
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{759BEFD1-3323-404D-A243-E0ED81163C03}">
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanel1&amp;ConfigurationDetails=Delay%3a2000&amp;Description=The+Delay+property+specifies+the+delay+after+the+IsBusy+property+becomes+True+before+the+control+shows+the+progress+indicator.+The+default+is+400ms.&amp;Title=Specifying+delay" uid="{E85A3ADA-83F4-4588-8574-0C9C7A898ECD}" />
+    <r id="{4FCB66FF-03DF-4F4E-BD4D-A017CDFC4B09}" par="Id=ProgressIndicatorPanel1&amp;IsFullWidth=1&amp;IsBusy=%7bBinding+ToggleButton1.IsOpen%7d&amp;Delay=2000" ph="DemoComponentPanel1.Content" uid="{F3F549AF-B259-40CF-8D9D-157FF4E71064}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border2&amp;UsePadding=1" ph="ProgressIndicatorPanel1.Content" uid="{700075C9-8358-418C-960D-9BAF4FB0899A}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border&amp;UsePadding=1" ph="Border2.Content" uid="{700075C9-8358-418C-960D-9BAF4FB0899A}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border1&amp;UsePadding=1" ph="Border.Content" uid="{700075C9-8358-418C-960D-9BAF4FB0899A}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="TextWeight=Bold&amp;Id=Text&amp;Text=Content+inside+the+ProgressIndicatorPanel&amp;TextSize=Large" ph="Border1.Content" uid="{16723CC6-C4B6-4534-8225-655F9C5CFECC}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border3&amp;PaddingType=Top&amp;UsePadding=1" ph="DemoComponentPanel1.Content" uid="{36C4C8A8-B318-40B1-8ACC-04961FBF1F6A}" />
+    <r id="{C0182326-91FE-45C6-8BF0-C1C3AFE1D21A}" par="Id=ToggleButton1&amp;Text=Toggle+IsBusy" ph="DemoComponentPanel1.Content" uid="{7C8ACE5B-8298-4FD0-87C3-501897C59C89}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanel&amp;ConfigurationDetails=Delay%3a1&amp;Description=The+IsBusy+property+determines+whether+the+control+shows+the+progress+indicator.+In+the+example%2c+the+IsBusy+property+is+bound+to+the+IsOpen+property+of+the+ToggleButton+control.&amp;Title=Showing+the+progress+indicator" uid="{E85A3ADA-83F4-4588-8574-0C9C7A898ECD}" />
+    <r id="{6BD31067-6DAB-4028-B5FD-584C3F6208EF}" par="NumberOfCells=3&amp;Id=Grid1&amp;CellAttributes=%7b%22numberOfCells%22%3a3%2c%22layoutType%22%3a%22fb84b533-b4ac-4af8-b3ad-fe215a5beb94%22%2c%22sizeAttributes%22%3a%5b%7b%22cellAttributes%22%3a%5b%7b%22index%22%3a1%2c%22span%22%3a1%7d%2c%7b%22index%22%3a2%2c%22span%22%3a1%7d%2c%7b%22index%22%3a3%2c%22span%22%3a1%7d%5d%2c%22numberOfColumns%22%3a3%2c%22size%22%3a%22Large%22%7d%2c%7b%22cellAttributes%22%3a%5b%7b%22index%22%3a1%2c%22span%22%3a1%7d%2c%7b%22index%22%3a2%2c%22span%22%3a1%7d%2c%7b%22index%22%3a3%2c%22span%22%3a1%7d%5d%2c%22numberOfColumns%22%3a2%2c%22size%22%3a%22Medium%22%7d%2c%7b%22cellAttributes%22%3a%5b%7b%22index%22%3a1%2c%22span%22%3a1%7d%2c%7b%22index%22%3a2%2c%22span%22%3a1%7d%2c%7b%22index%22%3a3%2c%22span%22%3a1%7d%5d%2c%22numberOfColumns%22%3a1%2c%22size%22%3a%22Small%22%7d%2c%7b%22cellAttributes%22%3a%5b%7b%22index%22%3a1%2c%22span%22%3a1%7d%2c%7b%22index%22%3a2%2c%22span%22%3a1%7d%2c%7b%22index%22%3a3%2c%22span%22%3a1%7d%5d%2c%22numberOfColumns%22%3a1%2c%22size%22%3a%22XSmall%22%7d%5d%7d&amp;UseCellBottomPadding=1&amp;LayoutType=%7bFB84B533-B4AC-4AF8-B3AD-FE215A5BEB94%7d" ph="DemoComponentPanel.Content" uid="{AE25F8D1-5C58-4FC1-9CB0-3B0F5C515056}" />
+    <r id="{4FCB66FF-03DF-4F4E-BD4D-A017CDFC4B09}" par="Id=ProgressIndicatorPanel2&amp;IsFullWidth=1&amp;IsBusy=%7bBinding+ToggleButton.IsOpen%7d&amp;Delay=1" ph="Grid1.Cell1" uid="{9FA57265-D5FE-4432-AE3E-5D6B6FD84DCD}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border5&amp;ShowBorder=1&amp;UsePadding=1" ph="ProgressIndicatorPanel2.Content" uid="{7821A542-20E4-4C20-A594-285A5B5EA264}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border6&amp;ShowBorder=0&amp;UsePadding=1" ph="Border5.Content" uid="{7821A542-20E4-4C20-A594-285A5B5EA264}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border4&amp;UsePadding=1" ph="Border6.Content" uid="{7821A542-20E4-4C20-A594-285A5B5EA264}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="TextWeight=Bold&amp;Id=Text1&amp;Text=Content+in+ProgressIndicatorPanel1&amp;TextSize=Large" ph="Border4.Content" uid="{16723CC6-C4B6-4534-8225-655F9C5CFECC}" />
+    <r id="{4FCB66FF-03DF-4F4E-BD4D-A017CDFC4B09}" par="Id=ProgressIndicatorPanel3&amp;IsFullWidth=1&amp;IsBusy=%7bBinding+ToggleButton.IsOpen%7d&amp;Delay=1" ph="Grid1.Cell2" uid="{7C16AD01-0B98-4A20-9355-7638905335EF}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border7&amp;ShowBorder=1&amp;UsePadding=1" ph="ProgressIndicatorPanel3.Content" uid="{36C4C8A8-B318-40B1-8ACC-04961FBF1F6A}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border8&amp;ShowBorder=0&amp;UsePadding=1" ph="Border7.Content" uid="{B2C0EF6B-5A17-4BD5-B270-3EE57EC1E771}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border9&amp;UsePadding=1" ph="Border8.Content" uid="{2960032E-C609-48A1-8B16-0A466725A2F1}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="TextWeight=Bold&amp;Id=Text2&amp;Text=Content+in+ProgressIndicatorPanel2&amp;TextSize=Large" ph="Border9.Content" uid="{71EA602A-6235-474F-8372-D5B5DE877BEA}" />
+    <r id="{4FCB66FF-03DF-4F4E-BD4D-A017CDFC4B09}" par="Id=ProgressIndicatorPanel4&amp;IsFullWidth=1&amp;IsBusy=%7bBinding+ToggleButton.IsOpen%7d&amp;Delay=1" ph="Grid1.Cell3" uid="{A30CAB08-11F8-4E3B-B003-8B708A5B6EC6}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border10&amp;ShowBorder=1&amp;UsePadding=1" ph="ProgressIndicatorPanel4.Content" uid="{85F73E77-A8C3-4D7C-AD98-767FAA27EF3D}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border11&amp;ShowBorder=0&amp;UsePadding=1" ph="Border10.Content" uid="{99BE68FA-6C3C-4630-B606-8ED141FF71D1}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border12&amp;UsePadding=1" ph="Border11.Content" uid="{1F4D2032-346B-4154-9DDF-48D800FBEDF9}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="TextWeight=Bold&amp;Id=Text3&amp;Text=Content+in+ProgressIndicatorPanel3&amp;TextSize=Large" ph="Border12.Content" uid="{71EA602A-6235-474F-8372-D5B5DE877BEA}" />
+    <r id="{C0182326-91FE-45C6-8BF0-C1C3AFE1D21A}" par="Id=ToggleButton&amp;Text=Toggle+IsBusy" ph="DemoComponentPanel.Content" uid="{7C8ACE5B-8298-4FD0-87C3-501897C59C89}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanel2&amp;Description=The+IsFullWidth+property+specifies+whether+the+control+used+the+full+width+of+the+container.+When+True+(the+default)%2c+it+does+use+the+full+width.+This+is+the+first+example+below.+When+False%2c+it+sets+the+width+to+fit+the+content.+This+is+the+second+example.&amp;Title=Specifying+width" uid="{182632DB-E836-4FFA-9333-AD68D92FEF3C}" />
+    <r id="{4FCB66FF-03DF-4F4E-BD4D-A017CDFC4B09}" par="Id=ProgressIndicatorPanel5&amp;IsFullWidth=1&amp;IsBusy=1" ph="DemoComponentPanel2.Content" uid="{6019A62A-7EE0-45B6-911B-882BFDC315BE}" />
+    <r id="{9C2B35A3-791E-4363-9073-37D237E386B0}" par="Width=225&amp;Id=Image&amp;ImageUrl=%2fsitecore%2fshell%2fclient%2fBusiness+Component+Library%2fversion+2%2fContent%2fGuidance%2fAssets%2fimg%2fsitecore.jpg&amp;Height=225" ph="ProgressIndicatorPanel5.Content" uid="{69CA3042-63D0-40C8-B331-28F54DF32F5C}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border13&amp;PaddingType=Top&amp;UsePadding=1" ph="DemoComponentPanel2.Content" uid="{E7C3FB25-83F7-43B3-9DD7-05D006FA745C}" />
+    <r id="{4FCB66FF-03DF-4F4E-BD4D-A017CDFC4B09}" par="Id=ProgressIndicatorPanel&amp;IsFullWidth=0&amp;IsBusy=1" ph="DemoComponentPanel2.Content" uid="{6019A62A-7EE0-45B6-911B-882BFDC315BE}" />
+    <r id="{9C2B35A3-791E-4363-9073-37D237E386B0}" par="Width=225&amp;Id=Image1&amp;ImageUrl=%2fsitecore%2fshell%2fclient%2fBusiness+Component+Library%2fversion+2%2fContent%2fGuidance%2fAssets%2fimg%2fsitecore.jpg&amp;Height=225" ph="ProgressIndicatorPanel.Content" uid="{69CA3042-63D0-40C8-B331-28F54DF32F5C}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanel3&amp;ConfigurationDetails=AutoShow%3dTrue%26AutoTimeout%3d1&amp;Description=The+AutoShow+property+specifies+whether+the+control+shows+the+progress+indicator+automatically+when+an+Ajax+is+made+from+the+page.+When+True%2c+it+shows+the+indicator+after+the+amount+ot+time+specified+by+the+AutoShowTimeout+property.&amp;Title=Showing+automatically+after+Ajax+call" uid="{7ADA6AFA-E4C5-4B2F-88AF-A032128DF3FB}" />
+    <r id="{4FCB66FF-03DF-4F4E-BD4D-A017CDFC4B09}" par="Id=ProgressIndicatorPanel6&amp;IsFullWidth=1&amp;AutoShow=1&amp;AutoShowTimeout=1" ph="DemoComponentPanel3.Content" uid="{CBB800F8-63D0-403E-94CD-C81A84B7C26D}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border16&amp;UsePadding=1" ph="ProgressIndicatorPanel6.Content" uid="{CF8D5AEA-AE18-4E8D-B54B-A1D3FB247B1B}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border15&amp;UsePadding=1" ph="Border16.Content" uid="{CF8D5AEA-AE18-4E8D-B54B-A1D3FB247B1B}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border14&amp;UsePadding=1" ph="Border15.Content" uid="{CF8D5AEA-AE18-4E8D-B54B-A1D3FB247B1B}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="TextWeight=Bold&amp;Id=Text4&amp;Text=Content+inside+the+ProgressIndicatorPanel&amp;TextSize=Large" ph="Border14.Content" uid="{16723CC6-C4B6-4534-8225-655F9C5CFECC}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border17&amp;PaddingType=Top&amp;UsePadding=1" ph="DemoComponentPanel3.Content" uid="{B08DB619-2A38-4D98-816C-763959BB60FC}" />
+    <r id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" par="Id=Button1&amp;Text=Make+AJAX+call&amp;Click=javascript%3a%24.ajax(%7burl%3a+%27http%3a%2f%2fjsfiddle.net%2fecho%2fjsonp%2f%3fcallback%3d%3f%27%2cdataType%3a+%27json%27%2csuccess%3a+function+()+%7balert(%27AJAX+Success!%27)%7d%7d)" ph="DemoComponentPanel3.Content" uid="{2CD3FBDB-ED1A-4DC9-BA44-A3040ED61024}" />
+  </d>
+</r>
+----version----
+language: de-DE
+version: 1
+revision: d61fb2e2-af75-44ac-b79c-bd79221be786
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 4
+
+Demo
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 4
+
+Demo
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133503Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d61fb2e2-af75-44ac-b79c-bd79221be786
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133503Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: c5ee67d0-d0e7-4f78-af2b-00991d394fb7
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 4
+
+Demo
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150406T063729Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c5ee67d0-d0e7-4f78-af2b-00991d394fb7
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160415T100829Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 16acf6d8-223b-43ec-aeb4-f29bda02f377
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 2
+
+デモ
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 2
+
+デモ
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133630Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+16acf6d8-223b-43ec-aeb4-f29bda02f377
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133630Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

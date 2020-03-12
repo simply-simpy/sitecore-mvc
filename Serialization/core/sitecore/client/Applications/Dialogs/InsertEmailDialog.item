@@ -1,0 +1,314 @@
+----item----
+version: 1
+id: {9DC7BBBB-2943-4724-B014-9A283355CD12}
+database: core
+path: /sitecore/client/Applications/Dialogs/InsertEmailDialog
+parent: {648AFADA-20C7-413A-9636-44703A16DFCF}
+name: InsertEmailDialog
+master: {00000000-0000-0000-0000-000000000000}
+template: {8152CF09-9DD0-40C0-B806-6E91FDF389BC}
+templatekey: Speak-DialogPage
+created: 20160729T132117Z
+
+----field----
+field: {5E642935-A6FC-48E9-B039-FE1136CED488}
+name: Theme
+key: theme
+content-length: 6
+
+Oxford
+----field----
+field: {F7B4EBC1-2335-4EB8-AFAE-3444923A38BE}
+name: Subthemes
+key: subthemes
+content-length: 38
+
+{F69304BA-2B80-4555-96DD-6F08559405E1}
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 7298
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{4F72A793-BDBC-4262-9523-6AADD8FEA487}">
+    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="PageCodeTypeName=Sitecore.Speak.Applications.InsertEmail%2c+Sitecore.Speak.Applications&amp;PageCodeScriptFileName=%2fsitecore%2fshell%2fclient%2fApplications%2fDialogs%2fInsertEmailDialog.js" ph="Page.Code" uid="{09B2A418-4072-497B-A3F5-325D8DC1B1D6}" />
+    <r id="{7BA20861-BC27-4F0E-94DD-8F974628A5C4}" ph="Page.Body" uid="{E25BE131-75C4-40EA-959C-D3924F93964C}" />
+    <r id="{642C1164-3AE1-4D86-8474-3BC19FE4433B}" ph="DialogHeader" uid="{E0FC3312-4402-4D87-983B-EA133AF94417}" />
+    <r id="{D8C6868D-7AE2-447F-9FD2-E712FDFA46C1}" ph="DialogFooter" uid="{A061A4E7-F47D-42F8-AC31-6D9F0441F9B2}" />
+    <r id="{8817F241-28C9-45AA-8C8D-434E71BCEF4B}" ph="DialogContent" uid="{19F95695-AF1C-47BA-A894-B627EFE8BB03}" />
+    <r id="{C4393722-39FA-4869-9582-3A8EB8983A0D}" par="Id=ToolbarRowPanel" ph="DialogContent.Actions" uid="{97FF70C2-6455-4EED-A6DF-17D4214B8284}" />
+    <r ds="{0040D00C-EC60-421D-A1BE-975DA9931B35}" id="{C80807A7-AD13-4693-9822-DD840CB266C5}" par="Id=Back" ph="DialogContent.Back" uid="{41DE1E1A-C733-4AF4-9683-4FF97253420A}" />
+    <r ds="{07296C9B-3EC2-4545-A3F8-425CE62D0350}" id="{913AB005-2527-4C2D-9827-FB3A8DFB135C}" par="Id=InsertEmailLink&amp;IsEnabled=0&amp;ButtonType=Primary" ph="DialogFooter.Buttons" uid="{B81C6AFD-C40B-4014-9DFF-BECFB6D94BEE}" />
+    <r ds="{BEABC7A4-0D0A-4D4C-9220-CF3124FA4DA3}" id="{913AB005-2527-4C2D-9827-FB3A8DFB135C}" par="Id=CancelButton&amp;ButtonType=Default" ph="DialogFooter.Buttons" uid="{F5005B19-B18B-47BE-B0CA-D92005C2FECA}" />
+    <r ds="{AD6EE1CF-CC03-468A-A067-CE5AC901100D}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="&amp;Id=Text" ph="DialogHeader.Title" uid="{7985BD11-2768-480F-B9F6-7F63BE7BB62A}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=Title&amp;UsePadding=1" ph="DialogContent" uid="{80DD63C0-F300-4FC0-A2F7-A34272D4AC2E}" />
+    <r id="{C4393722-39FA-4869-9582-3A8EB8983A0D}" par="Id=RowPanel" ph="DialogContent" uid="{6BF1DF0C-1BB5-4E40-9075-4837893E40AC}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=LeftPane&amp;GridColumns=5" ph="RowPanel.Content" uid="{85122637-AF50-4BB7-9DF5-0F5317FDB44C}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=CenterPanel&amp;GridColumns=2" ph="RowPanel.Content" uid="{26D08056-1EA6-4D3F-ABC0-64CBDC781B6E}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=RightPane&amp;GridColumns=5" ph="RowPanel.Content" uid="{2126EB9D-111B-47AC-B768-3C2286F0CEC2}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="GridColumns=6&amp;ContentAlign=Left&amp;Id=DisplayTextBorder&amp;UsePadding=1" ph="LeftPane.Content" uid="{7A44B655-826D-43D8-A781-CAFEF1CFFCD3}" />
+    <r id="{C4393722-39FA-4869-9582-3A8EB8983A0D}" par="Id=DisplayRow" ph="DisplayTextBorder.Content" uid="{D5B51311-362F-4DF6-A303-A789582B1245}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=DisplayLabelCol&amp;GridColumns=3" ph="DisplayRow.Content" uid="{ED6BE733-10ED-44F4-88C9-7766DD7CDD7F}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=DisplayTextCol&amp;GridColumns=9" ph="DisplayRow.Content" uid="{276AB17E-D656-413D-9ED1-DB8E441E4D96}" />
+    <r ds="{161831F1-3F7B-4B6F-8E15-9D0F521F63E8}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=DisplayedTextLabel&amp;TextType=Label" ph="DisplayLabelCol.Content" uid="{CF9BEE49-E1E7-4010-836D-D4E679D1A151}" />
+    <r id="{57F86E9A-1844-45CE-BF8A-62900AE17A92}" par="IsEnabled=1&amp;Id=DisplayedText&amp;IsVisible=1" ph="DisplayTextCol.Content" uid="{059D68D1-764F-410A-BC4F-B5D3F728383E}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=SubjectBorder&amp;UsePadding=1" ph="RightPane.Content" uid="{59BEEEB6-8EB8-484E-8B47-D7C6D5E31DCB}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=SubjectLabelCol&amp;GridColumns=3" ph="SubjectRow.Content" uid="{7A699951-46D6-4561-93F2-D07D505D6A1A}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=SubjectTextCol&amp;GridColumns=9" ph="SubjectRow.Content" uid="{9B406CA4-10F6-4D1F-92B7-44B75481A2C9}" />
+    <r ds="{29643003-6652-4899-91B8-9A54C95E73AD}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=SubjectLabel" ph="SubjectLabelCol.Content" uid="{0E250F9D-9D6B-48D7-B4D7-D56154443BA4}" />
+    <r id="{57F86E9A-1844-45CE-BF8A-62900AE17A92}" par="IsEnabled=1&amp;Id=Subject&amp;IsVisible=1" ph="SubjectTextCol.Content" uid="{01073176-6FF1-4C07-97E7-45B24B81CBC7}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=EmailAddressBorder&amp;UsePadding=1" ph="LeftPane.Content" uid="{7F3F4181-A173-44C0-ACDD-D8564F44E4F4}" />
+    <r id="{C4393722-39FA-4869-9582-3A8EB8983A0D}" par="Id=EmailRow" ph="EmailAddressBorder.Content" uid="{4724C57A-2CEB-4F84-A5BC-C536CA6BD542}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=EmailLabelCol&amp;GridColumns=3" ph="EmailRow.Content" uid="{8FF66390-5BF8-424A-8F45-E7D5BF11AED2}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=EmailTextCol&amp;GridColumns=9" ph="EmailRow.Content" uid="{DBDAA628-9384-448C-B13E-DF18E17D31F6}" />
+    <r ds="{158E0E2D-B1E5-42F1-AD82-BB27B6B9B56E}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=EmailAddressLabel" ph="EmailLabelCol.Content" uid="{DD278D8E-5C6F-4B5C-B8C9-56E59C34A40D}" />
+    <r id="{57F86E9A-1844-45CE-BF8A-62900AE17A92}" par="IsEnabled=1&amp;Id=EmailAddress&amp;IsVisible=1" ph="EmailTextCol.Content" uid="{6D9BB530-3F4C-40D4-88DD-A4ADB3C7462C}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="ContentAlign=Left&amp;Id=StyleBorder&amp;UsePadding=1" ph="RightPane.Content" uid="{E73EE6E5-AF41-48B7-8C96-C07F00A5DC6B}" />
+    <r id="{C4393722-39FA-4869-9582-3A8EB8983A0D}" par="Id=StyleRow" ph="StyleBorder.Content" uid="{FB770488-8900-4BA4-BB4D-43D5A9692A95}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=StyleLabelCol&amp;GridColumns=3" ph="StyleRow.Content" uid="{DFDD00D6-E94F-4861-B38F-90079667E47F}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=StyleTextCol&amp;GridColumns=9" ph="StyleRow.Content" uid="{39D82215-796E-4C6A-9EE6-AC36023DEBCA}" />
+    <r ds="{80E8D773-ADFB-4D1F-89E8-D0D062775736}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=StyleLabel" ph="StyleLabelCol.Content" uid="{0A8A10E4-68D5-4DB2-AEC7-BC825D2DE6C0}" />
+    <r id="{57F86E9A-1844-45CE-BF8A-62900AE17A92}" par="IsEnabled=1&amp;Id=Style&amp;IsVisible=1" ph="StyleTextCol.Content" uid="{AD98D63E-7A29-4DD0-A931-9FF25D9D1F6B}" />
+    <r id="{1169C5EF-E49C-4B59-848D-9C9204E40D12}" par="RuleItemId=%7bCCFF2916-8F1B-454F-84FF-C8C6006623A5%7d&amp;Id=OKButtonRule&amp;TargetControl=InsertEmailLink&amp;Trigger=click&amp;Field=Rule" ph="Page.Body" uid="{1EAA28A8-E5BC-46D5-B010-4E2213FB29F0}" />
+    <r id="{1169C5EF-E49C-4B59-848D-9C9204E40D12}" par="RuleItemId=%7bC112C524-0D77-4225-83B9-C3417E7A97C7%7d&amp;Id=CancelButtonRule&amp;TargetControl=CancelButton&amp;Trigger=click&amp;Field=Rule" ph="Page.Body" uid="{ACB9A8E4-7B5B-4881-8B4E-5D3B51E952A4}" />
+    <r id="{C4393722-39FA-4869-9582-3A8EB8983A0D}" par="Id=SubjectRow" ph="SubjectBorder.Content" uid="{392033AF-10E4-49CE-8329-409854BED92E}" />
+  </d>
+</r>
+----version----
+language: da
+version: 1
+revision: 826cb0cb-140a-4b8d-a645-b712b05ba26c
+
+----field----
+field: {7205A57F-93B4-413A-AA9A-6B16BBC59565}
+name: BrowserTitle
+key: browsertitle
+content-length: 20
+
+Indsæt e-mailadresse
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 17
+
+InsertEmailDialog
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 35
+
+20141025T013115:635497974757118147Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+826cb0cb-140a-4b8d-a645-b712b05ba26c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133339Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: c4562131-2ca3-4281-b60a-73636937f629
+
+----field----
+field: {7205A57F-93B4-413A-AA9A-6B16BBC59565}
+name: BrowserTitle
+key: browsertitle
+content-length: 15
+
+E-Mail einfügen
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 19
+
+EmailDialogEinfügen
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 35
+
+20141025T014505:635497983057483883Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c4562131-2ca3-4281-b60a-73636937f629
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133509Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: bd324071-4dba-4b9f-9b0b-c5898371fb0d
+
+----field----
+field: {7205A57F-93B4-413A-AA9A-6B16BBC59565}
+name: BrowserTitle
+key: browsertitle
+content-length: 12
+
+Insert Email
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130405T144148
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+bd324071-4dba-4b9f-9b0b-c5898371fb0d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150205T072727:635587180477853667Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 0a416260-f93c-4b32-b128-1ba9984e73f3
+
+----field----
+field: {7205A57F-93B4-413A-AA9A-6B16BBC59565}
+name: BrowserTitle
+key: browsertitle
+content-length: 8
+
+電子メールを挿入
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 13
+
+電子メールを挿入ダイアログ
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 35
+
+20141025T021702:635498002222824332Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+0a416260-f93c-4b32-b128-1ba9984e73f3
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133636Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

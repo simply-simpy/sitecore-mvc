@@ -1,0 +1,235 @@
+----item----
+version: 1
+id: {CA238978-1F52-4C10-BF34-2AF172441C57}
+database: core
+path: /sitecore/client/Applications/ContentTesting/Dialogs/TestSummary/PageSettings/Texts/Value Improved Text
+parent: {6C25C295-F517-4488-98F2-36FB560D0EB7}
+name: Value Improved Text
+master: {00000000-0000-0000-0000-000000000000}
+template: {89E58DDA-BCD8-406E-82A2-E459F4130CA8}
+templatekey: TextTemplate Parameters
+created: 20160729T132117Z
+
+----version----
+language: da
+version: 1
+revision: 4519c948-0aed-4677-a9ac-5b9fd6ca88d7
+
+----field----
+field: {EE7FC573-596E-41DF-BE8D-2D343AC8E9A6}
+name: Text
+key: text
+content-length: 129
+
+Oplevelsen forøgede engagementsværdien med <%= valueChange %>% sammenlignet med den originale baseret på <%= confidence %> besøg.
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 20
+
+Værdiforbedret tekst
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133346Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4519c948-0aed-4677-a9ac-5b9fd6ca88d7
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133346Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: a0449c19-9e38-4056-8797-cc849f10ca0e
+
+----field----
+field: {EE7FC573-596E-41DF-BE8D-2D343AC8E9A6}
+name: Text
+key: text
+content-length: 150
+
+Die Erfahrung hat den Engagementwert um <%= valueChange %>% verbessert im Vergleich zum ursprünglichen Wert, basierend auf <%= confidence %> Besuchen.
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 22
+
+Wert Verbesserter Text
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133518Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a0449c19-9e38-4056-8797-cc849f10ca0e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133518Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 72aebe7a-1438-4eb5-8bba-fb680123f27c
+
+----field----
+field: {EE7FC573-596E-41DF-BE8D-2D343AC8E9A6}
+name: Text
+key: text
+content-length: 128
+
+The experience improved the engagement value by <%= valueChange %>% compared to the original, based on <%= confidence %> visits.
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150423T044222Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+72aebe7a-1438-4eb5-8bba-fb680123f27c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150423T044857:635653613379960824Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 15364cc5-e7ca-4272-b0c4-5629259fd925
+
+----field----
+field: {EE7FC573-596E-41DF-BE8D-2D343AC8E9A6}
+name: Text
+key: text
+content-length: 77
+
+訪問数 <%= confidence %> あたりのエンゲージメント バリューは、オリジナルと比べて <%= valueChange %>% 増加しました
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 14
+
+インポートされたテキストの値
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133646Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+15364cc5-e7ca-4272-b0c4-5629259fd925
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133646Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

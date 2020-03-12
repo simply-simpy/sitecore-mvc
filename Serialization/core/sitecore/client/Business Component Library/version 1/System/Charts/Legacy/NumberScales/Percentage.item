@@ -1,0 +1,256 @@
+----item----
+version: 1
+id: {9C79FECE-5F77-41EE-892F-3989A3F736AA}
+database: core
+path: /sitecore/client/Business Component Library/version 1/System/Charts/Legacy/NumberScales/Percentage
+parent: {52015EA7-C0A4-412D-9655-17ABEC6294BE}
+name: Percentage
+master: {00000000-0000-0000-0000-000000000000}
+template: {B070668D-388C-4A3B-B3C6-32AEA8E57943}
+templatekey: NumberScale
+created: 20160729T132116Z
+
+----field----
+field: {789F3C50-084D-4921-B6DD-E4A09F7C7D85}
+name: ScaleValue
+key: scalevalue
+content-length: 4
+
+0.01
+----version----
+language: da
+version: 1
+revision: 08ace38f-835f-42a7-8f77-b97c77b8f314
+
+----field----
+field: {2AAF9353-A614-4BEC-9E36-D0AA64A5E1E1}
+name: ScaleUnit
+key: scaleunit
+content-length: 16
+
+"min.,t,dag,uge"
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 7
+
+Procent
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 35
+
+20140710T083937:635405783775981161Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+08ace38f-835f-42a7-8f77-b97c77b8f314
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133339Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 06c27a67-0e1d-4ae6-8c45-96b7d56a682b
+
+----field----
+field: {2AAF9353-A614-4BEC-9E36-D0AA64A5E1E1}
+name: ScaleUnit
+key: scaleunit
+content-length: 15
+
+"min,hr,day,wk"
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 7
+
+Prozent
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 34
+
+20140228T205325:635292176056451556
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+06c27a67-0e1d-4ae6-8c45-96b7d56a682b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133509Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 2a56db73-4ad4-4eca-8bfa-ee64e5d7f3c6
+
+----field----
+field: {2AAF9353-A614-4BEC-9E36-D0AA64A5E1E1}
+name: ScaleUnit
+key: scaleunit
+content-length: 1
+
+%
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20131106T113120
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+2a56db73-4ad4-4eca-8bfa-ee64e5d7f3c6
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20141007T113730:635482786504321803Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 09f035b4-8e4b-4a5c-854b-d58216741012
+
+----field----
+field: {2AAF9353-A614-4BEC-9E36-D0AA64A5E1E1}
+name: ScaleUnit
+key: scaleunit
+content-length: 9
+
+"分,時,日,週"
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 7
+
+パーセンテージ
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 35
+
+20140710T092942:635405813828827503Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+09f035b4-8e4b-4a5c-854b-d58216741012
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133636Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,252 @@
+----item----
+version: 1
+id: {CE1B4CB1-0B65-83D4-8EA5-A2197DE41AB6}
+database: core
+path: /sitecore/system/Dictionary/I/If you change this setting  items based on the   0   template can no longer be stored as unstructure
+parent: {2EF7BC8E-C696-4EDD-A9A9-797DAA04B81A}
+name: If you change this setting  items based on the   0   template can no longer be stored as unstructure
+master: {00000000-0000-0000-0000-000000000000}
+template: {6D1CD897-1936-4A3A-A511-289A94C2A7B1}
+templatekey: Dictionary entry
+created: 20160729T133405Z
+
+----field----
+field: {580C75A8-C01A-4580-83CB-987776CEB3AF}
+name: Key
+key: key
+content-length: 395
+
+If you change this setting, items based on the '{0}' template can no longer be stored as unstructured items in an item bucket.
+
+This change affects every item based on the '{0}' template, except items where the Bucketable setting is enabled on the item itself. 
+
+Items that are already stored in an item bucket will only be moved out of the buckets when you click Sync.
+
+Do you want to continue?
+----version----
+language: da
+version: 1
+revision: b5641391-7614-472b-b5d7-88def70a9176
+
+----field----
+field: {2BA3454A-9A9C-4CDF-A9F8-107FD484EB6E}
+name: Phrase
+key: phrase
+content-length: 451
+
+Hvis du ændrer denne indstilling, kan elementer, der er baseret på skabelonen '{0}', ikke længere gemmes som ustrukturerede elementer i en item bucket.
+
+Dette påvirker alle elementer, der er baseret på skabelonen '{0}', undtagen elementer, hvor indstillingen for bucketable aktiveres for det pågældende element. 
+
+Elementer, der allerede er gemt i en item bucket, fjernes kun fra de pågældende buckets, når du klikker på Synk.
+
+Vil du fortsætte?
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133405Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b5641391-7614-472b-b5d7-88def70a9176
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133405Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 273ab324-742d-4f6e-9a9e-0ce300b81816
+
+----field----
+field: {2BA3454A-9A9C-4CDF-A9F8-107FD484EB6E}
+name: Phrase
+key: phrase
+content-length: 487
+
+Wenn Sie diese Einstellung ändern, können Items, die auf dem '{0}' Template basieren nicht mehr als unstrukturierte Items in einem Itembucket gespeichert werden.
+
+Diese Änderung hat Auswirkungen auf alle Items, die auf dem '{0}' Template, basieren, außer auf Items, bei denen die Bucketable-Einstellung beim Item selbst aktiviert ist. 
+
+Items, die bereits in einem Itembucket gespeichert sind, werden nur aus den Buckets entfernt, wenn Sie auf Sync klicken.
+
+Wollen Sie fortfahren?
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133535Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+273ab324-742d-4f6e-9a9e-0ce300b81816
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133535Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: e724efbb-f5f2-4c22-a291-acbd398c4063
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133405Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e724efbb-f5f2-4c22-a291-acbd398c4063
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133405Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 28235dd6-62db-4620-bccb-48eceebcae84
+
+----field----
+field: {2BA3454A-9A9C-4CDF-A9F8-107FD484EB6E}
+name: Phrase
+key: phrase
+content-length: 254
+
+この設定を変更した場合、”{0}” テンプレートに基づくアイテムは非構造化アイテムとしてアイテム バケットに保存することができません。
+
+この変更は ”{0}” テンプレートを使用しているすべてのアイテムに影響します。ただし、個別のアイテムで [バケット化を許可] 設定を行っているアイテムは本処理の対象から除外されます。
+
+すでにアイテム バケットに保存されているアイテムは、変更処理が完了した後に、[同期] コマンドをクリックして通常のアイテムに戻してください。
+
+続行してもよろしいですか？
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133704Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+28235dd6-62db-4620-bccb-48eceebcae84
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133704Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,282 @@
+----item----
+version: 1
+id: {4726F5C1-6FA7-443A-A1B0-1419FB26571C}
+database: core
+path: /sitecore/client/Business Component Library/version 2/Content/Guidance/Renderings/Containers/Expander/PageSettings/Tabs/Demo
+parent: {9A62B703-D605-493E-B168-F40C0AD6F0E9}
+name: Demo
+master: {00000000-0000-0000-0000-000000000000}
+template: {8A7ACB1A-0990-4C9E-A6F0-9612D0F5F51C}
+templatekey: Tab
+created: 20160729T132116Z
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 4
+
+-100
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 4972
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{759BEFD1-3323-404D-A243-E0ED81163C03}">
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanel1&amp;ConfigurationDetails=ContentHeight%3d50&amp;Description=The+ContentHeight+property+specifies+the+height+of+the+content+that+is+inside+the+Expander+control+(in+pixels).&amp;Title=Specifying+the+height+of+the+content" uid="{5E252D8D-EF0B-418E-A1F0-D6D59D174226}" />
+    <r id="{1CA7EB02-74E0-42F9-B8C9-32E62FD505BD}" par="Id=Expander1&amp;IsOpen=1&amp;IsStateDiscarded=1&amp;ContentHeight=50" ph="DemoComponentPanel1.Content" uid="{3DD535AE-C054-4BE2-8383-71F2EC70B5F7}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanel2&amp;ConfigurationDetails=IsExtraFieldsLinkShown%3dTrue&amp;Description=The+IsExtraFieldsLinkShown+property+specifies+whether+the+control+shows+%22More%22+and+%22Less%22+links%2c+and+it+toggles+between+these+links+as+users+click+the+links.&amp;Title=Showing+%22More%22+and+%22Less%22+links" uid="{6E1D89BD-DB9B-4DB2-A99D-E13CD86522A1}" />
+    <r id="{1CA7EB02-74E0-42F9-B8C9-32E62FD505BD}" par="Id=Expander2&amp;HeaderText=Expander.Header&amp;IsOpen=1&amp;IsExtraFieldsShown=1&amp;IsExtraFieldsLinkShown=1" ph="DemoComponentPanel2.Content" uid="{5313EBCE-8E26-403D-9871-096B3E73DC40}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanel3&amp;ConfigurationDetails=HeaderText%3dThis+is+the+HeaderText&amp;Description=The+HeaderText+property+specifies+the+text+the+control+shows+in+the+header.&amp;Title=Specifying+the+header+text" uid="{ED63647F-A345-48F9-A61C-57F0F33EDB48}" />
+    <r id="{1CA7EB02-74E0-42F9-B8C9-32E62FD505BD}" par="Id=Expander3&amp;HeaderText=This+is+the+HeaderText&amp;IsCollapsible=1" ph="DemoComponentPanel3.Content" uid="{CCD5AA42-40B9-4093-8558-ED5749F11041}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanel4&amp;ConfigurationDetails=HeaderIcon%3d%2fsitecore%2fshell%2fclient%2fSpeak%2fAssets%2fimg%2fspeak-logo.png&amp;Description=The+HeaderIcon+property+specifies+an+icon+the+control+shows+in+the+header+area.&amp;Title=Specifying+a+header+icon" uid="{335578D6-0396-44DB-AE4C-1CA6BAE19FB1}" />
+    <r id="{1CA7EB02-74E0-42F9-B8C9-32E62FD505BD}" par="Id=Expander4&amp;HeaderText=Expander.Header&amp;HeaderIcon=%2fsitecore%2fshell%2fclient%2fSpeak%2fAssets%2fimg%2fspeak-logo.png" ph="DemoComponentPanel4.Content" uid="{949BE8A6-3399-409D-84AD-A651D7A6C9BC}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanel5&amp;ConfigurationDetails=IsCollapsible%3dFalse&amp;Description=The+IsCollapsible+property+specifies+whether+users+can+collapse+the+control.+When+False%2c+the+control+also+does+not+show+the+chevron+that+is+used+to+toggle+between+the+collapsed+and+the+expanded+states.&amp;Title=Enabling+and+disabling+collapsing+of+the+control" uid="{FDE8115E-BB85-4F3D-AFA3-6C6F0A83D92D}" />
+    <r id="{1CA7EB02-74E0-42F9-B8C9-32E62FD505BD}" par="Id=Expander5&amp;HeaderText=Expander.Header&amp;IsCollapsible=0" ph="DemoComponentPanel5.Content" uid="{60D33D8B-90AE-4ECF-86B2-C850DC943481}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanel6&amp;ConfigurationDetails=IsOpen%3dTrue&amp;Description=The+IsOpen+property+specifies+whether+the+control+is+the+%22open%22+state.&amp;Title=Opening+and+closing+the+control" uid="{B915A02A-7FF1-4C74-A285-3EAC07A5CECD}" />
+    <r id="{1CA7EB02-74E0-42F9-B8C9-32E62FD505BD}" par="Id=Expander6&amp;HeaderText=Expander.Header&amp;IsOpen=1&amp;ContentHeight=20" ph="DemoComponentPanel6.Content" uid="{8EE7D665-E9B4-4589-9BE0-E7FF70B6A3CF}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanel7&amp;ConfigurationDetails=IsExtraFieldsShown%3dTrue&amp;Description=The+IsExtraFieldsShown+read-only+property+indicates+whether+the+control+currently+shows+extra+fields+(users++toggle+this+with+the+%22More%22+and+%22Less%22+links+that+are+specified+in+the+IsExtraFieldsLinkShown+property).&amp;Title=Showing+extra+fields" uid="{64CA766A-85DD-4857-8155-FA2DBB38DE23}" />
+    <r id="{1CA7EB02-74E0-42F9-B8C9-32E62FD505BD}" par="Id=Expander7&amp;HeaderText=Expander.Header&amp;IsOpen=1&amp;IsExtraFieldsShown=1&amp;IsStateDiscarded=1&amp;IsExtraFieldsLinkShown=1" ph="DemoComponentPanel7.Content" uid="{5C6536D2-A050-41DE-A8E6-86A97762502A}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanel8&amp;ConfigurationDetails=IsStateDiscarded%3dFalse&amp;Description=The+IsStateDiscarded+property+specifies+whether+SPEAK+discards+the+open%2fclose+state+of+the+control+instead+of+persisting+it+in+the+user+profile.&amp;Title=Discarding+state" uid="{E4F5D61F-B000-4C84-B44A-AFD65769CFA0}" />
+    <r id="{1CA7EB02-74E0-42F9-B8C9-32E62FD505BD}" par="Id=Expander8&amp;HeaderText=Expander.Header&amp;IsStateDiscarded=0" ph="DemoComponentPanel8.Content" uid="{C27D227A-C70A-4EB4-A7F4-E648F29861FB}" />
+  </d>
+</r>
+----version----
+language: da
+version: 1
+revision: f12f922d-84a1-499d-9f28-344dc689790f
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 4
+
+Demo
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 4
+
+Demo
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133326Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f12f922d-84a1-499d-9f28-344dc689790f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133326Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 8c15fddd-ed32-4033-85de-702eff96abbc
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 4
+
+Demo
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 4
+
+Demo
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133452Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+8c15fddd-ed32-4033-85de-702eff96abbc
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133452Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 8c50c437-be34-45ce-83c1-0a1e450d28c4
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 4
+
+Demo
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150406T063729Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+8c50c437-be34-45ce-83c1-0a1e450d28c4
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160412T133556Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 1bb51c4e-6469-41c5-98cc-1a9c92c4af1f
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 2
+
+デモ
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 2
+
+デモ
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133619Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+1bb51c4e-6469-41c5-98cc-1a9c92c4af1f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133619Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

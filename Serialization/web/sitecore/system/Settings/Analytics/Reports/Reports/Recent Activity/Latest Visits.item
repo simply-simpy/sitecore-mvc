@@ -1,0 +1,107 @@
+----item----
+version: 1
+id: {D6E524DB-3117-4087-8141-A6CEB6DE067F}
+database: web
+path: /sitecore/system/Settings/Analytics/Reports/Reports/Recent Activity/Latest Visits
+parent: {844F613C-FEBC-4737-892C-3A8138F5D98B}
+name: Latest Visits
+master: {00000000-0000-0000-0000-000000000000}
+template: {6674A4AF-EACE-445E-89F1-E2F464026056}
+templatekey: Report
+created: 20160729T132117Z
+
+----field----
+field: {0CC4AD84-F69D-44D2-9600-5C7522AA2401}
+name: File Name
+key: file name
+content-length: 57
+
+/sitecore/shell/Applications/Analytics/Reports/Visits.mrt
+----field----
+field: {16802C7A-011A-41FF-88B4-C33E6C737F3F}
+name: Queries
+key: queries
+content-length: 109
+
+DataSource=%7b3A53B5A1-04F5-42F3-8FD6-CD506DED5E68%7d&Subscription=%7b01B7653E-2ADD-409B-8000-E215D46F0F6B%7d
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 22
+
+People/32x32/User1.png
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+150
+----version----
+language: en
+version: 1
+revision: ec34a089-0bd0-465c-9139-f115e0a9c036
+
+----field----
+field: {D71DCBF1-3E4C-4ACD-9244-58AA5C1C8528}
+name: Report Title
+key: report title
+content-length: 13
+
+Latest Visits
+----field----
+field: {F38BB3C8-94D9-4815-8CE2-06FA4EB8FC80}
+name: Report Description
+key: report description
+content-length: 976
+
+This report helps you answer the following question:<ul><li>Who are the most recent visitors to my website?</li></ul>
+This report lists in chronological order the visits from all visitors.  <br/>
+This report shows the visitor’s organization name (if known), the value of their visit, how many times the visitor has been to the site (Visit #), and the date and time of the visit.<br/>
+Use this report to identify recent visitors, particularly visitors showing increased interest who may be ready to register or engage with more commitment.  You may want to try and identify these visitors as future prospects. <br/>
+Run this report every day to identify visitors that are potential prospects.
+Click the Date and Time to open the <i>Visit Details</i> report for the visit. The session report will show you the company’s visits, conversions, and profile. Click organization name to open the <i>Business Overview</i> report. Click Visit #  to open <i>Visitor Overview</i> report.
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20110415T131700
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ec34a089-0bd0-465c-9139-f115e0a9c036
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20110519T093850:634413947307521121
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,235 @@
+----item----
+version: 1
+id: {B890266C-2613-44FE-B747-887EF8415671}
+database: core
+path: /sitecore/client/Applications/CampaignManager/Global Settings/CampaignListPageSettings/Filters/FiltersAdvancedExpander
+parent: {D30E9210-8C08-44DE-A539-CFED2F15867B}
+name: FiltersAdvancedExpander
+master: {00000000-0000-0000-0000-000000000000}
+template: {1C98E698-030C-43FF-8B6C-08D6D7E1B8DC}
+templatekey: AdvancedExpander Parameters
+created: 20160729T132117Z
+
+----version----
+language: da
+version: 1
+revision: c544d433-e262-45a9-9cbd-dc4ef29fa8db
+
+----field----
+field: {8D593EBB-4A48-4B85-8E79-BF745023BD61}
+name: Header
+key: header
+content-length: 33
+
+Filtre for kampagneklassificering
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 22
+
+FiltreAvanceretUdvider
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133343Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c544d433-e262-45a9-9cbd-dc4ef29fa8db
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133343Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 5dda27c5-70cc-468c-993d-4eac7f0805fc
+
+----field----
+field: {8D593EBB-4A48-4B85-8E79-BF745023BD61}
+name: Header
+key: header
+content-length: 30
+
+Kampagneklassifizierungsfilter
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 22
+
+FilterAdvancedExpander
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133514Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5dda27c5-70cc-468c-993d-4eac7f0805fc
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133514Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 4a2d90a6-00a3-430a-b78b-741e977ec3da
+
+----field----
+field: {8D593EBB-4A48-4B85-8E79-BF745023BD61}
+name: Header
+key: header
+content-length: 31
+
+Campaign classification filters
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+00010101T000000
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4a2d90a6-00a3-430a-b78b-741e977ec3da
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150227T130235:635606389555281275Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 5279c1d6-dee3-44b0-bc59-f470a1f7c392
+
+----field----
+field: {8D593EBB-4A48-4B85-8E79-BF745023BD61}
+name: Header
+key: header
+content-length: 14
+
+キャンペーンの分類フィルター
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 16
+
+フィルターの高度なエキスパンダー
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133642Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5279c1d6-dee3-44b0-bc59-f470a1f7c392
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133642Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

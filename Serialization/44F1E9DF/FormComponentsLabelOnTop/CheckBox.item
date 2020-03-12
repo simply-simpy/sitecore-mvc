@@ -1,0 +1,237 @@
+----item----
+version: 1
+id: {FEACDB25-614B-4019-875C-44A9227B8021}
+database: core
+path: /sitecore/client/Business Component Library/version 2/Content/Guidance/Renderings/Forms/Form/PageSettings/Tabs/Galleries/Galleries/Tabs/Label on top/FormComponentsLabelOnTop/CheckBox
+parent: {D053FE4A-BCC6-4997-8168-7FD2320D994A}
+name: CheckBox
+master: {00000000-0000-0000-0000-000000000000}
+template: {AD75C314-F983-4C56-81D5-DC10D5CCF4EF}
+templatekey: FormCheckBox Parameters
+created: 20160729T132116Z
+
+----field----
+field: {A176E7B0-1C0B-4F2E-A494-2DF342A75C0E}
+name: IsLabelOnTop
+key: islabelontop
+content-length: 1
+
+1
+----field----
+field: {E53DD72A-CC21-4771-A6B4-17762365E2B7}
+name: IsRequired
+key: isrequired
+content-length: 1
+
+1
+----field----
+field: {C5217339-80D0-4725-9340-574EED8E9082}
+name: RenderingItemId
+key: renderingitemid
+content-length: 38
+
+{BB75C989-4F9B-49CE-8427-E3A2C8E9B32F}
+----version----
+language: de-DE
+version: 1
+revision: f3d75e15-d9f3-48a5-a860-32f007258ba7
+
+----field----
+field: {C2EEF859-324B-4E58-BD2E-E9697C3887E1}
+name: Label
+key: label
+content-length: 13
+
+CheckBoxLabel
+----field----
+field: {85F7FB0C-B383-4D91-B42E-90247EA49ACB}
+name: HelpText
+key: helptext
+content-length: 9
+
+Hilfstext
+----field----
+field: {3885A716-2EED-47AE-9132-32225F0458FF}
+name: FormLabel
+key: formlabel
+content-length: 8
+
+Checkbox
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 8
+
+Checkbox
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133529Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f3d75e15-d9f3-48a5-a860-32f007258ba7
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133529Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 3884a182-b86b-4d7e-9e38-e11933cdf9b3
+
+----field----
+field: {C2EEF859-324B-4E58-BD2E-E9697C3887E1}
+name: Label
+key: label
+content-length: 13
+
+CheckBoxLabel
+----field----
+field: {85F7FB0C-B383-4D91-B42E-90247EA49ACB}
+name: HelpText
+key: helptext
+content-length: 8
+
+HelpText
+----field----
+field: {3885A716-2EED-47AE-9132-32225F0458FF}
+name: FormLabel
+key: formlabel
+content-length: 8
+
+CheckBox
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151001T075450Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3884a182-b86b-4d7e-9e38-e11933cdf9b3
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20151218T100756Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: f7b44776-f314-48dd-8e28-7aad205ca3a4
+
+----field----
+field: {C2EEF859-324B-4E58-BD2E-E9697C3887E1}
+name: Label
+key: label
+content-length: 13
+
+チェック ボックス ラベル
+----field----
+field: {85F7FB0C-B383-4D91-B42E-90247EA49ACB}
+name: HelpText
+key: helptext
+content-length: 8
+
+ヘルプ テキスト
+----field----
+field: {3885A716-2EED-47AE-9132-32225F0458FF}
+name: FormLabel
+key: formlabel
+content-length: 8
+
+チェックボックス
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 8
+
+チェックボックス
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133657Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f7b44776-f314-48dd-8e28-7aad205ca3a4
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133657Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

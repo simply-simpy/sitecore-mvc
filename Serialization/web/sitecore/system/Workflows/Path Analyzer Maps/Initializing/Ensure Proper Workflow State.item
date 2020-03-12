@@ -1,0 +1,73 @@
+----item----
+version: 1
+id: {5B6E8501-6D72-4DFB-A9AE-C2E8B1FD5CDE}
+database: web
+path: /sitecore/system/Workflows/Path Analyzer Maps/Initializing/Ensure Proper Workflow State
+parent: {C0DA66F8-4371-412B-B716-648DA4657459}
+name: Ensure Proper Workflow State
+master: {00000000-0000-0000-0000-000000000000}
+template: {66882E97-C8AA-4E37-8901-7A8AA35ED2ED}
+templatekey: Action
+created: 20160729T132117Z
+
+----field----
+field: {A291A22B-99E2-46BB-A27B-8EC744275396}
+name: Type
+key: type
+content-length: 108
+
+Sitecore.PathAnalyzer.Client.Workflows.Actions.EnsureProperWorkflowStateAction, Sitecore.PathAnalyzer.Client
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 2
+
+50
+----version----
+language: en
+version: 1
+revision: ea4b1406-1ea7-465d-a53c-28de9fd3e731
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150916T142301Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ea4b1406-1ea7-465d-a53c-28de9fd3e731
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20150916T143809Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,256 @@
+----item----
+version: 1
+id: {41168885-D0EC-4EED-923E-9FFABD0FAEBE}
+database: core
+path: /sitecore/client/Applications/FXM/DomainDashboard/PageSettings/Text/NewSiteDescription
+parent: {09645D26-50DB-4479-A3A1-825AC504B6C9}
+name: NewSiteDescription
+master: {00000000-0000-0000-0000-000000000000}
+template: {6437CFD5-76CA-48AA-BFBD-8B8D73EB5581}
+templatekey: Text Parameters
+created: 20160729T132117Z
+
+----field----
+field: {844FE7AA-2CB9-49A2-AC81-917C04B0713E}
+name: TextType
+key: texttype
+content-length: 0
+
+
+----version----
+language: da
+version: 1
+revision: efbb905d-5c0e-459c-b2be-99f66ce5f0c8
+
+----field----
+field: {3564B3D0-3804-4D86-9880-B5E7473EF56C}
+name: Text
+key: text
+content-length: 75
+
+Tilføj en ny hjemmeside, der skal inkluderes i Federated Experience Manager
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 18
+
+NewSiteDescription
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133325Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+efbb905d-5c0e-459c-b2be-99f66ce5f0c8
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133325Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 7b01b466-0c34-4fcf-a4b8-b46fbc82dc02
+
+----field----
+field: {3564B3D0-3804-4D86-9880-B5E7473EF56C}
+name: Text
+key: text
+content-length: 64
+
+Fügen Sie eine neue Seite zum Federated Experience Manager hinzu
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 22
+
+NeueSeitenbeschreibung
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133451Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+7b01b466-0c34-4fcf-a4b8-b46fbc82dc02
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133451Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: f4ba80d4-677c-4526-bb27-2545cb54f4b8
+
+----field----
+field: {3564B3D0-3804-4D86-9880-B5E7473EF56C}
+name: Text
+key: text
+content-length: 61
+
+Add a new site to be included in Federated Experience Manager
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20140528T084224Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f4ba80d4-677c-4526-bb27-2545cb54f4b8
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20140618T095807:635386822874502025Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 4803e434-8669-4eab-9738-10f8e5f646ed
+
+----field----
+field: {3564B3D0-3804-4D86-9880-B5E7473EF56C}
+name: Text
+key: text
+content-length: 40
+
+フェデレーション エクスペリエンス マネージャー に含む新しいサイトを追加します
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 9
+
+新しいサイトの説明
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133618Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4803e434-8669-4eab-9738-10f8e5f646ed
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133618Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

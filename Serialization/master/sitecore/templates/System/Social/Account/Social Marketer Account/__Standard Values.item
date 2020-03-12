@@ -1,0 +1,45 @@
+----item----
+version: 1
+id: {03292CF8-2666-4D97-8BFF-7DD905B2C6D1}
+database: master
+path: /sitecore/templates/System/Social/Account/Social Marketer Account/__Standard Values
+parent: {39394D34-D9B8-4334-A712-B3216E936750}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {39394D34-D9B8-4334-A712-B3216E936750}
+templatekey: Social Marketer Account
+created: 20160729T132117Z
+
+----version----
+language: en
+version: 1
+revision: f3564fbf-5378-46eb-a22f-e3b75018ee28
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130717T120511
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f3564fbf-5378-46eb-a22f-e3b75018ee28
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20130717T120511:635096595111022739
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

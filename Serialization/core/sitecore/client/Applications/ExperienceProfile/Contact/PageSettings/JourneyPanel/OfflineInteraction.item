@@ -1,0 +1,267 @@
+----item----
+version: 1
+id: {3EF3BE0C-4091-4781-B7E1-604DA0C54946}
+database: core
+path: /sitecore/client/Applications/ExperienceProfile/Contact/PageSettings/JourneyPanel/OfflineInteraction
+parent: {E614BB15-B7E0-4B63-BECF-ABEA336B7168}
+name: OfflineInteraction
+master: {00000000-0000-0000-0000-000000000000}
+template: {B11AFCCD-C286-4384-B694-4465D6C605DE}
+templatekey: Speak-DashboardPage
+created: 20160729T132117Z
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 6893
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{4F72A793-BDBC-4262-9523-6AADD8FEA487}">
+    <r id="{CB83D434-31ED-4AC3-A280-CCE2B63F9743}" par="PageCodeScriptFileName=%2fsitecore%2fshell%2fclient%2fApplications%2fExperienceProfile%2fContact%2fJourneyPanel%2fOfflineInteraction.js" ph="Page.Body" uid="{7788DDB0-0E02-469D-A3E2-A6BD7C39A0BB}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=InformationCenterBorder" ph="Page.Body" uid="{3EB21B42-BAAF-47D1-A6A2-01A6CD650FC5}" />
+    <r id="{C4393722-39FA-4869-9582-3A8EB8983A0D}" par="Id=InfoRowPanel" ph="InformationCenterBorder.Content" uid="{D78AEEBF-47BC-4244-93F1-8D510A181B83}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=LeftInfoColumnPanel&amp;GridColumns=4" ph="InfoRowPanel.Content" uid="{31BB3ACE-7E53-4776-879F-B24CFAB13EBB}" />
+    <r id="{C4393722-39FA-4869-9582-3A8EB8983A0D}" par="Id=LeftColumnRowPanel" ph="LeftInfoColumnPanel.Content" uid="{D78AEEBF-47BC-4244-93F1-8D510A181B83}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=ValueGeneratedColumnPanel&amp;GridColumns=6" ph="LeftColumnRowPanel.Content" uid="{31BB3ACE-7E53-4776-879F-B24CFAB13EBB}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=GeneratedBorder" ph="ValueGeneratedColumnPanel.Content" uid="{3EB21B42-BAAF-47D1-A6A2-01A6CD650FC5}" />
+    <r ds="{7A1F4BDF-A0F7-495F-BF97-4977F8374EC5}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=ValueGeneratedText&amp;TextType=Label" ph="GeneratedBorder.Content" uid="{8E6CF80C-E632-4959-9D9A-D3B31CE8C21D}" />
+    <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=ValueGeneratedValue&amp;TextType=LargeValue&amp;Text=-" ph="GeneratedBorder.Content" uid="{8E6CF80C-E632-4959-9D9A-D3B31CE8C21D}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=DurationColumnPanel&amp;GridColumns=6" ph="LeftColumnRowPanel.Content" uid="{31BB3ACE-7E53-4776-879F-B24CFAB13EBB}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=DurationBorder" ph="DurationColumnPanel.Content" uid="{BFBC131C-E9BE-44D0-9EE3-FA3D5937A83F}" />
+    <r ds="{AE4A2332-07A1-4775-B4C1-7D13D0DF69BF}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=TimeText&amp;TextType=Label" ph="DurationBorder.Content" uid="{72F5D5C8-6AED-4E68-8707-525D3E6B2107}" />
+    <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=TimeValue&amp;TextType=LargeValue&amp;Text=-" ph="DurationBorder.Content" uid="{72F5D5C8-6AED-4E68-8707-525D3E6B2107}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=MiddleInfoColumnPanel&amp;GridColumns=4" ph="InfoRowPanel.Content" uid="{31BB3ACE-7E53-4776-879F-B24CFAB13EBB}" />
+    <r id="{C4393722-39FA-4869-9582-3A8EB8983A0D}" par="Id=MiddleColumnRowPanel" ph="MiddleInfoColumnPanel.Content" uid="{D78AEEBF-47BC-4244-93F1-8D510A181B83}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=TitleMiddleColumnPanel&amp;GridColumns=4" ph="MiddleColumnRowPanel.Content" uid="{31BB3ACE-7E53-4776-879F-B24CFAB13EBB}" />
+    <r ds="{F4FD79BD-9620-4755-97A5-42E8A1A168A7}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=ChannelText&amp;TextType=Label" ph="TitleMiddleColumnPanel.Content" uid="{72F5D5C8-6AED-4E68-8707-525D3E6B2107}" />
+    <r ds="{8C2C2C1F-570C-4DCF-91F0-E085D7AED2E1}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=GoalsText&amp;TextType=Label" ph="TitleMiddleColumnPanel.Content" uid="{72F5D5C8-6AED-4E68-8707-525D3E6B2107}" />
+    <r ds="{0312FDF4-1FB7-4EAB-AFCD-CC606EDF4E49}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=CampaignText&amp;TextType=Label" ph="TitleMiddleColumnPanel.Content" uid="{72F5D5C8-6AED-4E68-8707-525D3E6B2107}" />
+    <r ds="{9C68E161-B76E-48BC-9F80-5BAAD4B483B5}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=AssetText&amp;TextType=Label" ph="TitleMiddleColumnPanel.Content" uid="{72F5D5C8-6AED-4E68-8707-525D3E6B2107}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=ValueMiddleColumnPanel&amp;GridColumns=8" ph="MiddleColumnRowPanel.Content" uid="{31BB3ACE-7E53-4776-879F-B24CFAB13EBB}" />
+    <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=ChannelValue&amp;TextType=Label&amp;Text=-" ph="ValueMiddleColumnPanel.Content" uid="{72F5D5C8-6AED-4E68-8707-525D3E6B2107}" />
+    <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=GoalsValue&amp;TextType=Label&amp;Text=-" ph="ValueMiddleColumnPanel.Content" uid="{72F5D5C8-6AED-4E68-8707-525D3E6B2107}" />
+    <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=CampaignValue&amp;TextType=Label&amp;Text=-" ph="ValueMiddleColumnPanel.Content" uid="{72F5D5C8-6AED-4E68-8707-525D3E6B2107}" />
+    <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=AssetValue&amp;TextType=Label&amp;Text=-" ph="ValueMiddleColumnPanel.Content" uid="{72F5D5C8-6AED-4E68-8707-525D3E6B2107}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=RightInfoColumnPanel&amp;GridColumns=4" ph="InfoRowPanel.Content" uid="{31BB3ACE-7E53-4776-879F-B24CFAB13EBB}" />
+    <r id="{C4393722-39FA-4869-9582-3A8EB8983A0D}" par="Id=RightColumnRowPanel" ph="RightInfoColumnPanel.Content" uid="{D78AEEBF-47BC-4244-93F1-8D510A181B83}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=TitleRightColumnPanel&amp;GridColumns=5" ph="RightColumnRowPanel.Content" uid="{31BB3ACE-7E53-4776-879F-B24CFAB13EBB}" />
+    <r ds="{FCBCDBC8-7309-4EC2-875B-BA71D657C1D2}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=RecencyText&amp;TextType=Label" ph="TitleRightColumnPanel.Content" uid="{72F5D5C8-6AED-4E68-8707-525D3E6B2107}" />
+    <r ds="{3203F75F-61BA-4C4E-9246-3BA6D763D9DC}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=SourceText&amp;TextType=Label" ph="TitleRightColumnPanel.Content" uid="{72F5D5C8-6AED-4E68-8707-525D3E6B2107}" />
+    <r ds="{FA40D93F-5C6D-4CED-96F3-77446B221668}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=VisitNumberText&amp;TextType=Label" ph="TitleRightColumnPanel.Content" uid="{72F5D5C8-6AED-4E68-8707-525D3E6B2107}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=ValueRightColumnPanel&amp;GridColumns=7" ph="RightColumnRowPanel.Content" uid="{31BB3ACE-7E53-4776-879F-B24CFAB13EBB}" />
+    <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=RecencyValue&amp;TextType=Label&amp;Text=-" ph="ValueRightColumnPanel.Content" uid="{72F5D5C8-6AED-4E68-8707-525D3E6B2107}" />
+    <r id="{162FC747-B9E6-4FCE-A96C-1EFE125643F2}" par="Id=SourceHyperlinkButton&amp;Text=-&amp;Target=_blank" ph="ValueRightColumnPanel.Content" uid="{2E207232-3F2F-4F4F-AC25-D6E147E51E87}" />
+    <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=VisitNumberValue&amp;TextType=Label&amp;Text=-" ph="ValueRightColumnPanel.Content" uid="{72F5D5C8-6AED-4E68-8707-525D3E6B2107}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=VisitNumberBorder" uid="{BFBC131C-E9BE-44D0-9EE3-FA3D5937A83F}" />
+  </d>
+</r>
+----version----
+language: da
+version: 1
+revision: ee02bd6d-6fb4-477e-846b-223dde3b44ba
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 18
+
+OfflineInteraction
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133324Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ee02bd6d-6fb4-477e-846b-223dde3b44ba
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133324Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 286ab726-7e0a-457a-90e0-f5976fdc4f75
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 18
+
+OfflineInteraktion
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133451Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+286ab726-7e0a-457a-90e0-f5976fdc4f75
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133451Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: c3fdd55e-3300-4e70-9eea-fdd6e7e64bed
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+00010101T000000
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c3fdd55e-3300-4e70-9eea-fdd6e7e64bed
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160316T075457Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 1ce6d74a-2cca-4c32-9d8a-a811d44d3a6c
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 14
+
+オフライン インタラクション
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133617Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+1ce6d74a-2cca-4c32-9d8a-a811d44d3a6c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133617Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,1288 @@
+----item----
+version: 1
+id: {91F4E02D-E8DD-46BB-A9B7-A7A2A8BE915B}
+database: core
+path: /sitecore/client/Applications/PathAnalyzer/Help/PageAnalyzer
+parent: {12A05ED1-C6A5-43AF-9D58-FE2510ABB516}
+name: PageAnalyzer
+master: {00000000-0000-0000-0000-000000000000}
+template: {3573EDE2-8330-4819-BF14-34885BCEE4DC}
+templatekey: Help
+created: 20160729T132117Z
+
+----version----
+language: da
+version: 1
+revision: 38292311-2440-4e6a-85b0-e2a68d4847ec
+
+----field----
+field: {6F11AD22-C527-47D9-A22B-86395B09D695}
+name: Content
+key: content
+content-length: 10363
+
+<h1 id="intro">Sådan kommer du i gang med Page Analyzer</h1>
+
+<p>Mens hovedapplikation Path Analyzer, der er tilgængelig via Startområde, har fokus på avanceret sti-analyse,
+fokuserer Page Analyzer kun på de stier, der fører til og fra en bestemt side. Hovedmålet for applikationen er at forstå, hvordan kunder kommer til en bestemt destination (en side), og hvad de derefter gør. Datavisualiserigsindikatorer hjælper dig med at forstå stierne med mest trafik(besøg) og største engagement-værdi pr. besøg, så du kan udpege gode og dårlige stier. Du kan dykke ned i en bestemt sti og undersøge stidetaljerne.</p>
+
+<h2 id="map-key">Sådan aflæses visualisering</h2>
+
+<p>Visualisering placerer den aktuelt valgte side i midten (vist som en stor cirkel med sideikon) og viser alle stier, der fører ind og ud af den.</p>
+
+<p>Startområdet viser, hvor mange stier, der startede med den aktuelt valgte side.</p>
+
+<p>Udgangsområdet viser antallet af udgange på den aktuelt valgte side og det samlede <a href="#exit-value-potential">udgangsværdipotentiale</a></p>
+
+<p>De vandrette linjer, der går ind <em>i</em> den aktuelt valgte side, repræsenterer indgående stier. Cirklerne, der er placeret øverst på linjerne, repræsenterer <a href="#node">noder</a> på stien. Noder oversættes generelt til sider.</p>
+
+<p>De vandrette linjer, der går <em>fra</em> den aktuelt valgte side til højre, repræsenterer udgående stier. Cirklerne, der er placeret øverst på linjerne, repræsenterer <a href="#node">noder</a> på stien. Noder oversættes generelt til sider. For at forenkle visualisering, er det kun den første side, der er vist på udgående stier.</p>
+
+<p>Linjetykkelsen definerer det samlede antal <a href="#value-per-visit">besøg</a> på den aktuelt valgte side fra den specifikke sti. 
+Jo tykkere stien er, jo flere besøg kommer der til den side for en given sti.</p>
+
+<p>Linjefarven definerer <a href="#value-per-visit">værdi pr. besøg</a> på denne specifikke sti til den aktuelt valgte side. 
+Jo grønnere stien er, jo højere <a href="#value-per-visit">værdi pr. besøg</a> sammenlignet med andre stier, der fører til den aktuelt valgte side.
+Stier med mindste værdi pr. besøg er vist med rødt.</p>
+
+<p>Størrelsen af cirklen definerer den samlede engagement-værdi på stien, der fører til den aktuelt valgte side.
+Jo større cirklen er, jo højere <a href="#value">engagement-værdi</a>.</p>
+
+<p>Kontekstrudeområdet viser samlet total for besøg, værdi og værdi per besøgsmetrik, samt det samlede stiantal.
+Hvis peger på en bestemt sti, viser total-området metrik fra denne sti.</p>
+
+<h2 id="map-selector">Kortvælger</h2>
+
+<p>Du kan vælge forskellige kort med kortvælgerkontrollen. Du kan også se flere kort-metadata og tilføje et kort til din foretrukne liste, der automatisk gemmes på din profil.</p>
+
+<h3 id="group-map-data">Grupper kortdata</h3>
+
+<p>Kort drives af trædatastrukturer, der består af <a href="#node">noder</a>.
+Da hver enkelt <a href="#node">noder</a> forventes at have et tilhørende element i indholds (master)-databasen,
+hvis du vælger kortvælgerens afkrydsningsfelt Grupper kortdata, grupperes noderne af Sitecore-dataskabelonen, hvorfra de var oprettet.</p>
+
+<p>Du kan f.eks. gruppere disse to stier:</p>
+
+<ul>
+<li><p>Home -&gt; TVs -&gt; 50" fladskærms-TV</p></li>
+<li><p>Home -&gt; Tablets -&gt; 12" tablet</p></li>
+</ul>
+
+<p>til en enkelt stri:</p>
+
+<ul>
+<li>Startside -&gt; Produktkategoriside -&gt; Produktdetaljeside</li>
+</ul>
+
+<p>Det er nyttigt at gruppere kortdata, når du vil udføre en sti-analyse på et sidekategoriniveau sammenlignet med et individuelt sideniveau.</p>
+
+<h2 id="date-selector">Datoområdevælger</h2>
+
+<p>Du kan vælge et datoområde vha. dataoområdevælgeren enten ved at
+vælge individuelle start- og slutdatoer fra kalendere, eller ved at
+vælge en af de foruddefinerede datoområder.</p>
+
+<h3 id="date-selector-missing-dates">Datoer mangler data</h3>
+
+<p>Der kan være tilfælde, hvor et kort ikke har nogen tilgængelige data for nogle datoer, selvom der er tilgængelige data før eller efter disse datoer.
+Dette kan skyldes, at der ikke er registreret nogen interaktioner for en dato, eller fordi der er opstået en fejl under databehandlingen, og de involverede datoer med fejl er sprunget over.
+Datointerval-vælgeren fremhæver datoer, hvor der ikke er adgang til data.
+Kontakt systemadministratoren, hvis du oplever mange datoer i kalenderen, hvor der ikke er tilgængelige data.</p>
+
+<h3 id="date-selector-unavailable-dates">Utilgængelige datoer</h3>
+
+<p>Afhængig af det datointerval, du har valgt, kan nogle datoer være
+markeret utilgængelige. F.eks. Når du vælger en slutdato,
+er alle datoerne forud for den aktuelle startdato markeret som utilgængelige.
+Alle fremtidige datoer er også markeret som utilgængelige.</p>
+
+<h2 id="metrics-filter">Metrik-filter</h2>
+
+<p>Dette filter fokuserer på filtrering af noder efter deres nøglemetrik: besøg, værdi, værdi pr. besøg og udgangsværdipotentiale.
+Du kan bruge metrik-filteret til at reducere støjen eller til at finde interessante sammenhænge mellem forskellige metrikker og til at finde stioptimeringskandidater, f.eks.:</p>
+
+<ul>
+<li>Mange <a href="#visits">besøg</a>, men lav <a href="#value">værdi</a>.</li>
+<li>Høj <a href="#value-per-visit">værdi pr. besøg</a>, men lavt antal <a href="#visits">besøg</a>.</li>
+<li>Høj <a href="#exit-value-potential">udgangsværdipotentiale</a>.</li>
+</ul>
+
+<h2 id="application-messages">Applikationsmeddelelser</h2>
+
+<p>Når du bruger applikationen, kan du se forskellige meddelelser i meddelelsesbjælken.</p>
+
+<h3 id="page-analyzer-hidden-paths">"Nogle stier er skjulte. Brug filter til at se andre stier."</h3>
+
+<p>Applikationen viser kun 10 stier ad gangen. Du kan bruge metrik-filteret til at reducere antallet af stier, baseret på metrikkriterier.</p>
+
+<h3 id="page-analyzer-maximum-paths">"Baseret på 500 stier ud af i alt X."</h3>
+
+<p>Nogle sider, som f.eks. Startsiden, kan have et massivt antal stier, der går via dem.
+For at være effektiv, behandler applikationen kun de øverste 500 stier.
+Du kan plukke et mere segmenteret kort eller vælge et mindre datointerval for at gøre noget ved dette.</p>
+
+<h3 id="partial-map">"Det valgte kort er under opbygning. Du ser måske delvise data."</h3>
+
+<p>Denne meddelelse ses, hvis det aktuelt valgte kort lige er installeret,
+men processen med opbygning af data endnu ikke er fuldført. Data for det nyinstallerede kort bør være tilgængelig ca. 30 minutter, efter kortet er installeret.</p>
+
+<h2 id="glossary">Ordliste</h2>
+
+<h3 id="map">Map</h3>
+
+<p>En speciel marketingdefinition, der beskriver, hvordan data opbygges til sti-analyse.
+Page Analyzer bruger kortdata og filtre til kun at vise dem, der går gennem den aktuelt valgte side.
+Det filtrerede datasæt bruges til visualisering.
+Du kan skifte til et andet kort med <a href="#map-selector">kortvælgeren</a>.</p>
+
+<h3 id="path">Sti</h3>
+
+<p>En sekvens med <a href="#node">noder</a> udgør en sti. Alle stier, der vises i Page Analyzer, går gennem den aktuelt valgte side.</p>
+
+<h3 id="node">Node</h3>
+
+<p>Et element på en <a href="#path">sti</a>. For de fleste kort oversættes noder hovedsagelig til andre sider. 
+Der er et sæt med metrikker, der gemmes på hver enkelt node: <a href="#value">værdi</a>, <a href="#visits">besøg</a>,
+<a href="#value-per-visit">værdi pr. besøg</a>, <a href="#exits">udgang</a>, <a href="#exit-value">udgangsværdi</a>, <a href="#exit-value-per-visit">udgangsværdi pr. besøg</a> og 
+<a href="#average-time-spent">gennemsnitlig tid brugt</a>.</p>
+
+<h3 id="exit-node">Udgangsnode</h3>
+
+<p>Node med <a href="#exits">udgange</a> højere end nul, indikerer antallet af <a href="#visits">besøg</a> der er afsluttet på denne node.</p>
+
+<h3 id="visits">Besøgsmetrik</h3>
+
+<p>Det samlede antal besøg på en given node. Denne indeholder besøgsmetrikker fra alle underordnede noder.</p>
+
+<h3 id="value">Værdimetrik</h3>
+
+<p>Den samlede engagement-værdi på en given node. Denne indeholder værdimetrikker fra alle underordnede noder.</p>
+
+<h3 id="value-per-visit">Værdi pr. besøgsmetrik</h3>
+
+<p>Den samlede <a href="#value">engagement-værdi</a> divideret med antal <a href="#visits">besøg</a> på en given node.
+Nogle gange defineres denne metrik som <strong>effektivitet</strong>.
+Denne metrik er medvirkende til beregning af <a href="#exit-value-potential">udgangsværdipotentiale</a>.</p>
+
+<h3 id="exits">Udgangsmetrik</h3>
+
+<p>Det samlede antal udgange på en given node.
+Denne metrik identificerer, om en given node består af en fuld sti eller en indgangssti.
+En node med flere udgange end nul, udgør en fuld sti.
+Denne metrik er medvirkende til beregning af <a href="#exit-value-potential">udgangsværdipotentiale</a>.</p>
+
+<h3 id="exit-value">Udgangsværdimetrik</h3>
+
+<p>Den samlede engagement-værdi på en given node, før udgang.
+Kun noder, hvor der opstod udgang, har denne metrik.
+Forskellen mellem denne og <a href="#value">værdimetrik</a> er, at udgangsværdimetrik ikke tager højde for engagement-værdien af underordnede værdier.</p>
+
+<h3 id="exit-value-per-visit">Udgangsværdi pr. besøg-metrik</h3>
+
+<p>Den samlede <a href="#value">engagement-værdi</a> divideret med antal <a href="#visits">besøg</a> på en given <a href="#exit-node">udgangsnode</a>. Kun noder,
+hvor der opstod udgang, har denne metrik beregnet. Forskellen mellem denne
+metrik og <a href="#value-per-visit">værdi pr. besøg</a>-metrik er, at denne metrik ikke
+medtager engagement-værdi pr. besøg fra underordnede noder.
+Denne metrik er medvirkende til beregning af <a href="#exit-value-potential">udgangsværdipotentiale</a>.</p>
+
+<h3 id="exit-value-potential">Udgangsværdipotentiale-metrik</h3>
+
+<p>Udgangspotentialet indikerer en beregnet <a href="#value">engagement-værdi</a>, der kan være
+opnået i gennemsnit via optimering. Det beregnes kun for <a href="#exit-node">udgangsnoder</a>.
+Du kan betragte det som en avanceret bounce-metrik, hvor der også tages højde for tab på engagement-værdien eller værdilækage
+ud over kun <a href="#exits">udgange</a>. Hvis du ved, hvor stor <a href="#value-per-visit">værdi pr. besøg</a>, der er
+samlet på alle stier længere nede, og hvor stor <a href="#value-per-visit">værdi pr. besøg</a>, der er gemt på <a href="#exit-node">udgangsnoden</a>, så kan metrikken
+beregnes ved at tage delta mellem de to og gange med antallet af udgange med følgende formel:</p>
+
+<p>(værdi pr. besøg - udgangsværdi pr. besøg) * udgange</p>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 18
+
+sitecore\Anonymous
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200117T215512Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 18
+
+sitecore\Anonymous
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+38292311-2440-4e6a-85b0-e2a68d4847ec
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200117T215513Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 18
+
+sitecore\Anonymous
+----version----
+language: de-DE
+version: 1
+revision: 8e322d3c-bdef-4b36-a778-b9c39e92b2d1
+
+----field----
+field: {894E6A55-DD32-46B7-8042-08A2EBEDDF65}
+name: Disclaimer
+key: disclaimer
+content-length: 57
+
+© 2016 Sitecore Corporation A/S. Alle Rechte vorbehalten.
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 16
+
+Seitenanalysator
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133507Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+8e322d3c-bdef-4b36-a778-b9c39e92b2d1
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133507Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 2
+revision: 818115eb-d92b-4a90-8308-30cd01d85b09
+
+----field----
+field: {6F11AD22-C527-47D9-A22B-86395B09D695}
+name: Content
+key: content
+content-length: 11845
+
+<h1 id="intro">Einführung in den Page Analyzer</h1>
+
+<p>Während die Haupt-Path Analyzer Anwendung, verfügbar über das Launchpad, sich auf die fortgeschrittene Pfadanalyse konzentriert, konzentriert sich der Page Analyzer nur auf die Pfade, die zu einer bestimmten Seite führen bzw. von dieser wegführen. Das Hauptziel des Programms ist es zu verstehen, wie Kunden zu einem bestimmten Ziel (einer Seite) kommen und was sie danach tun.
+Datenvisualisierung hilft Ihnen dabei die Pfade mit dem meisten Traffic (Besuche) und dem höchsten Engagementwert pro Besuch zu verstehen,  so dass Sie gute und schlechte Pfade lokalisieren können.
+Sie können ein Drill-down für einen bestimmten Pfad veranlassen und so die Details des Pfads erkunden.</p>
+
+<h2 id="map-key">Lesen der Visualisierung</h2>
+
+<p>Die Visualisierung stellt die aktuell ausgewählte Seite in den Mittelpunkt (dargestellt als großer Kreis mit Seitensymbol) und zeigt alle Wege, die zu ihr hin und von ihr weg führen.</p>
+
+<p>Der Landing-Bereich zeigt, wie viele Pfade mit der aktuell ausgewählten Seite begonnen haben.</p>
+
+<p>Der Ausstiegsbereich zeigt die Anzahl der Ausstiege für die aktuell ausgewählte Seite und das insgesamt angesammelte <a href="#exit-value-potential">Ausstiegswertpotential</a>.</p>
+
+<p>Die horizontalen Linien, die <em>zu</em> der aktuell ausgewählte Seite fließen, repräsentieren die ankommenden Pfade.
+Der oben auf den Linien liegende Kreis stellt die <a href="#node">Knoten</a> auf dem Pfad dar. Grundsätzlichen führen Knoten zu Seiten.</p>
+
+<p>Die horizontalen Linien, die <em>von</em> der aktuell ausgewählte Seite nach rechts fließen, repräsentieren die ausgehenden Pfade.</p>
+
+<p>Der oben auf den Linien liegende Kreis stellt die <a href="#node">Knoten</a> auf diesem Pfad dar. Grundsätzlichen führen Knoten zu Seiten.
+Um die Visualisierung zu vereinfachen, wird nur die erste Seite auf ausgehenden Pfaden angezeigt.</p>
+
+<p>Die Dicke der Linie definiert die Summe <a href="#visits">Besuche</a> zur aktuell ausgewählten Seite von einem bestimmten Pfad aus.
+Je dicker der Pfad, desto mehr Besuche gehen zur der aktuell ausgewählten Seite für einen bestimmten Pfad.</p>
+
+<p>Die Linienfarbe definiert den <a href="#value-per-visit">Wert pro Besuch</a> auf diesem bestimmten Pfad zur aktuell ausgewählten Seite. Je grüner der Weg, desto höher der <a href="#value-per-visit">Wert pro Besuch</a> im Vergleich zu anderen Pfaden, die zu der aktuell ausgewählten Seite führen. Pfade mit dem geringsten Wert pro Besuch werden in rot dargestellt.</p>
+
+<p>Die Größe des Kreises definiert den Gesamtengagementwert auf dem Weg, der zu der aktuell ausgewählten Seite führt. Je größer der Kreis, desto höher der <a href="#value">Engagementwert</a>.</p>
+
+<p>Der Context Pane Bereich die aggregierten Gesamtwerte für die Besuche-, Wert- und Wert pro Besuch-Metriken sowie die Gesamtanzahl der Pfade.
+Wenn Sie den Mauszeiger über einem bestimmten Pfad schweben, zeigt der Gesamtwert-Bereich die Metriken dieses Pfades.</p>
+
+<h2 id="map-selector">Karten-Selector</h2>
+
+<p>Sie können verschiedene Karten mit dem Karten-Selector-Steuerelement auswählen.
+Sie können auch weitere Karten-Metadaten ansehen und eine Karte zu Ihrer Favoritenliste hinzufügen, die automatisch in Ihrem Profil gespeichert wird.</p>
+
+<h3 id="group-map-data">Gruppen-Kartendaten</h3>
+
+<p>Karten bestehen aus seiner Baum-Datenstruktur, die wiederum aus  <a href="#node">Knoten</a> besteht.
+Weil erwartet wird, dass jeder <a href="#node">Knoten</a> ein korrespondierendes Item in der Content (Master) Datenbank besitzt, wenn Sie das Kontrollkästchen der Gruppen-Kartendaten des Karten-Selectors auswählen; werden die Knoten vom Sitecore Datatemplate, von dem aus sie erstellt wurden, gruppiert.
+Beispielsweise können Sie diese beiden Pfade</p>
+
+<ul>
+<li>Home -&gt; TVs -&gt; 50" Flat Screen TV</li>
+<li>Home -&gt; Tablets -&gt; 12" Tablet</li>
+</ul>
+
+<p>in einen einzigen Pfad gruppieren:</p>
+
+<ul>
+<li>Landing Page -&gt; Produktkategorieseite -&gt; Produktdetailseite</li>
+</ul>
+
+<p>Das Gruppieren von Kartendaten ist nützlich, wenn Sie eine Pfadanalyse auf einer Seitenkategorieebene im Vergleich zu einer einzelnen Seitenebene durchführen wollen.</p>
+
+<h2 id="date-selector">Date Range Selector</h2>
+
+<p>Sie können einen Datumsbereich des Datumsbereichselektors auswählen, indem Sie entweder ein individuelles Start- und Enddatum aus den Kalendern oder indem Sie einen vordefinierten Datumsbereich auswählen.</p>
+
+<h3 id="date-selector-missing-dates">Daten Fehlende Daten</h3>
+
+<p>Es kann vorkommen, dass eine Karte keine Daten für einige Daten hat, auch wenn es verfügbare Daten vor oder nach diesen Daten gibt.
+Möglicherweise gibt es keine aufgezeichneten Interaktionen für ein Datum oder es ist ein Fehler während der Datenverarbeitung aufgetreten und die Daten, die im Fehler vorkamen wurden übersprungen.
+Der Datumsbereich-Selektor markiert Daten, für die keine Daten verfügbar sind.
+Bitte kontaktieren Sie Ihren Systemadministrator, wenn Sie im Kalender auf viele Daten ohne Daten stoßen.</p>
+
+<h3 id="date-selector-unavailable-dates">Nicht verfügbare Daten</h3>
+
+<p>Je nach Datumsbereich, den Sie ausgewählt haben, kann es vorkommen, dass einige Daten als nicht auswählbar markiert werden. Wenn Sie zum Beispiel ein Enddatum auswählen, werden alle Daten vor dem aktuellen Startdatum als nicht verfügbar gekennzeichnet. Alle zukünftigen Daten werden auch als nicht verfügbar gekennzeichnet.</p>
+
+<h2 id="metrics-filter">Metrikfilter</h2>
+
+<p>Dieser Filter konzentriert sich auf das Filtern von Knoten nach ihren wichtigsten Metriken: Besuche, Wert pro Besuch und Ausstiegswertpotential.
+Sie können den Metrikfilter verwenden, um Störungen zu reduzieren oder interessante Zusammenhänge zwischen verschiedenen Metriken und um Kandidaten für eine Pfadoptimierung zu finden, zum Beispiel:</p>
+
+<ul>
+<li>Viele <a href="#visits">Besuche</a>, aber niedriger <a href="#value">Wert</a>.</li>
+<li>Hoher <a href="#value-per-visit">Wert pro Besuch</a>, aber wenige <a href="#visits">Besuche</a>.</li>
+<li>Hohes <a href="#exit-value-potential">Ausstiegswertpotential</a>.</li>
+</ul>
+
+<h2 id="application-messages">Anwendungsnachrichten</h2>
+
+<p>Wenn Sie die Anwendung verwenden, sehen Sie verschiedene Meldungen in der Statusleiste.</p>
+
+<h3 id="page-analyzer-hidden-paths">"Einige Pfade sind verborgen. Verwenden Sie den Filter, um andere Pfade sehen zu können."</h3>
+
+<p>Die Anwendung zeigt nur 10 Pfade auf einmal.
+Sie können den Metriken-Filter verwenden, um die Anzahl der Pfade zu reduzieren, basierend auf beliebigen Metrik-Kriterien</p>
+
+<h3 id="page-analyzer-maximum-paths">"Basierend auf 500 Pfaden aus X insgesamt."</h3>
+
+<p>Einige Seiten, wie die Homepage, können eine enorme Menge an eindeutige Pfade aufweisen, die durch sie hindurchlaufen.
+Für eine bessere Effizienz, verarbeitet die Anwendung nur die Top 500-Pfade.
+Sie können eine segmentiertere Karte auswählen oder ein geringeres Datumsintervall.</p>
+
+<h3 id="partial-map">"Die ausgewählte Karte wird erstellt. Sie sehen u.U. nur Teildaten."</h3>
+
+<p>Diese Meldung wird angezeigt, wenn die aktuell ausgewählte Karte zwar kurzlich bereitgestellt wurde, jedoch der  Prozess des Aufbaus von Daten für diese Karte noch nicht abgeschlossen wurde. Daten für die neu bereitgestellte Karte sollten ca. 30 Minuten nach Bereitstellung der Karte verfügbar sein.</p>
+
+<h2 id="glossary">Glossar</h2>
+
+<h3 id="map">Karte</h3>
+
+<p>Eine spezielle Marketing-Definition, die beschreibt, wie man Daten für die Pfadanalyse erstellt.
+Der Page Analyzer verwendet Kartendaten und  filtert alle Pfade, um nur diejenigen anzuzeigen, die durch die aktuell ausgewählte Seite führen. Dieses gefilterte Dataset dient zur Visualisierung.
+Sie können zu einer anderen Karte wechseln, indem Sie den <a href="#map-selector">Karten-Selektor</a> verwenden.</p>
+
+<h3 id="path">Pfad</h3>
+
+<p>Eine Sequenz von <a href="#node">Knoten</a> bilden einen Pfad. Alle im Page Analyzer angezeigten Pfade führen durch die aktuell ausgewählte Karte.</p>
+
+<h3 id="node">Knoten</h3>
+
+<p>Ein Element auf einem <a href="#path">Pfad</a>. Für die misten Karten gilt, dass Knoten im Wesentlichen zu einer anderen Seite führen.
+Es gibt eine Reihe von Metriken, die auf jedem Knoten gespeichert sind: <a href="#value">Wert</a>, <a href="#visits">Besuche</a>,
+<a href="#value-per-visit">Wert pro Besuch</a>, <a href="#exits">Ausstiege</a>, <a href="#exit-value">Ausstiegswert</a>, <a href="#exit-value-per-visit">Ausstiegswert pro Besuch</a> und <a href="#average-time-spent">durchschnittlich verbrachte Zeit</a>.</p>
+
+<h3 id="exit-node">Ausstiegsknoten</h3>
+
+<p>Knoten mit <a href="#exits">Ausstiegen</a> größer als Null zeigen die Anzahl der <a href="#visits">Besuche</a>, die auf diesem Knoten beendet wurden.</p>
+
+<h3 id="visits">Besuchsmetrik</h3>
+
+<p>Die Gesamtzahl der aggregierten Besuche auf einem bestimmten Knoten. Dazu gehören Besuchsmetriken von allen Nachfahrknoten.</p>
+
+<h3 id="value">Wertmetrik</h3>
+
+<p>Der insgesamt aggregierte Engagementwert auf einem bestimmten Knoten. Dazu gehören Wertmetriken aus allen Nachfahrknoten.</p>
+
+<h3 id="value-per-visit">Wert pro Besuchsmetrik</h3>
+
+<p>Der aggregierte <a href="#value">Engagemenwert</a> geteilt durch <a href="#visits">Besuche</a> auf einem vorgegebenen Knoten.
+Manchmal ist diese Metrik definiert als <strong>Effizienz</strong>.
+Diese Metrik ist maßgeblich bei der Berechnung des <a href="#exit-value-potential">Ausstiegswertpotentials</a>.</p>
+
+<h3 id="exits">Ausstiegsmetrik</h3>
+
+<p>Die Anzahl der Ausstiege auf einem vorgegebenen Knoten.
+Diese Metrik gibt an, ob ein vorgegebener Knoten einen vollständigen Pfad oder einen Einstiegspfadumfasst.
+Jeder Knoten mit Ausgängen größer als Null umfasst einen vollständigen Pfad.
+Diese Metrik ist maßgeblich bei der Berechnung des <a href="#exit-value-potential">Ausstiegswertpotentials</a>.</p>
+
+<h3 id="exit-value">Ausstiegswertmetrik</h3>
+
+<p>Die aggregierten Engagementwerte auf einem bestimmten Knoten vor dem Ausstieg.
+Nur Knoten bei denen Ausstiege stattgefunden haben besitzen diese Metrik.
+Der Unterschied hierzwischen und der <a href="#value">Wertmetrik</a> besteht darin, dass die Ausstiegwertmetrik nicht den Engagementwert der Nachfolgeknoten berücksichtigt</p>
+
+<h3 id="exit-value-per-visit">Ausstiegswert pro Besuchsmetrik</h3>
+
+<p>Der aggregierte <a href="#value">Engagemenwert</a> geteilt durch die <a href="#visits">Besuche</a> auf einem vorgegebenen <a href="#exit-node">Ausstiegsknoten</a>. Nur für Knoten, auf denen Ausstiege stattgefunden haben, wird diese Metrik berechnet.
+Der Unterschied zwischen dieser Metrik und der <a href="#value-per-visit">Wert pro Besuch</a> Metrik besteht darin, dass diese Metrik nicht den Engagementwert pro Besuch der Nachfahrknoten berücksichtigt.
+Diese Metrik ist maßgeblich für die Berechnung des <a href="#exit-value-potential">Ausstiegswertpotentials</a>.</p>
+
+<h3 id="exit-value-potential">Ausstiegswertpotential-Metrik</h3>
+
+<p>Das Ausstiegswertpotential zeigt einen projizierten <a href="#value">Engagemenwert</a>, der durchschnittlich durch Optimierung gewonnen werden könnte.
+Es wird nur für die <a href="#exit-node">Ausstiegsknoten</a> berechnet.
+Sie können es als eine erweiterte Bounce-Metrik betrachten, wo neben den <a href="#exits">Ausstiegen</a> auch der Engagementwertverlust oder Wertverlust berücksichtigt wird.
+Wenn man weiß, wie viel <a href="#value-per-visit">Wert pro Besuch</a> auf allen weiter unten liegenden Pfaden angesammelt wird, und wie viel <a href="#value-per-visit">Wert pro Besuch</a> im <a href="#exit-node">Ausstiegsknoten</a> gespeichert wird, dann kann diese Metrik berechnet werden, indem
+man das Delta zwischen den beiden bildet und mit der Anzahl der Ausstiege multipliziert, unter der Verwendung der folgenden Formel:</p>
+
+<p>(Wert pro Besuch – Ausstiegswert pro Besuch) * Ausstiege</p>
+----field----
+field: {894E6A55-DD32-46B7-8042-08A2EBEDDF65}
+name: Disclaimer
+key: disclaimer
+content-length: 57
+
+© 2016 Sitecore Corporation A/S. Alle Rechte vorbehalten.
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 16
+
+Seitenanalysator
+----field----
+field: {C8F93AFE-BFD4-4E8F-9C61-152559854661}
+name: __Valid from
+key: __valid from
+content-length: 16
+
+20200117T215513Z
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200117T215513Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 18
+
+sitecore\Anonymous
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+818115eb-d92b-4a90-8308-30cd01d85b09
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200117T215513Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 18
+
+sitecore\Anonymous
+----version----
+language: en
+version: 1
+revision: 87f8d3d6-0a30-41f0-9da5-c7ae9454dc0c
+
+----field----
+field: {6F11AD22-C527-47D9-A22B-86395B09D695}
+name: Content
+key: content
+content-length: 10486
+
+<h1 id="intro">Getting started with Page Analyzer</h1>
+<p>While the main Path Analyzer application available via Launchpad focuses on advanced path analysis,
+the Page Analyzer focuses only on the paths leading to and from a specific page.
+The main goal of the application is to understand how customers get to a certain destination (a page) and what they do afterwards.
+The data visualization cues help you to understand the paths with the most traffic (visits) and most engagement value per visit,
+allowing you to pinpoint good and bad paths.
+You can drill down to a particular path and explore path details.</p>
+<h2 id="map-key">How to read the visualization</h2>
+<p>The visualization places the currently selected page at the center (shown as a large circle with the page icon) and shows all paths leading in and out of it.</p>
+<p>The Landings area shows how many paths started with the currently selected page.</p>
+<p>The Exits area shows the number of exits at the currently selected page and the total accumulated <a href="#exit-value-potential">exit value potential</a>.</p>
+<p>The horizontal lines that are flowing <em>into</em> the currently selected page represent incoming paths.
+The circles placed on top of the lines represent <a href="#node">nodes</a> on that path. Nodes generally translate to pages.</p>
+<p>The horizontal lines that are flowing <em>from</em> the currently selected page to the right represent outgoing paths.</p>
+<p>The circles placed on top of the lines represent <a href="#node">nodes</a> on that path. Nodes generally translate to pages.
+To simplify the visualization, only the first page is shown on outgoing paths.</p>
+<p>The line thickness defines the total <a href="#visits">visits</a> to the currently selected page from the specific path.
+The thicker the path, the more visits are going to the selected page for a given path.</p>
+<p>The line color defines the <a href="#value-per-visit">value per visit</a> on this specific path to the currently selected page.
+The greener the path, the higher the <a href="#value-per-visit">value per visit</a> is compared to other paths leading into the currently selected page.
+Paths with the least value per visit are shown in red.</p>
+<p>The size of the circle defines the total engagement value on the path that leads to the currently selected page.
+The larger the circle, the higher the <a href="#value">engagement value</a>.</p>
+<p>The Context Pane area shows the aggregated totals for the visits, value, and value per visit metrics, as well as the total path count.
+If you hover over a particular path, the totals area shows the metrics from that path.</p>
+<h2 id="map-selector">Map selector</h2>
+<p>You can select various maps using the Map selector control.
+You can also see more map meta-data and add a map to your favorites list, which will automatically be saved to your profile.</p>
+<h3 id="group-map-data">Group map data</h3>
+<p>Maps are powered by tree data structures that consist of <a href="#node">nodes</a>.
+Because each <a href="#node">node</a> is expected to have a corresponding item in the content (master) database,
+if you select the Map selector's Group map data checkbox, the nodes will be grouped by the Sitecore data template from which they were created.</p>
+<p>For example, you can group these two paths:</p>
+<ul>
+    <li>
+    <p>Home -&gt; TVs -&gt; 50" flat screen TV</p>
+    </li>
+    <li>
+    <p>Home -&gt; Tablets -&gt; 12" tablet</p>
+    </li>
+</ul>
+<p>into a single path:</p>
+<ul>
+    <li>Landing Page -&gt; Product Category Page -&gt; Product Detail page</li>
+</ul>
+<p>Grouping map data is useful when you'd like to perform path analysis on a page category level compared to an individual page level.</p>
+<h2 id="date-selector">Date range selector</h2>
+<p>You can select a date range using the date range selector either by
+selecting individual start and end dates from the calendars, or by
+choosing one of the predefined date ranges.</p>
+<h3 id="date-selector-missing-dates">Dates missing data</h3>
+<p>There may be cases where a map has no available data for some dates, even if there are available data before or after these dates.
+This may be because there are no interactions recorded for a date, or because an error occurred during data processing and the dates involved in the error were skipped.
+The date range selector highlights dates for which no data are available.
+Please contact your system administrator if you encounter many dates in the calendar with no available data.</p>
+<h3 id="date-selector-unavailable-dates">Unavailable dates</h3>
+<p>Depending on the date range that you have selected, some dates can be
+marked as unavailable for selection. For example, when you select an end
+date, all dates prior to the current start date are marked as unavailable.
+All future dates are also marked as unavailable.</p>
+<h2 id="metrics-filter">Metrics filter</h2>
+<p>This filter focuses on filtering nodes by their key metrics: visits, value, value per visit, and exit value potential.
+You can use the Metrics filter to reduce the noise or to find interesting correlations between different metrics and for finding path optimization candidates, for example:</p>
+<ul>
+    <li>
+    <p>High <a href="#visits">visits</a>, but low <a href="#value">value</a>.</p>
+    </li>
+    <li>
+    <p>High <a href="#value-per-visit">value per visit</a>, but low <a href="#visits">visits</a>.</p>
+    </li>
+    <li>
+    <p>High <a href="#exit-value-potential">exit value potential</a>.</p>
+    </li>
+</ul>
+<h2 id="application-messages">Application messages</h2>
+<p>When using the application, you can see various messages in the message bar.</p>
+<h3 id="page-analyzer-hidden-paths">"Some paths are hidden. Use filter to see other paths."</h3>
+<p>The application shows only 10 paths at once.
+You can use the Metrics filter to reduce the number of paths based on any metrics criteria.</p>
+<h3 id="page-analyzer-maximum-paths">"Based on 500 paths out of X total."</h3>
+<p>Some pages, such as the Home page, can have a massive amount of unique paths going through them.
+For efficiency, the application processes the top 500 paths only.
+You can pick a more segmented map or select a smaller date interval to address this.</p>
+<h3 id="partial-map">"The selected map is being built. You may see partial data."</h3>
+<p>This message can be seen if the currently selected map was recently deployed but the
+process of building data for this map hasn't been completed. Data for the newly deployed map should be available approximately 30 minutes after map deployment.</p>
+<h2 id="glossary">Glossary</h2>
+<h3 id="map">Map</h3>
+<p>A special marketing definition that describes how to build the data for path analysis.
+Page Analyzer uses map data and filters all paths to show only the ones that are going through the currently selected page.
+This filtered dataset is used for visualization.
+You can switch to another map using <a href="#map-selector">map selector</a>. </p>
+<h3 id="path">Path</h3>
+<p>A sequence of <a href="#node">nodes</a> make up a path. All paths shown in Page Analyzer go through the currently selected page.</p>
+<h3 id="node">Node</h3>
+<p>An element on a <a href="#path">path</a>. For most maps, nodes essentially translate to other pages.
+There is a set of metrics that are stored on each node: <a href="#value">value</a>, <a href="#visits">visits</a>,
+<a href="#value-per-visit">value per visit</a>, <a href="#exits">exits</a>, <a href="#exit-value">exit value</a>, <a href="#exit-value-per-visit">exit value per visit</a>, and <a href="#average-time-spent">average time
+spent</a>.</p>
+<h3 id="exit-node">Exit node</h3>
+<p>Node with <a href="#exits">exits</a> greater than zero, indicating the number of <a href="#visits">visits</a> that terminated on this node.</p>
+<h3 id="visits">Visits metric</h3>
+<p>The total aggregated visits on a given node. This includes visits metrics from all descendant nodes.</p>
+<h3 id="value">Value metric</h3>
+<p>The total aggregated engagement value on a given node. This includes value metrics from all descendant nodes.</p>
+<h3 id="value-per-visit">Value per visit metric</h3>
+<p>The aggregated <a href="#value">engagement value</a> divided by <a href="#visits">visits</a> on a given node.
+Sometimes, this metric is defined as <strong>efficiency</strong>.
+This metric is instrumental in calculating <a href="#exit-value-potential">exit value potential</a>.</p>
+<h3 id="exits">Exits metric</h3>
+<p>The total amount of exits on a given node.
+This metric identifies whether a given node comprises a full path or an entry path.
+Any node with exits greater than zero comprises a full path.
+This metric is instrumental in calculating <a href="#exit-value-potential">exit value potential</a>.</p>
+<h3 id="exit-value">Exit value metric</h3>
+<p>The aggregated engagement value on a given node before exiting.
+Only nodes where exits occurred have this metric.
+The difference between this and the <a href="#value">value metric</a> is that the exit value metric doesn't take into account engagement value of the descendant nodes.</p>
+<h3 id="exit-value-per-visit">Exit value per visit metric</h3>
+<p>The aggregated <a href="#value">engagement value</a> divided by <a href="#visits">visits</a> on a given <a href="#exit-node">exit node</a>. Only nodes
+where exits occurred have this metric calculated. The difference between
+this metric and the <a href="#value-per-visit">value per visit</a> metric, is that this metric doesn't
+account for engagement value per visit of the descendant nodes.
+This metric is instrumental in calculating <a href="#exit-value-potential">exit value potential</a>.</p>
+<h3 id="exit-value-potential">Exit value potential metric</h3>
+<p>The exit potential indicates a projected <a href="#value">engagement value</a> that could be
+gained on average through optimization. It is only calculated for the <a href="#exit-node">exit nodes</a>.
+You can consider it an advanced bounce metric, where the engagement value loss or value leakage is also taken
+into account besides just <a href="#exits">exits</a>. If you know how much <a href="#value-per-visit">value per visit</a> is
+aggregated on all paths further down, and how much <a href="#value-per-visit">value per visit</a> is stored on the <a href="#exit-node">exit node</a>, then this metric can be
+calculated by taking the delta between the two and multiplying by the number of exits, using the following formula:</p>
+<p>(value per visit - exit value per visit) * exits</p>
+----field----
+field: {894E6A55-DD32-46B7-8042-08A2EBEDDF65}
+name: Disclaimer
+key: disclaimer
+content-length: 53
+
+© 2016 Sitecore Corporation A/S. All rights reserved.
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160506T133958Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+87f8d3d6-0a30-41f0-9da5-c7ae9454dc0c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160629T193729Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 2
+revision: d2b52e6c-0ac2-43b9-84a6-82798054ed5e
+
+----field----
+field: {6F11AD22-C527-47D9-A22B-86395B09D695}
+name: Content
+key: content
+content-length: 10477
+
+<h1 id="intro">Getting started with Page Analyzer</h1>
+
+<p>While the main Path Analyzer application available via Launchpad focuses on advanced path analysis, 
+the Page Analyzer focuses only on the paths leading to and from a specific page.
+The main goal of the application is to understand how customers get to a certain destination (a page) and what they do afterwards.
+The data visualization cues help you to understand the paths with the most traffic (visits) and most engagement value per visit, 
+allowing you to pinpoint good and bad paths.
+You can drill down to a particular path and explore path details.</p>
+
+<h2 id="map-key">How to read the visualization</h2>
+
+<p>The visualization places the currently selected page at the center (shown as a large circle with the page icon) and shows all paths leading in and out of it.</p>
+
+<p>The Landings area shows how many paths started with the currently selected page.</p>
+
+<p>The Exits area shows the number of exits at the currently selected page and the total accumulated <a href="#exit-value-potential">exit value potential</a>.</p>
+
+<p>The horizontal lines that are flowing <em>into</em> the currently selected page represent incoming paths.
+The circles placed on top of the lines represent <a href="#node">nodes</a> on that path. Nodes generally translate to pages.</p>
+
+<p>The horizontal lines that are flowing <em>from</em> the currently selected page to the right represent outgoing paths.</p>
+
+<p>The circles placed on top of the lines represent <a href="#node">nodes</a> on that path. Nodes generally translate to pages.
+To simplify the visualization, only the first page is shown on outgoing paths.</p>
+
+<p>The line thickness defines the total <a href="#visits">visits</a> to the currently selected page from the specific path.
+The thicker the path, the more visits are going to the selected page for a given path.</p>
+
+<p>The line color defines the <a href="#value-per-visit">value per visit</a> on this specific path to the currently selected page.
+The greener the path, the higher the <a href="#value-per-visit">value per visit</a> is compared to other paths leading into the currently selected page.
+Paths with the least value per visit are shown in red.</p>
+
+<p>The size of the circle defines the total engagement value on the path that leads to the currently selected page.
+The larger the circle, the higher the <a href="#value">engagement value</a>.</p>
+
+<p>The Context Pane area shows the aggregated totals for the visits, value, and value per visit metrics, as well as the total path count.
+If you hover over a particular path, the totals area shows the metrics from that path.</p>
+
+<h2 id="map-selector">Map selector</h2>
+
+<p>You can select various maps using the Map selector control.
+You can also see more map meta-data and add a map to your favorites list, which will automatically be saved to your profile.</p>
+
+<h3 id="group-map-data">Group map data</h3>
+
+<p>Maps are powered by tree data structures that consist of <a href="#node">nodes</a>.
+Because each <a href="#node">node</a> is expected to have a corresponding item in the content (master) database, 
+if you select the Map selector's Group map data checkbox, the nodes will be grouped by the Sitecore data template from which they were created.</p>
+
+<p>For example, you can group these two paths:</p>
+
+<ul>
+<li><p>Home -&gt; TVs -&gt; 50" flat screen TV</p></li>
+<li><p>Home -&gt; Tablets -&gt; 12" tablet</p></li>
+</ul>
+
+<p>into a single path:</p>
+
+<ul>
+<li>Landing Page -&gt; Product Category Page -&gt; Product Detail page</li>
+</ul>
+
+<p>Grouping map data is useful when you'd like to perform path analysis on a page category level compared to an individual page level.</p>
+
+<h2 id="date-selector">Date range selector</h2>
+
+<p>You can select a date range using the date range selector either by
+selecting individual start and end dates from the calendars, or by
+choosing one of the predefined date ranges.</p>
+
+<h3 id="date-selector-missing-dates">Dates missing data</h3>
+
+<p>There may be cases where a map has no available data for some dates, even if there are available data before or after these dates.
+This may be because there are no interactions recorded for a date, or because an error occurred during data processing and the dates involved in the error were skipped.
+The date range selector highlights dates for which no data are available.
+Please contact your system administrator if you encounter many dates in the calendar with no available data.</p>
+
+<h3 id="date-selector-unavailable-dates">Unavailable dates</h3>
+
+<p>Depending on the date range that you have selected, some dates can be
+marked as unavailable for selection. For example, when you select an end
+date, all dates prior to the current start date are marked as unavailable.
+All future dates are also marked as unavailable.</p>
+
+<h2 id="metrics-filter">Metrics filter</h2>
+
+<p>This filter focuses on filtering nodes by their key metrics: visits, value, value per visit, and exit value potential.
+You can use the Metrics filter to reduce the noise or to find interesting correlations between different metrics and for finding path optimization candidates, for example:</p>
+
+<ul>
+<li><p>High <a href="#visits">visits</a>, but low <a href="#value">value</a>.</p></li>
+<li><p>High <a href="#value-per-visit">value per visit</a>, but low <a href="#visits">visits</a>.</p></li>
+<li><p>High <a href="#exit-value-potential">exit value potential</a>.</p></li>
+</ul>
+
+<h2 id="application-messages">Application messages</h2>
+
+<p>When using the application, you can see various messages in the message bar.</p>
+
+<h3 id="page-analyzer-hidden-paths">"Some paths are hidden. Use filter to see other paths."</h3>
+
+<p>The application shows only 10 paths at once.
+You can use the Metrics filter to reduce the number of paths based on any metrics criteria.</p>
+
+<h3 id="page-analyzer-maximum-paths">"Based on 500 paths out of X total."</h3>
+
+<p>Some pages, such as the Home page, can have a massive amount of unique paths going through them.
+For efficiency, the application processes the top 500 paths only.
+You can pick a more segmented map or select a smaller date interval to address this.</p>
+
+<h3 id="partial-map">"The selected map is being built. You may see partial data."</h3>
+
+<p>This message can be seen if the currently selected map was recently deployed but the
+process of building data for this map hasn't been completed. Data for the newly deployed map should be available approximately 30 minutes after map deployment.</p>
+
+<h2 id="glossary">Glossary</h2>
+
+<h3 id="map">Map</h3>
+
+<p>A special marketing definition that describes how to build the data for path analysis.
+Page Analyzer uses map data and filters all paths to show only the ones that are going through the currently selected page.
+This filtered dataset is used for visualization.
+You can switch to another map using <a href="#map-selector">map selector</a>. </p>
+
+<h3 id="path">Path</h3>
+
+<p>A sequence of <a href="#node">nodes</a> make up a path. All paths shown in Page Analyzer go through the currently selected page.</p>
+
+<h3 id="node">Node</h3>
+
+<p>An element on a <a href="#path">path</a>. For most maps, nodes essentially translate to other pages.
+There is a set of metrics that are stored on each node: <a href="#value">value</a>, <a href="#visits">visits</a>,
+<a href="#value-per-visit">value per visit</a>, <a href="#exits">exits</a>, <a href="#exit-value">exit value</a>, <a href="#exit-value-per-visit">exit value per visit</a>, and <a href="#average-time-spent">average time
+spent</a>.</p>
+
+<h3 id="exit-node">Exit node</h3>
+
+<p>Node with <a href="#exits">exits</a> greater than zero, indicating the number of <a href="#visits">visits</a> that terminated on this node.</p>
+
+<h3 id="visits">Visits metric</h3>
+
+<p>The total aggregated visits on a given node. This includes visits metrics from all descendant nodes.</p>
+
+<h3 id="value">Value metric</h3>
+
+<p>The total aggregated engagement value on a given node. This includes value metrics from all descendant nodes.</p>
+
+<h3 id="value-per-visit">Value per visit metric</h3>
+
+<p>The aggregated <a href="#value">engagement value</a> divided by <a href="#visits">visits</a> on a given node.
+Sometimes, this metric is defined as <strong>efficiency</strong>.
+This metric is instrumental in calculating <a href="#exit-value-potential">exit value potential</a>.</p>
+
+<h3 id="exits">Exits metric</h3>
+
+<p>The total amount of exits on a given node.
+This metric identifies whether a given node comprises a full path or an entry path.
+Any node with exits greater than zero comprises a full path.
+This metric is instrumental in calculating <a href="#exit-value-potential">exit value potential</a>.</p>
+
+<h3 id="exit-value">Exit value metric</h3>
+
+<p>The aggregated engagement value on a given node before exiting.
+Only nodes where exits occurred have this metric.
+The difference between this and the <a href="#value">value metric</a> is that the exit value metric doesn't take into account engagement value of the descendant nodes.</p>
+
+<h3 id="exit-value-per-visit">Exit value per visit metric</h3>
+
+<p>The aggregated <a href="#value">engagement value</a> divided by <a href="#visits">visits</a> on a given <a href="#exit-node">exit node</a>. Only nodes
+where exits occurred have this metric calculated. The difference between
+this metric and the <a href="#value-per-visit">value per visit</a> metric, is that this metric doesn't
+account for engagement value per visit of the descendant nodes.
+This metric is instrumental in calculating <a href="#exit-value-potential">exit value potential</a>.</p>
+
+<h3 id="exit-value-potential">Exit value potential metric</h3>
+
+<p>The exit potential indicates a projected <a href="#value">engagement value</a> that could be
+gained on average through optimization. It is only calculated for the <a href="#exit-node">exit nodes</a>.
+You can consider it an advanced bounce metric, where the engagement value loss or value leakage is also taken
+into account besides just <a href="#exits">exits</a>. If you know how much <a href="#value-per-visit">value per visit</a> is
+aggregated on all paths further down, and how much <a href="#value-per-visit">value per visit</a> is stored on the <a href="#exit-node">exit node</a>, then this metric can be
+calculated by taking the delta between the two and multiplying by the number of exits, using the following formula:</p>
+
+<p>(value per visit - exit value per visit) * exits</p>
+----field----
+field: {894E6A55-DD32-46B7-8042-08A2EBEDDF65}
+name: Disclaimer
+key: disclaimer
+content-length: 53
+
+© 2016 Sitecore Corporation A/S. All rights reserved.
+----field----
+field: {C8F93AFE-BFD4-4E8F-9C61-152559854661}
+name: __Valid from
+key: __valid from
+content-length: 16
+
+20200117T215513Z
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200117T215513Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 18
+
+sitecore\Anonymous
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d2b52e6c-0ac2-43b9-84a6-82798054ed5e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200117T215513Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 18
+
+sitecore\Anonymous
+----version----
+language: ja-JP
+version: 1
+revision: e6a4ad94-cd4a-4a9f-9013-21fc87bad962
+
+----field----
+field: {894E6A55-DD32-46B7-8042-08A2EBEDDF65}
+name: Disclaimer
+key: disclaimer
+content-length: 53
+
+© 2016 Sitecore Corporation A/S. All rights reserved.
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 10
+
+ページ アナライザー
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133634Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e6a4ad94-cd4a-4a9f-9013-21fc87bad962
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133634Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 2
+revision: 55878f31-a24b-420c-a876-2fc5ec284f22
+
+----field----
+field: {6F11AD22-C527-47D9-A22B-86395B09D695}
+name: Content
+key: content
+content-length: 6534
+
+<h1 id="intro">ページ アナライザー概要</h1>
+
+<p>ラウンチパッドから利用できるPath アナライザーは高度なPath分析に焦点を当てていますが、一方、ページ アナライザーは、特定のページへのPath、または特定のページからのPathにのみ焦点を当てています。
+ページ アナライザーの主な目的は、顧客がある目的地（ページ）へどのようにたどり着くのか、また、顧客はその後何をするのかを理解することです。
+データ視覚化キューにより、最も多いトラフィック（訪問）を持つ Path や、最も高い訪問毎のエンゲージメント バリューを持つ Path を理解することができ、良い Path、悪い Pathを特定することができます。特定の Path を掘り下げ、Path の詳細を調査することも可能です。</p>
+
+<h2 id="map-key">ビジュアル（視覚化）を読み取る方法</h2>
+
+<p>ビジュアル（視覚化）では、現在選択されているページが中心に置かれます（ページ アイコンを持つ大きい円として表示されます）。
+このページに入る Path、このページから出る Path、全ての Path が表示されます。</p>
+
+<p>ランディング エリアには、いくつの Path が現在選択されているページから開始したかが表示されます。</p>
+
+<p>終了エリアには、現在選択されているページで終了した数と <a href="#exit-value-potential">終了バリュー ポテンシャル</a> の累計が表示されます。</p>
+
+<p>現在選択されているページ <em>へ</em> 流れる水平の線は、インカミング Path です。
+線の上部に置かれている円はそのPathの <a href="#node">ノード</a> を示します。ノードは通常ページへ変換します。</p>
+
+<p>現在選択されているページ <em>から</em> 右へ流れる水平の線は、アウトゴーイング Path です。</p>
+
+<p>線の上部に置かれている円はそのPathの <a href="#node">ノード</a> を示します。ノードは通常ページへ変換します。
+ビジュアル（視覚化）を単純化するため、最初のページのみがアウトゴーイング Path に表示されます。</p>
+
+<p>線の太さは、特定の Path から現在選択されているページへの <a href="#visits">訪問</a> の総数を定義しています。
+Path が太ければ太いほど、選択されているページにより多くの訪問があることになります。</p>
+
+<p>線の色は、この特定の Path から現在選択されているページへの <a href="#value-per-visit">訪問毎のバリュー</a> を定義しています。
+Path の色が緑であればあるほど、現在選択されているページに入る他の Path と比較して、 <a href="#value-per-visit">訪問毎のバリュー</a> が高いことになります。
+訪問毎のバリューが最小の Path は赤で表示されます。</p>
+
+<p>円のサイズは、現在選択されているページに繋がる Path のエンゲージメント バリューの総数を定義しています。
+円が大きければ大きいほど、 <a href="#value">エンゲージメント バリュー</a> は高くなります。</p>
+
+<p>コンテキスト ペイン エリアでは、Path の総数だけでなく、訪問、バリュー、訪問毎のバリュー指標の総計が表示されます。
+特定の Path の上にマウス ポインターを置くと、総計エリアにその Path からの指標が表示されます。</p>
+
+<h2 id="map-selector">マップ セレクター</h2>
+
+<p>マップ セレクター コントロールを使って、多種のマップを選択できます。
+また、より多くのマップ メタデータを見ることができ、マップを [お気に入り] に追加することができます。[お気に入り] は自動的に [プロファイル] に保存されます。</p>
+
+<h3 id="group-map-data">グループ マップ データ</h3>
+
+<p>マップは <a href="#node">ノード</a> で構成されるツリー データ構造によって動いています。
+各 <a href="#node">ノード</a> はコンテンツ（Master）データベースに該当するアイテムを持つので、
+マップ セレクターのグループ マップ データ チェックボックスを選択すると、ノードはノードが作成されたSitecore データ テンプレートによりグループ化されます。</p>
+
+<p>例えば、以下の2つのPathを：</p>
+
+<ul>
+<li><p>Home -&gt; TVs -&gt; 50" flat screen TV</p></li>
+<li><p>Home -&gt; Tablets -&gt; 12" tablet</p></li>
+</ul>
+
+<p>一つのPathにグループ化することができます：</p>
+
+<ul>
+<li>Landing Page -&gt; Product Category Page -&gt; Product Detail page</li>
+</ul>
+
+<p>グループ化されたマップ データは、個別のページ レベルよりページ カテゴリー レベルでの Path 分析を行う際に便利です。</p>
+
+<h2 id="date-selector">日付範囲セレクター</h2>
+
+<p>日付範囲セレクターを使用し、カレンダーから個別の開始日、終了日を選択するか、既定の日付範囲から選択することで日付の範囲を選択することができます。</p>
+
+<h3 id="date-selector-missing-dates">日付のないデータ</h3>
+
+<p>ある特定の日付の前後に利用可能なデータがあったとしても、その日付に対する利用可能なデータを持たないマップがある場合があるかもしれません。
+これはその日付に記録されたインタラクションがない、またはデータ処理の際にエラーが起き、エラーを含む日付がスキップされたことが原因である可能性があります。
+日付範囲セレクターは、利用可能なデータがない日付を表示します。
+利用可能なデータがない日付がカレンダーに多く表示された場合は、システム管理者にご連絡ください。</p>
+
+<h3 id="date-selector-unavailable-dates">利用できない日付</h3>
+
+<p>選択した日付範囲により、いくつかの日付が選択不可と表示される場合があります。
+例えば、終了日を選択する際、開始日より前の日付は利用不可と表示されます。
+全ての未来日付も利用不可と表示されます。</p>
+
+<h2 id="metrics-filter">指標フィルター</h2>
+
+<p>指標フィルターは、次の主要指標によるノードのフィルタリングに焦点を当てています： 訪問、バリュー、訪問毎のバリュー、終了バリュー ポテンシャル
+指標フィルターにより、ノイズを減らしたり、異なる指標間の興味深い相互関係を見つけることができます。また、Path 最適化対象を見つけるには、以下のような例を使用します:</p>
+
+<ul>
+<li><p>高い <a href="#visits">訪問</a>だが、低い <a href="#value">バリュー</a>.</p></li>
+<li><p>高い <a href="#value-per-visit">訪問毎のバリュー</a>だが、低い <a href="#visits">訪問</a>.</p></li>
+<li><p>高い <a href="#exit-value-potential">終了バリュー ポテンシャル</a>.</p></li>
+</ul>
+
+<h2 id="application-messages">アプリケーション メッセージ</h2>
+
+<p>ページ アナライザーを使用する際、メッセージ バーに様々なメッセージが表示されます。</p>
+
+<h3 id="page-analyzer-hidden-paths">"一部の Path が非表示になっています。他の Path を確認するにはフィルターを使用してください。"</h3>
+
+<p>ページ アナライザーが同時に表示する Path の数は10です。
+指標フィルターで、指標の基準に基づき Path の数を減らします。</p>
+
+<h3 id="page-analyzer-maximum-paths">" X 件中の 500 の Path に基づきます。"</h3>
+
+<p>ホーム ページなど、一部のページは、ページ全体で独自の Path を大量に持つ場合があります。
+効率を良くするために、ページ アナライザーは上位500の Path のみを処理します。
+これに対処するには、よりセグメント化されたマップを選択する、または日付の間隔を小さくします。</p>
+
+<h3 id="partial-map">"選択されたマップは作成中です。データの一部のみ確認できます。"</h3>
+
+<p>このメッセージは、現在選択されているマップが最近実行されたが、データの作成処理が完了していない場合に表示されます。 新規に実行されたマップのデータは、マップの実行の約30分後に利用可能になります。</p>
+
+<h2 id="glossary">用語解説</h2>
+
+<h3 id="map">マップ</h3>
+
+<p>Path 分析用のデータをどのように作成するかを記述した特別なマーケティング定義。
+ページ アナライザーはマップ データを使い、全ての Path をフィルターし、現在選択されているページを通過している Path のみを表示します。
+このフィルターされたデータセットは視覚化に使われます。
+<a href="#map-selector">マップ セレクター</a> を使い他のマップへ切り替えることができます。</p>
+
+<h3 id="path">Path</h3>
+
+<p>一連の <a href="#node">ノード</a> が Path を生成します。 ページ アナライザーに表示される全ての Path は現在選択されているページを通過します。</p>
+
+<h3 id="node">ノード</h3>
+
+<p><a href="#path">Path</a> の要素。 ほとんどのマップにとって、ノードは原則的に他のページへ変換するものです。
+一連の指標が各ノードに保存されています：<a href="#value">バリュー</a>、 <a href="#visits">訪問</a>、
+<a href="#value-per-visit">訪問毎のバリュー</a>、<a href="#exits">終了</a>、 <a href="#exit-value">終了バリュー</a>、 <a href="#exit-value-per-visit">訪問毎の終了バリュー</a>、 <a href="#average-time-spent">平均時間</a></p>
+
+<h3 id="exit-node">終了ノード</h3>
+
+<p>0より大きい<a href="#exits">終了</a> を持つノード。このノードで終了する<a href="#visits">訪問</a> 数を示します。</p>
+
+<h3 id="visits">訪問指標</h3>
+
+<p>特定のノードの訪問合計。全ての子孫ノードからの訪問指標を含みます。</p>
+
+<h3 id="value">バリュー指標</h3>
+
+<p>特定のノードのエンゲージメント バリュー合計。全ての子孫ノードからのバリュー指標を含みます。</p>
+
+<h3 id="value-per-visit">訪問毎のバリュー指標</h3>
+
+<p>特定のノードの<a href="#visits">訪問</a> で割った <a href="#value">エンゲージメント バリュー</a>。
+この指標は <strong>効率</strong> として定義される場合があります。
+この指標は <a href="#exit-value-potential">終了バリュー ポテンシャル</a> を算出するための手段です。</p>
+
+<h3 id="exits">終了指標</h3>
+
+<p>特定のノードの終了数の合計。
+この指標は、特定のノードが 完全な Path または エントリー Pathのどちらから構成されているかを特定します。
+0より大きい終了を持つノードは、完全な Path から構成されています。
+この指標は、<a href="#exit-value-potential">終了バリュー ポテンシャル</a>を算出するための手段です。</p>
+
+<h3 id="exit-value">終了バリュー指標</h3>
+
+<p>特定のノードの終了前のエンゲージメント バリュー。
+終了が起こったノードのみこの指標を持ちます。
+終了バリュー指標と <a href="#value">バリュー指標</a>  の違いは、終了バリュー指標が子孫ノードのエンゲージメント バリューを考慮に入れていないことです。</p>
+
+<h3 id="exit-value-per-visit">訪問毎の終了バリュー指標</h3>
+
+<p>特定の <a href="#exit-node">終了ノード</a> の <a href="#visits">訪問</a> で割った <a href="#value">エンゲージメント バリュー</a>。
+終了が起こったノードのみこの指標が算出されます。訪問毎の終了バリュー指標と<a href="#value-per-visit">訪問毎のバリュー</a> 指標の違いは、訪問毎の終了バリュー指標が子孫ノードの訪問毎のエンゲージメント バリューを考慮に入れていないことです。
+この指標は、 <a href="#exit-value-potential">終了バリュー ポテンシャル</a> を算出するための手段です。</p>
+
+<h3 id="exit-value-potential">終了バリュー ポテンシャル指標</h3>
+
+<p>終了ポテンシャルは、最適化を通じ平均して得られる予測 <a href="#value">エンゲージメント バリュー</a> を表示します。<a href="#exit-node">終了ノード</a> にのみ算出されます。
+<a href="#exits">終了</a> に加え、エンゲージメント バリュー 損失 または バリュー漏れもまた考慮される高度な直帰指標として考えることができます。どのくらいの <a href="#value-per-visit">訪問毎のバリュー</a> が全ての Path に関して計算されているか、また、どのくらいの <a href="#value-per-visit">訪問毎のバリュー</a> が <a href="#exit-node">終了ノード</a> に保存されているかが分かっている場合、この指標は二つの差分を取り、終了数で掛けることにより算出することができます。公式は次の通りです：</p>
+
+<p>(訪問毎のバリュー – 訪問毎の終了バリュー) * 終了</p>
+----field----
+field: {894E6A55-DD32-46B7-8042-08A2EBEDDF65}
+name: Disclaimer
+key: disclaimer
+content-length: 53
+
+© 2016 Sitecore Corporation A/S. All rights reserved.
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 10
+
+ページ アナライザー
+----field----
+field: {C8F93AFE-BFD4-4E8F-9C61-152559854661}
+name: __Valid from
+key: __valid from
+content-length: 16
+
+20200117T215513Z
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200117T215513Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 18
+
+sitecore\Anonymous
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+55878f31-a24b-420c-a876-2fc5ec284f22
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200117T215513Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 18
+
+sitecore\Anonymous

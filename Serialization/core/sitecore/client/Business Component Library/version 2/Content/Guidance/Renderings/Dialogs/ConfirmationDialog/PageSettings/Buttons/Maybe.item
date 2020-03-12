@@ -1,0 +1,277 @@
+----item----
+version: 1
+id: {3C708331-80A6-428F-B092-2786455C9414}
+database: core
+path: /sitecore/client/Business Component Library/version 2/Content/Guidance/Renderings/Dialogs/ConfirmationDialog/PageSettings/Buttons/Maybe
+parent: {43C1A07C-9BEF-40DE-B6E9-84FDD0965E9E}
+name: Maybe
+master: {00000000-0000-0000-0000-000000000000}
+template: {DB891DD9-D35A-43AB-8E77-71C6859C78DD}
+templatekey: ConfirmationDialogButton
+created: 20160729T132116Z
+
+----field----
+field: {FE75AF47-5EE8-477D-A12A-3F5F2945CD19}
+name: Click
+key: click
+content-length: 5
+
+maybe
+----field----
+field: {BA29A8EB-9EAC-403D-94D2-034606F250C0}
+name: IsDefault
+key: isdefault
+content-length: 0
+
+
+----field----
+field: {9EA1BAAF-8784-4B7D-BD1E-CAD91250AC99}
+name: IsSameAsClose
+key: issameasclose
+content-length: 0
+
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+200
+----version----
+language: da
+version: 1
+revision: dd19877b-a84a-4570-ae38-2d3240ae6324
+
+----field----
+field: {E48F246B-02D3-440D-96CD-BA17CEC10D27}
+name: Label
+key: label
+content-length: 5
+
+Måske
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 5
+
+Måske
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133324Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+dd19877b-a84a-4570-ae38-2d3240ae6324
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133324Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: eae16f39-f183-4ce5-8452-8a30e12d0017
+
+----field----
+field: {E48F246B-02D3-440D-96CD-BA17CEC10D27}
+name: Label
+key: label
+content-length: 10
+
+Vielleicht
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 10
+
+Vielleicht
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133450Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+eae16f39-f183-4ce5-8452-8a30e12d0017
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133450Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: f68fe95d-77c9-4981-acba-8ab51b72faac
+
+----field----
+field: {E48F246B-02D3-440D-96CD-BA17CEC10D27}
+name: Label
+key: label
+content-length: 5
+
+Maybe
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150514T140846Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f68fe95d-77c9-4981-acba-8ab51b72faac
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150518T172006:635675664069444241Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 15109ad4-50ed-48aa-bb5f-078c8a641dca
+
+----field----
+field: {E48F246B-02D3-440D-96CD-BA17CEC10D27}
+name: Label
+key: label
+content-length: 7
+
+可能性 (中)
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 7
+
+可能性 (中)
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133617Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+15109ad4-50ed-48aa-bb5f-078c8a641dca
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133617Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

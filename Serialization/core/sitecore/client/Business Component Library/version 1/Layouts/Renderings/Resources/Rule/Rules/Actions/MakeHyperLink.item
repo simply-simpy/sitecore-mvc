@@ -1,0 +1,256 @@
+----item----
+version: 1
+id: {6ACA7A22-D5CF-4759-9E18-F96E2AE85094}
+database: core
+path: /sitecore/client/Business Component Library/version 1/Layouts/Renderings/Resources/Rule/Rules/Actions/MakeHyperLink
+parent: {D4CABAEF-F4EA-4167-A633-82F45E230860}
+name: MakeHyperLink
+master: {00000000-0000-0000-0000-000000000000}
+template: {F90052A5-B4E6-4E6D-9812-1E1B88A6FCEA}
+templatekey: Action
+created: 20160729T132116Z
+
+----field----
+field: {0B8B930B-8916-4462-BD4D-700303EADFD6}
+name: Code
+key: code
+content-length: 0
+
+
+----version----
+language: da
+version: 1
+revision: 5c37466a-afff-4efe-b0dc-e1763c9b9e7d
+
+----field----
+field: {EEB36A3B-40D9-4AF5-862A-DE257B84DCA3}
+name: Text
+key: text
+content-length: 396
+
+angiv visningsteksten for hyperlinket til tekstegenskaben for [targetDisplayTextID,,,textControl1], ankerværdi til tekstegenskaben for [targetAnchorID,,,textControl2], destinationsvinduesværdien til selectedItem-egenskaben [targetWindowID,,,comboBox1], alternativtekst til tekstegenskaben for [targetAltTextID,,,textControl3] og typografien til tekstegenskaben for  [targetStyleID,,,textControl4]
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 13
+
+MakeHyperLink
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133331Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5c37466a-afff-4efe-b0dc-e1763c9b9e7d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133331Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 5b166779-5652-4202-9fa0-bc5bbb3e594e
+
+----field----
+field: {EEB36A3B-40D9-4AF5-862A-DE257B84DCA3}
+name: Text
+key: text
+content-length: 413
+
+Den Hyperlinkanzeigetext auf die Texteigenschaft des [targetDisplayTextID,,,textControl1] setzen, den Ankerwert auf die Texteigenschaft des [targetAnchorID,,,textControl2], den Zielfensterwert auf die selectedItem-Eigenschaft des [targetWindowID,,,comboBox1], den Alternativtext auf die Texteigenschaft des  [targetAltTextID,,,textControl3] und den Stil auf die Texteigenschaft des  [targetStyleID,,,textControl4]
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 18
+
+HyperlinkErstellen
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133459Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5b166779-5652-4202-9fa0-bc5bbb3e594e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133459Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 7ed8cde3-aa4b-43d4-9a75-48b96c6bc44e
+
+----field----
+field: {EEB36A3B-40D9-4AF5-862A-DE257B84DCA3}
+name: Text
+key: text
+content-length: 359
+
+set the hyperlink display text to [targetDisplayTextID,,,textControl1]'s text property, anchor value to [targetAnchorID,,,textControl2]'s text property, target window value to [targetWindowID,,,comboBox1]'s selectedItem property, alternative text to  [targetAltTextID,,,textControl3]'s text property, and style to  [targetStyleID,,,textControl4] text property
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130320T095200
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+7ed8cde3-aa4b-43d4-9a75-48b96c6bc44e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20130813T144150:635120017100994249
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 685e3ff1-204d-4863-a929-70666571621f
+
+----field----
+field: {EEB36A3B-40D9-4AF5-862A-DE257B84DCA3}
+name: Text
+key: text
+content-length: 284
+
+ハイパーリンクの表示テキストを [targetDisplayTextID,,,テキスト コントロール1] テキスト プロパティに、アンカーの値を [targetAnchorID,,,テキスト コントロール2] テキスト プロパティに、ターゲット ウィンドウの値を [targetWindowID,,,コンボ ボックス1] で選択したアイテムのプロパティに、代替テキストを [targetAltTextID,,,テキスト コントロール3] テキスト プロパティに、スタイルを [targetStyleID,,,テキスト コントロール4] テキスト プロパティに設定すｒ。
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 12
+
+ハイパーリンクを作成する
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133626Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+685e3ff1-204d-4863-a929-70666571621f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133626Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

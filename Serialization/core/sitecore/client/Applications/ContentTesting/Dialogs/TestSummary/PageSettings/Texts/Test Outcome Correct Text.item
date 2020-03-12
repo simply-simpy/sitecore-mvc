@@ -1,0 +1,235 @@
+----item----
+version: 1
+id: {2BA8A8B2-8526-44F2-8061-0D4452D223A4}
+database: core
+path: /sitecore/client/Applications/ContentTesting/Dialogs/TestSummary/PageSettings/Texts/Test Outcome Correct Text
+parent: {6C25C295-F517-4488-98F2-36FB560D0EB7}
+name: Test Outcome Correct Text
+master: {00000000-0000-0000-0000-000000000000}
+template: {89E58DDA-BCD8-406E-82A2-E459F4130CA8}
+templatekey: TextTemplate Parameters
+created: 20160729T132117Z
+
+----version----
+language: da
+version: 1
+revision: 5b803977-33d5-4424-9c9d-059d0b854c66
+
+----field----
+field: {EE7FC573-596E-41DF-BE8D-2D343AC8E9A6}
+name: Text
+key: text
+content-length: 105
+
+Du gættede, at resultatet af testen ville være "<%= guess %>". Og resultatet var faktisk "<%= outcome %>"
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 21
+
+Testudfald, ret tekst
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133321Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5b803977-33d5-4424-9c9d-059d0b854c66
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133321Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 221c112b-fc5e-4426-a6c4-cd1c47c07e8a
+
+----field----
+field: {EE7FC573-596E-41DF-BE8D-2D343AC8E9A6}
+name: Text
+key: text
+content-length: 113
+
+Sie haben vermutet, dass das Ergebnis des Tests "<%= guess %>" ist. Das Ergebnis war tatsächlich "<%= outcome %>"
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 27
+
+Testergebnis Richtiger Text
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133447Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+221c112b-fc5e-4426-a6c4-cd1c47c07e8a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133447Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: f0db9533-1629-4c45-9502-f7c9996a7d8f
+
+----field----
+field: {EE7FC573-596E-41DF-BE8D-2D343AC8E9A6}
+name: Text
+key: text
+content-length: 105
+
+You guessed the outcome of the test would be "<%= guess %>". And the outcome was in fact "<%= outcome %>"
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150423T045150Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f0db9533-1629-4c45-9502-f7c9996a7d8f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150423T045205:635653615250740635Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: e3fd28a0-a30b-4886-ad8a-17a6203c433a
+
+----field----
+field: {EE7FC573-596E-41DF-BE8D-2D343AC8E9A6}
+name: Text
+key: text
+content-length: 67
+
+次のテスト結果を予測しました： "<%= guess %>"。実際の結果は次のようになりました："<%= outcome %>"でした
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 13
+
+テスト成果の正しいテキスト
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133614Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e3fd28a0-a30b-4886-ad8a-17a6203c433a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133614Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

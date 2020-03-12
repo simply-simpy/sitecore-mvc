@@ -1,0 +1,233 @@
+----item----
+version: 1
+id: {21E33EA9-18B8-4041-AC5E-F417FDD5BF97}
+database: core
+path: /sitecore/client/Business Component Library/version 2/Content/Guidance/Renderings/Common/DatePicker/PageSettings/Tabs/Demo
+parent: {41CA0421-94BC-47E7-8D79-107A85A830C5}
+name: Demo
+master: {1A934758-1761-446E-AA0E-D19B3369292B}
+template: {8A7ACB1A-0990-4C9E-A6F0-9612D0F5F51C}
+templatekey: Tab
+created: 20160729T132116Z
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+100
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 0
+
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 7713
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{759BEFD1-3323-404D-A243-E0ED81163C03}">
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border" uid="{44DF949A-1294-4F85-925B-F47AA4A8E44B}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=Border1&amp;ConfigurationDetails=ViewMode%3dCalendar&amp;Description=The+ViewMode+property+specifies+whether+the+control+shows+a+text+box+in+addition+to+the+calendar.+If+specified+as+%22Calendar%22%2c+only+the+calendar+is+shown.+The+text+box+is+shown+when+the+property+is+specified+as+%22Textbox%22.&amp;Title=Specifying+whether+then+control+shows+a+text+box" ph="Border.Content" uid="{AFC2825F-E356-4FD5-B66F-D9C596CAC550}" />
+    <r id="{98C61794-211E-468A-97F7-EBAA96DB745A}" par="Id=DatePicker2&amp;ViewMode=Calendar" ph="Border1.Content" uid="{81890D5D-6801-45A2-AE0A-E1EB91FF94A6}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanel1&amp;ConfigurationDetails=Date%3d19861026&amp;Description=The+Date+property+specifies+a+Date%2c+in+the+format+yyyymmdd.&amp;Title=Specifying+a+date" uid="{18D1929B-47FC-4B34-A053-3006BC43C249}" />
+    <r id="{98C61794-211E-468A-97F7-EBAA96DB745A}" par="Date=19861026&amp;Id=DatePicker1" ph="DemoComponentPanel1.Content" uid="{E17FB187-715B-485F-B7A0-26F116DEA0A4}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanel2&amp;ConfigurationDetails=FirstDay%3dWednesday&amp;Description=The+FirstDay+property+specifies+the+first+day+of+the+week.+In+this+demo%2c+the+first+day+is+set+to+Wednesday.&amp;Title=Specifying+the+first+day+of+the+week" uid="{6FA6EC23-98F6-418C-A207-9BB4B9EC32EA}" />
+    <r id="{98C61794-211E-468A-97F7-EBAA96DB745A}" par="Date=19690619&amp;Id=DatePicker3&amp;ViewMode=Calendar&amp;FirstDay=Wednesday" ph="DemoComponentPanel2.Content" uid="{B466892D-69EA-457E-BF8B-84EE2FE84E32}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanel3&amp;ConfigurationDetails=Format%3dd*M*yy&amp;Description=The+FormatCustom+property+specifies+the+format+the+control+uses+to+display+the+date+in.+&amp;Title=Using+a+custom+format" uid="{3AB47F5E-9B38-4E66-BBF5-C69B764D79F3}" />
+    <r id="{98C61794-211E-468A-97F7-EBAA96DB745A}" par="FormatCustom=d*M*yy&amp;Date=19830227&amp;Id=DatePicker4" ph="DemoComponentPanel3.Content" uid="{8A060D00-86AA-40C2-9A77-0A60B0BC7E1A}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanel3b&amp;Description=The+FormatPreset+property+specifies+a+format+preset.+The+available+presets+include%3a+%27year+numeric-month+date%27%2c+%27year+short-month+date%27%2c+%27year+full-month+date%27%2c+and+%27year+full-month+weekday+date%27.+The+presets+are+used+in+that+order+in+the+examples.&amp;Title=Using+a+format+preset" uid="{3AB47F5E-9B38-4E66-BBF5-C69B764D79F3}" />
+    <r id="{98C61794-211E-468A-97F7-EBAA96DB745A}" par="Date=19830227&amp;Id=DatePicker3b&amp;FormatPreset=%7b6994DF2C-A016-4C88-A1DA-09395FCF2A2E%7d" ph="DemoComponentPanel3b.Content" uid="{8A060D00-86AA-40C2-9A77-0A60B0BC7E1A}" />
+    <r id="{98C61794-211E-468A-97F7-EBAA96DB745A}" par="Date=19830227&amp;Id=DatePicker3b1&amp;FormatPreset=%7b4C0C8A4A-B571-405F-BF64-4962CC77FFC2%7d" ph="DemoComponentPanel3b.Content" uid="{8A060D00-86AA-40C2-9A77-0A60B0BC7E1A}" />
+    <r id="{98C61794-211E-468A-97F7-EBAA96DB745A}" par="Date=19830227&amp;Id=DatePicker3b2&amp;FormatPreset=%7b8DE03888-4444-45EA-9BFE-45EA502359A5%7d" ph="DemoComponentPanel3b.Content" uid="{8A060D00-86AA-40C2-9A77-0A60B0BC7E1A}" />
+    <r id="{98C61794-211E-468A-97F7-EBAA96DB745A}" par="Date=19830227&amp;Id=DatePicker3b3&amp;FormatPreset=%7b8B113D54-8A56-4F1B-9121-68A71F523789%7d" ph="DemoComponentPanel3b.Content" uid="{8A060D00-86AA-40C2-9A77-0A60B0BC7E1A}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanel4&amp;ConfigurationDetails=MinDate%3d20150802%26MaxDate%3d20150804&amp;Description=The+MaxDate+and+MinDate+properties+specify+the+latest+and+earliest+day+that+users+can+pick.+The+control+grays+out+days+outside+this+range.&amp;Title=Specifying+latest+and+earliest+date" uid="{8D6F3BA1-CBC6-48A8-97A7-8C12C15AD59A}" />
+    <r id="{98C61794-211E-468A-97F7-EBAA96DB745A}" par="Id=DatePicker5&amp;MaxDate=20150804&amp;MinDate=20150802&amp;ViewMode=Calendar" ph="DemoComponentPanel4.Content" uid="{4F669157-EF80-4E8C-898E-D5CF28F519A9}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanel5&amp;ConfigurationDetails=IsPreviousNextMonthVisible%3dTrue&amp;Description=The+IsPreviousNextMonthVisible+property+specifies+whether+the+control+shows+days+that+belong+to+other+months.+If+True%2c+the+control+shows+these+dates+grayed-out+at+the+beginning+or+the+end+of+the+month.&amp;Title=Showing+other+months" uid="{1B623DF6-CA18-4481-B998-E2000B75EE3A}" />
+    <r id="{98C61794-211E-468A-97F7-EBAA96DB745A}" par="Date=20010918&amp;Id=DatePicker6&amp;ViewMode=Calendar&amp;IsPreviousNextMonthVisible=1" ph="DemoComponentPanel5.Content" uid="{666E0AA7-C8A6-4AD7-9EC9-7CEC15565A4F}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanel6&amp;ConfigurationDetails=Time%3dT123456&amp;Description=The+control+has+a+Time+property%2c+but+it+does+not+use+it+itself.+You+set+this+property+and+bind+to+it+as+in+the+example+below.&amp;Title=Binding+to+time" uid="{7AFA2CD0-6F8C-4685-A7B0-FDFC52AD556A}" />
+    <r id="{98C61794-211E-468A-97F7-EBAA96DB745A}" par="Id=DatePicker7&amp;Time=T123456" ph="DemoComponentPanel6.Content" uid="{A84538EB-333A-4F7C-90F1-8AB008482A2C}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=Text3&amp;Text=%7bBinding+DatePicker7.Time%7d" ph="DemoComponentPanel6.Content" uid="{10F0403F-5134-46EA-B899-CAA0EE82BEAB}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanel7&amp;ConfigurationDetails=IsTodayButtonVisible%3dTrue&amp;Description=The+IsTodayButtonVisible+property+specifies+whether+the+control+shows+a+%22Today%22+button.+When+users+click+this+button%2c+the+control+sets+the+current+date+as+the+currently+selected+date.&amp;Title=Showing+a++%22Today%22+button" uid="{05FA5578-3EC9-409F-835E-3F1364F6BA72}" />
+    <r id="{98C61794-211E-468A-97F7-EBAA96DB745A}" par="Date=20150101&amp;Id=DatePicker8&amp;ViewMode=Calendar&amp;IsTodayButtonVisible=1" ph="DemoComponentPanel7.Content" uid="{8CA076C4-E18A-499A-A814-A33AEA39DBC4}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanel8&amp;ConfigurationDetails=FormatPreset%3dLong&amp;Description=The+FormattedDate+property+is+a+read-only+property+that+contains+the+date+as+the+control+formats+it%2c+according+to+the+FormatCustom+and+FormatPreset+properties.+You+can+bind+to+this+property.+In+the+example+below%2c+the+Text+control++is+bound+to+the+FormattedDate+property+of+the+DatePicker+control.&amp;Title=Binding+to+the+formatted+date" uid="{05FA5578-3EC9-409F-835E-3F1364F6BA72}" />
+    <r id="{98C61794-211E-468A-97F7-EBAA96DB745A}" par="ShowToday=1&amp;Id=DatePicker9&amp;FormatPreset=Long&amp;ViewMode=Textbox" ph="DemoComponentPanel8.Content" uid="{8CA076C4-E18A-499A-A814-A33AEA39DBC4}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border2&amp;PaddingType=Top&amp;UsePadding=1" ph="DemoComponentPanel8.Content" uid="{BE39A9A1-D3EE-405F-8D83-EC381F8121BA}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=Text2&amp;Text=FormattedDate%3a+" ph="DemoComponentPanel8.Content" uid="{EA2335C5-9DA8-4839-910D-9693BBEC194F}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=Text1&amp;Text=%7bBinding+DatePicker9.FormattedDate%7d" ph="DemoComponentPanel8.Content" uid="{EA2335C5-9DA8-4839-910D-9693BBEC194F}" />
+  </d>
+</r>
+----version----
+language: de-DE
+version: 1
+revision: ac63eb03-5393-43b6-a79b-de5d31c55197
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 3
+
+Tab
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 4
+
+Demo
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133445Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ac63eb03-5393-43b6-a79b-de5d31c55197
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133445Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 7260d4b7-4606-4e9e-b170-c2ab5275ca85
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 3
+
+Tab
+----field----
+field: {772AEA8A-4D70-43F4-BD6B-EDE5FB060623}
+name: Tooltip
+key: tooltip
+content-length: 0
+
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150318T143354Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+7260d4b7-4606-4e9e-b170-c2ab5275ca85
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160411T135611Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: dbb71315-85a1-40b5-81c7-5265cf53bf13
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 2
+
+タブ
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 2
+
+デモ
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133612Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+dbb71315-85a1-40b5-81c7-5265cf53bf13
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133612Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

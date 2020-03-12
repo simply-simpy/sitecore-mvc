@@ -1,0 +1,227 @@
+----item----
+version: 1
+id: {3E6D7931-F5D2-46A6-92B2-E53EC09100F4}
+database: core
+path: /sitecore/client/Applications/ExperienceProfile/Contact/PageSettings/Tabs/Overview/OverviewPanel/RecentCampaignTemplate
+parent: {E1ADDF9D-F168-4234-80BC-2599465104D4}
+name: RecentCampaignTemplate
+master: {00000000-0000-0000-0000-000000000000}
+template: {F62B4CD7-754C-4461-810F-2B6BD2C92A0D}
+templatekey: Tab
+created: 20160729T132117Z
+
+----field----
+field: {DEAB3795-056F-4421-ADF0-758844461B72}
+name: Placeholder Name
+key: placeholder name
+content-length: 22
+
+RecentCampaignTemplate
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 1759
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{759BEFD1-3323-404D-A243-E0ED81163C03}">
+    <r id="{CB83D434-31ED-4AC3-A280-CCE2B63F9743}" ph="Page.Body" uid="{F68705C5-523A-4F10-AB99-DF946490D23F}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=CampaignBorder" ph="Page.Body" uid="{90CB1647-D4DB-436C-A66F-2BD72B316D16}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=CampaignNameBorder" ph="CampaignBorder.Content" uid="{90CB1647-D4DB-436C-A66F-2BD72B316D16}" />
+    <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="&amp;Id=CampaignName&amp;TextType=Value" ph="CampaignNameBorder.Content" uid="{3F3D9559-B188-4904-BEDB-8CA93ED641E8}" />
+    <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="&amp;Id=CampaignColon&amp;TextType=Text&amp;Text=%3a" ph="CampaignNameBorder.Content" uid="{3F3D9559-B188-4904-BEDB-8CA93ED641E8}" />
+    <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="&amp;Id=CampaignChannel&amp;TextType=Text" ph="CampaignNameBorder.Content" uid="{3F3D9559-B188-4904-BEDB-8CA93ED641E8}" />
+    <r ds="{562DEA33-A38C-4725-9DB3-CC58A2DA3C7F}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="&amp;Id=ConvertedTitle" ph="CampaignBorder.Content" uid="{117151EF-CF87-4C93-9F9E-4093474F60FC}" />
+    <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=VisitsAgo" ph="CampaignBorder.Content" uid="{52612CF0-BA6E-4F2E-8082-8DB124F82120}" />
+    <r ds="{58BA4D6C-727F-4AA5-8696-98DB76BBA07C}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=VisitsAgoTitle" ph="CampaignBorder.Content" uid="{78BFFEB5-8074-427C-9E26-74D17662DFB2}" />
+    <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=Recency" ph="CampaignBorder.Content" uid="{B219BFEE-0EBD-43C0-9700-502085D2A26A}" />
+  </d>
+</r>
+----version----
+language: da
+version: 1
+revision: 60a95946-4a92-429c-a274-7db1bffadb00
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 22
+
+RecentCampaignTemplate
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133324Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+60a95946-4a92-429c-a274-7db1bffadb00
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133324Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 03ca7603-b7d8-48d2-971b-3ba27c41c14a
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 24
+
+KürzlicheKampagnevorlage
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 34
+
+20140611T164451:635381018910569166
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+03ca7603-b7d8-48d2-971b-3ba27c41c14a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133450Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 9651af82-7310-474e-93ec-2be0b9661fb2
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20131225T113316
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+9651af82-7310-474e-93ec-2be0b9661fb2
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150127T134328:635579630081764750Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: b0662fa7-46d7-4833-b9b4-ba51cac087a0
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 16
+
+最近のキャンペーン テンプレート
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133617Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b0662fa7-46d7-4833-b9b4-ba51cac087a0
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133617Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

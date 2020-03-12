@@ -1,0 +1,228 @@
+----item----
+version: 1
+id: {A0B1AE8D-B025-4FBB-B17E-531F025097DD}
+database: core
+path: /sitecore/client/Applications/ExperienceProfile/Contact/PageSettings/Info/ValuePerVisitTitle
+parent: {093499DB-9C26-499E-BE10-CAA8E640D15C}
+name: ValuePerVisitTitle
+master: {00000000-0000-0000-0000-000000000000}
+template: {6437CFD5-76CA-48AA-BFBD-8B8D73EB5581}
+templatekey: Text Parameters
+created: 20160729T132117Z
+
+----version----
+language: da
+version: 1
+revision: 280416f8-83af-4657-8283-a395035f0a3e
+
+----field----
+field: {3564B3D0-3804-4D86-9880-B5E7473EF56C}
+name: Text
+key: text
+content-length: 15
+
+Værdi pr. besøg
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 18
+
+ValuePerVisitTitle
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133340Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+280416f8-83af-4657-8283-a395035f0a3e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133340Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: c1dab0c0-4caf-4f16-9756-2a9238ff8e5b
+
+----field----
+field: {3564B3D0-3804-4D86-9880-B5E7473EF56C}
+name: Text
+key: text
+content-length: 15
+
+Wert pro Besuch
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 18
+
+WertProBesuchTitel
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 34
+
+20140611T164819:635381020998985911
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c1dab0c0-4caf-4f16-9756-2a9238ff8e5b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133510Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: ff7d4221-ba96-4125-8ea9-65ae56fb0696
+
+----field----
+field: {3564B3D0-3804-4D86-9880-B5E7473EF56C}
+name: Text
+key: text
+content-length: 15
+
+Value per visit
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20140109T104942Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ff7d4221-ba96-4125-8ea9-65ae56fb0696
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20141103T141029:635506206293576138Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: a61666c1-7b7f-403f-8c40-beb494241ea2
+
+----field----
+field: {3564B3D0-3804-4D86-9880-B5E7473EF56C}
+name: Text
+key: text
+content-length: 8
+
+訪問毎のバリュー
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 12
+
+訪問タイトル毎のバリュー
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133637Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a61666c1-7b7f-403f-8c40-beb494241ea2
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133637Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

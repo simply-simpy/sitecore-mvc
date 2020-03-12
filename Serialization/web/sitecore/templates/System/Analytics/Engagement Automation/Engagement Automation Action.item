@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {8C5EAD00-5F68-4310-AB0C-84F283B5EE0A}
+database: web
+path: /sitecore/templates/System/Analytics/Engagement Automation/Engagement Automation Action
+parent: {6AE28763-9C96-46C1-BBBC-B597068FB36F}
+name: Engagement Automation Action
+master: {00000000-0000-0000-0000-000000000000}
+template: {AB86861A-6030-46C5-B394-E8F99E8B87DB}
+templatekey: Template
+created: 20160729T132117Z
+
+----field----
+field: {12C33F3F-86C5-43A5-AEB4-5598CEC45116}
+name: __Base template
+key: __base template
+content-length: 77
+
+{66882E97-C8AA-4E37-8901-7A8AA35ED2ED}|{40BFCA15-E1DA-4C64-B2E1-FA3BC2D84D42}
+----field----
+field: {F7D48A55-2158-4F02-9356-756654404F73}
+name: __Standard values
+key: __standard values
+content-length: 38
+
+{D3867517-F08A-41EB-800E-65FB9E01F330}
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 38
+
+Imaging/32x32/line_straight_blue_h.png
+----version----
+language: en
+version: 1
+revision: d1b0ba05-4964-4a1e-91ac-4d1b1098781c
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20100308T134400
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d1b0ba05-4964-4a1e-91ac-4d1b1098781c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20110517T122730:634412320506895783
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

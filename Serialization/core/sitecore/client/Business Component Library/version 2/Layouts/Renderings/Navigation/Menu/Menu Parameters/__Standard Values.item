@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {8FD5E3BD-3015-4E16-BD40-66B20A9DF00C}
+database: core
+path: /sitecore/client/Business Component Library/version 2/Layouts/Renderings/Navigation/Menu/Menu Parameters/__Standard Values
+parent: {012A2F8B-1D48-458B-ADAE-E1B3D305C373}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {012A2F8B-1D48-458B-ADAE-E1B3D305C373}
+templatekey: Menu Parameters
+created: 20160729T132117Z
+
+----field----
+field: {112CEC44-5700-415C-B2A0-A68C1AE272D1}
+name: IsEnabled
+key: isenabled
+content-length: 1
+
+1
+----version----
+language: en
+version: 1
+revision: a3a24596-6da6-4dad-935f-054f7e4d6187
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20140805T093927Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a3a24596-6da6-4dad-935f-054f7e4d6187
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150624T161834:635707595140115975Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

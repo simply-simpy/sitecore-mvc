@@ -1,0 +1,260 @@
+----item----
+version: 1
+id: {43340BFD-2B2E-4199-A942-F28ACE40A14D}
+database: core
+path: /sitecore/client/Applications/FXM/ExperienceEditorExtension/Dialogs/CaptureClientAction
+parent: {744EB9E9-211A-4169-92D0-E9DBE1BC8595}
+name: CaptureClientAction
+master: {00000000-0000-0000-0000-000000000000}
+template: {8152CF09-9DD0-40C0-B806-6E91FDF389BC}
+templatekey: Speak-DialogPage
+created: 20160729T132117Z
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 3181
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{4F72A793-BDBC-4262-9523-6AADD8FEA487}">
+    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="PageCodeScriptFileName=%2f-%2fspeak%2fv1%2fFXM%2fExperienceEditorExtension%2fDialogs%2fCaptureClientAction%2fCaptureClientAction.js" ph="Page.Code" uid="{3269BFF0-F17F-4DED-BA88-6929E3F4E95C}" />
+    <r ds="{7FB06B25-02E3-4F9A-BF8E-65733DAFE9BA}" id="{33A02142-2DBD-4034-AEA2-BDF215EB2451}" par="Id=MatcherTypeDatasource" ph="Page.Body" uid="{6AD5D0A6-0625-415B-AEAA-337D7740707E}" />
+    <r ds="{8D13505A-7822-41A1-AE99-155CE86C20B3}" id="{33A02142-2DBD-4034-AEA2-BDF215EB2451}" par="Id=MessageBarDataSource" ph="Page.Body" uid="{765D5B3D-0DA5-4DBA-9B59-47142E47975B}" />
+    <r id="{7BA20861-BC27-4F0E-94DD-8F974628A5C4}" ph="Page.Body" uid="{E709CAA4-9A60-4923-8609-DFB2417F6399}" />
+    <r id="{642C1164-3AE1-4D86-8474-3BC19FE4433B}" ph="DialogHeader" uid="{58FED11C-BCA7-4E9F-B7FB-3357C0462839}" />
+    <r ds="{6836D2E4-C1BD-42EA-AD18-B4C3998E3956}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=EditTitle&amp;IsVisible=0" ph="DialogHeader.Title" uid="{CF436715-546E-4B1B-A058-315AB99A87DA}" />
+    <r ds="{2281E6DA-40B3-459E-AB60-D24A07B85F60}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=Title&amp;IsVisible=0" ph="DialogHeader.Title" uid="{CF436715-546E-4B1B-A058-315AB99A87DA}" />
+    <r id="{8817F241-28C9-45AA-8C8D-434E71BCEF4B}" par="ShowToolbar=0" ph="DialogContent" uid="{61DFE1E5-D453-4E82-A2DF-29CB161DB126}" />
+    <r ds="{AD071C28-3E0D-4FDF-A05B-AE63221022A9}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=IntroText&amp;IsVisible=0" ph="DialogContent.Main" uid="{8428A054-D22E-4752-BAA3-31CD72F9E9A9}" />
+    <r id="{73C16115-8B56-43AF-8EA3-4D704FCDA127}" par="Id=Separator&amp;IsVisible=0" ph="DialogContent.Main" uid="{7D00D6A3-09CA-48F7-89C4-574C2BF5428F}" />
+    <r id="{910155C7-3881-4A56-90FB-D126490EDE55}" par="Id=ClientActionMessageBar&amp;Messages=%7bDC5C1E88-591F-4746-BAD0-964480DCB7B7%7d" ph="DialogContent.Main" uid="{D5C27453-082E-4DC5-A1C8-B7943DEE5B40}" />
+    <r id="{2B57561F-B50D-47C8-8263-8EC90AB8D5E9}" par="NameControlId=ClientActionNameTextBox&amp;Id=CaptureClientActionControl&amp;EventsPickerControlId=ClientActionEventsAnalyticsItemPicker&amp;GoalsPickerControlId=ClientActionGoalsAnalyticsItemPicker&amp;TabControl=%7b30667FBF-B321-44CD-A0DC-1E473D160880%7d&amp;CampaignsPickerControlId=ClientActionCampaignsAnalyticsItemPicker&amp;OutcomesPickerControlId=ClientActionOutcomesAnalyticsItemPicker" ph="DialogContent.Main" uid="{157C7C92-2823-4DFF-A5A9-9330104F7C70}" />
+    <r id="{D8C6868D-7AE2-447F-9FD2-E712FDFA46C1}" ph="DialogFooter" uid="{C44B8AD6-AE86-4818-A00E-CF7000531B18}" />
+    <r ds="{ACF2DA85-EEC4-49B3-A98F-A01D41B5275E}" id="{913AB005-2527-4C2D-9827-FB3A8DFB135C}" par="Click=trigger%3abutton%3aok&amp;Id=OkButton" ph="DialogFooter.Buttons" uid="{30746B37-7F1D-4535-8840-6155100F8784}" />
+    <r ds="{8251EF8F-CCE3-4B30-ADD0-B0F8DB21C4FF}" id="{913AB005-2527-4C2D-9827-FB3A8DFB135C}" par="Click=trigger%3abutton%3acancel&amp;Id=CancelButton" ph="DialogFooter.Buttons" uid="{0A555465-FA52-467E-A534-8D6F70121484}" />
+  </d>
+</r>
+----version----
+language: da
+version: 1
+revision: 3f901138-a868-4380-b89c-324b024d63b6
+
+----field----
+field: {7205A57F-93B4-413A-AA9A-6B16BBC59565}
+name: BrowserTitle
+key: browsertitle
+content-length: 18
+
+HentKlientHandling
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 18
+
+HentKlientHandling
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133325Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3f901138-a868-4380-b89c-324b024d63b6
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133325Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 22e582cb-6643-4dfa-8534-6b22fef3fbb9
+
+----field----
+field: {7205A57F-93B4-413A-AA9A-6B16BBC59565}
+name: BrowserTitle
+key: browsertitle
+content-length: 19
+
+CaptureClientAktion
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 19
+
+CaptureClientAktion
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133451Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+22e582cb-6643-4dfa-8534-6b22fef3fbb9
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133451Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 7d4daad2-cf63-4511-8f0e-9d499cd5a0b5
+
+----field----
+field: {7205A57F-93B4-413A-AA9A-6B16BBC59565}
+name: BrowserTitle
+key: browsertitle
+content-length: 19
+
+CaptureClientAction
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150401T121255Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+7d4daad2-cf63-4511-8f0e-9d499cd5a0b5
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150623T113722:635706562420873013Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: d89af431-18d0-4ec6-b858-c66b2ce5923e
+
+----field----
+field: {7205A57F-93B4-413A-AA9A-6B16BBC59565}
+name: BrowserTitle
+key: browsertitle
+content-length: 18
+
+クライアント アクションをキャプチャ
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 18
+
+クライアント アクションをキャプチャ
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133618Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d89af431-18d0-4ec6-b858-c66b2ce5923e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133618Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

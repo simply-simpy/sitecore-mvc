@@ -1,0 +1,242 @@
+----item----
+version: 1
+id: {63B0C794-1B3C-410F-ABB8-C07FEE043673}
+database: core
+path: /sitecore/client/Applications/ExperienceProfile/ContactNotFound/PageSettings/SearchAccordion
+parent: {AC95A103-7EB2-4026-BC8C-A20850E36927}
+name: SearchAccordion
+master: {00000000-0000-0000-0000-000000000000}
+template: {1C98E698-030C-43FF-8B6C-08D6D7E1B8DC}
+templatekey: AdvancedExpander Parameters
+created: 20160729T132117Z
+
+----field----
+field: {937F9157-5396-41A0-B51D-2AADDF3F50A5}
+name: IsCollapsible
+key: iscollapsible
+content-length: 0
+
+
+----version----
+language: da
+version: 1
+revision: 1c32d644-c00e-432a-8bc0-cf6f32679e60
+
+----field----
+field: {8D593EBB-4A48-4B85-8E79-BF745023BD61}
+name: Header
+key: header
+content-length: 14
+
+Find kontakter
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 15
+
+SearchAccordion
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133330Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+1c32d644-c00e-432a-8bc0-cf6f32679e60
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133330Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 0bb9948c-1e23-4f31-81fb-5f6e315b08a9
+
+----field----
+field: {8D593EBB-4A48-4B85-8E79-BF745023BD61}
+name: Header
+key: header
+content-length: 15
+
+Kontakte finden
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 14
+
+SucheAccordion
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 34
+
+20140611T164629:635381019898622849
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+0bb9948c-1e23-4f31-81fb-5f6e315b08a9
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133457Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: cba375a3-aac5-4408-b696-1cbabf173159
+
+----field----
+field: {8D593EBB-4A48-4B85-8E79-BF745023BD61}
+name: Header
+key: header
+content-length: 13
+
+Find contacts
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20131126T100649
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+cba375a3-aac5-4408-b696-1cbabf173159
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150122T093429:635575160694016336Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 52ef7a44-9042-45af-8b01-2735cab0d102
+
+----field----
+field: {8D593EBB-4A48-4B85-8E79-BF745023BD61}
+name: Header
+key: header
+content-length: 8
+
+コンタクトの検索
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 9
+
+検索アコーディオン
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133625Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+52ef7a44-9042-45af-8b01-2735cab0d102
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133625Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

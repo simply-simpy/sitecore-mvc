@@ -1,0 +1,256 @@
+----item----
+version: 1
+id: {4B0E2542-2E8B-4A5B-82E0-885F0D8F9607}
+database: master
+path: /sitecore/system/Settings/Rules/Definitions/Elements/Visit/Channel with custom data of a past or current interaction
+parent: {27553992-0618-4C76-84B2-1B71F7FA558B}
+name: Channel with custom data of a past or current interaction
+master: {00000000-0000-0000-0000-000000000000}
+template: {F0D16EEE-3A05-4E43-A082-795A32B873C0}
+templatekey: Condition
+created: 20160729T132117Z
+
+----field----
+field: {AB51C8B2-F0E1-4471-9AAE-CC080D774923}
+name: Type
+key: type
+content-length: 111
+
+Sitecore.Analytics.Rules.Conditions.ChannelWithCustomDataOfPastOrCurrentInteractionCondition,Sitecore.Analytics
+----version----
+language: da
+version: 1
+revision: 6b51b3bc-a589-4166-a41c-859d6a24c1d1
+
+----field----
+field: {AF321234-4EB9-4EF5-9197-65903351939C}
+name: Text
+key: text
+content-length: 513
+
+hvor en tidligere eller aktuel interaktion er på [ChannelId,Tree,root=/sitecore/system/Marketing Control Panel/Taxonomies/Channel,specific]-kanalen, og hvor antallet af dage, der er gået [NumberOfElapsedDaysOperatorId,Operator,,compares to] [NumberOfElapsedDays,Integer,,number] og når det seneste antal interaktioner [NumberOfPastInteractionsOperatorId,Operator,,compares to] [NumberOfPastInteractions,Integer,,number] og de tilpassede data [CustomDataOperatorId,StringOperator,,compares to] [CustomData,,,value]
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 81
+
+Kanal med tilpassede data blev udløst under en tidligere eller aktuel interaktion
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133411Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+6b51b3bc-a589-4166-a41c-859d6a24c1d1
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133411Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 15f085a2-93c2-4dc2-9c09-4147c88d3e39
+
+----field----
+field: {AF321234-4EB9-4EF5-9197-65903351939C}
+name: Text
+key: text
+content-length: 544
+
+wo eine vergangene oder aktuelle Interaktion im [ChannelId,Tree,root=/sitecore/system/Marketing Control Panel/Taxonomie/Channel,specific] Kanal ist und wo die Anzahl der vergangen Tage [NumberOfElapsedDaysOperatorId,Operator,,vergleicht mit] [NumberOfElapsedDays,Integer,, number] und wo die Anzahl der vergangenen Interaktionen [NumberOfPastInteractionsOperatorId, Operator,,vergleicht mit] [NumberOfPastInteractions,Integer,,number] und die benutzerdefinierten Daten [CustomDataOperatorId, StringOperator,,vergleicht mit] [CustomData,,,value]
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 76
+
+Kanal mit benutzerdefinierten Daten einer vergangenen oder aktuellen Version
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133541Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+15f085a2-93c2-4dc2-9c09-4147c88d3e39
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133541Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 63c59784-cb8d-421a-a93c-7384c297ee39
+
+----field----
+field: {AF321234-4EB9-4EF5-9197-65903351939C}
+name: Text
+key: text
+content-length: 507
+
+where a past or current interaction is on the [ChannelId,Tree,root=/sitecore/system/Marketing Control Panel/Taxonomies/Channel,specific] Channel and when the number of elapsed days [NumberOfElapsedDaysOperatorId,Operator,,compares to] [NumberOfElapsedDays,Integer,,number] and when the past number of interactions [NumberOfPastInteractionsOperatorId,Operator,,compares to] [NumberOfPastInteractions,Integer,,number] and the custom data [CustomDataOperatorId,StringOperator,,compares to] [CustomData,,,value]
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150612T141902Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+63c59784-cb8d-421a-a93c-7384c297ee39
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150615T142139:635699748997004949Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: efe29b9d-d075-4f9e-83c4-ca344424bba0
+
+----field----
+field: {AF321234-4EB9-4EF5-9197-65903351939C}
+name: Text
+key: text
+content-length: 402
+
+条件： 過去または現在のインタラクションが [ChannelId,Tree,root=/sitecore/system/Marketing Control Panel/Taxonomies/Channel,特定の] チャネル上で発生した場合、かつ 経過日数が [NumberOfElapsedDays,Integer,,数] [NumberOfElapsedDaysOperatorId,Operator,,と比較する] 場合、かつ過去のインタラクションの数が [NumberOfPastInteractions,Integer,,数] [NumberOfPastInteractionsOperatorId,Operator,,と比較する] 場合、 かつカスタム データが [CustomData,,,値] [CustomDataOperatorId,StringOperator,,と比較する] 場合
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 34
+
+過去または現在のインタラクションのカスタム データを持つチャネル条件
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133711Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+efe29b9d-d075-4f9e-83c4-ca344424bba0
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133711Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

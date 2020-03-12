@@ -1,0 +1,157 @@
+----item----
+version: 1
+id: {E8F23848-374F-45F2-A2EF-59B76762BAE4}
+database: core
+path: /sitecore/client/Applications/List Manager/Templates/ListTaskPage/__Standard Values
+parent: {12ACB429-72D4-48F3-8BE4-53096EF6D383}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {12ACB429-72D4-48F3-8BE4-53096EF6D383}
+templatekey: ListTaskPage
+created: 20160729T132117Z
+
+----field----
+field: {3A67AD0F-9530-4B1B-9B70-9230C36AE8D6}
+name: UseFullWidth
+key: usefullwidth
+content-length: 1
+
+1
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 16652
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{4F72A793-BDBC-4262-9523-6AADD8FEA487}">
+    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="PageCodeScriptFileName=%2f-%2fspeak%2fv1%2flistmanager%2fContactList.js" ph="Page.Code" uid="{E9762D2D-51FD-4B5F-B340-20060C9F51F1}" />
+    <r id="{56A04392-9E0E-4609-AE9A-ACD28C7F749B}" ph="Page.Body" uid="{BED45FDD-A392-4749-89AC-66F382D44F8E}" />
+    <r id="{73A06518-3FE7-410D-8876-33CA70DAD0B6}" par="Id=ListActionsDataSource&amp;Url=%2fsitecore%2fapi%2fssc%2fListManagement%2fActions" ph="Page.Body" uid="{E20002F9-EB7F-49DD-AB4F-A387EAEB0B80}" />
+    <r id="{73A06518-3FE7-410D-8876-33CA70DAD0B6}" par="Id=ListSourcesDataSource&amp;Url=%2fsitecore%2fapi%2fssc%2fListManagement%2fListLocking" ph="Page.Body" uid="{A1D00B75-063F-4F18-A8A0-6BEAED1DF27F}" />
+    <r id="{5AE97C0C-EE88-4564-A363-4FA11C01C90A}" ph="GlobalHeader" uid="{E51C9DD4-F52E-4038-B3CB-D537C88115E4}" />
+    <r id="{7A69C522-7E99-4630-A25A-5D571505862A}" par="Id=GlobalLogo" ph="GlobalHeader.StartButton" uid="{A340B9F2-9FD0-4767-9B0B-62D7C8B0E5C7}" />
+    <r id="{2EE499CD-439A-4F10-B81F-36A54CAC01DB}" par="Id=AccountInformation" ph="GlobalHeader.LoginInfo" uid="{B6E77653-41CC-4F03-93C1-7EB538888BDA}" />
+    <r id="{EC86834B-890C-405C-BB36-CA25044909E1}" ph="GlobalFooter" uid="{AB8AC4EB-A6AF-4997-8E2D-B647755F1043}" />
+    <r id="{93CEEFCD-2DE1-40AF-AE9A-EBBFBCCC522F}" ph="ApplicationHeader" uid="{12FE591F-DE44-4DFF-9F62-D35B2770D604}" />
+    <r id="{71181D60-BF35-4946-8C96-0812C7DFD19E}" par="Id=Breadcrumb&amp;RootItemId=%7b19506321-52BB-4E39-ACA3-EAEB8E926F78%7d" ph="ApplicationHeader.BreadCrumb" uid="{8CBF20F4-DFB7-485F-B855-FE7985A76627}" />
+    <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=HeaderTitle" ph="ApplicationHeader.Title" uid="{B4557FA1-C46B-4DA0-B3E3-7894A2142B3F}" />
+    <r id="{C2FAF554-1419-4B6E-96B8-EC7DB6995B3C}" par="Id=ListActions" ph="ApplicationHeader.Actions" uid="{A8A3B73C-F71A-49AE-A12D-9CD4D1A2BBB0}" />
+    <r ds="{BDFD0A62-7699-4ABC-B571-0585076BD83E}" id="{913AB005-2527-4C2D-9827-FB3A8DFB135C}" par="Id=SaveButton" ph="ApplicationHeader.Actions" uid="{FB960118-7CE2-43D2-A1BC-1D09AC46AF50}" />
+    <r id="{910155C7-3881-4A56-90FB-D126490EDE55}" par="Id=ContactListMessageBar" ph="ApplicationHeader" uid="{0896C387-3892-483A-9A56-9D239218EC50}" />
+    <r id="{26541BC4-C62D-4F2F-BE3F-A4E2195FEE0F}" ph="ApplicationContent" uid="{E8DFF90F-B691-4401-A4EB-3AED33391C1A}" />
+    <r id="{FE9723FC-56E4-4CA8-9C64-CB34F29462A5}" par="Id=DialogsProgressIndicator&amp;IsFullscreen=1&amp;IsBusy=%7bBinding+DialogsLoadOnDemandPanel.isBusy%7d&amp;AutoShowTimeout=1000" ph="ApplicationContent.Main" uid="{2352C900-5183-4343-8F96-812FFE164F02}" />
+    <r id="{FD97BD6A-2C46-4EB9-9F1F-7A2D7249DCC5}" par="Id=DialogsLoadOnDemandPanel" ph="ApplicationContent.Main" uid="{F5A46B29-6073-48DA-BF48-F99AD458306A}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="IsGridRowFluid=1&amp;Id=MainBorder&amp;UsePadding=0&amp;ShowBorder=0" ph="ApplicationContent.Main" uid="{45ABE395-7BB8-49BD-863C-6BB810FECC14}" />
+    <r ds="{D15E9C25-8662-4C9E-A330-B422AB5B2FDC}" id="{C80807A7-AD13-4693-9822-DD840CB266C5}" par="Id=BackButton" ph="ApplicationHeader.Back" uid="{BAF9F3BA-5E67-4724-9456-935ED6DE85F4}" />
+    <r id="{FCD1A2CC-0061-4D84-9FE8-0CCE140468A9}" par="ServiceUrl=%2fsitecore%2fapi%2fssc%2fListManagement%2fContactList&amp;Id=ListAsimovEntityDataSource" ph="MainBorder.Content" uid="{5B05D933-071C-4BC4-8E9A-E5283BC60888}" />
+    <r id="{73A06518-3FE7-410D-8876-33CA70DAD0B6}" par="Id=ListOwnerDataSource&amp;MethodName=GetUsersInListManagementRole&amp;Url=%2fsitecore%2fapi%2fssc%2fListManagement%2fSecurity" ph="MainBorder.Content" uid="{FA23E666-DDDB-4C34-8845-608B627DD60C}" />
+    <r ds="{4673DCC2-FC73-4272-8451-E91F966B8472}" id="{442BD093-FBAD-4E36-BC08-489E16C82D08}" par="Id=GeneralInformationAcordion" ph="MainBorder.Content" uid="{3841E49A-7900-4E8F-9DC6-639DB4A498D7}" />
+    <r id="{C2FAF554-1419-4B6E-96B8-EC7DB6995B3C}" par="Id=GeneralInformationActionControl&amp;IsVisible=0" ph="GeneralInformationAcordion.ActionBar" uid="{110DDAB6-D7BC-4AC1-9333-DE8C955A96CF}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=GeneralInformationBorder&amp;UsePadding=1&amp;ShowBorder=0" ph="GeneralInformationAcordion.Body" uid="{FADF07C4-70FD-4973-9200-137CB1F5D429}" />
+    <r id="{C4393722-39FA-4869-9582-3A8EB8983A0D}" par="UsePadding=1&amp;Id=GeneralInformationNameRow" ph="GeneralInformationBorder.Content" uid="{5C0365BA-C18E-44E6-AF57-31E1FB41C35A}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=GeneralInformationNameLabelColumn&amp;GridColumns=2" ph="GeneralInformationNameRow.Content" uid="{C7C816A8-4208-44EC-B317-905990C13659}" />
+    <r ds="{4BED4368-FE76-4686-BE62-DA4A3B0F8C43}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=GeneralInformationNameLabel" ph="GeneralInformationNameLabelColumn.Content" uid="{172BD52D-D6CE-44BB-A054-40F6018A1684}" />
+    <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=GeneralInformationNameSpace&amp;Text=+" ph="GeneralInformationNameLabelColumn.Content" uid="{5FEAC1D9-6E3C-474C-90B2-2B35784464BA}" />
+    <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=GeneralInformationNameAsterisk&amp;TextType=LargeTitle&amp;Text=*" ph="GeneralInformationNameLabelColumn.Content" uid="{93DF3AE7-960C-4A88-87C7-26691674E7AA}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=GeneralInformationNameValueColumn&amp;GridColumns=10" ph="GeneralInformationNameRow.Content" uid="{8895F4D2-F4C3-48CB-B37E-26AF034C23BE}" />
+    <r id="{57F86E9A-1844-45CE-BF8A-62900AE17A92}" par="WidthPolicy=%7b71C547F5-0BCC-4102-8207-F30E0D696F20%7d&amp;IsRequired=1&amp;MaxLength=300&amp;Id=GeneralInformationNameValue" ph="GeneralInformationNameValueColumn.Content" uid="{32C0EEF5-663A-4B32-832F-9D8153B793DE}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=GeneralInformationAdditionalBorder&amp;IsVisible=%7bBinding+GeneralInformationAcordion.ShowAdditional%7d" ph="GeneralInformationBorder.Content" uid="{B7FB611B-FADA-4BF6-A672-36439A57AFDA}" />
+    <r id="{C4393722-39FA-4869-9582-3A8EB8983A0D}" par="UsePadding=1&amp;Id=GeneralInformationDescriptionRow" ph="GeneralInformationAdditionalBorder.Content" uid="{7120C4AA-5B9B-42CB-AF59-5E2E78AAC737}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=GeneralInformationDescriptionLabelColumn&amp;GridColumns=2" ph="GeneralInformationDescriptionRow.Content" uid="{B4BF3514-25E5-4288-8328-4E32CF47F330}" />
+    <r ds="{F494EBBB-6B5D-4196-8332-2256A47D7EBA}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=GeneralInformationDescriptionLabel" ph="GeneralInformationDescriptionLabelColumn.Content" uid="{BC30D443-DBCD-4516-9F9B-84C49D3792C4}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=GeneralInformationDescriptionValueColumn&amp;GridColumns=10" ph="GeneralInformationDescriptionRow.Content" uid="{EFEC153E-78FB-442C-A030-6E2E02F922BA}" />
+    <r id="{9918B36C-92ED-4EB8-A95A-009E2523C672}" par="Rows=3&amp;Id=GeneralInformationDescriptionValue&amp;WidthPolicy=%7b10E1CB3E-660F-4C5E-9F25-F67C4637D463%7d&amp;MaxLength=140" ph="GeneralInformationDescriptionValueColumn.Content" uid="{51E3968E-7CAD-46AC-A7EC-A8832FF22291}" />
+    <r id="{C4393722-39FA-4869-9582-3A8EB8983A0D}" par="UsePadding=1&amp;Id=GeneralInformationOwnerRow" ph="GeneralInformationAdditionalBorder.Content" uid="{3C3F5693-7D00-4BFE-B5A9-7C9E12597435}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=GeneralInformationOwnerLabelColumn&amp;GridColumns=2" ph="GeneralInformationOwnerRow.Content" uid="{C241FE2B-B816-40BF-8907-AD4710F6E299}" />
+    <r ds="{C1755D73-0ADA-4DA6-85ED-17B635DE3E0A}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=GeneralInformationOwnerLabel" ph="GeneralInformationOwnerLabelColumn.Content" uid="{6532D770-3439-4A6E-89DB-CFC8D931493B}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=GeneralInformationOwnerValueColumn&amp;GridColumns=10" ph="GeneralInformationOwnerRow.Content" uid="{94F6CEF9-BECA-47ED-A9E6-355340DE20AE}" />
+    <r id="{25D357D3-3648-4336-9B53-55EED7CFA078}" par="Id=GeneralInformationOwnerComboBox" ph="GeneralInformationOwnerValueColumn.Content" uid="{310232CE-BDAC-4944-B496-877101B10A2F}" />
+    <r id="{C4393722-39FA-4869-9582-3A8EB8983A0D}" par="UsePadding=1&amp;Id=GeneralInformationDestinationRow" ph="GeneralInformationAdditionalBorder.Content" uid="{23796B2F-607D-440F-94D4-2DC34ACD8D0E}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=GeneralInformationDestinationLabelColumn&amp;GridColumns=2" ph="GeneralInformationDestinationRow.Content" uid="{3F151BD3-076A-4667-BC5A-B244E5AF379B}" />
+    <r ds="{F65F57D9-DA51-41C1-82F6-8AE8F9608A12}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=GeneralInformationDestinationLabel" ph="GeneralInformationDestinationLabelColumn.Content" uid="{298B09FF-EA29-4C39-8555-7D73E3784BA9}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=GeneralInformationDestinationValueColumn&amp;GridColumns=10" ph="GeneralInformationDestinationRow.Content" uid="{27CB7E69-AEC9-44B7-B869-77242F856070}" />
+    <r ds="{0E56B622-8005-49C5-85B6-8B452D7CA8C7}" id="{E4C8C7BE-E941-49F2-9724-29237AE7EA37}" par="Id=GeneralInformationDestinationTextBox" ph="GeneralInformationDestinationValueColumn.Content" uid="{25DC76FA-EDDB-4EA6-BD7A-176FA73E9610}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=SpaceBeforeListSourceAccordionBorder&amp;PaddingType=Top&amp;UsePadding=1&amp;ShowBorder=0" ph="MainBorder.Content" uid="{5BEC0B86-9765-4831-9CDA-57CBEF75EFA7}" />
+    <r ds="{CB6002AA-6DBC-4053-AC0F-E9681C778118}" id="{442BD093-FBAD-4E36-BC08-489E16C82D08}" par="Id=ListSourceAccordion" ph="MainBorder.Content" uid="{FB33E235-C78A-4744-B62F-5994F463DBA8}" />
+    <r ds="{9FDF121D-8B6D-4BC8-AB69-CA671E6858CC}" id="{C2FAF554-1419-4B6E-96B8-EC7DB6995B3C}" par="Id=ListSourceActionControl" ph="ListSourceAccordion.ActionBar" uid="{39217027-6916-42AB-B6A7-6892F61FAB99}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=ListSourceAccordionSourceBorder&amp;IsVisible=%7bBinding+IncludedSourcesListControl.IsVisible%2c+Converter%3dNot%7d&amp;UsePadding=1" ph="ListSourceAccordion.Body" uid="{0964C63A-9029-43B3-A350-2FFEFDC4CFD1}" />
+    <r id="{98316BB6-F3F5-4E6F-81F0-79F173D151D8}" par="Id=PredefinedSourceLabel" ph="ListSourceAccordionSourceBorder.Content" uid="{9BA8517C-F332-4A9A-8F7D-57ECB819C34A}" />
+    <r ds="{E521ED0E-6813-4180-AB07-92EA4988DE78}" id="{ACE0AFD6-3DE0-42CF-8E62-4E68CD810A8D}" par="Id=IncludedSourcesListControl" ph="ListSourceAccordion.Body" uid="{E48E8AC4-E568-4600-8C27-7ACFFFA43191}" />
+    <r ds="{25B8D29C-8DB8-41CD-9422-0FDB5EEBB2A5}" id="{442BD093-FBAD-4E36-BC08-489E16C82D08}" par="Id=ExcludeSourceAccordion&amp;IsVisible=0&amp;IsOpen=1" ph="ListSourceAccordion.Body" uid="{734C6098-8FF1-4FA4-9E7B-524500946FAA}" />
+    <r ds="{E521ED0E-6813-4180-AB07-92EA4988DE78}" id="{ACE0AFD6-3DE0-42CF-8E62-4E68CD810A8D}" par="Id=ExcludedSourcesListControl" ph="ExcludeSourceAccordion.Body" uid="{621B5BE8-4B5C-4716-8B2A-E9AFE3AC9115}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=SpaceBeforeRecipientsAccordion&amp;PaddingType=Top&amp;UsePadding=1&amp;ShowBorder=0" ph="MainBorder.Content" uid="{ECCD8ADB-ED0F-4197-BF2B-24A6DF221FD7}" />
+    <r ds="{612B8F7F-10E0-498F-A0FA-0F51AB2EFEA8}" id="{442BD093-FBAD-4E36-BC08-489E16C82D08}" par="Id=ContactsAccordion" ph="MainBorder.Content" uid="{03B30F0A-3142-48DB-9BCC-10CA432EB825}" />
+    <r id="{C2FAF554-1419-4B6E-96B8-EC7DB6995B3C}" par="Id=ContactsActionControl" ph="ContactsAccordion.ActionBar" uid="{1C6C4483-D201-4CF8-BEC2-63C4C86CBA24}" />
+    <r id="{C4393722-39FA-4869-9582-3A8EB8983A0D}" par="Id=ContactsSearchRowPanel" ph="ContactsAccordion.Body" uid="{E9364E50-D74E-47F1-8979-A16022F3B530}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=ContactsSearchColumnPanelLeft&amp;GridColumns=8" ph="ContactsSearchRowPanel.Content" uid="{2C61FE61-0A6E-48F4-842B-13DA085D8D97}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=ContactsSearchColumnPanelRight&amp;GridColumns=4&amp;ContentAlign=Right" ph="ContactsSearchRowPanel.Content" uid="{70426DDF-065D-406F-B745-0A552ECF5F5D}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=ContactsSearchBorder&amp;UsePadding=1" ph="ContactsSearchColumnPanelRight.Content" uid="{0C0474B5-C6A0-4C37-A2B6-58816506F814}" />
+    <r ds="{C6A18F38-60CF-4481-BA85-4A8D7F90AEE6}" id="{E4C8C7BE-E941-49F2-9724-29237AE7EA37}" par="IsEnabled=1&amp;Id=ContactsSearchButtonTextBox&amp;IsVisible=1" ph="ContactsSearchBorder.Content" uid="{AD33DFF0-499B-4110-901A-9588F6DA1A76}" />
+    <r ds="{BA3C30B2-BA05-4CD7-BE99-895676C8CD29}" id="{CC0A74AC-0FC0-40AA-B80A-DFA994529BDB}" par="Id=ContactsDataSource" ph="ContactsAccordion.Body" uid="{114E35CD-CBD1-4F6E-BBAC-A3096874C8A7}" />
+    <r ds="{A1012106-9ACC-467C-951E-1C4F76C1FAC6}" id="{ACE0AFD6-3DE0-42CF-8E62-4E68CD810A8D}" par="ScrollMoreData=next%3aContactsDataSource&amp;Id=ContactsList&amp;Items=%7bBinding+ContactsDataSource.Items%7d&amp;IsActiveResizeEnabled=1&amp;IsEndlessScrollEnabled=1&amp;MaxHeight=850&amp;Behaviors=Scrollbar" ph="ContactsAccordion.Body" uid="{F42A3DBD-B145-4771-90FA-C5766AA74611}" />
+    <r id="{FE9723FC-56E4-4CA8-9C64-CB34F29462A5}" par="Id=ContactsProgressIndicator&amp;IsBusy=%7bBinding+ContactsDataSource.IsBusy%7d&amp;AutoShowTimeout=10000&amp;TargetControl=ContactsList" ph="MainBorder.Content" uid="{0F8D68F0-38E3-498C-933D-CDD7FD1D9CBD}" />
+    <r id="{DC707F46-7F5E-4BA1-9BF9-820B4A23EC3F}" par="Id=Scrollbar&amp;PageScriptFileName=%2fsitecore%2fshell%2fclient%2fSpeak%2fAssets%2flib%2fui%2f1.1%2fbehaviors%2fScrollBar.js&amp;Name=Scrollbar" ph="ContactsAccordion.Body" uid="{91309B66-7010-4D2F-8CF7-D1D9AB5F6B0E}" />
+    <r ds="{C2076386-19DA-4F8B-884D-B4C10A64EF35}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=InfoSpotTitle&amp;TextType=LargeTitle" ph="ApplicationContent.Info" uid="{BF4AECE5-02F4-4C54-9FE8-45E8D912DCE8}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=InfoSpot&amp;ShowBorder=1" ph="ApplicationContent.Info" uid="{300B63B0-D0C8-439D-B4FC-95307DD54868}" />
+    <r id="{C4393722-39FA-4869-9582-3A8EB8983A0D}" par="UsePadding=1&amp;Id=InfoSpotCreatedRowPanel" ph="InfoSpot.Content" uid="{22F45276-4B4B-472A-A2D6-DABCDA313A50}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=InfoSpotCreatedLabelColumnPanel&amp;GridColumns=6" ph="InfoSpotCreatedRowPanel.Content" uid="{5655B634-30B0-4611-9B66-A04887890087}" />
+    <r ds="{9B1AB280-49C1-4B1A-A8D5-24C8852BDF22}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=InfoSpotCreatedLabel" ph="InfoSpotCreatedLabelColumnPanel.Content" uid="{9A6248C1-4A86-492C-97B5-04C24D621163}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=InfoSpotCreatedValueColumnPanel&amp;GridColumns=6&amp;ContentAlign=Right" ph="InfoSpotCreatedRowPanel.Content" uid="{241763BD-34BA-4649-92A2-F13490E8143C}" />
+    <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=InfoSpotCreatedText&amp;TextType=LargeValue" ph="InfoSpotCreatedValueColumnPanel.Content" uid="{2A5585C7-909C-4933-BE1B-9C8F30AE6658}" />
+    <r id="{73C16115-8B56-43AF-8EA3-4D704FCDA127}" par="Id=InfoSpotCreatedSeparator" ph="InfoSpot.Content" uid="{4691D00E-5B79-4E3E-8F1A-D875A7875001}" />
+    <r id="{C4393722-39FA-4869-9582-3A8EB8983A0D}" par="UsePadding=1&amp;Id=InfoSpotTypeRowPanel" ph="InfoSpot.Content" uid="{9CF4FBBB-98CE-4B4B-8264-A521A82BF049}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=InfoSpotTypeLabelColumnPanel&amp;GridColumns=6" ph="InfoSpotTypeRowPanel.Content" uid="{FC94EBF9-A33B-45A2-8091-8865E572C7AA}" />
+    <r ds="{848CF5AB-55CA-463A-B1DE-7224818FB5BB}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=InfoSpotTypeLabel" ph="InfoSpotTypeLabelColumnPanel.Content" uid="{4FF81A3C-8043-4C3C-A5AF-6BA4881C73B8}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=InfoSpotTypeValueColumnPanel&amp;GridColumns=6&amp;ContentAlign=Right" ph="InfoSpotTypeRowPanel.Content" uid="{E44A10A1-4E11-4959-B25F-448ECFFD14EB}" />
+    <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=InfoSpotTypeText&amp;TextType=LargeValue" ph="InfoSpotTypeValueColumnPanel.Content" uid="{E372013F-234C-499B-A67B-0DC0214BBB8B}" />
+    <r ds="{F0781917-3DE8-4620-8B5A-22B94E13891D}" id="{A82840D0-633E-4D1A-B7FE-8C0062AA22F1}" par="Id=StringDictionary" ph="MainBorder.Content" uid="{4872B46A-CD3E-42C5-8F0C-562C8681EB75}" />
+  </d>
+</r>
+----version----
+language: en
+version: 1
+revision: b0d7a58b-eafd-4216-99f4-8ab785deb3cb
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140416T150533
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b0d7a58b-eafd-4216-99f4-8ab785deb3cb
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20150917T133108Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

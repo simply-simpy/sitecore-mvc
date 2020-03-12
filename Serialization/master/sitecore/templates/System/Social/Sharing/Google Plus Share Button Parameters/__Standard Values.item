@@ -1,0 +1,73 @@
+----item----
+version: 1
+id: {BBAC324C-9A95-4884-9D1F-0F59E5EEA168}
+database: master
+path: /sitecore/templates/System/Social/Sharing/Google Plus Share Button Parameters/__Standard Values
+parent: {48CAA697-1CE3-4AE8-981E-6BE99751FD62}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {48CAA697-1CE3-4AE8-981E-6BE99751FD62}
+templatekey: Google Plus Share Button Parameters
+created: 20160729T132117Z
+
+----field----
+field: {3094D236-5985-4C4F-AE6A-E30740885532}
+name: Caching
+key: caching
+content-length: 15
+
+0|0|0|0|0|0|0|0
+----version----
+language: en
+version: 1
+revision: da0107cc-ffa1-46ab-9127-5493ab8a05c4
+
+----field----
+field: {747F8F55-E617-4E3B-BD99-D0AC554B2940}
+name: Goal
+key: goal
+content-length: 38
+
+{CC2CC47C-8CC8-469D-B8C6-C11F202FD20A}
+----field----
+field: {C60E2EBD-8870-4323-89D2-4B755C1CB108}
+name: Campaign
+key: campaign
+content-length: 38
+
+{19563CBA-D45D-4314-968E-A05C039671D5}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140129T142540
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+da0107cc-ffa1-46ab-9127-5493ab8a05c4
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140130T141805:635266882852762253
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

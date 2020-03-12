@@ -1,0 +1,266 @@
+----item----
+version: 1
+id: {4A7AD146-2727-497E-9455-1868A19842AC}
+database: core
+path: /sitecore/client/Applications/ContentTesting/Dialogs/CreateTest/PageSettings/Tabs/Variables
+parent: {FF2C1BE2-B53B-4F16-B3FC-B8D61CA7F6C5}
+name: Variables
+master: {00000000-0000-0000-0000-000000000000}
+template: {F62B4CD7-754C-4461-810F-2B6BD2C92A0D}
+templatekey: Tab
+created: 20160729T132117Z
+
+----field----
+field: {DEAB3795-056F-4421-ADF0-758844461B72}
+name: Placeholder Name
+key: placeholder name
+content-length: 9
+
+Variables
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+-50
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 6460
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+    <r id="{48A4524D-8096-4285-AF9C-CC29236FD9A6}" par="Id=TestDurationDataSource&amp;IsPaused=1&amp;IgnoreRunningTests=1&amp;DisabledVariables=%7bBinding+TestVariablesStateListControl.DisabledItems%7d" uid="{5353D382-565D-40BE-8BAE-92A1000D9E31}" />
+    <r id="{A842AD16-C689-475D-803C-9C1628899545}" par="Id=TestVariationsDataSource" uid="{D747063D-CD7C-428B-B527-D0F44D9D65B7}" />
+    <r ds="{5FD5168F-621C-41E0-9163-73579CB49B89}" id="{A82840D0-633E-4D1A-B7FE-8C0062AA22F1}" par="Id=VariablesStringDictionary" uid="{083760DF-0287-4A93-B3F3-B6BBCB83776C}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=VariablesBorder" uid="{408943D2-FF06-4A95-A250-A686C7F08CFD}" />
+    <r id="{910155C7-3881-4A56-90FB-D126490EDE55}" par="Id=VariablesTabMessageBar" ph="VariablesBorder.Content" uid="{6C11D15E-6229-4F65-92A7-03C0B7EB6117}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=VariablesInTestBorder&amp;UsePadding=0" ph="VariablesBorder.Content" uid="{6C0052A9-7527-42EE-ADB5-034762DB4EC5}" />
+    <r ds="{7E81B864-002A-412C-B3D6-C22A55066CED}" id="{442BD093-FBAD-4E36-BC08-489E16C82D08}" par="Id=VariablesInTestAccordion&amp;IsOpen=1" ph="VariablesInTestBorder.Content" uid="{0799C2ED-EE59-49DA-AEE0-92BED7F7695E}" />
+    <r ds="{1213170D-5A00-4702-B8A1-D61992049816}" id="{ACE0AFD6-3DE0-42CF-8E62-4E68CD810A8D}" par="Id=TestVariablesStateListControl&amp;Items=%7bBinding+TestVariablesWithFilteredVariationsDataSource.Items%7d&amp;Behaviors=MultiSelectListExtended&amp;TileHtmlFileName=%2fsitecore%2fshell%2fclient%2fBusiness+Component+Library%2fLayouts%2fRenderings%2fListsAndGrids%2fListControls%2fDefaultTile.cshtml" ph="VariablesInTestAccordion.Body" uid="{53D5EF32-6802-45AE-81BF-55A0BA2D05E6}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=ExpectedTimeBorder&amp;UsePadding=1" ph="VariablesBorder.Content" uid="{4EA958D0-9DFF-4E8C-9C4A-AF5CF9EF8263}" />
+    <r ds="{F4274931-B748-402B-9330-6CDAAF780053}" id="{442BD093-FBAD-4E36-BC08-489E16C82D08}" par="Id=ExpectedTimeAccordion&amp;IsOpen=1" ph="ExpectedTimeBorder.Content" uid="{B9895EA2-68A8-442D-9584-B327A204AACE}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=ExpectedTimeContentBorder&amp;UsePadding=1" ph="ExpectedTimeAccordion.Body" uid="{53552AEF-F7A7-4575-9ED1-0B5516B86542}" />
+    <r id="{C4393722-39FA-4869-9582-3A8EB8983A0D}" par="UsePadding=1&amp;Id=ExpectedTimeFirstRow" ph="ExpectedTimeContentBorder.Content" uid="{9A220056-5F73-4B43-8683-1DE4DFCD785D}" />
+    <r ds="{9E06551B-1FEE-4BB0-9474-385B3B81AF76}" id="{61D3C06D-201C-457E-AF0D-7C41D08944A6}" par="StartSuspended=1&amp;Id=ExperienceMetricsMultiple&amp;IsVisible=%7bBinding+TestDurationDataSource.VariableCount%2c+Converter%3dHasMoreThanOne%7d" ph="ExpectedTimeFirstRow.Content" uid="{D4BFE794-B077-4F63-804D-74ADE8BA1503}" />
+    <r ds="{8FE1DB2A-B69F-438E-A831-C5A41AA394D6}" id="{61D3C06D-201C-457E-AF0D-7C41D08944A6}" par="StartSuspended=1&amp;Id=ExperienceMetricsSingle&amp;IsVisible=%7bBinding+TestDurationDataSource.VariableCount%2c+Converter%3dHasOne%7d" ph="ExpectedTimeFirstRow.Content" uid="{7BB2E189-6711-47D7-8704-F176EADB8C75}" />
+    <r id="{C4393722-39FA-4869-9582-3A8EB8983A0D}" par="UsePadding=1&amp;Id=ExpectedTimeSecondRow" ph="ExpectedTimeContentBorder.Content" uid="{ADB485D2-4492-4754-9055-6282E42C6DEA}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=ExpectedTimeEstimateBorder" ph="ExpectedTimeSecondRow.Content" uid="{77E971C7-948E-4B49-AADB-FA6B3B31E934}" />
+    <r ds="{B55B4ABF-BF3C-4412-9F7F-AD57DEA4D333}" id="{61D3C06D-201C-457E-AF0D-7C41D08944A6}" par="StartSuspended=1&amp;Id=ExpectedTimeWithEstimateOverMaximum&amp;IsVisible=0" ph="ExpectedTimeEstimateBorder.Content" uid="{EAC30B09-AABB-4A63-B4C1-B74EA8227FE2}" />
+    <r ds="{953B24B8-70E4-488F-9366-32C04BC3C004}" id="{61D3C06D-201C-457E-AF0D-7C41D08944A6}" par="StartSuspended=1&amp;Id=ExpectedTimeWithEstimate&amp;IsVisible=0" ph="ExpectedTimeEstimateBorder.Content" uid="{274FA54E-AE70-4486-AB3D-C346FF025A2E}" />
+    <r ds="{4D35543D-F93F-478F-A8BB-79A28C9CDA18}" id="{61D3C06D-201C-457E-AF0D-7C41D08944A6}" par="StartSuspended=1&amp;Id=ExpectedTimeWithoutEstimate&amp;IsVisible=%7bBinding+TestDurationDataSource.IsEstimated%2c+Converter%3dNot%7d" ph="ExpectedTimeEstimateBorder.Content" uid="{3EE9FBD7-9832-47EA-A70E-17A29B8B5DC1}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=TrafficAllocationBorder&amp;UsePadding=1" ph="VariablesBorder.Content" uid="{F30AB324-E406-4729-AFB8-6DB497B71839}" />
+    <r ds="{CB7AB920-C50E-4E28-A249-4F3EB0AB0622}" id="{8B4238F3-D5CD-464D-8DE6-4A69E05CD55B}" par="UsePlaceholders=1" ph="TrafficAllocationBorder.Content" uid="{EB462A11-C5DE-4DF8-9FAD-EAD1E27069AC}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=StatisticsBorder&amp;UsePadding=1" ph="VariablesBorder.Content" uid="{771FF5AF-3873-44E5-8917-F5612AC8A65A}" />
+    <r ds="{3ACC9727-FDBF-4F6F-9947-8C0B5375DF0B}" id="{8B4238F3-D5CD-464D-8DE6-4A69E05CD55B}" par="UsePlaceholders=1" ph="StatisticsBorder.Content" uid="{3F010381-20B8-47F2-BFC2-803AFB45CFB1}" />
+    <r id="{054CA6D7-125D-46D0-957C-D38A26190274}" par="Dimension=Large&amp;Id=TestVariationsSmartPanel&amp;Position=Right" ph="VariablesBorder.Content" uid="{5717788A-FB1A-4948-9F8A-C37E9FA69676}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=TestVariationsSmartPanelBorder&amp;ContentAlignment=Center&amp;UsePadding=1" ph="TestVariationsSmartPanel.Content" uid="{E7316CA7-3702-4316-8C2E-6749D7FF3A23}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=TestVariationImageBorder&amp;PaddingType=Bottom&amp;UsePadding=1" ph="TestVariationsSmartPanelBorder.Content" uid="{DF9E00F1-72F9-446A-94DD-297C25757E0C}" />
+    <r id="{F517C5E4-9A53-46C3-B922-5B44E6DAAA48}" par="Id=ThumbnailImageSrc" ph="TestVariationImageBorder.Content" uid="{E138EBCC-78E5-48AA-AAD5-EC00DFA21952}" />
+    <r ds="{CB3B7A10-8887-4603-B034-CE4E7D6B75B9}" id="{ACE0AFD6-3DE0-42CF-8E62-4E68CD810A8D}" par="Id=TestVariationsStateListControl&amp;Items=%7bBinding+TestVariationsDataSource.Items%7d&amp;Behaviors=MultiSelectListExtended&amp;TileHtmlFileName=%2fsitecore%2fshell%2fclient%2fBusiness+Component+Library%2fLayouts%2fRenderings%2fListsAndGrids%2fListControls%2fDefaultTile.cshtml" ph="TestVariationsSmartPanelBorder.Content" uid="{11C757C9-6E6C-4D2C-9A48-8A4BFBCC5403}" />
+  </d>
+</r>
+----version----
+language: da
+version: 1
+revision: 84d57145-e3e5-45cb-bf8e-ca27bfa0da32
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 8
+
+Variable
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133326Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+84d57145-e3e5-45cb-bf8e-ca27bfa0da32
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133326Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 6d50a09c-f35d-4a47-9e8c-a2c43f2fe80f
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 9
+
+Variablen
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133453Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+6d50a09c-f35d-4a47-9e8c-a2c43f2fe80f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133453Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 43124276-6810-43b2-891b-e29e7df1d564
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 9
+
+Variables
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140306T131451
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+43124276-6810-43b2-891b-e29e7df1d564
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160128T052413Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: ccca9c7b-66e8-4865-9e2d-fb6c829137ef
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 2
+
+変数
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133620Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ccca9c7b-66e8-4865-9e2d-fb6c829137ef
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133620Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

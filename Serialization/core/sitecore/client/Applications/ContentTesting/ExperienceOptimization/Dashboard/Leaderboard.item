@@ -1,0 +1,340 @@
+----item----
+version: 1
+id: {425C3B0F-08A7-41D3-A204-1AE52B6371D7}
+database: core
+path: /sitecore/client/Applications/ContentTesting/ExperienceOptimization/Dashboard/Leaderboard
+parent: {2D77A85B-40AD-4376-B44B-1D567B4FE438}
+name: Leaderboard
+master: {00000000-0000-0000-0000-000000000000}
+template: {B11AFCCD-C286-4384-B694-4465D6C605DE}
+templatekey: Speak-DashboardPage
+created: 20160729T132117Z
+
+----field----
+field: {5E642935-A6FC-48E9-B039-FE1136CED488}
+name: Theme
+key: theme
+content-length: 7
+
+Harvard
+----field----
+field: {F7B4EBC1-2335-4EB8-AFAE-3444923A38BE}
+name: Subthemes
+key: subthemes
+content-length: 0
+
+
+----field----
+field: {3A67AD0F-9530-4B1B-9B70-9230C36AE8D6}
+name: UseFullWidth
+key: usefullwidth
+content-length: 1
+
+1
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+138
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 38
+
+{B22A6209-8076-42B2-A3E4-44ED4F6A5569}
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 11681
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{4F72A793-BDBC-4262-9523-6AADD8FEA487}">
+    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="PageCodeScriptFileName=%2f-%2fspeak%2fv1%2fcontenttesting%2fLeaderboardPage.js" ph="Page.Code" uid="{237256AA-9D30-463E-9ED1-90CFF092FCF6}" />
+    <r id="{BE007891-2D9C-4E67-943C-752DBA0C041F}" ph="Page.Body" uid="{F373AD1A-6282-4295-96D7-3E29D6EE88B3}" />
+    <r id="{5AE97C0C-EE88-4564-A363-4FA11C01C90A}" ph="GlobalHeader" uid="{532C7DCD-29E7-4C34-9910-FC283D61A026}" />
+    <r id="{2EE499CD-439A-4F10-B81F-36A54CAC01DB}" par="Id=AccountInformation" ph="GlobalHeader.LoginInfo" uid="{D8CDFA97-CF37-43EB-99A2-A266C882A146}" />
+    <r id="{7A69C522-7E99-4630-A25A-5D571505862A}" par="ImageUrl=%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252fsitecore%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252fshell%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252fclient%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252fSpeak%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252fAssets%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252fimg%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252fspeak-logo.png&amp;Id=GlobalLogo" ph="GlobalHeader.StartButton" uid="{A340B9F2-9FD0-4767-9B0B-62D7C8B0E5C7}" />
+    <r id="{EA28ED83-0F59-4BB9-AA95-6FAC9C3385D6}" par="Id=NavigationPanelToggleButton" ph="GlobalHeader.NavigationToggler" uid="{4CAD7033-50EB-4173-B2D6-56492E69957E}" />
+    <r id="{EC86834B-890C-405C-BB36-CA25044909E1}" ph="GlobalFooter" uid="{C01DD5BD-DFC2-425B-A301-43AE8363B443}" />
+    <r id="{93CEEFCD-2DE1-40AF-AE9A-EBBFBCCC522F}" ph="ApplicationHeader" uid="{1E240370-226C-40E4-9C54-7FE8630DF74A}" />
+    <r ds="{467BD37F-F12A-4A6E-A8AE-216F16F2F02C}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=HeaderTitle" ph="ApplicationHeader.Title" uid="{1DC97590-77EC-4F75-A687-D86F7D22CAAA}" />
+    <r id="{EB6214BE-5687-4706-ABA6-B25C0958C85B}" ph="ApplicationContent" uid="{5C96B069-71B7-4B1D-BE44-B673DE81D9DE}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=Main&amp;UsePadding=0" ph="ApplicationContent.Main" uid="{8EC02FDB-51E9-4983-9AD3-FAD2210E5BAC}" />
+    <r id="{AF79ED5D-4396-4EEC-8E22-9D7C523266FA}" par="Id=Breadcrumb&amp;RootItemId=%7bF6F875FB-B76D-4DB0-8049-43BB37181453%7d" ph="ApplicationHeader.BreadCrumb" uid="{7020F0A4-9331-4D9B-9A95-AC95B318CF69}" />
+    <r ds="{98C63BA4-703D-4A28-BE3F-1EAC36D8147E}" id="{913AB005-2527-4C2D-9827-FB3A8DFB135C}" par="Click=javascript%3awindow.location+%3d+%22%2fsitecore%2fclient%2fApplications%2fContentTesting%2fExperienceOptimization%2fDashboard%2fPageTest%22&amp;Id=CreateButton&amp;ButtonType=Primary&amp;Dimension=Large" ph="ApplicationContent.Navigation" uid="{3BB563A5-F86F-4A0B-AA65-0995D05D73D3}" />
+    <r id="{C5D667DE-AA48-4072-872E-7C8BFFCE4D44}" par="Id=EnhancedMenu&amp;ItemsDataSource=%7b7A3144DC-2A9A-4BCB-9BE3-FCF9D9D243EF%7d" ph="ApplicationContent.Navigation" uid="{5B76D0A7-D428-49C1-8571-D0616E034679}" />
+    <r ds="{FC1C8153-FCAF-42F7-8977-3FF6067F8850}" id="{A82840D0-633E-4D1A-B7FE-8C0062AA22F1}" par="Id=Texts" ph="Main.Content" uid="{F3091D46-6C8A-4AF7-8F10-C2C6BCD06D4F}" />
+    <r id="{8128A9E4-881F-4CDA-8839-7EA2056FE32A}" par="Parameter=kpi&amp;Id=KpiQueryString" ph="Main.Content" uid="{E86E28A1-4C0A-4EB3-863C-493D54A7AD94}" />
+    <r id="{8D83BBEA-A6C1-4D6E-95FC-633ECF2AC236}" par="Id=ReportingDatesDataSource" ph="Main.Content" uid="{1F598B5C-3A74-45AC-B339-A8E28887A19F}" />
+    <r id="{C9CE01E5-A8E2-461E-A3D6-6DF39108DB54}" par="SeparateAverage=True&amp;Id=PreviousTestOutcomesDataSource&amp;NormalizeData=True&amp;ReportStart=%7bBinding+ReportingDatesDataSource.PreviousStart%7d&amp;Kpi=%7bBinding+KpiQueryString.Value%7d&amp;IncludeAverage=True&amp;ReportEnd=%7bBinding+ReportingDatesDataSource.PreviousEnd%7d" ph="Main.Content" uid="{5D060DA6-4772-4CD8-95F3-BFF1517EEF1F}" />
+    <r id="{C9CE01E5-A8E2-461E-A3D6-6DF39108DB54}" par="SeparateAverage=True&amp;Id=CurrentTestOutcomesDataSource&amp;CompareStart=%7bBinding+ReportingDatesDataSource.PreviousStart%7d&amp;NormalizeData=True&amp;CompareEnd=%7bBinding+ReportingDatesDataSource.PreviousEnd%7d&amp;ReportStart=%7bBinding+ReportingDatesDataSource.CurrentStart%7d&amp;Kpi=%7bBinding+KpiQueryString.Value%7d&amp;IncludeAverage=True&amp;ReportEnd=%7bBinding+ReportingDatesDataSource.CurrentEnd%7d" ph="Main.Content" uid="{4AD83664-9E28-483B-AF5D-7695A2126CCB}" />
+    <r id="{094F4B1E-4FB9-43CC-AA34-88016DF56974}" par="Id=ViewsDataSource&amp;Query=%2f%2f*%5b%40%40id%3d%27%7bAB92F5C5-E49F-4315-9698-9714A86FB5C7%7d%27%5d%2fchild%3a%3a*&amp;Database=core" ph="Page.Body" uid="{65ADF1B2-03BD-4EB4-9639-E9A484BEC74E}" />
+    <r ds="{DD6FD0CF-0497-4861-B92F-3AB1DCAD4B6B}" id="{913AB005-2527-4C2D-9827-FB3A8DFB135C}" par="Id=PrevButton&amp;IsEnabled=%7bBinding+PreviousTestOutcomesDataSource.HasItemsBefore%7d" ph="ApplicationHeader.Actions" uid="{B4E2F713-4D7F-4CE6-8336-97EF8280136F}" vbu="1" />
+    <r ds="{6C1EDD3E-26F7-4179-AE15-7C94FDC6DFB0}" id="{913AB005-2527-4C2D-9827-FB3A8DFB135C}" par="Id=NextButton&amp;IsEnabled=%7bBinding+CurrentTestOutcomesDataSource.HasItemsAfter%7d" ph="ApplicationHeader.Actions" uid="{B4E2F713-4D7F-4CE6-8336-97EF8280136F}" />
+    <r id="{FA6DD28F-537A-4481-AB49-AC24EC97F5DD}" par="Id=PeriodSwitcher&amp;Items=%7bBinding+ViewsDataSource.Items%7d" ph="ApplicationHeader.ContextSwitch" uid="{DF82C1AF-EC3A-426C-BF5D-DAA4F656DF3A}" />
+    <r id="{C4393722-39FA-4869-9582-3A8EB8983A0D}" par="UsePadding=False&amp;Id=LeaderboardLists" ph="Main.Content" uid="{C8E6FD9F-1A6C-4C78-AA24-99607744D7F4}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=PreviousPeriodTitleContent&amp;GridColumns=6&amp;ContentAlign=Center" ph="LeaderboardLists.Content" uid="{3AFE5BC2-D1D9-487E-8AFD-8CB131700A41}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=PreviousPeriodSpacer&amp;UsePadding=0" ph="PreviousPeriodTitleContent.Content" uid="{C99659C8-2516-4608-934C-E8640787D11F}" />
+    <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=PreviousPeriodTitle&amp;TextType=LargeTitle&amp;Text=%7bBinding+ReportingDatesDataSource.PreviousTitle%7d" ph="PreviousPeriodSpacer.Content" uid="{16BE5540-B63E-4BB6-A294-F8B4ED45BEAC}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=PreviousPeriodBorder&amp;UsePadding=0" ph="PreviousPeriodSpacer.Content" uid="{E615F2DF-C273-4ECF-A3C6-1D62DA199B0C}" />
+    <r ds="{DAA7F5BA-F28B-4CFB-9E78-74E0081E25B1}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=PreviousNoDataLabel&amp;IsVisible=%7bBinding+PreviousTestOutcomesDataSource.HasNoItems%7d" ph="PreviousPeriodBorder.Content" uid="{12493BF8-049E-4628-8326-917B556AE170}" />
+    <r id="{FE9723FC-56E4-4CA8-9C64-CB34F29462A5}" par="Id=PreviousAverageDataBusyIndicator&amp;IsBusy=%7bBinding+PreviousTestOutcomesDataSource.IsBusy%7d&amp;AutoShowTimeout=1000&amp;TargetControl=PreviousTestOutcomesAverage" ph="PreviousPeriodBorder.Content" uid="{50380426-7237-40FC-8165-369F44292A23}" />
+    <r id="{FE9723FC-56E4-4CA8-9C64-CB34F29462A5}" par="Id=PreviousAverageBusyIndicator&amp;IsBusy=%7bBinding+PreviousTestOutcomesAverage.IsBusy%7d&amp;AutoShowTimeout=1000&amp;TargetControl=PreviousTestOutcomesAverage" ph="PreviousPeriodBorder.Content" uid="{50380426-7237-40FC-8165-369F44292A23}" />
+    <r id="{99AE47EA-AAAE-43DC-A681-7D5F3996716F}" par="Id=PreviousTestOutcomesAverage&amp;IsVisible=%7bBinding+PreviousTestOutcomesDataSource.HasItems%7d&amp;ItemId=%7bAB02623B-4155-455F-948E-B1F70203C9A2%7d" ph="PreviousPeriodBorder.Content" uid="{F232465E-7D67-4C85-9F52-FC469F9C2FB1}" />
+    <r id="{FE9723FC-56E4-4CA8-9C64-CB34F29462A5}" par="Id=PreviousPeriodDataBusyIndicator&amp;IsBusy=%7bBinding+PreviousTestOutcomesDataSource.IsBusy%7d&amp;AutoShowTimeout=1000&amp;TargetControl=PreviousTestOutcomes" ph="PreviousPeriodBorder.Content" uid="{2E6E5835-921B-4013-B1F9-A5CB6402D0E1}" />
+    <r id="{FE9723FC-56E4-4CA8-9C64-CB34F29462A5}" par="Id=PreviousPeriodBusyIndicator&amp;IsBusy=%7bBinding+PreviousTestOutcomes.IsBusy%7d&amp;AutoShowTimeout=1000&amp;TargetControl=PreviousTestOutcomes" ph="PreviousPeriodBorder.Content" uid="{2E6E5835-921B-4013-B1F9-A5CB6402D0E1}" />
+    <r id="{99AE47EA-AAAE-43DC-A681-7D5F3996716F}" par="Id=PreviousTestOutcomes&amp;IsVisible=%7bBinding+PreviousTestOutcomesDataSource.HasItems%7d&amp;ItemId=%7bAB02623B-4155-455F-948E-B1F70203C9A2%7d" ph="PreviousPeriodBorder.Content" uid="{C340966D-8F92-4278-B6A8-FAE24097DFE7}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=CurrentPeriodTitleContent&amp;GridColumns=6&amp;ContentAlign=Center" ph="LeaderboardLists.Content" uid="{4238D242-997D-485C-8834-3BFCE0CB0EBC}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=CurrentPeriodSpacer&amp;UsePadding=0" ph="CurrentPeriodTitleContent.Content" uid="{06AB41C0-332B-43CB-8058-DD5DDE91E30A}" />
+    <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=CurrentPeriodTitle&amp;TextType=LargeTitle&amp;Text=%7bBinding+ReportingDatesDataSource.CurrentTitle%7d" ph="CurrentPeriodSpacer.Content" uid="{23256DE3-7269-4D3E-8D30-77E8BDD17E6D}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=CurrentPeriodBorder&amp;UsePadding=0" ph="CurrentPeriodSpacer.Content" uid="{77886F31-B21D-4F0D-BDC7-70886230D2FD}" />
+    <r ds="{DAA7F5BA-F28B-4CFB-9E78-74E0081E25B1}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=CurrentNoDataLabel&amp;IsVisible=%7bBinding+CurrentTestOutcomesDataSource.HasNoItems%7d" ph="CurrentPeriodBorder.Content" uid="{12493BF8-049E-4628-8326-917B556AE170}" />
+    <r id="{FE9723FC-56E4-4CA8-9C64-CB34F29462A5}" par="Id=CurrentAverageDataBusyIndicator&amp;IsBusy=%7bBinding+CurrentTestOutcomesDataSource.IsBusy%7d&amp;AutoShowTimeout=1000&amp;TargetControl=CurrentTestOutcomesAverage" ph="CurrentPeriodBorder.Content" uid="{50380426-7237-40FC-8165-369F44292A23}" />
+    <r id="{FE9723FC-56E4-4CA8-9C64-CB34F29462A5}" par="Id=CurrentAverageBusyIndicator&amp;IsBusy=%7bBinding+CurrentTestOutcomesAverage.IsBusy%7d&amp;AutoShowTimeout=1000&amp;TargetControl=CurrentTestOutcomesAverage" ph="CurrentPeriodBorder.Content" uid="{50380426-7237-40FC-8165-369F44292A23}" />
+    <r id="{99AE47EA-AAAE-43DC-A681-7D5F3996716F}" par="Id=CurrentTestOutcomesAverage&amp;IsVisible=%7bBinding+CurrentTestOutcomesDataSource.HasItems%7d&amp;ItemId=%7bAB02623B-4155-455F-948E-B1F70203C9A2%7d" ph="CurrentPeriodBorder.Content" uid="{64EFE452-046E-4633-B33D-DC68F0CE7697}" />
+    <r id="{FE9723FC-56E4-4CA8-9C64-CB34F29462A5}" par="Id=CurrentDataBusyIndicator&amp;IsBusy=%7bBinding+CurrentTestOutcomesDataSource.IsBusy%7d&amp;AutoShowTimeout=1000&amp;TargetControl=CurrentTestOutcomes" ph="CurrentPeriodBorder.Content" uid="{50380426-7237-40FC-8165-369F44292A23}" />
+    <r id="{FE9723FC-56E4-4CA8-9C64-CB34F29462A5}" par="Id=CurrentBusyIndicator&amp;IsBusy=%7bBinding+CurrentTestOutcomes.IsBusy%7d&amp;AutoShowTimeout=1000&amp;TargetControl=CurrentTestOutcomes" ph="CurrentPeriodBorder.Content" uid="{50380426-7237-40FC-8165-369F44292A23}" />
+    <r id="{99AE47EA-AAAE-43DC-A681-7D5F3996716F}" par="Id=CurrentTestOutcomes&amp;IsVisible=%7bBinding+CurrentTestOutcomesDataSource.HasItems%7d&amp;ItemId=%7bAB02623B-4155-455F-948E-B1F70203C9A2%7d" ph="CurrentPeriodBorder.Content" uid="{386034CA-C6B5-48B2-B66E-4E6A9320BD2D}" />
+  </d>
+</r>
+----field----
+field: {DEC8D2D5-E3CF-48B6-A653-8E69E2716641}
+name: __Security
+key: __security
+content-length: 0
+
+
+----version----
+language: da
+version: 1
+revision: 70c7d518-3be8-4b6a-9c3e-fdcc2c5a13c3
+
+----field----
+field: {7205A57F-93B4-413A-AA9A-6B16BBC59565}
+name: BrowserTitle
+key: browsertitle
+content-length: 11
+
+Leaderboard
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 11
+
+Leaderboard
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133325Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+70c7d518-3be8-4b6a-9c3e-fdcc2c5a13c3
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133325Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 7e01fee7-4c19-433d-adda-7f7471c8d793
+
+----field----
+field: {7205A57F-93B4-413A-AA9A-6B16BBC59565}
+name: BrowserTitle
+key: browsertitle
+content-length: 11
+
+Leaderboard
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 11
+
+Leaderboard
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133451Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+7e01fee7-4c19-433d-adda-7f7471c8d793
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133451Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 41a3f9cf-b232-4739-8403-a32b02e34d4d
+
+----field----
+field: {7205A57F-93B4-413A-AA9A-6B16BBC59565}
+name: BrowserTitle
+key: browsertitle
+content-length: 11
+
+Leaderboard
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 11
+
+Leaderboard
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130118T151000
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+41a3f9cf-b232-4739-8403-a32b02e34d4d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20141203T143628:635532141885054973Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 9e29677a-8d94-42b0-b2a0-ef43e8166ba0
+
+----field----
+field: {7205A57F-93B4-413A-AA9A-6B16BBC59565}
+name: BrowserTitle
+key: browsertitle
+content-length: 8
+
+リーダー ボード
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 8
+
+リーダー ボード
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133618Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+9e29677a-8d94-42b0-b2a0-ef43e8166ba0
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133618Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

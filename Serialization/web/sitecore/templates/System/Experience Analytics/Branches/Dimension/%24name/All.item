@@ -1,0 +1,52 @@
+----item----
+version: 1
+id: {96F737F3-067B-4798-A009-3E9F126E72B9}
+database: web
+path: /sitecore/templates/System/Experience Analytics/Branches/Dimension/$name/All
+parent: {F478FEFD-CAA0-4B24-8991-4E6FD0F3D94E}
+name: All
+master: {00000000-0000-0000-0000-000000000000}
+template: {A87EE256-044E-450D-A73C-9A464AA773EF}
+templatekey: Segment
+created: 20160729T132117Z
+
+----version----
+language: en
+version: 1
+revision: 44184ee1-4c01-4b7b-b8b5-187152d1ae7f
+
+----field----
+field: {9B0413DA-641E-46D9-8A2A-D8598479952C}
+name: Name
+key: name
+content-length: 16
+
+All visits $name
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140618T125211
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+44184ee1-4c01-4b7b-b8b5-187152d1ae7f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140618T125219:635386927392567590
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

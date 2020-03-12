@@ -1,0 +1,249 @@
+----item----
+version: 1
+id: {DD5207FC-C619-46EE-BEB8-08E8D83417D4}
+database: core
+path: /sitecore/client/Applications/Dialogs/InsertLinkViaTreeDialog/PageSettings/ScreenResolutionRuleDefinition
+parent: {3613DE82-2013-4682-B537-B616ADFC1238}
+name: ScreenResolutionRuleDefinition
+master: {00000000-0000-0000-0000-000000000000}
+template: {1F99AE6E-22B8-419E-81DB-A983E619325E}
+templatekey: RuleDefinition
+created: 20160729T132117Z
+
+----field----
+field: {431A0113-9D08-4DAE-8C5B-AC8301512BD8}
+name: Rule
+key: rule
+content-length: 1137
+
+<?xml version="1.0" encoding="utf-16"?>
+<ruleset>
+  <rule>
+    <conditions>
+      <condition id="{0B3B6E32-E4E5-40F6-A991-1E46C56C8ED0}" uid="46F85D6795A742CFB2FB7727B09AA187" min="0" max="750" />
+    </conditions>
+    <actions>
+      <action id="{3DA33BB4-9E03-48CD-AC5C-E48B825DD4B6}" uid="{E3FC5B2A-C2FA-4FDE-BD26-F51BAC691F0B}" targetControlId="SmartPanel" propertyName="isOpen" value="false" />
+    </actions>
+  </rule>
+  <rule uid="B1ED73C3B74B4377B33835AE877524EB">
+    <conditions uid="9177CC8421B14772A8AE37AE65BF4A04">
+      <and uid="2D4D5B4AA2814A1E819F0DF88B268194">
+        <condition id="{0B3B6E32-E4E5-40F6-A991-1E46C56C8ED0}" uid="DE1EDAA715DD420690A8B7D2D64E01B0" min="751" max="4000" />
+        <condition id="{E956001C-6ACD-4CE0-B7CC-F2B6EE7DDA94}" uid="DFEDC6F76D694634A0E6540B268DABC8" name="TreeView" />
+      </and>
+    </conditions>
+    <actions uid="E7944A8D0CAA41A29566B38711C47D47">
+      <action id="{3DA33BB4-9E03-48CD-AC5C-E48B825DD4B6}" uid="{2BEBF2D7-336B-4803-B970-880A066A93CF}" targetControlId="SmartPanel" propertyName="isOpen" value="true" />
+    </actions>
+  </rule>
+</ruleset>
+----version----
+language: da
+version: 1
+revision: 4704a3e2-d18e-4d98-91f3-819890249c8b
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 30
+
+ScreenResolutionRuleDefinition
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133349Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4704a3e2-d18e-4d98-91f3-819890249c8b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133349Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: d715ec3a-e787-49dd-bdb9-ca09e2fc096f
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 34
+
+BildschirmauflösungRegeldefinition
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133522Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d715ec3a-e787-49dd-bdb9-ca09e2fc096f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133522Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: d3fddd3a-6c6a-43a8-8af9-688afd005c0d
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130712T102645
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d3fddd3a-6c6a-43a8-8af9-688afd005c0d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20130726T152244:635104489644889933
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 0a43b02b-b381-47b5-a762-708b2b1be26d
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 11
+
+画面の解像度ルール定義
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133650Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+0a43b02b-b381-47b5-a762-708b2b1be26d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133650Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,243 @@
+----item----
+version: 1
+id: {612EC2FB-2A2D-4AE6-A3B6-CC0B6EDF9207}
+database: core
+path: /sitecore/client/Applications/ContentTesting/Common/Layouts/Composite/TestObjective
+parent: {F9D4F466-9353-448B-9AFE-96339C328864}
+name: TestObjective
+master: {00000000-0000-0000-0000-000000000000}
+template: {F62B4CD7-754C-4461-810F-2B6BD2C92A0D}
+templatekey: Tab
+created: 20160729T132117Z
+
+----field----
+field: {DEAB3795-056F-4421-ADF0-758844461B72}
+name: Placeholder Name
+key: placeholder name
+content-length: 13
+
+TestObjective
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 4059
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+    <r ds="{E46477D3-EC73-41F9-9945-A8A7B6625E48}" id="{D97873D4-FA6F-4E14-86E3-5E189F72C60D}" par="Id=TestObjectiveProtection&amp;UsePadding=0&amp;RequiresRead=1" uid="{418101CB-1F3A-4203-B2FD-5BD4AB0083E1}" />
+    <r id="{B7924EF0-60B1-490A-92CC-CC6CBC649B30}" par="Id=TestObjectivesDataSource&amp;SearchTerm=%7bBinding+ObjectiveList.SearchTerm%7d&amp;Page=%7bBinding+ObjectiveList.Page%7d" ph="TestObjectiveProtection.Content" uid="{4FC571DC-F367-424F-96EC-AD566A4761C8}" />
+    <r ds="{1AF4E116-DE12-4DBF-A759-9906F8638D6D}" id="{442BD093-FBAD-4E36-BC08-489E16C82D08}" par="Id=TestObjectiveAccordion" ph="TestObjectiveProtection.Content" uid="{69E10CD2-17F3-4FD6-9916-0AAFBEE15FFA}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=TestObjectiveContentBorder&amp;UsePadding=1" ph="TestObjectiveAccordion.Body" uid="{3D2F4FE4-ABC6-46F6-8373-0060FC1607C1}" />
+    <r id="{C4393722-39FA-4869-9582-3A8EB8983A0D}" par="UsePadding=True&amp;Id=ObjectiveRow" ph="TestObjectiveContentBorder.Content" uid="{AC0A8A05-FF8A-41A5-BAD4-5AE953EDDBC9}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=ObjectiveLabelPanel&amp;GridColumns=2" ph="ObjectiveRow.Content" uid="{47C013E9-64AF-40BD-B4E7-DD009C89332A}" />
+    <r ds="{2AF61F01-2A2B-48F9-9E3E-5028AC842B2B}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=ObjectiveLabel" ph="ObjectiveLabelPanel.Content" uid="{5F712B59-5FF3-43B1-9ECD-D1C6C38EC9C3}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=ObjectivePanel&amp;GridColumns=10" ph="ObjectiveRow.Content" uid="{FB410002-CDBA-44F3-AB01-5C3629B51B81}" />
+    <r ds="{576AD63F-FD48-4818-81C6-DE6DCD65F581}" id="{DFA6A184-6644-4AED-9D02-81C0B4AED330}" par="Id=ObjectiveList&amp;TotalItems=%7bBinding+TestObjectivesDataSource.TotalItems%7d&amp;Items=%7bBinding+TestObjectivesDataSource.Items%7d&amp;IsSorted=False" ph="ObjectivePanel.Content" uid="{4F6328CD-F83A-4009-873C-E0849868450E}" />
+    <r id="{C4393722-39FA-4869-9582-3A8EB8983A0D}" par="UsePadding=True&amp;Id=WinnerSelectionRow" ph="TestObjectiveContentBorder.Content" uid="{12B62EA6-CBB0-428F-977E-66D90131C26E}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=WinnerSelectionTitlePanel&amp;GridColumns=2" ph="WinnerSelectionRow.Content" uid="{637A67CF-0A69-45D8-8DA3-557F204003FA}" />
+    <r ds="{36B60188-7B31-49BD-B3F1-025B73F9910F}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=TitleWinnerLabel" ph="WinnerSelectionTitlePanel.Content" uid="{77BB9B2D-FA4F-44B8-BFA7-0B9DC2578871}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=WinnerSelectionPanel&amp;GridColumns=10" ph="WinnerSelectionRow.Content" uid="{4D19F7E0-F668-4A52-8AC0-2E624C65C2DF}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=WinnerAutoSelectBorder&amp;UsePadding=0" ph="WinnerSelectionPanel.Content" uid="{65C34AA7-DF9F-4768-B793-57E55EF93140}" />
+    <r ds="{EB1F9C20-887D-42C9-A1D3-84F2E56B0E60}" id="{8BECEF35-1374-4D25-8A1A-4CDCC4218AA9}" par="GroupName=groupTestObjective&amp;Id=WinnerAutoSelect" ph="WinnerAutoSelectBorder.Content" uid="{C8917154-2274-47BA-8894-63B45603BEC4}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=WinnerAutoSelectUnlessBorder&amp;UsePadding=0" ph="WinnerSelectionPanel.Content" uid="{10CC6051-01B6-484D-993B-F6DC921E44A2}" />
+    <r ds="{3FACA328-541C-4DBF-9AA9-6109E61C2403}" id="{8BECEF35-1374-4D25-8A1A-4CDCC4218AA9}" par="GroupName=groupTestObjective&amp;Id=WinnerAutoSelectUnless" ph="WinnerAutoSelectUnlessBorder.Content" uid="{E64E1908-88E6-487A-8603-810D495C289C}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=WinnerManualSelectBorder&amp;UsePadding=0" ph="WinnerSelectionPanel.Content" uid="{1CC1F7DD-B65E-4E63-98B4-C96B5D05AC6F}" />
+    <r ds="{96617E53-B2CE-4892-8AEC-7A6E2C3172B2}" id="{8BECEF35-1374-4D25-8A1A-4CDCC4218AA9}" par="GroupName=groupTestObjective&amp;Id=WinnerManualSelect" ph="WinnerManualSelectBorder.Content" uid="{D9660BE7-2C49-462A-ACCC-D162F1A92882}" />
+  </d>
+</r>
+----version----
+language: da
+version: 1
+revision: 80ee0769-2a0e-4fe5-a900-73f57192271a
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 13
+
+TestObjective
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133330Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+80ee0769-2a0e-4fe5-a900-73f57192271a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133330Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: b04bac14-7096-4ab7-a717-7a6f089f22b5
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 8
+
+Testziel
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133457Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b04bac14-7096-4ab7-a717-7a6f089f22b5
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133457Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 057a67dc-0f62-4068-b352-3a54ba99ec90
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140710T151843
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+057a67dc-0f62-4068-b352-3a54ba99ec90
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150128T131359:635580476395155781Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 15f47e6c-2e2e-4059-a8c0-e2789c4dd0f7
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 5
+
+テスト対象
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133624Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+15f47e6c-2e2e-4059-a8c0-e2789c4dd0f7
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133624Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

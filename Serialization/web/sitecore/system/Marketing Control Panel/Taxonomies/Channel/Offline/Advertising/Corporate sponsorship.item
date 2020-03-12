@@ -1,0 +1,73 @@
+----item----
+version: 1
+id: {A5D2D58E-8716-4AEB-BAB5-6905AA148F9D}
+database: web
+path: /sitecore/system/Marketing Control Panel/Taxonomies/Channel/Offline/Advertising/Corporate sponsorship
+parent: {CF4F6EFB-4BD5-417B-B2AC-B38ED03FE9E2}
+name: Corporate sponsorship
+master: {00000000-0000-0000-0000-000000000000}
+template: {3B4FDE65-16A8-491D-BF15-99CE83CF3506}
+templatekey: Channel
+created: 20160729T132117Z
+
+----field----
+field: {8FB875EB-3AD3-44FF-87E1-998370CC3199}
+name: Code
+key: code
+content-length: 2
+
+05
+----field----
+field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
+name: __Workflow
+key: __workflow
+content-length: 0
+
+
+----version----
+language: en
+version: 1
+revision: 931c8ae0-d7cf-459c-8635-65b04081e39a
+
+----field----
+field: {8BDEE96A-E8F5-446A-A1D2-568C3018C98E}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{6A32B50A-B56C-42AC-BE9E-5427038F97D9}" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20141115T102934Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+931c8ae0-d7cf-459c-8635-65b04081e39a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150123T142622:635576199821724162Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 0
+
+

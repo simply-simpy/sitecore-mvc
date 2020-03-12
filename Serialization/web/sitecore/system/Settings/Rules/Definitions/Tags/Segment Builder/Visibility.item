@@ -1,0 +1,52 @@
+----item----
+version: 1
+id: {5619B638-6269-4645-92C2-91EEF52182FF}
+database: web
+path: /sitecore/system/Settings/Rules/Definitions/Tags/Segment Builder/Visibility
+parent: {49985589-CF47-4F35-8BEA-3CB267D5D72C}
+name: Visibility
+master: {60E3E35B-CEF9-4AFA-9F89-204ED015CCB9}
+template: {AA91A868-02F2-41D3-8B78-1CAD91B4DCAE}
+templatekey: Visibility
+created: 20160729T132117Z
+
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 0
+
+
+----version----
+language: en
+version: 1
+revision: 9143de34-9c5e-48db-bfa9-3538d8e8c187
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130906T155209
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+9143de34-9c5e-48db-bfa9-3538d8e8c187
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20130906T155209:635140795293718617
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,256 @@
+----item----
+version: 1
+id: {B2747066-06F8-4E0B-9EA7-64D8859A119A}
+database: master
+path: /sitecore/system/Marketing Control Panel/Taxonomies/Channel/Online/Organic search/Search not provided not Home page
+parent: {3CFE6680-2C0F-4838-9563-C15AC3F0EA98}
+name: Search not provided not Home page
+master: {00000000-0000-0000-0000-000000000000}
+template: {3B4FDE65-16A8-491D-BF15-99CE83CF3506}
+templatekey: Channel
+created: 20160729T132117Z
+
+----field----
+field: {8FB875EB-3AD3-44FF-87E1-998370CC3199}
+name: Code
+key: code
+content-length: 2
+
+04
+----field----
+field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
+name: __Workflow
+key: __workflow
+content-length: 0
+
+
+----version----
+language: da
+version: 1
+revision: 6db348aa-7f68-46a5-81d7-9f628e2db0ac
+
+----field----
+field: {8BDEE96A-E8F5-446A-A1D2-568C3018C98E}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{881A6616-2031-40BF-9E3E-8ED0C8227827}" />
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 40
+
+Søgningen resulterede ikke i hjemmesiden
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133417Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+6db348aa-7f68-46a5-81d7-9f628e2db0ac
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133417Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 14f857b4-e833-4347-9047-b1eaad8cc190
+
+----field----
+field: {8BDEE96A-E8F5-446A-A1D2-568C3018C98E}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{881A6616-2031-40BF-9E3E-8ED0C8227827}" />
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 36
+
+Suche nicht verfügbar keine Homepage
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133548Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+14f857b4-e833-4347-9047-b1eaad8cc190
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133548Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 90bdaa86-f506-4b43-bba1-bab8e08c1cc2
+
+----field----
+field: {8BDEE96A-E8F5-446A-A1D2-568C3018C98E}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{881A6616-2031-40BF-9E3E-8ED0C8227827}" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20141115T113111Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+90bdaa86-f506-4b43-bba1-bab8e08c1cc2
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20150727T093759Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 0
+
+
+----version----
+language: ja-JP
+version: 1
+revision: 788f93b2-3d27-44f3-b3fd-0ac4636896d4
+
+----field----
+field: {8BDEE96A-E8F5-446A-A1D2-568C3018C98E}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{881A6616-2031-40BF-9E3E-8ED0C8227827}" />
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 17
+
+ホームページに検索機能がありません
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133718Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+788f93b2-3d27-44f3-b3fd-0ac4636896d4
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133718Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,122 @@
+----item----
+version: 1
+id: {7B6D0D4B-29D3-4D34-B26C-D259D7EC1199}
+database: web
+path: /sitecore/templates/System/Path Analyzer/BaseMap/__Standard Values
+parent: {88FBE2AD-1C44-40B4-A8B4-5E249650FB27}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {88FBE2AD-1C44-40B4-A8B4-5E249650FB27}
+templatekey: BaseMap
+created: 20160729T132117Z
+
+----field----
+field: {E39B8257-0419-460F-810E-2224B8220537}
+name: MapType
+key: maptype
+content-length: 38
+
+{6421D770-8B6B-4AD8-A609-EB99AA7AF7C8}
+----field----
+field: {A87E94EF-D136-4FED-B69F-D69CAAC3EC8D}
+name: MapItemType
+key: mapitemtype
+content-length: 61
+
+Sitecore.PathAnalyzer.Data.Maps.MapItem,Sitecore.PathAnalyzer
+----field----
+field: {0C894AAB-962B-4A84-B923-CB24B05E60D2}
+name: __Ribbon
+key: __ribbon
+content-length: 38
+
+{32F19A23-D80F-43DE-9CFD-C71BE1D4B665}
+----field----
+field: {C2F5B2B5-71C1-431E-BF7F-DBDC1E5A2F83}
+name: __Quick Action Bar Validation Rules
+key: __quick action bar validation rules
+content-length: 38
+
+{DACDA7AA-1945-4FCB-848F-656926FE0E5E}
+----field----
+field: {57CBCA4C-8C94-446C-B8CA-7D8DC54F4285}
+name: __Validate Button Validation Rules
+key: __validate button validation rules
+content-length: 38
+
+{DACDA7AA-1945-4FCB-848F-656926FE0E5E}
+----field----
+field: {B7E5B151-B145-4CED-85C5-FBDB566DFA4D}
+name: __Validator Bar Validation Rules
+key: __validator bar validation rules
+content-length: 38
+
+{DACDA7AA-1945-4FCB-848F-656926FE0E5E}
+----field----
+field: {86B52EEF-078E-4D9E-80BF-888287070E6C}
+name: __Workflow Validation Rules
+key: __workflow validation rules
+content-length: 38
+
+{DACDA7AA-1945-4FCB-848F-656926FE0E5E}
+----field----
+field: {CA9B9F52-4FB0-4F87-A79F-24DEA62CDA65}
+name: __Default workflow
+key: __default workflow
+content-length: 38
+
+{B879D176-4226-4C74-9ED4-6E61E813CBF7}
+----version----
+language: en
+version: 1
+revision: b867c01e-185d-4e5b-9aa7-75d57b59f920
+
+----field----
+field: {A44D8693-F962-4F76-8FB8-62525CE67BA1}
+name: Name
+key: name
+content-length: 5
+
+$name
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20140411T163742Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b867c01e-185d-4e5b-9aa7-75d57b59f920
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20150714T171429Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

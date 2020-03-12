@@ -1,0 +1,256 @@
+----item----
+version: 1
+id: {5D42A904-1293-4296-8BF9-395511C8644F}
+database: core
+path: /sitecore/client/Business Component Library/version 2/Content/Guidance/Renderings/LegacyCharts/LegacyAreaChart/PageSettings/ChartFields/CategoryChartFields/FacetId
+parent: {165FC196-C961-4AE6-A599-50520572F331}
+name: FacetId
+master: {00000000-0000-0000-0000-000000000000}
+template: {8FED7B56-7E10-41A7-8ED4-D99BC136B671}
+templatekey: ChartField
+created: 20160729T132116Z
+
+----field----
+field: {65A414F0-859A-4181-9E6F-1A5161709FAB}
+name: DataField
+key: datafield
+content-length: 7
+
+channel
+----version----
+language: da
+version: 1
+revision: bf9674ca-b3b4-48c2-8954-9adc02096722
+
+----field----
+field: {86CCFF1C-4B15-4849-988C-FD44B37A7C22}
+name: HeaderText
+key: headertext
+content-length: 10
+
+Trafiktype
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 8
+
+Facet-Id
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133329Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+bf9674ca-b3b4-48c2-8954-9adc02096722
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133329Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: e896f483-e997-40fd-a068-eabbdff36156
+
+----field----
+field: {86CCFF1C-4B15-4849-988C-FD44B37A7C22}
+name: HeaderText
+key: headertext
+content-length: 11
+
+Traffic Typ
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 9
+
+FacetteId
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133456Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e896f483-e997-40fd-a068-eabbdff36156
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133456Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: e83b97c8-d15d-4df2-97a8-2bbb5f495a8d
+
+----field----
+field: {86CCFF1C-4B15-4849-988C-FD44B37A7C22}
+name: HeaderText
+key: headertext
+content-length: 12
+
+Traffic Type
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20131107T104632
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e83b97c8-d15d-4df2-97a8-2bbb5f495a8d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150513T072555:635670987559169075Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 2b9c2277-c6d6-45e6-ac58-ebeaf36c318f
+
+----field----
+field: {86CCFF1C-4B15-4849-988C-FD44B37A7C22}
+name: HeaderText
+key: headertext
+content-length: 9
+
+トラフィックの種類
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 8
+
+ファセット ID
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133623Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+2b9c2277-c6d6-45e6-ac58-ebeaf36c318f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133623Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

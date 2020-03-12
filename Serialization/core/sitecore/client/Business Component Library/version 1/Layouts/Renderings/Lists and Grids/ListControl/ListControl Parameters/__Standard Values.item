@@ -1,0 +1,73 @@
+----item----
+version: 1
+id: {B9C5FD21-B069-4A08-8B11-2CBC2FC34903}
+database: core
+path: /sitecore/client/Business Component Library/version 1/Layouts/Renderings/Lists and Grids/ListControl/ListControl Parameters/__Standard Values
+parent: {88B6AF7B-7253-471D-A644-12B81EF8F578}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {88B6AF7B-7253-471D-A644-12B81EF8F578}
+templatekey: ListControl Parameters
+created: 20160729T132116Z
+
+----field----
+field: {89ABDF43-7C7F-4557-9A1B-D0B98F51F858}
+name: AllowMultipleColumnSorting
+key: allowmultiplecolumnsorting
+content-length: 1
+
+1
+----field----
+field: {FE7374D5-064D-489E-BB96-BEEC8ED44FA2}
+name: TileHtmlFileName
+key: tilehtmlfilename
+content-length: 114
+
+/sitecore/shell/client/Business Component Library/Layouts/Renderings/ListsAndGrids/ListControls/DefaultTile.cshtml
+----version----
+language: en
+version: 1
+revision: e9ffd460-0875-4aef-b373-90934be5141c
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20120531T125836
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e9ffd460-0875-4aef-b373-90934be5141c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150624T151945:635707559851733942Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

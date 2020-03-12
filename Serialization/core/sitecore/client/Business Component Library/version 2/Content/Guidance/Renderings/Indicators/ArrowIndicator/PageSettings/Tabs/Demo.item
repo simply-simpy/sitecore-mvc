@@ -1,0 +1,307 @@
+----item----
+version: 1
+id: {C31AA31E-418B-4DF7-B01C-27D5B4C9A8F0}
+database: core
+path: /sitecore/client/Business Component Library/version 2/Content/Guidance/Renderings/Indicators/ArrowIndicator/PageSettings/Tabs/Demo
+parent: {37292993-680B-47C6-9BB0-EB39AF1030BB}
+name: Demo
+master: {1A934758-1761-446E-AA0E-D19B3369292B}
+template: {8A7ACB1A-0990-4C9E-A6F0-9612D0F5F51C}
+templatekey: Tab
+created: 20160729T132116Z
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 4
+
+-100
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 0
+
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 10473
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="UsePadding=1&amp;Id=Border1&amp;ConfigurationDetails=OldValue%3d25%26NewValue%3d100&amp;Description=The+component+displays+the+numeric+difference+between+the+NewValue+and+the+OldValue+properties+and+a+green+arrow+if+NewValue+%3e+OldValue.&amp;Title=Indicating+increased+value" uid="{4B28A79E-5C14-43B9-A3EF-21DC8E283B95}" />
+    <r id="{FD5D41E2-9E77-4D7D-88D8-90DBAC1BD282}" par="OldValue=25&amp;Id=ArrowIndicator1&amp;NewValue=100" ph="Border1.Content" uid="{C73D182B-6D89-4E70-8DF6-6BBAD6945A4F}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="UsePadding=1&amp;Id=Border2&amp;ConfigurationDetails=OldValue%3d100%26NewValue%3d25&amp;Description=The+component+displays+the+numeric+difference+between+the+NewValue+and+the+OldValue+properties+and+a+red+arrow+if+NewValue+%3c+OldValue.&amp;Title=Indicating+decreased+value" uid="{4B28A79E-5C14-43B9-A3EF-21DC8E283B95}" />
+    <r id="{FD5D41E2-9E77-4D7D-88D8-90DBAC1BD282}" par="OldValue=100&amp;Id=ArrowIndicator2&amp;NewValue=25" ph="Border2.Content" uid="{C73D182B-6D89-4E70-8DF6-6BBAD6945A4F}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="UsePadding=1&amp;Id=Border3&amp;ConfigurationDetails=OldValue%3d100%26NewValue%3d100&amp;Description=The+component+displays+a+0+(zero)+and+an+equals+sign+if+NewValue+%3d+OldValue.&amp;Title=Indicating+equal+values" uid="{4B28A79E-5C14-43B9-A3EF-21DC8E283B95}" />
+    <r id="{FD5D41E2-9E77-4D7D-88D8-90DBAC1BD282}" par="OldValue=100&amp;Id=ArrowIndicator3&amp;NewValue=100" ph="Border3.Content" uid="{C73D182B-6D89-4E70-8DF6-6BBAD6945A4F}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=Border4&amp;ConfigurationDetails=OldValue%3d75%26NewValue%3d100&amp;Description=The+ValueSize+property+specifies+the+size+of+the+value+label.&amp;Title=Specifying+the+value+label+text+size" uid="{4B28A79E-5C14-43B9-A3EF-21DC8E283B95}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border8&amp;PaddingType=Bottom&amp;UsePadding=1" ph="Border4.Content" uid="{BF7DCA75-B26F-4A72-9D1C-56E5BD053098}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=Text8&amp;Text=ValueSize%3a+X-Small" ph="Border8.Content" uid="{FB33C1D7-B4B0-4807-99A6-A22F8A0409E1}" />
+    <r id="{FD5D41E2-9E77-4D7D-88D8-90DBAC1BD282}" par="OldValue=75&amp;Id=ArrowIndicator8&amp;ValueSize=X-Small&amp;NewValue=100" ph="Border8.Content" uid="{C73D182B-6D89-4E70-8DF6-6BBAD6945A4F}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border9&amp;PaddingType=Bottom&amp;UsePadding=1" ph="Border4.Content" uid="{BF7DCA75-B26F-4A72-9D1C-56E5BD053098}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=Text9&amp;Text=ValueSize%3a+Small" ph="Border9.Content" uid="{FB33C1D7-B4B0-4807-99A6-A22F8A0409E1}" />
+    <r id="{FD5D41E2-9E77-4D7D-88D8-90DBAC1BD282}" par="OldValue=75&amp;Id=ArrowIndicator9&amp;ValueSize=Small&amp;NewValue=100" ph="Border9.Content" uid="{C73D182B-6D89-4E70-8DF6-6BBAD6945A4F}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border10&amp;PaddingType=Bottom&amp;UsePadding=1" ph="Border4.Content" uid="{BF7DCA75-B26F-4A72-9D1C-56E5BD053098}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=Text10&amp;Text=ValueSize%3a+Medium" ph="Border10.Content" uid="{FB33C1D7-B4B0-4807-99A6-A22F8A0409E1}" />
+    <r id="{FD5D41E2-9E77-4D7D-88D8-90DBAC1BD282}" par="OldValue=75&amp;Id=ArrowIndicator10&amp;ValueSize=Medium&amp;NewValue=100" ph="Border10.Content" uid="{C73D182B-6D89-4E70-8DF6-6BBAD6945A4F}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border11&amp;PaddingType=Bottom&amp;UsePadding=1" ph="Border4.Content" uid="{BF7DCA75-B26F-4A72-9D1C-56E5BD053098}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=Text11&amp;Text=ValueSize%3a+Large" ph="Border11.Content" uid="{FB33C1D7-B4B0-4807-99A6-A22F8A0409E1}" />
+    <r id="{FD5D41E2-9E77-4D7D-88D8-90DBAC1BD282}" par="OldValue=75&amp;Id=ArrowIndicator11&amp;ValueSize=Large&amp;NewValue=100" ph="Border11.Content" uid="{C73D182B-6D89-4E70-8DF6-6BBAD6945A4F}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border5&amp;PaddingType=Bottom&amp;UsePadding=1" ph="Border4.Content" uid="{BF7DCA75-B26F-4A72-9D1C-56E5BD053098}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=Text5&amp;Text=ValueSize%3a+X-Large" ph="Border5.Content" uid="{FB33C1D7-B4B0-4807-99A6-A22F8A0409E1}" />
+    <r id="{FD5D41E2-9E77-4D7D-88D8-90DBAC1BD282}" par="OldValue=75&amp;Id=ArrowIndicator5&amp;ValueSize=X-Large&amp;NewValue=100" ph="Border5.Content" uid="{C73D182B-6D89-4E70-8DF6-6BBAD6945A4F}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=Border14&amp;ConfigurationDetails=OldValue%3d75%26NewValue%3d100&amp;Description=The+ArrowSize+property+specifies+the+size+of+the+arrow+indicator.&amp;Title=Specifying+the+arrow+indicator+size" uid="{4B28A79E-5C14-43B9-A3EF-21DC8E283B95}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border15&amp;PaddingType=Bottom&amp;UsePadding=1" ph="Border14.Content" uid="{BF7DCA75-B26F-4A72-9D1C-56E5BD053098}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=Text3&amp;Text=ArrowSize%3a+X-Small" ph="Border15.Content" uid="{FB33C1D7-B4B0-4807-99A6-A22F8A0409E1}" />
+    <r id="{FD5D41E2-9E77-4D7D-88D8-90DBAC1BD282}" par="OldValue=75&amp;Id=ArrowIndicator12&amp;NewValue=100&amp;ImageSize=X-Small" ph="Border15.Content" uid="{C73D182B-6D89-4E70-8DF6-6BBAD6945A4F}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border16&amp;PaddingType=Bottom&amp;UsePadding=1" ph="Border14.Content" uid="{BF7DCA75-B26F-4A72-9D1C-56E5BD053098}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=Text3&amp;Text=ArrowSize%3a+Small" ph="Border16.Content" uid="{FB33C1D7-B4B0-4807-99A6-A22F8A0409E1}" />
+    <r id="{FD5D41E2-9E77-4D7D-88D8-90DBAC1BD282}" par="OldValue=75&amp;Id=ArrowIndicator12&amp;NewValue=100&amp;ImageSize=Small" ph="Border16.Content" uid="{C73D182B-6D89-4E70-8DF6-6BBAD6945A4F}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border17&amp;PaddingType=Bottom&amp;UsePadding=1" ph="Border14.Content" uid="{BF7DCA75-B26F-4A72-9D1C-56E5BD053098}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=Text3&amp;Text=ArrowSize%3a+Medium" ph="Border17.Content" uid="{FB33C1D7-B4B0-4807-99A6-A22F8A0409E1}" />
+    <r id="{FD5D41E2-9E77-4D7D-88D8-90DBAC1BD282}" par="OldValue=75&amp;Id=ArrowIndicator12&amp;NewValue=100&amp;ImageSize=Medium" ph="Border17.Content" uid="{C73D182B-6D89-4E70-8DF6-6BBAD6945A4F}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border18&amp;PaddingType=Bottom&amp;UsePadding=1" ph="Border14.Content" uid="{BF7DCA75-B26F-4A72-9D1C-56E5BD053098}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=Text3&amp;Text=ArrowSize%3a+Large" ph="Border18.Content" uid="{FB33C1D7-B4B0-4807-99A6-A22F8A0409E1}" />
+    <r id="{FD5D41E2-9E77-4D7D-88D8-90DBAC1BD282}" par="OldValue=75&amp;Id=ArrowIndicator12&amp;NewValue=100&amp;ImageSize=Large" ph="Border18.Content" uid="{C73D182B-6D89-4E70-8DF6-6BBAD6945A4F}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border19&amp;PaddingType=Bottom&amp;UsePadding=1" ph="Border14.Content" uid="{BF7DCA75-B26F-4A72-9D1C-56E5BD053098}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=Text3&amp;Text=ArrowSize%3a+X-Large" ph="Border19.Content" uid="{FB33C1D7-B4B0-4807-99A6-A22F8A0409E1}" />
+    <r id="{FD5D41E2-9E77-4D7D-88D8-90DBAC1BD282}" par="OldValue=75&amp;Id=ArrowIndicator12&amp;NewValue=100&amp;ImageSize=X-Large" ph="Border19.Content" uid="{C73D182B-6D89-4E70-8DF6-6BBAD6945A4F}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=Border6&amp;ConfigurationDetails=UpArrowColor%3d%230066FF%26DownArrowColor%3d%230066FF%26ValueColor%3d%23EE9F12&amp;Description=The+UpArrowColor%2c+DownArrowColor%2c+and+ValueColor+properties+override+the+standard+colors.&amp;Title=Customizing+colors" uid="{4B28A79E-5C14-43B9-A3EF-21DC8E283B95}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=Text1&amp;Text=UpArrowColor%3a%230066FF%2c+ValueColor%3d%23EE9F12" ph="Border6.Content" uid="{FB33C1D7-B4B0-4807-99A6-A22F8A0409E1}" />
+    <r id="{FD5D41E2-9E77-4D7D-88D8-90DBAC1BD282}" par="OldValue=75&amp;Id=ArrowIndicator6&amp;ValueSize=X-Large&amp;UpArrowColor=%230066FF&amp;ValueColor=%23EE9F12&amp;NewValue=100&amp;ImageSize=X-Large" ph="Border6.Content" uid="{C73D182B-6D89-4E70-8DF6-6BBAD6945A4F}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border12&amp;PaddingType=Bottom&amp;UsePadding=1" ph="Border6.Content" uid="{BF7DCA75-B26F-4A72-9D1C-56E5BD053098}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=Text2&amp;Text=DownArrowColor%3a%230066FF%2c+ValueColor%3d%23EE9F12" ph="Border6.Content" uid="{FB33C1D7-B4B0-4807-99A6-A22F8A0409E1}" />
+    <r id="{FD5D41E2-9E77-4D7D-88D8-90DBAC1BD282}" par="OldValue=100&amp;Id=ArrowIndicator4&amp;ValueSize=X-Large&amp;ValueColor=%23EE9F12&amp;NewValue=75&amp;ImageSize=X-Large&amp;DownArrowColor=%230066FF" ph="Border6.Content" uid="{C73D182B-6D89-4E70-8DF6-6BBAD6945A4F}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=Border13&amp;ConfigurationDetails=ValueFormat%3dPercentage%26OldValue%3d80%26NewValue%3d33&amp;Description=The+ValueFormat+property+specifies+the+format+of+the+value.+It+supports+Number+(unformatted)+and+Percentage+(as+a+percentage).+&amp;Title=Formatting+values" uid="{4B28A79E-5C14-43B9-A3EF-21DC8E283B95}" />
+    <r id="{FD5D41E2-9E77-4D7D-88D8-90DBAC1BD282}" par="OldValue=80&amp;Id=ArrowIndicator13&amp;ValueSize=X-Large&amp;NewValue=33&amp;ImageSize=X-Large&amp;ValueFormat=Percentage" ph="Border13.Content" uid="{C73D182B-6D89-4E70-8DF6-6BBAD6945A4F}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=Border7&amp;ConfigurationDetails=OldValue%3d100%26NewValue%3d75%26ShowMinusSign%3dTrue&amp;Description=The+ShowMinusSign+property+defines+whether+the+control+prefixes+negative+values+with+a+dash+(%22-%22).&amp;Title=Showing+a+minus+sign" uid="{4B28A79E-5C14-43B9-A3EF-21DC8E283B95}" />
+    <r id="{FD5D41E2-9E77-4D7D-88D8-90DBAC1BD282}" par="OldValue=100&amp;Id=ArrowIndicator7&amp;ValueSize=X-Large&amp;NewValue=75&amp;ImageSize=X-Large&amp;ValueFormat=Number&amp;ShowMinusSign=1" ph="Border7.Content" uid="{C73D182B-6D89-4E70-8DF6-6BBAD6945A4F}" />
+  </d>
+</r>
+----version----
+language: da
+version: 1
+revision: ca2fd0f5-218a-46d3-bd2a-46e71834d33c
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 4
+
+Fane
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 4
+
+Demo
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133345Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ca2fd0f5-218a-46d3-bd2a-46e71834d33c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133345Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 983f3b08-3bc3-4d34-909b-1d3b44b6032c
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 3
+
+Tab
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 4
+
+Demo
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133517Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+983f3b08-3bc3-4d34-909b-1d3b44b6032c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133517Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: c70d77cd-0ffc-4e13-9843-8203a1f1f589
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 3
+
+Tab
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150519T111213Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c70d77cd-0ffc-4e13-9843-8203a1f1f589
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160107T145415Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 3c48a419-ecaa-44fa-82d1-d6da91c7f58c
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 2
+
+タブ
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 2
+
+デモ
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133645Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3c48a419-ecaa-44fa-82d1-d6da91c7f58c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133645Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

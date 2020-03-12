@@ -1,0 +1,242 @@
+----item----
+version: 1
+id: {AC36230A-1930-41FE-8C05-BBF6042D9C7B}
+database: core
+path: /sitecore/client/Applications/List Manager/Dialogs/CreateAndAddNewContactDialog/PageSettings/CreateAndAddNewContactDialog Parameters
+parent: {ED55730F-66F7-4AC3-8641-3341B7169944}
+name: CreateAndAddNewContactDialog Parameters
+master: {00000000-0000-0000-0000-000000000000}
+template: {4D96D06C-54EE-47F3-97E5-1B4FA4B902B0}
+templatekey: DialogWindow Parameters
+created: 20160729T132117Z
+
+----field----
+field: {6A80F83A-4295-47E0-BFB5-2F88729AB09B}
+name: Size
+key: size
+content-length: 38
+
+{F505B72F-890A-4190-8C48-742A4FEBD6B0}
+----version----
+language: da
+version: 1
+revision: 6ae8747f-e28c-4da1-b63d-5bccbfd92a36
+
+----field----
+field: {7065AC6A-3607-4F0B-97CF-9D0B46B961FF}
+name: HeaderText
+key: headertext
+content-length: 26
+
+Opret og tilføj ny kontakt
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 42
+
+OpretOgTilføjNyKontaktDialogboks Parametre
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133341Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+6ae8747f-e28c-4da1-b63d-5bccbfd92a36
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133341Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 6b33ee1b-b2b0-44b3-895b-85ac4b35036d
+
+----field----
+field: {7065AC6A-3607-4F0B-97CF-9D0B46B961FF}
+name: HeaderText
+key: headertext
+content-length: 38
+
+Neuen Kontakt erstellen und hinzufügen
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 50
+
+ErstellenUndNeuenKontaktDialogHinzufügen Parameter
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133512Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+6b33ee1b-b2b0-44b3-895b-85ac4b35036d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133512Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: a387efb4-c83c-47ba-92f4-cae57ec1eb23
+
+----field----
+field: {7065AC6A-3607-4F0B-97CF-9D0B46B961FF}
+name: HeaderText
+key: headertext
+content-length: 26
+
+Create and add new contact
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150903T074213Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a387efb4-c83c-47ba-92f4-cae57ec1eb23
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20150907T121758Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: bdeade9f-7073-4ad4-8bb6-af56ebb2f94a
+
+----field----
+field: {7065AC6A-3607-4F0B-97CF-9D0B46B961FF}
+name: HeaderText
+key: headertext
+content-length: 14
+
+新しいコンタクトの作成と追加
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 26
+
+新しいコンタクトの作成と追加ダイアログ パラメーター
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133640Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+bdeade9f-7073-4ad4-8bb6-af56ebb2f94a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133640Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

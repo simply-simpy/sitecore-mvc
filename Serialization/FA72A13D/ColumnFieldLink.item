@@ -1,0 +1,310 @@
+----item----
+version: 1
+id: {6CCF7C90-8D5D-4F5E-8DCC-F88620F05FC4}
+database: core
+path: /sitecore/client/Business Component Library/version 2/Content/Guidance/Renderings/Lists and Grids/ListControl - DetailList/PageSettings/Tabs/ColumnFields/ColumnFieldLink
+parent: {9E698718-DA3C-4FC2-8E39-EC083B3C43B7}
+name: ColumnFieldLink
+master: {00000000-0000-0000-0000-000000000000}
+template: {8A7ACB1A-0990-4C9E-A6F0-9612D0F5F51C}
+templatekey: Tab
+created: 20160729T132116Z
+
+----field----
+field: {3A98ADC3-530B-4281-880D-2D56DCC605AF}
+name: IsLazyLoaded
+key: islazyloaded
+content-length: 1
+
+1
+----field----
+field: {CE20211A-8144-4D75-82CE-3AF16D69BA5C}
+name: QueryParameterValue
+key: queryparametervalue
+content-length: 15
+
+ColumnFieldLink
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 0
+
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 7449
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{759BEFD1-3323-404D-A243-E0ED81163C03}">
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=BorderColumnFieldLink" ph="Page.Body" uid="{3B2F2016-256B-4667-BEF7-C69FA43F467E}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanelColumnFieldLinkDefiningLinks&amp;ConfigurationDetails=ColumnFieldLink1.LinkTextFieldName%3d%24itemName%26ColumnFieldLink1.LinkUrlFieldName%3d%24path&amp;Description=The+LinkTextFieldName+field+of+a+column+field+item+specifies+the+item+field+the+control+displays+as+the+text+of+the+link%2c+and+the+LinkUrlFieldName+field+of+a+column+field+item+specifies+the+item+field+the+control+uses+as+the+URL+of+the+link.&amp;Title=Specifying+hyperlinks" ph="BorderColumnFieldLink.Content" uid="{26CDE2F7-A427-4788-BC14-FCCC5245F2A9}" />
+    <r id="{6F8AB6DD-9307-4AD3-964E-5B84F0B9B4F0}" par="Id=ListControlColumnFieldLinkDefiningLinks&amp;ColumnDefinitionItems=%7b33E94AE9-CC20-4619-AC69-C3B616A71411%7d&amp;StaticData=%7b6C7A71E0-258F-4AF4-B8ED-D8CB75169339%7d" ph="DemoComponentPanelColumnFieldLinkDefiningLinks.Content" uid="{B33EE2E7-E200-4AEC-B1C6-64188F550643}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanelColumnFieldLinkLinkTarget&amp;ConfigurationDetails=ColumnFieldLink1.LinkTarget%3d%26ColumnFieldLink2.LinkTarget%3d_blank%26ColumnFieldLink3.LinkTarget%3dspeak_window&amp;Description=The+LinkTarget+field+of+a+column+field+item+specifies+how+the+hyperlink+target+opens+when+users+click+the+link.+An+empty+field+specifies+that+the+browser+uses+its+default+behavior%2c+a+value+of+_blank+specifies+that+the+browser+opens+a+new+window%2c+and+a+value+of+speak_window+specifies+that+the+browser+reuses+the+current+window.&amp;Title=Specifying+how+hyperlink+targets+open+when+clicked" ph="BorderColumnFieldLink.Content" uid="{26CDE2F7-A427-4788-BC14-FCCC5245F2A9}" />
+    <r id="{6F8AB6DD-9307-4AD3-964E-5B84F0B9B4F0}" par="Id=ListControlColumnFieldLinkLinkTarget&amp;ColumnDefinitionItems=%7bC77D976E-6939-419A-8992-EA9FD38055CF%7d%7c%7b29FBE956-BB57-4ED6-AF30-3C07486F49EF%7d%7c%7bFDA6E4CF-03AE-48DB-B9E6-B3B15A07B06F%7d&amp;StaticData=%7b6C7A71E0-258F-4AF4-B8ED-D8CB75169339%7d" ph="DemoComponentPanelColumnFieldLinkLinkTarget.Content" uid="{B33EE2E7-E200-4AEC-B1C6-64188F550643}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanelColumnFieldLinkTitle&amp;ConfigurationDetails=ColumnFieldLink1.ColumnTitle%3dLorem%26ColumnFieldLink2.ColumnTitle%3dIpsum%26ColumnFieldLink3.ColumnTitle%3dDolor&amp;Description=The+ColumnTitle+field+of+a+column+field+item+specifies+a+title+for+the+column.&amp;Title=Specifying+a+column+title" ph="BorderColumnFieldLink.Content" uid="{26CDE2F7-A427-4788-BC14-FCCC5245F2A9}" />
+    <r id="{6F8AB6DD-9307-4AD3-964E-5B84F0B9B4F0}" par="Id=ListControlColumnFieldLinkTitle&amp;ColumnDefinitionItems=%7b2BB185B1-698C-4302-892F-979AB405F6EF%7d%7c%7bC657A8DC-25F7-49AA-BC94-A28343A1AEDB%7d%7c%7b53E4D455-5589-4F90-AFA6-47D238B762A1%7d" ph="DemoComponentPanelColumnFieldLinkTitle.Content" uid="{B33EE2E7-E200-4AEC-B1C6-64188F550643}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanelColumnFieldLinkAlignment&amp;ConfigurationDetails=ColumnFieldLink1.ColumnAlignment%3d%26ColumnFieldLink2.ColumnAlignment%3dLeft%26ColumnFieldLink3.ColumnAlignment%3dCenter%26ColumnFieldLink4.ColumnAlignment%3dRight&amp;Description=The+ColumnAlignment+field+of+a+column+field+item+specifies+how+the+content+in+the+column+is+aligned%3a+Letf+(the+default)%2c+Center%2c+or+Right.&amp;Title=Specifying+content+alignment" ph="BorderColumnFieldLink.Content" uid="{26CDE2F7-A427-4788-BC14-FCCC5245F2A9}" />
+    <r id="{6F8AB6DD-9307-4AD3-964E-5B84F0B9B4F0}" par="Id=ListControlColumnFieldLinkAlignment&amp;ColumnDefinitionItems=%7b1697F84F-2381-4932-BF01-6390779BE60E%7d%7c%7b3577E052-5540-4EF3-AB0D-725E77387158%7d%7c%7b081369A8-F8C8-471A-97FF-12EB6F9499C7%7d%7c%7bBE55A3BA-2254-416A-960A-A1FC112626A4%7d&amp;StaticData=%7b6C7A71E0-258F-4AF4-B8ED-D8CB75169339%7d" ph="DemoComponentPanelColumnFieldLinkAlignment.Content" uid="{B33EE2E7-E200-4AEC-B1C6-64188F550643}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanelColumnFieldLinkSortable&amp;ConfigurationDetails=ColumnFieldLink1.IsSortable%3dFalse%26ColumnFieldLink2.IsSortable%3dTrue&amp;Description=The+IsSortable+field+of+a+column+field+item+specifies+if+users+can+sort+content+in+the+column.+If+True%2c+sorting+is+enabled.&amp;Title=Enabling+column+sorting" ph="BorderColumnFieldLink.Content" uid="{26CDE2F7-A427-4788-BC14-FCCC5245F2A9}" />
+    <r id="{E6FBC365-732C-4DCD-8C56-10E8C3B963F5}" par="SearchRootItemId=%7b775D5EB4-AA0A-4D55-B151-D3694123601F%7d&amp;Id=DataSourceColumnFieldLink&amp;Database=%24context_database&amp;Sorting=%7bBinding+ListControlColumnFieldLinkSortable.Sorting%7d&amp;Language=%24context_language&amp;PageSize=5&amp;SearchQuery=*" ph="Page.Body" uid="{663099E3-6E23-4549-B4C3-9B1231338620}" />
+    <r id="{6F8AB6DD-9307-4AD3-964E-5B84F0B9B4F0}" par="Id=ListControlColumnFieldLinkSortable&amp;ColumnDefinitionItems=%7b9431DC86-B4AB-4C11-8322-AD1BB8559D9D%7d%7c%7bFA8642B2-2DF1-4260-B0CF-AFF9EF91B375%7d&amp;DynamicData=%7bBinding+DataSourceColumnFieldLink.Items%7d" ph="DemoComponentPanelColumnFieldLinkSortable.Content" uid="{B33EE2E7-E200-4AEC-B1C6-64188F550643}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanelColumnFieldLinkWidth&amp;ConfigurationDetails=ColumnFieldLink1.ColumnWidth%3d1%26ColumnFieldLink2.ColumnWidth%3d3%26ColumnFieldLink3.ColumnWidth%3d8&amp;Description=The+ColumnWidth+field+of+a+column+field+item+specifies+the+width+of+the+column.+The+SPEAK+layout+has+a+12-column+grid%2c+and+you+specify+the+width+of+a+column+as+a+number+of+columns+in+the+underlying+grid%2c+from+1+to+12.&amp;Title=Specifying+column+width" ph="BorderColumnFieldLink.Content" uid="{26CDE2F7-A427-4788-BC14-FCCC5245F2A9}" />
+    <r id="{6F8AB6DD-9307-4AD3-964E-5B84F0B9B4F0}" par="Id=ListControlColumnFieldLinkWidth&amp;ColumnDefinitionItems=%7b0DF0B432-C8C6-4C9C-8A57-60237AB2BEE6%7d%7c%7bF933C45A-EDB2-4919-B343-4D836C250ADC%7d%7c%7b3E8465D9-0BAA-492E-AEF7-0B9CECCF5D1A%7d&amp;StaticData=%7b6C7A71E0-258F-4AF4-B8ED-D8CB75169339%7d" ph="DemoComponentPanelColumnFieldLinkWidth.Content" uid="{B33EE2E7-E200-4AEC-B1C6-64188F550643}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanelColumnFieldLinkMinWidth&amp;ConfigurationDetails=ColumnFieldLink1.ColumnMinWidth%3d%26ColumnFieldLink2.ColumnMinWidth%3d40%26ColumnFieldLink3.ColumnWidth%3d600&amp;Description=The+ColumnMinWidth+field+of+a+column+field+item+sets+a+minimum+width+of+the+column+in+pixels.+If+the+column+becomes+smaller%2c+the+control+hides+the+last+column+in+the+table+and+stops+resizing+of+the+column.+Default+minimum+width+is+100+pixels.&amp;Title=Setting+a+minimum+column+width" ph="BorderColumnFieldLink.Content" uid="{26CDE2F7-A427-4788-BC14-FCCC5245F2A9}" />
+    <r id="{6F8AB6DD-9307-4AD3-964E-5B84F0B9B4F0}" par="Id=ListControlColumnFieldLinkMinWidth&amp;ColumnDefinitionItems=%7bF965A0BC-11F9-45F8-9FA5-CF5AB7262340%7d%7c%7b0015E9F5-1901-462D-AAF6-EDFD64FDE61E%7d%7c%7b9A993843-9727-4054-9EF4-020517D399E1%7d&amp;StaticData=%7b6C7A71E0-258F-4AF4-B8ED-D8CB75169339%7d" ph="DemoComponentPanelColumnFieldLinkMinWidth.Content" uid="{B33EE2E7-E200-4AEC-B1C6-64188F550643}" />
+  </d>
+</r>
+----version----
+language: da
+version: 1
+revision: b5409ac7-1344-475f-9be1-e2fbebb6e316
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 15
+
+KOlonneFeltLink
+----field----
+field: {772AEA8A-4D70-43F4-BD6B-EDE5FB060623}
+name: Tooltip
+key: tooltip
+content-length: 15
+
+KOlonneFeltLink
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 15
+
+KOlonneFeltLink
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133332Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b5409ac7-1344-475f-9be1-e2fbebb6e316
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133332Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 793d7ce4-a175-438f-aaef-21025400221a
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 15
+
+SpaltenfeldLink
+----field----
+field: {772AEA8A-4D70-43F4-BD6B-EDE5FB060623}
+name: Tooltip
+key: tooltip
+content-length: 15
+
+SpaltenfeldLink
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 15
+
+SpaltenfeldLink
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133459Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+793d7ce4-a175-438f-aaef-21025400221a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133459Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 52d1267e-3c09-4399-b413-e9d7af7e3c1a
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 15
+
+ColumnFieldLink
+----field----
+field: {772AEA8A-4D70-43F4-BD6B-EDE5FB060623}
+name: Tooltip
+key: tooltip
+content-length: 15
+
+ColumnFieldLink
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150629T105310Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+52d1267e-3c09-4399-b413-e9d7af7e3c1a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160121T080001Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: b1ba2e66-da44-4664-ba28-7c6afa71a2ce
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 11
+
+列のフィールド リンク
+----field----
+field: {772AEA8A-4D70-43F4-BD6B-EDE5FB060623}
+name: Tooltip
+key: tooltip
+content-length: 11
+
+列のフィールド リンク
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 11
+
+列のフィールド リンク
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133627Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b1ba2e66-da44-4664-ba28-7c6afa71a2ce
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133627Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

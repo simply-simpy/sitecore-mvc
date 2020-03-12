@@ -1,0 +1,307 @@
+----item----
+version: 1
+id: {880F2F80-6F46-4003-9C23-76DDC4EA75A4}
+database: core
+path: /sitecore/client/Business Component Library/version 2/Content/Guidance/Renderings/Charts/AreaChart/PageSettings/Tabs/Demo/SubDemo
+parent: {DE9B005B-4CBE-44C2-A32B-6B1387A41333}
+name: SubDemo
+master: {1A934758-1761-446E-AA0E-D19B3369292B}
+template: {8A7ACB1A-0990-4C9E-A6F0-9612D0F5F51C}
+templatekey: Tab
+created: 20160729T132116Z
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 4
+
+-100
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 0
+
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 28283
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+    <r id="{CB83D434-31ED-4AC3-A280-CCE2B63F9743}" par="PageCodeScriptFileName=%2fsitecore%2fshell%2fclient%2fBusiness+Component+Library%2fversion+2%2fContent%2fGuidance%2fRenderings%2fCharts%2fAreaChartPage.js" uid="{9C5A21E0-78A4-40E2-BC09-18B3AC4B9F2B}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border1&amp;IsVisible=1&amp;PaddingType=All&amp;UsePadding=1" uid="{CA875386-F05D-4AA3-A943-34D1F16DBEC8}" />
+    <r id="{59E2A66D-11D2-488D-A3BC-6C1C81326645}" par="FieldDefinitionType=%7b167CCD4C-34CE-4557-985B-0915D86B3D99%7d&amp;ConfigurationItem=%7b55BD6C7D-1C84-490D-AC54-62B7C54C3880%7d&amp;Id=Form1&amp;FieldsLayout=%7b3D3E966C-5110-4336-BFB8-4FCA68B73AE7%7d" ph="Border1.Content" uid="{D1FADE04-EB03-4113-A82D-EF57B257442C}" />
+    <r id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" par="Id=Button&amp;IsEnabled=1&amp;IsVisible=1&amp;Text=Load+Data&amp;Click=javascript%3aapp.setData()%3b" ph="Border1.Content" uid="{98AC6C73-FFA7-4E93-A6DA-7784739F2584}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=Border170&amp;ConfigurationDetails=SeriesDefinition%3d%7b38FD5620-22B8-4A5E-8023-7B009DD24FCF%7d%7c%7b7B3E7F99-C945-4BFC-91E8-3426345CE5E8%7d%7c%7bFE9B60CA-983C-4D19-9724-2078BBF3F94E%7d&amp;Tooltip=++&amp;Description=The+SeriesDefinition+property+points+to+one+or+more+configuration+items+based+on+the+SeriesDefinition+item+template.+The+CategoryDataFormatting+and+ValueDataFormatting+fields+of+a+SeriesDefinition+item+point+to+DataFormatting+configuration+items.+These+items+specify+how+the+AreaChart191+component+formats+the+labels+it+shows+on+the+axes.+The+CategoryDataFormatting+field+points+to+an+item+that+specifies+the+formatting+of+labels+along+the+x+(horizontal)+axis%2c+and+the+ValueDataFormatting+field+points+to+an+item+that+specifies+the+formatting+of+labels+along+the+y+(vertical)+axis.+All+SeriesDefinition+items+specified+for+one+control+must+point+to+the+same+CategoryDataFormatting+and+ValueDataFormatting+items.&amp;Title=Formatting+axis+labels" uid="{D40316EC-BA41-4961-BF39-90EC3FE554B7}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border171&amp;PaddingType=Bottom&amp;UsePadding=1" ph="Border170.Content" uid="{0EA9E87F-73A7-40B9-8B86-A751A26A10D3}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=Text171&amp;Text=In+this+example%2c+the+CategoryDataFormatting+item+specifies+that+the+control+shows+dates+in+the+%22year+short-month%22+format%2c+add+%22P+-+%22+as+a+prefix%2c+and+adds+%22+-+S%22+as+suffix.+The+ValueDataFormatting+item+specifies+that+the+control+shows+decimal+numbers+with+2+decimals%2c+and+that+it+uses+the+%22Round%22+rounding+type%2c+a+thousand+separator%2c+%22P%22+as+a+prefix%2c+and+%22S%22+as+a+suffix." ph="Border171.Content" uid="{1D6AE422-E1C6-4D50-A857-8FBB09B45DBF}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border172&amp;PaddingType=Top&amp;UsePadding=1" ph="Border170.Content" uid="{0EA9E87F-73A7-40B9-8B86-A751A26A10D3}" />
+    <r id="{B238EFA9-C00D-4695-8C69-9E57AB69F903}" par="Id=AreaChart171&amp;LeftLabelsWidth=Medium&amp;IsVisible=1&amp;LegendMode=ExclusiveCheck&amp;SeriesStyle=Stacked&amp;Height=400px&amp;XAxisLabel=Time&amp;YAxisLabel=Visits&amp;SeriesDefinitions=%7b38FD5620-22B8-4A5E-8023-7B009DD24FCF%7d%7c%7b7B3E7F99-C945-4BFC-91E8-3426345CE5E8%7d%7c%7bFE9B60CA-983C-4D19-9724-2078BBF3F94E%7d&amp;Title=Date+category+-+Number+value" ph="Border172.Content" uid="{36A1582B-6131-4AD5-BA23-B2D4F4D733D7}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border173&amp;PaddingType=Bottom&amp;UsePadding=1" ph="Border170.Content" uid="{0EA9E87F-73A7-40B9-8B86-A751A26A10D3}" />
+    <r id="{E250DEA9-B3A6-4BFA-AF96-E8278150DA31}" par="Id=Separator1" ph="Border173.Content" uid="{243E628F-FC17-4533-A13C-3925A469BFF1}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=Text173&amp;Text=In+this+example%2c+the+CategoryDataFormatting+item+specifies+that+the+control+shows+dates+in+the+%22year+short-month%22+format%2c+add+%22P+-+%22+as+a+prefix%2c+and+adds+%22+-+S%22+as+suffix.+The+ValueDataFormatting+item+specifies+that+the+control+shows+%22USD%22+currency%2c+and+that+it+uses+the+%22Round%22+rounding+type%2c+the+%22Name%22+style%2c+a+thousand+separator%2c+%22P%22+as+a+prefix%2c+and+%22S%22+as+a+suffix." ph="Border173.Content" uid="{1D6AE422-E1C6-4D50-A857-8FBB09B45DBF}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border174&amp;PaddingType=Bottom&amp;UsePadding=1" ph="Border170.Content" uid="{0EA9E87F-73A7-40B9-8B86-A751A26A10D3}" />
+    <r id="{B238EFA9-C00D-4695-8C69-9E57AB69F903}" par="Id=AreaChart174&amp;LeftLabelsWidth=X-Large&amp;IsVisible=1&amp;LegendMode=ExclusiveCheck&amp;SeriesStyle=Stacked&amp;Height=400px&amp;XAxisLabel=Time&amp;YAxisLabel=Earning+per+Visit&amp;SeriesDefinitions=%7b5B165D9F-0611-4A1B-8BBD-88DA099CD492%7d%7c%7b7B3E7F99-C945-4BFC-91E8-3426345CE5E8%7d%7c%7b846F05C7-C176-45FC-9B02-81B75EFF9184%7d&amp;Title=Date+category+-+Currency+value" ph="Border174.Content" uid="{36A1582B-6131-4AD5-BA23-B2D4F4D733D7}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border175&amp;PaddingType=Bottom&amp;UsePadding=1" ph="Border170.Content" uid="{0EA9E87F-73A7-40B9-8B86-A751A26A10D3}" />
+    <r id="{E250DEA9-B3A6-4BFA-AF96-E8278150DA31}" par="Id=Separator2" ph="Border175.Content" uid="{39C998E5-9029-4A49-82E4-0C28970D42FF}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=Text175&amp;Text=In+this+example%2c+the+CategoryDataFormatting+item+specifies+that+the+control+shows+times+in+the+%22year+numeric-month+date+hm%22+format.+The+ValueDataFormatting+item+specifies+that+the+control+shows+numbers+with+2+decimals%2c+and+that+it+uses+the+%22Round%22+rounding+type%2c+and+a+thousand+separator." ph="Border175.Content" uid="{1D6AE422-E1C6-4D50-A857-8FBB09B45DBF}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border176&amp;PaddingType=Bottom&amp;UsePadding=1" ph="Border170.Content" uid="{0EA9E87F-73A7-40B9-8B86-A751A26A10D3}" />
+    <r id="{B238EFA9-C00D-4695-8C69-9E57AB69F903}" par="Id=AreaChart176&amp;LeftLabelsWidth=Medium&amp;IsVisible=1&amp;LegendMode=ExclusiveCheck&amp;SeriesStyle=Stacked&amp;Height=400px&amp;XAxisLabel=Time&amp;YAxisLabel=Visits&amp;SeriesDefinitions=%7b32F50FC5-F8D1-4CBA-B996-6CA3EFC9000C%7d%7c%7b913A450C-2B82-4022-9AA8-C84870104A34%7d%7c%7b7B3E7F99-C945-4BFC-91E8-3426345CE5E8%7d&amp;Title=Time+category+-+Number+value" ph="Border176.Content" uid="{36A1582B-6131-4AD5-BA23-B2D4F4D733D7}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border178&amp;PaddingType=Bottom&amp;UsePadding=1" ph="Border170.Content" uid="{0EA9E87F-73A7-40B9-8B86-A751A26A10D3}" />
+    <r id="{E250DEA9-B3A6-4BFA-AF96-E8278150DA31}" par="Id=Separator3" ph="Border178.Content" uid="{521514F3-BAC7-4286-8815-0B5DC089D93A}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=Text178&amp;Text=In+this+example%2c+the+CategoryDataFormatting+item+specifies+that+the+control+shows+dates+with+the+custom+format+%22yQQQ%22." ph="Border178.Content" uid="{1D6AE422-E1C6-4D50-A857-8FBB09B45DBF}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border177&amp;PaddingType=Bottom&amp;UsePadding=1" ph="Border170.Content" uid="{0EA9E87F-73A7-40B9-8B86-A751A26A10D3}" />
+    <r id="{B238EFA9-C00D-4695-8C69-9E57AB69F903}" par="Id=AreaChart177&amp;LeftLabelsWidth=Medium&amp;IsVisible=1&amp;LegendMode=ExclusiveCheck&amp;SeriesStyle=Stacked&amp;Height=400px&amp;XAxisLabel=Time&amp;YAxisLabel=Visits&amp;SeriesDefinitions=%7b862C0161-64B7-48C3-B4C9-AB810F079657%7d%7c%7bE3F0C3EB-BABD-4C71-9767-9FCDC6A92589%7d%7c%7bB9F1BE4D-11C4-4D17-AFB5-8D5BE4D2B699%7d&amp;Title=Date+category+with+custom+format+-+Number+value" ph="Border177.Content" uid="{36A1582B-6131-4AD5-BA23-B2D4F4D733D7}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=Border160&amp;Description=The+SeriesDefintion+property+specifies+a+pipe-separated+list+of+item+IDs+of+configuration+items+based+on+the+SeriesDefinition+item+template.+Each+of+these+configuration+items+specifies+how+the+control+formats+and+maps+data.+If+the+data+contains+more+series+than+SeriesDefinition+configuration+items%2c+the+control+uses+the+settings+in+the+first+SeriesDefintion+configuration+item+for+the+remaining+data+series.+It+will+use+the+data+series+key+as+the+display+name+of+series+without+SeriesDefinition+configuration+item.&amp;Title=Specifying+data+formatting" uid="{D40316EC-BA41-4961-BF39-90EC3FE554B7}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=BorderText2&amp;PaddingType=Bottom&amp;UsePadding=0" ph="Border160.Content" uid="{19B282B1-2905-45B5-BBFA-5DA448F37C4D}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=Text2&amp;Text=In+this+example%2c+the+data+contains+3+series+and+the+SeriesDefinition+property+specifies+3+SeriesDefinition+items.+The+control+shows+the+series+in+the+chart+in+the+order+provided+by+the+data." ph="BorderText2.Content" uid="{1D6AE422-E1C6-4D50-A857-8FBB09B45DBF}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=BorderText6&amp;PaddingType=Top&amp;UsePadding=1" ph="Border160.Content" uid="{19B282B1-2905-45B5-BBFA-5DA448F37C4D}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="TextWeight=Bold&amp;Id=Text6&amp;Text=SeriesDefinition%3a+%7b38F60913-CBC4-435B-B033-2BD5DD5D707E%7d%7c%7b7B3E7F99-C945-4BFC-91E8-3426345CE5E8%7d%7c%7bFE9B60CA-983C-4D19-9724-2078BBF3F94E%7d" ph="BorderText6.Content" uid="{1D6AE422-E1C6-4D50-A857-8FBB09B45DBF}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border161&amp;PaddingType=Top&amp;UsePadding=1" ph="Border160.Content" uid="{2A1F13FA-05B6-4608-AA79-28333E651C40}" />
+    <r id="{B238EFA9-C00D-4695-8C69-9E57AB69F903}" par="Id=AreaChart160&amp;LeftLabelsWidth=Medium&amp;IsVisible=1&amp;LegendMode=ExclusiveCheck&amp;SeriesStyle=Stacked&amp;Height=400px&amp;XAxisLabel=Week+days&amp;YAxisLabel=Number+of+bananas&amp;SeriesDefinitions=%7b38F60913-CBC4-435B-B033-2BD5DD5D707E%7d%7c%7b7B3E7F99-C945-4BFC-91E8-3426345CE5E8%7d%7c%7bFE9B60CA-983C-4D19-9724-2078BBF3F94E%7d&amp;Title=Same+number+of+data+series+and+SeriesDefinition+items" ph="Border161.Content" uid="{36A1582B-6131-4AD5-BA23-B2D4F4D733D7}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border&amp;PaddingType=All&amp;UsePadding=1" ph="Border160.Content" uid="{2A1F13FA-05B6-4608-AA79-28333E651C40}" />
+    <r id="{E250DEA9-B3A6-4BFA-AF96-E8278150DA31}" par="Id=Separator4" ph="Border160.Content" uid="{DA8C7171-6B44-4D16-B209-D8D8D6A1CDFD}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=BorderText3&amp;PaddingType=Top&amp;UsePadding=1" ph="Border160.Content" uid="{47972540-0902-484C-B314-45667B4132B0}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=Text3&amp;Text=In+this+example%2c+the+data+contains+3+series+and+the+SeriesDefinition+property+specifies++1+SeriesDefinition+item.+The+control+applies+the+category+and+value+mapping+and+formatting+of+this+item+to+all+3+data+series.+The+SeriesDefinition+item+does+not+specify+a+CategoryDateFormatting+item%2c+but+because+the+category+data+includes+a+Date%2c+the+control+formats+the+category+axis+value+using+the+Globalize+default+date+format+preset+(%22year+short-month+day%22)." ph="BorderText3.Content" uid="{1D6AE422-E1C6-4D50-A857-8FBB09B45DBF}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=BorderText5&amp;PaddingType=Top&amp;UsePadding=1" ph="Border160.Content" uid="{47972540-0902-484C-B314-45667B4132B0}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="TextWeight=Bold&amp;Id=Text5&amp;Text=SeriesDefinition%3a%7b75C87415-8C79-49AE-8803-B271429EEAEB%7d" ph="BorderText5.Content" uid="{1D6AE422-E1C6-4D50-A857-8FBB09B45DBF}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border162&amp;PaddingType=Top&amp;UsePadding=1" ph="Border160.Content" uid="{47972540-0902-484C-B314-45667B4132B0}" />
+    <r id="{B238EFA9-C00D-4695-8C69-9E57AB69F903}" par="Id=AreaChart162&amp;LeftLabelsWidth=Medium&amp;IsVisible=1&amp;LegendMode=ExclusiveCheck&amp;SeriesStyle=Stacked&amp;Height=400px&amp;XAxisLabel=Week+days&amp;YAxisLabel=Number+of+bananas&amp;SeriesDefinitions=%7b75C87415-8C79-49AE-8803-B271429EEAEB%7d&amp;Title=Three+data+series+and+one+SeriesDefinition+item" ph="Border162.Content" uid="{36A1582B-6131-4AD5-BA23-B2D4F4D733D7}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=BorderText180&amp;PaddingType=Top&amp;UsePadding=1" ph="Border160.Content" uid="{47972540-0902-484C-B314-45667B4132B0}" />
+    <r id="{E250DEA9-B3A6-4BFA-AF96-E8278150DA31}" par="Id=Separator5" ph="BorderText180.Content" uid="{7641CA95-8ED1-447F-9CAA-9E341206B6A2}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border4&amp;PaddingType=Bottom&amp;UsePadding=1" ph="BorderText180.Content" uid="{6D596115-E5D2-4420-9139-C451375A16A0}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=Text1&amp;Text=In+this+example%2c+the+data+contains+3+series+and+the+SeriesDefinition+property+specifies++2+SeriesDefinition+items." ph="Border4.Content" uid="{9C9D4332-D1D4-49AB-A1EC-6E57B33EA91E}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border3" ph="BorderText180.Content" uid="{6DBFCE90-A0D2-48D9-99E6-88A7C0FF9793}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="TextWeight=Bold&amp;Id=Text180&amp;Text=SeriesDefinition%3a%7b75C87415-8C79-49AE-8803-B271429EEAEB%7d" ph="BorderText180.Content" uid="{1D6AE422-E1C6-4D50-A857-8FBB09B45DBF}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border180&amp;PaddingType=Top&amp;UsePadding=1" ph="Border160.Content" uid="{47972540-0902-484C-B314-45667B4132B0}" />
+    <r id="{B238EFA9-C00D-4695-8C69-9E57AB69F903}" par="Id=AreaChart180&amp;LeftLabelsWidth=Medium&amp;IsVisible=1&amp;LegendMode=ExclusiveCheck&amp;SeriesStyle=Stacked&amp;Height=400px&amp;XAxisLabel=Week+days&amp;YAxisLabel=Number+of+bananas&amp;SeriesDefinitions=%7b862C0161-64B7-48C3-B4C9-AB810F079657%7d%7c%7bE3F0C3EB-BABD-4C71-9767-9FCDC6A92589%7d&amp;Title=Three+data+series+and+two+SeriesDefinition+items" ph="Border180.Content" uid="{36A1582B-6131-4AD5-BA23-B2D4F4D733D7}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=Border140&amp;ConfigurationDetails=LegendMode%3dExclusiveCheck+and+MultipleCheck&amp;Description=The+LegendMode+property+specifies+how+the+clickable+legend+functions.+ExclusiveCheck+means+users+click+the+legend+to+select+a+graph+segment+and++deselect+any+other+segments.+This+is+similar+to+the+way+radio+buttons+work.+MultipleCheck+means+that++users+click+the+legend+to+show+and+hide+each+graph+segment.+This+is+similar+to+how+check+boxes+work.&amp;Title=Setting+legend+modes" uid="{D40316EC-BA41-4961-BF39-90EC3FE554B7}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border141" ph="Border140.Content" uid="{2A1F13FA-05B6-4608-AA79-28333E651C40}" />
+    <r id="{B238EFA9-C00D-4695-8C69-9E57AB69F903}" par="Id=AreaChart141&amp;LeftLabelsWidth=Small&amp;IsVisible=1&amp;LegendMode=ExclusiveCheck&amp;SeriesStyle=Stacked&amp;Height=400px&amp;XAxisLabel=Week+days&amp;YAxisLabel=Number+of+bananas&amp;Title=LegendMode+ExclusiveCheck" ph="Border141.Content" uid="{36A1582B-6131-4AD5-BA23-B2D4F4D733D7}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border142" ph="Border140.Content" uid="{2A1F13FA-05B6-4608-AA79-28333E651C40}" />
+    <r id="{E250DEA9-B3A6-4BFA-AF96-E8278150DA31}" par="Id=Separator6" ph="Border142.Content" uid="{247EA619-4D69-46EB-A7E3-19EB7FCACBBA}" />
+    <r id="{B238EFA9-C00D-4695-8C69-9E57AB69F903}" par="Id=AreaChart142&amp;LeftLabelsWidth=Small&amp;IsVisible=1&amp;LegendMode=MultipleCheck&amp;SeriesStyle=Stacked&amp;Height=400px&amp;XAxisLabel=Week+days&amp;YAxisLabel=Number+of+bananas&amp;Title=LegendMode+MultipleCheck" ph="Border142.Content" uid="{36A1582B-6131-4AD5-BA23-B2D4F4D733D7}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=Border2&amp;Description=The+DynamicData+property+specifies+data+for+the+control.+The+control+expects+data+to+be+a+JSON+object.+Data+for+the+control+can+contain+a+single+series+of+values%2c+or+it+can+contain+multiple+series.&amp;Title=Providing+data" uid="{D40316EC-BA41-4961-BF39-90EC3FE554B7}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border22&amp;PaddingType=All&amp;UsePadding=1" ph="Border2.Content" uid="{CA875386-F05D-4AA3-A943-34D1F16DBEC8}" />
+    <r id="{B238EFA9-C00D-4695-8C69-9E57AB69F903}" par="Id=AreaChart2&amp;LeftLabelsWidth=Small&amp;IsVisible=1&amp;SeriesStyle=Stacked&amp;Height=400px&amp;XAxisLabel=Week+days&amp;YAxisLabel=Number+of+bananas&amp;Title=Multiple+series" ph="Border22.Content" uid="{36A1582B-6131-4AD5-BA23-B2D4F4D733D7}" />
+    <r id="{E250DEA9-B3A6-4BFA-AF96-E8278150DA31}" par="Id=Separator7" ph="Border2.Content" uid="{B070E31C-EE32-45F9-8351-32F89770D588}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border23&amp;PaddingType=All&amp;UsePadding=1" ph="Border2.Content" uid="{CA875386-F05D-4AA3-A943-34D1F16DBEC8}" />
+    <r id="{B238EFA9-C00D-4695-8C69-9E57AB69F903}" par="Id=AreaChart3&amp;LeftLabelsWidth=Small&amp;SeriesStyle=Stacked&amp;Height=400px&amp;XAxisLabel=Week+days&amp;YAxisLabel=Number+of+bananas&amp;Title=Single+series" ph="Border23.Content" uid="{36A1582B-6131-4AD5-BA23-B2D4F4D733D7}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=Border6&amp;ConfigurationDetails=Height%3d200&amp;Description=The+Height+property+specifies+the+height+of+the+control+in+pixels.+By+default++the+control+fills+100%25+of+the+height+of+the+control+that+contains+it.&amp;Title=Specifying+the+height" uid="{D40316EC-BA41-4961-BF39-90EC3FE554B7}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border61&amp;PaddingType=All&amp;UsePadding=1" ph="Border6.Content" uid="{CA875386-F05D-4AA3-A943-34D1F16DBEC8}" />
+    <r id="{B238EFA9-C00D-4695-8C69-9E57AB69F903}" par="IsSeriesStacked=0&amp;ValueFieldName=y&amp;Id=AreaChart6&amp;LeftLabelsWidth=Small&amp;SeriesStyle=Stacked&amp;Height=200&amp;XAxisLabel=Week+days&amp;YAxisLabel=Number+of+bananas&amp;Title=Height%3d200" ph="Border61.Content" uid="{36A1582B-6131-4AD5-BA23-B2D4F4D733D7}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=Border7&amp;ConfigurationDetails=LeftLabelWidth%3dSmall+and+X-Large&amp;Description=The+LeftLabelWidth+property+specifies+the+space+to+the+left+of+the+labels+of+the+y+(value)+axis.+Values+include+X-Small%2c+Small%2c+Medium%2c+Large%2c+or+X-Large.&amp;Title=Specifying+left+margin+of+value+labels" uid="{D40316EC-BA41-4961-BF39-90EC3FE554B7}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border71&amp;PaddingType=All&amp;UsePadding=1" ph="Border7.Content" uid="{CA875386-F05D-4AA3-A943-34D1F16DBEC8}" />
+    <r id="{B238EFA9-C00D-4695-8C69-9E57AB69F903}" par="ValueFieldName=y&amp;Id=AreaChart7&amp;LeftLabelsWidth=Small&amp;SeriesStyle=Stacked&amp;Height=400px&amp;XAxisLabel=Week+days&amp;YAxisLabel=Number+of+bananas&amp;Title=LeftLabelWidth%3dSmall" ph="Border71.Content" uid="{36A1582B-6131-4AD5-BA23-B2D4F4D733D7}" />
+    <r id="{E250DEA9-B3A6-4BFA-AF96-E8278150DA31}" par="Id=Separator8" ph="Border7.Content" uid="{67E2A23B-888B-4024-9E88-89569C221127}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border72&amp;PaddingType=All&amp;UsePadding=1" ph="Border7.Content" uid="{CA875386-F05D-4AA3-A943-34D1F16DBEC8}" />
+    <r id="{B238EFA9-C00D-4695-8C69-9E57AB69F903}" par="IsSeriesStacked=0&amp;ValueFieldName=y&amp;Id=AreaChart72&amp;LeftLabelsWidth=X-Large&amp;SeriesStyle=Stacked&amp;Height=400px&amp;XAxisLabel=Week+days&amp;YAxisLabel=Number+of+bananas&amp;Title=LeftLabelWidth%3dX-Large" ph="Border72.Content" uid="{36A1582B-6131-4AD5-BA23-B2D4F4D733D7}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=Border8&amp;ConfigurationDetails=Title%3dNumber+of+bananas+per+week&amp;Description=The+Title+property+specifies+the+text+the+control+shows+as+a+title+above+the+chart.&amp;Title=Specifying+the+title" uid="{D40316EC-BA41-4961-BF39-90EC3FE554B7}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border81&amp;PaddingType=All&amp;UsePadding=1" ph="Border8.Content" uid="{CA875386-F05D-4AA3-A943-34D1F16DBEC8}" />
+    <r id="{B238EFA9-C00D-4695-8C69-9E57AB69F903}" par="IsSeriesStacked=0&amp;ValueFieldName=y&amp;Id=AreaChart8&amp;LeftLabelsWidth=Small&amp;SeriesStyle=Stacked&amp;Height=400px&amp;XAxisLabel=Week+days&amp;YAxisLabel=Number+of+bananas&amp;Title=Number+of+bananas+per+week" ph="Border81.Content" uid="{36A1582B-6131-4AD5-BA23-B2D4F4D733D7}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=Border9&amp;ConfigurationDetails=CategoryLabelTrimming%3dTrimFromStart+and+TrimAtEnd&amp;Description=The+CategoryLabelTrimming+property+specifies+how+the+control+trims+category+axis+labels.++Values+include+TrimFromStart+or+TrimFromEnd+(the+default).&amp;Title=Specifying+how+the+control+trims+labels" uid="{D40316EC-BA41-4961-BF39-90EC3FE554B7}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border91&amp;PaddingType=All&amp;UsePadding=1" ph="Border9.Content" uid="{CA875386-F05D-4AA3-A943-34D1F16DBEC8}" />
+    <r id="{6BD31067-6DAB-4028-B5FD-584C3F6208EF}" par="NumberOfCells=2&amp;Id=Grid9&amp;CellAttributes=%7b%22numberOfCells%22%3a2%2c%22layoutType%22%3a%22374b2dbc-bd33-4879-854e-62807ed4aecc%22%2c%22sizeAttributes%22%3a%5b%7b%22cellAttributes%22%3a%5b%7b%22index%22%3a1%2c%22span%22%3a1%7d%2c%7b%22index%22%3a2%2c%22span%22%3a1%7d%5d%2c%22numberOfColumns%22%3a2%2c%22size%22%3a%22Large%22%7d%2c%7b%22cellAttributes%22%3a%5b%7b%22index%22%3a1%2c%22span%22%3a1%7d%2c%7b%22index%22%3a2%2c%22span%22%3a1%7d%5d%2c%22numberOfColumns%22%3a2%2c%22size%22%3a%22Medium%22%7d%2c%7b%22cellAttributes%22%3a%5b%7b%22index%22%3a1%2c%22span%22%3a1%7d%2c%7b%22index%22%3a2%2c%22span%22%3a1%7d%5d%2c%22numberOfColumns%22%3a1%2c%22size%22%3a%22Small%22%7d%2c%7b%22cellAttributes%22%3a%5b%7b%22index%22%3a1%2c%22span%22%3a1%7d%2c%7b%22index%22%3a2%2c%22span%22%3a1%7d%5d%2c%22numberOfColumns%22%3a1%2c%22size%22%3a%22XSmall%22%7d%5d%7d&amp;LayoutType=%7b374B2DBC-BD33-4879-854E-62807ED4AECC%7d" ph="Border91.Content" uid="{3F5E1BB7-A34F-499B-AAE4-2F32DA3AC5BE}" />
+    <r id="{B238EFA9-C00D-4695-8C69-9E57AB69F903}" par="Id=AreaChart9&amp;LeftLabelsWidth=Small&amp;SeriesStyle=Stacked&amp;Height=400px&amp;XAxisLabel=Week+days&amp;YAxisLabel=Number+of+bananas&amp;SeriesDefinitions=%7b38FD5620-22B8-4A5E-8023-7B009DD24FCF%7d%7c%7b7B3E7F99-C945-4BFC-91E8-3426345CE5E8%7d%7c%7bFE9B60CA-983C-4D19-9724-2078BBF3F94E%7d&amp;CategoryLabelTrimming=TrimFromStart&amp;Title=CategoryLabelTrimming%3dTrimFromStart" ph="Grid9.Cell1" uid="{36A1582B-6131-4AD5-BA23-B2D4F4D733D7}" />
+    <r id="{B238EFA9-C00D-4695-8C69-9E57AB69F903}" par="Id=AreaChart91&amp;LeftLabelsWidth=Small&amp;SeriesStyle=Stacked&amp;Height=400px&amp;XAxisLabel=Week+days&amp;YAxisLabel=Number+of+bananas&amp;SeriesDefinitions=%7b38FD5620-22B8-4A5E-8023-7B009DD24FCF%7d%7c%7b7B3E7F99-C945-4BFC-91E8-3426345CE5E8%7d%7c%7bFE9B60CA-983C-4D19-9724-2078BBF3F94E%7d&amp;CategoryLabelTrimming=TrimAtEnd&amp;Title=CategoryLabelTrimming%3dTrimAtEnd" ph="Grid9.Cell2" uid="{36A1582B-6131-4AD5-BA23-B2D4F4D733D7}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=Border10&amp;ConfigurationDetails=XAisLabel%3dWeek%26YAxisLabel%3dBananas&amp;Description=The+XAisLabel+and+YAxisLabel+properties+specify+axis+labels+(the+%22names%22+of+the+axes).&amp;Title=Specifying+axis+labels" uid="{D40316EC-BA41-4961-BF39-90EC3FE554B7}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border101&amp;PaddingType=All&amp;UsePadding=1" ph="Border10.Content" uid="{CA875386-F05D-4AA3-A943-34D1F16DBEC8}" />
+    <r id="{B238EFA9-C00D-4695-8C69-9E57AB69F903}" par="IsValueShownOnBar=0&amp;IsSeriesStacked=0&amp;ValueFieldName=y&amp;Id=AreaChart10&amp;LeftLabelsWidth=Small&amp;SeriesStyle=Stacked&amp;Height=400px&amp;XAxisLabel=Week&amp;YAxisLabel=Bananas&amp;Title=Number+of+bananas+per+week" ph="Border101.Content" uid="{36A1582B-6131-4AD5-BA23-B2D4F4D733D7}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=Border120&amp;ConfigurationDetails=SeriesStyle%3dStacked+and+StackedPercentage&amp;Description=The+SeriesStyle+property+specifies+how+the+control+stacks+multiple+series.+If++Stacked%2c+the+control+stacks+the+areas+of+each+series.+If+StackedPercentage%2c+the+control+stacks+the+areas+as+percentages+and+all+series+add+up+to+100%25.&amp;Title=Specifying+how+the+control+stacks+series" uid="{D40316EC-BA41-4961-BF39-90EC3FE554B7}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border121&amp;PaddingType=All&amp;UsePadding=1" ph="Border120.Content" uid="{CA875386-F05D-4AA3-A943-34D1F16DBEC8}" />
+    <r id="{B238EFA9-C00D-4695-8C69-9E57AB69F903}" par="ValueFieldName=y&amp;Id=AreaChart121&amp;LeftLabelsWidth=Small&amp;SeriesStyle=Stacked&amp;Height=400px&amp;XAxisLabel=Week+days&amp;YAxisLabel=Number+of+bananas&amp;Title=Stacked" ph="Border121.Content" uid="{36A1582B-6131-4AD5-BA23-B2D4F4D733D7}" />
+    <r id="{E250DEA9-B3A6-4BFA-AF96-E8278150DA31}" par="Id=Separator9" ph="Border120.Content" uid="{5C3FB973-4971-4073-B7B8-C23A806CB1EB}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border122&amp;PaddingType=All&amp;UsePadding=1" ph="Border120.Content" uid="{CA875386-F05D-4AA3-A943-34D1F16DBEC8}" />
+    <r id="{B238EFA9-C00D-4695-8C69-9E57AB69F903}" par="ValueFieldName=y&amp;Id=AreaChart122&amp;LeftLabelsWidth=Small&amp;SeriesStyle=StackedPercentage&amp;Height=400px&amp;XAxisLabel=Week+days&amp;YAxisLabel=Number+of+bananas&amp;Title=StackedPercentage" ph="Border122.Content" uid="{36A1582B-6131-4AD5-BA23-B2D4F4D733D7}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=Border130&amp;ConfigurationDetails=IsLegendHidden%3dTrue&amp;IsVisible=1&amp;Description=The+IsLegendHidden+property+specifies+if+the+control+shows+the+legend.+When+True%2c+the+control+does+not+show+a+legend.&amp;Title=Showing+and+hiding+the+legend" uid="{D40316EC-BA41-4961-BF39-90EC3FE554B7}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border131&amp;IsVisible=1&amp;UsePadding=1" ph="Border130.Content" uid="{CA875386-F05D-4AA3-A943-34D1F16DBEC8}" />
+    <r id="{B238EFA9-C00D-4695-8C69-9E57AB69F903}" par="ValueFieldName=y&amp;Id=AreaChart13&amp;IsVisible=1&amp;Height=400px&amp;XAxisLabel=Week+days&amp;YAxisLabel=Number+of+bananas&amp;Title=Number+of+bananas+per+week&amp;IsLegendHidden=1" ph="Border131.Content" uid="{36A1582B-6131-4AD5-BA23-B2D4F4D733D7}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=Border190&amp;IsVisible=1&amp;Description=If+the+chart+is+inside+a+hidden+container%2c+once+the+container+gets+visible+the+chart+Refresh+function+can+be+called+to+force+it+to+be+rendered.&amp;Title=Refreshing+a+hidden+chart" uid="{D40316EC-BA41-4961-BF39-90EC3FE554B7}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border191&amp;IsVisible=1&amp;UsePadding=1" ph="Border190.Content" uid="{CA875386-F05D-4AA3-A943-34D1F16DBEC8}" />
+    <r id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" par="Id=ButtonShowPanel1&amp;Text=ShowPanel&amp;Click=javascript%3aapp.showPanel()%3b" ph="Border191.Content" uid="{9CC7657E-2FFD-49EB-A062-915CCD3D30DF}" />
+    <r id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" par="Id=ButtonHidePanel1&amp;Text=Hide+panel&amp;Click=javascript%3aapp.hidePanel()%3b" ph="Border191.Content" uid="{9CC7657E-2FFD-49EB-A062-915CCD3D30DF}" />
+    <r id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" par="Id=ButtonRefresh&amp;Text=Refresh+chart&amp;Click=javascript%3aapp.refreshChart()%3b" ph="Border191.Content" uid="{9CC7657E-2FFD-49EB-A062-915CCD3D30DF}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border192&amp;IsVisible=0&amp;UsePadding=1" ph="Border190.Content" uid="{CA875386-F05D-4AA3-A943-34D1F16DBEC8}" />
+    <r id="{B238EFA9-C00D-4695-8C69-9E57AB69F903}" par="Id=AreaChart191&amp;IsVisible=1&amp;Height=400px&amp;XAxisLabel=Week+days&amp;YAxisLabel=Number+of+bananas&amp;Title=Number+of+bananas+per+week&amp;IsLegendHidden=0" ph="Border192.Content" uid="{36A1582B-6131-4AD5-BA23-B2D4F4D733D7}" />
+  </d>
+</r>
+----version----
+language: de-DE
+version: 1
+revision: 27ab245d-1888-4ce8-ace7-1d35a837207e
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 3
+
+Tab
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 7
+
+SubDemo
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133505Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+27ab245d-1888-4ce8-ace7-1d35a837207e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133505Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 090c8c9b-0224-420e-98ba-2cf477a5020d
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 3
+
+Tab
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150429T062123Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+090c8c9b-0224-420e-98ba-2cf477a5020d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160407T120617Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 56a98cd8-7cd9-4ecd-b3e0-9b5fe92dcfa1
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 2
+
+タブ
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 5
+
+サブ デモ
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133632Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+56a98cd8-7cd9-4ecd-b3e0-9b5fe92dcfa1
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133632Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

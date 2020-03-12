@@ -1,0 +1,291 @@
+----item----
+version: 1
+id: {DA14865D-7ED3-4B5E-910F-37629EC57EB5}
+database: core
+path: /sitecore/client/Applications/Dialogs/SelectMediaDialog/PageSettings/SearchConfigs/RecentlyUploadedVideos
+parent: {04C456CE-B01C-4077-AD59-88F5E0C3DE51}
+name: RecentlyUploadedVideos
+master: {00000000-0000-0000-0000-000000000000}
+template: {83E8F3D3-065A-40E3-B17D-C4A1E9DAD6B4}
+templatekey: SearchPanel Config
+created: 20160729T132117Z
+
+----field----
+field: {CFB92D75-97A3-4B3D-B8D4-304F7FBC7E1E}
+name: Search
+key: search
+content-length: 0
+
+
+----field----
+field: {C41AA0FB-CD20-4764-92D8-43E3F6562144}
+name: AppendSearchText
+key: appendsearchtext
+content-length: 1
+
+1
+----field----
+field: {19E8EDB4-8D83-40D9-936E-A21B08CBBC33}
+name: Root
+key: root
+content-length: 38
+
+{3D6658D8-A0BF-4E75-B3E2-D050FABCF4E1}
+----field----
+field: {58248235-7713-4BCB-B9BB-B6A31B114302}
+name: Base Templates
+key: base templates
+content-length: 194
+
+{9867C0B9-A7BE-4D96-AD7E-4AD18109ED20}|{E76ADBDF-87D1-4FCB-BA71-274F7DBF5670}|{2E16714D-8406-4445-98B7-CD70F658611B}|{2E16714D-8406-4445-98B7-CD70F658611B}|{374D3A99-C098-4CD2-8FBC-DC2D1CA1C904}
+----field----
+field: {1F2AA706-C917-44F2-AE65-738617CB252E}
+name: UpdatedWithin7Days
+key: updatedwithin7days
+content-length: 0
+
+
+----field----
+field: {C5D69882-79CD-449E-AC3B-91CDF638FDAC}
+name: CreatedWithin7Days
+key: createdwithin7days
+content-length: 1
+
+1
+----version----
+language: da
+version: 1
+revision: ed966aed-4685-4850-9954-b71782ac9acc
+
+----field----
+field: {2354B5AC-94AD-475E-8A67-AAC438543471}
+name: DisplayText
+key: displaytext
+content-length: 24
+
+Nyligt uploadede videoer
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 24
+
+Nyligt uploadede videoer
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133349Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ed966aed-4685-4850-9954-b71782ac9acc
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133349Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 3e6be147-8c8b-4fd3-9188-1f67811c0a1e
+
+----field----
+field: {2354B5AC-94AD-475E-8A67-AAC438543471}
+name: DisplayText
+key: displaytext
+content-length: 28
+
+Kürzlich hochgeladene Videos
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 28
+
+Kürzlich hochgeladene Videos
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133521Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3e6be147-8c8b-4fd3-9188-1f67811c0a1e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133521Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: c07dee3e-58ca-4e3c-b034-91db6a2f01d7
+
+----field----
+field: {2354B5AC-94AD-475E-8A67-AAC438543471}
+name: DisplayText
+key: displaytext
+content-length: 24
+
+Recently uploaded videos
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20120626T163924
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c07dee3e-58ca-4e3c-b034-91db6a2f01d7
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20130724T175833:635102855136080275
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 326a080a-ceb1-4ea7-976b-3359e284e699
+
+----field----
+field: {2354B5AC-94AD-475E-8A67-AAC438543471}
+name: DisplayText
+key: displaytext
+content-length: 13
+
+最近アップロードしたビデオ
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 13
+
+最近アップロードしたビデオ
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133650Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+326a080a-ceb1-4ea7-976b-3359e284e699
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133650Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

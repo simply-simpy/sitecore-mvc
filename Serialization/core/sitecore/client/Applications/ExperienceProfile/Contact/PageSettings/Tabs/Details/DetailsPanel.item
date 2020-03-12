@@ -1,0 +1,300 @@
+----item----
+version: 1
+id: {B2AE6294-F9F2-4E10-9C76-D981C04E4F99}
+database: core
+path: /sitecore/client/Applications/ExperienceProfile/Contact/PageSettings/Tabs/Details/DetailsPanel
+parent: {97AA0677-4540-476F-8AA9-DD23F1E14BBF}
+name: DetailsPanel
+master: {00000000-0000-0000-0000-000000000000}
+template: {F62B4CD7-754C-4461-810F-2B6BD2C92A0D}
+templatekey: Tab
+created: 20160729T132117Z
+
+----field----
+field: {DEAB3795-056F-4421-ADF0-758844461B72}
+name: Placeholder Name
+key: placeholder name
+content-length: 12
+
+DetailsPanel
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+663
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 8883
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{759BEFD1-3323-404D-A243-E0ED81163C03}">
+    <r id="{CB83D434-31ED-4AC3-A280-CCE2B63F9743}" par="PageCodeScriptFileName=%2fsitecore%2fshell%2fclient%2fApplications%2fExperienceProfile%2fContact%2fDetails%2fDetailsTab.js" ph="Page.Body" uid="{969765F1-D4B9-4BA7-8FD4-BFBA5F80B4EB}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=DetailsTabBorder" ph="Page.Body" uid="{16F1017B-A57E-4D37-8E42-439E583E9ACD}" />
+    <r id="{910155C7-3881-4A56-90FB-D126490EDE55}" par="Id=DetailsTabMessageBar" ph="DetailsTabBorder.Content" uid="{4D1F129B-BE6F-41DE-962C-516B1A8BB654}" />
+    <r ds="{46C9A8FB-6322-45E7-A01D-415F8502A3D2}" id="{442BD093-FBAD-4E36-BC08-489E16C82D08}" par="Id=ContactDetailsAccordion&amp;EnableAdditional=0&amp;IsCollapsible=0&amp;ShowAdditional=1" ph="DetailsTabBorder.Content" uid="{40DC99A3-306F-4522-B842-A8B678A644AB}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=ContactDetailsBorder&amp;UsePadding=1" ph="ContactDetailsAccordion.Body" uid="{52DCA86D-9D17-4BDE-BF11-0647F7E10BCE}" />
+    <r id="{C4393722-39FA-4869-9582-3A8EB8983A0D}" par="Id=ContactRow" ph="ContactDetailsBorder.Content" uid="{54CB235C-C783-4A17-8768-4E8A29BF4326}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=LeftContactColumn&amp;GridColumns=4" ph="ContactRow.Content" uid="{C86C4FA7-644C-4881-B6E7-27C9D1D10B63}" />
+    <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=GeneralTitle&amp;TextType=Value&amp;Text=General" ph="LeftContactColumn.Content" uid="{4D8B456C-A2F8-43D3-A0F4-8C370392EA69}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=FirstNameBorder" ph="LeftContactColumn.Content" uid="{92AC7CF6-1263-4653-BD4B-54987C65F26A}" />
+    <r ds="{30D912C0-F4EA-4FB0-9837-0CD399D7438A}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=FirstNameLabel" ph="FirstNameBorder.Content" uid="{3238B880-C015-47D3-8445-88841376BB2D}" />
+    <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=FirstNameValue&amp;Text=-" ph="FirstNameBorder.Content" uid="{3238B880-C015-47D3-8445-88841376BB2D}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=MiddleNameBorder" ph="LeftContactColumn.Content" uid="{92AC7CF6-1263-4653-BD4B-54987C65F26A}" />
+    <r ds="{6680F96C-4D14-4284-9703-A088815BAC96}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=MiddleNameLabel" ph="MiddleNameBorder.Content" uid="{3238B880-C015-47D3-8445-88841376BB2D}" />
+    <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=MiddleNameValue&amp;Text=-" ph="MiddleNameBorder.Content" uid="{3238B880-C015-47D3-8445-88841376BB2D}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=LastNameBorder" ph="LeftContactColumn.Content" uid="{92AC7CF6-1263-4653-BD4B-54987C65F26A}" />
+    <r ds="{069DD69E-84F7-418C-8D79-5043D3D53790}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=LastNameLabel" ph="LastNameBorder.Content" uid="{3238B880-C015-47D3-8445-88841376BB2D}" />
+    <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=LastNameValue&amp;Text=-" ph="LastNameBorder.Content" uid="{3238B880-C015-47D3-8445-88841376BB2D}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=GenderInfoBorder" ph="LeftContactColumn.Content" uid="{92AC7CF6-1263-4653-BD4B-54987C65F26A}" />
+    <r ds="{BD0CF5C7-0EA7-4E77-BAC0-F812A63AD7DE}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=GenderLabel" ph="GenderInfoBorder.Content" uid="{3238B880-C015-47D3-8445-88841376BB2D}" />
+    <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=GenderValue&amp;Text=-" ph="GenderInfoBorder.Content" uid="{3238B880-C015-47D3-8445-88841376BB2D}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=BirthBorder" ph="LeftContactColumn.Content" uid="{92AC7CF6-1263-4653-BD4B-54987C65F26A}" />
+    <r ds="{C6E325A5-F61F-43CD-9FE8-497E4A82BB3D}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=BirthdayLabel" ph="BirthBorder.Content" uid="{3238B880-C015-47D3-8445-88841376BB2D}" />
+    <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=BirthdayValue&amp;Text=-" ph="BirthBorder.Content" uid="{3238B880-C015-47D3-8445-88841376BB2D}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=MiddleContactColumn&amp;GridColumns=4" ph="ContactRow.Content" uid="{C86C4FA7-644C-4881-B6E7-27C9D1D10B63}" />
+    <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=ContactTitle&amp;TextType=Value&amp;Text=Contact" ph="MiddleContactColumn.Content" uid="{312F6E23-62E1-41F2-BA61-2A440D398B40}" />
+    <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=EmailTitle&amp;IsVisible=0&amp;TextType=Value&amp;Text=Email" ph="LeftDetailsColumn.Content" uid="{77A6B87D-CA9F-4490-8F52-A3D3A2E39DAF}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=PrimeEmailBorder&amp;IsVisible=0" ph="MiddleContactColumn.Content" uid="{92AC7CF6-1263-4653-BD4B-54987C65F26A}" />
+    <r id="{A549BF50-5566-461A-B279-F9A8F6F7DCC1}" par="Id=EmailColumnDataRepeater&amp;ItemId=%7b5FCEC11D-6E89-4228-A72B-E5D2D4E60D41%7d&amp;Database=core" ph="MiddleContactColumn.Content" uid="{240CA0F5-DE99-4E8A-A8D1-DB52B7E5FBE0}" />
+    <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=PrimeEmailType&amp;Text=Email" ph="PrimeEmailBorder.Content" uid="{3238B880-C015-47D3-8445-88841376BB2D}" />
+    <r ds="{371EDDFA-022C-4911-96C0-6FFA075DE885}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=PrimeEmailValue" ph="PrimeEmailBorder.Content" uid="{F9172DCE-557A-4C3B-955B-DCE2FD75E027}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=PrimePhoneBorder&amp;IsVisible=0" ph="MiddleContactColumn.Content" uid="{92AC7CF6-1263-4653-BD4B-54987C65F26A}" />
+    <r ds="{B8E9AA10-F07B-4350-A886-E6CFEDB42499}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=PrimePhoneType" ph="PrimePhoneBorder.Content" uid="{3238B880-C015-47D3-8445-88841376BB2D}" />
+    <r ds="{371EDDFA-022C-4911-96C0-6FFA075DE885}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=PrimePhoneValue" ph="PrimePhoneBorder.Content" uid="{F9172DCE-557A-4C3B-955B-DCE2FD75E027}" />
+    <r id="{A549BF50-5566-461A-B279-F9A8F6F7DCC1}" par="Id=PhoneColumnDataRepeater&amp;ItemId=%7b5FCEC11D-6E89-4228-A72B-E5D2D4E60D41%7d&amp;Database=core" ph="MiddleContactColumn.Content" uid="{5C0BC741-3ADF-47B9-AD28-71BD93B42DCA}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=PrimeAddressBorder&amp;IsVisible=0" ph="LeftContactColumn.Content" uid="{92AC7CF6-1263-4653-BD4B-54987C65F26A}" />
+    <r ds="{B8E9AA10-F07B-4350-A886-E6CFEDB42499}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=PrimeAddressType" ph="PrimeAddressBorder.Content" uid="{3238B880-C015-47D3-8445-88841376BB2D}" />
+    <r ds="{371EDDFA-022C-4911-96C0-6FFA075DE885}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=PrimeAddressValue" ph="PrimeAddressBorder.Content" uid="{F9172DCE-557A-4C3B-955B-DCE2FD75E027}" />
+    <r id="{A549BF50-5566-461A-B279-F9A8F6F7DCC1}" par="Id=AddressColumnDataRepeater&amp;ItemId=%7b5FCEC11D-6E89-4228-A72B-E5D2D4E60D41%7d&amp;Database=core" ph="LeftContactColumn.Content" uid="{D93E9360-91F4-403E-BD7C-5E3D2EFA7F84}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=RightContactColumn&amp;GridColumns=4" ph="ContactRow.Content" uid="{FF7C0D2E-2774-409C-B41B-510B31BFDEED}" />
+    <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=BusinessTitle&amp;TextType=Value&amp;Text=Business" ph="RightContactColumn.Content" uid="{17912E11-1731-443D-8C54-227EDEDF082C}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=TitleBorder" ph="RightContactColumn.Content" uid="{92AC7CF6-1263-4653-BD4B-54987C65F26A}" />
+    <r ds="{96220CB1-EB6D-4296-840D-6AD4178E484F}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=TitleLabel" ph="TitleBorder.Content" uid="{3238B880-C015-47D3-8445-88841376BB2D}" />
+    <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=TitleValue&amp;Text=-" ph="TitleBorder.Content" uid="{3238B880-C015-47D3-8445-88841376BB2D}" />
+    <r id="{C4393722-39FA-4869-9582-3A8EB8983A0D}" par="Id=DetailsRow" ph="ContactDetailsBorder.Content" uid="{54CB235C-C783-4A17-8768-4E8A29BF4326}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=LeftDetailsColumn&amp;GridColumns=4" ph="DetailsRow.Content" uid="{C86C4FA7-644C-4881-B6E7-27C9D1D10B63}" />
+    <r id="{A91523CD-6E56-4F08-8B21-C39018E0134A}" par="Id=ContactDetailsDataProvider&amp;PageNumber=1&amp;PageSize=3" ph="LeftDetailsColumn.Content" uid="{3FC10128-F5E0-4783-B2F7-05FA674F0F37}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=CenterDetailsColumn&amp;GridColumns=4" ph="DetailsRow.Content" uid="{42125D88-2FF8-44CF-AFD5-AEE7B1919198}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=RightDetailsColumn&amp;GridColumns=4" ph="DetailsRow.Content" uid="{E4FD591C-3C32-4DF4-96CD-29B84BE2D7D4}" />
+  </d>
+</r>
+----version----
+language: da
+version: 1
+revision: ddf5c207-0eef-45d0-8215-e0e12cb18c58
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 12
+
+DetailsPanel
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160223T042034Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ddf5c207-0eef-45d0-8215-e0e12cb18c58
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133342Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 9af13985-64e4-44d8-ab10-346ad35310e8
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 12
+
+DetailsPanel
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 34
+
+20140611T164853:635381021330788741
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+9af13985-64e4-44d8-ab10-346ad35310e8
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133513Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 8b704371-3d6b-466b-9660-f59047f736f9
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 0
+
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20131121T120542
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+8b704371-3d6b-466b-9660-f59047f736f9
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160304T061715Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 8abb08ba-1244-4c39-bc3d-5a16b6eaabb8
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 5
+
+詳細パネル
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160223T042324Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+8abb08ba-1244-4c39-bc3d-5a16b6eaabb8
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133641Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,104 @@
+----item----
+version: 1
+id: {9DE955C5-2D86-4C74-AE92-A4D19E6DAC1F}
+database: web
+path: /sitecore/system/Settings/Analytics/Reports/Item Reports/Page - Goals and Events
+parent: {B62E6C0C-8BE3-4F51-939A-DB039EEFA3A4}
+name: Page - Goals and Events
+master: {00000000-0000-0000-0000-000000000000}
+template: {6674A4AF-EACE-445E-89F1-E2F464026056}
+templatekey: Report
+created: 20160729T132117Z
+
+----field----
+field: {0CC4AD84-F69D-44D2-9600-5C7522AA2401}
+name: File Name
+key: file name
+content-length: 78
+
+/sitecore/shell/Applications/Analytics/Reports/ItemReports/PageGoalsEvents.mrt
+----field----
+field: {16802C7A-011A-41FF-88B4-C33E6C737F3F}
+name: Queries
+key: queries
+content-length: 489
+
+DataSource=%7b7764F713-C4D0-4D1E-BBA2-34538A202ECA%7d&Page=%7b0335CB18-C887-4F23-A674-A560D89B3A99%7d&SearchesFromPage=%7bECAE970A-B37E-4537-AB93-FF28F69BE198%7d&AverageTimeOnPage=%7b6B77E775-31D2-4424-980D-B5B5DBA88D3F%7d&Goals=%7b4C4BCAD6-407C-4419-A011-A0BBEDC7C631%7d&PageAssets=%7b78BBCDEB-0C56-4310-BD71-E3DCB63000F6%7d&Assets=%7b4D33686B-F4D9-42F9-8ACC-A9EAED730D0E%7d&ItemBounced=%7b598FF99F-AE88-4BC4-9D91-2A804D1D0FA6%7d&NewPageVisitors=%7b0B9FF220-2B1D-4508-88CF-F23A31007805%7d
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 27
+
+Applications/32x32/exit.png
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+100
+----version----
+language: en
+version: 1
+revision: 71449eee-9d34-4a13-9257-83f944bf9e4f
+
+----field----
+field: {D71DCBF1-3E4C-4ACD-9244-58AA5C1C8528}
+name: Report Title
+key: report title
+content-length: 23
+
+Page - Goals and Events
+----field----
+field: {F38BB3C8-94D9-4815-8CE2-06FA4EB8FC80}
+name: Report Description
+key: report description
+content-length: 1546
+
+This report helps you answer the following questions:<ul><li>How much does this page contribute to conversions and value generation?</li><li>What types of goals and assets are of greatest interest to visitors to this page?</li></ul>This report shows how this page contributes to goal conversion and value consumption. It can help you accelerate a visitor&rsquo;s flow through the marketing funnel. You may be able to increase the visitor goal conversion rate by analyzing the following tables and identifying related goals and assets that you can link to or place on this page.<br/>
+The page&rsquo;s value potential is a measure of its value contribution compared to the average page&rsquo;s value contribution. A page with a positive value potential contributes more value to the website than the average page. A page with a negative value potential contributes less value to the website than the average page. You should examine a page with a negative value potential and look for ways to increase its interest to high value visitors or increase its conversion rates.<br/>
+The following table lists the goals and events that are on this page. You may be able to accelerate the conversion of a goal by placing that conversion opportunity or a link to that conversion opportunity on this page. Keep in mind, that often visitors will not convert until they have developed trust in your website&mdash;but they will want the option to convert when they are ready.
+The following table lists the assets that visitors to this page most commonly use.
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20090127T202122
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+71449eee-9d34-4a13-9257-83f944bf9e4f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20110411T114700:634381192200559464
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

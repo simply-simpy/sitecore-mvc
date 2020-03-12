@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {94AEE246-B373-4AC3-84B7-47036B8D2617}
+database: core
+path: /sitecore/client/Business Component Library/version 1/Layouts/Renderings/Lists and Grids/ItemTreeView/ItemTreeView Parameters/__Standard Values
+parent: {26B80ACE-40E4-4136-B288-E80A34A63E80}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {26B80ACE-40E4-4136-B288-E80A34A63E80}
+templatekey: ItemTreeView Parameters
+created: 20160729T132116Z
+
+----field----
+field: {E3602A07-7256-40D7-B5BC-379E202D6238}
+name: ShowIconImage
+key: showiconimage
+content-length: 1
+
+1
+----version----
+language: en
+version: 1
+revision: 19d3760b-fa9a-4b05-9068-9c02aa703990
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 18
+
+sitecore\Anonymous
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20120531T125836
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 18
+
+sitecore\Anonymous
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+19d3760b-fa9a-4b05-9068-9c02aa703990
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150624T152253:635707561738530642Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

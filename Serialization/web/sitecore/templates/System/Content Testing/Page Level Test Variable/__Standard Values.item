@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {8D8A625E-E742-4A56-BA2E-4F3453BE5C7C}
+database: web
+path: /sitecore/templates/System/Content Testing/Page Level Test Variable/__Standard Values
+parent: {C1732433-D8BA-4EFC-902C-C9A6CE876471}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {C1732433-D8BA-4EFC-902C-C9A6CE876471}
+templatekey: Page Level Test Variable
+created: 20160729T132117Z
+
+----field----
+field: {45AD36C2-BE5B-4BFC-B2D2-32455C0BD653}
+name: Test Type
+key: test type
+content-length: 38
+
+{F872D51D-BFB6-4438-A285-C2E3CBDAFCE3}
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 38
+
+{1BD410DD-2C0D-41DE-BD13-B9FC19976767}
+----field----
+field: {F7B94D8C-A842-49F8-AB7A-2169D00426B0}
+name: __Should Not Organize In Bucket
+key: __should not organize in bucket
+content-length: 1
+
+1
+----version----
+language: en
+version: 1
+revision: 33fdf8e8-25eb-42ac-a8e0-74a88c3ad826
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20110302T060039Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+33fdf8e8-25eb-42ac-a8e0-74a88c3ad826
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150526T060704:635682172240477409Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

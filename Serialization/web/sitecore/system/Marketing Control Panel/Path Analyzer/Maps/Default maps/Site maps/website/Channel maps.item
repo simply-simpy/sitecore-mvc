@@ -1,0 +1,78 @@
+----item----
+version: 1
+id: {3F6C79E1-FB98-4CF6-A066-FC9E6F648DB9}
+database: web
+path: /sitecore/system/Marketing Control Panel/Path Analyzer/Maps/Default maps/Site maps/website/Channel maps
+parent: {6681C7F1-A70C-4410-8263-EAA78BB06B15}
+name: Channel maps
+master: {00000000-0000-0000-0000-000000000000}
+template: {98360C58-F51F-43A4-B057-9EF459C0FF10}
+templatekey: MapGroup
+created: 20160729T132117Z
+
+----field----
+field: {5B9F5881-8542-4ACA-967B-2AB8CE815D07}
+name: Rule
+key: rule
+content-length: 602
+
+<ruleset>
+  <rule uid="{B5772885-5FC0-49B1-A7C8-110CD6C72A1D}">
+    <conditions>
+      <and uid="226F267B74DD4BD4AF516F7577362CDE">
+        <condition id="{51DA8F3E-8EA5-4129-8EA2-A275BE3A6B2D}" uid="0047C343BFAB42DFA9CC1DD98243364D" />
+        <condition id="{913A642D-9FE7-46BF-BE5C-DB31FB6C5602}" uid="B25ABB62CC4F46589A4CE3C346E34118" operatorid="{537244C2-3A3F-4B81-A6ED-02AF494C0563}" value="website" />
+      </and>
+    </conditions>
+    <actions>
+      <action id="{F0FDE44B-B200-416C-A048-C833D4106CA6}" uid="7EB9CFFBB8BE4CAFAD0B7C01ECFB7095" />
+    </actions>
+  </rule>
+</ruleset>
+----field----
+field: {9C6106EA-7A5A-48E2-8CAD-F0F693B1E2D4}
+name: __Read Only
+key: __read only
+content-length: 1
+
+1
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 77
+
+{CD35E9CC-8A38-4F29-BA95-DC1C89A4B48F}|{C5E5C40C-8BC7-47D8-94ED-E3B857D086C0}
+----version----
+language: en
+version: 1
+revision: 25c4ddb9-c4c5-4397-817c-78aec98e05a4
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150617T205944Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+25c4ddb9-c4c5-4397-817c-78aec98e05a4
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160604T235509Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,38 @@
+----item----
+version: 1
+id: {E3356D15-4BBD-4655-9851-9810D41CF7A6}
+database: web
+path: /sitecore/templates/System/Portal/Portlet/Data
+parent: {BEEBC988-14CE-441A-B9E2-2A38D6E4A87D}
+name: Data
+master: {00000000-0000-0000-0000-000000000000}
+template: {E269FBB5-3750-427A-9149-7AA950B49301}
+templatekey: Template section
+created: 20160729T132117Z
+
+----version----
+language: en
+version: 1
+revision: 3621C65C-4DA0-422B-A5B1-72EAA46D8651
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20050419T182258
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3621C65C-4DA0-422B-A5B1-72EAA46D8651

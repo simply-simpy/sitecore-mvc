@@ -1,0 +1,97 @@
+----item----
+version: 1
+id: {301D9665-31F6-4FF1-AB24-586459A0F664}
+database: web
+path: /sitecore/system/Settings/Analytics/Reports/Subreports/Visit Detail/Visit Detail
+parent: {BD8CF6AE-B992-4FF0-A119-43F5E448A22A}
+name: Visit Detail
+master: {00000000-0000-0000-0000-000000000000}
+template: {6674A4AF-EACE-445E-89F1-E2F464026056}
+templatekey: Report
+created: 20160729T132117Z
+
+----field----
+field: {0CC4AD84-F69D-44D2-9600-5C7522AA2401}
+name: File Name
+key: file name
+content-length: 62
+
+/sitecore/shell/Applications/Analytics/Reports/VisitDetail.mrt
+----field----
+field: {16802C7A-011A-41FF-88B4-C33E6C737F3F}
+name: Queries
+key: queries
+content-length: 368
+
+Visitor=%7bBE7BE82C-CF2F-4D05-80D3-665528AE6033%7d&VisitorTags=%7bE72256CF-AF7D-4FED-958D-23B8A956A429%7d&Visit=%7b40EEF1EB-848B-4911-A4D0-36C44BB9B841%7d&VisitPages=%7b3E7A88D9-FCEF-4F5D-B83F-3213DE907612%7d&VisitGoals=%7b7F09A46C-00AF-47EC-8A6B-4375EDA7759E%7d&Profiles=%7bE5AD9B8D-FA8A-4D7B-B3F4-E4488060F396%7d&PageEvents=%7b0319D745-B59A-4539-A09E-4A16F6070814%7d
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 22
+
+Network/32x32/keys.png
+----version----
+language: en
+version: 1
+revision: 8e924ef9-321e-4dc2-b1a9-950f34cd651b
+
+----field----
+field: {D71DCBF1-3E4C-4ACD-9244-58AA5C1C8528}
+name: Report Title
+key: report title
+content-length: 22
+
+Visit Detail (Session)
+----field----
+field: {F38BB3C8-94D9-4815-8CE2-06FA4EB8FC80}
+name: Report Description
+key: report description
+content-length: 901
+
+This report helps you answer the following questions:<ul><li>What types of value did this visitor consume during this visit?</li><li>Which profiles and persona did this visitor match during the visit?</li></ul>This report lists the value accumulated and the activities performed during a particular visit or session. Check the pages visited to identify the topics that were of interest to the visitor. Visiting pages that contain information about pricing, training, and support can indicate an interest in purchasing. Visiting pages that contain information about product solutions and case studies can indicate an industry or solution interest.<br/>
+If your website uses profiles to track the visitor’s persona and characteristics, you can see charts that show the visitor’s profile for this visit.<br/>
+You came to this report from the <i>Business Visits</i> or <i>Visitor Overview</i> reports.
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20110131T153452
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+8e924ef9-321e-4dc2-b1a9-950f34cd651b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20110512T104430:634407938707871388
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

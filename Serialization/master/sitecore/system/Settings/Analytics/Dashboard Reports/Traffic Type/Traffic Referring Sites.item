@@ -1,0 +1,259 @@
+----item----
+version: 1
+id: {0A6313E4-B5B9-4F0A-8EE7-5C092BFC05EA}
+database: master
+path: /sitecore/system/Settings/Analytics/Dashboard Reports/Traffic Type/Traffic Referring Sites
+parent: {12BD157E-7D90-4D9A-9D3A-36A294DE96D2}
+name: Traffic Referring Sites
+master: {00000000-0000-0000-0000-000000000000}
+template: {F960E028-5373-48BF-B3B3-9B23FE13C0C4}
+templatekey: Dashboard Report
+created: 20160729T132117Z
+
+----field----
+field: {49FA57D8-E607-49F5-BB07-981B8FE5E005}
+name: Report Name
+key: report name
+content-length: 21
+
+TrafficReferringSites
+----field----
+field: {46FB3CB4-4740-4680-BB76-63A15EF25907}
+name: SqlServer
+key: sqlserver
+content-length: 302
+
+SELECT
+  [Month] AS [Date],
+  SUM( [Visits] ) AS [Visits],
+  SUM( [Value] ) AS [Value],
+  [ReferringSite] AS [FacetName],
+  [ReferringSiteId] AS [FacetId]
+FROM
+  [TrafficOverview]
+WHERE
+  ([ReferringSite] > ' ')
+  {Filters}
+GROUP BY
+  [Month],
+  [ReferringSite],
+  [ReferringSiteId]
+ORDER BY
+  [Month]
+
+----field----
+field: {A9C8D7C7-A170-4305-A40F-DF6CF543C007}
+name: Oracle
+key: oracle
+content-length: 0
+
+
+----version----
+language: da
+version: 1
+revision: 1cf799c5-2797-42dd-8a84-754ceab19dce
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 29
+
+Trafikrefererende hjemmesider
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133407Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+1cf799c5-2797-42dd-8a84-754ceab19dce
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133407Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: e6bdce88-0626-447e-ab1f-a7bb258719ff
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 25
+
+Traffic verweisende Sites
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133537Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e6bdce88-0626-447e-ab1f-a7bb258719ff
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133537Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: d45ba659-a113-45d7-9880-ec7f20a17cdf
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20101213T141900
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d45ba659-a113-45d7-9880-ec7f20a17cdf
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20130705T152146:635086345060275600
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 340193b9-a2b5-469f-94ff-faa7e093e6e2
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 15
+
+参照元のサイト毎のトラフィック
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133706Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+340193b9-a2b5-469f-94ff-faa7e093e6e2
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133706Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

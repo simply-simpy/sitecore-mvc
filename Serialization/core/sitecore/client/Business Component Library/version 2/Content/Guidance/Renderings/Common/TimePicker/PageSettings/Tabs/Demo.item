@@ -1,0 +1,224 @@
+----item----
+version: 1
+id: {26EAEAB8-5C23-43BC-8782-B497D0E003EF}
+database: core
+path: /sitecore/client/Business Component Library/version 2/Content/Guidance/Renderings/Common/TimePicker/PageSettings/Tabs/Demo
+parent: {CC8AD9D9-CE88-4A38-84E4-852C00570728}
+name: Demo
+master: {00000000-0000-0000-0000-000000000000}
+template: {8A7ACB1A-0990-4C9E-A6F0-9612D0F5F51C}
+templatekey: Tab
+created: 20160729T132116Z
+
+----field----
+field: {3A98ADC3-530B-4281-880D-2D56DCC605AF}
+name: IsLazyLoaded
+key: islazyloaded
+content-length: 1
+
+1
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 3428
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{759BEFD1-3323-404D-A243-E0ED81163C03}">
+    <r id="{30D4A171-F620-472F-965C-A97B5EFB1095}" par="Id=TimePicker1" ph="DemoPanelDefault.Content" uid="{9D1CD721-3CC5-4D92-9004-B8FFAD4AB219}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border1&amp;UsePadding=1" ph="Page.Body" uid="{549EF130-DF4E-4119-8631-6962E7BF2945}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoPanelDefault&amp;Description=If+you+do+not+specify+the+value+of+any+property%2c+the+time+picker+will+show+all+times+from+0%3a00+to+23%3a30+with+30+minutes+steps.&amp;Title=Default+appearance" ph="Border1.Content" uid="{A4127BC0-DC4D-4120-BDC5-19285A82E087}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoPanelMinMax&amp;ConfigurationDetails=MinTime%3dT093000%26MaxTime%3dT140000%26Time%3dT113000&amp;Description=The+Time+property+specifies+the+selected+time.+The+MinTime+and+MaxTime+properties+specify+the+first+and+last+time+in+an+interval.+Users+can+only+select+times+within+that+interval.+Specify+time+in+the+Sitecore+format%3a+%22Thhmmss%22.&amp;Title=Specifying+time+and+available+range" ph="Border1.Content" uid="{53910616-4570-44E2-9324-8B5B437714BB}" />
+    <r id="{30D4A171-F620-472F-965C-A97B5EFB1095}" par="Id=TimePicker2&amp;MaxTime=T140000&amp;Time=T113000&amp;MinTime=T093000" ph="DemoPanelMinMax.Content" uid="{5B09E8C3-1A6D-4CBC-BD7D-5260C0355E3F}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoPanelTimeStep&amp;ConfigurationDetails=TimeStep%3d60&amp;Description=The+TimeStep+property+specifies+the+interval+(in+minutes)+between+the+time+values+the+control+shows+and+that+users+can+select.&amp;Title=Specifying+interval+between+values" ph="Border1.Content" uid="{8B0CD7BA-EE54-4D40-92CB-AAA3A6FBC8F4}" />
+    <r id="{30D4A171-F620-472F-965C-A97B5EFB1095}" par="Id=TimePicker3&amp;TimeStep=60" ph="DemoPanelTimeStep.Content" uid="{ED2CAA3E-421F-4C23-AF7E-9CB714432D25}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoPanelDatePicker&amp;ConfigurationDetails=DatePicker1.Time%3d%7bBinding+TimePicker4.Time%7d%26Text2.Text%3d%7bBinding+DatePicker1.Date%7d&amp;Description=This+demo+shows+that+you+can+combine+the+TimePicker+and+the+DatePicker+controls.+The+Time+property+of+the+DatePicker+control+is+bound+to+the+Time+property+of+the+TimePicker+control.+The+text+beneath+the+controls+shows+the+current+combined+value+of+date+and+time.+This+value+is+in+the+Date+property+of+the+DatePicker+control.&amp;Title=Combining+the+TimePicker+and+the+DatePicker+controls" ph="Border1.Content" uid="{1C9C5DA6-A00E-49CC-B9D5-48E7AFAB6305}" />
+    <r id="{98C61794-211E-468A-97F7-EBAA96DB745A}" par="Date=20140825&amp;Id=DatePicker1&amp;ViewMode=Textbox&amp;Time=%7bBinding+TimePicker4.Time%7d" ph="DemoPanelDatePicker.Content" uid="{A5CFA2EE-4292-438D-B391-96C80CD7A6E7}" />
+    <r id="{30D4A171-F620-472F-965C-A97B5EFB1095}" par="Id=TimePicker4" ph="DemoPanelDatePicker.Content" uid="{9013A8D0-65C3-42D8-8B13-B47C9FE05518}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=Text1&amp;Text=DateTime%3a+" ph="DemoPanelDatePicker.Content" uid="{EFA9E519-6E1E-48B4-89E6-1059454A408B}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=Text2&amp;Text=%7bBinding+DatePicker1.Date%7d" ph="DemoPanelDatePicker.Content" uid="{D51BDF3A-BA8E-49F0-AEE1-E23AD7284A3B}" />
+  </d>
+</r>
+----version----
+language: de-DE
+version: 1
+revision: 529a86ed-6091-4008-88d7-9e4caf5015ad
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 4
+
+Demo
+----field----
+field: {772AEA8A-4D70-43F4-BD6B-EDE5FB060623}
+name: Tooltip
+key: tooltip
+content-length: 4
+
+Demo
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 4
+
+Demo
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133446Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+529a86ed-6091-4008-88d7-9e4caf5015ad
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133446Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 4feb2a1c-7d24-46e2-a27e-130e0d92e339
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 4
+
+Demo
+----field----
+field: {772AEA8A-4D70-43F4-BD6B-EDE5FB060623}
+name: Tooltip
+key: tooltip
+content-length: 4
+
+Demo
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150923T142332Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4feb2a1c-7d24-46e2-a27e-130e0d92e339
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160415T090536Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: f2961182-d71e-4ec7-a0aa-83d51b733751
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 2
+
+デモ
+----field----
+field: {772AEA8A-4D70-43F4-BD6B-EDE5FB060623}
+name: Tooltip
+key: tooltip
+content-length: 2
+
+デモ
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 2
+
+デモ
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133613Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f2961182-d71e-4ec7-a0aa-83d51b733751
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133613Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {A7B53FD2-C19B-43F7-A42C-7A67FD69A37E}
+database: web
+path: /sitecore/templates/System/Path Analyzer/ChannelMap/__Standard Values
+parent: {CD35E9CC-8A38-4F29-BA95-DC1C89A4B48F}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {CD35E9CC-8A38-4F29-BA95-DC1C89A4B48F}
+templatekey: ChannelMap
+created: 20160729T132117Z
+
+----field----
+field: {A87E94EF-D136-4FED-B69F-D69CAAC3EC8D}
+name: MapItemType
+key: mapitemtype
+content-length: 68
+
+Sitecore.PathAnalyzer.Data.Maps.ChannelMapItem,Sitecore.PathAnalyzer
+----version----
+language: en
+version: 1
+revision: b86386e5-6641-4d31-9ebc-a5d33575bd72
+
+----field----
+field: {A44D8693-F962-4F76-8FB8-62525CE67BA1}
+name: Name
+key: name
+content-length: 5
+
+$name
+----field----
+field: {31FCBEB2-376A-481F-BB44-EF52301F33CA}
+name: Description
+key: description
+content-length: 64
+
+<p>This map shows visitor experience of the "$name" channel.</p>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20140611T212731Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b86386e5-6641-4d31-9ebc-a5d33575bd72
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20150708T213901Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

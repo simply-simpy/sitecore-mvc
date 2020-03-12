@@ -1,0 +1,235 @@
+----item----
+version: 1
+id: {F0781917-3DE8-4620-8B5A-22B94E13891D}
+database: core
+path: /sitecore/client/Applications/List Manager/Resources/Dictionaries/Contact list
+parent: {B571ED96-AA3E-47F7-AA5A-346F70F48293}
+name: Contact list
+master: {00000000-0000-0000-0000-000000000000}
+template: {27A16AA3-F74C-405A-B260-71981D1FCA5F}
+templatekey: StringDictionary Parameters
+created: 20160729T132117Z
+
+----field----
+field: {432869AE-8C21-4508-B7FB-9AF760C13726}
+name: Phrases
+key: phrases
+content-length: 3204
+
+File field|Sitecore field|All the contacts will be removed from this list. The contacts will still be available in your Contacts database. Do you want to continue?|All the contacts associated with this list have been removed.|Currently building list. Contacts will be viewable when complete.|duplicate contacts have been removed from this list.|Enter a name for the folder. Please use permitted characters A-Z, a-z, 1-9.|Enter a new name for the folder.|All contacts (Entire database)|List is not converted.|Please note that this list is currently being built and is locked.|Please note that this list is currently in use.|required fields|Select field from file|The contacts were not removed.|The duplicate contacts were not removed because an error occurred. Please contact your System Administrator.|The file type is invalid. Please select another file and try again.|The folder has been created.|The folder has been deleted.|The folder has been moved.|The folder has been renamed.|The folder has not been created.|The folder has not been deleted.|The folder has not been moved.|The folder has not been renamed.|The folder, including all the lists that it contains, will be deleted. This cannot be undone. Do you want to continue?|The import process may take a while. You can close this dialog and continue your work in Sitecore. You will not lose your work. You will be able to access your contacts when the import is complete.|The list has been converted to a Contact list.|The list has been deleted.|The list has been moved to the selected folder.|The list has been saved.|The list has not been deleted.|The list has not been moved to the selected folder.|The 'List name' field should be specified.|The list will be deleted and all the associations to the list will be removed. This cannot be undone. Do you want to continue?|This option will replace all lists that are currently selected as sources. Do you want to continue?|You can upload only one file at a time. Please remove all other files and try again.|The contacts have not been imported.|This list is locked as it may currently be in the process of indexing. If you unlock, your list may be incomplete. Do you want to continue?|The list was sucessfully unlocked.|Your contacts have been imported. However please note that they will only become available to view in the database after they have been indexed. This process may take some time.|The list was not unlocked.|List source is currently in use and cannot be added to or amended at this time. Please try again later.|Manually map contact identifiers. To use email address as the contact identifier, leave unchecked.|The contact identifier is the unique value that identifies your contacts.|This contact will be removed from this list. The contact will still be available in your Contact database. Do you want to continue?|The contact will be removed from the list once the indexing has finished and the list is unlocked.|The contact was not removed.|Changes cannot be made to this contact as it is locked or currently active. Please try again later.|Your import will not be saved. Do you want to continue?|New contact details|Rule|Edit rule|Edit this rule|Remove rule|Remove this rule
+----field----
+field: {A5840A65-B6CD-41FD-B3BA-2F05F64DA824}
+name: Dictionary
+key: dictionary
+content-length: 0
+
+
+----version----
+language: da
+version: 1
+revision: 1a382a52-02be-48c6-aaee-7255e9d3f380
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 12
+
+Kontaktliste
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133353Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+1a382a52-02be-48c6-aaee-7255e9d3f380
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133353Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 11b22af2-061a-43fd-90d9-22cbd3d7641d
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 12
+
+Kontaktliste
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133526Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+11b22af2-061a-43fd-90d9-22cbd3d7641d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133526Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 33e87b21-7587-468f-81b3-44868139742e
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20140424T170322Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+33e87b21-7587-468f-81b3-44868139742e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160330T092851Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 27fa0cf5-3871-4aae-b17a-fa28c974a811
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 9
+
+コンタクト リスト
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133654Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+27fa0cf5-3871-4aae-b17a-fa28c974a811
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133654Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,45 @@
+----item----
+version: 1
+id: {7776A82E-0152-4688-B13C-6D99239DBFDD}
+database: core
+path: /sitecore/client/Business Component Library/version 1/Templates/Charts/SeriesDefinition/__Standard Values
+parent: {F5511323-C6FF-4FBA-91F6-E32F914DEF5F}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {F5511323-C6FF-4FBA-91F6-E32F914DEF5F}
+templatekey: SeriesDefinition
+created: 20160729T132116Z
+
+----version----
+language: en
+version: 1
+revision: 890a7849-bb91-479c-96d7-908b38a7a6c5
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160119T171526Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+890a7849-bb91-479c-96d7-908b38a7a6c5
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160311T100355Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

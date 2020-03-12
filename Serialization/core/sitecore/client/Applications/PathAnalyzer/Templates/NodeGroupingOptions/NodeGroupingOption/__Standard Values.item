@@ -1,0 +1,73 @@
+----item----
+version: 1
+id: {33BCDAE9-AA1B-47D1-B789-6DF49A053C40}
+database: core
+path: /sitecore/client/Applications/PathAnalyzer/Templates/NodeGroupingOptions/NodeGroupingOption/__Standard Values
+parent: {AFC0BA4E-E8AD-4A60-9E1D-0A54EB74FCC8}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {AFC0BA4E-E8AD-4A60-9E1D-0A54EB74FCC8}
+templatekey: NodeGroupingOption
+created: 20160729T132117Z
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+200
+----version----
+language: en
+version: 1
+revision: 5d6d0381-ab4f-4b0f-afd9-fe293e75bf72
+
+----field----
+field: {DCDD6247-0D3B-43C5-AA83-915032497828}
+name: Title
+key: title
+content-length: 5
+
+$name
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+00010101T000000
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5d6d0381-ab4f-4b0f-afd9-fe293e75bf72
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150519T132133:635676384939705387Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

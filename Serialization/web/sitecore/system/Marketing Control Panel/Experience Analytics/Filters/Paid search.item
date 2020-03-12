@@ -1,0 +1,45 @@
+----item----
+version: 1
+id: {F201003B-514B-4A86-8C56-48B39DE53306}
+database: web
+path: /sitecore/system/Marketing Control Panel/Experience Analytics/Filters/Paid search
+parent: {F1C4275C-8F38-4570-BABF-C95837CC87CF}
+name: Paid search
+master: {00000000-0000-0000-0000-000000000000}
+template: {B9BA5875-36C0-48D1-8B82-6DF152B7AAA6}
+templatekey: DimensionFolder
+created: 20160729T132117Z
+
+----version----
+language: en
+version: 1
+revision: 4ba512f4-b42d-4e92-bbf2-f8cfe833f32a
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20141007T103206Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4ba512f4-b42d-4e92-bbf2-f8cfe833f32a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20141007T103316:635482747963631085Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

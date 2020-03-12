@@ -1,0 +1,202 @@
+----item----
+version: 1
+id: {E59BC77E-1076-4CE1-8822-06E61250AFB9}
+database: core
+path: /sitecore/client/Business Component Library/version 2/Content/Guidance/Renderings/Searching and Filtering/ItemFilterControl/PageSettings/Tabs/Demo
+parent: {7609402E-0DFC-4D89-AF93-1D0E9B36433F}
+name: Demo
+master: {1A934758-1761-446E-AA0E-D19B3369292B}
+template: {8A7ACB1A-0990-4C9E-A6F0-9612D0F5F51C}
+templatekey: Tab
+created: 20160729T132116Z
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+200
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 0
+
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 1333
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanel1&amp;ConfigurationDetails=Facets%3d%7bBinding+DataSource1.Facets%7d&amp;Description=The+control+shows+the+facets+that+are+configured+for+a+data+source+when+you+bind+the+Facets+property+of+the+control+to+the+Facets+property+of+the+data+source.&amp;Title=Specifying+facets+to+show" uid="{C94F32BA-9A92-48FA-907D-CDEEBD54DFE2}" />
+    <r id="{E6FBC365-732C-4DCD-8C56-10E8C3B963F5}" par="SearchRootItemId=%7b299119E6-D6F9-47D3-A328-7744B49AFD65%7d&amp;Id=DataSource1&amp;Fields=Group1%7cGroup2%7cGroup3&amp;Database=core&amp;Language=%24context_language&amp;SelectedFacets=%7bBinding+ItemFilterControl1.SelectedFacets%7d&amp;FacetsRootItemId=%7bA6E200B3-76E7-4915-9EAC-2A27111FBD69%7d" ph="DemoComponentPanel1.Content" uid="{A16C2E19-30DF-45BE-9C81-B848AC4F2D8F}" />
+    <r id="{17F9A6D4-C126-43D6-8D42-D63BA7B29944}" par="Id=ItemFilterControl1&amp;Tooltip=Hello&amp;Facets=%7bBinding+DataSource1.Facets%7d" ph="DemoComponentPanel1.Content" uid="{24432CB2-4ED8-466B-8986-E28833976924}" />
+    <r id="{CD71D9A5-8CC1-43B2-BC7A-711979C3F165}" par="Id=ListBox1&amp;DynamicData=%7bBinding+DataSource1.Items%7d" ph="DemoComponentPanel1.Content" uid="{AA9ADA9F-3ECC-4408-AABA-1C1A015EDC9E}" />
+  </d>
+</r>
+----version----
+language: de-DE
+version: 1
+revision: d098b9c7-da4d-48dd-9082-d87356ce10dc
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 3
+
+Tab
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 4
+
+Demo
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133524Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d098b9c7-da4d-48dd-9082-d87356ce10dc
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133524Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: ed255ff6-9095-4e27-ab1b-1efe027968f1
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 3
+
+Tab
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150324T092150Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ed255ff6-9095-4e27-ab1b-1efe027968f1
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160204T134857Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 7db714ed-e4d4-4141-821d-919a43c87400
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 2
+
+タブ
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 2
+
+デモ
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133652Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+7db714ed-e4d4-4141-821d-919a43c87400
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133652Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

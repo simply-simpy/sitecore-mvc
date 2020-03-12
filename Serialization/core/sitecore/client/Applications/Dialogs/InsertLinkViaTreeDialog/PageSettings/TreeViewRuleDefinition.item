@@ -1,0 +1,261 @@
+----item----
+version: 1
+id: {0680A139-EBB2-448C-B018-6DB0185B6D06}
+database: core
+path: /sitecore/client/Applications/Dialogs/InsertLinkViaTreeDialog/PageSettings/TreeViewRuleDefinition
+parent: {3613DE82-2013-4682-B537-B616ADFC1238}
+name: TreeViewRuleDefinition
+master: {00000000-0000-0000-0000-000000000000}
+template: {1F99AE6E-22B8-419E-81DB-A983E619325E}
+templatekey: RuleDefinition
+created: 20160729T132117Z
+
+----field----
+field: {431A0113-9D08-4DAE-8C5B-AC8301512BD8}
+name: Rule
+key: rule
+content-length: 2421
+
+<?xml version="1.0" encoding="utf-16"?>
+<ruleset>
+  <rule>
+    <conditions>
+      <condition id="{E956001C-6ACD-4CE0-B7CC-F2B6EE7DDA94}" uid="0CA587892A98469E955E18ACF829F1B9" name="TreeView" />
+    </conditions>
+    <actions>
+      <action id="{F51FD432-BB4E-46E2-9A43-20F27C0BC24F}" uid="{2C6D9FBE-0223-4159-9379-3DD948C10150}" name="InsertLinkButton" value="true" />
+      <action id="{0EF20026-BA15-486C-B88E-5540002FAB10}" uid="{802F9021-8376-4C6B-86D8-9EDA055BF28B}" targetId="ItemName" targetProperty="text" sourceControlId="TreeView" sourceProperty="$displayName" />
+      <action id="{0EF20026-BA15-486C-B88E-5540002FAB10}" uid="{D2FF0EC1-8B3C-4173-B394-338CECBBCE25}" targetId="InfoType" targetProperty="text" sourceControlId="TreeView" sourceProperty="$templateName" />
+      <action id="{0EF20026-BA15-486C-B88E-5540002FAB10}" uid="{BEE97401-30C9-4648-8ACF-FC9B71FAD3A8}" targetId="InfoImage" targetProperty="imageUrl" sourceControlId="TreeView" sourceProperty="$mediaurl" />
+    </actions>
+  </rule>
+  <rule uid="E65EC31380E94D10A89278D754F271CB">
+    <conditions uid="11F68E223EC54E52844AE00FF5B6BB94">
+      <condition id="{E956001C-6ACD-4CE0-B7CC-F2B6EE7DDA94}" uid="D90071FCBCDE414EABC7EF0989E3BF97" name="TreeView" except="true" />
+    </conditions>
+    <actions uid="B00AB042740949E29EC8EB078719C0E9">
+      <action id="{3DA33BB4-9E03-48CD-AC5C-E48B825DD4B6}" uid="{74C44CE3-D05E-463D-A629-02C8A87EA2DE}" targetControlId="InsertLinkButton" propertyName="isEnabled" value="false" />
+      <action id="{3DA33BB4-9E03-48CD-AC5C-E48B825DD4B6}" uid="{DF761CC7-9C7B-4DC6-A802-25102DF20EDE}" targetControlId="SmartPanel" propertyName="isOpen" value="false" />
+    </actions>
+  </rule>
+  <rule uid="B8A87313259B40178416C73E6057DC8B">
+    <conditions uid="D82B404E346C43F7B69AA6810B5EED03">
+      <and uid="C9F4284E9F464D31BEA3558E95D89946">
+        <condition id="{0B3B6E32-E4E5-40F6-A991-1E46C56C8ED0}" uid="9BCD109084BA43548848BEAAA358A402" min="751" max="4000" />
+        <condition id="{E956001C-6ACD-4CE0-B7CC-F2B6EE7DDA94}" uid="5952273E3CEC45EE8AA05664D78328AE" name="TreeView" />
+      </and>
+    </conditions>
+    <actions uid="896761A5AAAB45A48C05DCB6BED3E83D">
+      <action id="{3DA33BB4-9E03-48CD-AC5C-E48B825DD4B6}" uid="{19F8F3C9-499C-491D-A2AB-3D60A9FF06DE}" targetControlId="SmartPanel" propertyName="isOpen" value="true" />
+    </actions>
+  </rule>
+</ruleset>
+----version----
+language: da
+version: 1
+revision: a82ee009-4831-405a-ad8e-ac184544c665
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 22
+
+TreeViewRuleDefinition
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133315Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a82ee009-4831-405a-ad8e-ac184544c665
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133315Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 3de1bb2a-c75f-4644-9801-3102c93e908b
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 26
+
+BaumAnsehenRegeldefinition
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133440Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3de1bb2a-c75f-4644-9801-3102c93e908b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133440Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: f39f575d-91c6-4d64-b01e-d9bab0297274
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130722T144835
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f39f575d-91c6-4d64-b01e-d9bab0297274
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140714T182733:635409592536749832
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 5f6f03b1-3a4e-4714-bdf5-880d935ee0ce
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 14
+
+ツリー ビュー ルールの定義
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133607Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5f6f03b1-3a4e-4714-bdf5-880d935ee0ce
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133607Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

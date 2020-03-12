@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {7C46A83D-05B7-4060-A022-7D7F63C1B6CF}
+database: core
+path: /sitecore/system/Dictionary/S/Save as standard layout for  0  items
+parent: {58EDC441-871F-4891-8876-46D9168CD204}
+name: Save as standard layout for  0  items
+master: {00000000-0000-0000-0000-000000000000}
+template: {6D1CD897-1936-4A3A-A511-289A94C2A7B1}
+templatekey: Dictionary entry
+created: 20160729T132117Z
+
+----field----
+field: {580C75A8-C01A-4580-83CB-987776CEB3AF}
+name: Key
+key: key
+content-length: 38
+
+Save as standard layout for {0} items.
+----version----
+language: en
+version: 1
+revision: 9dda1e52-0e99-4bf5-aad0-c5d048803b80
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 18
+
+sitecore\Anonymous
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20081107T173650
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 18
+
+sitecore\Anonymous
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+9dda1e52-0e99-4bf5-aad0-c5d048803b80
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20081107T173650:633616762103307088
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 18
+
+sitecore\Anonymous

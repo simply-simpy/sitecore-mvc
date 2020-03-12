@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {81A79284-6B7F-43A6-9C8C-2905D9EAC131}
+database: core
+path: /sitecore/masters/System/__Xsl Rendering/$name
+parent: {A5C2E190-B55B-4F07-9CD5-EE55349964E1}
+name: $name
+master: {00000000-0000-0000-0000-000000000000}
+template: {F1F1D639-4F54-40C2-8BE0-81266B392CEB}
+templatekey: Xsl Rendering
+created: 20160729T132117Z
+
+----field----
+field: {78783F79-1411-4B91-958D-AD81F81E2485}
+name: Path
+key: path
+content-length: 15
+
+/xsl/$name.xslt
+----field----
+field: {8AA9BB12-1A7B-4BC0-851A-25B7A1FF3A88}
+name: Placeholder
+key: placeholder
+content-length: 7
+
+content
+----version----
+language: en
+version: 1
+revision: f0782091-0bc9-47c4-bc6e-8579de8bf710
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20070726T144204
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 18
+
+extranet\anonymous
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f0782091-0bc9-47c4-bc6e-8579de8bf710
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20080623T112709:633498172290228867
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

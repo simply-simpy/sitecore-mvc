@@ -1,0 +1,332 @@
+----item----
+version: 1
+id: {19506321-52BB-4E39-ACA3-EAEB8E926F78}
+database: core
+path: /sitecore/client/Applications/List Manager/Dashboard
+parent: {F7864BD2-ED99-48B7-9C68-C16D0D5624D6}
+name: Dashboard
+master: {00000000-0000-0000-0000-000000000000}
+template: {B11AFCCD-C286-4384-B694-4465D6C605DE}
+templatekey: Speak-DashboardPage
+created: 20160729T132117Z
+
+----field----
+field: {5E642935-A6FC-48E9-B039-FE1136CED488}
+name: Theme
+key: theme
+content-length: 7
+
+Harvard
+----field----
+field: {3A67AD0F-9530-4B1B-9B70-9230C36AE8D6}
+name: UseFullWidth
+key: usefullwidth
+content-length: 1
+
+1
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 40
+
+OfficeWhite/16x16/presentation_empty.png
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+100
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 0
+
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 6538
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{4F72A793-BDBC-4262-9523-6AADD8FEA487}">
+    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="PageCodeScriptFileName=%2f-%2fspeak%2fv1%2flistmanager%2fDashboard.js" ph="Page.Code" uid="{237256AA-9D30-463E-9ED1-90CFF092FCF6}" />
+    <r id="{225B55AC-0270-44F9-842B-96D89F9C20A9}" ph="Page.Body" uid="{822F45CF-5E38-4827-B56F-55773F468ADE}" />
+    <r ds="{C68A38A2-DC86-46AD-AA08-F07F306EA168}" id="{8A49156E-EA68-42D3-B343-F701042832E3}" par="Id=RecentlyCreatedListsListsDataSource" ph="Page.Body" uid="{16CA4456-FAF0-482F-9050-D07150B14540}" />
+    <r ds="{FA8167CF-B94E-4D5B-AF57-092B90A768DA}" id="{8A49156E-EA68-42D3-B343-F701042832E3}" par="Id=MyListsListsDataSource" ph="Page.Body" uid="{974B0593-241C-4583-8BB9-A11E7A2AFB83}" />
+    <r id="{73A06518-3FE7-410D-8876-33CA70DAD0B6}" par="Id=RecentlyCreatedListsActionsDataSource&amp;Url=%2fsitecore%2fapi%2fssc%2fListManagement%2fActions" ph="Page.Body" uid="{E1B1EE45-63F1-4925-A23A-19B37E753E5A}" />
+    <r id="{73A06518-3FE7-410D-8876-33CA70DAD0B6}" par="Id=MyListsActionsDataSource&amp;Url=%2fsitecore%2fapi%2fssc%2fListManagement%2fActions" ph="Page.Body" uid="{E1B1EE45-63F1-4925-A23A-19B37E753E5A}" />
+    <r id="{5AE97C0C-EE88-4564-A363-4FA11C01C90A}" ph="GlobalHeader" uid="{532C7DCD-29E7-4C34-9910-FC283D61A026}" />
+    <r id="{7A69C522-7E99-4630-A25A-5D571505862A}" par="Id=GlobalLogo" ph="GlobalHeader.StartButton" uid="{A340B9F2-9FD0-4767-9B0B-62D7C8B0E5C7}" />
+    <r id="{EA28ED83-0F59-4BB9-AA95-6FAC9C3385D6}" par="Id=ListNavigationPanelToggleButton" ph="GlobalHeader.NavigationToggler" uid="{2861F5EB-6221-4379-9BB3-F8BCC1F9CDE3}" />
+    <r id="{2EE499CD-439A-4F10-B81F-36A54CAC01DB}" par="Id=AccountInformation" ph="GlobalHeader.LoginInfo" uid="{60848696-6FAA-4EA0-83E5-359E41A2887F}" />
+    <r id="{EC86834B-890C-405C-BB36-CA25044909E1}" ph="GlobalFooter" uid="{C01DD5BD-DFC2-425B-A301-43AE8363B443}" />
+    <r id="{93CEEFCD-2DE1-40AF-AE9A-EBBFBCCC522F}" ph="ApplicationHeader" uid="{1E240370-226C-40E4-9C54-7FE8630DF74A}" />
+    <r ds="{2829E53D-A8CB-4670-8349-353E8ED47968}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=HeaderTitle" ph="ApplicationHeader.Title" uid="{1DC97590-77EC-4F75-A687-D86F7D22CAAA}" />
+    <r id="{910155C7-3881-4A56-90FB-D126490EDE55}" par="Id=ListMessageBar" ph="ApplicationHeader" uid="{0896C387-3892-483A-9A56-9D239218EC50}" />
+    <r id="{EB6214BE-5687-4706-ABA6-B25C0958C85B}" ph="ApplicationContent" uid="{5C96B069-71B7-4B1D-BE44-B673DE81D9DE}" />
+    <r ds="{CA160685-4A9E-4371-959E-6AC95894C26A}" id="{1E538B08-446D-40BF-BE63-B6ABBD266C6A}" par="UsePlaceholders=1" ph="ApplicationContent.Navigation" uid="{5F7034CF-DA15-4F57-B941-DEE3B5F1633E}" />
+    <r id="{C5D667DE-AA48-4072-872E-7C8BFFCE4D44}" par="IsRootHidden=0&amp;Id=ListsMenu&amp;ItemsDataSource=%7b19506321-52BB-4E39-ACA3-EAEB8E926F78%7d" ph="ApplicationContent.Navigation" uid="{3E411F8E-F297-4F2E-A909-9C8A8B33265B}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=Main&amp;UsePadding=0" ph="ApplicationContent.Main" uid="{8EC02FDB-51E9-4983-9AD3-FAD2210E5BAC}" />
+    <r ds="{5B7534EF-CD32-475E-8036-2DABBC055E77}" id="{442BD093-FBAD-4E36-BC08-489E16C82D08}" par="Id=RecentlyCreatedListsAccordion&amp;IsCollapsible=1" ph="Main.Content" uid="{17509B95-1158-44E4-BE49-616843286DE3}" />
+    <r ds="{9491BE61-FFF2-4D92-B8B6-2A87763FB315}" id="{C2FAF554-1419-4B6E-96B8-EC7DB6995B3C}" par="Id=RecentlyCreatedListsActionControl" ph="RecentlyCreatedListsAccordion.ActionBar" uid="{21684B94-1E0C-4FC1-8D8A-2F86A229CE82}" />
+    <r ds="{6EFF7C4E-B860-4CD7-840B-FE01DAC869C6}" id="{ACE0AFD6-3DE0-42CF-8E62-4E68CD810A8D}" par="ScrollMoreData=next%3aRecentlyCreatedListsListsDataSource&amp;Id=RecentlyCreatedListsListControl&amp;Items=%7bBinding+RecentlyCreatedListsListsDataSource.Items%7d&amp;IsActiveResizeEnabled=0&amp;IsEndlessScrollEnabled=0" ph="RecentlyCreatedListsAccordion.Body" uid="{23FF608F-9F04-4D99-A13C-6DB22E239CB3}" />
+    <r id="{FE9723FC-56E4-4CA8-9C64-CB34F29462A5}" par="Id=RecentlyCreatedListsProgressIndicator&amp;IsBusy=%7bBinding+RecentlyCreatedListsListsDataSource.IsBusy%7d&amp;AutoShowTimeout=10000&amp;TargetControl=RecentlyCreatedListsListControl" ph="RecentlyCreatedListsAccordion.Body" uid="{6962EF8F-1111-4994-BBCB-622669781739}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=AccordionsSeparator&amp;PaddingType=Top&amp;UsePadding=1" ph="Main.Content" uid="{1E0BDD6B-F210-4FE9-AE38-2FE5A28B1C53}" />
+    <r ds="{45651985-2961-410F-81EC-D9E593FF61C5}" id="{442BD093-FBAD-4E36-BC08-489E16C82D08}" par="Id=MyListsAccordion&amp;IsCollapsible=1" ph="Main.Content" uid="{EE769476-64D8-4C55-A3A7-B14E88CEE412}" />
+    <r ds="{6EFF7C4E-B860-4CD7-840B-FE01DAC869C6}" id="{ACE0AFD6-3DE0-42CF-8E62-4E68CD810A8D}" par="ScrollMoreData=next%3aMyListsListsDataSource&amp;Id=MyListsListControl&amp;Items=%7bBinding+MyListsListsDataSource.Items%7d&amp;IsActiveResizeEnabled=0&amp;IsEndlessScrollEnabled=0" ph="MyListsAccordion.Body" uid="{25328137-98B9-4BBD-938C-EE136F126B44}" />
+    <r id="{FE9723FC-56E4-4CA8-9C64-CB34F29462A5}" par="Id=MyListsProgressIndicator&amp;IsBusy=%7bBinding+MyListsListsDataSource.IsBusy%7d&amp;AutoShowTimeout=10000&amp;TargetControl=MyListsListControl" ph="MyListsAccordion.Body" uid="{935826F4-BFEB-49DE-8A8E-8FDAF0DFF9D0}" />
+    <r ds="{05ED846C-3D6D-41F8-B207-D66B4ED5962F}" id="{C2FAF554-1419-4B6E-96B8-EC7DB6995B3C}" par="Id=MyListsActionControl" ph="MyListsAccordion.ActionBar" uid="{95A12037-7836-4243-B5BF-13264CF40C65}" />
+    <r ds="{F0781917-3DE8-4620-8B5A-22B94E13891D}" id="{A82840D0-633E-4D1A-B7FE-8C0062AA22F1}" par="Id=StringDictionary" ph="Main.Content" uid="{4872B46A-CD3E-42C5-8F0C-562C8681EB75}" />
+    <r id="{DC707F46-7F5E-4BA1-9BF9-820B4A23EC3F}" par="Id=Scrollbar&amp;PageScriptFileName=%2fsitecore%2fshell%2fclient%2fSpeak%2fAssets%2flib%2fui%2f1.1%2fbehaviors%2fScrollBar.js&amp;Name=Scrollbar" ph="Main.Content" uid="{6394D0EE-558E-4BA7-8BB0-0FF87BC6AFD0}" />
+    <r id="{FD97BD6A-2C46-4EB9-9F1F-7A2D7249DCC5}" par="Id=DialogsLoadOnDemandPanel&amp;ItemId=%7b43D7456E-C098-4F42-8805-7D905BA283D9%7d" ph="ApplicationContent.Main" uid="{09BE15CC-C4BC-41A8-96A9-102798F770AA}" />
+    <r id="{FE9723FC-56E4-4CA8-9C64-CB34F29462A5}" par="Id=DialogsProgressIndicator&amp;IsBusy=%7bBinding+DialogsLoadOnDemandPanel.IsBusy%7d&amp;AutoShowTimeout=1000&amp;TargetControl=DialogsLoadOnDemandPanel" ph="ApplicationContent.Main" uid="{32643198-93D7-43F5-9DF7-E3691D607ACD}" />
+  </d>
+</r>
+----version----
+language: da
+version: 1
+revision: 858ae641-ceec-4c3b-a98c-63e329e02a9f
+
+----field----
+field: {7205A57F-93B4-413A-AA9A-6B16BBC59565}
+name: BrowserTitle
+key: browsertitle
+content-length: 9
+
+Dashboard
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 9
+
+Dashboard
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133318Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+858ae641-ceec-4c3b-a98c-63e329e02a9f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133318Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 599b0723-5f09-44aa-93c2-0229fd842419
+
+----field----
+field: {7205A57F-93B4-413A-AA9A-6B16BBC59565}
+name: BrowserTitle
+key: browsertitle
+content-length: 9
+
+Dashboard
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 9
+
+Dashboard
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133444Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+599b0723-5f09-44aa-93c2-0229fd842419
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133444Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: f609efae-8192-45c8-bd7b-b125217bf6d1
+
+----field----
+field: {7205A57F-93B4-413A-AA9A-6B16BBC59565}
+name: BrowserTitle
+key: browsertitle
+content-length: 9
+
+Dashboard
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 9
+
+Dashboard
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20140304T075831Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f609efae-8192-45c8-bd7b-b125217bf6d1
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150730T162418:635738702586512429Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 1ab2f802-3551-420c-a252-169943b3bf68
+
+----field----
+field: {7205A57F-93B4-413A-AA9A-6B16BBC59565}
+name: BrowserTitle
+key: browsertitle
+content-length: 7
+
+ダッシュボード
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 7
+
+ダッシュボード
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133610Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+1ab2f802-3551-420c-a252-169943b3bf68
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133610Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

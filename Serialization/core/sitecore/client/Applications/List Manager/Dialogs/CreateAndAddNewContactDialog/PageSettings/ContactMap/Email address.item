@@ -1,0 +1,209 @@
+----item----
+version: 1
+id: {1663C1DC-EE5D-4CF4-AF67-2B9F6D30685C}
+database: core
+path: /sitecore/client/Applications/List Manager/Dialogs/CreateAndAddNewContactDialog/PageSettings/ContactMap/Email address
+parent: {1B336122-23C8-4444-9AE5-E100246F137F}
+name: Email address
+master: {00000000-0000-0000-0000-000000000000}
+template: {59F0B9F3-9505-40AF-AB6E-36B8E752E975}
+templatekey: ImportModelField
+created: 20160729T132117Z
+
+----field----
+field: {9D79831B-5957-443C-A907-8D736B8D263A}
+name: DataField
+key: datafield
+content-length: 14
+
+PreferredEmail
+----field----
+field: {69FF4731-55C0-4DB8-92DB-72DA9462FA08}
+name: Required
+key: required
+content-length: 1
+
+1
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+100
+----version----
+language: de-DE
+version: 1
+revision: 316d7394-30ea-491b-beff-b6ec51442856
+
+----field----
+field: {AE596DC3-75EF-4BA9-A4B7-6205A8AB241E}
+name: FieldName
+key: fieldname
+content-length: 12
+
+Emailadresse
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 12
+
+Emailadresse
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133443Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+316d7394-30ea-491b-beff-b6ec51442856
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133443Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 3a12d489-5cf0-4b36-9b0c-e97a3f8b2616
+
+----field----
+field: {AE596DC3-75EF-4BA9-A4B7-6205A8AB241E}
+name: FieldName
+key: fieldname
+content-length: 13
+
+Email address
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140617T132155
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3a12d489-5cf0-4b36-9b0c-e97a3f8b2616
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20150904T113210Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 5f893b13-ad11-4923-b70a-3aeb87b76ce4
+
+----field----
+field: {AE596DC3-75EF-4BA9-A4B7-6205A8AB241E}
+name: FieldName
+key: fieldname
+content-length: 10
+
+電子メール アドレス
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 10
+
+電子メール アドレス
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133610Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5f893b13-ad11-4923-b70a-3aeb87b76ce4
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133610Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

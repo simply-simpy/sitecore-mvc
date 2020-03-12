@@ -1,0 +1,384 @@
+----item----
+version: 1
+id: {ED5F28BC-69CF-4934-84BE-402FE4A5D566}
+database: master
+path: /sitecore/system/Marketing Control Panel/Experience Explorer/Presets/Cecile
+parent: {D012A738-7871-40DF-AB6E-EA71F7137BED}
+name: Cecile
+master: {00000000-0000-0000-0000-000000000000}
+template: {BAB68954-D9E6-464D-88E5-C207CB392AA7}
+templatekey: Preset Persona
+created: 20160729T132117Z
+
+----field----
+field: {EFA537EC-D9D1-4A38-BFA4-323713813045}
+name: Image
+key: image
+content-length: 166
+
+<image mediaid="{4B48D87B-E463-42DD-B0F2-F45C382F6204}" mediapath="/Experience Explorer/Presets/Cecile 128x128" src="~/media/4B48D87BE46342DDB0F2F45C382F6204.ashx" />
+----field----
+field: {AEB9312E-F74E-4F37-B946-FC15013BAAEA}
+name: Viewed Pages
+key: viewed pages
+content-length: 38
+
+{110D559F-DEA5-42EA-9C1C-8A5DF7E70EF9}
+----field----
+field: {6AA5013B-9D90-473D-AE8F-F48D724EADBF}
+name: Classify As
+key: classify as
+content-length: 23
+
+025 - Existing Customer
+----field----
+field: {02EE3B76-C42D-411F-82A4-D0B9069403DF}
+name: Device
+key: device
+content-length: 0
+
+
+----field----
+field: {867D790E-1A88-4E46-B0F5-2AA8B8231C3E}
+name: Geo Ip
+key: geo ip
+content-length: 15
+
+132.239.180.101
+----field----
+field: {B0A67B2A-8B07-4E0B-8809-69F751709806}
+name: __Tracking
+key: __tracking
+content-length: 155
+
+<tracking><profile id="{9311296F-1A3D-4E58-AED1-0A6B4B1E654B}" name="Score" /><event id="{66722F52-2D13-4DCC-90FC-EA7117CF2298}" name="Login" /></tracking>
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 22
+
+other/16x16/woman2.png
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 2
+
+50
+----version----
+language: de-DE
+version: 1
+revision: 4dc55622-f066-4639-81be-981136c8442e
+
+----field----
+field: {A874AB53-08DF-412E-8885-EDBA38FEB0B9}
+name: Name
+key: name
+content-length: 6
+
+Cecile
+----field----
+field: {5ABD49C9-2DB6-4299-8E03-DBBB0CB190EC}
+name: Details
+key: details
+content-length: 10
+
+Ausführend
+----field----
+field: {69805F4A-FA0C-4834-9892-B82E7495B48D}
+name: Associated Sitecore User
+key: associated sitecore user
+content-length: 15
+
+Extranet\Cecile
+----field----
+field: {47709594-E83E-44FD-AC19-9FCC68A9D104}
+name: Tags
+key: tags
+content-length: 48
+
+Email=cecile-preset%40hotmail.com&satisfaction=4
+----field----
+field: {CB41CA8E-18B3-4FB0-BFA1-9B99C91EBCCF}
+name: Referrer
+key: referrer
+content-length: 84
+
+<link url="http://www.google.com?q=Jetstream+Mauritius" linktype="external" id="" />
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 6
+
+Cecile
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133552Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4dc55622-f066-4639-81be-981136c8442e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133552Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 035c30db-319f-4805-a801-a65e7911398f
+
+----field----
+field: {A874AB53-08DF-412E-8885-EDBA38FEB0B9}
+name: Name
+key: name
+content-length: 6
+
+Cecile
+----field----
+field: {5ABD49C9-2DB6-4299-8E03-DBBB0CB190EC}
+name: Details
+key: details
+content-length: 9
+
+Executive
+----field----
+field: {230D7D68-3794-45DE-BE8A-336EF1048807}
+name: Description
+key: description
+content-length: 0
+
+
+----field----
+field: {4200266B-3FD1-4EF8-8179-04D734EC4E68}
+name: Age
+key: age
+content-length: 0
+
+
+----field----
+field: {74633FDE-ACBC-45A5-9408-01BC74DF3B2D}
+name: Consumed Assets
+key: consumed assets
+content-length: 0
+
+
+----field----
+field: {69805F4A-FA0C-4834-9892-B82E7495B48D}
+name: Associated Sitecore User
+key: associated sitecore user
+content-length: 15
+
+Extranet\cecile
+----field----
+field: {47709594-E83E-44FD-AC19-9FCC68A9D104}
+name: Tags
+key: tags
+content-length: 48
+
+email=cecile-preset%40hotmail.com&satisfaction=4
+----field----
+field: {CB41CA8E-18B3-4FB0-BFA1-9B99C91EBCCF}
+name: Referrer
+key: referrer
+content-length: 84
+
+<link url="http://www.google.com?q=Jetstream+Mauritius" linktype="external" id="" />
+----field----
+field: {B6DE7FE3-4F63-4D0E-BD14-C3FAC0C77C3D}
+name: Visit 1
+key: visit 1
+content-length: 38
+
+{110D559F-DEA5-42EA-9C1C-8A5DF7E70EF9}
+----field----
+field: {0DCE6B10-E502-4546-AC92-083A649A0659}
+name: Visit 2
+key: visit 2
+content-length: 38
+
+{110D559F-DEA5-42EA-9C1C-8A5DF7E70EF9}
+----field----
+field: {DA7754AE-8152-4ECF-936E-125617325308}
+name: Visit 3
+key: visit 3
+content-length: 38
+
+{110D559F-DEA5-42EA-9C1C-8A5DF7E70EF9}
+----field----
+field: {3E221114-187F-41F3-8345-045BF8897949}
+name: Visit 4
+key: visit 4
+content-length: 38
+
+{110D559F-DEA5-42EA-9C1C-8A5DF7E70EF9}
+----field----
+field: {65321522-A323-485E-BF87-27F50222CFD0}
+name: Visit 5
+key: visit 5
+content-length: 38
+
+{110D559F-DEA5-42EA-9C1C-8A5DF7E70EF9}
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130108T071300
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+035c30db-319f-4805-a801-a65e7911398f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20140813T121739:635435290597740212Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: ae0bf0d1-4f4f-487c-b920-9617664f683f
+
+----field----
+field: {A874AB53-08DF-412E-8885-EDBA38FEB0B9}
+name: Name
+key: name
+content-length: 3
+
+セシル
+----field----
+field: {5ABD49C9-2DB6-4299-8E03-DBBB0CB190EC}
+name: Details
+key: details
+content-length: 7
+
+エグゼクティブ
+----field----
+field: {69805F4A-FA0C-4834-9892-B82E7495B48D}
+name: Associated Sitecore User
+key: associated sitecore user
+content-length: 15
+
+Extranet\cecile
+----field----
+field: {47709594-E83E-44FD-AC19-9FCC68A9D104}
+name: Tags
+key: tags
+content-length: 48
+
+email=cecile-preset%40hotmail.com&satisfaction=4
+----field----
+field: {CB41CA8E-18B3-4FB0-BFA1-9B99C91EBCCF}
+name: Referrer
+key: referrer
+content-length: 84
+
+<link url="http://www.google.com?q=Jetstream+Mauritius" linktype="external" id="" />
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 3
+
+セシル
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133723Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ae0bf0d1-4f4f-487c-b920-9617664f683f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133723Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

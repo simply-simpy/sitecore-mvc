@@ -1,0 +1,45 @@
+----item----
+version: 1
+id: {146F3800-3CE8-423E-AC3F-6D2A7C411473}
+database: core
+path: /sitecore/client/Business Component Library/version 1/Layouts/Renderings/Data/ChartDataProvider/ChartDataProvider Parameters/__Standard Values
+parent: {A94EE467-4B90-4652-BB90-7E77AB85D0D3}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {A94EE467-4B90-4652-BB90-7E77AB85D0D3}
+templatekey: ChartDataProvider Parameters
+created: 20160729T132116Z
+
+----version----
+language: en
+version: 1
+revision: 816b6fc3-8d81-432a-b3c6-b0f8ba8a0598
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160317T165646Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+816b6fc3-8d81-432a-b3c6-b0f8ba8a0598
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160317T165646Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

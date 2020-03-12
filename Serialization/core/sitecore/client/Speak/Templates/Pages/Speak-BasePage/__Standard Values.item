@@ -1,0 +1,73 @@
+----item----
+version: 1
+id: {57B44F8A-5047-4019-A5AA-A091B55AF2BD}
+database: core
+path: /sitecore/client/Speak/Templates/Pages/Speak-BasePage/__Standard Values
+parent: {5F2C442F-2554-4C80-B1D9-2195FA6168B1}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {5F2C442F-2554-4C80-B1D9-2195FA6168B1}
+templatekey: Speak-BasePage
+created: 20160729T132117Z
+
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 272
+
+{C63C943A-CB4D-45D6-880C-208BD29DAE1A}|{D7CF8B7E-083D-4351-AEF2-2BCD2D794826}|{8152CF09-9DD0-40C0-B806-6E91FDF389BC}|{3DF10AD2-B456-407E-8C44-5056E58AA50C}|{B11AFCCD-C286-4384-B694-4465D6C605DE}|{1DF51DCB-0EE6-43B1-AE61-54480C5A85AD}|{E35EAA2D-EDEA-431C-A9E6-488272B53782}
+----version----
+language: en
+version: 1
+revision: ff099afe-ff13-4758-b0f3-ea152c3b6f4a
+
+----field----
+field: {7205A57F-93B4-413A-AA9A-6B16BBC59565}
+name: BrowserTitle
+key: browsertitle
+content-length: 5
+
+$name
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130131T104221
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ff099afe-ff13-4758-b0f3-ea152c3b6f4a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20130131T104551:634952259516704411
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

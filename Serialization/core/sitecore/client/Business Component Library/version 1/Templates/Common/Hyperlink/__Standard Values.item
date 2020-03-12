@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {2E03AB10-5F6C-42DF-BA5B-71A74A8A5A48}
+database: core
+path: /sitecore/client/Business Component Library/version 1/Templates/Common/Hyperlink/__Standard Values
+parent: {841CAEDF-9162-447F-8F54-B878E2AB1C50}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {841CAEDF-9162-447F-8F54-B878E2AB1C50}
+templatekey: Hyperlink
+created: 20160729T132116Z
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 287
+
+<r>  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{75CC5CE4-8979-4008-9D3C-806477D57619}">    <r id="{162FC747-B9E6-4FCE-A96C-1EFE125643F2}" par="Command&amp;Id&amp;isEnabled&amp;isVisible&amp;text&amp;ServerClick&amp;Click" uid="{BFDE2FF4-0233-40B4-B2B0-EBFDFADCC792}" />  </d></r>
+----version----
+language: en
+version: 1
+revision: 1ab6968a-7c38-4964-b7dd-01730479d39b
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20120619T153033
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+1ab6968a-7c38-4964-b7dd-01730479d39b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20130822T135606:635127765663881942
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

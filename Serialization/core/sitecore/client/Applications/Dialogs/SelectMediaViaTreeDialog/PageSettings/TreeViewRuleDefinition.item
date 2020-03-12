@@ -1,0 +1,258 @@
+----item----
+version: 1
+id: {BF05F23E-0E99-4D51-A90C-98064BDCE29A}
+database: core
+path: /sitecore/client/Applications/Dialogs/SelectMediaViaTreeDialog/PageSettings/TreeViewRuleDefinition
+parent: {933717EE-CF48-4060-B7AD-F5FFC180BBE2}
+name: TreeViewRuleDefinition
+master: {00000000-0000-0000-0000-000000000000}
+template: {1F99AE6E-22B8-419E-81DB-A983E619325E}
+templatekey: RuleDefinition
+created: 20160729T132117Z
+
+----field----
+field: {431A0113-9D08-4DAE-8C5B-AC8301512BD8}
+name: Rule
+key: rule
+content-length: 2756
+
+<?xml version="1.0" encoding="utf-16"?>
+<ruleset>
+  <rule>
+    <actions>
+      <action id="{F51FD432-BB4E-46E2-9A43-20F27C0BC24F}" uid="{5768753D-259A-4135-9F31-DEF157A5B95D}" name="SelectMediaButton" value="true" />
+	  <action id="{8FECB2A4-92AF-4D66-9595-92769B175ECF}" uid="{C4EB0FD5-5D26-4676-8A83-C2A7CFAF8DF0}" name="PreviewBorder" value="false" />
+      <action id="{8FECB2A4-92AF-4D66-9595-92769B175ECF}" uid="{8C61CEC6-03FF-4188-8041-BC719D8EC0B4}" name="InfoImage" value="" />
+      <action id="{8FECB2A4-92AF-4D66-9595-92769B175ECF}" uid="{41D9E64B-50AC-41E8-B040-3624DBA8C37F}" name="InfoTitle" value="" />
+      <action id="{8FECB2A4-92AF-4D66-9595-92769B175ECF}" uid="{CD2B3BF1-CC35-4D14-BEB8-F2CB57EA8960}" name="InfoNameRow" value="" />
+      <action id="{8FECB2A4-92AF-4D66-9595-92769B175ECF}" uid="{E6B6C6BA-1D0C-457C-AAD8-0F915DFDB213}" name="InfoTypeRow" value="" />
+      <action id="{8FECB2A4-92AF-4D66-9595-92769B175ECF}" uid="{E09366FA-7FE4-472F-A728-AF4AEDEBA245}" name="InfoDimensionRow" value="" />
+      <action id="{0EF20026-BA15-486C-B88E-5540002FAB10}" uid="{D2EB985C-9CFF-4EA6-AD53-7B837BEBE825}" targetId="InfoImage" targetProperty="imageUrl" sourceControlId="TreeView" sourceProperty="$mediaurl" />
+      <action id="{0EF20026-BA15-486C-B88E-5540002FAB10}" uid="{B07B7CCE-76D3-44E3-AA48-6B615438BA0F}" targetId="InfoTitle" targetProperty="text" sourceControlId="TreeView" sourceProperty="$displayName" />
+      <action id="{0EF20026-BA15-486C-B88E-5540002FAB10}" uid="{1CBE5523-05A3-40F3-B00D-E143D9F0DCF1}" targetId="InfoName" targetProperty="text" sourceControlId="TreeView" sourceProperty="$displayName" />
+      <action id="{0EF20026-BA15-486C-B88E-5540002FAB10}" uid="{834CFF63-EF42-4F2F-BF13-D0A8E7C34ECF}" targetId="InfoType" targetProperty="text" sourceControlId="TreeView" sourceProperty="$templateName" />
+      <action id="{0EF20026-BA15-486C-B88E-5540002FAB10}" uid="{0F051EB9-F9E2-48EA-BCA0-979EB1FCC23E}" targetId="InfoDimension" targetProperty="text" sourceControlId="TreeView" sourceProperty="Dimensions" />
+    </actions>
+    <conditions>
+      <condition id="{E956001C-6ACD-4CE0-B7CC-F2B6EE7DDA94}" uid="E765F62E60E94999B75851E81954BA10" name="TreeView" />
+    </conditions>
+  </rule>
+  <rule uid="4A96AFACAFD442BDBF1091275262DF44">
+    <conditions uid="D0DD8150BE714A6E85F0BC9239832662">
+      <condition id="{E956001C-6ACD-4CE0-B7CC-F2B6EE7DDA94}" uid="C8E19E31FA134A2FB5424FF5EE5145AA" name="TreeView" except="true" />
+    </conditions>
+    <actions uid="10A2F33A217745DD9A1F7BD32341388A">
+      <action id="{F51FD432-BB4E-46E2-9A43-20F27C0BC24F}" uid="{69C37391-9C7D-4565-A7C5-FC630A592C10}" name="SelectMediaButton" value="false" />
+    </actions>
+  </rule>
+</ruleset>
+
+----version----
+language: da
+version: 1
+revision: 409a528d-ff20-4645-b6e3-43f940539e98
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 22
+
+TreeViewRuleDefinition
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133344Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+409a528d-ff20-4645-b6e3-43f940539e98
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133344Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 4cba8dbe-56b2-4219-b771-48d9292abecf
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 26
+
+BaumAnsehenRegeldefinition
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133516Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4cba8dbe-56b2-4219-b771-48d9292abecf
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133516Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 0c834151-9705-45a7-9c0a-7c03bbdede1c
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130718T180827
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+0c834151-9705-45a7-9c0a-7c03bbdede1c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150127T152651:635579692116737284Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: a1754457-dc39-44ba-bb95-9eab236a83cf
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 14
+
+ツリー ビュー ルールの定義
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133644Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a1754457-dc39-44ba-bb95-9eab236a83cf
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133644Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

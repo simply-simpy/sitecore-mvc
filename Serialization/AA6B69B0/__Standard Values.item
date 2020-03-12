@@ -1,0 +1,45 @@
+----item----
+version: 1
+id: {84F1AF14-14BD-4FF0-AD34-B632FB0BC98F}
+database: core
+path: /sitecore/client/Business Component Library/version 1/Layouts/Renderings/Charts/Legacy/LegacyJourneyChart/JourneyFCChart Parameters/__Standard Values
+parent: {7259B0C8-4F44-4D0A-9052-D6D7F719856D}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {7259B0C8-4F44-4D0A-9052-D6D7F719856D}
+templatekey: JourneyFCChart Parameters
+created: 20160729T132116Z
+
+----version----
+language: en
+version: 1
+revision: 53e9c077-ce81-49ec-8098-e679ea2189ea
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160317T165648Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+53e9c077-ce81-49ec-8098-e679ea2189ea
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160317T175911Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

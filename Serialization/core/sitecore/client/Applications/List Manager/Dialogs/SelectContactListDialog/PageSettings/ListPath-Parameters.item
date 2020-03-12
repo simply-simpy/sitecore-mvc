@@ -1,0 +1,235 @@
+----item----
+version: 1
+id: {735933F6-A6C4-4C49-9CC2-97AB323153B6}
+database: core
+path: /sitecore/client/Applications/List Manager/Dialogs/SelectContactListDialog/PageSettings/ListPath-Parameters
+parent: {42E41D7D-C4D1-4173-A3F1-94FF140E5348}
+name: ListPath-Parameters
+master: {00000000-0000-0000-0000-000000000000}
+template: {83CE15EC-1CE4-4599-93FA-FB7A3C374583}
+templatekey: ListPath-Parameters
+created: 20160729T132117Z
+
+----version----
+language: da
+version: 1
+revision: df55b8e8-68e1-4ca7-8325-07a0836a55d2
+
+----field----
+field: {5C69CFC1-7005-47CA-9F7F-A3354BF7E523}
+name: RootName
+key: rootname
+content-length: 27
+
+Alle lister (kontaktlister)
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 18
+
+ListPath-parametre
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133333Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+df55b8e8-68e1-4ca7-8325-07a0836a55d2
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133333Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 55a421d9-d563-4e23-9d5f-b6977a5b88c8
+
+----field----
+field: {5C69CFC1-7005-47CA-9F7F-A3354BF7E523}
+name: RootName
+key: rootname
+content-length: 27
+
+Alle Listen (Kontaktlisten)
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 19
+
+ListePfad-Parameter
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133500Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+55a421d9-d563-4e23-9d5f-b6977a5b88c8
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133500Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 4a1dbdf7-f329-4883-ad81-93a5fc29b6a8
+
+----field----
+field: {5C69CFC1-7005-47CA-9F7F-A3354BF7E523}
+name: RootName
+key: rootname
+content-length: 25
+
+All lists (Contact lists)
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20141002T081156Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4a1dbdf7-f329-4883-ad81-93a5fc29b6a8
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20151223T112303Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: f9c00147-029f-4382-b3f4-a3203f6d26ab
+
+----field----
+field: {5C69CFC1-7005-47CA-9F7F-A3354BF7E523}
+name: RootName
+key: rootname
+content-length: 19
+
+すべてのリスト (コンタクト リスト)
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 15
+
+リスト Path パラメーター
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133628Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f9c00147-029f-4382-b3f4-a3203f6d26ab
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133628Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

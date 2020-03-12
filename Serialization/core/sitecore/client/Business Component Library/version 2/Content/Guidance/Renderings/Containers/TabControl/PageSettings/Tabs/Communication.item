@@ -1,0 +1,226 @@
+----item----
+version: 1
+id: {2E9E0949-7253-4182-8566-299BDF501F9A}
+database: core
+path: /sitecore/client/Business Component Library/version 2/Content/Guidance/Renderings/Containers/TabControl/PageSettings/Tabs/Communication
+parent: {5BED747A-A542-4BF1-804E-CA36D7092F44}
+name: Communication
+master: {00000000-0000-0000-0000-000000000000}
+template: {8A7ACB1A-0990-4C9E-A6F0-9612D0F5F51C}
+templatekey: Tab
+created: 20160729T132116Z
+
+----field----
+field: {3A98ADC3-530B-4281-880D-2D56DCC605AF}
+name: IsLazyLoaded
+key: islazyloaded
+content-length: 1
+
+1
+----field----
+field: {C8B0CBFC-960C-4A4F-AA94-950FE2476FB6}
+name: IsSubAppRegistered
+key: issubappregistered
+content-length: 1
+
+1
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 2041
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{759BEFD1-3323-404D-A243-E0ED81163C03}">
+    <r id="{CB83D434-31ED-4AC3-A280-CCE2B63F9743}" par="PageCodeScriptFileName=%2fsitecore%2fshell%2fclient%2fBusiness+Component+Library%2fversion+2%2fContent%2fGuidance%2fRenderings%2fContainers%2fTabControl%2fCommunicationSubPageCode.js" ph="Page.Body" uid="{EBFAE68D-A5F8-46F6-BDB2-5352BD555312}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanel1&amp;Description=The+control+triggers+a+number+of+events+after+it+has+loaded+content+into+the+tabs.+The+first+is+a+general+%22loaded%22+event.+This+indicates+that+some+tabs+have+loaded+content+and+have+been+rendered+and+initialized%2c+and+that+the+registered+subApp+is+passed+tom+the+callback+function.+AFter+this.%2c+the+control+triggers+events+specific+for+each+tab%2c+for+example+%22loaded%3aTab2%22%2c+and+it+passes+the+subApp+to+the+callback+function.+This+functionality+requires+that+the+IsSubAppRegistered+field+of+the+tab+items+is+True.&amp;Title=Events" ph="Page.Body" uid="{9FCDB3C0-210E-4ED8-B35A-4203F6B966FF}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border1" ph="DemoComponentPanel1.Content" uid="{348897B5-068C-47B9-93EF-1B5A71684E63}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border2" ph="DemoComponentPanel1.Content" uid="{72F1DF02-6405-4287-9353-FDA0CB1A878B}" />
+    <r id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" par="Id=Button1&amp;ButtonType=Primary&amp;Text=Update+Tab1+TextBox+Value&amp;Click=javascript%3aapp.updateTab1()" ph="Border1.Content" uid="{6D45EF76-E2D3-4935-8EA3-561C7FDB66F3}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=Log&amp;Text=Log%3a" ph="Border2.Content" uid="{C3A1147C-E394-44C3-B804-C6199807A807}" />
+    <r id="{7CE24006-7B34-4678-BC91-7675C6E2C9B9}" par="ConfigurationItem=%7b2D90947B-0F99-447D-BF25-0F58CE5F9B21%7d&amp;Id=SubTabControl&amp;TabVisualStyle=SubTab" ph="Border2.Content" uid="{E6283DFD-6ACF-4559-A777-23B7A38BA9A6}" />
+  </d>
+</r>
+----version----
+language: de-DE
+version: 1
+revision: 4b86c0b4-74bd-47ee-b962-477d3c0fd841
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 24
+
+Cross Tabs Kommunikation
+----field----
+field: {772AEA8A-4D70-43F4-BD6B-EDE5FB060623}
+name: Tooltip
+key: tooltip
+content-length: 24
+
+Cross Tabs Kommunikation
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 13
+
+Kommunikation
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133448Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4b86c0b4-74bd-47ee-b962-477d3c0fd841
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133448Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 7aa760b1-e1dc-4909-abe7-fb30b91a8be4
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 24
+
+Cross Tabs Communication
+----field----
+field: {772AEA8A-4D70-43F4-BD6B-EDE5FB060623}
+name: Tooltip
+key: tooltip
+content-length: 24
+
+Cross Tabs Communication
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150811T155208Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+7aa760b1-e1dc-4909-abe7-fb30b91a8be4
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160411T112145Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: a6a5726c-3c68-4323-9ee9-07e199df3325
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 16
+
+クロス タブ コミュニケーション
+----field----
+field: {772AEA8A-4D70-43F4-BD6B-EDE5FB060623}
+name: Tooltip
+key: tooltip
+content-length: 16
+
+クロス タブ コミュニケーション
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 9
+
+コミュニケーション
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133614Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a6a5726c-3c68-4323-9ee9-07e199df3325
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133614Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

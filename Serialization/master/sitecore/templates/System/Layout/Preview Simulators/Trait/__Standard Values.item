@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {5C2445E9-51A7-41F7-A68D-83480AF34938}
+database: master
+path: /sitecore/templates/System/Layout/Preview Simulators/Trait/__Standard Values
+parent: {249A9C7D-BAD8-451F-8D95-CC1A393B40F5}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {249A9C7D-BAD8-451F-8D95-CC1A393B40F5}
+templatekey: Trait
+created: 20160729T132117Z
+
+----field----
+field: {FE5C1799-FA2A-4A5A-9C2B-D67BC1668D28}
+name: Type
+key: type
+content-length: 72
+
+Sitecore.Pipelines.ProcessSimulatorResponse.ProcessHtml, Sitecore.Kernel
+----version----
+language: en
+version: 1
+revision: 73fb536c-7c98-461b-a93c-fae772011889
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20110720T153400
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+73fb536c-7c98-461b-a93c-fae772011889
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20120321T161535:634679433350861246
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

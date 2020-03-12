@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {FE61A8EB-683E-4121-B6A4-61DAB4FDC354}
+database: web
+path: /sitecore/system/Settings/Rules/Definitions/Elements/Venue/Tags/Default
+parent: {B0B00390-8E1B-41F6-A10D-764FDAF2D458}
+name: Default
+master: {9A72C539-DBF8-4DAD-96D3-A298FC04ADD6}
+template: {854BA861-63EA-4A0C-8C7B-541E9A7EC4C1}
+templatekey: Tags Definition
+created: 20160729T132117Z
+
+----field----
+field: {42F77151-098F-496A-94CF-590B7EDEEABE}
+name: Tags
+key: tags
+content-length: 38
+
+{18C2D156-9B7B-494F-ADB2-2D0D9113000E}
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 0
+
+
+----version----
+language: en
+version: 1
+revision: fd55760f-b98c-46a1-be7a-52b99c58a9a8
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150619T071230Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+fd55760f-b98c-46a1-be7a-52b99c58a9a8
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20151214T151628Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,233 @@
+----item----
+version: 1
+id: {2BA97701-0ADD-80FC-A6D1-028364905B32}
+database: core
+path: /sitecore/system/Dictionary/R/Republishing is an expensive operation that overwrites every item in the selected languages  even if
+parent: {78C4D56F-D473-48AC-AD58-17560FC9F9AD}
+name: Republishing is an expensive operation that overwrites every item in the selected languages  even if
+master: {00000000-0000-0000-0000-000000000000}
+template: {6D1CD897-1936-4A3A-A511-289A94C2A7B1}
+templatekey: Dictionary entry
+created: 20160729T133427Z
+
+----field----
+field: {580C75A8-C01A-4580-83CB-987776CEB3AF}
+name: Key
+key: key
+content-length: 289
+
+Republishing is an expensive operation that overwrites every item in the selected languages, even if that data has not changed.
+You should only republish if the databases appear to be inconsistent and only after you have tried to fix the problem by performing a Smart Publishing operation.
+----version----
+language: da
+version: 1
+revision: 76e919ee-353b-49af-a198-8fc30479851c
+
+----field----
+field: {2BA3454A-9A9C-4CDF-A9F8-107FD484EB6E}
+name: Phrase
+key: phrase
+content-length: 299
+
+Genudgivelse er en dyr handling, der overskriver alle elementer på det valgte sprog, selv hvis de pågældende data ikke er blevet ændret.
+Du bør kun genudgive, hvis databaserne viser sig at være inkonsekvente, og kun når du har forsøgt at løse problemet ved at udføre handlingen til smart udgivelse.
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133427Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+76e919ee-353b-49af-a198-8fc30479851c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133427Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: f427f965-8350-4842-bb37-3ee7b1eed862
+
+----field----
+field: {2BA3454A-9A9C-4CDF-A9F8-107FD484EB6E}
+name: Phrase
+key: phrase
+content-length: 340
+
+Neuveröffentlichung ist eine teure Angelegenheit, die jedes Item in den ausgewählten Sprachen überschreibt, sogar wenn sich die Daten nicht geändert haben. 
+Sie sollten nur neu veröffentlichen, wenn die Datenbanken widersprüchlich erscheinen und nur nachdem Sie versucht haben, das Problem mittels eines Smart Publishing Vorgangs zu lösen.
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133557Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f427f965-8350-4842-bb37-3ee7b1eed862
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133557Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 32bfbafb-4805-4b71-b8fa-d30c8dc39791
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133427Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+32bfbafb-4805-4b71-b8fa-d30c8dc39791
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133427Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 8eeeb1b7-c983-4478-b80a-71589cb24dad
+
+----field----
+field: {2BA3454A-9A9C-4CDF-A9F8-107FD484EB6E}
+name: Phrase
+key: phrase
+content-length: 167
+
+リパブリッシュはデータに変更がない場合でも選択した言語のすべてのアイテムの上書きを実行する非常に負荷のかかる操作です。
+リパブリッシュの前に一度スマート パブリッシュを実施してください。
+スマート パブリッシュ実施後、データベースの整合性不一致が確認された場合のみリパブリッシュを実行してください。通常は実施する必要はありません。
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133727Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+8eeeb1b7-c983-4478-b80a-71589cb24dad
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133727Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

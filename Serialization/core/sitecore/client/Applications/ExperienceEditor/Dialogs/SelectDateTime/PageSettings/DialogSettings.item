@@ -1,0 +1,284 @@
+----item----
+version: 1
+id: {B2C622EE-8BB1-4EAD-8716-C291E0F086B3}
+database: core
+path: /sitecore/client/Applications/ExperienceEditor/Dialogs/SelectDateTime/PageSettings/DialogSettings
+parent: {1F6C545D-D788-479D-9EA7-E52C5A1A0FCB}
+name: DialogSettings
+master: {00000000-0000-0000-0000-000000000000}
+template: {9F320989-B73E-4FEB-AB25-AF33CB6E8D0E}
+templatekey: DialogMockupBase
+created: 20160729T132117Z
+
+----field----
+field: {876BF304-0AFD-4D10-A9DE-00D8B31AD762}
+name: Width
+key: width
+content-length: 3
+
+531
+----field----
+field: {A369C9A9-F144-437B-AD31-DE4702F6924F}
+name: Height
+key: height
+content-length: 3
+
+350
+----field----
+field: {AC264D78-D730-4C59-8B10-2D8A67E76AE4}
+name: Id
+key: id
+content-length: 14
+
+SelectDateTime
+----version----
+language: da
+version: 1
+revision: 84c7f29b-14a7-4bd3-ab74-1ebf8b3d48d3
+
+----field----
+field: {A54A4E90-ECBF-4504-844D-826159193A09}
+name: Header
+key: header
+content-length: 14
+
+Dato/tidspunkt
+----field----
+field: {9218CF98-A61A-4A70-82F4-0660E43A0902}
+name: Description
+key: description
+content-length: 19
+
+Vælg dato/tidspunkt
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 14
+
+DialogSettings
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133342Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+84c7f29b-14a7-4bd3-ab74-1ebf8b3d48d3
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133342Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: ac2a61d9-3662-4684-9b45-59895afc9d56
+
+----field----
+field: {A54A4E90-ECBF-4504-844D-826159193A09}
+name: Header
+key: header
+content-length: 10
+
+Datum/Zeit
+----field----
+field: {9218CF98-A61A-4A70-82F4-0660E43A0902}
+name: Description
+key: description
+content-length: 21
+
+Datum/Zeit auswählen.
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 19
+
+Dialogeinstellungen
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133513Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ac2a61d9-3662-4684-9b45-59895afc9d56
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133513Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 9f470af1-2824-4d49-ae4c-6d1d296f1f23
+
+----field----
+field: {A54A4E90-ECBF-4504-844D-826159193A09}
+name: Header
+key: header
+content-length: 21
+
+Preview Date and Time
+----field----
+field: {9218CF98-A61A-4A70-82F4-0660E43A0902}
+name: Description
+key: description
+content-length: 68
+
+Specify the date and time for when you want to preview your website.
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+00010101T000000
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+9f470af1-2824-4d49-ae4c-6d1d296f1f23
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20141117T134025:635518284258268911Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: cd992134-cf35-431c-8b17-b4bbdeb68a1d
+
+----field----
+field: {A54A4E90-ECBF-4504-844D-826159193A09}
+name: Header
+key: header
+content-length: 7
+
+日付 / 時刻
+----field----
+field: {9218CF98-A61A-4A70-82F4-0660E43A0902}
+name: Description
+key: description
+content-length: 10
+
+日時 / 時刻の選択
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 7
+
+ダイアログ設定
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133641Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+cd992134-cf35-431c-8b17-b4bbdeb68a1d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133641Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

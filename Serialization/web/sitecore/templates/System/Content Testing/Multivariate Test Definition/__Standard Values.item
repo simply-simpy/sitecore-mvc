@@ -1,0 +1,94 @@
+----item----
+version: 1
+id: {2DA13C4C-2493-4614-B3F8-C6989A5A25F0}
+database: web
+path: /sitecore/templates/System/Content Testing/Multivariate Test Definition/__Standard Values
+parent: {AFF050BA-A88C-4DB7-8ED6-9CB2B7CA2688}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {AFF050BA-A88C-4DB7-8ED6-9CB2B7CA2688}
+templatekey: Multivariate Test Definition
+created: 20160729T132117Z
+
+----field----
+field: {6997D734-2B0B-4CE4-8CD0-B4F73A3999A6}
+name: Test Strategy
+key: test strategy
+content-length: 38
+
+{1744A9FF-6E22-43F0-83E8-CCB30DDE35E5}
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 38
+
+{72296CFA-6354-47AD-901A-17F1651E9505}
+----field----
+field: {C9283D9E-7C29-4419-9C28-5A5C8FF53E84}
+name: __Bucketable
+key: __bucketable
+content-length: 1
+
+1
+----field----
+field: {F7B94D8C-A842-49F8-AB7A-2169D00426B0}
+name: __Should Not Organize In Bucket
+key: __should not organize in bucket
+content-length: 1
+
+1
+----field----
+field: {CA9B9F52-4FB0-4F87-A79F-24DEA62CDA65}
+name: __Default workflow
+key: __default workflow
+content-length: 38
+
+{2BAE793F-7392-4790-9E67-9C60B6BF7D7B}
+----version----
+language: en
+version: 1
+revision: 204e1e71-2eef-4cc5-b9a4-59454f4d0b63
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20110216T165543
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+204e1e71-2eef-4cc5-b9a4-59454f4d0b63
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140122T100419:635259818599453126
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,263 @@
+----item----
+version: 1
+id: {43D7456E-C098-4F42-8805-7D905BA283D9}
+database: core
+path: /sitecore/client/Applications/List Manager/Dialogs/SelectContactListDialog
+parent: {9E36887C-C5AB-4699-838D-5F459A9F2D10}
+name: SelectContactListDialog
+master: {00000000-0000-0000-0000-000000000000}
+template: {8152CF09-9DD0-40C0-B806-6E91FDF389BC}
+templatekey: Speak-DialogPage
+created: 20160729T132117Z
+
+----field----
+field: {5E642935-A6FC-48E9-B039-FE1136CED488}
+name: Theme
+key: theme
+content-length: 7
+
+Harvard
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 4064
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{759BEFD1-3323-404D-A243-E0ED81163C03}">
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=Border" ph="Page.Body" uid="{507EA7ED-D129-4A4F-9535-040D41BD1D41}" />
+    <r id="{CB83D434-31ED-4AC3-A280-CCE2B63F9743}" par="PageCodeScriptFileName=%2fsitecore%2fshell%2fclient%2fApplications%2fListManager%2fDialogs%2fSelectContactListDialog%2fSelectContactListDialog.js" ph="Border.Content" uid="{B84DCE4B-7B4C-47E1-9413-4B541E3E84FB}" />
+    <r ds="{7631414E-BD06-40E4-95B2-F8CF7490D5C3}" id="{B60FB581-44D1-4372-86A2-D6E494F020E1}" par="Id=SelectContactListsDialog&amp;Backdrop=Static&amp;EnableKeyboard=1" ph="Border.Content" uid="{DA8EE1F1-11BA-4BE1-AA5C-84CC8CE8A926}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=DialogBorder&amp;UsePadding=0" ph="SelectContactListsDialog.Content" uid="{2884A604-F52A-4E04-B0CC-9F85C3A14896}" />
+    <r ds="{6E892EE1-E43D-43F4-96AA-99E25BFB75D2}" id="{913AB005-2527-4C2D-9827-FB3A8DFB135C}" par="Id=ButtonOK&amp;IsEnabled=0" ph="SelectContactListsDialog.Buttons" uid="{CA5FD103-20F2-4CBC-A4B7-B411291D9445}" />
+    <r ds="{18CAB2A8-2403-4EF6-B183-CF7EB8E0138C}" id="{913AB005-2527-4C2D-9827-FB3A8DFB135C}" par="Id=ButtonCancel&amp;IsEnabled=1" ph="SelectContactListsDialog.Buttons" uid="{73BECA5F-1C29-4838-BFDE-ED14F634A5CB}" />
+    <r id="{C4393722-39FA-4869-9582-3A8EB8983A0D}" par="Id=ListSearchRowPanel" ph="SelectContactListsDialog.Content" uid="{E9364E50-D74E-47F1-8979-A16022F3B530}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=ListSearchColumnPanelLeft&amp;GridColumns=8" ph="ListSearchRowPanel.Content" uid="{2C61FE61-0A6E-48F4-842B-13DA085D8D97}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=ListSearchColumnPanelRight&amp;GridColumns=4&amp;ContentAlign=Right" ph="ListSearchRowPanel.Content" uid="{70426DDF-065D-406F-B745-0A552ECF5F5D}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=ListsSearchBorder&amp;UsePadding=1" ph="ListSearchColumnPanelRight.Content" uid="{47F809E5-4E73-4EF4-A768-55CEEFD0964D}" />
+    <r ds="{72EC6252-EE38-4129-9C7A-AD7275E43CB9}" id="{E4C8C7BE-E941-49F2-9724-29237AE7EA37}" par="IsEnabled=1&amp;Id=ListsSearchButtonTextBox&amp;IsVisible=1" ph="ListsSearchBorder.Content" uid="{611AD295-D550-4F3C-89D0-447C4F485E52}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=ListPathBorder&amp;PaddingType=LeftBottom&amp;UsePadding=1" ph="SelectContactListsDialog.Content" uid="{0295AE03-7146-4555-8257-9BBECCAFB023}" />
+    <r ds="{735933F6-A6C4-4C49-9CC2-97AB323153B6}" id="{2FD4EEAF-06B3-424B-B3D0-F0D51631662F}" par="Id=ListPathControl" ph="ListPathBorder.Content" uid="{60AA429B-7807-4479-86C4-D6F3D1D78C37}" />
+    <r ds="{5A49EC11-F13A-4D49-A72C-76D1E67D45E9}" id="{8A49156E-EA68-42D3-B343-F701042832E3}" par="Id=DialogListsDataSource" ph="SelectContactListsDialog.Content" uid="{41987E41-C8FD-482E-BB96-A56C9426BA28}" />
+    <r ds="{77D3559A-7FA7-4DD5-83FC-CC54B63BE969}" id="{ACE0AFD6-3DE0-42CF-8E62-4E68CD810A8D}" par="ScrollMoreData=next%3aDialogListsDataSource&amp;Id=DialogListControl&amp;IsActiveResizeEnabled=1&amp;IsEndlessScrollEnabled=1&amp;MaxHeight=500&amp;Behaviors=Scrollbar" ph="SelectContactListsDialog.Content" uid="{F6164CF4-9984-4CC4-B324-C977C3665150}" />
+    <r id="{FE9723FC-56E4-4CA8-9C64-CB34F29462A5}" par="Id=DialogListProgressIndicator&amp;AutoShow=0&amp;AutoShowTimeout=False&amp;TargetControl=DialogListControl" ph="DialogBorder.Content" uid="{0E778302-70CC-48FD-8A10-1A40DEAE0AA4}" />
+    <r id="{DC707F46-7F5E-4BA1-9BF9-820B4A23EC3F}" par="Id=Scrollbar&amp;PageScriptFileName=%2fsitecore%2fshell%2fclient%2fSpeak%2fAssets%2flib%2fui%2f1.1%2fbehaviors%2fScrollBar.js&amp;Name=Scrollbar" ph="SelectContactListsDialog.Content" uid="{8D1EC270-53ED-4959-B0C0-B1359794548D}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=BorderForLastRow&amp;Height=50&amp;UsePadding=1&amp;ShowBorder=0" ph="SelectContactListsDialog.Content" uid="{8183F46F-DC0B-4F50-9066-04A4614AB150}" />
+  </d>
+</r>
+----version----
+language: da
+version: 1
+revision: dff0209c-0897-4f63-b731-c44349a000b9
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 23
+
+SelectContactListDialog
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133325Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+dff0209c-0897-4f63-b731-c44349a000b9
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133325Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: dc0d6e8e-e711-45e8-be5e-d4f3b543f5fc
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 27
+
+AuswählenKontaktlisteDialog
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133451Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+dc0d6e8e-e711-45e8-be5e-d4f3b543f5fc
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133451Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: f85762d4-0a1e-41ca-8a6d-a221a8bbc3fb
+
+----field----
+field: {7205A57F-93B4-413A-AA9A-6B16BBC59565}
+name: BrowserTitle
+key: browsertitle
+content-length: 0
+
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140409T100542
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f85762d4-0a1e-41ca-8a6d-a221a8bbc3fb
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20150729T165115Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 5d3e09f6-8b47-48f3-aad9-e30680ecc55c
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 16
+
+コンタクト リスト選択ダイアログ
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133618Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5d3e09f6-8b47-48f3-aad9-e30680ecc55c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133618Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,249 @@
+----item----
+version: 1
+id: {B4907EE4-5207-4C19-AC26-EDEE7A1F13EE}
+database: core
+path: /sitecore/client/Applications/ContentTesting/ExperienceOptimization/Dashboard/PageTest/PageSettings/SelectPageWindowParameters
+parent: {A93C25B6-16EB-4BDE-832C-C163343E520F}
+name: SelectPageWindowParameters
+master: {00000000-0000-0000-0000-000000000000}
+template: {4D96D06C-54EE-47F3-97E5-1B4FA4B902B0}
+templatekey: DialogWindow Parameters
+created: 20160729T132117Z
+
+----field----
+field: {6A80F83A-4295-47E0-BFB5-2F88729AB09B}
+name: Size
+key: size
+content-length: 38
+
+{F505B72F-890A-4190-8C48-742A4FEBD6B0}
+----field----
+field: {91B99AF8-8C82-4F69-A1AB-D2C6B90140BF}
+name: Backdrop
+key: backdrop
+content-length: 6
+
+Static
+----version----
+language: da
+version: 1
+revision: 94c076ff-5d57-4b39-bea8-88bc4e4c876f
+
+----field----
+field: {7065AC6A-3607-4F0B-97CF-9D0B46B961FF}
+name: HeaderText
+key: headertext
+content-length: 30
+
+Vælg den side, der skal testes
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 26
+
+SelectPageWindowParameters
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133343Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+94c076ff-5d57-4b39-bea8-88bc4e4c876f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133343Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 14a774fd-e3d5-4af0-aa08-59c2d90c3411
+
+----field----
+field: {7065AC6A-3607-4F0B-97CF-9D0B46B961FF}
+name: HeaderText
+key: headertext
+content-length: 24
+
+Seite für Test auswählen
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 30
+
+AuswählenSeiteFensterParameter
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133514Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+14a774fd-e3d5-4af0-aa08-59c2d90c3411
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133514Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 782f3400-d2f9-450c-9e1a-7654d7843ddc
+
+----field----
+field: {7065AC6A-3607-4F0B-97CF-9D0B46B961FF}
+name: HeaderText
+key: headertext
+content-length: 19
+
+Select page to test
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140701T111221
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+782f3400-d2f9-450c-9e1a-7654d7843ddc
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20141024T095640:635497414007776855Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: f08dec80-5461-484e-ab9f-cf4c1d7e3e4c
+
+----field----
+field: {7065AC6A-3607-4F0B-97CF-9D0B46B961FF}
+name: HeaderText
+key: headertext
+content-length: 11
+
+テストするページを選択
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 19
+
+ページ ウィンドウ パラメーターを選択
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133641Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f08dec80-5461-484e-ab9f-cf4c1d7e3e4c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133641Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

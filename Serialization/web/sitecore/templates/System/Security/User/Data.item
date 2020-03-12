@@ -1,0 +1,31 @@
+----item----
+version: 1
+id: {FBF76612-6EE2-412D-8D33-602D552E35FE}
+database: web
+path: /sitecore/templates/System/Security/User/Data
+parent: {642C9A7E-EE31-4979-86F0-39F338C10AFB}
+name: Data
+master: {00000000-0000-0000-0000-000000000000}
+template: {E269FBB5-3750-427A-9149-7AA950B49301}
+templatekey: Template section
+created: 20160729T132117Z
+
+----field----
+field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
+name: __Workflow
+key: __workflow
+content-length: 0
+
+
+----version----
+language: en
+version: 1
+revision: 
+
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 0
+
+

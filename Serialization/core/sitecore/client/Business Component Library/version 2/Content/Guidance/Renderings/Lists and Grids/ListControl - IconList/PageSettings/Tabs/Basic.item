@@ -1,0 +1,242 @@
+----item----
+version: 1
+id: {A9F17B85-6F57-4AFE-81F2-821A39951BA6}
+database: core
+path: /sitecore/client/Business Component Library/version 2/Content/Guidance/Renderings/Lists and Grids/ListControl - IconList/PageSettings/Tabs/Basic
+parent: {FF87E87F-469B-4B96-94B0-C3116552E691}
+name: Basic
+master: {1A934758-1761-446E-AA0E-D19B3369292B}
+template: {8A7ACB1A-0990-4C9E-A6F0-9612D0F5F51C}
+templatekey: Tab
+created: 20160729T132116Z
+
+----field----
+field: {3A98ADC3-530B-4281-880D-2D56DCC605AF}
+name: IsLazyLoaded
+key: islazyloaded
+content-length: 1
+
+1
+----field----
+field: {CE20211A-8144-4D75-82CE-3AF16D69BA5C}
+name: QueryParameterValue
+key: queryparametervalue
+content-length: 5
+
+Basic
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+100
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 0
+
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 5889
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{759BEFD1-3323-404D-A243-E0ED81163C03}">
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border&amp;UsePadding=1" ph="Page.Body" uid="{8BBF3A61-694C-4937-B680-BF363191A945}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanelStaticData&amp;ConfigurationDetails=StaticData%3d%7b6C7A71E0-258F-4AF4-B8ED-D8CB75169339%7d&amp;Description=The+StaticData+property+specifies+the+ID+of+an+item+in+the+content+tree.+The+control+shows+all+items+that+are+child+items+of+this+item.+&amp;Title=Specifying+static+data+as+the+content+of+the+control" ph="Border.Content" uid="{345319FC-077A-410D-96AF-BA8E351CA6C9}" />
+    <r id="{6F8AB6DD-9307-4AD3-964E-5B84F0B9B4F0}" par="Id=ListControlStaticData&amp;ViewMode=IconList&amp;StaticData=%7b6C7A71E0-258F-4AF4-B8ED-D8CB75169339%7d&amp;IsStateDiscarded=0" ph="DemoComponentPanelStaticData.Content" uid="{BB8C16D4-B243-40CC-8399-80C09AE111DC}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanelDynamicData&amp;ConfigurationDetails=DynamicData%3d%7bBinding+DataSourceDynamicData.Items%7d%26Button.Click%3djavascript%3aapp.ListControlDynamicData.DynamicData%3d%5b%7b+%22%24displayName%22%3a+%22Hello+world%22%2c+%22%24url%22%3a+%22%23%22%2c+%22%24mediaurl%22%3a+%22%2ftemp%2fIconCache%2fPeople%2f48x48%2fworkstation1.png%22+%7d%5d&amp;Description=The+DynamicData+property+specifies+a+dynamic+data+provider+for+the+control.+The+typical+use+is+that+the+DynamicData+property+binds+to+the+Items+property+of+a+data+source+component%2c+or+that+you+provide+data+from+JavaScript.+In+this+demo%2c+the+Click+property+of+the+button+contains+JavaScript+that+updates+the+DynamicData+property+of+the+ListControl.&amp;Title=Specifying+dynamic+data+as+the+content+of+the+control" ph="Border.Content" uid="{345319FC-077A-410D-96AF-BA8E351CA6C9}" />
+    <r id="{52726938-C811-4763-B80F-EB58DEE008E2}" par="Id=DataSourceDynamicData&amp;Query=%2fsitecore%2fclient%2fBusiness+Component+Library%2fversion+2*&amp;Database=%24context_database" ph="Page.Body" uid="{A9DA0410-4209-489D-85D2-8A6460208B14}" />
+    <r id="{6F8AB6DD-9307-4AD3-964E-5B84F0B9B4F0}" par="Id=ListControlDynamicData&amp;ViewMode=IconList&amp;DynamicData=%7bBinding+DataSourceDynamicData.Items%7d&amp;IsStateDiscarded=0" ph="DemoComponentPanelDynamicData.Content" uid="{BB8C16D4-B243-40CC-8399-80C09AE111DC}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=BorderDynamicData&amp;PaddingType=Top&amp;UsePadding=1" ph="DemoComponentPanelDynamicData.Content" uid="{E18D72FE-476C-4A3E-B44E-AFDC28BB59B1}" />
+    <r id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" par="Id=ButtonDynamicData&amp;ButtonType=Primary&amp;Text=Update+data&amp;Click=javascript%3aapp.ListControlDynamicData.DynamicData%3d%5b%7b+%22%24displayName%22%3a+%22Hello+world%22%2c+%22%24url%22%3a+%22%23%22%2c+%22%24mediaurl%22%3a+%22%2ftemp%2fIconCache%2fPeople%2f48x48%2fworkstation1.png%22+%7d%5d" ph="BorderDynamicData.Content" uid="{DA941294-6BDA-45EE-92FA-F1A365D61E0F}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanelClick&amp;ConfigurationDetails=ItemClick%3djavascript%3aalert(%22Hello+world%22)%3b&amp;Description=The+ItemClick+property+specifies+JavaScript+that+the+control+runs+when+a+user+clicks+on+a+row+of+items.&amp;Title=Running+JavaScript" ph="Border.Content" uid="{345319FC-077A-410D-96AF-BA8E351CA6C9}" />
+    <r id="{6F8AB6DD-9307-4AD3-964E-5B84F0B9B4F0}" par="Id=ListControlClick&amp;ViewMode=IconList&amp;StaticData=%7b6C7A71E0-258F-4AF4-B8ED-D8CB75169339%7d&amp;IsStateDiscarded=0&amp;ItemClick=javascript%3aalert(%22Hello+world%22)%3b" ph="DemoComponentPanelClick.Content" uid="{BB8C16D4-B243-40CC-8399-80C09AE111DC}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanelIconSize&amp;ConfigurationDetails=IconSize%3d24x24&amp;Description=The+IconSize+property+specifies+the+size+of+the+icons+in+pixels.+Options+include+16x16%2c+24x24%2c+32x32%2c+and+up+to+512x512.&amp;Title=Specifying+icon+size" ph="Border.Content" uid="{345319FC-077A-410D-96AF-BA8E351CA6C9}" />
+    <r id="{6F8AB6DD-9307-4AD3-964E-5B84F0B9B4F0}" par="Id=ListControlIconSize&amp;ViewMode=IconList&amp;StaticData=%7b6C7A71E0-258F-4AF4-B8ED-D8CB75169339%7d&amp;IconSize=%7bC4659B0A-E172-4CEA-AEB0-3A94EE6F36A0%7d&amp;IsStateDiscarded=0" ph="DemoComponentPanelIconSize.Content" uid="{BB8C16D4-B243-40CC-8399-80C09AE111DC}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanelTextAlignment&amp;ConfigurationDetails=TextAlignment%3dRight&amp;Description=The+TextAlignment+property+specifies+the+text+alignment.+Options+include+Left+(the+default)%2c+Center%2c+and+Right.&amp;Title=Specifying+text+alignment" ph="Border.Content" uid="{345319FC-077A-410D-96AF-BA8E351CA6C9}" />
+    <r id="{6F8AB6DD-9307-4AD3-964E-5B84F0B9B4F0}" par="Id=ListControlTextAlignment&amp;ViewMode=IconList&amp;TextAlignment=Right&amp;StaticData=%7b6C7A71E0-258F-4AF4-B8ED-D8CB75169339%7d&amp;IsStateDiscarded=0" ph="DemoComponentPanelTextAlignment.Content" uid="{BB8C16D4-B243-40CC-8399-80C09AE111DC}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanelEmptyText&amp;ConfigurationDetails=EmptyText%3dHello+world!&amp;Description=The+EmptyText+property+specifies+a+text+the+control+shows+when+it+has+no+data+to+show.+The+default+text+is+%22No+data+to+display%22%2c+and+it+shows+this+text+when+this+property+is+empty.&amp;Title=Specifying+a+message+the+control+shows+when+no+data+is+available" ph="Border.Content" uid="{345319FC-077A-410D-96AF-BA8E351CA6C9}" />
+    <r id="{6F8AB6DD-9307-4AD3-964E-5B84F0B9B4F0}" par="EmptyText=Hello+world!&amp;Id=ListControlEmptyText&amp;ViewMode=IconList&amp;IsStateDiscarded=0" ph="DemoComponentPanelEmptyText.Content" uid="{BB8C16D4-B243-40CC-8399-80C09AE111DC}" />
+  </d>
+</r>
+----version----
+language: de-DE
+version: 1
+revision: 36c2549a-10f9-4c19-ab62-2707d96a26b6
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 11
+
+Grundlegend
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 11
+
+Grundlegend
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133512Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+36c2549a-10f9-4c19-ab62-2707d96a26b6
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133512Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 234c9520-047c-4cf5-ba31-cb860a542d50
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 5
+
+Basic
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150326T143534Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+234c9520-047c-4cf5-ba31-cb860a542d50
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160408T105633Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 440d3fb4-ae31-415a-a905-be4685fd7378
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 5
+
+ベーシック
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 5
+
+ベーシック
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133639Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+440d3fb4-ae31-415a-a905-be4685fd7378
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133639Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

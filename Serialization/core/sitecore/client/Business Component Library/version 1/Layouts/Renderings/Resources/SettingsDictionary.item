@@ -1,0 +1,358 @@
+----item----
+version: 1
+id: {8BE75D0B-EA4E-4FEE-976C-A5CCB5BE5011}
+database: core
+path: /sitecore/client/Business Component Library/version 1/Layouts/Renderings/Resources/SettingsDictionary
+parent: {1C7738D7-7514-44A3-9770-2153ACB4426C}
+name: SettingsDictionary
+master: {00000000-0000-0000-0000-000000000000}
+template: {99F8905D-4A87-4EB8-9F8B-A9BEBFB3ADD6}
+templatekey: View rendering
+created: 20160729T132116Z
+
+----field----
+field: {51B435BC-F7B9-478A-9C51-52916AF96FF5}
+name: Path
+key: path
+content-length: 104
+
+/sitecore/shell/client/Speak/Layouts/Renderings/Resources/SettingsDictionaries/SettingsDictionary.cshtml
+----field----
+field: {7D24E54F-5C16-4314-90C9-6051AA1A7DA1}
+name: Parameters Template
+key: parameters template
+content-length: 38
+
+{F329F5A5-0691-4901-937A-EA420F188BFA}
+----field----
+field: {EF7C5528-7307-4E19-863B-DA19EED6A9ED}
+name: Open Properties after Add
+key: open properties after add
+content-length: 0
+
+
+----field----
+field: {989631C3-8CD3-4D04-A996-7C1F4EEC75A4}
+name: Default Parameters
+key: default parameters
+content-length: 21
+
+Placeholder=Page.Code
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 26
+
+Control/16x16/button_b.png
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 363
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{75CC5CE4-8979-4008-9D3C-806477D57619}">
+    <r id="{4B77BB29-C937-4620-A6CC-A14B1A38DE8A}" par="Id=RenderView&amp;Path=%2fsitecore%2fshell%2fclient%2fBusiness+Component+Library%2fContent%2fDocumentation%2fExamples%2fSettingsDictionary.cshtml" uid="{9F1D068A-4C83-4A2D-88BF-20FE871D7CB7}" />
+  </d>
+</r>
+----version----
+language: da
+version: 1
+revision: 33eeeb89-6855-464d-aa2c-fab7cd734931
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 18
+
+SettingsDictionary
+----field----
+field: {577F1689-7DE4-4AD2-A15F-7FDC1759285F}
+name: __Long description
+key: __long description
+content-length: 698
+
+Nogle gange kan det være nyttigt at gøre web.config-indstillinger tilgængelige for JavaScript-kode.
+
+Renderingen af SettingsDictionary kan anvende indstillinger fra objektet web.config til Sitecore.Resources.Settings.
+
+Renderingen SettingsDictionary bruger en datakilde, der indeholder et tekstfelt bestående af flere linjer til indstillinger, der hedder Indstillinger.
+
+Feltet Indstillinger indeholder en liste med kommaseparerede navne på web.config-indstillinger.
+
+Når renderingen SettingsDictionary vises, udsendes hver indstilling til Sitecore.Resources.Settings-objektet.
+
+Indstillingen hentes på følgende måde:
+javascript: var setting = Sitecore.Resources.Settings[“settingName”];
+----field----
+field: {9541E67D-CE8C-4225-803D-33F7F29F09EF}
+name: __Short description
+key: __short description
+content-length: 57
+
+Gør web.config-indstillinger tilgængelige for JavaScript.
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133336Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+33eeeb89-6855-464d-aa2c-fab7cd734931
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133336Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 1efce3b5-8f83-40fe-9504-a07ba3af647c
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 24
+
+EinstellungenVerzeichnis
+----field----
+field: {577F1689-7DE4-4AD2-A15F-7FDC1759285F}
+name: __Long description
+key: __long description
+content-length: 742
+
+Gelegentlich kann es nützlich sein, web.config-Einstellungen für den JavaScript Code verfügbar zu machen.
+
+Das SettingsDictionary Rendering kann Einstellungen aus der web.config auf das Sitecore.Resources.Settings Objekt anwenden.
+
+DasSettingsDictionary Rendering verwendet eine Datenquelle, die ein Einstellungs-Multiline-Textfeld mit dem Namen Einstellungen beinhaltet.
+
+Das Einstellungsfeld beinhaltet eine Liste von durch Komma getrennte Namen von web.config Einstellungen.
+
+Wenn das SettingsDictionary Rendering gerendert ist, wird jede Einstellung an das Sitecore.Resources.Settings Objekt ausgegeben.
+
+Um eine Einstellung abzurufen, machen Sie folgendes:
+javascript: var setting = Sitecore.Resources.Settings[“settingName”];
+----field----
+field: {9541E67D-CE8C-4225-803D-33F7F29F09EF}
+name: __Short description
+key: __short description
+content-length: 60
+
+Macht web.config Einstellungen für das JavaScript verfügbar.
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133506Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+1efce3b5-8f83-40fe-9504-a07ba3af647c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133506Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 077cc9b0-7124-45c1-a708-350956375a90
+
+----field----
+field: {577F1689-7DE4-4AD2-A15F-7FDC1759285F}
+name: __Long description
+key: __long description
+content-length: 692
+
+Occasionally it can be useful to make web.config settings available to JavaScript code.
+
+The SettingsDictionary rendering can apply settings from web.config to the SPEAK application.
+
+The SettingsDictionary rendering uses a data source that contains a Settings Multi-line Text field named Settings.
+
+The Settings field contains a list of comma-separated names of web.config settings.
+
+When the SettingsDictionary rendering is rendered, each setting is outputted to the appropriate contol as attribute.
+
+To retrieve a setting, do this:
+javascript: var setting = app.SettingDictionaryId.get("settingName");
+or
+javascript: var setting = Sitecore.Resources.Settings["settingName"];
+
+----field----
+field: {9541E67D-CE8C-4225-803D-33F7F29F09EF}
+name: __Short description
+key: __short description
+content-length: 50
+
+Makes web.config settings available to JavaScript.
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20120508T121502
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+077cc9b0-7124-45c1-a708-350956375a90
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20131211T114753:635223592732643389
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 273e2624-9b11-47d0-8fc3-48bcc2bf7ae0
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 5
+
+設定用辞書
+----field----
+field: {577F1689-7DE4-4AD2-A15F-7FDC1759285F}
+name: __Long description
+key: __long description
+content-length: 462
+
+JavaScript コードで Web.config の設定を使用できます。
+
+設定用辞書レンダリングは Web.config の設定を SPEAK アプリケーションに適用できます。
+
+設定用辞書レンダリングは Settings と名付けられた Settings Multi-line Text フィールドに含まれるデータソースを使用します。
+
+Settings フィールドにはコンマ区切りされた Web.config 設定の名前のリストが含まれます。
+
+設定用辞書レンダリングがレンダリングされるタイミングで、各設定は適切なコントロールの属性として出力されます。
+
+以下の方法で設定を取得することができます：
+javascript: var setting = app.SettingDictionaryId.get("settingName");
+または
+javascript: var setting = Sitecore.Resources.Settings["settingName"];
+----field----
+field: {9541E67D-CE8C-4225-803D-33F7F29F09EF}
+name: __Short description
+key: __short description
+content-length: 34
+
+Web.config の設定を JavaScript で利用する方法
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133633Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+273e2624-9b11-47d0-8fc3-48bcc2bf7ae0
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133633Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

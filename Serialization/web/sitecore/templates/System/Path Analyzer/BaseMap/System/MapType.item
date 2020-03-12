@@ -1,0 +1,122 @@
+----item----
+version: 1
+id: {E39B8257-0419-460F-810E-2224B8220537}
+database: web
+path: /sitecore/templates/System/Path Analyzer/BaseMap/System/MapType
+parent: {A9212A74-31B3-4F39-8615-1F9BCC143F74}
+name: MapType
+master: {00000000-0000-0000-0000-000000000000}
+template: {455A3E98-A627-4B40-8035-E683A0331AC7}
+templatekey: Template field
+created: 20160729T132117Z
+
+----field----
+field: {AB162CC0-DC80-4ABF-8871-998EE5D7BA32}
+name: Type
+key: type
+content-length: 8
+
+Droptree
+----field----
+field: {1EB8AE32-E190-44A6-968D-ED904C794EBF}
+name: Source
+key: source
+content-length: 38
+
+{5DB5DCEF-7529-47F6-A216-24AA86777010}
+----field----
+field: {BE351A73-FCB0-4213-93FA-C302D8AB4F51}
+name: Shared
+key: shared
+content-length: 1
+
+1
+----field----
+field: {39847666-389D-409B-95BD-F2016F11EED5}
+name: Unversioned
+key: unversioned
+content-length: 1
+
+1
+----field----
+field: {337E20E1-999A-4EEA-85AD-B58A03AE75CC}
+name: Quick Action Bar
+key: quick action bar
+content-length: 77
+
+{59D4EE10-627C-4FD3-A964-61A88B092CBC}|{9C324B1D-529E-4BA9-977D-249C9B66A603}
+----field----
+field: {21828437-EA4B-40A1-8C61-4CE60EA41DB6}
+name: Validate Button
+key: validate button
+content-length: 77
+
+{59D4EE10-627C-4FD3-A964-61A88B092CBC}|{9C324B1D-529E-4BA9-977D-249C9B66A603}
+----field----
+field: {9C903E29-650D-4AF2-B9BD-526D5C14A1A5}
+name: Validator Bar
+key: validator bar
+content-length: 77
+
+{59D4EE10-627C-4FD3-A964-61A88B092CBC}|{9C324B1D-529E-4BA9-977D-249C9B66A603}
+----field----
+field: {53C432C4-7122-4E2D-8296-DB4184FD1735}
+name: Workflow
+key: workflow
+content-length: 77
+
+{59D4EE10-627C-4FD3-A964-61A88B092CBC}|{9C324B1D-529E-4BA9-977D-249C9B66A603}
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+100
+----version----
+language: en
+version: 1
+revision: ff65fd61-6e71-42b0-83e0-a4d2ca766f5f
+
+----field----
+field: {19A69332-A23E-4E70-8D16-B2640CB24CC8}
+name: Title
+key: title
+content-length: 8
+
+Map Type
+----field----
+field: {9541E67D-CE8C-4225-803D-33F7F29F09EF}
+name: __Short description
+key: __short description
+content-length: 12
+
+The map type
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20140826T024608Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ff65fd61-6e71-42b0-83e0-a4d2ca766f5f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20150708T201114Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

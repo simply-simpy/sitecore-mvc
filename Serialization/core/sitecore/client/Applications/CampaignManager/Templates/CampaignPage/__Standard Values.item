@@ -1,0 +1,100 @@
+----item----
+version: 1
+id: {74D471BD-D9B1-4BD9-91EF-AD54841F5679}
+database: core
+path: /sitecore/client/Applications/CampaignManager/Templates/CampaignPage/__Standard Values
+parent: {FE367D88-8255-4744-A304-E7A10FB7B15E}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {FE367D88-8255-4744-A304-E7A10FB7B15E}
+templatekey: CampaignPage
+created: 20160729T132117Z
+
+----field----
+field: {5E642935-A6FC-48E9-B039-FE1136CED488}
+name: Theme
+key: theme
+content-length: 7
+
+Harvard
+----field----
+field: {3A67AD0F-9530-4B1B-9B70-9230C36AE8D6}
+name: UseFullWidth
+key: usefullwidth
+content-length: 1
+
+1
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 5982
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{4F72A793-BDBC-4262-9523-6AADD8FEA487}">
+    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="PageCodeScriptFileName=%2f-%2fspeak%2fv1%2fcampaignmanager%2fcampaign.js" ph="Page.Code" uid="{E9762D2D-51FD-4B5F-B340-20060C9F51F1}" />
+    <r id="{56A04392-9E0E-4609-AE9A-ACD28C7F749B}" ph="Page.Body" uid="{BED45FDD-A392-4749-89AC-66F382D44F8E}" />
+    <r id="{5AE97C0C-EE88-4564-A363-4FA11C01C90A}" ph="GlobalHeader" uid="{E51C9DD4-F52E-4038-B3CB-D537C88115E4}" />
+    <r id="{7A69C522-7E99-4630-A25A-5D571505862A}" par="Id=GlobalLogo" ph="GlobalHeader.StartButton" uid="{A340B9F2-9FD0-4767-9B0B-62D7C8B0E5C7}" />
+    <r id="{2EE499CD-439A-4F10-B81F-36A54CAC01DB}" par="Id=AccountInformation" ph="GlobalHeader.LoginInfo" uid="{B6E77653-41CC-4F03-93C1-7EB538888BDA}" />
+    <r id="{EC86834B-890C-405C-BB36-CA25044909E1}" ph="GlobalFooter" uid="{AB8AC4EB-A6AF-4997-8E2D-B647755F1043}" />
+    <r id="{93CEEFCD-2DE1-40AF-AE9A-EBBFBCCC522F}" ph="ApplicationHeader" uid="{12FE591F-DE44-4DFF-9F62-D35B2770D604}" />
+    <r id="{AF79ED5D-4396-4EEC-8E22-9D7C523266FA}" par="Id=Breadcrumb&amp;RootItemId=%7bB1D4E3B6-E2AB-48D6-ACC4-D211D77788CD%7d" ph="ApplicationHeader.BreadCrumb" uid="{8CBF20F4-DFB7-485F-B855-FE7985A76627}" />
+    <r ds="{FF9A05CD-798E-40CC-9CD9-82B75AE0EB7F}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=HeaderTitle" ph="ApplicationHeader.Title" uid="{B4557FA1-C46B-4DA0-B3E3-7894A2142B3F}" />
+    <r ds="{439BF7C6-5C84-4517-B917-7FDBD260FD2E}" id="{C80807A7-AD13-4693-9822-DD840CB266C5}" par="Id=BackButton" ph="ApplicationHeader.Back" uid="{5F34CD12-C574-4B5F-BFEE-BD819730D650}" />
+    <r ds="{F0858D54-AA5B-4CDD-89BF-5EF056B823A1}" id="{C2FAF554-1419-4B6E-96B8-EC7DB6995B3C}" par="Id=ActionControl&amp;IsVisible=%7bBinding+EntityDataSource.EntityID%7d&amp;IsEnabled=%7bBinding+EntityDataSource.EntityID%7d" ph="ApplicationHeader.Actions" uid="{A8A3B73C-F71A-49AE-A12D-9CD4D1A2BBB0}" />
+    <r ds="{CF840782-B0EC-47BF-960F-AE67EBA65B82}" id="{913AB005-2527-4C2D-9827-FB3A8DFB135C}" par="Id=SaveButton&amp;IsEnabled=0" ph="ApplicationHeader.Actions" uid="{FB960118-7CE2-43D2-A1BC-1D09AC46AF50}" />
+    <r id="{910155C7-3881-4A56-90FB-D126490EDE55}" par="Id=MessageBar" ph="ApplicationHeader" uid="{0896C387-3892-483A-9A56-9D239218EC50}" />
+    <r id="{66FCCA3B-7E75-4248-A8B7-F80CB4E673D3}" par="Id=AnalyticsChecker" ph="ApplicationContent" uid="{C7A4DC05-343C-45C8-BC82-00D7FFB217F2}" />
+    <r id="{FE9723FC-56E4-4CA8-9C64-CB34F29462A5}" par="Id=ProgressIndicator&amp;IsVisible=1&amp;IsBusy=1&amp;AutoShowTimeout=10000" ph="ApplicationContent" uid="{607DDD15-2EBB-4FE6-8D78-80B64B2BFD4F}" />
+    <r id="{FCD1A2CC-0061-4D84-9FE8-0CCE140468A9}" par="ServiceUrl=%2fsitecore%2fapi%2fssc%2fCampaignManagement%2fCampaign&amp;Id=EntityDataSource" ph="ApplicationContent" uid="{781371B3-D830-4ECE-A3A1-2DE7901E394E}" />
+    <r ds="{AC38463E-06A9-4758-8615-8DD946FCE86A}" id="{A82840D0-633E-4D1A-B7FE-8C0062AA22F1}" par="Id=StringDictionary" ph="ApplicationContent" uid="{4872B46A-CD3E-42C5-8F0C-562C8681EB75}" />
+    <r ds="{3CE4EF87-01D8-4918-9FA2-9509E6926017}" id="{8B4238F3-D5CD-464D-8DE6-4A69E05CD55B}" par="UsePlaceholders=1" ph="ApplicationContent" uid="{7E64B348-DAF8-474D-A7C5-C4DEF2CFE610}" />
+    <r ds="{117BEC16-8C28-40AE-9671-A2FD44C55A14}" id="{8B4238F3-D5CD-464D-8DE6-4A69E05CD55B}" par="UsePlaceholders=1" ph="ApplicationContent" uid="{7E64B348-DAF8-474D-A7C5-C4DEF2CFE610}" />
+    <r id="{26541BC4-C62D-4F2F-BE3F-A4E2195FEE0F}" ph="ApplicationContent" uid="{E8DFF90F-B691-4401-A4EB-3AED33391C1A}" />
+    <r ds="{6F692501-9D8D-426E-B0EF-1DD0A171E300}" id="{442BD093-FBAD-4E36-BC08-489E16C82D08}" par="Id=GeneralCampaignInfoAdvancedExpander" ph="ApplicationContent.Main" uid="{4BDB6943-810D-4BC5-BD4B-07F1AD9EE0C1}" />
+    <r ds="{85D11825-9F01-4FC7-BE81-7775A0555F56}" id="{1E538B08-446D-40BF-BE63-B6ABBD266C6A}" par="Id=CampaignInfoSubAppRenderer&amp;UsePlaceholders=1" ph="GeneralCampaignInfoAdvancedExpander.Body" uid="{85607C9F-FD34-4080-B72B-AA6CDF149E08}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=CampaignInfoBorder&amp;Height=15px" ph="ApplicationContent.Main" uid="{4FA0F899-26A8-45A8-A47C-C4B719C0D834}" />
+    <r ds="{6A36BDFE-814D-4B49-9AEB-54D27422162C}" id="{442BD093-FBAD-4E36-BC08-489E16C82D08}" par="Id=CampaignClassificationAdvancedExpander" ph="ApplicationContent.Main" uid="{E76040F9-6EEE-4337-ACC8-A6FC66511E4D}" />
+    <r id="{73A06518-3FE7-410D-8876-33CA70DAD0B6}" par="Id=ClassificationsDataSource&amp;MethodName=GetAll&amp;Url=%2fsitecore%2fapi%2fssc%2fCampaignManagement%2fClassifications" ph="CampaignClassificationAdvancedExpander.Body" uid="{5C3CA79F-E6BA-4AAF-8E64-D900388170ED}" />
+    <r id="{9B955CDD-1F2F-4CB4-83E4-33ED0D7521FE}" par="Id=CampaignClassifications&amp;LabelColumnSize=2&amp;ValueColumnSize=10" ph="CampaignClassificationAdvancedExpander.Body" uid="{A544849C-DF9F-442D-ABD5-E3738A278459}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=CampaignClassificationBorder&amp;Height=15px" ph="ApplicationContent.Main" uid="{4FA0F899-26A8-45A8-A47C-C4B719C0D834}" />
+    <r ds="{FCAF7BD8-7AD0-426E-B963-EAF182E0EAAA}" id="{442BD093-FBAD-4E36-BC08-489E16C82D08}" par="Id=CampaignExecutionAdvancedExpander" ph="ApplicationContent.Main" uid="{1F5CD277-B7F0-43AC-B448-E68302491D81}" />
+    <r ds="{A0341906-07A5-4991-B996-D5894F67920A}" id="{1E538B08-446D-40BF-BE63-B6ABBD266C6A}" par="Id=ExecutionSubAppRenderer&amp;UsePlaceholders=1" ph="CampaignExecutionAdvancedExpander.Body" uid="{828B07D1-6FB4-406A-9BCC-9A0A40031473}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=InfoSpot&amp;UsePadding=0" ph="ApplicationContent.Info" uid="{300B63B0-D0C8-439D-B4FC-95307DD54868}" />
+    <r ds="{BBD98E92-1C4B-4694-87FA-3B102BEE4730}" id="{8B4238F3-D5CD-464D-8DE6-4A69E05CD55B}" par="UsePlaceholders=1" ph="InfoSpot.Content" uid="{BF4AECE5-02F4-4C54-9FE8-45E8D912DCE8}" />
+  </d>
+</r>
+----version----
+language: en
+version: 1
+revision: 8049af40-8b5b-47b8-9056-76d29b768de1
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150206T134431Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+8049af40-8b5b-47b8-9056-76d29b768de1
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150428T130348:635658230282949775Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,256 @@
+----item----
+version: 1
+id: {D4BA15D6-263A-43E6-93DD-CE9E41C7D8E4}
+database: core
+path: /sitecore/client/Business Component Library/version 1/Layouts/Renderings/Resources/Rule/Rules/Actions/MakeInternalLinkFromTreeView
+parent: {D4CABAEF-F4EA-4167-A633-82F45E230860}
+name: MakeInternalLinkFromTreeView
+master: {00000000-0000-0000-0000-000000000000}
+template: {F90052A5-B4E6-4E6D-9812-1E1B88A6FCEA}
+templatekey: Action
+created: 20160729T132116Z
+
+----field----
+field: {0B8B930B-8916-4462-BD4D-700303EADFD6}
+name: Code
+key: code
+content-length: 0
+
+
+----version----
+language: da
+version: 1
+revision: d5175b8a-0ad1-48cb-823e-0bb8ec368223
+
+----field----
+field: {EEB36A3B-40D9-4AF5-862A-DE257B84DCA3}
+name: Text
+key: text
+content-length: 531
+
+angiv visningsteksten til tekstegenskaben for [targetDisplayTextID,,,textControl1], forespørgselsværdi til tekstegenskaben for [targetQueryID,,,textControl2], destinationsvindue til [targetWindowID,,,comboBox1]s selectedItem-egenskab, alternativtekst til tekstegenskaben for [targetAltTextID,,,textControl3], typografi til tekstegenskaben for [targetStyleID,,,textControl4], id til [targetControlID,,,treeView1]s selectedItemId-egenskab og stiværdi til [targetPathID,,,treeView2]s selectedNodes egenskab [targetPathProperty,,,path]
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 28
+
+MakeInternalLinkFromTreeView
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133348Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d5175b8a-0ad1-48cb-823e-0bb8ec368223
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133348Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 90c87393-89cd-432a-b07e-db6ba9896583
+
+----field----
+field: {EEB36A3B-40D9-4AF5-862A-DE257B84DCA3}
+name: Text
+key: text
+content-length: 601
+
+Den Hyperlinkanzeigetext auf die Texteigenschaft des [targetDisplayTextID,,,textControl1] setzen, den Querywert auf die Texteigenschaft des [targetQueryID,,,textControl2], den Zielfensterwert auf  die selectedItem-Eigenschaft des[targetWindowID,,,comboBox1], den Alternativtext auf die Texteigenschaft des [targetAltTextID,,,textControl3], den Stil auf die Texteigenschaft des [targetStyleID,,,textControl4], die ID auf die  selectedItemId-Eigenschaft des [targetControlID,,,treeView1] und den Pfadwert auf die [targetPathID,,,treeView2] von der selectedNode's  [targetPathProperty,,,path] Eigenschaft
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 35
+
+ErstellenInternerLinkVonBaumansicht
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133520Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+90c87393-89cd-432a-b07e-db6ba9896583
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133520Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: ef2f241b-0448-4df0-8089-69ff2a5b69e4
+
+----field----
+field: {EEB36A3B-40D9-4AF5-862A-DE257B84DCA3}
+name: Text
+key: text
+content-length: 583
+
+set the hyperlink display text to [targetDisplayTextID,,,textControl1]'s text property, query value to [targetQueryID,,,textControl2]'s text property, target window value to [targetWindowID,,,comboBox1]'s selectedItem property, custom URL value to [customUrlID,,,textControl3]'s text property, alternative text to [targetAltTextID,,,textControl4]'s text property, style to [targetStyleID,,,textControl5]'s text property, id to [targetControlID,,,treeView1]'s selectedItemId property, and path value to [targetPathID,,,treeView2]'s selectedNode's  [targetPathProperty,,,path] property
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130320T095200
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ef2f241b-0448-4df0-8089-69ff2a5b69e4
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20150706T063825Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: a6402799-cc12-41a6-8aea-f8b96c81c3c4
+
+----field----
+field: {EEB36A3B-40D9-4AF5-862A-DE257B84DCA3}
+name: Text
+key: text
+content-length: 419
+
+ハイパーリンクの表示テキストを [targetDisplayTextID,,,テキスト コントロール1] テキスト プロパティに、クエリーの値を [targetQueryID,,,テキスト コントロール2] テキスト プロパティに、ターゲット ウィンドウの値を [targetWindowID,,,コンボ ボックス1] で選択したアイテムのプロパティに、代替テキストを [targetAltTextID,,,テキスト コントロール3] テキスト プロパティに、スタイルを [targetStyleID,,,テキスト コントロール4] テキスト プロパティに、ID を [targetControlID,,,ツリー ビュー1] で選択したアイテムの ID プロパティに、Path の値を [targetPathID,,,ツリー ビュー2] で選択したアイテムの [targetPathProperty,,,path] プロパティに設定する。
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 19
+
+ツリー ビューから内部リンクを作成する
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133649Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a6402799-cc12-41a6-8aea-f8b96c81c3c4
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133649Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,263 @@
+----item----
+version: 1
+id: {7BD215AA-1148-489E-9B53-157771AE826E}
+database: core
+path: /sitecore/client/Applications/Dialogs/UploadMediaDialog/PageSettings/Uploader
+parent: {50996E00-A81E-4CB1-8658-FD50CE439BE4}
+name: Uploader
+master: {00000000-0000-0000-0000-000000000000}
+template: {5A2718F9-F5BC-4C33-9DEF-4F580C0FCCAA}
+templatekey: Uploader Parameter
+created: 20160729T132117Z
+
+----version----
+language: da
+version: 1
+revision: 7ab1bb58-8432-4597-b46d-eaaeb63b9751
+
+----field----
+field: {CC06D939-E016-479B-B847-5CF4BAF6410A}
+name: BrowseButtonText
+key: browsebuttontext
+content-length: 23
+
+Gennemse for mediefiler
+----field----
+field: {493D4C08-42C8-49C8-A87F-25395A6017F7}
+name: ShortDescriptionText
+key: shortdescriptiontext
+content-length: 22
+
+Træk og slip filer her
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 8
+
+Uploader
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133334Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+7ab1bb58-8432-4597-b46d-eaaeb63b9751
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133334Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: a56406b0-9b96-4f88-8557-f4ccef264dd8
+
+----field----
+field: {CC06D939-E016-479B-B847-5CF4BAF6410A}
+name: BrowseButtonText
+key: browsebuttontext
+content-length: 30
+
+Nach Mediendateien durchsuchen
+----field----
+field: {493D4C08-42C8-49C8-A87F-25395A6017F7}
+name: ShortDescriptionText
+key: shortdescriptiontext
+content-length: 22
+
+Dateien hierhin ziehen
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 8
+
+Uploader
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133502Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a56406b0-9b96-4f88-8557-f4ccef264dd8
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133502Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: aac316ee-319a-4412-9b54-2872519b64d7
+
+----field----
+field: {CC06D939-E016-479B-B847-5CF4BAF6410A}
+name: BrowseButtonText
+key: browsebuttontext
+content-length: 22
+
+Browse for media files
+----field----
+field: {493D4C08-42C8-49C8-A87F-25395A6017F7}
+name: ShortDescriptionText
+key: shortdescriptiontext
+content-length: 24
+
+Drag and drop files here
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20141031T105757Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+aac316ee-319a-4412-9b54-2872519b64d7
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20141031T125508:635503569083588868Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 8cb2cf02-75b7-4321-9625-f6b2b65c78c7
+
+----field----
+field: {CC06D939-E016-479B-B847-5CF4BAF6410A}
+name: BrowseButtonText
+key: browsebuttontext
+content-length: 12
+
+メディア ファイルを参照
+----field----
+field: {493D4C08-42C8-49C8-A87F-25395A6017F7}
+name: ShortDescriptionText
+key: shortdescriptiontext
+content-length: 24
+
+ここにファイルをドラッグ アンド ドロップします
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 7
+
+アップローダー
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133630Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+8cb2cf02-75b7-4321-9625-f6b2b65c78c7
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133630Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

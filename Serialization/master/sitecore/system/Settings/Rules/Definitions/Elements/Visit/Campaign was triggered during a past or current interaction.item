@@ -1,0 +1,256 @@
+----item----
+version: 1
+id: {9C3C4DCB-5FCA-4FB6-8516-193FCD6452CC}
+database: master
+path: /sitecore/system/Settings/Rules/Definitions/Elements/Visit/Campaign was triggered during a past or current interaction
+parent: {27553992-0618-4C76-84B2-1B71F7FA558B}
+name: Campaign was triggered during a past or current interaction
+master: {00000000-0000-0000-0000-000000000000}
+template: {F0D16EEE-3A05-4E43-A082-795A32B873C0}
+templatekey: Condition
+created: 20160729T132117Z
+
+----field----
+field: {AB51C8B2-F0E1-4471-9AAE-CC080D774923}
+name: Type
+key: type
+content-length: 114
+
+Sitecore.Analytics.Rules.Conditions.CampaignWasTriggeredDuringPastOrCurrentInteractionCondition,Sitecore.Analytics
+----version----
+language: da
+version: 1
+revision: 61860c36-f329-44bb-90e2-9b8f68ac6461
+
+----field----
+field: {AF321234-4EB9-4EF5-9197-65903351939C}
+name: Text
+key: text
+content-length: 426
+
+hvor [CampaignId,Tree,root=/sitecore/system/Marketing Control Panel/Campaigns,specific] kampagnen blev udløst under en tidligere eller aktuel interaktion, og hvor antallet af dage, der er gået [NumberOfElapsedDaysOperatorId,Operator,,compares to] [NumberOfElapsedDays,Integer,,number] og hvor det seneste antal interaktioner [NumberOfPastInteractionsOperatorId,Operator,,compares to] [NumberOfPastInteractions,Integer,,number]
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 65
+
+Kampagnen blev udløst under en tidligere eller aktuel interaktion
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133416Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+61860c36-f329-44bb-90e2-9b8f68ac6461
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133416Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 2ec48068-0c40-4ac6-aa04-b1b27ab245b4
+
+----field----
+field: {AF321234-4EB9-4EF5-9197-65903351939C}
+name: Text
+key: text
+content-length: 453
+
+wo die [CampaignId,Tree,root=/sitecore/system/Marketing Control Panel/Campaigns,specific] Kampagne ausgelöst wurde, während einer vergangenen oder aktuellen Interaktion und wo die Anzahl der vergangen Tage [NumberOfElapsedDaysOperatorId,Operator,,vergleicht mit] [NumberOfElapsedDays,Integer,,number] und wo die Anzahl der vergangenen Interaktionen [NumberOfPastInteractionsOperatorId,Operator,, vergleicht mit] [NumberOfPastInteractions,Integer,,number
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 77
+
+Kampagne wurde während einer vergangenen oder aktuellen Interaktion ausgelöst
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133547Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+2ec48068-0c40-4ac6-aa04-b1b27ab245b4
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133547Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 3253fbc4-699c-45a5-9f19-20d3f9829044
+
+----field----
+field: {AF321234-4EB9-4EF5-9197-65903351939C}
+name: Text
+key: text
+content-length: 423
+
+where the [CampaignId,Tree,root=/sitecore/system/Marketing Control Panel/Campaigns,specific] campaign was triggered during a past or current interaction and when the number of elapsed days [NumberOfElapsedDaysOperatorId,Operator,,compares to] [NumberOfElapsedDays,Integer,,number] and when the past number of interactions [NumberOfPastInteractionsOperatorId,Operator,,compares to] [NumberOfPastInteractions,Integer,,number]
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150615T151016Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3253fbc4-699c-45a5-9f19-20d3f9829044
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150615T154037:635699796370304949Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 225bc468-b035-4001-b803-cef93d02c39f
+
+----field----
+field: {AF321234-4EB9-4EF5-9197-65903351939C}
+name: Text
+key: text
+content-length: 317
+
+条件： 過去または現在のインタラクションで [PageEventId,Tree,root=/sitecore/system/Settings/Analytics/Page Events,特定の] キャンペーンがトリガーされた場合、かつ経過日数が [NumberOfElapsedDays,Integer,,数] [NumberOfElapsedDaysOperatorId,Operator,,と比較する] 場合、かつ過去のインタラクションの数が [NumberOfPastInteractions,Integer,,数] [NumberOfPastInteractionsOperatorId,Operator,,と比較する] 場合
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 34
+
+過去または現在のインタラクション中にキャンペーンがトリガーされた場合
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133717Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+225bc468-b035-4001-b803-cef93d02c39f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133717Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,256 @@
+----item----
+version: 1
+id: {E6FAED48-2F2D-4062-82AD-E2124213548A}
+database: core
+path: /sitecore/client/Business Component Library/version 2/System/Charts/Legacy/NumberScales/Time
+parent: {2EAFB654-7461-4D3B-8B20-E269D4C07889}
+name: Time
+master: {00000000-0000-0000-0000-000000000000}
+template: {FC0AFBBF-095F-4817-BE8E-C0B89181FC38}
+templatekey: NumberScale
+created: 20160729T132117Z
+
+----field----
+field: {0034EB8E-35F2-4F15-A610-4C0161A8FFAF}
+name: ScaleValue
+key: scalevalue
+content-length: 12
+
+1,60,60,24,7
+----version----
+language: da
+version: 1
+revision: 4daa4bfe-0c3b-4895-8a88-da957a4ddfb0
+
+----field----
+field: {32C35035-DEF3-495F-A72F-9C597AB75D1B}
+name: ScaleUnit
+key: scaleunit
+content-length: 15
+
+s,min,t,dag,uge
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 4
+
+Tid:
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 35
+
+20140710T083937:635405783775981161Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4daa4bfe-0c3b-4895-8a88-da957a4ddfb0
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133351Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 22db7ea8-0706-471e-9d30-373b40dff81e
+
+----field----
+field: {32C35035-DEF3-495F-A72F-9C597AB75D1B}
+name: ScaleUnit
+key: scaleunit
+content-length: 15
+
+"min,hr,day,wk"
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 8
+
+Uhrzeit:
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 34
+
+20140228T205325:635292176056451556
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+22db7ea8-0706-471e-9d30-373b40dff81e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133524Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 72a3e4ca-a976-444a-b924-e2df0ba656d5
+
+----field----
+field: {32C35035-DEF3-495F-A72F-9C597AB75D1B}
+name: ScaleUnit
+key: scaleunit
+content-length: 15
+
+s,min,hr,day,wk
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20131106T113120
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+72a3e4ca-a976-444a-b924-e2df0ba656d5
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150513T093705:635671066257708783Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: d6f5ef43-6503-45d7-86b4-5809753de1cb
+
+----field----
+field: {32C35035-DEF3-495F-A72F-9C597AB75D1B}
+name: ScaleUnit
+key: scaleunit
+content-length: 9
+
+秒,分,時,日,週
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 2
+
+時間
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 35
+
+20140710T092942:635405813828827503Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d6f5ef43-6503-45d7-86b4-5809753de1cb
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133652Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

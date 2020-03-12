@@ -1,0 +1,215 @@
+----item----
+version: 1
+id: {FE2CE478-1BD9-4360-A3E5-7B469F0D2FD8}
+database: core
+path: /sitecore/client/Business Component Library/version 2/Content/Guidance/Renderings/Common/Timeline/PageSettings/Tabs/Demo/Demo
+parent: {1C195FF4-1828-4B7D-A26D-78D70909DDBC}
+name: Demo
+master: {00000000-0000-0000-0000-000000000000}
+template: {8A7ACB1A-0990-4C9E-A6F0-9612D0F5F51C}
+templatekey: Tab
+created: 20160729T132116Z
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 5067
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+    <r id="{CB83D434-31ED-4AC3-A280-CCE2B63F9743}" par="PageCodeScriptFileName=%2fsitecore%2fshell%2fclient%2fBusiness+Component+Library%2fversion+2%2fContent%2fGuidance%2fRenderings%2fCommon%2fTimelines%2fTimeline.js" uid="{0F269694-CB00-4358-93A7-01FA302BEFCC}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanel1&amp;IsVisible=1&amp;Description=The+DynamicData+property+specifies+a+dynamic+data+provider+for+the+control.+In+this+example%2c+there+is+code+in+the+timeline.js+that+populates+the+control+with+data.+&amp;Title=Specifying+dynamic+data+as+the+content+of+the+control" uid="{E85A3ADA-83F4-4588-8574-0C9C7A898ECD}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border1&amp;IsVisible=1&amp;UsePadding=1" ph="DemoComponentPanel1.Content" uid="{13A5343C-3C9F-4FE7-B1FE-77A99F192856}" />
+    <r id="{EB63CB6E-4020-4D3A-AD62-B990AC7197E9}" par="Id=Timeline1" ph="Border1.Content" uid="{713857CD-5310-46C2-AD63-D4FEBB98A73F}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=SpacerBorder2&amp;PaddingType=Top&amp;UsePadding=1" ph="Border1.Content" uid="{82DE8D40-9892-4526-B127-F2B95E4952BA}" />
+    <r id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" par="Id=Button1&amp;Text=Set+the+DynamicData&amp;Click=javascript%3aapp.populate()" ph="Border1.Content" uid="{947627DE-3954-435F-9AFF-B4BA7736F1FB}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanel&amp;ConfigurationDetails=MinDate%3d20000101%26MaxDate%3d20000108&amp;IsVisible=1&amp;Description=The+MaxDate+and+MinDate+properties+specify+the+date+range+the+control+displays.++The+defaults+are+Jan+1st+2000+and+the+maximum+is+Jan+1st+2050%2c+respectively.&amp;Title=Specifying+first+and+last+date" uid="{E85A3ADA-83F4-4588-8574-0C9C7A898ECD}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border2&amp;IsVisible=1&amp;UsePadding=1" ph="DemoComponentPanel.Content" uid="{13A5343C-3C9F-4FE7-B1FE-77A99F192856}" />
+    <r id="{EB63CB6E-4020-4D3A-AD62-B990AC7197E9}" par="MinDate=20000101&amp;Id=Timeline&amp;MaxDate=20000108" ph="Border2.Content" uid="{713857CD-5310-46C2-AD63-D4FEBB98A73F}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=SpacerBorder&amp;PaddingType=Top&amp;UsePadding=1" ph="Border2.Content" uid="{82DE8D40-9892-4526-B127-F2B95E4952BA}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanel2&amp;Description=The+SelectedSegment++object+represents+the+currently+selected+event.+Use+the+selectSegmentId()%2c+selectPreviousSegment()%2c+and+selectNextSegment()+methods+to+select+segments.&amp;Title=Selecting+segments" uid="{8FD0D645-4B53-4412-B446-1941BDC83FFB}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border&amp;IsVisible=1&amp;UsePadding=1" ph="DemoComponentPanel2.Content" uid="{13A5343C-3C9F-4FE7-B1FE-77A99F192856}" />
+    <r id="{EB63CB6E-4020-4D3A-AD62-B990AC7197E9}" par="Id=Timeline2" ph="Border.Content" uid="{713857CD-5310-46C2-AD63-D4FEBB98A73F}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=SpacerBorder1&amp;PaddingType=Top&amp;UsePadding=1" ph="Border.Content" uid="{82DE8D40-9892-4526-B127-F2B95E4952BA}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="TextWeight=Bold&amp;Id=Text1&amp;Text=SelectedSegment.TimelineEventId%3a+" ph="Border.Content" uid="{547CBED9-4E41-401E-A479-D1C7344DDC01}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=Text2" ph="Border.Content" uid="{B30EAA6D-0564-4E99-A2AE-D8588A879E2C}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border5" ph="Border.Content" uid="{74FC7934-E286-48DA-85DE-172C8125F1ED}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="TextWeight=Bold&amp;Id=Text3&amp;Text=SelectedSegment.DateTime%3a+" ph="Border.Content" uid="{807F8714-1ABE-4747-AA18-14A9254B7AA8}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=Text4" ph="Border.Content" uid="{E0D6A45B-4159-4F01-99F4-F642F6C914BB}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border3&amp;PaddingType=Top&amp;UsePadding=1" ph="Border.Content" uid="{DE34E958-1A4D-4E3B-8C9F-697D99825196}" />
+    <r id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" par="Id=Button3&amp;Text=selectSegmentId(%27d35b6b62-238a-48bf-9044-b457685d9d1c%27)&amp;Click=javascript%3aapp.selectbyId()" ph="Border.Content" uid="{65AEF7A6-EB26-4755-801D-648D7C17EFF7}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border4&amp;PaddingType=Top&amp;UsePadding=1" ph="Border.Content" uid="{C5D924BB-ECD0-401C-A989-A4F01047F6B6}" />
+    <r id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" par="Id=Button2&amp;Text=selectPreviousSegment()&amp;Click=javascript%3aapp.selectPrev()" ph="Border.Content" uid="{65AEF7A6-EB26-4755-801D-648D7C17EFF7}" />
+    <r id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" par="Id=Button&amp;Text=selectNextSegment()&amp;Click=javascript%3aapp.selectNext()" ph="Border.Content" uid="{65AEF7A6-EB26-4755-801D-648D7C17EFF7}" />
+  </d>
+</r>
+----version----
+language: de-DE
+version: 1
+revision: e83952d5-4712-474c-a54b-d5252e46b511
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 7
+
+Tooltip
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 4
+
+Demo
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133528Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e83952d5-4712-474c-a54b-d5252e46b511
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133528Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 4d522222-94de-4726-8cef-3b495c40b2be
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 7
+
+Tooltip
+----field----
+field: {772AEA8A-4D70-43F4-BD6B-EDE5FB060623}
+name: Tooltip
+key: tooltip
+content-length: 0
+
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150817T063542Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4d522222-94de-4726-8cef-3b495c40b2be
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160415T090236Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 2d9645ad-525b-4314-b86d-d99695f9959e
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 6
+
+ツールチップ
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 2
+
+デモ
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133657Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+2d9645ad-525b-4314-b86d-d99695f9959e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133657Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

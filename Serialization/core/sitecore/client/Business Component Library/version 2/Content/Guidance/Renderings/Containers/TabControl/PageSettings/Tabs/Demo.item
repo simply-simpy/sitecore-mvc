@@ -1,0 +1,341 @@
+----item----
+version: 1
+id: {3234638B-6D0D-43A6-9DFD-6FA904265027}
+database: core
+path: /sitecore/client/Business Component Library/version 2/Content/Guidance/Renderings/Containers/TabControl/PageSettings/Tabs/Demo
+parent: {5BED747A-A542-4BF1-804E-CA36D7092F44}
+name: Demo
+master: {1A934758-1761-446E-AA0E-D19B3369292B}
+template: {8A7ACB1A-0990-4C9E-A6F0-9612D0F5F51C}
+templatekey: Tab
+created: 20160729T132116Z
+
+----field----
+field: {3A98ADC3-530B-4281-880D-2D56DCC605AF}
+name: IsLazyLoaded
+key: islazyloaded
+content-length: 1
+
+1
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 4
+
+-100
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 0
+
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 4586
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{759BEFD1-3323-404D-A243-E0ED81163C03}">
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=Border&amp;Description=The+TabVisualStyle+property+specifies+the+visual+style+of+the+control.+The+options+include+Normal+(the+default)%2c+Progressive%2c+and+SubTab.&amp;Title=Specifying+the+visual+style" ph="Page.Body" uid="{BCD88273-BA53-4CDD-8E93-88A248A7201F}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border4&amp;UsePadding=1" ph="Border.Content" uid="{47300A07-3A98-4E4C-9BEF-1537A84FE119}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=Text1&amp;Text=TabVisualStyle%3a+Normal" ph="Border4.Content" uid="{970650A4-9AFA-4D38-B935-A8F8F0E5CAAE}" />
+    <r id="{7CE24006-7B34-4678-BC91-7675C6E2C9B9}" par="Id=TabControl1&amp;TabVisualStyle=Normal&amp;TabMinWidth=70px" ph="Border4.Content" uid="{3CDB1A3B-725E-4D5C-8F43-64A417D064FD}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border1&amp;UsePadding=1" ph="Border.Content" uid="{47300A07-3A98-4E4C-9BEF-1537A84FE119}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=Text2&amp;Text=TabVisualStyle%3a+Progressive" ph="Border1.Content" uid="{970650A4-9AFA-4D38-B935-A8F8F0E5CAAE}" />
+    <r id="{7CE24006-7B34-4678-BC91-7675C6E2C9B9}" par="ConfigurationItem=%7bB2D1BBCA-8328-41F5-8AD2-A5E686CB4B36%7d&amp;Id=TabControl2&amp;TabVisualStyle=Progressive" ph="Border1.Content" uid="{3CDB1A3B-725E-4D5C-8F43-64A417D064FD}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border2&amp;UsePadding=1" ph="Border.Content" uid="{47300A07-3A98-4E4C-9BEF-1537A84FE119}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=Text3&amp;Text=TabVisualStyle%3a+Subtab" ph="Border2.Content" uid="{970650A4-9AFA-4D38-B935-A8F8F0E5CAAE}" />
+    <r id="{7CE24006-7B34-4678-BC91-7675C6E2C9B9}" par="ConfigurationItem=%7bB2D1BBCA-8328-41F5-8AD2-A5E686CB4B36%7d&amp;Id=TabControl3&amp;TabVisualStyle=Subtab&amp;Tooltip=1" ph="Border2.Content" uid="{3CDB1A3B-725E-4D5C-8F43-64A417D064FD}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border3&amp;UsePadding=1" ph="Border.Content" uid="{47300A07-3A98-4E4C-9BEF-1537A84FE119}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=Text4&amp;Text=TabVisualStyle%3a+Selected+and+disabled" ph="Border3.Content" uid="{970650A4-9AFA-4D38-B935-A8F8F0E5CAAE}" />
+    <r id="{7CE24006-7B34-4678-BC91-7675C6E2C9B9}" par="ConfigurationItem=%7bAB616306-FB9C-4A89-8DE0-C743C856A938%7d&amp;Id=TabControl4&amp;TabVisualStyle=Subtab&amp;Tooltip=1&amp;SelectedValue=%7b5C6F25D3-3433-474C-A266-F5D735AC0E31%7d" ph="Border3.Content" uid="{3CDB1A3B-725E-4D5C-8F43-64A417D064FD}" />
+    <r id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" par="Id=Button1&amp;ButtonType=Primary&amp;Text=Click+to+toggle+enabled+state+for+the+2nd+tab&amp;Click=javascript%3a+_sc.app.children%5b0%5d.TabControl4.toggleEnabledAt(1)" ph="Border3.Content" uid="{A27406EC-1ADF-48E4-A52B-9B7BF1805149}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanel1&amp;Description=The+control+is+responsive+by+design.+If+all+tabs+do+not+fit+in+the+window%2c+the+control+will+hide+hide+some+tabs+and+show+arrows+that+scroll+the+tabs+left+and+right+when+clicked.+The+currently+selected+tab+always+remains+visible.&amp;Title=Responsive+behavior" uid="{4FF2D8A0-932D-467B-AACE-75A944D13D1E}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=Text4&amp;Text=Change+the+window+size+and+check+that+the+selected+tab+is+always+visible" ph="DemoComponentPanel1.Content" uid="{0201FF51-9E9A-44E8-BC50-4E783EB8679B}" />
+    <r id="{7CE24006-7B34-4678-BC91-7675C6E2C9B9}" par="ConfigurationItem=%7bB2D1BBCA-8328-41F5-8AD2-A5E686CB4B36%7d&amp;Id=TabControl5&amp;DisplayFieldName=Header&amp;TabMinWidth=100px&amp;SelectedValue=%7bB0346416-63C1-49D1-BA59-B7B774FACC8D%7d" ph="DemoComponentPanel1.Content" uid="{F66CEDB9-77AA-4FDE-8950-E1F6B85B0173}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanel2&amp;ConfigurationDetails=Set+the+QueryParameter+value+of+each+tab+in+order+to+use+URL+synchronization&amp;Description=Select+some+of+the+tab+and+refresh+the+page.+Slected+tab+will+be+the+same+after+reload.+Set+the+QueryParameter+field+for+tab+to+have+persistent+tab+selection&amp;Title=URL+Synchronization" uid="{4FF2D8A0-932D-467B-AACE-75A944D13D1E}" />
+    <r id="{7CE24006-7B34-4678-BC91-7675C6E2C9B9}" par="Id=TabControl6" ph="DemoComponentPanel2.Content" uid="{0BC671C1-9616-4279-80F7-D0583F98DD5E}" />
+  </d>
+</r>
+----version----
+language: da
+version: 1
+revision: 970bd214-70a1-4707-ac7e-c2bdcb9bf0e9
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 4
+
+Fane
+----field----
+field: {772AEA8A-4D70-43F4-BD6B-EDE5FB060623}
+name: Tooltip
+key: tooltip
+content-length: 5
+
+INGEN
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 4
+
+Demo
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 409
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{4FF2D8A0-932D-467B-AACE-75A944D13D1E}" s:id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" s:par="Id=DemoComponentPanel1&amp;ConfigurationDetails=Selected+tab+should+be+visible+after+page+is+loaded&amp;Description=Selected+tab+should+be+visible+after+page+is+loaded&amp;Title=Responsive+behavior" s:ph="Page.Body" /></d></r>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133322Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+970bd214-70a1-4707-ac7e-c2bdcb9bf0e9
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133322Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: d6019f1a-ddb7-4dd8-93d4-2d44267955a6
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 3
+
+Tab
+----field----
+field: {772AEA8A-4D70-43F4-BD6B-EDE5FB060623}
+name: Tooltip
+key: tooltip
+content-length: 5
+
+KEINE
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 4
+
+Demo
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133448Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d6019f1a-ddb7-4dd8-93d4-2d44267955a6
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133448Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 8788ff75-a46e-480c-89b3-ceec1210e093
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 3
+
+Tab
+----field----
+field: {772AEA8A-4D70-43F4-BD6B-EDE5FB060623}
+name: Tooltip
+key: tooltip
+content-length: 4
+
+NONE
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 409
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{4FF2D8A0-932D-467B-AACE-75A944D13D1E}" s:id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" s:par="Id=DemoComponentPanel1&amp;ConfigurationDetails=Selected+tab+should+be+visible+after+page+is+loaded&amp;Description=Selected+tab+should+be+visible+after+page+is+loaded&amp;Title=Responsive+behavior" s:ph="Page.Body" /></d></r>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150318T143354Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+8788ff75-a46e-480c-89b3-ceec1210e093
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160411T110803Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: dc12db12-a92c-4be1-ad7d-c8b25afa17e2
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 2
+
+タブ
+----field----
+field: {772AEA8A-4D70-43F4-BD6B-EDE5FB060623}
+name: Tooltip
+key: tooltip
+content-length: 2
+
+なし
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 2
+
+デモ
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133615Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+dc12db12-a92c-4be1-ad7d-c8b25afa17e2
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133615Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

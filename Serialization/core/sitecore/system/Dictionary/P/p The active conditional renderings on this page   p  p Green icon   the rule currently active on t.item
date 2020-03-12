@@ -1,0 +1,228 @@
+----item----
+version: 1
+id: {FCDA387A-E51E-86D3-E5FE-C87EF4C6F6EF}
+database: core
+path: /sitecore/system/Dictionary/P/p The active conditional renderings on this page   p  p Green icon   the rule currently active on t
+parent: {CD06D26A-80FD-4D94-AFDA-EB240517B5DE}
+name: p The active conditional renderings on this page   p  p Green icon   the rule currently active on t
+master: {00000000-0000-0000-0000-000000000000}
+template: {6D1CD897-1936-4A3A-A511-289A94C2A7B1}
+templatekey: Dictionary entry
+created: 20160729T133356Z
+
+----field----
+field: {580C75A8-C01A-4580-83CB-987776CEB3AF}
+name: Key
+key: key
+content-length: 251
+
+<p>The active conditional renderings on this page.</p><p>Green icon – the rule currently active on this page.</p><p>Yellow icon – the rule would apply but currently another rule takes priority.</p><p>Red icon – the rule is not active on this page.</p>
+----version----
+language: da
+version: 1
+revision: 990acbe9-391d-4bc2-9053-0f04097b6495
+
+----field----
+field: {2BA3454A-9A9C-4CDF-A9F8-107FD484EB6E}
+name: Phrase
+key: phrase
+content-length: 275
+
+<p>De aktive betingede renderinger på denne side.</p><p>Grønt ikon - reglen er i øjeblikket aktiv på denne side.</p><p>Gult ikon - reglen burde gælde, men en anden regel har i øjeblikket højere prioritet.</p><p>Rødt ikon - reglen er i øjeblikket ikke aktiv på denne side.</p>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133356Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+990acbe9-391d-4bc2-9053-0f04097b6495
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133356Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 960f55f3-19e8-42e2-8905-136a2314ba77
+
+----field----
+field: {2BA3454A-9A9C-4CDF-A9F8-107FD484EB6E}
+name: Phrase
+key: phrase
+content-length: 276
+
+<p>Die aktiven bedingten Renderings auf dieser Seite.</p><p>Grünes Symbol – die Regel, die derzeit aktiv auf dieser Seite ist.</p><p>Gelbes Symbol –die Regel würde gelten, aber derzeit hat eine andere Regel.</p><p>Rotes Symbol – die Regel ist nicht aktiv auf dieser Seite.</p>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133530Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+960f55f3-19e8-42e2-8905-136a2314ba77
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133530Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: a9e6d9b7-72ee-4c0b-9f3f-71883ef6f392
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133356Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a9e6d9b7-72ee-4c0b-9f3f-71883ef6f392
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133356Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: d4d8a3c4-4a62-4c1f-bdd4-7cfedab3d5d3
+
+----field----
+field: {2BA3454A-9A9C-4CDF-A9F8-107FD484EB6E}
+name: Phrase
+key: phrase
+content-length: 163
+
+<p>このページ上で有効な条件付きレンダリングです。</p><p>緑色のアイコンは、このページ上で現在ルールが有効なことを示します。</p><p>黄色のアイコンは、ルールは適用されていますが現在別のルールが優先されていることを示します。</p><p>赤色のアイコンは、このページ上でルールが有効ではないことを示します。</p>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133658Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d4d8a3c4-4a62-4c1f-bdd4-7cfedab3d5d3
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133658Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

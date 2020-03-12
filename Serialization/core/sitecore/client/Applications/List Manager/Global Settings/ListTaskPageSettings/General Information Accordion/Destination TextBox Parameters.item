@@ -1,0 +1,326 @@
+----item----
+version: 1
+id: {0E56B622-8005-49C5-85B6-8B452D7CA8C7}
+database: core
+path: /sitecore/client/Applications/List Manager/Global Settings/ListTaskPageSettings/General Information Accordion/Destination TextBox Parameters
+parent: {A3E30B4E-4118-492D-8A1B-683BFB4BDFB5}
+name: Destination TextBox Parameters
+master: {00000000-0000-0000-0000-000000000000}
+template: {79F8DA6E-F8E4-421F-9B01-BDE483F15548}
+templatekey: ButtonTextBox Parameters
+created: 20160729T132117Z
+
+----field----
+field: {08C91ADE-048F-4D5D-A77C-28F2EF4A458F}
+name: IsEnabled
+key: isenabled
+content-length: 1
+
+1
+----field----
+field: {6D0C0AB0-BC40-4BD0-8ACB-16612A180F14}
+name: IsVisible
+key: isvisible
+content-length: 1
+
+1
+----field----
+field: {CB6941FC-D4D1-437E-81F2-6EAEADE178BF}
+name: WidthPolicy
+key: widthpolicy
+content-length: 38
+
+{71C547F5-0BCC-4102-8207-F30E0D696F20}
+----field----
+field: {7C3A596D-C0C6-4831-86D9-D43327023A65}
+name: IsEnabled
+key: isenabled
+content-length: 1
+
+1
+----field----
+field: {9F2E12C5-F236-441D-AE2F-1DF11A343D81}
+name: Click
+key: click
+content-length: 30
+
+trigger:taskpage.select:folder
+----version----
+language: da
+version: 1
+revision: 98446630-143e-475f-b31f-9ce398dfd03b
+
+----field----
+field: {B2ED3206-36D3-4F87-BA57-253AA89DD626}
+name: Text
+key: text
+content-length: 12
+
+/Alle lister
+----field----
+field: {E17D3534-A424-47E3-8F2C-3DBBA705565F}
+name: Tooltip
+key: tooltip
+content-length: 14
+
+Vælg placering
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 33
+
+TextBox-parametre for destination
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133316Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+98446630-143e-475f-b31f-9ce398dfd03b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133316Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 11c92f7e-b50a-4869-af5e-0fea5d13ab7c
+
+----field----
+field: {B2ED3206-36D3-4F87-BA57-253AA89DD626}
+name: Text
+key: text
+content-length: 12
+
+/Alle Listen
+----field----
+field: {E17D3534-A424-47E3-8F2C-3DBBA705565F}
+name: Tooltip
+key: tooltip
+content-length: 13
+
+Ort auswählen
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 23
+
+Ziel Textbox Parameters
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133442Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+11c92f7e-b50a-4869-af5e-0fea5d13ab7c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133442Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: dce50928-1b79-4c25-8689-5b052a52628b
+
+----field----
+field: {195BC7A4-520F-4349-9D35-68CA70D09D38}
+name: ButtonText
+key: buttontext
+content-length: 3
+
+...
+----field----
+field: {B2ED3206-36D3-4F87-BA57-253AA89DD626}
+name: Text
+key: text
+content-length: 10
+
+/All Lists
+----field----
+field: {E17D3534-A424-47E3-8F2C-3DBBA705565F}
+name: Tooltip
+key: tooltip
+content-length: 15
+
+Select location
+----field----
+field: {9378805D-F410-4DB5-B343-16A3BE940979}
+name: Watermark
+key: watermark
+content-length: 0
+
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20140807T153711Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+dce50928-1b79-4c25-8689-5b052a52628b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20141105T134109:635507916698168830Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: d43e794e-12a2-4200-b01e-083107c12fa6
+
+----field----
+field: {B2ED3206-36D3-4F87-BA57-253AA89DD626}
+name: Text
+key: text
+content-length: 7
+
+すべてのリスト
+----field----
+field: {E17D3534-A424-47E3-8F2C-3DBBA705565F}
+name: Tooltip
+key: tooltip
+content-length: 5
+
+場所を選択
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 21
+
+書き込み先テキスト ボックス パラメーター
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133608Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d43e794e-12a2-4200-b01e-083107c12fa6
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133608Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

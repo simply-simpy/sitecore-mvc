@@ -1,0 +1,298 @@
+----item----
+version: 1
+id: {CA160685-4A9E-4371-959E-6AC95894C26A}
+database: core
+path: /sitecore/client/Applications/List Manager/Navigation/Navigation Menu
+parent: {A62A63EC-D3C6-4905-BE5F-056C5D453B2F}
+name: Navigation Menu
+master: {00000000-0000-0000-0000-000000000000}
+template: {5F2C442F-2554-4C80-B1D9-2195FA6168B1}
+templatekey: Speak-BasePage
+created: 20160729T132117Z
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 11600
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+    <r id="{CB83D434-31ED-4AC3-A280-CCE2B63F9743}" par="PageCodeScriptFileName=%2fsitecore%2fshell%2fclient%2fapplications%2flistmanager%2fnavigation%2fnavigationmenu.js" uid="{CFD3A9D4-11B7-462F-AD5A-15FCFAE6FE60}" />
+    <r ds="{CFC49F08-53BC-490B-8116-FA5C02EC64E9}" id="{913AB005-2527-4C2D-9827-FB3A8DFB135C}" par="Id=CreateButton" uid="{D5E57D8C-CDBE-49E5-A0FB-36DD2AD416E6}" />
+    <r id="{24CE7146-7ADF-4AC5-8629-457ACA6B32D2}" par="TargetControl=CreateButton&amp;Id=CreatePopover&amp;Placement=right&amp;Trigger=click" uid="{E5D56334-FE34-4382-A1B4-BD8817952A59}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=CreateBorder&amp;Width=595px&amp;UsePadding=1" ph="CreatePopover.Content" uid="{F3832112-A281-4CF0-B259-2582B01C1BB7}" />
+    <r id="{C4393722-39FA-4869-9582-3A8EB8983A0D}" par="Id=CreateRowPanel" ph="CreateBorder.Content" uid="{77DF7D49-486B-4A19-B9C0-76EFAA2448EE}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=ImportColumnPanel&amp;GridColumns=6" ph="CreateRowPanel.Content" uid="{845D13E6-5C88-4CC6-8FC8-7BCE5B93776C}" />
+    <r ds="{E628CC2E-F1A3-4BA1-B6F8-DFD9C2BE5EE4}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=ImportNewContactsText" ph="ImportColumnPanel.Content" uid="{EC202FF6-0C71-461A-8334-A3E1B12EC115}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=ImportNewContactsBorder" ph="ImportColumnPanel.Content" uid="{B2CCD0C2-08C0-460D-9A48-1C4386378CDE}" />
+    <r id="{C4393722-39FA-4869-9582-3A8EB8983A0D}" par="UsePadding=True&amp;Id=CreateListFromFileRowPanel&amp;PaddingType=All" ph="ImportNewContactsBorder.Content" uid="{D1B65209-D9FD-4558-82CB-241DF7DEC9FF}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=CreateListFromFileIconColumnPanel&amp;GridColumns=3" ph="CreateListFromFileRowPanel.Content" uid="{4E03ECA7-DBEE-491C-B6D3-2528DEE41FAE}" />
+    <r id="{F517C5E4-9A53-46C3-B922-5B44E6DAAA48}" par="Id=CreateListFromFileIconImage&amp;ImageUrl=%7e%2ficon%2fOffice%2f48x48%2fmail_earth.png&amp;Width=48&amp;Height=48" ph="CreateListFromFileIconColumnPanel.Content" uid="{0D49CC6D-74A3-406D-9E82-D9EFAB64B2D1}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=CreateListFromFileTextColumnPanel&amp;GridColumns=9" ph="CreateListFromFileRowPanel.Content" uid="{1A1E23AA-F734-438E-9AD7-E739676B6D31}" />
+    <r ds="{79AE9950-AC24-4F9E-9B45-6847B777D80C}" id="{162FC747-B9E6-4FCE-A96C-1EFE125643F2}" par="Id=CreateListFromFileHyperlinkButton" ph="CreateListFromFileTextColumnPanel.Content" uid="{97751AA0-2147-43FB-8880-22C981174509}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=CreateListFromFileTextSeparatorBorder" ph="CreateListFromFileTextColumnPanel.Content" uid="{157180EF-A104-41DA-950D-F5AA2A10D446}" />
+    <r ds="{319AA30F-DC7A-4A36-AD55-7AE1E3929702}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=CreateListFromFileDescriptionText" ph="CreateListFromFileTextColumnPanel.Content" uid="{157E52B7-CB6A-4E87-A26B-5C1E5AF29272}" />
+    <r id="{C4393722-39FA-4869-9582-3A8EB8983A0D}" par="UsePadding=True&amp;Id=AddContactsToDatabaseRowPanel&amp;PaddingType=All" ph="ImportNewContactsBorder.Content" uid="{AC217BF3-C539-453C-B89B-F6726F517FD1}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=AddContactsToDatabaseIconColumnPanel&amp;GridColumns=3" ph="AddContactsToDatabaseRowPanel.Content" uid="{D20D9BCF-A8AA-4704-A272-6D8C374C8C5C}" />
+    <r id="{F517C5E4-9A53-46C3-B922-5B44E6DAAA48}" par="Id=AddContactsToDatabaseIconImage&amp;ImageUrl=%7e%2ficon%2fOffice%2f48x48%2fserver_mail_upload.png" ph="AddContactsToDatabaseIconColumnPanel.Content" uid="{9806B316-4BF8-4527-8F64-E48B96747179}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=AddContactsToDatabaseTextColumnPanel&amp;GridColumns=9" ph="AddContactsToDatabaseRowPanel.Content" uid="{9B174A81-18EB-496E-BCEF-23B070E9B761}" />
+    <r ds="{DF3DE964-C642-4C79-AE16-EA68A923F6E4}" id="{162FC747-B9E6-4FCE-A96C-1EFE125643F2}" par="Id=AddContactsToDatabaseHyperlinkButton" ph="AddContactsToDatabaseTextColumnPanel.Content" uid="{782C98D3-8EF3-4771-896A-B4A2D66E8519}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=AddContactsToDatabaseTextSeparatorBorder" ph="AddContactsToDatabaseTextColumnPanel.Content" uid="{51E943FE-D0EC-4718-9DF4-BD37D16097C5}" />
+    <r ds="{7040C6EC-E263-46CE-86EE-364401E8AB20}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=AddContactsToDatabaseDescriptionText" ph="AddContactsToDatabaseTextColumnPanel.Content" uid="{D18372F2-7942-4431-A554-1EED00F4B619}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=CreateListsColumnPanel&amp;GridColumns=6" ph="CreateRowPanel.Content" uid="{6528684C-0F4F-4B91-8EC3-DDB5A8A755B5}" />
+    <r ds="{CB1BA73A-FF13-4551-B47A-F9CE1FA4E209}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=CreateListsText" ph="CreateListsColumnPanel.Content" uid="{599E88A1-4443-4A53-8ECD-A4ED88A5101B}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=CreateListsBorder" ph="CreateListsColumnPanel.Content" uid="{2E46F60C-3F0A-4E8F-B5F2-E01416CF5CF9}" />
+    <r id="{C4393722-39FA-4869-9582-3A8EB8983A0D}" par="UsePadding=True&amp;Id=ContactListFromExistingListRowPanel&amp;PaddingType=All" ph="CreateListsBorder.Content" uid="{DC75605D-D312-4AD1-A643-1E389D97E2A3}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=ContactListFromExistingListIconColumnPanel&amp;GridColumns=3" ph="ContactListFromExistingListRowPanel.Content" uid="{3D2F92DF-0F53-4C1A-8F20-0A8401BC903B}" />
+    <r id="{F517C5E4-9A53-46C3-B922-5B44E6DAAA48}" par="Id=ContactListFromExistingListIconImage&amp;ImageUrl=%7e%2ficon%2fOffice%2f48x48%2fdocument_text.png" ph="ContactListFromExistingListIconColumnPanel.Content" uid="{42A32FCD-8CA5-444F-BFDB-91C3A8E9861F}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=ContactListFromExistingListTextColumnPanel&amp;GridColumns=9" ph="ContactListFromExistingListRowPanel.Content" uid="{2B4CA7F4-CD25-4A43-8F8C-A37421775E20}" />
+    <r ds="{1FA71E8B-8E14-439B-8413-38F494571C34}" id="{162FC747-B9E6-4FCE-A96C-1EFE125643F2}" par="Id=ContactListFromExistingListHyperlinkButton" ph="ContactListFromExistingListTextColumnPanel.Content" uid="{FE800586-257D-491F-AB6C-221104D472EE}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=ContactListFromExistingListTextSeparatorBorder" ph="ContactListFromExistingListTextColumnPanel.Content" uid="{EE604201-C5DD-4755-A77E-59B6F057DCF7}" />
+    <r ds="{58E14C29-9398-46B2-A795-34B10036A301}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=ContactListFromExistingListDescriptionText" ph="ContactListFromExistingListTextColumnPanel.Content" uid="{6E6CBFDF-C920-4FDD-9F50-852DEE915855}" />
+    <r id="{C4393722-39FA-4869-9582-3A8EB8983A0D}" par="UsePadding=True&amp;Id=EmptyContactListRowPanel&amp;PaddingType=All" ph="CreateListsBorder.Content" uid="{D14A6541-DDDF-4AAF-9253-A360D9A8CC58}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=EmptyContactListIconColumnPanel&amp;GridColumns=3" ph="EmptyContactListRowPanel.Content" uid="{E3950471-572B-43DC-BD71-455D0CF71671}" />
+    <r id="{F517C5E4-9A53-46C3-B922-5B44E6DAAA48}" par="Id=EmptyContactListIconImage&amp;ImageUrl=%7e%2ficon%2fOffice%2f48x48%2fdocument_empty.png" ph="EmptyContactListIconColumnPanel.Content" uid="{7E36C004-B7AA-4C29-93BD-25DD514F87B1}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=EmptyContactListTextColumnPanel&amp;GridColumns=9" ph="EmptyContactListRowPanel.Content" uid="{D824AE97-6716-4EDB-9B06-1CE66A7BDCCF}" />
+    <r ds="{5FA4AAB4-FF83-4F2E-8D61-C94C7A7B2783}" id="{162FC747-B9E6-4FCE-A96C-1EFE125643F2}" par="Id=EmptyContactListHyperlinkButton" ph="EmptyContactListTextColumnPanel.Content" uid="{1F073C69-5BA3-46BB-A414-B73533F8F3B9}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=EmptyContactListSpaceBorder" ph="EmptyContactListTextColumnPanel.Content" uid="{66C384C2-D2A1-489E-91C2-938C13F80082}" />
+    <r ds="{787ACB4A-C613-471B-88FD-08688C5B5CED}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=EmptyContactListDescriptionText" ph="EmptyContactListTextColumnPanel.Content" uid="{3B3D763B-93F1-4996-B034-5C763DB2A3A4}" />
+    <r id="{C4393722-39FA-4869-9582-3A8EB8983A0D}" par="UsePadding=True&amp;Id=SegmentedListFromAllContactsRowPanel&amp;PaddingType=All" ph="CreateListsBorder.Content" uid="{F862CED1-1526-4055-8906-30E58BC5D22D}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=SegmentedListFromAllContactsIconColumnPanel&amp;GridColumns=3" ph="SegmentedListFromAllContactsRowPanel.Content" uid="{EF308CAB-1C40-46FB-831A-17D4F60C35B0}" />
+    <r id="{F517C5E4-9A53-46C3-B922-5B44E6DAAA48}" par="Id=SegmentedListFromAllContactsIconImage&amp;ImageUrl=%7e%2ficon%2fOffice%2f48x48%2ffilter_and_sort.png" ph="SegmentedListFromAllContactsIconColumnPanel.Content" uid="{79D0A916-0E9B-45D1-B7CF-FE2FEA3FC5B7}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=SegmentedListFromAllContactsTextColumnPanel&amp;GridColumns=9" ph="SegmentedListFromAllContactsRowPanel.Content" uid="{5373F3D7-0B30-4367-8E10-84867E426FDC}" />
+    <r ds="{8B02133E-1690-4729-A326-A4FDD1807677}" id="{162FC747-B9E6-4FCE-A96C-1EFE125643F2}" par="Id=SegmentedListFromAllContactsHyperlinkButton" ph="SegmentedListFromAllContactsTextColumnPanel.Content" uid="{FC67FD29-6278-4265-A327-D8EAA8565D13}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=SegmentedListFromAllContactsTextSeparatorBorder" ph="SegmentedListFromAllContactsTextColumnPanel.Content" uid="{555A6989-4E46-4879-8EA2-4E5F76E267EE}" />
+    <r ds="{9C5F60A5-C0A9-4C59-BB74-8C5A4B87CB24}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=SegmentedListFromAllContactsDescriptionText" ph="SegmentedListFromAllContactsTextColumnPanel.Content" uid="{8C783411-B47A-4C2A-AF5C-B4000E08E678}" />
+    <r id="{C4393722-39FA-4869-9582-3A8EB8983A0D}" par="UsePadding=True&amp;Id=SegmentedListFromExistingListRowPanel&amp;PaddingType=All" ph="CreateListsBorder.Content" uid="{0708F5CB-EB3F-496D-A6A9-ED59EF0A2A15}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=SegmentedListFromExistingListIconColumnPanel&amp;GridColumns=3" ph="SegmentedListFromExistingListRowPanel.Content" uid="{BA5EEF6B-A0AF-4614-9D6A-84CA14F7A086}" />
+    <r id="{F517C5E4-9A53-46C3-B922-5B44E6DAAA48}" par="Id=SegmentedListFromExistingListIconImage&amp;ImageUrl=%7e%2ficon%2fOffice%2f48x48%2fmail_filter.png" ph="SegmentedListFromExistingListIconColumnPanel.Content" uid="{CE5A88BF-021B-44E8-9F78-81BB37716ABB}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=SegmentedListFromExistingListTextColumnPanel&amp;GridColumns=9" ph="SegmentedListFromExistingListRowPanel.Content" uid="{891DBFC2-44A9-4F79-9DF0-6C07C3090053}" />
+    <r ds="{BBA8D648-8C8F-43AE-A032-800FC02E857B}" id="{162FC747-B9E6-4FCE-A96C-1EFE125643F2}" par="Id=SegmentedListFromExistingListHyperlinkButton" ph="SegmentedListFromExistingListTextColumnPanel.Content" uid="{BDE77182-30C6-4BAE-82B0-FC01C8B585C0}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=SegmentedListFromExistingListTextSeparatorBorder" ph="SegmentedListFromExistingListTextColumnPanel.Content" uid="{CC529358-435C-4307-ABF7-00F12C3A5D40}" />
+    <r ds="{08C6F916-392E-45B3-8905-6C83F5D7592E}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=SegmentedListFromExistingListDescriptionText" ph="SegmentedListFromExistingListTextColumnPanel.Content" uid="{26AD0DED-68A2-40C5-B43A-071244DE27CA}" />
+  </d>
+</r>
+----version----
+language: da
+version: 1
+revision: 16435ac3-65cb-4af4-bcfd-c4f3aa331862
+
+----field----
+field: {7205A57F-93B4-413A-AA9A-6B16BBC59565}
+name: BrowserTitle
+key: browsertitle
+content-length: 8
+
+BasePage
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 15
+
+Navigationsmenu
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133346Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+16435ac3-65cb-4af4-bcfd-c4f3aa331862
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133346Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: dc6d8784-d258-45cc-8c05-b07e27c4a97e
+
+----field----
+field: {7205A57F-93B4-413A-AA9A-6B16BBC59565}
+name: BrowserTitle
+key: browsertitle
+content-length: 10
+
+Basisseite
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 15
+
+Navigation Menü
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133518Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+dc6d8784-d258-45cc-8c05-b07e27c4a97e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133518Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: b09804ae-c459-4766-aa2a-32371527c842
+
+----field----
+field: {7205A57F-93B4-413A-AA9A-6B16BBC59565}
+name: BrowserTitle
+key: browsertitle
+content-length: 8
+
+BasePage
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20141113T131942Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b09804ae-c459-4766-aa2a-32371527c842
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20141120T115256:635520811762951384Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: c99a839d-51bb-4519-a14e-e0755d731ffd
+
+----field----
+field: {7205A57F-93B4-413A-AA9A-6B16BBC59565}
+name: BrowserTitle
+key: browsertitle
+content-length: 7
+
+ベース ページ
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 12
+
+ナビゲーション メニュー
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133646Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c99a839d-51bb-4519-a14e-e0755d731ffd
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133646Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,242 @@
+----item----
+version: 1
+id: {1B85FEB1-912E-4456-A771-C4F2E4E76C79}
+database: core
+path: /sitecore/client/Applications/List Manager/Dialogs/SelectFolderDialog/PageSettings/SelectFolderDialog Parameters
+parent: {C57E1103-A6DD-46CF-9110-951D95699A3D}
+name: SelectFolderDialog Parameters
+master: {00000000-0000-0000-0000-000000000000}
+template: {4D96D06C-54EE-47F3-97E5-1B4FA4B902B0}
+templatekey: DialogWindow Parameters
+created: 20160729T132117Z
+
+----field----
+field: {6A80F83A-4295-47E0-BFB5-2F88729AB09B}
+name: Size
+key: size
+content-length: 38
+
+{DFE6D45B-ED26-4D2C-8C5C-5A1EA07B1DEF}
+----version----
+language: da
+version: 1
+revision: 058ea234-ef72-43ed-8e08-f80c065bf03f
+
+----field----
+field: {7065AC6A-3607-4F0B-97CF-9D0B46B961FF}
+name: HeaderText
+key: headertext
+content-length: 10
+
+VÆLG MAPPE
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 28
+
+SelectFolderDialog-parametre
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133319Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+058ea234-ef72-43ed-8e08-f80c065bf03f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133319Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 90e0fdd3-0f30-42cc-964d-6fe643172bc5
+
+----field----
+field: {7065AC6A-3607-4F0B-97CF-9D0B46B961FF}
+name: HeaderText
+key: headertext
+content-length: 16
+
+Ordner auswählen
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 31
+
+AuswählenOrdnerDialog Parameter
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133444Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+90e0fdd3-0f30-42cc-964d-6fe643172bc5
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133444Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 77da0938-884b-45b7-bae1-1c12cafe306d
+
+----field----
+field: {7065AC6A-3607-4F0B-97CF-9D0B46B961FF}
+name: HeaderText
+key: headertext
+content-length: 13
+
+Select folder
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140409T125427
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+77da0938-884b-45b7-bae1-1c12cafe306d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20151223T111923Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 6aa23af1-6753-4495-b928-45e3df19238b
+
+----field----
+field: {7065AC6A-3607-4F0B-97CF-9D0B46B961FF}
+name: HeaderText
+key: headertext
+content-length: 10
+
+フォルダーを選択する
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 19
+
+フォルダー選択ダイアログ パラメーター
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133611Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+6aa23af1-6753-4495-b928-45e3df19238b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133611Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

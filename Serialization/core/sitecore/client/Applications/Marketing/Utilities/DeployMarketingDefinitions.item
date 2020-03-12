@@ -1,0 +1,274 @@
+----item----
+version: 1
+id: {DB9E578D-1357-44CD-BDDD-A4C153CFC170}
+database: core
+path: /sitecore/client/Applications/Marketing/Utilities/DeployMarketingDefinitions
+parent: {58718634-F9A6-4244-8F56-417DE5B9CD0D}
+name: DeployMarketingDefinitions
+master: {00000000-0000-0000-0000-000000000000}
+template: {8152CF09-9DD0-40C0-B806-6E91FDF389BC}
+templatekey: Speak-DialogPage
+created: 20160729T132117Z
+
+----field----
+field: {5E642935-A6FC-48E9-B039-FE1136CED488}
+name: Theme
+key: theme
+content-length: 6
+
+Oxford
+----field----
+field: {F7B4EBC1-2335-4EB8-AFAE-3444923A38BE}
+name: Subthemes
+key: subthemes
+content-length: 38
+
+{F69304BA-2B80-4555-96DD-6F08559405E1}
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 3205
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{4F72A793-BDBC-4262-9523-6AADD8FEA487}">
+    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="PageCodeTypeName=Sitecore.Shell.Client.Applications.Marketing.Utilities.DeployMarketingDefinitions.PageCodeBase%2c+Sitecore.Marketing.Client" ph="Page.Code" uid="{73FD3D92-F583-4AA3-8115-503900F5CA3F}" />
+    <r id="{7BA20861-BC27-4F0E-94DD-8F974628A5C4}" ph="Page.Body" uid="{9FA20011-AF9D-40B7-93AD-EF1CAF61BBE3}" />
+    <r ds="{F1988920-FA7A-43FD-BE17-CEF1381D15E1}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=HeaderTitle" ph="DialogHeader.Title" uid="{DABD4D13-131A-4705-9413-0F2AF1C790D9}" />
+    <r ds="{F63136C7-C14B-405E-AB7E-A9A2C66480DE}" id="{913AB005-2527-4C2D-9827-FB3A8DFB135C}" par="Id=CloseButton&amp;ButtonType=Default" ph="DialogFooter.Buttons" uid="{F9BFA4A4-D8EF-4B30-A557-578E1B779FF6}" />
+    <r id="{642C1164-3AE1-4D86-8474-3BC19FE4433B}" ph="DialogHeader" uid="{13E91B00-FA06-4D2D-84A3-EF51D488870C}" />
+    <r id="{D8C6868D-7AE2-447F-9FD2-E712FDFA46C1}" ph="DialogFooter" uid="{4C4BE328-42C7-4F39-843D-5FA836CCCD88}" />
+    <r id="{8817F241-28C9-45AA-8C8D-434E71BCEF4B}" par="ShowToolbar=0" ph="DialogContent" uid="{F25CC19F-A3D1-4578-97AA-E60AB3CA9898}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=InnerContent&amp;UsePadding=1" ph="DialogContent" uid="{1D5AC62E-E566-4154-956A-A0C37A8E4025}" />
+    <r id="{1169C5EF-E49C-4B59-848D-9C9204E40D12}" par="RuleItemId=%7b07A3984B-C4B8-4103-A7A2-3C7F6A04DAED%7d&amp;Id=CloseButtonRule&amp;TargetControl=CloseButton&amp;Trigger=click&amp;Field=Rule" ph="Page.Body" uid="{D0F656AB-CDE7-4BB0-A0BE-87922516FE41}" />
+    <r id="{CA73CF5C-B536-44C4-A826-38231AFFBAE6}" par="Id=DeployMarketingDefinitions&amp;IsBusy=False" ph="InnerContent.Content" uid="{59FD3D96-23F8-46E6-9D79-94337C44A752}" />
+    <r id="{FE9723FC-56E4-4CA8-9C64-CB34F29462A5}" par="Id=ProgressIndicator&amp;IsVisible=False&amp;IsBusy=%7bBinding+DeployMarketingDefinitions.IsBusy%7d&amp;AutoShowTimeout=1000&amp;TargetControl=InnerContent" ph="InnerContent.Content" uid="{A6FAD9A3-FFD1-4D37-88FC-D4B370EB24F2}" />
+    <r ds="{F98BCBE7-74DA-40F0-BD49-1BF6DE3D9CE0}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=CompleteText&amp;IsVisible=False" ph="DeployMarketingDefinitions.Message" uid="{18212228-AAB5-4E7A-8D1B-0C03F3FF8A40}" />
+    <r ds="{6CD9FFE9-CB1D-45EF-B2CF-D723306C969B}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=ErrorText&amp;IsVisible=False" ph="DeployMarketingDefinitions.Message" uid="{564F0EF8-5ED2-4827-8463-C432E413C041}" />
+    <r id="{1169C5EF-E49C-4B59-848D-9C9204E40D12}" par="RuleItemId=%7b024927C9-5867-4FC3-9294-B56380A3B60D%7d&amp;Id=DeploymentCompleteRule&amp;TargetControl=DeployMarketingDefinitions&amp;Trigger=change%3adeploymentComplete&amp;Field=Rule" ph="Page.Body" uid="{DD416A70-AD98-42B3-AA60-BA25B44AC3ED}" />
+    <r id="{1169C5EF-E49C-4B59-848D-9C9204E40D12}" par="RuleItemId=%7b521DC89B-FC92-4D38-BC53-F3FC666273C4%7d&amp;Id=DeploymentErrorRule&amp;TargetControl=DeployMarketingDefinitions&amp;Trigger=change%3adeploymentError&amp;Field=Rule" ph="Page.Body" uid="{8E3D5BAC-912F-4591-9C71-69C0A2F1BC5F}" />
+  </d>
+</r>
+----version----
+language: da
+version: 1
+revision: b172c2c7-1f3a-47fb-95bb-02af795f5350
+
+----field----
+field: {7205A57F-93B4-413A-AA9A-6B16BBC59565}
+name: BrowserTitle
+key: browsertitle
+content-length: 33
+
+Implementer marketingdefinitioner
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 26
+
+DeployMarketingDefinitions
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133349Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b172c2c7-1f3a-47fb-95bb-02af795f5350
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133349Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 73ab4eef-7f48-4810-8682-d21be680f8e8
+
+----field----
+field: {7205A57F-93B4-413A-AA9A-6B16BBC59565}
+name: BrowserTitle
+key: browsertitle
+content-length: 31
+
+Marketingdefinitionen einsetzen
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 30
+
+MarketingdefinitionenEinsetzen
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133522Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+73ab4eef-7f48-4810-8682-d21be680f8e8
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133522Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: e6528a66-edd3-4314-9630-f9886f5f1760
+
+----field----
+field: {7205A57F-93B4-413A-AA9A-6B16BBC59565}
+name: BrowserTitle
+key: browsertitle
+content-length: 28
+
+Deploy marketing definitions
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20141124T192320Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e6528a66-edd3-4314-9630-f9886f5f1760
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150617T143805:635701486858616214Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 2c8d8070-43c8-43ce-ac45-61149de39ab0
+
+----field----
+field: {7205A57F-93B4-413A-AA9A-6B16BBC59565}
+name: BrowserTitle
+key: browsertitle
+content-length: 16
+
+マーケティング定義をデプロイする
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 16
+
+マーケティング定義をデプロイする
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133650Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+2c8d8070-43c8-43ce-ac45-61149de39ab0
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133650Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

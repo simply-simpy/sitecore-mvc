@@ -1,0 +1,226 @@
+----item----
+version: 1
+id: {6978727E-2A10-4424-91F4-D3BA5F085424}
+database: core
+path: /sitecore/client/Applications/ExperienceProfile/Contact/PageSettings/Tabs/Overview/OverviewPanel/LatestEventsTemplate
+parent: {E1ADDF9D-F168-4234-80BC-2599465104D4}
+name: LatestEventsTemplate
+master: {00000000-0000-0000-0000-000000000000}
+template: {F62B4CD7-754C-4461-810F-2B6BD2C92A0D}
+templatekey: Tab
+created: 20160729T132117Z
+
+----field----
+field: {DEAB3795-056F-4421-ADF0-758844461B72}
+name: Placeholder Name
+key: placeholder name
+content-length: 20
+
+LatestEventsTemplate
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 1623
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{759BEFD1-3323-404D-A243-E0ED81163C03}">
+    <r id="{CB83D434-31ED-4AC3-A280-CCE2B63F9743}" ph="Page.Body" uid="{F68705C5-523A-4F10-AB99-DF946490D23F}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=EventBorder" ph="Page.Body" uid="{90CB1647-D4DB-436C-A66F-2BD72B316D16}" />
+    <r id="{F517C5E4-9A53-46C3-B922-5B44E6DAAA48}" par="Id=EventIcon&amp;ImageUrl=%2fsitecore%2fapi%2fao%2fv1%2fanalytics%2fpageevents%2f00000000-0000-0000-0000-000000000000%2fimage%3fw%3d16%26h%3d16" ph="EventBorder.Content" uid="{A7437B3C-BDA6-4F19-8317-263ED5B206A5}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=EventDetailsBorder" ph="EventBorder.Content" uid="{834B277C-0CC3-400B-B451-41569CE787DE}" />
+    <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=EventDisplayName&amp;TextType=Label" ph="EventDetailsBorder.Content" uid="{BA703AC2-99D5-4B48-9C41-0B613A0F0E67}" />
+    <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=Title&amp;TextType=Label" ph="EventDetailsBorder.Content" uid="{5A788749-A2F9-436B-BB4D-399FA7751434}" />
+    <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=Time&amp;TextType=Label" ph="EventDetailsBorder.Content" uid="{1DB81A97-813D-4659-8D02-BD7158318A06}" />
+    <r id="{162FC747-B9E6-4FCE-A96C-1EFE125643F2}" par="Id=Url" ph="EventDetailsBorder.Content" uid="{B2E26C15-59B6-4EDE-BF95-16C429D82C3E}" />
+    <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=LocationDisplayName&amp;TextType=Label" ph="EventDetailsBorder.Content" uid="{B2E26C15-59B6-4EDE-BF95-16C429D82C3E}" />
+  </d>
+</r>
+----version----
+language: da
+version: 1
+revision: 47fa1607-d2b0-498e-8958-3f33c91ecc7e
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 20
+
+LatestEventsTemplate
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133331Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+47fa1607-d2b0-498e-8958-3f33c91ecc7e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133331Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 2070435e-c551-473f-aab2-e800c3a34341
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 19
+
+NeusteEventsVorlage
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 34
+
+20140611T164640:635381020005942554
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+2070435e-c551-473f-aab2-e800c3a34341
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133458Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: ffe16cee-e563-476e-a16c-1f25e4afdbec
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20131225T113316
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ffe16cee-e563-476e-a16c-1f25e4afdbec
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20141128T124304:635527753844544454Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 84da48aa-90e2-4fe4-862b-2f3e356e8ec7
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 14
+
+最新のイベント テンプレート
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133626Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+84da48aa-90e2-4fe4-862b-2f3e356e8ec7
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133626Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

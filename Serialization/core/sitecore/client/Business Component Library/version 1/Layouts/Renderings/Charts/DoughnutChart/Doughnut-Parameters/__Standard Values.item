@@ -1,0 +1,45 @@
+----item----
+version: 1
+id: {B2BCF468-D9DB-4300-AFC5-4EB2D31977DB}
+database: core
+path: /sitecore/client/Business Component Library/version 1/Layouts/Renderings/Charts/DoughnutChart/Doughnut-Parameters/__Standard Values
+parent: {89460341-DE8B-4D0B-8A00-4B9BA8F26997}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {89460341-DE8B-4D0B-8A00-4B9BA8F26997}
+templatekey: Doughnut-Parameters
+created: 20160729T132116Z
+
+----version----
+language: en
+version: 1
+revision: 3e5d03e4-d847-4f3f-ab96-c86a450ead01
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160204T092930Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3e5d03e4-d847-4f3f-ab96-c86a450ead01
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160311T121207Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

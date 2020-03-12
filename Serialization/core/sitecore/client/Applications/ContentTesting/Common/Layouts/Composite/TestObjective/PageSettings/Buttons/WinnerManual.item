@@ -1,0 +1,256 @@
+----item----
+version: 1
+id: {96617E53-B2CE-4892-8AEC-7A6E2C3172B2}
+database: core
+path: /sitecore/client/Applications/ContentTesting/Common/Layouts/Composite/TestObjective/PageSettings/Buttons/WinnerManual
+parent: {40C99F55-8A17-4D20-B9F6-F5E90CC01A86}
+name: WinnerManual
+master: {00000000-0000-0000-0000-000000000000}
+template: {56E3E9CE-F699-45E5-9938-6FED97DA6A65}
+templatekey: RadioButton Parameters
+created: 20160729T132117Z
+
+----field----
+field: {E861093B-D666-4D0D-AC0C-508713D325CF}
+name: IsChecked
+key: ischecked
+content-length: 0
+
+
+----field----
+field: {832A17FC-FCCC-40C5-A68A-82E08C297FF9}
+name: Value
+key: value
+content-length: 38
+
+{9551FA9B-2C25-40A1-9C00-038DE67ABDC2}
+----field----
+field: {B9C4C778-412F-4421-933D-1AD57EEB745C}
+name: GroupName
+key: groupname
+content-length: 12
+
+winnerSelect
+----version----
+language: da
+version: 1
+revision: 3a364d53-044d-46f7-a8ac-f8a7044acf03
+
+----field----
+field: {2A2A3E10-CC00-4044-B1E6-6B761387D8F3}
+name: Text
+key: text
+content-length: 19
+
+Vælg vinder manuelt
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 12
+
+WinnerManual
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133338Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3a364d53-044d-46f7-a8ac-f8a7044acf03
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133338Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 869e0d5c-b042-4b1a-822f-58096a61c3df
+
+----field----
+field: {2A2A3E10-CC00-4044-B1E6-6B761387D8F3}
+name: Text
+key: text
+content-length: 26
+
+Gewinner manuell auswählen
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 15
+
+GewinnerManuell
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133508Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+869e0d5c-b042-4b1a-822f-58096a61c3df
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133508Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: d3a77e32-9a8e-4ecb-adbe-4577a16a3a3e
+
+----field----
+field: {2A2A3E10-CC00-4044-B1E6-6B761387D8F3}
+name: Text
+key: text
+content-length: 22
+
+Manually select winner
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140711T113024
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d3a77e32-9a8e-4ecb-adbe-4577a16a3a3e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140722T163414:635416436544625735
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: ccb9f4f2-8782-4324-a010-75370828361f
+
+----field----
+field: {2A2A3E10-CC00-4044-B1E6-6B761387D8F3}
+name: Text
+key: text
+content-length: 17
+
+手動で最良のテスト結果を選択します
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 13
+
+手動による最良のテスト結果
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133635Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ccb9f4f2-8782-4324-a010-75370828361f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133635Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

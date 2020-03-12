@@ -1,0 +1,235 @@
+----item----
+version: 1
+id: {A08BD01A-04D9-4068-8A3F-DBAE452141A4}
+database: core
+path: /sitecore/client/Applications/ExperienceAnalytics/Common/System/ChartActionControl/TimeResolutionColumn/TimeResolutionGroup
+parent: {5EB670E0-69E5-4827-8389-E6B2E4DD736F}
+name: TimeResolutionGroup
+master: {00000000-0000-0000-0000-000000000000}
+template: {12E9DF28-3315-419C-B302-B9F06DB4A155}
+templatekey: ActionGroup
+created: 20160729T132117Z
+
+----version----
+language: da
+version: 1
+revision: 4b66c924-e851-4c4a-916d-12164efdb62b
+
+----field----
+field: {C59DC8BE-F396-4423-AF8F-4E31E750FA77}
+name: Text
+key: text
+content-length: 13
+
+Tidsopløsning
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 19
+
+TimeResolutionGroup
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133339Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4b66c924-e851-4c4a-916d-12164efdb62b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133339Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: decd15a5-4907-45b0-8c73-bf96f0ccfb19
+
+----field----
+field: {C59DC8BE-F396-4423-AF8F-4E31E750FA77}
+name: Text
+key: text
+content-length: 19
+
+Zeitliche Auflösung
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 24
+
+ZeitlicheAuflösungGruppe
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133510Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+decd15a5-4907-45b0-8c73-bf96f0ccfb19
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133510Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 65fd87ad-ab2c-43cb-9691-b12cbd4cb189
+
+----field----
+field: {C59DC8BE-F396-4423-AF8F-4E31E750FA77}
+name: Text
+key: text
+content-length: 15
+
+Time resolution
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140630T104658
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+65fd87ad-ab2c-43cb-9691-b12cbd4cb189
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140630T105416:635397224566300699
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 53d40f17-97da-4c0d-9b63-d065beff64ce
+
+----field----
+field: {C59DC8BE-F396-4423-AF8F-4E31E750FA77}
+name: Text
+key: text
+content-length: 4
+
+分析単位
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 8
+
+時間分解グループ
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133637Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+53d40f17-97da-4c0d-9b63-d065beff64ce
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133637Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,225 @@
+----item----
+version: 1
+id: {FC26B6A9-3B90-4618-8763-6876DAFBDF11}
+database: core
+path: /sitecore/client/Business Component Library/version 2/Content/Guidance/Renderings/Common/RadioButton/PageSettings/Tabs/Demo
+parent: {B88BF627-43E2-413D-83CC-276009150F17}
+name: Demo
+master: {00000000-0000-0000-0000-000000000000}
+template: {8A7ACB1A-0990-4C9E-A6F0-9612D0F5F51C}
+templatekey: Tab
+created: 20160729T132116Z
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 5146
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{759BEFD1-3323-404D-A243-E0ED81163C03}">
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoGroup&amp;ConfigurationDetails=RadioButtonA1.GroupName%3dGroupA%26RadioButtonA1.Label%3dFirst%26RadioButtonA1.Value%3d1%26RadioButtonA2.GroupName%3dGroupA%26RadioButtonA2.Label%3dSecond%26RadioButtonA2.Value%3d2%26RadioButtonA3.GroupName%3dGroupA%26RadioButtonA3.Label%3dThird%26RadioButtonA3.Value%3d3%26TextResult.Text%3d%7bBinding+%24app.GroupA%7d&amp;Description=The+control+shows+a+standard+radio+button+that+users+can+select.+You+use+the++control+as+part+of+a+group+of+similar+controls.+Only+one++control+in+a+group+can+be+selected+at+a+time%2c+and+when+a+user+selects+a+new+control+in+a+group%2c+SPEAK+automatically+clears+the+previous+selection.+You+create+a+group+by+setting+the+GroupName+property+of+a+set+of+RadioButton+controls+to+the+same+value.+The+Text+property+specifies+a+label+for+the+control%2c+and+the+Value+property+specifies+a+string+that+you+can+use+in+code.+The+example+shows+that+SPEAK+makes+the+value+of+the+currently+selected+control+in+a+group+available+as+a+property+of+the+group.&amp;Title=Specifying+a+group+of+radio+buttons" ph="Page.Body" uid="{B29101DA-BF4A-4853-9E4E-DFD78F44D64B}" />
+    <r id="{C6FA0646-F927-4D7E-9057-78DDA98FEFF2}" par="Id=RadioButtonA1&amp;GroupName=GroupA&amp;Value=1&amp;Label=First" ph="DemoGroup.Content" uid="{36F203CD-7E86-4ABB-B931-3017187ADE74}" />
+    <r id="{C6FA0646-F927-4D7E-9057-78DDA98FEFF2}" par="Id=RadioButtonA2&amp;GroupName=GroupA&amp;Value=2&amp;Label=Second" ph="DemoGroup.Content" uid="{B398C5F4-9AE3-410D-BDEA-4B9375AC3FB7}" />
+    <r id="{C6FA0646-F927-4D7E-9057-78DDA98FEFF2}" par="Id=RadioButtonA3&amp;GroupName=GroupA&amp;Value=3&amp;Label=Third" ph="DemoGroup.Content" uid="{F0DDF0EE-816E-4A75-91D9-7D705BC16E5C}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=Text1&amp;Text=RadioButtonB1.IsChecked%3a" ph="Border1.Content" uid="{E7D48CF2-6A6D-4243-9FF9-36658E2B155F}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=Text2&amp;Text=RadioButtonB2.IsChecked%3a" ph="Border2.Content" uid="{2C8376D9-67A2-48EE-BF63-5424D5554324}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="TextWeight=Bold&amp;Id=Text3&amp;Text=%7bBinding+RadioButtonB1.IsChecked%7d" ph="Border1.Content" uid="{5F539878-2FFC-4934-827C-A30CCFD8E1C0}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="TextWeight=Bold&amp;Id=Text4&amp;Text=%7bBinding+RadioButtonB2.IsChecked%7d" ph="Border2.Content" uid="{91AA1872-0E90-4379-9D52-7FA8CB501386}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=Text5&amp;Text=RadioButtonB3.IsChecked%3a" ph="Border3.Content" uid="{8FA651E3-063B-4261-9813-219438B289E8}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="TextWeight=Bold&amp;Id=Text6&amp;Text=%7bBinding+RadioButtonB3.IsChecked%7d" ph="Border3.Content" uid="{4EA71F21-C6C1-461D-81CD-9FCA6A0167A1}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border4&amp;PaddingType=Top&amp;UsePadding=1" ph="DemoGroup.Content" uid="{9DC12B08-07D3-4F9C-9920-207CE72C9914}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=Text7&amp;Text=Sitecore.Speak.app.GroupA%3a+" ph="Border4.Content" uid="{9A575E62-D9EA-4B8D-B065-8735F47CBA37}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="TextWeight=Bold&amp;Id=TextResult&amp;Text=%7bBinding+%24app.GroupA%7d" ph="Border4.Content" uid="{274AA1C2-6EFD-4A9A-9A78-CA4CF8966C0D}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoIsChecked&amp;ConfigurationDetails=RadioButtonB2.IsChecked%3dtrue&amp;Description=The+IsChecked+property+selects+a+button.+When+this+property+is+False+for+all+controls+in+a+group%2c+the+user+sees+a+group+with+no+selected+buttons.+When+the+user+selects+one+of+the+buttons%2c+it+becomes+impossible+to+go+back+to+the+state+where+no+button+is+selected.+&amp;Title=Selecting+a+button" ph="Page.Body" uid="{2456EF94-E3BE-4D90-BC80-A0E1638D07C9}" />
+    <r id="{C6FA0646-F927-4D7E-9057-78DDA98FEFF2}" par="Id=RadioButtonB1&amp;GroupName=GroupB&amp;Value=1&amp;Label=First" ph="DemoIsChecked.Content" uid="{B1136A34-36F0-49B4-8091-F5CBFCA980E3}" />
+    <r id="{C6FA0646-F927-4D7E-9057-78DDA98FEFF2}" par="Id=RadioButtonB2&amp;IsChecked=1&amp;GroupName=GroupB&amp;Value=2&amp;Label=Second" ph="DemoIsChecked.Content" uid="{604073FF-B3CE-4515-8B5C-9C917998B046}" />
+    <r id="{C6FA0646-F927-4D7E-9057-78DDA98FEFF2}" par="Id=RadioButtonB3&amp;GroupName=GroupB&amp;Value=3&amp;Label=Third" ph="DemoIsChecked.Content" uid="{F05889AD-252A-4F7E-AEC9-D85832D2B5F1}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border1&amp;PaddingType=Top&amp;UsePadding=1" ph="DemoIsChecked.Content" uid="{F1E34203-F4F1-4CEB-92CE-109DFDEB4803}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border2" ph="DemoIsChecked.Content" uid="{F9157F65-F940-4E0E-9238-80942F07E7EB}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border3" ph="DemoIsChecked.Content" uid="{EE342623-E5E2-40F0-A419-7CA0D71C4E4B}" />
+  </d>
+</r>
+----version----
+language: de-DE
+version: 1
+revision: afc297b9-e71c-4d2f-a08c-73f9b92c3cd9
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 4
+
+Demo
+----field----
+field: {772AEA8A-4D70-43F4-BD6B-EDE5FB060623}
+name: Tooltip
+key: tooltip
+content-length: 4
+
+Demo
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 4
+
+Demo
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133528Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+afc297b9-e71c-4d2f-a08c-73f9b92c3cd9
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133528Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 7d53c48f-dbf9-4e5c-9857-02f9a5e9a08c
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 4
+
+Demo
+----field----
+field: {772AEA8A-4D70-43F4-BD6B-EDE5FB060623}
+name: Tooltip
+key: tooltip
+content-length: 4
+
+Demo
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151009T110302Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+7d53c48f-dbf9-4e5c-9857-02f9a5e9a08c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160415T082007Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 98daf0bc-149c-4f9d-bb8e-311ba43ba340
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 2
+
+デモ
+----field----
+field: {772AEA8A-4D70-43F4-BD6B-EDE5FB060623}
+name: Tooltip
+key: tooltip
+content-length: 2
+
+デモ
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 2
+
+デモ
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133657Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+98daf0bc-149c-4f9d-bb8e-311ba43ba340
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133657Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

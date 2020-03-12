@@ -1,0 +1,270 @@
+----item----
+version: 1
+id: {76E303F1-712F-49BF-90B2-9FDBDA2299F7}
+database: core
+path: /sitecore/client/Business Component Library/version 1/Templates/Branches/Applications/Application Shortcut/$name
+parent: {2D3A619A-0FFB-4EE4-88F6-D66673049CA2}
+name: $name
+master: {00000000-0000-0000-0000-000000000000}
+template: {E20487F1-5558-41F8-B92B-5B57A1491E99}
+templatekey: Speak-AppShortcut
+created: 20160729T132116Z
+
+----field----
+field: {3EF4C3B3-7DB3-4E35-B017-28CE9BEF450D}
+name: Icon
+key: icon
+content-length: 168
+
+<image mediaid="{FCD9E739-E66F-4625-B4C7-A15615BA0DC7}" mediapath="/client/Speak/System/Icons/Dimensions/48x48"   src="~/media/FCD9E739E66F4625B4C7A15615BA0DC7.ashx" />
+----field----
+field: {803A0815-B39B-47C0-B727-58E3C8912C8D}
+name: Database
+key: database
+content-length: 4
+
+core
+----version----
+language: da
+version: 1
+revision: fddd2cac-9e0a-4893-9e53-535b16692544
+
+----field----
+field: {9D74244B-6D0B-4689-9FB7-C914F34059E1}
+name: Tooltip
+key: tooltip
+content-length: 68
+
+Leverer en GUID på startside-id'et (i modsat fald vises genvej ikke)
+----field----
+field: {DDC2F665-6FA1-40A0-A36D-E4CA86B90759}
+name: Title
+key: title
+content-length: 10
+
+App-genvej
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133333Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+fddd2cac-9e0a-4893-9e53-535b16692544
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133333Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 6c4d2fe4-ea79-4dbf-a358-9a4899926ee7
+
+----field----
+field: {9D74244B-6D0B-4689-9FB7-C914F34059E1}
+name: Tooltip
+key: tooltip
+content-length: 93
+
+Stellen Sie einen GUID in der Startseiten-ID bereit (sonst wird der Shortcut nicht angezeigt)
+----field----
+field: {DDC2F665-6FA1-40A0-A36D-E4CA86B90759}
+name: Title
+key: title
+content-length: 12
+
+App Shortcut
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133501Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+6c4d2fe4-ea79-4dbf-a358-9a4899926ee7
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133501Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: c5f76db6-657a-49d3-acb9-45f20328e7b2
+
+----field----
+field: {9D74244B-6D0B-4689-9FB7-C914F34059E1}
+name: Tooltip
+key: tooltip
+content-length: 76
+
+Provide a GUID in the Starting Page Id (otherwise, shortcut will not appear)
+----field----
+field: {DDC2F665-6FA1-40A0-A36D-E4CA86B90759}
+name: Title
+key: title
+content-length: 12
+
+App Shortcut
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130809T113600
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c5f76db6-657a-49d3-acb9-45f20328e7b2
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20130823T175915:635128775556650000
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: e5bdb55f-a300-43ff-9e87-34875b7b9d5d
+
+----field----
+field: {9D74244B-6D0B-4689-9FB7-C914F34059E1}
+name: Tooltip
+key: tooltip
+content-length: 57
+
+スタート ページ ID に GUID を設定してください （設定していない場合は、ショートカットが表示されません）
+----field----
+field: {DDC2F665-6FA1-40A0-A36D-E4CA86B90759}
+name: Title
+key: title
+content-length: 16
+
+アプリケーション ショートカット
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133629Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e5bdb55f-a300-43ff-9e87-34875b7b9d5d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133629Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

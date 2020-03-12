@@ -1,0 +1,277 @@
+----item----
+version: 1
+id: {211C29FA-E34A-48CD-BD0E-6CA07E27C45A}
+database: core
+path: /sitecore/client/Applications/ExperienceEditor/Ribbon
+parent: {FD66E7FF-5D8D-435E-9E0E-1FF8357C2EAF}
+name: Ribbon
+master: {00000000-0000-0000-0000-000000000000}
+template: {5F2C442F-2554-4C80-B1D9-2195FA6168B1}
+templatekey: Speak-BasePage
+created: 20160729T132117Z
+
+----field----
+field: {3A67AD0F-9530-4B1B-9B70-9230C36AE8D6}
+name: UseFullWidth
+key: usefullwidth
+content-length: 1
+
+1
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 25
+
+Control/16x16/toolbar.png
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 3699
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{4F72A793-BDBC-4262-9523-6AADD8FEA487}">
+    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="PageCodeScriptFileName=%2fsitecore%2fshell%2fclient%2fSitecore%2fExperienceEditor%2fRibbonPageCode.js" ph="Page.Code" uid="{1E20DA9C-43F9-4312-8BFD-568FB1BBA83F}" />
+    <r id="{21E86498-6C8E-4F3B-83F2-B49E5E0ABE16}" par="PipelineItemId=%7b86BAD2CA-4321-4F44-8080-8D816268DCCF%7d&amp;Id=InitializePageEditPipeline&amp;LoadMode=Inline&amp;UseBundle=1" ph="Page.Body" uid="{45BEA6C0-0022-4F50-82B7-E5A9561CDB70}" />
+    <r id="{21E86498-6C8E-4F3B-83F2-B49E5E0ABE16}" par="PipelineItemId=%7b859E217F-322B-4915-8054-5357B04CFFF1%7d&amp;Id=SearchPipeline&amp;LoadMode=WhenRun&amp;UseBundle=1" ph="Page.Body" uid="{39B3C26E-AFED-4A95-88C1-E6B185C14AB2}" />
+    <r id="{21E86498-6C8E-4F3B-83F2-B49E5E0ABE16}" par="PipelineItemId=%7b73D2BB02-F53F-4045-8BC6-4E3430C291F0%7d&amp;Id=SavePipeline&amp;LoadMode=WhenRun&amp;UseBundle=1" ph="Page.Body" uid="{0A74A668-E0E3-4C41-9AAD-49D20CCE2E6D}" />
+    <r id="{FDE6FB54-A5F6-4B20-A5AE-3AD8F8E539C9}" ph="Page.Body" uid="{ED00C2D6-B53B-4494-8DE2-08F1B934AAE2}" />
+    <r id="{5AE97C0C-EE88-4564-A363-4FA11C01C90A}" ph="GlobalHeader" uid="{455B3DE7-8A97-4267-989B-3F8CE9433430}" />
+    <r id="{7A69C522-7E99-4630-A25A-5D571505862A}" par="Id=GlobalLogo" ph="GlobalHeader.StartButton" uid="{6220660F-F7AA-44E9-833C-3FD2CA304AF2}" />
+    <r id="{2EE499CD-439A-4F10-B81F-36A54CAC01DB}" par="Id=AccountInformation" ph="GlobalHeader.LoginInfo" uid="{06969E9A-1D04-4ECC-8B65-A5B2BBC244B7}" />
+    <r id="{F4045235-19F0-49B5-ADEE-BC9E501917C8}" par="Id=PageEditBar&amp;IsVisible=0" ph="Page.Body" uid="{D83DA1A1-730E-4255-951D-A440934A48D2}" />
+    <r ds="{8D44E265-235F-421E-A0BD-A7B11B32FFF6}" id="{5FF1FC4B-263D-4348-99EE-6F1196C1320B}" par="Id=QuickBar" ph="PageEditBar.Content" uid="{E32AE3C5-F942-4C5D-BEB0-2F6DBBD318F5}" />
+    <r id="{4CC3C7E9-18EA-4837-91C2-38E543B5243D}" par="Id=Ribbon" ph="PageEditBar.Content" uid="{146DE91F-C878-4B07-B733-514273F10BB9}" />
+    <r id="{F5B5BF22-DC82-406E-B39E-ACD02ED4CDC4}" par="Id=RibbonBreadcrumb&amp;IsVisible=0" ph="PageEditBar.Content" uid="{45348FD9-3458-4284-B0E1-18153E3516B4}" />
+    <r id="{910155C7-3881-4A56-90FB-D126490EDE55}" par="Id=NotificationBar" ph="Page.Body" uid="{132CB319-54A6-4615-BB50-06F7791897FA}" />
+    <r ds="{7B29BA2F-64E7-45F4-8B66-357D5E2BBC07}" id="{A82840D0-633E-4D1A-B7FE-8C0062AA22F1}" par="Id=TranslationDictionary" ph="Page.Body" uid="{BB911C09-59F0-471E-8109-C6EE48E8313B}" />
+    <r id="{DC4C09C2-52DB-4375-B385-F6AF61A7FCE5}" par="Id=SelectLanguageCommand&amp;PageCodeScriptFileName=%2fsitecore%2fshell%2fclient%2fSitecore%2fExperienceEditor%2fCommands%2fChangeLanguage.js&amp;Command=ChangeLanguage" ph="Page.Body" uid="{FEE5732A-796E-4656-A8DB-2C4CBDF8FBA0}" />
+    <r id="{DC4C09C2-52DB-4375-B385-F6AF61A7FCE5}" par="Id=MoreLanguagesCommand&amp;PageCodeScriptFileName=%2fsitecore%2fshell%2fclient%2fSitecore%2fExperienceEditor%2fCommands%2fMoreLanguages.js&amp;Command=MoreLanguages" ph="Page.Body" uid="{1BB193A5-400B-45D9-990B-6011FE2AFD07}" />
+    <r id="{DC4C09C2-52DB-4375-B385-F6AF61A7FCE5}" par="Id=SelectVersionCommand&amp;PageCodeScriptFileName=%2fsitecore%2fshell%2fclient%2fSitecore%2fExperienceEditor%2fCommands%2fSelectVersion.js&amp;Command=SelectVersion" ph="Page.Body" uid="{F25ACB05-8949-4D30-931F-0319A755789E}" />
+    <r id="{66CE90A1-5442-489F-A61F-50FE1A4AB620}" par="Id=LockCommandDependency&amp;DependantCommands=EnableEditing%7cEnableDesigning%7cAddComponent%7cLayoutDetails%7cResetLayout&amp;Command=Lock" ph="Page.Body" uid="{76FF9D56-9D19-4289-BA68-BB250D58EC99}" />
+  </d>
+</r>
+----version----
+language: da
+version: 1
+revision: 1e76a679-fa94-4fbb-a65a-6a8826dd246a
+
+----field----
+field: {7205A57F-93B4-413A-AA9A-6B16BBC59565}
+name: BrowserTitle
+key: browsertitle
+content-length: 35
+
+Bjælke i Sitecore Experience Editor
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 14
+
+Værktøjsbjælke
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133319Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+1e76a679-fa94-4fbb-a65a-6a8826dd246a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133319Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 38368969-12ee-460b-a331-c88b1c0115cf
+
+----field----
+field: {7205A57F-93B4-413A-AA9A-6B16BBC59565}
+name: BrowserTitle
+key: browsertitle
+content-length: 33
+
+Sitecore Experience Editor Ribbon
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 6
+
+Ribbon
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133445Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+38368969-12ee-460b-a331-c88b1c0115cf
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133445Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 5d45572b-eeff-4a8b-af1b-177efe9b3a76
+
+----field----
+field: {7205A57F-93B4-413A-AA9A-6B16BBC59565}
+name: BrowserTitle
+key: browsertitle
+content-length: 33
+
+Sitecore Experience Editor Ribbon
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20130704T111557Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5d45572b-eeff-4a8b-af1b-177efe9b3a76
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20151029T151953Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: e72c9ade-6a9a-4c5c-b0e4-bc138de7a985
+
+----field----
+field: {7205A57F-93B4-413A-AA9A-6B16BBC59565}
+name: BrowserTitle
+key: browsertitle
+content-length: 27
+
+Sitecore エクスペリエンス エディター リボン
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 3
+
+リボン
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133612Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e72c9ade-6a9a-4c5c-b0e4-bc138de7a985
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133612Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

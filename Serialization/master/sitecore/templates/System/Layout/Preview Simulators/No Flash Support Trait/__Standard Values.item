@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {F2D9DE81-970E-4A79-AC30-E4FAE8A81AF3}
+database: master
+path: /sitecore/templates/System/Layout/Preview Simulators/No Flash Support Trait/__Standard Values
+parent: {317ADE1D-337A-464A-B7D0-06B4424FC0EA}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {317ADE1D-337A-464A-B7D0-06B4424FC0EA}
+templatekey: No Flash Support Trait
+created: 20160729T132117Z
+
+----field----
+field: {E1036F6B-0FD2-43B4-B4FD-00FB80243D08}
+name: Use Alternate Content
+key: use alternate content
+content-length: 1
+
+1
+----field----
+field: {DA75D6B8-D9DD-48D4-80F7-0C926CE5FFF3}
+name: Replacement Html
+key: replacement html
+content-length: 29
+
+<div class="scNoFlash"></div>
+----field----
+field: {FE5C1799-FA2A-4A5A-9C2B-D67BC1668D28}
+name: Type
+key: type
+content-length: 72
+
+Sitecore.Pipelines.ProcessSimulatorResponse.ReplaceHtml, Sitecore.Kernel
+----field----
+field: {C4B1296B-5716-42A4-8163-32510482ED9B}
+name: Client Script
+key: client script
+content-length: 83
+
+/sitecore/shell/Applications/Preview/SimulatedDevicePreview/Scripts/ReplaceFlash.js
+----version----
+language: en
+version: 1
+revision: 7caf833c-dd6f-489b-9aee-ec481a3697fb
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20110721T145100
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+7caf833c-dd6f-489b-9aee-ec481a3697fb
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20120321T161722:634679434420917211
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

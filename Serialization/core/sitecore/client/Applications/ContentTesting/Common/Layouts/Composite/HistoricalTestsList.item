@@ -1,0 +1,244 @@
+----item----
+version: 1
+id: {BF3F36D5-4465-497A-9A17-515E8941A085}
+database: core
+path: /sitecore/client/Applications/ContentTesting/Common/Layouts/Composite/HistoricalTestsList
+parent: {F9D4F466-9353-448B-9AFE-96339C328864}
+name: HistoricalTestsList
+master: {00000000-0000-0000-0000-000000000000}
+template: {F62B4CD7-754C-4461-810F-2B6BD2C92A0D}
+templatekey: Tab
+created: 20160729T132117Z
+
+----field----
+field: {DEAB3795-056F-4421-ADF0-758844461B72}
+name: Placeholder Name
+key: placeholder name
+content-length: 19
+
+HistoricalTestsList
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 1513
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+    <r id="{5A9CFC1E-A74B-406F-98AC-15372D35303F}" par="ShowHistorical=True&amp;Mode=historical&amp;Id=TestsDataSource&amp;SearchText=%7bBinding+SearchCtrl.Text%7d&amp;PageSize=75&amp;Page=1" uid="{22AF725D-E7B0-4E20-A1F8-298126C91522}" />
+    <r id="{ED5C3BA8-17E3-4F82-89C2-1496E8D61434}" par="Id=SearchPanel" uid="{DFA08F09-61CD-44A9-9AA5-D21F1A6F0C8E}" />
+    <r id="{E4C8C7BE-E941-49F2-9724-29237AE7EA37}" par="Click=javascript%3aapp.TestsDataSource.reset()&amp;IsEnabled=1&amp;ButtonImageUrl=%2fsitecore%2fshell%2fclient%2fSpeak%2fAssets%2fimg%2fSpeak%2fCommon%2f16x16%2fdark_gray%2fsearch.png&amp;Id=SearchCtrl&amp;IsVisible=1" ph="SearchPanel.Searches" uid="{D33FB00F-0300-4B3A-8277-D139ED21840F}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=ListBorder&amp;PaddingType=Top&amp;UsePadding=1" ph="SearchPanel.Details" uid="{42A0883B-0316-429E-ABBE-2F0F9C086A85}" />
+    <r ds="{21D7A781-C9DA-46A8-8B47-ABEB02B0E943}" id="{ACE0AFD6-3DE0-42CF-8E62-4E68CD810A8D}" par="Id=TestsList&amp;Items=%7bBinding+TestsDataSource.Items%7d&amp;IsEndlessScrollEnabled=1&amp;Behaviors=EndlessPageScroll" ph="ListBorder.Content" uid="{A094CF56-C82D-48B2-A1DB-2983D5DD5FE5}" />
+    <r id="{FE9723FC-56E4-4CA8-9C64-CB34F29462A5}" par="Id=ProgressIndicatorTests&amp;IsBusy=%7bBinding+TestsDataSource.IsBusy%7d&amp;AutoShowTimeout=1000&amp;TargetControl=TestsList" ph="ListBorder.Content" uid="{0182B9A7-6551-496D-AEE1-039DE61A3DE6}" />
+  </d>
+</r>
+----version----
+language: da
+version: 1
+revision: fc158cff-589d-497a-b484-f6a10c5e3e4b
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 19
+
+HistoricalTestsList
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 35
+
+20150525T132647:635681572075688264Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+fc158cff-589d-497a-b484-f6a10c5e3e4b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133344Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 63876dae-28ec-436f-84c3-7e8026805471
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 21
+
+HistorischeTestsListe
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 35
+
+20150525T134512:635681583125336775Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+63876dae-28ec-436f-84c3-7e8026805471
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133516Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 7b2d1ce2-f79c-4134-b827-a2a9d1948054
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140710T151843
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+7b2d1ce2-f79c-4134-b827-a2a9d1948054
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150507T095805:635665894854454641Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 763c2f3e-7c47-4d61-9002-913f25b2f070
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 10
+
+過去のテスト リスト
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 35
+
+20150525T133620:635681577802322611Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+763c2f3e-7c47-4d61-9002-913f25b2f070
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133644Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

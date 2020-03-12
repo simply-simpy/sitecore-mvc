@@ -1,0 +1,242 @@
+----item----
+version: 1
+id: {6C8E9883-101F-4356-9442-DAF28C58106A}
+database: core
+path: /sitecore/client/Applications/ContentTesting/ExperienceOptimization/Dashboard/PageTest/PageSettings/Cancel Test Dialog
+parent: {A93C25B6-16EB-4BDE-832C-C163343E520F}
+name: Cancel Test Dialog
+master: {00000000-0000-0000-0000-000000000000}
+template: {4D96D06C-54EE-47F3-97E5-1B4FA4B902B0}
+templatekey: DialogWindow Parameters
+created: 20160729T132117Z
+
+----field----
+field: {6A80F83A-4295-47E0-BFB5-2F88729AB09B}
+name: Size
+key: size
+content-length: 0
+
+
+----version----
+language: da
+version: 1
+revision: 2c447596-c6e8-4cb3-a4e8-6985714b85ed
+
+----field----
+field: {7065AC6A-3607-4F0B-97CF-9D0B46B961FF}
+name: HeaderText
+key: headertext
+content-length: 13
+
+Annuller test
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 24
+
+Annuller test Dialogboks
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133332Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+2c447596-c6e8-4cb3-a4e8-6985714b85ed
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133332Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 9e2a68ed-7bd3-488b-a315-006b9488065c
+
+----field----
+field: {7065AC6A-3607-4F0B-97CF-9D0B46B961FF}
+name: HeaderText
+key: headertext
+content-length: 16
+
+Test abgebrochen
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 20
+
+Testdialog abbrechen
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133459Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+9e2a68ed-7bd3-488b-a315-006b9488065c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133459Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: ded63c2e-ca26-45b7-9d4d-b74319b7608f
+
+----field----
+field: {7065AC6A-3607-4F0B-97CF-9D0B46B961FF}
+name: HeaderText
+key: headertext
+content-length: 11
+
+Cancel Test
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150428T021912Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ded63c2e-ca26-45b7-9d4d-b74319b7608f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150504T032434:635663066741413117Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 879c8cae-9ea7-434c-b3ef-c57e960783a6
+
+----field----
+field: {7065AC6A-3607-4F0B-97CF-9D0B46B961FF}
+name: HeaderText
+key: headertext
+content-length: 11
+
+テストをキャンセルする
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 15
+
+テストをキャンセル ダイアログ
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133627Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+879c8cae-9ea7-434c-b3ef-c57e960783a6
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133627Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

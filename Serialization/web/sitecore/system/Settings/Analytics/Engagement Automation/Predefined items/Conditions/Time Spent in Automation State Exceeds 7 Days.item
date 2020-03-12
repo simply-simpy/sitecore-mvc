@@ -1,0 +1,86 @@
+----item----
+version: 1
+id: {6915E3F8-E560-498B-BA20-849B75053DF5}
+database: web
+path: /sitecore/system/Settings/Analytics/Engagement Automation/Predefined items/Conditions/Time Spent in Automation State Exceeds 7 Days
+parent: {84009799-C07F-4586-9E05-5D3F024C976A}
+name: Time Spent in Automation State Exceeds 7 Days
+master: {00000000-0000-0000-0000-000000000000}
+template: {0A43A0FE-7E0E-49EF-95D4-E3DE34F4F175}
+templatekey: Engagement Plan Condition
+created: 20160729T132117Z
+
+----field----
+field: {E13DCD09-D9BB-43C9-8D7D-438C79D714CA}
+name: Evaluate
+key: evaluate
+content-length: 38
+
+{733DCB4D-6477-44DB-87F1-8798B14DB804}
+----field----
+field: {21F3482B-BB14-4555-BA5D-AF20D400D5B9}
+name: Rule
+key: rule
+content-length: 249
+
+<ruleset>
+  <rule uid="{DF7C89C0-57C8-408B-BE78-840564723D6D}">
+    <conditions>
+      <condition id="{8678E234-7A46-4E8B-97B0-03D5E2BD9F03}" uid="EEEED04DFBA94521AB75D2A16193F32D" Days="7" Minutes="0" />
+    </conditions>
+  </rule>
+</ruleset>
+----version----
+language: en
+version: 1
+revision: fc8060fa-5ddf-4e85-a179-8f29cea01951
+
+----field----
+field: {06F2D72A-1924-4B9A-BA1E-186CE4E57EFD}
+name: Description
+key: description
+content-length: 79
+
+True when the time the visitor has been in the automation state exceeds 7 days.
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 45
+
+Time Spent in Automation State Exceeds 7 Days
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20110221T112700
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 18
+
+sitecore\Anonymous
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+fc8060fa-5ddf-4e85-a179-8f29cea01951
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20110516T101127:634411374876031903
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

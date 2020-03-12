@@ -1,0 +1,301 @@
+----item----
+version: 1
+id: {623A424A-494C-4747-86CD-7FF4F4BC02D8}
+database: core
+path: /sitecore/client/Applications/Dialogs/UploadMediaDialog
+parent: {648AFADA-20C7-413A-9636-44703A16DFCF}
+name: UploadMediaDialog
+master: {00000000-0000-0000-0000-000000000000}
+template: {8152CF09-9DD0-40C0-B806-6E91FDF389BC}
+templatekey: Speak-DialogPage
+created: 20160729T132117Z
+
+----field----
+field: {5E642935-A6FC-48E9-B039-FE1136CED488}
+name: Theme
+key: theme
+content-length: 6
+
+Oxford
+----field----
+field: {F7B4EBC1-2335-4EB8-AFAE-3444923A38BE}
+name: Subthemes
+key: subthemes
+content-length: 38
+
+{F69304BA-2B80-4555-96DD-6F08559405E1}
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 6070
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{4F72A793-BDBC-4262-9523-6AADD8FEA487}">
+    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="PageCodeTypeName=Sitecore.Speak.Applications.UploadMediaDialog%2c+Sitecore.Speak.Applications&amp;PageCodeScriptFileName=%2fsitecore%2fshell%2fclient%2fApplications%2fDialogs%2fUploadMediaDialog.js" ph="Page.Code" uid="{A1D42E10-1DA0-4177-B7DE-45275D550B0B}" />
+    <r id="{A82840D0-633E-4D1A-B7FE-8C0062AA22F1}" par="Id=UploadInfoTexts&amp;Phrases=Ready%7cDone%7cUploading" ph="Page.Code" uid="{5AB1EAC9-67A2-4A3D-BA8F-BC929006E8EF}" />
+    <r id="{7BA20861-BC27-4F0E-94DD-8F974628A5C4}" ph="Page.Body" uid="{6B14D25B-DE87-4EBD-B73C-487168F42E73}" />
+    <r id="{642C1164-3AE1-4D86-8474-3BC19FE4433B}" ph="DialogHeader" uid="{ED101CAF-A273-4589-9FF7-2D73879D5BFB}" />
+    <r id="{D8C6868D-7AE2-447F-9FD2-E712FDFA46C1}" ph="DialogFooter" uid="{A061A4E7-F47D-42F8-AC31-6D9F0441F9B2}" />
+    <r ds="{D904A154-25A3-4857-9B97-8C51DD50EE17}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=Text" ph="DialogHeader.Title" uid="{7985BD11-2768-480F-B9F6-7F63BE7BB62A}" />
+    <r id="{8817F241-28C9-45AA-8C8D-434E71BCEF4B}" ph="DialogContent" uid="{19F95695-AF1C-47BA-A894-B627EFE8BB03}" />
+    <r ds="{BEABC7A4-0D0A-4D4C-9220-CF3124FA4DA3}" id="{913AB005-2527-4C2D-9827-FB3A8DFB135C}" par="Id=CancelButton" ph="DialogFooter.Buttons" uid="{DB085A5F-0F6F-4AF7-BCF3-8FB76A125309}" />
+    <r ds="{0040D00C-EC60-421D-A1BE-975DA9931B35}" id="{C80807A7-AD13-4693-9822-DD840CB266C5}" par="Click=javascript%3a+window.location.assign(%22%2fsitecore%2fclient%2fApplications%2fDialogs%2fSelectMediaDialog%22)%3b&amp;Id=BackButton" ph="DialogContent.Back" uid="{41DE1E1A-C733-4AF4-9683-4FF97253420A}" />
+    <r ds="{6595B407-22FD-43AD-975E-9E0BF07370EA}" id="{913AB005-2527-4C2D-9827-FB3A8DFB135C}" par="Click=open%3aDestinationSmartPanel&amp;Id=ChangeDestinationButton" ph="DialogContent.Actions" uid="{9BCC0924-3D15-4716-AF76-22202CC5407D}" />
+    <r ds="{149ED409-91B2-4A9F-8B03-4C128560F706}" id="{913AB005-2527-4C2D-9827-FB3A8DFB135C}" par="Click=upload%3aUploader&amp;BackgroundPosition=-357px+-273px&amp;Id=UploadButton&amp;IsEnabled=%7bBinding+Uploader.HasFilesToUpload%2c+Converter%3dHas+%7d&amp;ButtonType=Primary&amp;ImageUrl=%2fsitecore%2fshell%2fclient%2fSpeak%2fAssets%2fimg%2fsc-sprite-white.png" ph="DialogContent.Actions" uid="{B81C6AFD-C40B-4014-9DFF-BECFB6D94BEE}" />
+    <r id="{910155C7-3881-4A56-90FB-D126490EDE55}" par="Id=MessageBar" ph="DialogContent" uid="{392AAA1A-96C2-4D1A-89E4-7C782390E201}" />
+    <r id="{C4393722-39FA-4869-9582-3A8EB8983A0D}" par="UsePadding=True&amp;Id=DestinationRowPanel" ph="DialogContent.Main" uid="{97FF70C2-6455-4EED-A6DF-17D4214B8284}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=ColumnPanel2&amp;GridColumns=12&amp;ContentAlign=Right" ph="DestinationRowPanel.Content" uid="{4BB2338D-BD8A-42AC-BCFE-668430C13E76}" />
+    <r ds="{968E3F25-2BA5-413B-AE63-1558C5009C55}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=DestinationText&amp;TextType=Label" ph="ColumnPanel2.Content" uid="{786943CB-6E45-4129-906B-93F0E7282831}" />
+    <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=DestinationValueText&amp;TextType=Value" ph="ColumnPanel2.Content" uid="{32B7896D-2837-4591-84B2-C9052794CD48}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=Border&amp;UsePadding=0" ph="DialogContent.Main" uid="{2C5D1D22-FD15-428A-89D0-76C01D6FF578}" />
+    <r ds="{7BD215AA-1148-489E-9B53-157771AE826E}" id="{B2257CAC-47CA-4061-9352-C06D687ED32C}" par="Database=%24context_contentdatabase&amp;Id=Uploader" ph="Border.Content" uid="{F4276586-21F5-4BB2-87F3-D90FD31F27C2}" />
+    <r id="{F05CDBA5-03ED-46D2-B58C-C0283F86C332}" par="Id=UploaderInfo" ph="Border.Content" uid="{6D5835CE-9A93-49E8-B4DC-5B17FF2B2B5B}" />
+    <r id="{1169C5EF-E49C-4B59-848D-9C9204E40D12}" par="RuleItemId=%7bBE55D816-620D-4EAD-B646-2C2469927286%7d&amp;Id=ErrorRule&amp;Trigger=sc-error&amp;Field=Rule" ph="Page.Body" uid="{3CCE43C1-2F9A-4BBD-AE34-BBDF80190C94}" />
+    <r id="{1169C5EF-E49C-4B59-848D-9C9204E40D12}" par="RuleItemId=%7b2BC8DCEE-F5EB-46AE-A8E7-152311659ED2%7d&amp;Id=RemoveErrorRule&amp;Trigger=sc-uploader-remove&amp;Field=Rule" ph="Page.Body" uid="{E0EF21F9-5680-4A69-8C9F-FF4CB79F72B5}" />
+    <r id="{1169C5EF-E49C-4B59-848D-9C9204E40D12}" par="RuleItemId=%7b1F473354-8029-4904-B6E8-97D323BA3616%7d&amp;Id=CancelButtonRule&amp;TargetControl=CancelButton&amp;Trigger=click&amp;Field=Rule" ph="Page.Body" uid="{1DFF87A5-A49F-42D5-980A-90DA63A1BDD2}" />
+    <r id="{054CA6D7-125D-46D0-957C-D38A26190274}" par="Id=DestinationSmartPanel&amp;Position=Right&amp;OffsetBottom=60&amp;OffsetTop=60" ph="Page.Body" uid="{D05180EE-BA7F-41EE-9120-C8A7B0DCD98A}" />
+    <r ds="{032EE70A-22DA-44BD-BFA7-256B866D15FF}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=DestinationPanelHeaderText&amp;TextType=LargeTitle" ph="DestinationSmartPanel.Header" uid="{EF61EBC7-6439-47CC-8C11-68565ED8653E}" />
+    <r id="{08B6767B-8E8A-41C8-8880-EFEBB4EAE0E3}" par="Id=TreeView&amp;RootItem=%7b3D6658D8-A0BF-4E75-B3E2-D050FABCF4E1%7d&amp;IsCheckboxEnabled=0" ph="DestinationSmartPanel.Content" uid="{6A0535FA-613B-444D-827E-12726535C46C}" />
+    <r ds="{83473462-AFE0-42E4-AE0F-00ED21FD6020}" id="{913AB005-2527-4C2D-9827-FB3A8DFB135C}" par="Id=ConfirmButton&amp;IsEnabled=false&amp;ButtonType=Primary" ph="DestinationSmartPanel.Buttons" uid="{BEB5DE7E-60DA-4DD5-AB49-3919F0C368DC}" />
+    <r id="{1169C5EF-E49C-4B59-848D-9C9204E40D12}" par="RuleItemId=%7bC0124713-A11A-4575-AE50-2360339CBFCF%7d&amp;Id=CloseDestinationSmartPanelRule&amp;TargetControl=ConfirmButton&amp;Trigger=click&amp;Field=Rule" ph="Page.Body" uid="{835BEFA9-E8CD-481D-973D-6B7F705B4293}" />
+    <r id="{1169C5EF-E49C-4B59-848D-9C9204E40D12}" par="RuleItemId=%7b751A514C-EB67-41A2-B689-7C9798F91881%7d&amp;Id=TreeViewRule&amp;TargetControl=TreeView&amp;Trigger=change%3aselectedItemId&amp;Field=Rule" ph="Page.Body" uid="{7D676B6B-488C-42E9-944B-22946B2D2288}" />
+  </d>
+</r>
+----version----
+language: da
+version: 1
+revision: d12067ae-4790-43a3-a32f-7200e3054818
+
+----field----
+field: {7205A57F-93B4-413A-AA9A-6B16BBC59565}
+name: BrowserTitle
+key: browsertitle
+content-length: 12
+
+Upload medie
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 17
+
+UploadMediaDialog
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133330Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d12067ae-4790-43a3-a32f-7200e3054818
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133330Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: abd492cf-726b-4c10-9ebd-3d8c94326836
+
+----field----
+field: {7205A57F-93B4-413A-AA9A-6B16BBC59565}
+name: BrowserTitle
+key: browsertitle
+content-length: 16
+
+Hochladen Medien
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 21
+
+MediendialogHochladen
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133457Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+abd492cf-726b-4c10-9ebd-3d8c94326836
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133457Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 3ad70899-f80f-4261-85d2-e338e59d99d5
+
+----field----
+field: {7205A57F-93B4-413A-AA9A-6B16BBC59565}
+name: BrowserTitle
+key: browsertitle
+content-length: 12
+
+Upload Media
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130131T104512
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3ad70899-f80f-4261-85d2-e338e59d99d5
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150123T105029:635576070297081734Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: b43263a7-e8e6-4ac9-8769-2faa49102ff3
+
+----field----
+field: {7205A57F-93B4-413A-AA9A-6B16BBC59565}
+name: BrowserTitle
+key: browsertitle
+content-length: 11
+
+メディアをアップロード
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 17
+
+メディアをアップロード ダイアログ
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133624Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b43263a7-e8e6-4ac9-8769-2faa49102ff3
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133624Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,52 @@
+----item----
+version: 1
+id: {2A271024-59FA-4B8F-A749-21DD0B78DF3B}
+database: core
+path: /sitecore/masters/System/__Task Schedule/$name
+parent: {BA618246-48C3-4EAC-A9B8-FCE87F51192D}
+name: $name
+master: {00000000-0000-0000-0000-000000000000}
+template: {70244923-FA84-477C-8CBD-62F39642C42B}
+templatekey: Schedule
+created: 20160729T132117Z
+
+----version----
+language: en
+version: 1
+revision: c841e07a-8a61-4b1d-aee3-d1e2d559cd34
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20070726T144200
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 18
+
+extranet\anonymous
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c841e07a-8a61-4b1d-aee3-d1e2d559cd34
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20080331T143436:633425708765156250
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

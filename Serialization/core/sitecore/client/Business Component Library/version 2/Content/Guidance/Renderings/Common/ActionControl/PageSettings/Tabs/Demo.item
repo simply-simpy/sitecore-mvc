@@ -1,0 +1,229 @@
+----item----
+version: 1
+id: {BECABE37-1E4E-4871-9602-89B251AC6E0E}
+database: core
+path: /sitecore/client/Business Component Library/version 2/Content/Guidance/Renderings/Common/ActionControl/PageSettings/Tabs/Demo
+parent: {5B4A7C7A-53EA-4272-B180-A2D8CA3A8C22}
+name: Demo
+master: {1A934758-1761-446E-AA0E-D19B3369292B}
+template: {8A7ACB1A-0990-4C9E-A6F0-9612D0F5F51C}
+templatekey: Tab
+created: 20160729T132116Z
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+100
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 0
+
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 6804
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{759BEFD1-3323-404D-A243-E0ED81163C03}">
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border" uid="{91549225-1FAA-4A75-A8EE-726362BACD17}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=TextPanel&amp;ConfigurationDetails=Text%3dHello&amp;Description=The+Text+property+defines+the+text+the+control+shows.&amp;Title=Defining+the+text+shown" ph="Border.Content" uid="{AFC2825F-E356-4FD5-B66F-D9C596CAC550}" />
+    <r id="{1CA7EB02-74E0-42F9-B8C9-32E62FD505BD}" par="Header=%2525252b&amp;EnableAdditional=0&amp;Id=Expander1&amp;IsOpen=1&amp;IsCollapsible=0" ph="TextPanel.Content" uid="{FC125FB8-D3E8-46F7-8FD5-9FF080A4F538}" />
+    <r id="{43F4C6E5-22F1-41BF-A317-B213C1ABBDA5}" par="ActionDefinitionsRoot=%7bDE0BB0B7-1CCC-412E-93BF-9183D240EBDE%7d&amp;Id=ActionButtonWithText&amp;IsStateDiscarded=1&amp;Text=Hello" ph="Expander1.ActionBar" uid="{3F2BDFB3-E777-4432-A854-EC3F2F6C5231}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=NoTextPanel&amp;Description=The+Text+property+has+no+default.+If+it+is+blank%2c+the+control+shows+no+text.&amp;Title=Showing+no+text" ph="Border.Content" uid="{AFC2825F-E356-4FD5-B66F-D9C596CAC550}" />
+    <r id="{1CA7EB02-74E0-42F9-B8C9-32E62FD505BD}" par="Header=%2525252b&amp;EnableAdditional=0&amp;Id=Expander4&amp;IsOpen=1&amp;IsCollapsible=0" ph="NoTextPanel.Content" uid="{FC125FB8-D3E8-46F7-8FD5-9FF080A4F538}" />
+    <r id="{43F4C6E5-22F1-41BF-A317-B213C1ABBDA5}" par="ActionDefinitionsRoot=%7bDE0BB0B7-1CCC-412E-93BF-9183D240EBDE%7d&amp;Id=ActionControlNoText&amp;IsStateDiscarded=1" ph="Expander4.ActionBar" uid="{3F2BDFB3-E777-4432-A854-EC3F2F6C5231}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=InteractPanel&amp;ConfigurationDetails=(Button)+AddGroup.Click%3djavascript%3aapp.ActionButtonInteractDemo.at(0).add(%7b+Text%3a+%22New+Group%22%2c+ActionLinks%3a+%5b%7b+Text%3a+%22New+Action%22%2c+Click%3a+%22javascript%3aalert(%27new+action+clicked%27)%22%7d%5d%7d)%3b%26(Button)+AddAction.Click%3djavascript%3aapp.ActionButtonInteractDemo.at(0).at(0).add(%7b+Text%3a+%22New+Action%22%2c+Click%3a+%22javascript%3aalert(%27new+action+clicked%27)%22%7d)%3b&amp;Description=This+demo+shows+how+to+add+groups+and+actions+via+JavaScript.&amp;Title=Adding+groups+and+actions++dynamically" ph="Border.Content" uid="{AFC2825F-E356-4FD5-B66F-D9C596CAC550}" />
+    <r id="{1CA7EB02-74E0-42F9-B8C9-32E62FD505BD}" par="Header=%2525252b&amp;EnableAdditional=0&amp;Id=Expander3&amp;IsOpen=1&amp;IsCollapsible=0" ph="InteractPanel.Content" uid="{FC125FB8-D3E8-46F7-8FD5-9FF080A4F538}" />
+    <r id="{43F4C6E5-22F1-41BF-A317-B213C1ABBDA5}" par="ActionDefinitionsRoot=%7bDE0BB0B7-1CCC-412E-93BF-9183D240EBDE%7d&amp;Id=ActionButtonInteractDemo&amp;IsStateDiscarded=1&amp;Text=Hello" ph="Expander3.ActionBar" uid="{3F2BDFB3-E777-4432-A854-EC3F2F6C5231}" />
+    <r id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" par="Id=AddGroup&amp;Text=Add+group&amp;Click=javascript%3aapp.ActionButtonInteractDemo.at(0).add(%7b+Text%3a+%22New+Group%22%2c+ActionLinks%3a+%5b%7b+Text%3a+%22New+Action%22%2c+Click%3a+%22javascript%3aalert(%27new+action+clicked%27)%22%7d%5d%7d)%3b" ph="InteractPanel.Content" uid="{BA4DAC4D-0786-4260-9904-7BCBFD8378BB}" />
+    <r id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" par="Id=AddAction&amp;Text=Add+action&amp;Click=javascript%3aapp.ActionButtonInteractDemo.at(0).at(0).add(%7b+Text%3a+%22New+Action%22%2c+Click%3a+%22javascript%3aalert(%27new+action+clicked%27)%22%7d)%3b" ph="InteractPanel.Content" uid="{BA4DAC4D-0786-4260-9904-7BCBFD8378BB}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DisabledPanel&amp;ConfigurationDetails=IsEnabled%3dFalse&amp;Description=The+IsEnabled+property+disables+the+control+when+False.&amp;Title=Disabled+appearance" ph="Border.Content" uid="{AFC2825F-E356-4FD5-B66F-D9C596CAC550}" />
+    <r id="{1CA7EB02-74E0-42F9-B8C9-32E62FD505BD}" par="Header=%2525252b&amp;EnableAdditional=0&amp;Id=Expander2&amp;IsOpen=1&amp;IsCollapsible=0" ph="DisabledPanel.Content" uid="{FC125FB8-D3E8-46F7-8FD5-9FF080A4F538}" />
+    <r id="{43F4C6E5-22F1-41BF-A317-B213C1ABBDA5}" par="ActionDefinitionsRoot=%7bDE0BB0B7-1CCC-412E-93BF-9183D240EBDE%7d&amp;IsEnabled=0&amp;Id=ActionButtonDisabled&amp;IsStateDiscarded=1&amp;Text=Hello" ph="Expander2.ActionBar" uid="{3F2BDFB3-E777-4432-A854-EC3F2F6C5231}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=AutoPromotePanel&amp;Description=If+the+control+has+++1%2c+2%2c+or+3+actions%2c+it+promotes+these+actions+as+%22favorites%22%2c+and++hides+the+button+and+panel.&amp;Title=Promoting+actions+to+favorites+automatically" ph="Border.Content" uid="{09612E9A-9CCE-47AF-96EB-4F5D1618A0EE}" />
+    <r id="{1CA7EB02-74E0-42F9-B8C9-32E62FD505BD}" par="EnableAdditional=0&amp;Id=Expander5&amp;IsOpen=1&amp;IsCollapsible=0" ph="AutoPromotePanel.Content" uid="{48EDB778-A08F-41C6-B154-88A9D41A6357}" />
+    <r id="{43F4C6E5-22F1-41BF-A317-B213C1ABBDA5}" par="ActionDefinitionsRoot=%7bF66884B7-139A-4F46-B283-FB84CD24B712%7d&amp;Id=ActionControlAutoPromoted1&amp;IsStateDiscarded=1" ph="Expander5.ActionBar" uid="{4AD2CC9B-E789-4926-9AE8-673D3EAEF06D}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=InteractActionPanel&amp;Description=The+control+has+a+getActions()+method%2c+which+takes+a+string.+It+allows+you+to+get+an+action+by+name%2c+and+manipulate+its+properties.&amp;Title=Manipulating+the+actions" ph="Border.Content" uid="{09612E9A-9CCE-47AF-96EB-4F5D1618A0EE}" />
+    <r id="{1CA7EB02-74E0-42F9-B8C9-32E62FD505BD}" par="Id=Expander&amp;IsOpen=1&amp;IsCollapsible=0" ph="InteractActionPanel.Content" uid="{48EDB778-A08F-41C6-B154-88A9D41A6357}" />
+    <r id="{43F4C6E5-22F1-41BF-A317-B213C1ABBDA5}" par="ActionDefinitionsRoot=%7bE479AB07-BBD9-4DF7-8F78-A5C1938E65B4%7d&amp;Id=ActionControlInteract&amp;IsStateDiscarded=1" ph="Expander.ActionBar" uid="{4AD2CC9B-E789-4926-9AE8-673D3EAEF06D}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border1&amp;PaddingType=Top&amp;UsePadding=1" ph="InteractActionPanel.Content" uid="{6A679355-BF71-497C-9B36-E8E334108534}" />
+    <r id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" par="Id=Button1&amp;Text=ActionControl.getAction(%22Action1%22).IsDisabled%3dtrue&amp;Click=javascript%3a_sc.app.ActionControlInteract.getAction(%22Action1%22).IsDisabled%3dtrue" ph="InteractActionPanel.Content" uid="{F2316E58-8874-4E75-800E-F19DB1ED72D8}" />
+    <r id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" par="Id=Button&amp;Text=ActionControl.getAction(%22Action1%22).IsDisabled%3dfalse&amp;Click=javascript%3a_sc.app.ActionControlInteract.getAction(%22Action1%22).IsDisabled%3dfalse" ph="InteractActionPanel.Content" uid="{F2316E58-8874-4E75-800E-F19DB1ED72D8}" />
+  </d>
+</r>
+----version----
+language: de-DE
+version: 1
+revision: 4aa3dbbb-2f52-4d6b-8140-0fce7d592f6f
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 3
+
+Tab
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 4
+
+Demo
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133516Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4aa3dbbb-2f52-4d6b-8140-0fce7d592f6f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133516Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 3f1c9217-ae36-424a-a793-5cd0e53b6e69
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 3
+
+Tab
+----field----
+field: {772AEA8A-4D70-43F4-BD6B-EDE5FB060623}
+name: Tooltip
+key: tooltip
+content-length: 0
+
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150318T143354Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3f1c9217-ae36-424a-a793-5cd0e53b6e69
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160309T080140Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 70b09485-dd53-4c14-b671-6ce8268e2f12
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 2
+
+タブ
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 2
+
+デモ
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133644Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+70b09485-dd53-4c14-b671-6ce8268e2f12
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133644Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,256 @@
+----item----
+version: 1
+id: {4832930A-CF10-4A61-A2A8-9FA102265D9A}
+database: master
+path: /sitecore/system/Settings/Rules/Definitions/Elements/Visit/Goal with custom data was triggered during a past or current interaction
+parent: {27553992-0618-4C76-84B2-1B71F7FA558B}
+name: Goal with custom data was triggered during a past or current interaction
+master: {00000000-0000-0000-0000-000000000000}
+template: {F0D16EEE-3A05-4E43-A082-795A32B873C0}
+templatekey: Condition
+created: 20160729T132117Z
+
+----field----
+field: {AB51C8B2-F0E1-4471-9AAE-CC080D774923}
+name: Type
+key: type
+content-length: 124
+
+Sitecore.Analytics.Rules.Conditions.GoalWithCustomDataWasTriggeredDuringPastOrCurrentInteractionCondition,Sitecore.Analytics
+----version----
+language: da
+version: 1
+revision: 72d989ce-10de-403b-b6cd-338fc71c2b26
+
+----field----
+field: {AF321234-4EB9-4EF5-9197-65903351939C}
+name: Text
+key: text
+content-length: 508
+
+hvor [GoalId,Tree,root=/sitecore/system/Marketing Control Panel/Goals,specific] målet blev udløst under en tidligere eller aktuel interaktion, og hvor antallet af dage, der er gået [NumberOfElapsedDaysOperatorId,Operator,,compares to] [NumberOfElapsedDays,Integer,,number] og hvor det seneste antal interaktioner [NumberOfPastInteractionsOperatorId,Operator,,compares to] [NumberOfPastInteractions,Integer,,number] og de tilpassede data [CustomDataOperatorId,StringOperator,,compares to] [CustomData,,,value]
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 79
+
+Mål med tilpassede data blev udløst under en tidligere eller aktuel interaktion
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133411Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+72d989ce-10de-403b-b6cd-338fc71c2b26
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133411Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: b262d5b0-94a6-426d-ad60-1c106d2d888b
+
+----field----
+field: {AF321234-4EB9-4EF5-9197-65903351939C}
+name: Text
+key: text
+content-length: 553
+
+wo das [GoalId,Tree,root=/sitecore/system/Marketing Control Panel/Goals,specific] Ziel ausgelöst wurde, während einer vergangenen oder aktuellen Interaktion und wo die Anzahl der vergangen Tage [NumberOfElapsedDaysOperatorId,Operator,,vergleicht mit] [NumberOfElapsedDays,Integer,,number] und wo die Anzahl der vergangenen Interaktionen [NumberOfPastInteractionsOperatorId,Operator,,vergleicht mit] [NumberOfPastInteractions, Integer,,number] und die benutzerdefinierten Daten [CustomDataOperatorId, StringOperator,, vergleicht mit] [CustomData,,,value]
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 104
+
+Ziel mit benutzerdefinierten Daten wurde während einer vergangenen oder aktuellen Interaktion ausgelöst.
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133541Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b262d5b0-94a6-426d-ad60-1c106d2d888b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133541Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 0c2aaaf2-0a82-4fd1-b542-2b357507e7f3
+
+----field----
+field: {AF321234-4EB9-4EF5-9197-65903351939C}
+name: Text
+key: text
+content-length: 503
+
+where the [GoalId,Tree,root=/sitecore/system/Marketing Control Panel/Goals,specific] goal was triggered during a past or current interaction and when the number of elapsed days [NumberOfElapsedDaysOperatorId,Operator,,compares to] [NumberOfElapsedDays,Integer,,number] and when the past number of interactions [NumberOfPastInteractionsOperatorId,Operator,,compares to] [NumberOfPastInteractions,Integer,,number] and the custom data [CustomDataOperatorId,StringOperator,,compares to] [CustomData,,,value]
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150614T205352Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+0c2aaaf2-0a82-4fd1-b542-2b357507e7f3
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150615T142449:635699750891044949Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: c62963ab-bd20-43d7-a757-963c8fb38afa
+
+----field----
+field: {AF321234-4EB9-4EF5-9197-65903351939C}
+name: Text
+key: text
+content-length: 385
+
+条件： 過去または現在のインタラクションで [GoalId,Tree,root=/sitecore/system/Marketing Control Panel/Goals,特定の] ゴールがトリガーされた場合、かつ経過日数が [NumberOfElapsedDays,Integer,,数] [NumberOfElapsedDaysOperatorId,Operator,,と比較する] 場合、かつ過去のインタラクションの数が [NumberOfPastInteractions,Integer,,数] [NumberOfPastInteractionsOperatorId,Operator,,と比較する] 場合、かつカスタム データが [CustomData,,,値] [CustomDataOperatorId,StringOperator,,と比較する] 場合
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 42
+
+過去または現在のインタラクション中にカスタム データを含むゴールがトリガーされた場合
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133710Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c62963ab-bd20-43d7-a757-963c8fb38afa
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133710Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

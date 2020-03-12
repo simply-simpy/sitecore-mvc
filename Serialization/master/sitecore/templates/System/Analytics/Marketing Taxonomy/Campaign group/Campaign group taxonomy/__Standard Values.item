@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {4B5E4A4F-E45C-442F-AC3D-1A95193DCECD}
+database: master
+path: /sitecore/templates/System/Analytics/Marketing Taxonomy/Campaign group/Campaign group taxonomy/__Standard Values
+parent: {3989B22D-FC32-45F3-BE47-8F92CF323E77}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {3989B22D-FC32-45F3-BE47-8F92CF323E77}
+templatekey: Campaign group taxonomy
+created: 20160729T132117Z
+
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 38
+
+{7CC96707-325D-4024-9F58-B10CE1F950D1}
+----version----
+language: en
+version: 1
+revision: 3e3079e4-2cdb-4cb0-a5a1-659c2eee11e8
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20141031T133347Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3e3079e4-2cdb-4cb0-a5a1-659c2eee11e8
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20141117T141332:635518304120075499Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {E9035AFF-9A9F-426E-8559-5B94019057CB}
+database: core
+path: /sitecore/client/Business Component Library/version 1/Layouts/Renderings/Common/DatePicker/DatePicker Parameters/__Standard Values
+parent: {A006AF51-8C91-4229-A590-C7A853684249}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {A006AF51-8C91-4229-A590-C7A853684249}
+templatekey: DatePicker Parameters
+created: 20160729T132116Z
+
+----field----
+field: {4CBE45A9-FFA0-499D-82B7-0DFDAFDA7820}
+name: ShowOtherMonths
+key: showothermonths
+content-length: 1
+
+1
+----version----
+language: en
+version: 1
+revision: 08d46fb1-7d10-4b50-9041-bd47a9d7cbdd
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20120702T170740
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+08d46fb1-7d10-4b50-9041-bd47a9d7cbdd
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150624T150602:635707551627274750Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

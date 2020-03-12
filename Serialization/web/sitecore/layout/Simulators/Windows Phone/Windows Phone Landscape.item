@@ -1,0 +1,94 @@
+----item----
+version: 1
+id: {967A64A6-FD7F-4336-B863-0DF807245A11}
+database: web
+path: /sitecore/layout/Simulators/Windows Phone/Windows Phone Landscape
+parent: {618DA108-0F8B-44D6-9384-C3E0B29B8878}
+name: Windows Phone Landscape
+master: {00000000-0000-0000-0000-000000000000}
+template: {5CACE390-E862-4ACC-BFD5-2F26C5883F45}
+templatekey: Simulator Rotated State
+created: 20160729T132116Z
+
+----field----
+field: {89E13671-A39E-432B-BD99-CF27B7F0F90D}
+name: Background Image
+key: background image
+content-length: 177
+
+<image src="~/media/9C92CD3BFE2546F68F78B0D7BFEBCFBC.ashx" mediaid="{35A4BB67-B0E2-4BB5-A962-648CD8C0C45C}" mediapath="/System/Simulator Backgrounds/Windows Phone_ landscape" />
+----field----
+field: {82E5E42D-B707-4BC2-87BB-319497BD6C93}
+name: Screen Width
+key: screen width
+content-length: 3
+
+640
+----field----
+field: {E03FC568-58B8-44E7-A410-A25208602DB4}
+name: Screen Height
+key: screen height
+content-length: 3
+
+327
+----field----
+field: {A820E106-A624-4E1A-8F50-D672446CDF92}
+name: Screen Offset
+key: screen offset
+content-length: 6
+
+76, 45
+----field----
+field: {AB6934AF-A322-4BBE-AC3E-91F4A66BFBF5}
+name: Scale
+key: scale
+content-length: 38
+
+{85C66A5B-220A-48A2-89D1-51412B3B4124}
+----version----
+language: en
+version: 1
+revision: cfaaa6b9-8d21-4111-b52a-3eab5e282081
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20120406T124000Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+cfaaa6b9-8d21-4111-b52a-3eab5e282081
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150827T085017:635762622177704581Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

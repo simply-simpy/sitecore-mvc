@@ -1,0 +1,242 @@
+----item----
+version: 1
+id: {664BD429-0733-4E60-A41C-1D1F434DC96B}
+database: core
+path: /sitecore/client/Applications/List Manager/Dialogs/ImportWizardDialog
+parent: {9E36887C-C5AB-4699-838D-5F459A9F2D10}
+name: ImportWizardDialog
+master: {00000000-0000-0000-0000-000000000000}
+template: {8152CF09-9DD0-40C0-B806-6E91FDF389BC}
+templatekey: Speak-DialogPage
+created: 20160729T132117Z
+
+----field----
+field: {5E642935-A6FC-48E9-B039-FE1136CED488}
+name: Theme
+key: theme
+content-length: 7
+
+Harvard
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 2335
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{759BEFD1-3323-404D-A243-E0ED81163C03}">
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=Border" ph="Page.Body" uid="{02B5B8A4-3ED7-441E-9040-7D64073E0DBE}" />
+    <r id="{CB83D434-31ED-4AC3-A280-CCE2B63F9743}" par="PageCodeScriptFileName=%2fsitecore%2fshell%2fclient%2fApplications%2fListManager%2fDialogs%2fImportWizardDialog%2fImportWizardDialog.js" ph="Border.Content" uid="{B84DCE4B-7B4C-47E1-9413-4B541E3E84FB}" />
+    <r ds="{EC2C7D0D-0775-441A-9F1F-C0580AF526DE}" id="{B60FB581-44D1-4372-86A2-D6E494F020E1}" par="Id=ImportWizardDialog&amp;Backdrop=Static" ph="Border.Content" uid="{DA8EE1F1-11BA-4BE1-AA5C-84CC8CE8A926}" />
+    <r id="{FE9723FC-56E4-4CA8-9C64-CB34F29462A5}" par="Id=Spinner&amp;IsVisible=1&amp;IsFullscreen=0&amp;IsBusy=False&amp;TargetControl=ImportWizardTabControl" ph="ImportWizardDialog.Content" uid="{A2C3E68E-BF58-4FC6-BE20-CF9DE56523AB}" />
+    <r id="{910155C7-3881-4A56-90FB-D126490EDE55}" par="Id=ImportWizardDialogMessageBar" ph="ImportWizardDialog.Content" uid="{C0B0EFE0-04C5-47DD-8128-63AB793E4730}" />
+    <r ds="{2FA79968-5C92-4439-81F9-A0C6C2164D1B}" id="{7426CD5B-A534-4462-ABEE-D700D78ECF6A}" par="Id=ImportWizardTabControl" ph="ImportWizardDialog.Content" uid="{613CBC4B-D612-434B-A2D6-ECCF6051B879}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=NextPrevColumnPanel&amp;ContentAlign=Right" ph="ImportWizardDialog.Buttons" uid="{7AF7EC8D-C4FE-4F27-A9BC-51F27F1FC898}" />
+    <r ds="{8A859274-54F7-4D0C-A327-B643BE329558}" id="{913AB005-2527-4C2D-9827-FB3A8DFB135C}" par="Id=ButtonPrevious" ph="NextPrevColumnPanel.Content" uid="{4881EAD3-9D3A-461F-90B3-30FE6A3C4904}" />
+    <r ds="{ADD193F9-37BF-4FFE-A74E-CECECF4A6CA8}" id="{913AB005-2527-4C2D-9827-FB3A8DFB135C}" par="Id=ButtonNext" ph="NextPrevColumnPanel.Content" uid="{3B2A62F5-0163-4643-A633-7C56BBD9362F}" />
+    <r ds="{72C1700A-F72F-4F42-B5E9-23E1AA260E33}" id="{913AB005-2527-4C2D-9827-FB3A8DFB135C}" par="Id=ButtonFinish&amp;IsEnabled=1" ph="NextPrevColumnPanel.Content" uid="{F9470F97-A419-4AFC-8A1C-F1FF8EACB995}" />
+    <r ds="{F0781917-3DE8-4620-8B5A-22B94E13891D}" id="{A82840D0-633E-4D1A-B7FE-8C0062AA22F1}" par="Id=StringDictionary" ph="ImportWizardDialog.Content" uid="{4872B46A-CD3E-42C5-8F0C-562C8681EB75}" />
+  </d>
+</r>
+----version----
+language: da
+version: 1
+revision: bb61cfdb-5f6f-4582-a177-5c18c4f9182d
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 18
+
+ImportWizardDialog
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133330Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+bb61cfdb-5f6f-4582-a177-5c18c4f9182d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133330Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 5d712dbb-fc87-4196-9dd3-1b2540a1306b
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 23
+
+WizardDialogImportieren
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133458Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5d712dbb-fc87-4196-9dd3-1b2540a1306b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133458Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 1ae35a44-53cd-4f29-a05d-d773763cd007
+
+----field----
+field: {7205A57F-93B4-413A-AA9A-6B16BBC59565}
+name: BrowserTitle
+key: browsertitle
+content-length: 0
+
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140409T100542
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+1ae35a44-53cd-4f29-a05d-d773763cd007
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20150728T092624Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: acbb72a1-fca9-4d6e-99cf-49f3b283005c
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 17
+
+インポート ウィザード ダイアログ
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133625Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+acbb72a1-fca9-4d6e-99cf-49f3b283005c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133625Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

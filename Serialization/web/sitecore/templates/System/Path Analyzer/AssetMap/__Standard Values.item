@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {992E6270-E1E6-4455-8367-EEB6F01619AC}
+database: web
+path: /sitecore/templates/System/Path Analyzer/AssetMap/__Standard Values
+parent: {46DCDC71-1D91-48EA-9953-585AF256F40B}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {46DCDC71-1D91-48EA-9953-585AF256F40B}
+templatekey: AssetMap
+created: 20160729T132117Z
+
+----field----
+field: {A87E94EF-D136-4FED-B69F-D69CAAC3EC8D}
+name: MapItemType
+key: mapitemtype
+content-length: 66
+
+Sitecore.PathAnalyzer.Data.Maps.AssetMapItem,Sitecore.PathAnalyzer
+----version----
+language: en
+version: 1
+revision: fe8f2070-a516-48bc-9862-5d4c628df196
+
+----field----
+field: {A44D8693-F962-4F76-8FB8-62525CE67BA1}
+name: Name
+key: name
+content-length: 5
+
+$name
+----field----
+field: {31FCBEB2-376A-481F-BB44-EF52301F33CA}
+name: Description
+key: description
+content-length: 70
+
+<p>This map shows visitor experience leading to the "$name" asset.</p>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140611T140025
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+fe8f2070-a516-48bc-9862-5d4c628df196
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20150708T220946Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

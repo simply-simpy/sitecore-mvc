@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {9124CC7E-DF52-45E3-BC29-6D1A669F60F7}
+database: master
+path: /sitecore/system/Settings/Content Testing/Test Types/Component
+parent: {4F270176-1CA4-474C-9259-01B5250F730E}
+name: Component
+master: {00000000-0000-0000-0000-000000000000}
+template: {1B875849-05B5-4CAE-97E0-53C3ACE54183}
+templatekey: Test Type
+created: 20160729T132117Z
+
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 40
+
+Applications/32x32/text_rich_colored.png
+----version----
+language: en
+version: 1
+revision: f51c269e-7b17-48f1-8813-58f6a68548c5
+
+----field----
+field: {5AD56443-878E-4FA6-B3D3-0E527294F634}
+name: Name
+key: name
+content-length: 9
+
+Component
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140307T115850
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f51c269e-7b17-48f1-8813-58f6a68548c5
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140307T121512:635297913127723423
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

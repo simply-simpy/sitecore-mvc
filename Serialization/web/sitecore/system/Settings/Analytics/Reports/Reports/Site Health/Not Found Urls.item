@@ -1,0 +1,98 @@
+----item----
+version: 1
+id: {EF3B7EA9-2E51-4619-8C4D-D7293D766F7F}
+database: web
+path: /sitecore/system/Settings/Analytics/Reports/Reports/Site Health/Not Found Urls
+parent: {EF2D7FDA-0687-4C1B-901F-849BC1FA7F6B}
+name: Not Found Urls
+master: {00000000-0000-0000-0000-000000000000}
+template: {6674A4AF-EACE-445E-89F1-E2F464026056}
+templatekey: Report
+created: 20160729T132117Z
+
+----field----
+field: {0CC4AD84-F69D-44D2-9600-5C7522AA2401}
+name: File Name
+key: file name
+content-length: 59
+
+/sitecore/shell/Applications/Analytics/Reports/NotFound.mrt
+----field----
+field: {16802C7A-011A-41FF-88B4-C33E6C737F3F}
+name: Queries
+key: queries
+content-length: 162
+
+Urls=%7b570E1A7B-1343-4121-B878-9B8D3E1B2902%7d&PreviousReferrer=%7b6ED9C6C6-5628-40A8-B389-25FCB87B1F69%7d&PreviousUrl=%7b59A60FDD-ED7E-4D30-A258-6EB24F4839FA%7d
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 27
+
+People/32x32/flashlight.png
+----version----
+language: en
+version: 1
+revision: b09ad459-52da-478b-bbbd-a6845cc01b5b
+
+----field----
+field: {D71DCBF1-3E4C-4ACD-9244-58AA5C1C8528}
+name: Report Title
+key: report title
+content-length: 14
+
+Not Found Urls
+----field----
+field: {F38BB3C8-94D9-4815-8CE2-06FA4EB8FC80}
+name: Report Description
+key: report description
+content-length: 683
+
+This report helps you answer the following question:<ul><li>Which pages on the website are not being found and may need troubleshooting?</li></ul>This report lists the URLs of web pages that have not been found by a referring source, by a link, or by typing directly into the browser’s URL bar. Not Found URLs are listed with the most frequent first.<br/>
+As an aid in repairing the missing or incorrectly linked page the report gives you the Previous URL that the visitor came from and Previous Referrers if the visitor came from outside the website.<br/>
+Run this report daily or weekly to identify pages causing errors.<br/>
+Click a Page URL to open the Visit Details report.
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20110412T111222
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b09ad459-52da-478b-bbbd-a6845cc01b5b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20110513T135713:634408918332322336
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,73 @@
+----item----
+version: 1
+id: {4A124949-CB3E-451A-9B59-1342C1E98AE1}
+database: web
+path: /sitecore/templates/System/Social/Account/Account Folder/__Standard Values
+parent: {F77FC8C9-8888-414D-8FC7-D20609B52C59}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {F77FC8C9-8888-414D-8FC7-D20609B52C59}
+templatekey: Account Folder
+created: 20160729T132117Z
+
+----field----
+field: {233D3295-BF88-45C8-88DA-BA51107FD155}
+name: Default Application Folder
+key: default application folder
+content-length: 38
+
+{8C053EB6-1535-4B4D-8755-1E10D027237A}
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 233
+
+{F77FC8C9-8888-414D-8FC7-D20609B52C59}|{F687363B-E6B6-40FF-87A7-2318748348CA}|{8578CE74-6D2C-4AA2-B188-DA7926E1281A}|{F5521F25-868A-441D-A59D-075AB822E166}|{161D7248-FED4-440C-845C-527EB90ADA5F}|{5C4DE356-5D69-4D6C-B06C-667913F83AFC}
+----version----
+language: en
+version: 1
+revision: e81ffcda-8896-413c-85d9-a77a7e0cac88
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20120111T195100
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e81ffcda-8896-413c-85d9-a77a7e0cac88
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20130717T115653:635096590131730928
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

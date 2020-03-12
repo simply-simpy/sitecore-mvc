@@ -1,0 +1,236 @@
+----item----
+version: 1
+id: {038F574A-5B88-45BC-A3E1-30FE7DA0E35E}
+database: core
+path: /sitecore/client/Business Component Library/version 2/Content/Guidance/Renderings/Lists and Grids/ItemTreeView/PageSettings/Tabs/Demo
+parent: {2D27A954-D971-4F9F-A29E-55EEB4A8E502}
+name: Demo
+master: {00000000-0000-0000-0000-000000000000}
+template: {8A7ACB1A-0990-4C9E-A6F0-9612D0F5F51C}
+templatekey: Tab
+created: 20160729T132116Z
+
+----field----
+field: {3A98ADC3-530B-4281-880D-2D56DCC605AF}
+name: IsLazyLoaded
+key: islazyloaded
+content-length: 1
+
+1
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 14062
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{759BEFD1-3323-404D-A243-E0ED81163C03}">
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=TabBorder" ph="Page.Body" uid="{325DD778-4F9C-4905-A52E-692F87F6FF29}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoPanelBasic&amp;ConfigurationDetails=Database%3d%24context_contentdatabase%26StaticData%3d%7b11111111-1111-1111-1111-111111111111%7d&amp;Description=The+Database+property+specifies+the+database+that+contains+the+items%2c+and+the+StaticData+property+specifies+the+location+in+the+content+tree.+The+demo++shows+that+the+control+updates+the+SelectedItemId+and+the+SelectedValue+properties+when+a+user+selects+an+item.&amp;Title=Specifying++the+item+tree+location" ph="TabBorder.Content" uid="{5FF67A79-5CF9-429B-A704-28F56B96588B}" />
+    <r id="{4D096960-FC73-4E0B-8D93-28736AD98E98}" par="Id=ItemTreeView1&amp;PreLoadItem=%7b11111111-1111-1111-1111-111111111111%7d&amp;Database=%24context_contentdatabase&amp;IsCheckModeEnabled=1&amp;StaticData=%7b11111111-1111-1111-1111-111111111111%7d&amp;IsPreLoadItemExpanded=1" ph="DemoPanelBasic.Content" uid="{78EDA2EB-A63E-43C9-B8F5-EAB4E2EF4039}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoPanelPreLoadPath&amp;ConfigurationDetails=PreLoadItem%3d%7b15451229-7534-44EF-815D-D93D6170BFCB%7d&amp;Description=The+PreLoadItem+property+specifies+the+item+ID%2c+the+absolute+item+path%2c+or+the+relative+item+path+(from+the+root)+of+an+item+in+the+content+tree.+The+control+retrieves+this+item+and+its+children+when+it+loads.+When+this+property+is+empty%2c+the+control+retrieves+items+when+users+expand+nodes+in+the+tree.+In+this+demo%2c+the+property+references+the+Images+folder.&amp;Title=Preloading+items" ph="TabBorder.Content" uid="{1797E77A-DA7C-42F3-9F06-76A0D82738CC}" />
+    <r id="{4D096960-FC73-4E0B-8D93-28736AD98E98}" par="Id=ItemTreeView2&amp;PreLoadItem=%7b15451229-7534-44EF-815D-D93D6170BFCB%7d&amp;Database=%24context_contentdatabase&amp;StaticData=%7b11111111-1111-1111-1111-111111111111%7d" ph="DemoPanelPreLoadPath.Content" uid="{B457ED1C-AACD-4290-8A9A-23EFBA67B280}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoPanel&amp;ConfigurationDetails=PreLoadItem%3d%7b15451229-7534-44EF-815D-D93D6170BFCB%7d%26IsPreloadItemExpanded%3dTrue%26+IsPreLoadItemSelected%3dTrue&amp;Description=The+IsPreloadItemExpanded+specifies+whether+the+control+expands+the+item+specified+by+the+PreLoadItem+when+it+loads.+Use+the+IsPreLoadItemSelected+property+to+select+the+item+by+default.&amp;Title=Selecting+and+expanding+preloaded+items" ph="TabBorder.Content" uid="{3710DA11-218C-4853-A107-22C6835B256E}" />
+    <r id="{4D096960-FC73-4E0B-8D93-28736AD98E98}" par="IsPreLoadItemSelected=1&amp;Id=ItemTreeView9&amp;PreLoadItem=%7b15451229-7534-44EF-815D-D93D6170BFCB%7d&amp;Database=%24context_contentdatabase&amp;StaticData=%7b11111111-1111-1111-1111-111111111111%7d&amp;IsPreLoadItemExpanded=1" ph="DemoPanel.Content" uid="{507783EC-10E6-4477-B193-502F87BFAA5E}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoPanelIsCheckboxEnabled&amp;ConfigurationDetails=IsCheckboxEnabled%3d%7bBinding+ToggleButtonCheckbox.IsOpen%7d&amp;Description=The+IsCheckboxEnabled+property+specifies+whether+the+control+shows+check+boxes+next+to+items.+When+True%2c+the+control+shows+check+boxes.+In+this+demo%2c+the+IsCheckboxEnabled+property+is+bound+to+the+IsOpen+property+of+a+ToggleButton+control%2c+so+you+can+turn+the+check+boxes+on+and+off+by+clicking+this+button.&amp;Title=Specifying+whether+the+control+shows+check+boxes" ph="TabBorder.Content" uid="{3710DA11-218C-4853-A107-22C6835B256E}" />
+    <r id="{4D096960-FC73-4E0B-8D93-28736AD98E98}" par="Id=ItemTreeView3&amp;PreLoadItem=%7b15451229-7534-44EF-815D-D93D6170BFCB%7d&amp;IsCheckModeEnabled=%7bBinding+ToggleButtonCheckbox.IsOpen%7d&amp;StaticData=%7b11111111-1111-1111-1111-111111111111%7d" ph="DemoPanelIsCheckboxEnabled.Content" uid="{73B20189-6A3A-430A-B69A-71FD7DC5977C}" />
+    <r id="{C0182326-91FE-45C6-8BF0-C1C3AFE1D21A}" par="Id=ToggleButtonCheckbox&amp;Text=Toggle+check+boxes" ph="DemoPanelIsCheckboxEnabled.Content" uid="{8049603D-919E-4145-997B-5A53958E75E3}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoPanelShowIconImage+&amp;ConfigurationDetails=ShowIconImage%3dFalse&amp;Description=The+ShowIconImage+property+specifies+whether+the+control+shows+icon+items.+If++True+(the+default)%2c+the+control+shows+the+icons.&amp;Title=Specifying+whether+the+control+shows+item+icons" ph="TabBorder.Content" uid="{74B495DA-2EE5-4053-8441-F6EB5B14AE9A}" />
+    <r id="{4D096960-FC73-4E0B-8D93-28736AD98E98}" par="ShowIconImage=0&amp;Id=ItemTreeView4&amp;PreLoadItem=%7b15451229-7534-44EF-815D-D93D6170BFCB%7d&amp;StaticData=%7b11111111-1111-1111-1111-111111111111%7d" ph="DemoPanelShowIconImage .Content" uid="{E95BE1BD-BE37-4E0C-9B1A-B34D2E361932}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoPanelShowSitecoreIcons&amp;ConfigurationDetails=ShowSitecoreIcons%3dFalse&amp;Description=The+ShowSitecoreIcons+property+specifies+whether+the+control+shows+the+item+icons+or+generic+icons+(one+for+folders+and+another+for+items).+If+True+(the+default)%2c+the+control+shows+item+icons.&amp;Title=Specifying+what+icons+the+control+shows" ph="TabBorder.Content" uid="{7908C281-050E-4D21-BC17-FF215C652B07}" />
+    <r id="{4D096960-FC73-4E0B-8D93-28736AD98E98}" par="PreLoadPath=%252525252525252525257b11111111-1111-1111-1111-111111111111%252525252525252525257d%252525252525252525252f%252525252525252525257b0DE95AE4-41AB-4D01-9EB0-67441B7C2450%252525252525252525257d%252525252525252525252f%252525252525252525257b110D559F-DEA5-42EA-9C1C-8A5DF7E70EF9%252525252525252525257d&amp;ShowSitecoreIcons=0&amp;Id=ItemTreeView5&amp;PreLoadItem=%7b15451229-7534-44EF-815D-D93D6170BFCB%7d&amp;StaticData=%7b11111111-1111-1111-1111-111111111111%7d" ph="DemoPanelShowSitecoreIcons.Content" uid="{3ED7179A-5F73-4B5A-9FC0-FFBCF7A8BE16}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoPanelShowHiddenItems&amp;ConfigurationDetails=ShowHiddenItems%3dTrue&amp;Description=The+ShowHiddenItems+property+(default+False)+specifies+whether+the+control+shows+items+that+are+hidden+in+Sitecore+(items+where+the+_Hidden+field+is+checked).+When+True%2c+the+control+shows+these+items.&amp;Title=Specifying+whether+the+control+shows+hidden+items" ph="TabBorder.Content" uid="{AC9649F8-CFF1-44ED-9C01-8AC37C799CD0}" />
+    <r id="{4D096960-FC73-4E0B-8D93-28736AD98E98}" par="Id=ItemTreeView6&amp;PreLoadItem=%7b11111111-1111-1111-1111-111111111111%7d&amp;Database=core&amp;ShowHiddenItems=1&amp;StaticData=%7b11111111-1111-1111-1111-111111111111%7d&amp;IsPreLoadItemExpanded=1" ph="DemoPanelShowHiddenItems.Content" uid="{553EA9F8-EDC5-4B24-B7A9-BA8382CF596B}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoPanelCheckMode&amp;ConfigurationDetails=CheckMode%3dSingle%2c+Multiple%2c+and+Multihierarchical&amp;Description=The+CheckMode+property+specifies+the+behavior+of+the+check+boxes+in+the+tree.+If+Single%2c+the+control+keeps+only+one+check+box+checked+at+a+time%3b+if++Multiple%2c+the+user+may+check+multiple+check+boxes+at+the+same+time%3b+and+if++is+Multihierarchical%2c+the+control+checks+all+children+of+an+item+when+the+user+checks+an+item+with+children.+In+the+demo+below%2c+the+three+buttons+let+you+set+each+of+these+three+modes.&amp;Title=Specifying+the+check+box+behavior" ph="TabBorder.Content" uid="{C01B4B64-9F7F-4C8F-9268-48B78F522C6D}" />
+    <r id="{4D096960-FC73-4E0B-8D93-28736AD98E98}" par="Id=ItemTreeView7&amp;PreLoadItem=%7b15451229-7534-44EF-815D-D93D6170BFCB%7d&amp;IsCheckModeEnabled=1&amp;StaticData=%7b11111111-1111-1111-1111-111111111111%7d&amp;IsPreLoadItemExpanded=1" ph="DemoPanelCheckMode.Content" uid="{044F3B46-7AEE-4C41-B1FB-175C0064FDE8}" />
+    <r id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" par="Id=ButtonSingle&amp;Text=CheckMode%3a+Single&amp;Click=javascript%3aapp.ItemTreeView7.CheckMode%3d1" ph="DemoPanelCheckMode.Content" uid="{D6E9088F-68BF-4B7B-8D48-D018BC1E7370}" />
+    <r id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" par="Id=ButtonMultiple&amp;Text=CheckMode%3a+Multiple&amp;Click=javascript%3aapp.ItemTreeView7.CheckMode%3d2" ph="DemoPanelCheckMode.Content" uid="{694317C0-BCCD-4B1F-BB0C-1F0ECA9BEFD5}" />
+    <r id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" par="Id=ButtonMultihierarchical&amp;Text=CheckMode%3aMultihierarchical&amp;Click=javascript%3aapp.ItemTreeView7.CheckMode%3d3" ph="DemoPanelCheckMode.Content" uid="{BC5181AF-9FD1-47FA-8AA3-B69C570EBF7E}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoPanelClickFolderMode&amp;ConfigurationDetails=ClickFolderMode%3dSelect%2c+Expand%2c+Select+and+Expand&amp;Description=The+ClickFolderMode+property+specifies+the+behavior+of+the+control+when+the+user+clicks+the+display+name+of+a+folder.+If++Select%2c+the+control+highlights+the+folder%3b+if+Expand%2c+the+control+expands+the+node+in+the+tree%3b+and++value+is+Select+and+Expand%2c+both+things+happen.+The+the+demo+below%2c+the+three+buttons+let+you+set+each+of+these+three+modes.&amp;Title=Specifying+how+clicking++a+folder+name+works" ph="TabBorder.Content" uid="{33516EB9-D3AF-4D1C-A62B-9CFBB35BCB47}" />
+    <r id="{4D096960-FC73-4E0B-8D93-28736AD98E98}" par="Id=ItemTreeView8&amp;PreLoadItem=%7b15451229-7534-44EF-815D-D93D6170BFCB%7d&amp;StaticData=%7b11111111-1111-1111-1111-111111111111%7d" ph="DemoPanelClickFolderMode.Content" uid="{8BC02005-E269-42AF-9291-E333FB3B0974}" />
+    <r id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" par="Id=ButtonActivate&amp;Text=ClickFolderMode%3a+Select&amp;Click=javascript%3aapp.ItemTreeView8.ClickFolderMode%3d1" ph="DemoPanelClickFolderMode.Content" uid="{269A138C-2357-4C01-A233-5D39217ECF58}" />
+    <r id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" par="Id=ButtonExpand&amp;Text=ClickFolderMode%3a+Expand&amp;Click=javascript%3aapp.ItemTreeView8.ClickFolderMode%3d2" ph="DemoPanelClickFolderMode.Content" uid="{33DBB2FD-0042-44A4-94FA-80F28F220625}" />
+    <r id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" par="Id=ButtonActivateAndExpand&amp;Text=ClickFolderMode%3a+Select+and+Expand&amp;Click=javascript%3aapp.ItemTreeView8.ClickFolderMode%3d3" ph="DemoPanelClickFolderMode.Content" uid="{8FD80A5C-D1D4-44AF-A1BF-9391DCEC861D}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=Text1&amp;Text=SelectedItemId%3a" ph="BorderSelectedItemId.Content" uid="{44466B5F-1DD9-4D20-B5D4-65DD5B05478A}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=BorderSelectedItemId" ph="DemoPanelBasic.Content" uid="{40D47E27-94EE-4C1C-9C69-D9548B437FE5}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=Text2&amp;Text=%7bBinding+ItemTreeView1.SelectedItemId%7d" ph="BorderSelectedItemId.Content" uid="{7BF748B0-C890-4508-82EE-2C67E2D4955E}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=BorderSelectedValue" ph="DemoPanelBasic.Content" uid="{B4BD5986-639D-42C3-ABED-91C78BF217C3}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=Text6&amp;Text=SelectedValue%3a+" ph="BorderSelectedValue.Content" uid="{2B3CBC0C-4B52-4971-A01B-68CF769F6E1E}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=Text5&amp;Text=%7bBinding+ItemTreeView1.SelectedValue%7d" ph="BorderSelectedValue.Content" uid="{2B3CBC0C-4B52-4971-A01B-68CF769F6E1E}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanel1&amp;ConfigurationDetails=CheckableTemplates%3d%7bE3E2D58C-DF95-4230-ADC9-279924CECE84%7d%26IsCheckModeEnabled%3dTrue&amp;Description=This+property+specifies+a+pipe-separated+list+of+template+IDs.+If+IsCheckModeEnabled+is+True%2c+the+control+only+shows+check+boxes+for+items++based+on+templates+in+this+list.&amp;Title=Specifying+what+items+have+check+boxes" ph="TabBorder.Content" uid="{869428D3-53AA-4DC4-9145-C3883F028496}" />
+    <r id="{4D096960-FC73-4E0B-8D93-28736AD98E98}" par="IsPreLoadItemSelected=0&amp;Id=ItemTreeView10&amp;PreLoadItem=%7b11111111-1111-1111-1111-111111111111%7d&amp;CheckableTemplates=%7bE3E2D58C-DF95-4230-ADC9-279924CECE84%7d&amp;Database=core&amp;IsCheckModeEnabled=1&amp;StaticData=%7b11111111-1111-1111-1111-111111111111%7d&amp;IsPreLoadItemExpanded=1" ph="DemoComponentPanel1.Content" uid="{9F0762C2-4874-4EBD-A16C-7BB29D26FA1F}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoPanelReload&amp;ConfigurationDetails=ButtonReload.Click%3djavascript%3aapp.ItemTreeView11.reload(%27%7b3D6658D8-A0BF-4E75-B3E2-D050FABCF4E1%7d%27%2c+false)%3b%26ButtonReloadClear.Click%3djavascript%3aapp.ItemTreeView11.reload(%27%7b11111111-1111-1111-1111-111111111111%7d%27%2c+true)%3b&amp;Description=The+reload(newRootId%2c+clearSelection)+JavaScript+function+reloads+the+items+the+control+shows.+The+newRootId+parameter+specifies+an+item+similar+to+the+item+specified+by+the+StaticData+property.+The+clearSelection+parameter+specifies+if+the+control+remembers+the+selection+and+reselects+it+(if+possible).+&amp;Title=Reloading+items+programatically" ph="TabBorder.Content" uid="{5832A2CC-9F9D-4A72-A2F4-78C8BA180993}" />
+    <r id="{4D096960-FC73-4E0B-8D93-28736AD98E98}" par="Id=ItemTreeView11&amp;StaticData=%7b11111111-1111-1111-1111-111111111111%7d" ph="DemoPanelReload.Content" uid="{4AA5E4F7-5A75-4909-921B-8C0D980A6B53}" />
+    <r id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" par="Id=ButtonReload&amp;Text=Reload+tree+having+%27Media+Library%27+as+root+(preserve+selection)&amp;Click=javascript%3aapp.ItemTreeView11.reload(%27%7b3D6658D8-A0BF-4E75-B3E2-D050FABCF4E1%7d%27%2c+false)%3b" ph="DemoPanelReload.Content" uid="{270B0917-AE10-48E6-B6E9-12D746DA2C8B}" />
+    <r id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" par="Id=ButtonReloadClear&amp;Text=Reload+tree+having+%27sitecore%27+as+root+(clear+selection)&amp;Click=javascript%3aapp.ItemTreeView11.reload(%27%7b11111111-1111-1111-1111-111111111111%7d%27%2c+true)%3b" ph="DemoPanelReload.Content" uid="{71E9CE5A-F1CE-4F5C-B9ED-4743248A4967}" />
+  </d>
+</r>
+----version----
+language: de-DE
+version: 1
+revision: 2463ef6e-0c57-418d-b2b7-d1aeaa95e1b4
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 4
+
+Demo
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 4
+
+Demo
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133439Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+2463ef6e-0c57-418d-b2b7-d1aeaa95e1b4
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133439Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 2e3e2fcd-071d-4f65-97c7-f4c3a0325ff0
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 4
+
+Demo
+----field----
+field: {772AEA8A-4D70-43F4-BD6B-EDE5FB060623}
+name: Tooltip
+key: tooltip
+content-length: 0
+
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150813T071548Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+2e3e2fcd-071d-4f65-97c7-f4c3a0325ff0
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160309T144509Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: d001b9c8-5685-4e2f-a668-139dc8485498
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 2
+
+デモ
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 2
+
+デモ
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133606Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d001b9c8-5685-4e2f-a668-139dc8485498
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133606Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

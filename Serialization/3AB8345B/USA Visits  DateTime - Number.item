@@ -1,0 +1,209 @@
+----item----
+version: 1
+id: {32F50FC5-F8D1-4CBA-B996-6CA3EFC9000C}
+database: core
+path: /sitecore/client/Business Component Library/version 2/Content/Guidance/Renderings/Charts/AreaChart/PageSettings/Tabs/Demo/SubDemo/SeriesDefinitions/USA Visits  DateTime - Number
+parent: {C42CF2C7-A7AE-4184-85EA-725F422C18D6}
+name: USA Visits  DateTime - Number
+master: {00000000-0000-0000-0000-000000000000}
+template: {BB83C435-3B17-484D-8640-85AD75F0C6BE}
+templatekey: SeriesDefinition
+created: 20160729T132116Z
+
+----field----
+field: {94D7BA99-68DF-44D9-9801-80C6E4C2E243}
+name: CategoryDataFormatting
+key: categorydataformatting
+content-length: 38
+
+{536E46D6-33B7-4F94-9CDC-109962F96E87}
+----field----
+field: {A07F0F21-F533-407C-B80E-9CC7195FEE4F}
+name: ValueDataFormatting
+key: valuedataformatting
+content-length: 38
+
+{EBBCAE22-ECD0-4648-B310-1CCF2D283C55}
+----field----
+field: {248361A2-B799-467C-88DA-45C506EAC527}
+name: SeriesKey
+key: serieskey
+content-length: 5
+
+Team0
+----field----
+field: {7F8B1A28-9921-4EB1-91BB-D6CDC21EEC10}
+name: CategoryFieldName
+key: categoryfieldname
+content-length: 4
+
+date
+----field----
+field: {2B25E0EA-442F-4DA8-82ED-3F808741B24B}
+name: ValueFieldName
+key: valuefieldname
+content-length: 6
+
+visits
+----version----
+language: de-DE
+version: 1
+revision: 38aa48cb-293f-4895-b37e-cb6d6905ccd5
+
+----field----
+field: {E99B3D93-46C1-4309-A9FF-10A398212086}
+name: SeriesDisplayName
+key: seriesdisplayname
+content-length: 11
+
+USA Besuche
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 33
+
+USA Besuche DatumUhrzeit - Anzahl
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133448Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+38aa48cb-293f-4895-b37e-cb6d6905ccd5
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133448Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 56b114e0-828e-4846-8326-9e00045985b6
+
+----field----
+field: {E99B3D93-46C1-4309-A9FF-10A398212086}
+name: SeriesDisplayName
+key: seriesdisplayname
+content-length: 10
+
+USA Visits
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160111T122455Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+56b114e0-828e-4846-8326-9e00045985b6
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160127T102921Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 28824761-f579-474f-8ad5-169106b2e828
+
+----field----
+field: {E99B3D93-46C1-4309-A9FF-10A398212086}
+name: SeriesDisplayName
+key: seriesdisplayname
+content-length: 5
+
+US 訪問
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 15
+
+USA 訪問  日時 - 番号
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133615Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+28824761-f579-474f-8ad5-169106b2e828
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133615Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

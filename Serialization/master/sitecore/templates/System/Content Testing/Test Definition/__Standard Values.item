@@ -1,0 +1,101 @@
+----item----
+version: 1
+id: {E8FF85BF-4EC1-4F8D-9DE7-7B3841C3D593}
+database: master
+path: /sitecore/templates/System/Content Testing/Test Definition/__Standard Values
+parent: {45FB02E9-70B3-4CFE-8050-06EAD4B5DB3E}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {45FB02E9-70B3-4CFE-8050-06EAD4B5DB3E}
+templatekey: Test Definition
+created: 20160729T132117Z
+
+----field----
+field: {54AB2781-4A1B-4DB3-86BE-1797FD041AF3}
+name: Name
+key: name
+content-length: 5
+
+$name
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 38
+
+{85DF313D-DBC6-4F27-AD77-3E0A8784A1DD}
+----field----
+field: {C9283D9E-7C29-4419-9C28-5A5C8FF53E84}
+name: __Bucketable
+key: __bucketable
+content-length: 1
+
+1
+----field----
+field: {F7B94D8C-A842-49F8-AB7A-2169D00426B0}
+name: __Should Not Organize In Bucket
+key: __should not organize in bucket
+content-length: 1
+
+1
+----field----
+field: {C0E276BB-8807-40AA-8138-E5C38B0C5DAB}
+name: __Quick Actions
+key: __quick actions
+content-length: 38
+
+{ED4C0474-F73B-4100-B722-9BAA1903BE0B}
+----field----
+field: {CA9B9F52-4FB0-4F87-A79F-24DEA62CDA65}
+name: __Default workflow
+key: __default workflow
+content-length: 38
+
+{2BAE793F-7392-4790-9E67-9C60B6BF7D7B}
+----version----
+language: en
+version: 1
+revision: c1908e73-3f24-4a90-865e-f70bce2ffafa
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20101130T041346Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c1908e73-3f24-4a90-865e-f70bce2ffafa
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20140828T062649:635448040098147357Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

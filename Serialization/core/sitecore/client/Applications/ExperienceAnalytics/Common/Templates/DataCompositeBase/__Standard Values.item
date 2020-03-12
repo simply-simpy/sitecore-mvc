@@ -1,0 +1,73 @@
+----item----
+version: 1
+id: {F26C5741-3DBA-4582-B1D3-E3054D580A60}
+database: core
+path: /sitecore/client/Applications/ExperienceAnalytics/Common/Templates/DataCompositeBase/__Standard Values
+parent: {4B0304A7-5FDE-4174-A8EA-37B558738CBC}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {4B0304A7-5FDE-4174-A8EA-37B558738CBC}
+templatekey: DataCompositeBase
+created: 20160729T132117Z
+
+----field----
+field: {5D6BC769-813B-4D41-8A88-73DCA65D66B5}
+name: KeysSortDirection
+key: keyssortdirection
+content-length: 38
+
+{A0090A0E-0889-4118-98B5-F4ACAE0B00C4}
+----field----
+field: {5B3AC62D-EEDB-4F89-A311-EF958BBDB762}
+name: DrilldownOption
+key: drilldownoption
+content-length: 0
+
+
+----version----
+language: en
+version: 1
+revision: 81173bdd-20c5-4cba-88f1-f9dca432f930
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+00010101T000000
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+81173bdd-20c5-4cba-88f1-f9dca432f930
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20140926T093423:635473208633482145Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

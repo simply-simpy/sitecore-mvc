@@ -1,0 +1,270 @@
+----item----
+version: 1
+id: {98CE136D-B643-422B-B0D6-96736DD496AF}
+database: core
+path: /sitecore/client/Business Component Library/version 2/Content/Guidance/Renderings/Common/TextArea/PageSettings/TextSource
+parent: {6D888E4D-E55E-440C-888B-2C2310592B37}
+name: TextSource
+master: {00000000-0000-0000-0000-000000000000}
+template: {11A111FF-4343-4AF8-91DC-3C49DBEDD9C6}
+templatekey: Help Text
+created: 20160729T132116Z
+
+----version----
+language: da
+version: 1
+revision: 929c21e5-5a07-44c7-8506-0ea67a5c6e82
+
+----field----
+field: {18D518F5-4B35-4BC8-9700-741C26AE76B7}
+name: Title
+key: title
+content-length: 10
+
+TekstKilde
+----field----
+field: {FFF72FE1-626A-4D01-AAB6-F157BC97B4AF}
+name: Header
+key: header
+content-length: 78
+
+denne tekst stammer fra feltet Overskrift for elementet angivet i StatiskeData
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 10
+
+TekstKilde
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133338Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+929c21e5-5a07-44c7-8506-0ea67a5c6e82
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133338Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 9586b18b-6a5f-4154-9a10-9f73d4eca013
+
+----field----
+field: {18D518F5-4B35-4BC8-9700-741C26AE76B7}
+name: Title
+key: title
+content-length: 10
+
+Textquelle
+----field----
+field: {FFF72FE1-626A-4D01-AAB6-F157BC97B4AF}
+name: Header
+key: header
+content-length: 88
+
+dieser Text kommt vom Headerfeld des Items, das in den StatischenDaten festgelegt wurde.
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 10
+
+Textquelle
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133508Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+9586b18b-6a5f-4154-9a10-9f73d4eca013
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133508Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 2c98445a-cea2-432f-8619-17733485b05e
+
+----field----
+field: {FFF72FE1-626A-4D01-AAB6-F157BC97B4AF}
+name: Header
+key: header
+content-length: 73
+
+this text comes from the Header field of the item specified in StaticData
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150521T133132Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+2c98445a-cea2-432f-8619-17733485b05e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150521T133205:635678119255780703Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 39f90c0f-9477-4461-96f6-ca806cc23104
+
+----field----
+field: {18D518F5-4B35-4BC8-9700-741C26AE76B7}
+name: Title
+key: title
+content-length: 8
+
+テキスト ソース
+----field----
+field: {FFF72FE1-626A-4D01-AAB6-F157BC97B4AF}
+name: Header
+key: header
+content-length: 48
+
+このテキストは StaticData で指定されたアイテムのヘッダー フィールドから取得されます
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 8
+
+テキスト ソース
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133636Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+39f90c0f-9477-4461-96f6-ca806cc23104
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133636Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,340 @@
+----item----
+version: 1
+id: {C4EE7D6C-BF25-4D0A-807E-2838F791066E}
+database: core
+path: /sitecore/client/Applications/ContentTesting/Dialogs/CreateTest/PageSettings/StateChangeList Parameters
+parent: {7DD0650E-9200-4952-A44C-62530C0269D8}
+name: StateChangeList Parameters
+master: {00000000-0000-0000-0000-000000000000}
+template: {2F22A215-7EB5-4440-BB09-8034B6F11F26}
+templatekey: StateChangeList Parameters
+created: 20160729T132117Z
+
+----field----
+field: {DE3D12AE-3092-4720-AF4B-B6FDF89A545F}
+name: EnabledIconPath
+key: enablediconpath
+content-length: 69
+
+/sitecore/shell/client/Applications/ContentTesting/Assets/enabled.ico
+----field----
+field: {A9249B13-1A27-4EA2-872E-A3077949C462}
+name: DisabledIconpath
+key: disablediconpath
+content-length: 70
+
+/sitecore/shell/client/Applications/ContentTesting/Assets/disabled.ico
+----field----
+field: {B8BB9F6A-6FB5-4B73-8F94-1BD46044A69C}
+name: NotAllowDisableIconpath
+key: notallowdisableiconpath
+content-length: 74
+
+/sitecore/shell/client/Applications/ContentTesting/Assets/enabled-grey.ico
+----version----
+language: da
+version: 1
+revision: c864c8f4-4131-4a52-9e7d-f92748d181c5
+
+----field----
+field: {F02DD6C4-05BB-4549-B46D-1CFB69D7CF59}
+name: EnabledTooltip
+key: enabledtooltip
+content-length: 31
+
+Klik på ikon for at deaktivere.
+----field----
+field: {F360BC40-9DBE-4914-82FA-A75A4FBD4464}
+name: DisabledTooltip
+key: disabledtooltip
+content-length: 29
+
+Klik på ikon for at aktivere.
+----field----
+field: {4F42661F-DE8E-4127-AE8D-20812B5A547F}
+name: HeaderTitle
+key: headertitle
+content-length: 17
+
+DEAKTIVER/AKTIVÉR
+----field----
+field: {DB10240D-7893-48F5-B857-2044A1E48DE1}
+name: NotAllowDisableTooltip
+key: notallowdisabletooltip
+content-length: 37
+
+Denne variation kan ikke deaktiveres.
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 29
+
+Parametre for StateChangeList
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133345Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c864c8f4-4131-4a52-9e7d-f92748d181c5
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133345Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: ebc596a8-0ca9-454f-9ab1-a6b4771119b5
+
+----field----
+field: {F02DD6C4-05BB-4549-B46D-1CFB69D7CF59}
+name: EnabledTooltip
+key: enabledtooltip
+content-length: 32
+
+Auf Icon klicken zum Aktivieren.
+----field----
+field: {F360BC40-9DBE-4914-82FA-A75A4FBD4464}
+name: DisabledTooltip
+key: disabledtooltip
+content-length: 34
+
+Auf Icon klicken zum Deaktivieren.
+----field----
+field: {4F42661F-DE8E-4127-AE8D-20812B5A547F}
+name: HeaderTitle
+key: headertitle
+content-length: 24
+
+AKTIEVIEREN/DEAKTIVIEREN
+----field----
+field: {DB10240D-7893-48F5-B857-2044A1E48DE1}
+name: NotAllowDisableTooltip
+key: notallowdisabletooltip
+content-length: 46
+
+Diese Variation kann nicht deaktiviert werden.
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 36
+
+Vorhandene Seiten-URLs nach Besuchen
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133517Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ebc596a8-0ca9-454f-9ab1-a6b4771119b5
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133517Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 9cd92f15-8bba-43c5-a0bf-fd9801e2e824
+
+----field----
+field: {F02DD6C4-05BB-4549-B46D-1CFB69D7CF59}
+name: EnabledTooltip
+key: enabledtooltip
+content-length: 25
+
+Click on icon to disable.
+----field----
+field: {F360BC40-9DBE-4914-82FA-A75A4FBD4464}
+name: DisabledTooltip
+key: disabledtooltip
+content-length: 24
+
+Click on icon to enable.
+----field----
+field: {4F42661F-DE8E-4127-AE8D-20812B5A547F}
+name: HeaderTitle
+key: headertitle
+content-length: 14
+
+DISABLE/ENABLE
+----field----
+field: {DB10240D-7893-48F5-B857-2044A1E48DE1}
+name: NotAllowDisableTooltip
+key: notallowdisabletooltip
+content-length: 34
+
+This variation cannot be disabled.
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20141022T165040Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+9cd92f15-8bba-43c5-a0bf-fd9801e2e824
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150202T010835:635584361155508418Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: e26ac7d9-f631-4e19-af5a-8e3f84508c3c
+
+----field----
+field: {F02DD6C4-05BB-4549-B46D-1CFB69D7CF59}
+name: EnabledTooltip
+key: enabledtooltip
+content-length: 23
+
+無効化するにはアイコンをクリックしてください。
+----field----
+field: {F360BC40-9DBE-4914-82FA-A75A4FBD4464}
+name: DisabledTooltip
+key: disabledtooltip
+content-length: 23
+
+有効化するにはアイコンをクリックしてください。
+----field----
+field: {4F42661F-DE8E-4127-AE8D-20812B5A547F}
+name: HeaderTitle
+key: headertitle
+content-length: 5
+
+無効／有効
+----field----
+field: {DB10240D-7893-48F5-B857-2044A1E48DE1}
+name: NotAllowDisableTooltip
+key: notallowdisabletooltip
+content-length: 23
+
+このバリエーションを無効化することはできません
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 15
+
+状態の変更リスト パラメーター
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133645Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e26ac7d9-f631-4e19-af5a-8e3f84508c3c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133645Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

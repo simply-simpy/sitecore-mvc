@@ -1,0 +1,198 @@
+----item----
+version: 1
+id: {2A79E378-04D7-42CC-A797-71AAE9F2D55D}
+database: core
+path: /sitecore/client/Business Component Library/version 2/Content/Guidance/Renderings/Navigation/Breadcrumb/PageSettings/Tabs/Demo/OriginalStructureExample
+parent: {7FC16EAB-AEC2-433E-8483-C771595EF3BF}
+name: OriginalStructureExample
+master: {00000000-0000-0000-0000-000000000000}
+template: {B11AFCCD-C286-4384-B694-4465D6C605DE}
+templatekey: Speak-DashboardPage
+created: 20160729T132116Z
+
+----field----
+field: {3A67AD0F-9530-4B1B-9B70-9230C36AE8D6}
+name: UseFullWidth
+key: usefullwidth
+content-length: 1
+
+1
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 1282
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{4F72A793-BDBC-4262-9523-6AADD8FEA487}">
+    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="SpeakCoreVersion=%7b3F937240-C16E-4229-9641-4CE5B4CB4ABA%7d" ph="Page.Code" uid="{10A33106-DDF0-46C5-9AE4-2E0C7C74662E}" />
+    <r id="{6C3780DC-2D6F-49E6-B63F-07D67C0FDDA7}" par="ShowFooter=0" ph="Page.Body" uid="{94748389-F33C-45B6-939D-6A9704A402FF}" />
+    <r id="{357DC261-E48D-4B04-85BC-3009300A6AE1}" ph="ApplicationContent" uid="{4CFA45B3-B60D-49B3-A60F-A1E89E4175D0}" />
+    <r id="{047F31EF-7D7D-42E5-BC9B-F39FEAB0B83B}" ph="ApplicationHeader" uid="{06526B77-1F84-4791-B132-000236A4AD72}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=Text1&amp;Text=Original+Structure+Example" ph="ApplicationHeader.Title" uid="{D624C882-3763-46DF-8011-05F7D22D38DC}" />
+    <r id="{89C69D11-A416-4193-938C-3D631DCD1798}" par="Id=Breadcrumb1&amp;NavigationRoot=%7b2A79E378-04D7-42CC-A797-71AAE9F2D55D%7d" ph="ApplicationHeader.BreadCrumb" uid="{9310A90C-2E9A-48DC-AA69-B71135F3D7C2}" />
+    <r id="{89C69D11-A416-4193-938C-3D631DCD1798}" par="Id=Breadcrumb2&amp;NavigationRoot=%7b2A79E378-04D7-42CC-A797-71AAE9F2D55D%7d" ph="ApplicationContent.Main" uid="{5814A391-BFB2-4953-913E-F15D25C2B4B1}" />
+  </d>
+</r>
+----version----
+language: de-DE
+version: 1
+revision: eb2c125b-c878-4225-a57d-7da6fd9647b3
+
+----field----
+field: {7205A57F-93B4-413A-AA9A-6B16BBC59565}
+name: BrowserTitle
+key: browsertitle
+content-length: 24
+
+OriginalStrukturBeispiel
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 24
+
+OriginalStrukturBeispiel
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133447Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+eb2c125b-c878-4225-a57d-7da6fd9647b3
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133447Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: d7a1089c-c3ea-408e-882b-63a91e56276f
+
+----field----
+field: {7205A57F-93B4-413A-AA9A-6B16BBC59565}
+name: BrowserTitle
+key: browsertitle
+content-length: 24
+
+OriginalStructureExample
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151104T124402Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d7a1089c-c3ea-408e-882b-63a91e56276f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20151105T095015Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: a20d0db8-1e6c-4ddc-a23d-2f0c67e36547
+
+----field----
+field: {7205A57F-93B4-413A-AA9A-6B16BBC59565}
+name: BrowserTitle
+key: browsertitle
+content-length: 16
+
+オリジナル ストラクチャー 見本
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 16
+
+オリジナル ストラクチャー 見本
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133613Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a20d0db8-1e6c-4ddc-a23d-2f0c67e36547
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133613Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

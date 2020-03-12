@@ -1,0 +1,209 @@
+----item----
+version: 1
+id: {A84C80B9-8791-403B-8383-6237CB83865F}
+database: core
+path: /sitecore/client/Business Component Library/version 2/Content/Guidance/Renderings/Common/ActionControl/PageSettings/Interact/Column/Group1/Action1
+parent: {CA456CC6-ED05-4B8D-B471-9CEA965A7C02}
+name: Action1
+master: {00000000-0000-0000-0000-000000000000}
+template: {765DC62E-2A4A-48C5-99DB-C47283504782}
+templatekey: Action
+created: 20160729T132116Z
+
+----field----
+field: {16746BA2-2D1C-40EB-8687-680A0B20EE63}
+name: Icon
+key: icon
+content-length: 24
+
+People/16x16/scanner.png
+----field----
+field: {911D1B18-3A51-4D58-B7AD-164DA77D5090}
+name: IsFavorite
+key: isfavorite
+content-length: 0
+
+
+----field----
+field: {67844F9A-8793-475A-A1D6-8E45A4540648}
+name: IsDisabled
+key: isdisabled
+content-length: 0
+
+
+----field----
+field: {F5884D18-53C4-44C8-8170-77945A13969C}
+name: Name
+key: name
+content-length: 7
+
+Action1
+----field----
+field: {CAD0069B-F5BB-40A9-84D3-BF9A4ECF8D37}
+name: Click
+key: click
+content-length: 28
+
+javascript:alert('action 1')
+----version----
+language: de-DE
+version: 1
+revision: 55c6b919-af3c-4f12-a75b-8558c85339eb
+
+----field----
+field: {84039445-DC18-4332-AE73-38E8773F315F}
+name: Text
+key: text
+content-length: 7
+
+Aktion1
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 7
+
+Aktion1
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133511Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+55c6b919-af3c-4f12-a75b-8558c85339eb
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133511Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 8376fd9e-770b-4786-8657-7ec650deba58
+
+----field----
+field: {84039445-DC18-4332-AE73-38E8773F315F}
+name: Text
+key: text
+content-length: 7
+
+Action1
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+00010101T000000
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+8376fd9e-770b-4786-8657-7ec650deba58
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160226T140248Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 1a7ca67d-e99a-437f-8ef4-3eeab398f9d4
+
+----field----
+field: {84039445-DC18-4332-AE73-38E8773F315F}
+name: Text
+key: text
+content-length: 6
+
+アクション１
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 6
+
+アクション１
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133639Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+1a7ca67d-e99a-437f-8ef4-3eeab398f9d4
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133639Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

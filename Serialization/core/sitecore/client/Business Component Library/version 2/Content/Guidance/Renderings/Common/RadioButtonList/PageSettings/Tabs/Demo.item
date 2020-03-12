@@ -1,0 +1,271 @@
+----item----
+version: 1
+id: {99013F2A-2FEB-4E15-9CEE-9922E6A15B14}
+database: core
+path: /sitecore/client/Business Component Library/version 2/Content/Guidance/Renderings/Common/RadioButtonList/PageSettings/Tabs/Demo
+parent: {94C54458-EB0D-4FE8-B405-40F2039F070C}
+name: Demo
+master: {00000000-0000-0000-0000-000000000000}
+template: {8A7ACB1A-0990-4C9E-A6F0-9612D0F5F51C}
+templatekey: Tab
+created: 20160729T132116Z
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 12840
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoGroup&amp;ConfigurationDetails=StaticData%3d%7b11111111-1111-1111-1111-111111111111%7d&amp;Description=The+RadioButtonList+has+DisplayFieldName%2c+DynamicData%2c+SelectedValue+and+StaticData+properties%2c+as+well+as+SelectedItem+as+a+binding+target.+In+the+example+below%2c+the+text+is+bound+to+the+RadioButtonList%27s+SelectedValue.&amp;Title=Data+properties" uid="{B29101DA-BF4A-4853-9E4E-DFD78F44D64B}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border" ph="DemoGroup.Content" uid="{75624D38-D646-4B3D-B8E0-BFD048DECC1B}" />
+    <r id="{0A9B03F3-287C-42C5-94E0-C28F87B2597B}" par="Id=RadioButtonList1&amp;StaticData=%7b11111111-1111-1111-1111-111111111111%7d" ph="Border.Content" uid="{973C2F5E-A0A0-4A58-A6F4-BBCCA30E0E0A}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border1&amp;PaddingType=Top&amp;UsePadding=1" ph="Border.Content" uid="{7AC1D628-F52A-48B0-A796-221EA4D1E0BE}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=Text2&amp;Text=SelectedValue%3a" ph="Border.Content" uid="{1F9BB86A-BF17-4255-9CF2-0B8D006BC1E1}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="TextWeight=600+Semi-Bold&amp;Id=Text1&amp;Text=%7bBinding+RadioButtonList1.SelectedValue%7d" ph="Border.Content" uid="{E7D48CF2-6A6D-4243-9FF9-36658E2B155F}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanelColumns&amp;ConfigurationDetails=Columns%3d(blank)%2c+1%2c+and+3&amp;Tooltip=+&amp;Description=The+Columns+property+specifies+whether+the+control+shows+the+radio+buttons+in+columns.+The+default+is+that+it+does+not+use+columns.&amp;Title=Specifying+columns" uid="{798F59D1-F587-4C60-A3E8-E01B531996CF}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=BorderColumns&amp;PaddingType=Bottom&amp;UsePadding=1" ph="DemoComponentPanelColumns.Content" uid="{CE1C6CC7-931D-465A-8495-F475A47017FA}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=TextColumns&amp;Text=0+Columns&amp;TextSize=X-Large" ph="BorderColumns0.Content" uid="{91902182-E5B5-42B5-B548-5A3E22882914}" />
+    <r id="{0A9B03F3-287C-42C5-94E0-C28F87B2597B}" par="Id=RadioButtonListColumns&amp;StaticData=%7b11111111-1111-1111-1111-111111111111%7d" ph="DemoComponentPanelColumns.Content" uid="{A8C35572-D02D-4411-B08D-50475E8AC1D8}" />
+    <r id="{E250DEA9-B3A6-4BFA-AF96-E8278150DA31}" par="Id=Separator" ph="DemoComponentPanelColumns.Content" uid="{CC829C5A-FD56-442A-993E-0D23179EF56D}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=BorderColumns1&amp;PaddingType=Bottom&amp;UsePadding=1" ph="DemoComponentPanelColumns.Content" uid="{89C05816-C15F-4D29-8D50-C59E626F5644}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=TextColumns1&amp;Text=1+column&amp;TextSize=X-Large" ph="BorderColumns1.Content" uid="{C2FEEE60-D0F7-47A7-973E-87E6193AD3D8}" />
+    <r id="{0A9B03F3-287C-42C5-94E0-C28F87B2597B}" par="Id=RadioButtonListColumns1&amp;StaticData=%7b11111111-1111-1111-1111-111111111111%7d&amp;Columns=1" ph="DemoComponentPanelColumns.Content" uid="{981A01E4-8562-4403-A70F-0A712FAEF865}" />
+    <r id="{E250DEA9-B3A6-4BFA-AF96-E8278150DA31}" par="Id=Separator1" ph="DemoComponentPanelColumns.Content" uid="{4AC6CC9A-E48F-4A05-81AB-437039522898}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=BorderColumns2&amp;PaddingType=Bottom&amp;UsePadding=1" ph="DemoComponentPanelColumns.Content" uid="{39F23BB3-B1EE-406C-9AF6-06EF464C39C6}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=TextColumns2&amp;Text=3+columns&amp;TextSize=X-Large" ph="BorderColumns2.Content" uid="{0138A3FA-3FFC-4D2A-A50E-2EED1583578A}" />
+    <r id="{0A9B03F3-287C-42C5-94E0-C28F87B2597B}" par="Id=RadioButtonListColumns2&amp;StaticData=%7b11111111-1111-1111-1111-111111111111%7d&amp;Columns=3" ph="DemoComponentPanelColumns.Content" uid="{471C2CF8-B78B-4E5E-8A01-EBD4A0AD41BF}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanelIsFullWidth&amp;ConfigurationDetails=IsFullWidth%3a++False+and+True&amp;Description=The+IsFullWidth+property+specifies+whether+the+control+fills+the+width+of+its+parent+container.+If+True%2c+it+does.+If+False+(the+default)%2c+it+sets+the+size+to+the+width+of+the+widest+content.&amp;Title=Specifying+the+width+" uid="{E6B721F1-6B82-4025-8F2C-AD916AC92663}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=BorderIsFullWidthFalse&amp;PaddingType=Bottom&amp;UsePadding=1" ph="DemoComponentPanelIsFullWidth.Content" uid="{5B317C01-6BF0-4710-97CD-8848391A2367}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=TextIsFullWidthFalse&amp;Text=False&amp;TextSize=X-Large" ph="BorderIsFullWidthFalse.Content" uid="{D67C497A-61D5-4E82-A4E9-7B0FF8DDCE58}" />
+    <r id="{0A9B03F3-287C-42C5-94E0-C28F87B2597B}" par="Id=RadioButtonListIsFullWidthFalse&amp;StaticData=%7b11111111-1111-1111-1111-111111111111%7d&amp;Columns=3" ph="DemoComponentPanelIsFullWidth.Content" uid="{98435B29-4CFD-4548-BFC1-A6845DE5BE15}" />
+    <r id="{E250DEA9-B3A6-4BFA-AF96-E8278150DA31}" par="Id=Separator2" ph="DemoComponentPanelIsFullWidth.Content" uid="{590A5C06-BEE3-4DA9-B8D1-6F904B4E79CB}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=BorderIsFullWidthTrue&amp;PaddingType=Bottom&amp;UsePadding=1" ph="DemoComponentPanelIsFullWidth.Content" uid="{5DF151BB-EC06-4908-96A1-9D785DEE307A}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=TextIsFullWidthTrue&amp;Text=True&amp;TextSize=X-Large" ph="BorderIsFullWidthTrue.Content" uid="{FBDCA573-EA7E-4AA5-A81E-8D911B6D64C4}" />
+    <r id="{0A9B03F3-287C-42C5-94E0-C28F87B2597B}" par="Id=RadioButtonListIsFullWidthTrue&amp;StaticData=%7b11111111-1111-1111-1111-111111111111%7d&amp;Columns=3&amp;IsFullWidth=1" ph="DemoComponentPanelIsFullWidth.Content" uid="{2F2C6D33-6063-4514-90F5-275DDCD29B2B}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanelIsRenderedVertically&amp;Description=The+IsRenderedVertically+specifies+the+direction+the+control+renders+radio+buttons+in.+If+False+(the+default)+it+renders+horizontally%2c+if+true%2c+it++renders+vertically.&amp;Title=Specifying+rendering+direction" uid="{4A271AAA-E451-48FE-B811-53094F78000A}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=BorderIsRenderedVerticallyFalseColumns&amp;PaddingType=Bottom&amp;UsePadding=1" ph="DemoComponentPanelIsRenderedVertically.Content" uid="{CBB3B515-BB03-4791-BA7D-A151F7564FA0}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=TextIsRenderedVerticallyFalseColumns&amp;Text=False+-+0+columns&amp;TextSize=X-Large" ph="BorderIsRenderedVerticallyFalseColumns0.Content" uid="{E22C169F-DD36-42A3-A2EF-8F7E07FA25B8}" />
+    <r id="{0A9B03F3-287C-42C5-94E0-C28F87B2597B}" par="Id=RadioButtonListIsRenderedVerticallyFalseColumns&amp;StaticData=%7b11111111-1111-1111-1111-111111111111%7d" ph="DemoComponentPanelIsRenderedVertically.Content" uid="{EADAC170-8A14-485A-A45D-1D54FD366EC1}" />
+    <r id="{E250DEA9-B3A6-4BFA-AF96-E8278150DA31}" par="Id=Separator3" ph="DemoComponentPanelIsRenderedVertically.Content" uid="{6C6F954F-8E6E-4B66-BA17-8B09114706BC}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=BorderIsRenderedVerticallyFalseColumns1&amp;PaddingType=Bottom&amp;UsePadding=1" ph="DemoComponentPanelIsRenderedVertically.Content" uid="{CB39D73A-D9BA-4C43-AA98-3A7D384C8325}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=TextIsRenderedVerticallyFalseColumns1&amp;Text=False+-+1+column&amp;TextSize=X-Large" ph="BorderIsRenderedVerticallyFalseColumns1.Content" uid="{1B49F17F-724D-4031-B7F4-F03A42438695}" />
+    <r id="{0A9B03F3-287C-42C5-94E0-C28F87B2597B}" par="Id=RadioButtonListIsRenderedVerticallyFalseColumns1&amp;StaticData=%7b11111111-1111-1111-1111-111111111111%7d&amp;Columns=1" ph="DemoComponentPanelIsRenderedVertically.Content" uid="{CF84F34E-E2A6-41CC-BDE5-7C491D2D9E95}" />
+    <r id="{E250DEA9-B3A6-4BFA-AF96-E8278150DA31}" par="Id=Separator4" ph="DemoComponentPanelIsRenderedVertically.Content" uid="{E19FA673-D875-4315-BD9A-1C74137998C6}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=BorderIsRenderedVerticallyFalseColumns2&amp;PaddingType=Bottom&amp;UsePadding=1" ph="DemoComponentPanelIsRenderedVertically.Content" uid="{836078BA-DF49-4CFD-8774-DC071CABF928}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=TextIsRenderedVerticallyFalseColumns2&amp;Text=False+-+2+columns&amp;TextSize=X-Large" ph="BorderIsRenderedVerticallyFalseColumns2.Content" uid="{A5B7D634-397B-4C6E-81FE-FB6883893043}" />
+    <r id="{0A9B03F3-287C-42C5-94E0-C28F87B2597B}" par="Id=RadioButtonListIsRenderedVerticallyFalseColumns2&amp;StaticData=%7b11111111-1111-1111-1111-111111111111%7d&amp;Columns=2" ph="DemoComponentPanelIsRenderedVertically.Content" uid="{43B2ADEA-6B09-4950-9E92-F0A08EFA2B6D}" />
+    <r id="{E250DEA9-B3A6-4BFA-AF96-E8278150DA31}" par="Id=Separator5" ph="DemoComponentPanelIsRenderedVertically.Content" uid="{FEAC02C5-5C90-4B66-9CB4-8D4116FC6C55}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=BorderIsRenderedVerticallyTrueColumns&amp;PaddingType=Bottom&amp;UsePadding=1" ph="DemoComponentPanelIsRenderedVertically.Content" uid="{E7C2FC3F-CB95-4EEA-9DA6-DF8E1B9F3E6C}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=TextIsRenderedVerticallyTrueColumns&amp;Text=True+-+0+columns&amp;TextSize=X-Large" ph="BorderIsRenderedVerticallyTrueColumns0.Content" uid="{E85EDC2A-0DEF-400E-8F31-545D64878AFB}" />
+    <r id="{0A9B03F3-287C-42C5-94E0-C28F87B2597B}" par="IsRenderedVertically=1&amp;Id=RadioButtonListIsRenderedVerticallyTrueColumns&amp;StaticData=%7b11111111-1111-1111-1111-111111111111%7d" ph="DemoComponentPanelIsRenderedVertically.Content" uid="{A548CE52-80BB-4EA3-91C4-DA424CA7F20C}" />
+    <r id="{E250DEA9-B3A6-4BFA-AF96-E8278150DA31}" par="Id=Separator6" ph="DemoComponentPanelIsRenderedVertically.Content" uid="{D8FCF7DF-4355-47E5-BAE2-A3D1D6804D94}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=BorderIsRenderedVerticallyTrueColumns1&amp;PaddingType=Bottom&amp;UsePadding=1" ph="DemoComponentPanelIsRenderedVertically.Content" uid="{B6C4CE35-3892-4D29-BB64-16C76FCCC83A}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=TextIsRenderedVerticallyTrueColumns1&amp;Text=True+-+1+column&amp;TextSize=X-Large" ph="BorderIsRenderedVerticallyTrueColumns1.Content" uid="{E998D136-5979-4E74-BDA8-489A58AFC6A9}" />
+    <r id="{0A9B03F3-287C-42C5-94E0-C28F87B2597B}" par="IsRenderedVertically=1&amp;Id=RadioButtonListIsRenderedVerticallyTrueColumns1&amp;StaticData=%7b11111111-1111-1111-1111-111111111111%7d&amp;Columns=1" ph="DemoComponentPanelIsRenderedVertically.Content" uid="{AA6300EC-98F4-475F-A6BF-F20C72269C62}" />
+    <r id="{E250DEA9-B3A6-4BFA-AF96-E8278150DA31}" par="Id=Separator7" ph="DemoComponentPanelIsRenderedVertically.Content" uid="{980A09DC-64C4-4080-9F5B-42D01D103E32}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=BorderIsRenderedVerticallyTrueColumns2&amp;PaddingType=Bottom&amp;UsePadding=1" ph="DemoComponentPanelIsRenderedVertically.Content" uid="{2D113160-F0A2-495E-91C0-CBB758567452}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=TextIsRenderedVerticallyTrueColumns2&amp;Text=True+-+2+columns&amp;TextSize=X-Large" ph="BorderIsRenderedVerticallyTrueColumns2.Content" uid="{A6D181DB-436D-461D-BD2A-7E506D090988}" />
+    <r id="{0A9B03F3-287C-42C5-94E0-C28F87B2597B}" par="IsRenderedVertically=1&amp;Id=RadioButtonListIsRenderedVerticallyTrueColumns2&amp;StaticData=%7b11111111-1111-1111-1111-111111111111%7d&amp;Columns=2" ph="DemoComponentPanelIsRenderedVertically.Content" uid="{CC845DB7-7113-4CB6-9B6C-BB6F3638B7AA}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=VerticalColumns&amp;ConfigurationDetails=IsRenderedVertically%3dTrue%26Columns%3d5%26StaticData%3d%7b11111111-1111-1111-1111-111111111111%7d&amp;Description=This+example+shows+a+specific+behavior+of+the+control+when+it+renders+vertically.+The+number+of+columns+is+specified+as+5%2c+and+there+are+8+radio+buttons.++This+means+that+the+control+needs+2+rows+to+shows+all+radio+buttons.+The+control+fills+the+first+column+with+2+radio+buttons+before+filling+the+second+column%2c+and+so+forth.+Therefore%2c+it+runs+out+of+radio+buttons+for+the+fifth+column.&amp;Title=Vertical+rendering+and+columns" uid="{D93F1513-B569-4E1E-9E01-8A9AC0E3769A}" />
+    <r id="{0A9B03F3-287C-42C5-94E0-C28F87B2597B}" par="IsRenderedVertically=1&amp;Id=RadioButtonList2&amp;StaticData=%7b11111111-1111-1111-1111-111111111111%7d&amp;Columns=5" ph="VerticalColumns.Content" uid="{4921C9F3-56B1-4732-8080-C1E8D48A8D6D}" />
+  </d>
+</r>
+----version----
+language: de-DE
+version: 1
+revision: 0ffe41bc-8b38-4065-8e96-2b1339ea5b65
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 4
+
+Demo
+----field----
+field: {772AEA8A-4D70-43F4-BD6B-EDE5FB060623}
+name: Tooltip
+key: tooltip
+content-length: 4
+
+Demo
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 4
+
+Demo
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133508Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+0ffe41bc-8b38-4065-8e96-2b1339ea5b65
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133508Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 08b26891-56c8-4666-bee3-f6b10543fd9f
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 4
+
+Demo
+----field----
+field: {772AEA8A-4D70-43F4-BD6B-EDE5FB060623}
+name: Tooltip
+key: tooltip
+content-length: 4
+
+Demo
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151009T110302Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+08b26891-56c8-4666-bee3-f6b10543fd9f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160406T113215Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: d0fc1ab5-2ae3-4083-bc55-21fc26930872
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 2
+
+デモ
+----field----
+field: {772AEA8A-4D70-43F4-BD6B-EDE5FB060623}
+name: Tooltip
+key: tooltip
+content-length: 2
+
+デモ
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 2
+
+デモ
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133636Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d0fc1ab5-2ae3-4083-bc55-21fc26930872
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133636Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

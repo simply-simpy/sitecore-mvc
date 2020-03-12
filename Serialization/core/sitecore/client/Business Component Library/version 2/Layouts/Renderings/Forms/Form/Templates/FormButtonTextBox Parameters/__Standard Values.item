@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {71D7A722-7D39-4AE6-8A76-F8967F9F4145}
+database: core
+path: /sitecore/client/Business Component Library/version 2/Layouts/Renderings/Forms/Form/Templates/FormButtonTextBox Parameters/__Standard Values
+parent: {70DD47CF-7D1E-4C82-B064-2E5CFB396788}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {70DD47CF-7D1E-4C82-B064-2E5CFB396788}
+templatekey: FormButtonTextBox Parameters
+created: 20160729T132117Z
+
+----field----
+field: {3E079FC3-6B2D-41C9-9204-374A786FC761}
+name: BindingConfiguration
+key: bindingconfiguration
+content-length: 16
+
+%7bName%7d=Value
+----field----
+field: {C5217339-80D0-4725-9340-574EED8E9082}
+name: RenderingItemId
+key: renderingitemid
+content-length: 38
+
+{50E8FC46-422F-4B03-BC96-E0B9DCEA51E7}
+----version----
+language: en
+version: 1
+revision: 03144316-b3a6-4d79-aace-4c58eea032da
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150707T132219Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+03144316-b3a6-4d79-aace-4c58eea032da
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20151109T132531Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

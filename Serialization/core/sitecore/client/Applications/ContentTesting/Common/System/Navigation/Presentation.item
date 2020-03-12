@@ -1,0 +1,244 @@
+----item----
+version: 1
+id: {54A70EF2-85B7-47E3-B762-EA62C8F75409}
+database: core
+path: /sitecore/client/Applications/ContentTesting/Common/System/Navigation/Presentation
+parent: {F5E06937-F82C-4F44-AE47-52A0BAD3AFD4}
+name: Presentation
+master: {00000000-0000-0000-0000-000000000000}
+template: {F0CA5A06-4F51-4EDC-88C4-555504F0831F}
+templatekey: Section
+created: 20160729T132117Z
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+200
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 1109
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+    <r ds="{772B4882-645A-40FD-9B73-32C660AAB30C}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=CreateSectionTitle" uid="{204E5A49-C379-491E-B596-34B5CF67A750}" />
+    <r ds="{AC90214A-5B9B-4BD5-83EC-930985F736EA}" id="{DDF19992-89DB-4F29-82EC-F16A8C8D15B9}" par="Id=CreateNavigationGroup" uid="{8A2FB633-0B66-4E95-BE9B-8CC05B29B818}" />
+    <r ds="{84D11C01-2ABA-4690-ABA0-647558585439}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=ListsSectionTitle" uid="{B6BB7B3E-BED5-4415-968B-729147927E53}" />
+    <r ds="{B94A9769-8ED8-4EA9-9CB6-A7A6CCF0394B}" id="{DDF19992-89DB-4F29-82EC-F16A8C8D15B9}" par="Id=ListsNavigationGroup" uid="{DB12EEE7-AE4F-4480-875A-3442602B15A6}" />
+    <r ds="{7DB722F3-2480-4A4D-891E-FE7FADB7D621}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=ReportsSectionTitle" uid="{00F46EB4-F4DC-403E-BE20-B9FD70AB2BB1}" />
+    <r ds="{6FF00E10-571D-4440-BCB8-F7E736FE89D8}" id="{DDF19992-89DB-4F29-82EC-F16A8C8D15B9}" par="Id=ReportsNavigationGroup" uid="{DB12EEE7-AE4F-4480-875A-3442602B15A6}" />
+  </d>
+</r>
+----version----
+language: da
+version: 1
+revision: 3abe22ce-08fa-44ea-9051-37951a5a7128
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 12
+
+Præsentation
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133328Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3abe22ce-08fa-44ea-9051-37951a5a7128
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133328Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 4854f977-974f-461d-82d8-51e5b7a4fecf
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 12
+
+Präsentation
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133455Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4854f977-974f-461d-82d8-51e5b7a4fecf
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133455Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 4922450d-e6ce-463c-bd58-8cb87edfe46a
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140611T142313
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4922450d-e6ce-463c-bd58-8cb87edfe46a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140612T110157:635381677179044953
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: ea03177b-b535-436f-a136-21fb46480021
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 9
+
+プレゼンテーション
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133621Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ea03177b-b535-436f-a136-21fb46480021
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133621Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

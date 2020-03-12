@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {49310880-1E68-4C27-9F2C-43B91DDFE562}
+database: core
+path: /sitecore/client/Speak/Templates/Pages/Speak-TaskPage/__Standard Values
+parent: {C63C943A-CB4D-45D6-880C-208BD29DAE1A}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {C63C943A-CB4D-45D6-880C-208BD29DAE1A}
+templatekey: Speak-TaskPage
+created: 20160729T132117Z
+
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 38
+
+{E35EAA2D-EDEA-431C-A9E6-488272B53782}
+----version----
+language: en
+version: 1
+revision: f64252a6-e4ef-44b8-91e8-8dbb4ae10352
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130117T114919
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f64252a6-e4ef-44b8-91e8-8dbb4ae10352
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20130131T104303:634952257835234411
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

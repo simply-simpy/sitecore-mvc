@@ -1,0 +1,277 @@
+----item----
+version: 1
+id: {715CC24E-7AA8-46A2-B587-8C5D2AD9B400}
+database: core
+path: /sitecore/client/Applications/List Manager/Taskpages/Contact list/PageSettings/Contacts Accordion/Contacts ActionControl Parameters/Contacts ActionColumn/Contacts ActionGroup/Remove all contacts
+parent: {E92EE9C5-D007-4FD9-85D7-49B3CE5101EB}
+name: Remove all contacts
+master: {00000000-0000-0000-0000-000000000000}
+template: {5EE9A69B-BC29-452E-B2D0-AD421A04E7BF}
+templatekey: Action
+created: 20160729T132118Z
+
+----field----
+field: {549DA08F-8B0E-4A2F-9F1F-B35C474FE2A0}
+name: ImageUrl
+key: imageurl
+content-length: 31
+
+~/icon/Office/16x16/id_card.png
+----field----
+field: {377BCA4B-8687-4A89-B0D7-CC56765AD81B}
+name: Click
+key: click
+content-length: 70
+
+trigger:remove:contacts({"actionsDataSource":"ListActionsDataSource"})
+----version----
+language: da
+version: 1
+revision: 528643d9-2bb0-40cd-a6a2-033a7931e6ad
+
+----field----
+field: {443C0046-CEB9-432A-9DB0-CBC11787C786}
+name: Title
+key: title
+content-length: 20
+
+Fjern alle kontakter
+----field----
+field: {9384139B-2F73-4F0F-8650-0C7A1D4C6DDC}
+name: Tooltip
+key: tooltip
+content-length: 21
+
+Fjern alle kontakter.
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 20
+
+Fjern alle kontakter
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133332Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+528643d9-2bb0-40cd-a6a2-033a7931e6ad
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133332Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 1f90df07-5b3b-4790-a9d4-45571cc2f782
+
+----field----
+field: {443C0046-CEB9-432A-9DB0-CBC11787C786}
+name: Title
+key: title
+content-length: 23
+
+Alle Kontakte entfernen
+----field----
+field: {9384139B-2F73-4F0F-8650-0C7A1D4C6DDC}
+name: Tooltip
+key: tooltip
+content-length: 24
+
+Alle Kontakte entfernen.
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 23
+
+Alle Kontakte entfernen
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133500Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+1f90df07-5b3b-4790-a9d4-45571cc2f782
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133500Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: b68edac9-3e23-4fe7-955e-10cb740bdeaf
+
+----field----
+field: {443C0046-CEB9-432A-9DB0-CBC11787C786}
+name: Title
+key: title
+content-length: 19
+
+Remove all contacts
+----field----
+field: {9384139B-2F73-4F0F-8650-0C7A1D4C6DDC}
+name: Tooltip
+key: tooltip
+content-length: 20
+
+Remove all contacts.
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140519T153817
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b68edac9-3e23-4fe7-955e-10cb740bdeaf
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20140812T133506:635434473060670080Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: fad75805-ed9e-4958-bc68-aa6a63ac7198
+
+----field----
+field: {443C0046-CEB9-432A-9DB0-CBC11787C786}
+name: Title
+key: title
+content-length: 12
+
+すべてのコンタクトを削除
+----field----
+field: {9384139B-2F73-4F0F-8650-0C7A1D4C6DDC}
+name: Tooltip
+key: tooltip
+content-length: 12
+
+すべてのコンタクトを削除
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 12
+
+すべてのコンタクトを削除
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133628Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+fad75805-ed9e-4958-bc68-aa6a63ac7198
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133628Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

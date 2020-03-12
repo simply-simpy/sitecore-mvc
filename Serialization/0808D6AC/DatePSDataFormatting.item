@@ -1,0 +1,216 @@
+----item----
+version: 1
+id: {DE023240-6813-4D1D-8ED7-60304FC595E8}
+database: core
+path: /sitecore/client/Business Component Library/version 2/Content/Guidance/Renderings/Charts/AreaChart/PageSettings/Tabs/Demo/SubDemo/DataFormatting/DatePSDataFormatting
+parent: {2C840897-9529-4405-A7AD-98C60A060961}
+name: DatePSDataFormatting
+master: {00000000-0000-0000-0000-000000000000}
+template: {3AB8B960-59F7-46DE-933C-9E34F2D843D4}
+templatekey: DateDataFormatting
+created: 20160729T132116Z
+
+----version----
+language: de-DE
+version: 1
+revision: 758e5b94-9a75-464e-978e-b426ed6260c8
+
+----field----
+field: {05AEB584-5FD2-471C-8EAE-B66B02AB9C0E}
+name: Prefix
+key: prefix
+content-length: 3
+
+P -
+----field----
+field: {DF32DCAB-10C1-4CE9-B73F-07AFC62332CB}
+name: Suffix
+key: suffix
+content-length: 3
+
+- S
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 24
+
+DatumPSDatenformatierung
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133522Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+758e5b94-9a75-464e-978e-b426ed6260c8
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133522Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 112fd220-9f4d-44c0-b3c3-9ab84e307804
+
+----field----
+field: {A9EB6221-D350-4E3B-9A95-335C77B41C94}
+name: FormatPreset
+key: formatpreset
+content-length: 38
+
+{C099F48A-8136-4191-8315-4DBA22F2F0F3}
+----field----
+field: {05AEB584-5FD2-471C-8EAE-B66B02AB9C0E}
+name: Prefix
+key: prefix
+content-length: 4
+
+P - 
+----field----
+field: {DF32DCAB-10C1-4CE9-B73F-07AFC62332CB}
+name: Suffix
+key: suffix
+content-length: 4
+
+ - S
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160111T123719Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+112fd220-9f4d-44c0-b3c3-9ab84e307804
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160126T164135Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: ec1103b7-35cc-45ee-8129-36e10a1d9913
+
+----field----
+field: {05AEB584-5FD2-471C-8EAE-B66B02AB9C0E}
+name: Prefix
+key: prefix
+content-length: 3
+
+P -
+----field----
+field: {DF32DCAB-10C1-4CE9-B73F-07AFC62332CB}
+name: Suffix
+key: suffix
+content-length: 3
+
+- S
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 19
+
+日付 PS データ フォーマッティング
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133651Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ec1103b7-35cc-45ee-8129-36e10a1d9913
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133651Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,300 @@
+----item----
+version: 1
+id: {B0B23CC4-A741-4977-83CB-56516C2B6E00}
+database: core
+path: /sitecore/client/Business Component Library/version 2/Content/Guidance/Renderings/Containers/Border/PageSettings/Tabs/Demo
+parent: {507C0148-F7C8-4CBB-9F29-8BEB0057BDF5}
+name: Demo
+master: {00000000-0000-0000-0000-000000000000}
+template: {8A7ACB1A-0990-4C9E-A6F0-9612D0F5F51C}
+templatekey: Tab
+created: 20160729T132116Z
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 4
+
+-100
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 10434
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{759BEFD1-3323-404D-A243-E0ED81163C03}">
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanel1&amp;Description=The+ContentHorizontalAlignment+property+influences+the+position+of+the+components+inside+the+Border+control.&amp;Title=Aligning+content" uid="{E85A3ADA-83F4-4588-8574-0C9C7A898ECD}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=LayoutBorder1&amp;PaddingType=All&amp;UsePadding=1" ph="DemoComponentPanel1.Content" uid="{13A5343C-3C9F-4FE7-B1FE-77A99F192856}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border1&amp;ShowBorder=1&amp;ContentHorizontalAlignment=Left" ph="LayoutBorder1.Content" uid="{1D796837-9555-4B09-A971-5A4AA3274D21}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=Text1&amp;Text=default+(Left)" ph="Border1.Content" uid="{BC0B7801-5209-40FA-B810-63789F14449D}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=SpacingBorder1&amp;UsePadding=1" ph="LayoutBorder1.Content" uid="{3CBD5BC7-D00C-4862-9915-6DE365263493}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border2&amp;ShowBorder=1&amp;ContentHorizontalAlignment=Center" ph="LayoutBorder1.Content" uid="{81A053D1-FFEF-4EC4-841A-87642901E881}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=Text2&amp;Text=Center" ph="Border2.Content" uid="{0FDD99DF-7B57-490E-9857-9490CE48B5C2}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=SpacingBorder2&amp;UsePadding=1" ph="LayoutBorder1.Content" uid="{3CBD5BC7-D00C-4862-9915-6DE365263493}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border3&amp;ShowBorder=1&amp;ContentHorizontalAlignment=Right" ph="LayoutBorder1.Content" uid="{81A053D1-FFEF-4EC4-841A-87642901E881}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=Text3&amp;Text=Right" ph="Border3.Content" uid="{0FDD99DF-7B57-490E-9857-9490CE48B5C2}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanel2&amp;ConfigurationDetails=UsePadding%3dTrue&amp;Description=The+PaddingType+property+influences+which+edges+include+extra+space+around+contained+components.+It+works+together+with+the+UsePadding+property.&amp;Title=Specifying+padding" uid="{E85A3ADA-83F4-4588-8574-0C9C7A898ECD}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=LayoutBorder2&amp;PaddingType=All&amp;UsePadding=1" ph="DemoComponentPanel2.Content" uid="{13A5343C-3C9F-4FE7-B1FE-77A99F192856}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=Text4&amp;Text=PaddingType%3dAll+(default)" ph="LayoutBorder2.Content" uid="{0C91E766-BF97-4024-9CC9-0193A045A746}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border4&amp;ShowBorder=1&amp;IsVisible=1&amp;PaddingType=All&amp;UsePadding=1" ph="LayoutBorder2.Content" uid="{AC6AC549-B5C8-4C4C-9431-83CEA7B302D0}" />
+    <r id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" par="Id=Button1&amp;ButtonType=Inverse&amp;Text=Lorem+ipsum&amp;IsFullWidth=1" ph="Border4.Content" uid="{6372F417-219E-4201-AF03-79177498EC11}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=LayoutBorder3&amp;PaddingType=All&amp;UsePadding=1" ph="DemoComponentPanel2.Content" uid="{13A5343C-3C9F-4FE7-B1FE-77A99F192856}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=Text5&amp;Text=PaddingType%3dTop" ph="LayoutBorder3.Content" uid="{0C91E766-BF97-4024-9CC9-0193A045A746}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border5&amp;ShowBorder=1&amp;IsVisible=1&amp;PaddingType=Top&amp;UsePadding=1" ph="LayoutBorder3.Content" uid="{AC6AC549-B5C8-4C4C-9431-83CEA7B302D0}" />
+    <r id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" par="Id=Button3&amp;ButtonType=Inverse&amp;Text=Lorem+ipsum&amp;IsFullWidth=1" ph="Border5.Content" uid="{6372F417-219E-4201-AF03-79177498EC11}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=LayoutBorder4&amp;PaddingType=All&amp;UsePadding=1" ph="DemoComponentPanel2.Content" uid="{13A5343C-3C9F-4FE7-B1FE-77A99F192856}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=Text6&amp;Text=PaddingType%3dRight" ph="LayoutBorder4.Content" uid="{0C91E766-BF97-4024-9CC9-0193A045A746}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border6&amp;ShowBorder=1&amp;IsVisible=1&amp;PaddingType=Right&amp;UsePadding=1" ph="LayoutBorder4.Content" uid="{AC6AC549-B5C8-4C4C-9431-83CEA7B302D0}" />
+    <r id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" par="Id=Button2&amp;ButtonType=Inverse&amp;Text=Lorem+ipsum&amp;IsFullWidth=1" ph="Border6.Content" uid="{6372F417-219E-4201-AF03-79177498EC11}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=LayoutBorder5&amp;PaddingType=All&amp;UsePadding=1" ph="DemoComponentPanel2.Content" uid="{13A5343C-3C9F-4FE7-B1FE-77A99F192856}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=Text7&amp;Text=PaddingType%3dBottom" ph="LayoutBorder5.Content" uid="{0C91E766-BF97-4024-9CC9-0193A045A746}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border7&amp;ShowBorder=1&amp;IsVisible=1&amp;PaddingType=Bottom&amp;UsePadding=1" ph="LayoutBorder5.Content" uid="{AC6AC549-B5C8-4C4C-9431-83CEA7B302D0}" />
+    <r id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" par="Id=Button5&amp;ButtonType=Inverse&amp;Text=Lorem+ipsum&amp;IsFullWidth=1" ph="Border7.Content" uid="{6372F417-219E-4201-AF03-79177498EC11}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=LayoutBorder6&amp;PaddingType=All&amp;UsePadding=1" ph="DemoComponentPanel2.Content" uid="{13A5343C-3C9F-4FE7-B1FE-77A99F192856}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=Text8&amp;Text=PaddingType%3dLeft" ph="LayoutBorder6.Content" uid="{0C91E766-BF97-4024-9CC9-0193A045A746}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border8&amp;ShowBorder=1&amp;IsVisible=1&amp;PaddingType=Left&amp;UsePadding=1" ph="LayoutBorder6.Content" uid="{AC6AC549-B5C8-4C4C-9431-83CEA7B302D0}" />
+    <r id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" par="Id=Button4&amp;ButtonType=Inverse&amp;Text=Lorem+ipsum&amp;IsFullWidth=1" ph="Border8.Content" uid="{6372F417-219E-4201-AF03-79177498EC11}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=LayoutBorder7&amp;PaddingType=All&amp;UsePadding=1" ph="DemoComponentPanel2.Content" uid="{13A5343C-3C9F-4FE7-B1FE-77A99F192856}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=Text9&amp;Text=PaddingType%3dLeftBottom" ph="LayoutBorder7.Content" uid="{0C91E766-BF97-4024-9CC9-0193A045A746}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border9&amp;ShowBorder=1&amp;IsVisible=1&amp;PaddingType=LeftBottom&amp;UsePadding=1" ph="LayoutBorder7.Content" uid="{AC6AC549-B5C8-4C4C-9431-83CEA7B302D0}" />
+    <r id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" par="Id=Button6&amp;ButtonType=Inverse&amp;Text=Lorem+ipsum&amp;IsFullWidth=1" ph="Border9.Content" uid="{6372F417-219E-4201-AF03-79177498EC11}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanel3&amp;ConfigurationDetails=ShowBorder%3dTrue&amp;Description=The+ShowBorder+property+controls+the+visibility+of+the+edges+of+the+control.&amp;Title=Showing+the+edges+of+the+control" uid="{E85A3ADA-83F4-4588-8574-0C9C7A898ECD}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=LayoutBorder8&amp;UsePadding=1" ph="DemoComponentPanel3.Content" uid="{58059D01-6C85-4BBC-85B8-B07FCC136C0C}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border10&amp;ShowBorder=1" ph="LayoutBorder8.Content" uid="{4D981437-DF51-4A1F-964F-9FBBB8FA1C14}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=SpacingBorder11&amp;PaddingType=Top&amp;UsePadding=1" ph="Border10.Content" uid="{82DBF749-1ABB-4979-832A-6F4528EF8EBA}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanel4&amp;ConfigurationDetails=UsePadding%3dTrue&amp;Description=The+UsePadding+property+influences+whether+the+control+places+extra+space+around+components.+It+works+together+with+the+PaddingType+property.&amp;Title=Adding+padding" uid="{E85A3ADA-83F4-4588-8574-0C9C7A898ECD}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=LayoutBorder9&amp;UsePadding=1" ph="DemoComponentPanel4.Content" uid="{58059D01-6C85-4BBC-85B8-B07FCC136C0C}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border11&amp;ShowBorder=1&amp;UsePadding=1" ph="LayoutBorder9.Content" uid="{4D981437-DF51-4A1F-964F-9FBBB8FA1C14}" />
+    <r id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" par="Id=Button7&amp;ButtonType=Inverse&amp;Text=Lorem+ipsum&amp;IsFullWidth=1" ph="Border11.Content" uid="{6372F417-219E-4201-AF03-79177498EC11}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanel5&amp;ConfigurationDetails=BorderSecurity.RequiresRead%3dtrue%26BorderSecurity.RequiresWrite%3dtrue%26BorderSecurity.ConfigurationItem%3d%7bD6B18277-FEEC-4640-84CA-7C9225FC69D0%7d&amp;Description=The+ConfigurationItem+property+points+to+an+item+that+the+control+uses+to+restrict+access+to+the+content+it+contains.+If+the+RequiresRead+property+is+True%2c+a+user+must+have+read+access+to+the+configuration+item+to+read+the+content.+If+the+RequiresWrite+property+is+True%2c+a+user+must+have+wrote+access+to+the+configuration+item+to+write+in+the+content.+Use+the+Sitecore+Security+Editor+to+set+the+permissions+for+the+configuration+item.&amp;Title=Specifying+permissions+for+seeing+content" uid="{5839DC67-7C5D-4FA7-B837-3461F1AF1DCF}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=BorderNoSecurity&amp;PaddingType=Bottom&amp;UsePadding=1" ph="DemoComponentPanel5.Content" uid="{FF54641E-0C47-4B3D-ABB8-8850385A6CD3}" />
+    <r id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" par="Id=Button8&amp;Text=Visible+for+everyone" ph="BorderNoSecurity.Content" uid="{FC8D7DE8-1657-4EFB-804F-B5032E7B38B5}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="ConfigurationItem=%7bD6B18277-FEEC-4640-84CA-7C9225FC69D0%7d&amp;Id=BorderSecurity&amp;RequiresWrite=1&amp;RequiresRead=1" ph="DemoComponentPanel5.Content" uid="{32D6F9B3-2E89-4A4B-86A5-96232BF47893}" />
+    <r id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" par="Id=Button&amp;ButtonType=Primary&amp;Text=Visible+only+for+admins+and+developers" ph="BorderSecurity.Content" uid="{01AC029D-C74B-4C1C-A41C-0C3025960FD7}" />
+  </d>
+</r>
+----version----
+language: da
+version: 1
+revision: bbe46bc0-e3d3-4657-b574-ac07647d6c4c
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 4
+
+Demo
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 4
+
+Demo
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133342Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+bbe46bc0-e3d3-4657-b574-ac07647d6c4c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133342Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: d2c94d42-35f3-468c-b647-5e61668ed4cc
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 4
+
+Demo
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 4
+
+Demo
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133513Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d2c94d42-35f3-468c-b647-5e61668ed4cc
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133513Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: bea22c6e-351d-4289-9b92-c8869647bf11
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 4
+
+Demo
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150406T063729Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+bea22c6e-351d-4289-9b92-c8869647bf11
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160405T105310Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: c17d2caf-e005-48fb-b078-f31900b3152a
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 2
+
+デモ
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 2
+
+デモ
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133641Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c17d2caf-e005-48fb-b078-f31900b3152a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133641Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,257 @@
+----item----
+version: 1
+id: {117BEC16-8C28-40AE-9671-A2FD44C55A14}
+database: core
+path: /sitecore/client/Applications/CampaignManager/Dialogs/YesNoCancelDialog
+parent: {33602209-4C10-4200-95F9-97FE77CB6340}
+name: YesNoCancelDialog
+master: {00000000-0000-0000-0000-000000000000}
+template: {8152CF09-9DD0-40C0-B806-6E91FDF389BC}
+templatekey: Speak-DialogPage
+created: 20160729T132117Z
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 2442
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{4F72A793-BDBC-4262-9523-6AADD8FEA487}">
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=Border" uid="{02B5B8A4-3ED7-441E-9040-7D64073E0DBE}" />
+    <r ds="{9701CE0E-B0C7-4622-B170-098A630C70F7}" id="{B60FB581-44D1-4372-86A2-D6E494F020E1}" par="Id=LeavePageDialog" ph="Border.Content" uid="{7E64B348-DAF8-474D-A7C5-C4DEF2CFE610}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=LeavePageDialogBorder&amp;ContentAlignment=Center" ph="LeavePageDialog.Content" uid="{82D9746C-B044-47DA-96C4-7B0CF82E169D}" />
+    <r id="{C4393722-39FA-4869-9582-3A8EB8983A0D}" par="Id=LeavePageDialogRow" ph="LeavePageDialogBorder.Content" uid="{3C89B67A-6F0E-4C5D-B125-8250D62EC9FD}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=LeavePageDialogImageColumn&amp;GridColumns=2" ph="LeavePageDialogRow.Content" uid="{EADA3586-A2B9-48E7-9CE3-6F56E4FA1251}" />
+    <r id="{F517C5E4-9A53-46C3-B922-5B44E6DAAA48}" par="Id=LeavePageDialogImage&amp;ImageUrl=%2fsitecore%2fshell%2fthemes%2fstandard%2fImages%2fwarning.png" ph="LeavePageDialogImageColumn.Content" uid="{AB91F238-9EED-4166-9998-77B620719DF6}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=LeavePageDialogTextColumn&amp;GridColumns=8" ph="LeavePageDialogRow.Content" uid="{02C2B6EA-1285-4F0B-8C96-F5DC5B21BC80}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=LeavePageDialogTextColumnBorder&amp;PaddingType=Top&amp;UsePadding=1" ph="LeavePageDialogTextColumn.Content" uid="{066F7ADB-F02F-4C88-A394-84C2ACA0784A}" />
+    <r ds="{B231ED6F-D3AF-452C-BAFD-38B417495424}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=LeavePageDialogText" ph="LeavePageDialogTextColumnBorder.Content" uid="{A2A89BE1-763A-4F15-97C4-554A3A7B1AEB}" />
+    <r ds="{062D96AC-5408-4709-B357-E08F89A4510D}" id="{913AB005-2527-4C2D-9827-FB3A8DFB135C}" par="Id=LeavePageDialogYesButton" ph="LeavePageDialog.Buttons" uid="{AAAECC17-7C82-4C00-8493-99CB1C9DE6EC}" />
+    <r ds="{7BB60F30-022F-41B4-B49E-4808F3C9ABEA}" id="{913AB005-2527-4C2D-9827-FB3A8DFB135C}" par="Id=LeavePageDialogNoButton" ph="LeavePageDialog.Buttons" uid="{AAAECC17-7C82-4C00-8493-99CB1C9DE6EC}" />
+    <r ds="{0064A0B3-0352-46A2-8E70-821D23557A43}" id="{913AB005-2527-4C2D-9827-FB3A8DFB135C}" par="Id=LeavePageDialogCancelButton" ph="LeavePageDialog.Buttons" uid="{54315D25-6ED3-4A10-A54B-53867EF1B741}" />
+  </d>
+</r>
+----version----
+language: da
+version: 1
+revision: 6fefd01a-437e-468f-8ab7-baece8541706
+
+----field----
+field: {7205A57F-93B4-413A-AA9A-6B16BBC59565}
+name: BrowserTitle
+key: browsertitle
+content-length: 20
+
+OkAnnullerDialogboks
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 23
+
+JaNejAnnullerDialogboks
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133317Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+6fefd01a-437e-468f-8ab7-baece8541706
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133317Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 210d9b46-ddbf-4a23-b3c1-18a910864c60
+
+----field----
+field: {7205A57F-93B4-413A-AA9A-6B16BBC59565}
+name: BrowserTitle
+key: browsertitle
+content-length: 17
+
+OKAbbrechenDialog
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 21
+
+JaNeinAbbrechenDialog
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133442Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+210d9b46-ddbf-4a23-b3c1-18a910864c60
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133442Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 3cac7dbb-dc69-4d18-ae63-5c22ae4f1afa
+
+----field----
+field: {7205A57F-93B4-413A-AA9A-6B16BBC59565}
+name: BrowserTitle
+key: browsertitle
+content-length: 14
+
+OkCancelDialog
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150320T153757Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3cac7dbb-dc69-4d18-ae63-5c22ae4f1afa
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150324T154859:635628089392935790Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: f3fe0f8d-348d-4986-8c99-6a9d467f25e0
+
+----field----
+field: {7205A57F-93B4-413A-AA9A-6B16BBC59565}
+name: BrowserTitle
+key: browsertitle
+content-length: 14
+
+OK キャンセル ダイアログ
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 18
+
+はい いいえ キャンセル ダイアログ
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133609Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f3fe0f8d-348d-4986-8c99-6a9d467f25e0
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133609Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

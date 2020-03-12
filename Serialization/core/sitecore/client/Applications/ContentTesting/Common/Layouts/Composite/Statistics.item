@@ -1,0 +1,238 @@
+----item----
+version: 1
+id: {3ACC9727-FDBF-4F6F-9947-8C0B5375DF0B}
+database: core
+path: /sitecore/client/Applications/ContentTesting/Common/Layouts/Composite/Statistics
+parent: {F9D4F466-9353-448B-9AFE-96339C328864}
+name: Statistics
+master: {00000000-0000-0000-0000-000000000000}
+template: {F62B4CD7-754C-4461-810F-2B6BD2C92A0D}
+templatekey: Tab
+created: 20160729T132117Z
+
+----field----
+field: {DEAB3795-056F-4421-ADF0-758844461B72}
+name: Placeholder Name
+key: placeholder name
+content-length: 10
+
+Statistics
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 3046
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+    <r id="{8BE75D0B-EA4E-4FEE-976C-A5CCB5BE5011}" par="Settings=ContentTesting.DefaultConfidenceLevel&amp;Id=StatisticsSettingsDictionary" uid="{11B6C858-B486-4C5B-964F-771B69131EEC}" />
+    <r ds="{00BC1CD6-2849-42B1-9B5C-F5F50EAC0961}" id="{D97873D4-FA6F-4E14-86E3-5E189F72C60D}" par="Id=StatisticsProtection&amp;UsePadding=0&amp;RequiresRead=1" uid="{418101CB-1F3A-4203-B2FD-5BD4AB0083E1}" />
+    <r id="{094F4B1E-4FB9-43CC-AA34-88016DF56974}" par="Id=ConfidenceOptionsDataSource&amp;RootItem=%7b3DEBBC30-189C-495B-A5CF-458461F4731C%7d&amp;Query=*&amp;Database=core" ph="StatisticsProtection.Content" uid="{69492908-D438-452D-95DB-D3143DBEA8BE}" />
+    <r ds="{5181CB1D-3086-4F08-9187-EFACB10A4A9C}" id="{442BD093-FBAD-4E36-BC08-489E16C82D08}" par="Id=StatisticsAccordion" ph="StatisticsProtection.Content" uid="{69E10CD2-17F3-4FD6-9916-0AAFBEE15FFA}" />
+    <r id="{26B2B002-BCA0-4968-99E4-01573338B6A9}" par="ShowArrow=False&amp;Id=StatisticsHelpIconButton&amp;ImageUrl=%2fsitecore%2fshell%2fclient%2fApplications%2fContentTesting%2fAssets%2fquestion.png" ph="StatisticsAccordion.ActionBar" uid="{4219F631-D22B-40AF-9995-BF8C4F802351}" />
+    <r ds="{4169FAAB-8576-4C64-8041-537B5D0B9934}" id="{4C6DB54A-0DED-493A-BCBA-3149BF929497}" par="Id=StatisticsHelpToolTip&amp;Trigger=Hover&amp;TargetControl=StatisticsHelpIconButton" uid="{D57C4B63-D0C4-479A-9866-53F969D743CA}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=StatisticsContentBorder&amp;UsePadding=1" ph="StatisticsAccordion.Body" uid="{3D2F4FE4-ABC6-46F6-8373-0060FC1607C1}" />
+    <r id="{C4393722-39FA-4869-9582-3A8EB8983A0D}" par="UsePadding=True&amp;Id=ConfidenceRow" ph="StatisticsContentBorder.Content" uid="{CAE27D89-4BDA-4352-9890-E8D520BC7D8E}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=ConfidenceLabelPanel&amp;GridColumns=2&amp;ContentAlign=Left" ph="ConfidenceRow.Content" uid="{E3ECE0C0-06D0-45B9-A19E-772A1835DE8A}" />
+    <r ds="{3F525F7C-1702-481E-A323-F03443FDC35D}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=ConfidenceLabel" ph="ConfidenceLabelPanel.Content" uid="{89C2CDE8-04E1-41DA-AA7F-A961D4C6AC1E}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=ConfidencePanel&amp;GridColumns=10&amp;ContentAlign=Left" ph="ConfidenceRow.Content" uid="{D915CC88-3D48-472E-AC98-3817B59C2421}" />
+    <r id="{8BECEF35-1374-4D25-8A1A-4CDCC4218AA9}" par="GroupName=rbGroupConfidence&amp;Id=rbConfidence90&amp;Value=90&amp;Text=90%25" ph="ConfidencePanel.Content" uid="{EF336206-6790-452A-86EB-E2E73056AD19}" />
+    <r id="{8BECEF35-1374-4D25-8A1A-4CDCC4218AA9}" par="GroupName=rbGroupConfidence&amp;Id=rbConfidence95&amp;Value=95&amp;Text=95%25" ph="ConfidencePanel.Content" uid="{6FFC6237-2EC5-4BB7-96C1-034D29054067}" />
+    <r id="{8BECEF35-1374-4D25-8A1A-4CDCC4218AA9}" par="GroupName=rbGroupConfidence&amp;Id=rbConfidence99&amp;Value=99&amp;Text=99%25" ph="ConfidencePanel.Content" uid="{7B788EB1-5A52-459F-9AF2-190B359707E3}" />
+  </d>
+</r>
+----version----
+language: da
+version: 1
+revision: af24af1c-884a-43b4-987e-33892950033a
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 12
+
+Statistikker
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133324Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+af24af1c-884a-43b4-987e-33892950033a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133324Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: cc4367be-4869-4bcb-b3a7-e964c53755e5
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 9
+
+Statistik
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133450Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+cc4367be-4869-4bcb-b3a7-e964c53755e5
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133450Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 76c5be2d-5770-4382-953c-e3c91288eb46
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140710T151843
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+76c5be2d-5770-4382-953c-e3c91288eb46
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150430T093341:635659832219075075Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 1df089da-cd6d-48e1-8fdf-9b5a96f8ba4e
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 2
+
+統計
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133616Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+1df089da-cd6d-48e1-8fdf-9b5a96f8ba4e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133616Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

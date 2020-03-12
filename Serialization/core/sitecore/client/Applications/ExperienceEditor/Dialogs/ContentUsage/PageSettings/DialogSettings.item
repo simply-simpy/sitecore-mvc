@@ -1,0 +1,195 @@
+----item----
+version: 1
+id: {9124B3A0-9B4F-43B0-BCAB-C74A3C3295B9}
+database: core
+path: /sitecore/client/Applications/ExperienceEditor/Dialogs/ContentUsage/PageSettings/DialogSettings
+parent: {C7D7667A-CFC2-492F-8AB6-E7535F81B137}
+name: DialogSettings
+master: {00000000-0000-0000-0000-000000000000}
+template: {9F320989-B73E-4FEB-AB25-AF33CB6E8D0E}
+templatekey: DialogMockupBase
+created: 20160729T132117Z
+
+----field----
+field: {876BF304-0AFD-4D10-A9DE-00D8B31AD762}
+name: Width
+key: width
+content-length: 3
+
+900
+----field----
+field: {A369C9A9-F144-437B-AD31-DE4702F6924F}
+name: Height
+key: height
+content-length: 3
+
+800
+----version----
+language: de-DE
+version: 1
+revision: 9b2d1208-dadf-4f48-a5fc-3ad6da1f56b3
+
+----field----
+field: {A54A4E90-ECBF-4504-844D-826159193A09}
+name: Header
+key: header
+content-length: 19
+
+Assoziierter Inhalt
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 19
+
+Dialogeinstellungen
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133507Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+9b2d1208-dadf-4f48-a5fc-3ad6da1f56b3
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133507Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: c4112834-3f0f-430e-bfa1-69fe57b23d12
+
+----field----
+field: {A54A4E90-ECBF-4504-844D-826159193A09}
+name: Header
+key: header
+content-length: 18
+
+Associated content
+----field----
+field: {9218CF98-A61A-4A70-82F4-0660E43A0902}
+name: Description
+key: description
+content-length: 0
+
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+00010101T000000
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c4112834-3f0f-430e-bfa1-69fe57b23d12
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160323T085512Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: a5325570-0d0a-4d31-b8fe-b08117aa179b
+
+----field----
+field: {A54A4E90-ECBF-4504-844D-826159193A09}
+name: Header
+key: header
+content-length: 9
+
+関連するコンテンツ
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 7
+
+ダイアログ設定
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133634Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a5325570-0d0a-4d31-b8fe-b08117aa179b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133634Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,221 @@
+----item----
+version: 1
+id: {F51393DE-213E-418B-962D-E28E49369BE9}
+database: core
+path: /sitecore/client/Business Component Library/version 2/Content/Guidance/Renderings/Containers/TabControl/PageSettings/Tabs/Styling
+parent: {5BED747A-A542-4BF1-804E-CA36D7092F44}
+name: Styling
+master: {00000000-0000-0000-0000-000000000000}
+template: {8A7ACB1A-0990-4C9E-A6F0-9612D0F5F51C}
+templatekey: Tab
+created: 20160729T132116Z
+
+----field----
+field: {3A98ADC3-530B-4281-880D-2D56DCC605AF}
+name: IsLazyLoaded
+key: islazyloaded
+content-length: 1
+
+1
+----field----
+field: {996C7854-EF88-4E8D-A7FC-DF71289C59DC}
+name: IsHidden
+key: ishidden
+content-length: 0
+
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 1364
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{759BEFD1-3323-404D-A243-E0ED81163C03}">
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanel1&amp;ConfigurationDetails=IconPadding+%3d+Left%7cRight%7cLeft+and+Right&amp;Description=The+Header+field+in+the+tab+items+specifies+the+text+for+the+labels.+This+text+can+contain+any+HTML+content%2c+including+glyphicons.+The+control+automatically+truncates+the+label+text+when+the+tab+if+not+wide+enough+for+the+content.+You+can+use+some+special+CSS+classes+when+you+have+glyphicons+in+the+content+to+make+sure+that+these+icons+are+always+visible.+The+sc-tab-icon+class+specifies+that+an+element+in+the+HTML+content+is+an+icon.+sc-tab-icon-left+and+sc-tab-icon-right+specify+that+the+icon+is+to+the+left+or+the+right+of+the+text+content.+The+IconPadding+field+specifies+that+the+control+adds+extra+padding+between+the+icon+and+the+text.+The+options+include+Left%2c+Right%2c+and+Land+and+Right.&amp;Title=Specifying+the+styling+of+the+labels" ph="Page.Body" uid="{A2E29C6D-1E3B-4D60-8724-C8B097E13A8B}" />
+    <r id="{7CE24006-7B34-4678-BC91-7675C6E2C9B9}" par="ConfigurationItem=%7bB779608E-70F2-4655-84A7-32075C55CB4F%7d&amp;Id=TabControl1&amp;DisplayFieldName=Header&amp;TabMinWidth=180px" ph="DemoComponentPanel1.Content" uid="{3F16FCC8-EA43-4220-A5F8-3500D90F0C47}" />
+  </d>
+</r>
+----version----
+language: de-DE
+version: 1
+revision: 8d564aa1-f50d-44e9-8c9d-64adf0c9981d
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 7
+
+Styling
+----field----
+field: {772AEA8A-4D70-43F4-BD6B-EDE5FB060623}
+name: Tooltip
+key: tooltip
+content-length: 7
+
+Styling
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 7
+
+Styling
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133527Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+8d564aa1-f50d-44e9-8c9d-64adf0c9981d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133527Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: bbfd467a-12ee-4c5d-9cf3-b3cfb99ffc3e
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 7
+
+Styling
+----field----
+field: {772AEA8A-4D70-43F4-BD6B-EDE5FB060623}
+name: Tooltip
+key: tooltip
+content-length: 7
+
+Styling
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150914T144557Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+bbfd467a-12ee-4c5d-9cf3-b3cfb99ffc3e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160411T115709Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 8017a671-eba1-467c-9826-8f20b05e3e04
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 6
+
+スタイリング
+----field----
+field: {772AEA8A-4D70-43F4-BD6B-EDE5FB060623}
+name: Tooltip
+key: tooltip
+content-length: 6
+
+スタイリング
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 6
+
+スタイリング
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133655Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+8017a671-eba1-467c-9826-8f20b05e3e04
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133655Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

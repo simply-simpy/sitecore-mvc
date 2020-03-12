@@ -1,0 +1,235 @@
+----item----
+version: 1
+id: {E1FBE034-0F90-4459-9815-22C0BCDBEC17}
+database: core
+path: /sitecore/client/Applications/ContentTesting/Pages/Rules/PageSettings/Texts/Reach - Visitors in the last 30 days
+parent: {A7AAC23F-4183-47B7-AEB1-9E21FD8994A4}
+name: Reach - Visitors in the last 30 days
+master: {00000000-0000-0000-0000-000000000000}
+template: {16494224-6913-4B34-98AC-8EB69DD0A334}
+templatekey: TextBox Parameters
+created: 20160729T132117Z
+
+----version----
+language: da
+version: 1
+revision: 950065d1-686a-4d87-b20a-f0ed5ba565b4
+
+----field----
+field: {B2ED3206-36D3-4F87-BA57-253AA89DD626}
+name: Text
+key: text
+content-length: 51
+
+Rækkevidde - besøgende inden for de seneste 30 dage
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 51
+
+Rækkevidde - besøgende inden for de seneste 30 dage
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133351Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+950065d1-686a-4d87-b20a-f0ed5ba565b4
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133351Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 2776fca5-458c-4732-bcf0-31394328635e
+
+----field----
+field: {B2ED3206-36D3-4F87-BA57-253AA89DD626}
+name: Text
+key: text
+content-length: 41
+
+Reichweite - Besucher der letzten 30 Tage
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 41
+
+Reichweite - Besucher der letzten 30 Tage
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133523Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+2776fca5-458c-4732-bcf0-31394328635e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133523Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 18f1f773-43aa-4113-aeeb-ec23e0038111
+
+----field----
+field: {B2ED3206-36D3-4F87-BA57-253AA89DD626}
+name: Text
+key: text
+content-length: 36
+
+Reach - Visitors in the last 30 days
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150330T133604Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+18f1f773-43aa-4113-aeeb-ec23e0038111
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150330T133616:635633193764986958Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: f5a5acce-02c4-47db-9d8e-da889234f625
+
+----field----
+field: {B2ED3206-36D3-4F87-BA57-253AA89DD626}
+name: Text
+key: text
+content-length: 18
+
+達成 - 直近 30 日間の訪問者数
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 18
+
+達成 - 直近 30 日間の訪問者数
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133651Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f5a5acce-02c4-47db-9d8e-da889234f625
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133651Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,223 @@
+----item----
+version: 1
+id: {266C1DED-C497-4FB5-B5D6-F3D29B84F201}
+database: core
+path: /sitecore/client/Business Component Library/version 2/Content/Guidance/Renderings/Containers/OverlayPanel/PageSettings/Tabs/Demo
+parent: {D2036D26-0D19-471A-8336-38F8C65B66BB}
+name: Demo
+master: {00000000-0000-0000-0000-000000000000}
+template: {8A7ACB1A-0990-4C9E-A6F0-9612D0F5F51C}
+templatekey: Tab
+created: 20160729T132116Z
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 4
+
+-100
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 5647
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{72D0DE3D-4A54-4C3E-9F08-490D31E9535F}" p:before="r[@uid='{9AF665CF-476C-42EB-8A53-4E4E1185B59F}']" s:id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" s:par="Id=DemoOpenPanel&amp;ConfigurationDetails=Text2.Text%3d%7bBinding+OverlayPanelDefault.IsOpen%7d%26Button1.Click%3djavascript%3aapp.OverlayPanelDefault.open()%26Button2.Click%3djavascript%3aapp.OverlayPanelDefault.close()%26Button3.Click%3djavascript%3aapp.OverlayPanelDefault.toggle()&amp;Description=A+panel+that+can+be+opened+or+closed.+When+opened+it+shows+with+a+sliding+animation.&amp;Title=IsOpen" s:ph="Page.Body" /><r uid="{9AF665CF-476C-42EB-8A53-4E4E1185B59F}" p:before="r[@uid='{34D8894B-D150-43B1-A9CD-9EEE4E9110AD}']" s:id="{09205F96-FC45-4DCE-B027-F6C5D7AE6AD3}" s:par="Id=OverlayPanelDefault" s:ph="DemoOpenPanel.Content" /><r uid="{34D8894B-D150-43B1-A9CD-9EEE4E9110AD}" p:before="r[@uid='{6325DC7F-706E-428A-A910-801A5BBA226E}']" s:id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" s:par="Id=Border1&amp;PaddingType=Bottom&amp;UsePadding=1" s:ph="DemoOpenPanel.Content" /><r uid="{6325DC7F-706E-428A-A910-801A5BBA226E}" p:before="r[@uid='{41824F35-5B96-40E2-80D5-55C666BA1F45}']" s:id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" s:par="Id=Text1&amp;Text=IsOpen%3a+" s:ph="Border1.Content" /><r uid="{41824F35-5B96-40E2-80D5-55C666BA1F45}" p:before="r[@uid='{50F6D6F6-665F-45A9-9EBA-870FDB70FA36}']" s:id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" s:par="TextWeight=Bold&amp;Id=Text2&amp;Text=%7bBinding+OverlayPanelDefault.IsOpen%7d" s:ph="Border1.Content" /><r uid="{50F6D6F6-665F-45A9-9EBA-870FDB70FA36}" p:before="r[@uid='{1E24A6A9-8E98-477E-A5F8-796AF50135F2}']" s:id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" s:par="Id=Button1&amp;Text=Open&amp;Click=javascript%3aapp.OverlayPanelDefault.open()" s:ph="DemoOpenPanel.Content" /><r uid="{1E24A6A9-8E98-477E-A5F8-796AF50135F2}" p:before="r[@uid='{8ED4CCDC-A8A6-437B-8ED9-EE0281B9439D}']" s:id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" s:par="Id=Button2&amp;Text=Close&amp;Click=javascript%3aapp.OverlayPanelDefault.close()" s:ph="DemoOpenPanel.Content" /><r uid="{8ED4CCDC-A8A6-437B-8ED9-EE0281B9439D}" p:before="r[@uid='{450C5849-5A5F-4F6F-9534-20EAE4F37CEA}']" s:id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" s:par="Id=Button3&amp;Text=Toggle&amp;Click=javascript%3aapp.OverlayPanelDefault.toggle()" s:ph="DemoOpenPanel.Content" /><r uid="{450C5849-5A5F-4F6F-9534-20EAE4F37CEA}" p:before="r[@uid='{B234866E-D434-46BE-92E9-AF8079D86562}']" s:id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" s:par="Id=Text3&amp;Text=Some+Header&amp;TextSize=X-Large" s:ph="OverlayPanelDefault.Header" /><r uid="{B234866E-D434-46BE-92E9-AF8079D86562}" p:before="r[@uid='{AB787951-F60A-42ED-8BD6-31B0171590E8}']" s:id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" s:par="Id=Text4&amp;Text=Some+Content" s:ph="OverlayPanelDefault.Content" /><r uid="{AB787951-F60A-42ED-8BD6-31B0171590E8}" p:before="r[@uid='{D153E755-A1F5-4CB7-9C42-DFD2C0D8BF97}']" s:id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" s:par="Id=Button4&amp;Text=Some+Button" s:ph="OverlayPanelDefault.Buttons" /><r uid="{D153E755-A1F5-4CB7-9C42-DFD2C0D8BF97}" p:before="r[@uid='{9FAC6C69-0699-47A9-8314-FD9C9674A6F9}']" s:id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" s:par="Id=DemoPosition&amp;ConfigurationDetails=Position%3dBottom&amp;Description=It+can+be+positioned+to+Top%2c+Left%2c+Bottom%2c+Right.+&amp;Title=Position" s:ph="Page.Body" /><r uid="{9FAC6C69-0699-47A9-8314-FD9C9674A6F9}" p:before="r[@uid='{8ED4CCDC-A8A6-437B-8ED9-EE0281B9439D}']" s:id="{09205F96-FC45-4DCE-B027-F6C5D7AE6AD3}" s:par="Id=OverlayPanelPosition&amp;Position=Bottom" s:ph="DemoPosition.Content" /><r uid="{8ED4CCDC-A8A6-437B-8ED9-EE0281B9439D}" p:before="r[@uid='{C7898C8A-B7E8-49FE-B857-3F601938E838}']" s:id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" s:par="Id=Button4&amp;Text=Toggle&amp;Click=javascript%3aapp.OverlayPanelPosition.toggle()" s:ph="DemoPosition.Content" /><r uid="{C7898C8A-B7E8-49FE-B857-3F601938E838}" p:before="r[@uid='{F09C5443-4DFC-4D5F-B6C8-0FADD9C6EDA7}']" s:id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" s:par="Id=DemoSize&amp;ConfigurationDetails=Size%3dSmall&amp;Description=The+dimensions+(width+in+Left%2fRight+position%2c+height+in+Top%2fBottom+position)+can+be+selected+between+3+fixed+sizes+Small%2fMedium%2fLarge.&amp;Title=Size" s:ph="Page.Body" /><r uid="{F09C5443-4DFC-4D5F-B6C8-0FADD9C6EDA7}" p:before="r[@uid='{E4CAA1D5-0D90-4112-AC21-BCCD139766F2}']" s:id="{09205F96-FC45-4DCE-B027-F6C5D7AE6AD3}" s:par="Id=OverlayPanelSize&amp;Size=Small" s:ph="DemoSize.Content" /><r uid="{E4CAA1D5-0D90-4112-AC21-BCCD139766F2}" p:before="r[@uid='{1F94F45D-8E68-4093-B87F-3744AC58BE7D}']" s:id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" s:par="Id=Button5&amp;Text=Toggle&amp;Click=javascript%3aapp.OverlayPanelSize.toggle()" s:ph="DemoSize.Content" /><r uid="{1F94F45D-8E68-4093-B87F-3744AC58BE7D}" p:before="r[@uid='{4F364881-444D-4BF7-AFA3-6DD4C75506F5}']" s:id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" s:par="Id=DemoOffset&amp;ConfigurationDetails=OffsetTop%3d200%26OffsetBottom%3d100&amp;Title=OffsetTop+%26+OffsetBottom" s:ph="Page.Body" /><r uid="{4F364881-444D-4BF7-AFA3-6DD4C75506F5}" p:before="r[@uid='{450181C6-B382-47B9-A6F0-C09C6A0F2465}']" s:id="{09205F96-FC45-4DCE-B027-F6C5D7AE6AD3}" s:par="Id=OverlayPanelOffset&amp;OffsetBottom=100&amp;OffsetTop=200" s:ph="DemoOffset.Content" /><r uid="{450181C6-B382-47B9-A6F0-C09C6A0F2465}" s:id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" s:par="Id=Button6&amp;Text=Toggle&amp;Click=javascript%3aapp.OverlayPanelOffset.toggle()" s:ph="DemoOffset.Content" /></d></r>
+----version----
+language: de-DE
+version: 1
+revision: 282c51a6-89e1-447c-8bd2-00127187af92
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 4
+
+Demo
+----field----
+field: {772AEA8A-4D70-43F4-BD6B-EDE5FB060623}
+name: Tooltip
+key: tooltip
+content-length: 4
+
+Demo
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 4
+
+Demo
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133446Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+282c51a6-89e1-447c-8bd2-00127187af92
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133446Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: b5a7fb54-282b-4998-a62e-4d425600ffed
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 4
+
+Demo
+----field----
+field: {772AEA8A-4D70-43F4-BD6B-EDE5FB060623}
+name: Tooltip
+key: tooltip
+content-length: 4
+
+Demo
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151116T162437Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b5a7fb54-282b-4998-a62e-4d425600ffed
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160322T153329Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 80c6bf50-8446-47a1-ac75-dba657a7c920
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 2
+
+デモ
+----field----
+field: {772AEA8A-4D70-43F4-BD6B-EDE5FB060623}
+name: Tooltip
+key: tooltip
+content-length: 2
+
+デモ
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 2
+
+デモ
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133613Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+80c6bf50-8446-47a1-ac75-dba657a7c920
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133613Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

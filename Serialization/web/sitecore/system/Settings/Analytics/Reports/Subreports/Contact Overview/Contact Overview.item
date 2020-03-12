@@ -1,0 +1,97 @@
+----item----
+version: 1
+id: {397506EC-31D1-4C32-A522-C9718389EF5B}
+database: web
+path: /sitecore/system/Settings/Analytics/Reports/Subreports/Contact Overview/Contact Overview
+parent: {7F6A9C81-33D5-4B66-959B-97AE751A5522}
+name: Contact Overview
+master: {00000000-0000-0000-0000-000000000000}
+template: {6674A4AF-EACE-445E-89F1-E2F464026056}
+templatekey: Report
+created: 20160729T132117Z
+
+----field----
+field: {0CC4AD84-F69D-44D2-9600-5C7522AA2401}
+name: File Name
+key: file name
+content-length: 66
+
+/sitecore/shell/Applications/Analytics/Reports/ContactOverview.mrt
+----field----
+field: {16802C7A-011A-41FF-88B4-C33E6C737F3F}
+name: Queries
+key: queries
+content-length: 0
+
+
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 22
+
+Network/32x32/keys.png
+----version----
+language: en
+version: 1
+revision: 8391dcba-7b71-4e40-8284-eed33b02f26a
+
+----field----
+field: {D71DCBF1-3E4C-4ACD-9244-58AA5C1C8528}
+name: Report Title
+key: report title
+content-length: 16
+
+Contact Overview
+----field----
+field: {F38BB3C8-94D9-4815-8CE2-06FA4EB8FC80}
+name: Report Description
+key: report description
+content-length: 879
+
+This report helps you answer the following questions:<ul><li>What value has this specific visitor accumulated?</li><li>How active have this specific visitor been on the website?</li></ul>This report displays the contact information of an individual visitor and lists their most recent visits (max 50). <br/>
+You can estimate the level of interest and commitment of this visitor from their total value and their activity level. You can identify the visitor’s areas of interest by looking at the assets they downloaded and the pages they read. For example, visiting pages that contain information about pricing, training, support, demo requests, and so on, can indicate an interest in purchasing.<br/>
+Click the date link to open the <i>Visit Detail</i> report for that session.<br/>
+You came to this report by clicking the visitor’s name in the <i>Business Overview</i> report.
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20110131T153300
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+8391dcba-7b71-4e40-8284-eed33b02f26a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20130412T210843:635013977237284063
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

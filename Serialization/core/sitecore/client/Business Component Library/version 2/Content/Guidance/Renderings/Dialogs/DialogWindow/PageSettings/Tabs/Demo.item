@@ -1,0 +1,298 @@
+----item----
+version: 1
+id: {4CC9D51A-4642-4E98-9221-EFE900A1AD1C}
+database: core
+path: /sitecore/client/Business Component Library/version 2/Content/Guidance/Renderings/Dialogs/DialogWindow/PageSettings/Tabs/Demo
+parent: {AF465EB4-0C9E-4AE0-A5B3-31E244949A79}
+name: Demo
+master: {1A934758-1761-446E-AA0E-D19B3369292B}
+template: {8A7ACB1A-0990-4C9E-A6F0-9612D0F5F51C}
+templatekey: Tab
+created: 20160729T132116Z
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+-50
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 0
+
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 10795
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{759BEFD1-3323-404D-A243-E0ED81163C03}">
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanel&amp;ConfigurationDetails=IsApplicationDimmed%3dTrue&amp;IsVisible=1&amp;Description=The+IsCloseRequired+property+specifies+whether+users+can+dismiss+the+dialog+windows+by+clicking+outside+the+window.+When+True%2c+users+have+to+click+the+close+(%27X%27)+button+in+the+dialog+window.+When+False%2c+they+can+dismiss+by+clicking+outside%2c+but+this+functionality+requires+that+the+IsApplicationDimmed+property+is+also+True.++&amp;Title=Closing+the+dialog+window" uid="{2348C91E-F135-4811-8BA6-4822B2EFC59D}" />
+    <r id="{A7B206E7-7393-4125-962C-02EEFA4734CF}" par="Id=DialogWindowICRTrue1&amp;IsVisible=1&amp;IsCloseRequired=1&amp;IsApplicationDimmed=1" ph="DemoComponentPanel.Content" uid="{2D4E7999-9A54-4A4A-AEA5-788B8A85ECB0}" />
+    <r id="{A7B206E7-7393-4125-962C-02EEFA4734CF}" par="Id=DialogWindowICRFalse1&amp;IsVisible=1&amp;IsCloseRequired=0&amp;IsApplicationDimmed=1" ph="DemoComponentPanel.Content" uid="{2D4E7999-9A54-4A4A-AEA5-788B8A85ECB0}" />
+    <r id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" par="Id=Button&amp;IsEnabled=1&amp;IsVisible=1&amp;Text=IsCloseRequired%3dTrue&amp;Click=javascript%3aapp.DialogWindowICRTrue1.show()" ph="DemoComponentPanel.Content" uid="{D3C87959-130B-4F28-904F-1C0569863E82}" />
+    <r id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" par="Id=Button14&amp;IsEnabled=1&amp;IsVisible=1&amp;Text=IsCloseRequired%3dFalse&amp;Click=javascript%3aapp.DialogWindowICRFalse1.show()" ph="DemoComponentPanel.Content" uid="{D3C87959-130B-4F28-904F-1C0569863E82}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanel1&amp;IsVisible=1&amp;Description=The+IsApplicationDimmed+property+specifies+whether+the+control+grays+out+(dims)+the+application+behind+the+dialog+window+while+the+dialog+window+is+open.&amp;Title=Graying+out+the+application+behind+the+window." uid="{2348C91E-F135-4811-8BA6-4822B2EFC59D}" />
+    <r id="{A7B206E7-7393-4125-962C-02EEFA4734CF}" par="Id=DialogWindowIADTrue&amp;IsVisible=1&amp;IsCloseRequired=1&amp;IsApplicationDimmed=1" ph="DemoComponentPanel1.Content" uid="{2D4E7999-9A54-4A4A-AEA5-788B8A85ECB0}" />
+    <r id="{A7B206E7-7393-4125-962C-02EEFA4734CF}" par="Id=DialogWindowIADFalse&amp;IsVisible=1&amp;IsCloseRequired=0&amp;IsApplicationDimmed=0" ph="DemoComponentPanel1.Content" uid="{2D4E7999-9A54-4A4A-AEA5-788B8A85ECB0}" />
+    <r id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" par="Id=Button3&amp;IsEnabled=1&amp;IsVisible=1&amp;Text=IsApplicationDimmed%3dTrue&amp;Click=javascript%3aapp.DialogWindowIADTrue.show()" ph="DemoComponentPanel1.Content" uid="{D3C87959-130B-4F28-904F-1C0569863E82}" />
+    <r id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" par="Id=Button2&amp;IsEnabled=1&amp;IsVisible=1&amp;Text=IsApplicationDimmed%3dFalse&amp;Click=javascript%3aapp.DialogWindowIADFalse.show()" ph="DemoComponentPanel1.Content" uid="{D3C87959-130B-4F28-904F-1C0569863E82}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanel2&amp;ConfigurationDetails=IsKeyboardEnabled%3dTrue&amp;IsVisible=1&amp;Description=The+IsKeyboardEnabled+property+specifies+whether+users+can+dismiss+the+dialog+with+the+Esc+(escape)+key+on+the+keyboard.&amp;Title=Closing+the+dialog+with+the+Esc+key" uid="{2348C91E-F135-4811-8BA6-4822B2EFC59D}" />
+    <r id="{A7B206E7-7393-4125-962C-02EEFA4734CF}" par="Id=DialogWindowEK&amp;IsVisible=1&amp;IsKeyboardEnabled=1" ph="DemoComponentPanel2.Content" uid="{AFDECDE7-95A3-4B55-A6E8-30463F29E06E}" />
+    <r id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" par="Id=Button4&amp;IsEnabled=1&amp;IsVisible=1&amp;Text=IsKeyboardEnabled%3dTrue&amp;Click=javascript%3aapp.DialogWindowEK.show()" ph="DemoComponentPanel2.Content" uid="{D3C87959-130B-4F28-904F-1C0569863E82}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanel3&amp;ConfigurationDetails=Headerless%3dTrue&amp;IsVisible=1&amp;Description=The+Headerless+property+specifies+whether+the+control+shows+a+header+in+the+dialog+window.+When+True%2c+the+control+does+not+show+a+header.&amp;Title=Specifying+that+the+control+does+not+show+a+header" uid="{2348C91E-F135-4811-8BA6-4822B2EFC59D}" />
+    <r id="{A7B206E7-7393-4125-962C-02EEFA4734CF}" par="EnableKeyboard=0&amp;Id=DialogWindowHL&amp;IsVisible=1&amp;Headerless=1" ph="DemoComponentPanel3.Content" uid="{AFDECDE7-95A3-4B55-A6E8-30463F29E06E}" />
+    <r id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" par="Id=Button6&amp;IsEnabled=1&amp;IsVisible=1&amp;Text=Close&amp;Click=javascript%3aapp.DialogWindowHL.hide()" ph="DialogWindowHL.Buttons" uid="{D3C87959-130B-4F28-904F-1C0569863E82}" />
+    <r id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" par="Id=Button5&amp;IsEnabled=1&amp;IsVisible=1&amp;Text=Headerless%3dTrue&amp;Click=javascript%3aapp.DialogWindowHL.show()" ph="DemoComponentPanel3.Content" uid="{D3C87959-130B-4F28-904F-1C0569863E82}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanel4&amp;ConfigurationDetails=HeaderText%3dThis+is+the+header+text&amp;IsVisible=1&amp;Description=The+HeaderText+property+specifies+the+header+text+the+control+shows+in+the+dialog+window.&amp;Title=Specifying+a+header+text" uid="{2348C91E-F135-4811-8BA6-4822B2EFC59D}" />
+    <r id="{A7B206E7-7393-4125-962C-02EEFA4734CF}" par="EnableKeyboard=0&amp;Id=DialogWindowHT&amp;IsVisible=1&amp;HeaderText=This+is+the+header+text" ph="DemoComponentPanel4.Content" uid="{AFDECDE7-95A3-4B55-A6E8-30463F29E06E}" />
+    <r id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" par="Id=Button7&amp;IsEnabled=1&amp;IsVisible=1&amp;Text=Dialog+window+with+header+text&amp;Click=javascript%3aapp.DialogWindowHT.show()" ph="DemoComponentPanel4.Content" uid="{D3C87959-130B-4F28-904F-1C0569863E82}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanel5&amp;ConfigurationDetails=IsAnimated%3dTrue&amp;IsVisible=1&amp;Description=The+IsAnimated+property+specifies+whether+the+control+shows+fade-in+and+fade-out+animations+when+it+opens+and+closes+dialog+windows.&amp;Title=Showing+animations+when+dialog+windows+open+and+close" uid="{2348C91E-F135-4811-8BA6-4822B2EFC59D}" />
+    <r id="{A7B206E7-7393-4125-962C-02EEFA4734CF}" par="EnableKeyboard=0&amp;Id=DialogWindowA&amp;IsVisible=1&amp;IsAnimated=1" ph="DemoComponentPanel5.Content" uid="{AFDECDE7-95A3-4B55-A6E8-30463F29E06E}" />
+    <r id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" par="Id=Button8&amp;IsEnabled=1&amp;IsVisible=1&amp;Text=Open+a+DialogWindow+with+IsAnimated+set+to+True&amp;Click=javascript%3aapp.DialogWindowA.show()" ph="DemoComponentPanel5.Content" uid="{D3C87959-130B-4F28-904F-1C0569863E82}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanel6&amp;IsVisible=1&amp;Description=The+Size+property+specifies+the+size+of+the+dialog+window.+The+options+include+Small%2c+Medium%2c+Large%2c+and+X-Large.+If+the+IsMaximized+property+is+True%2c+the+dialog+window+opens+as+a+maximized+window.&amp;Title=Specifying+the+size+of+the+dialog+window" uid="{2348C91E-F135-4811-8BA6-4822B2EFC59D}" />
+    <r id="{A7B206E7-7393-4125-962C-02EEFA4734CF}" par="EnableKeyboard=0&amp;Id=DialogWindowXL&amp;IsVisible=1&amp;Size=%7b52C549C7-C9CD-49F1-9E81-40EA6437E102%7d" ph="DemoComponentPanel6.Content" uid="{AFDECDE7-95A3-4B55-A6E8-30463F29E06E}" />
+    <r id="{A7B206E7-7393-4125-962C-02EEFA4734CF}" par="EnableKeyboard=0&amp;Id=DialogWindowL&amp;IsVisible=1&amp;Size=%7b00D1D331-8788-462D-AD22-45406B2B1E11%7d" ph="DemoComponentPanel6.Content" uid="{AFDECDE7-95A3-4B55-A6E8-30463F29E06E}" />
+    <r id="{A7B206E7-7393-4125-962C-02EEFA4734CF}" par="EnableKeyboard=0&amp;Id=DialogWindowM&amp;IsVisible=1&amp;Size=%7b91E82229-70A1-479A-ADF5-B638B36867F0%7d" ph="DemoComponentPanel6.Content" uid="{AFDECDE7-95A3-4B55-A6E8-30463F29E06E}" />
+    <r id="{A7B206E7-7393-4125-962C-02EEFA4734CF}" par="EnableKeyboard=0&amp;Id=DialogWindowS&amp;IsVisible=1&amp;Size=%7b886096AD-A3D1-4E5A-9876-420909CBE83C%7d" ph="DemoComponentPanel6.Content" uid="{AFDECDE7-95A3-4B55-A6E8-30463F29E06E}" />
+    <r id="{A7B206E7-7393-4125-962C-02EEFA4734CF}" par="EnableKeyboard=0&amp;Id=DialogWindowSTF&amp;IsVisible=1&amp;IsMaximized=1" ph="DemoComponentPanel6.Content" uid="{AFDECDE7-95A3-4B55-A6E8-30463F29E06E}" />
+    <r id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" par="Id=Button13&amp;IsEnabled=1&amp;IsVisible=1&amp;Text=X-Large&amp;Click=javascript%3aapp.DialogWindowXL.show()" ph="DemoComponentPanel6.Content" uid="{D3C87959-130B-4F28-904F-1C0569863E82}" />
+    <r id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" par="Id=Button12&amp;IsEnabled=1&amp;IsVisible=1&amp;Text=Large&amp;Click=javascript%3aapp.DialogWindowL.show()" ph="DemoComponentPanel6.Content" uid="{D3C87959-130B-4F28-904F-1C0569863E82}" />
+    <r id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" par="Id=Button11&amp;IsEnabled=1&amp;IsVisible=1&amp;Text=Medium&amp;Click=javascript%3aapp.DialogWindowM.show()" ph="DemoComponentPanel6.Content" uid="{D3C87959-130B-4F28-904F-1C0569863E82}" />
+    <r id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" par="Id=Button10&amp;IsEnabled=1&amp;IsVisible=1&amp;Text=Small&amp;Click=javascript%3aapp.DialogWindowS.show()" ph="DemoComponentPanel6.Content" uid="{D3C87959-130B-4F28-904F-1C0569863E82}" />
+    <r id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" par="Id=Button9&amp;IsEnabled=1&amp;IsVisible=1&amp;Text=Maximized&amp;Click=javascript%3aapp.DialogWindowSTF.show()" ph="DemoComponentPanel6.Content" uid="{D3C87959-130B-4F28-904F-1C0569863E82}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanelDialogWindowMessage&amp;Description=The+control+has+a+placeholder+called+DialogMessage.+A+MessageBar+with+this+placeholder+appears+in+the+dialog+window.&amp;Title=Showing+messages+in+the+dialog+window" uid="{5A256311-93F1-47C8-92FB-1409503ACFFF}" />
+    <r id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" par="Id=ButtonDialogWindowMessage&amp;Text=Dialog+window+with+message+bar&amp;Click=javascript%3aapp.DialogWindowMessage.show()" ph="DemoComponentPanelDialogWindowMessage.Content" uid="{0B1D7666-0096-42C9-9987-FEFCFAC74D60}" />
+    <r id="{A7B206E7-7393-4125-962C-02EEFA4734CF}" par="Id=DialogWindowMessage&amp;HeaderText=DialogWindow+with+MessageBar" uid="{F3F72BD9-0323-43F6-9607-CD27B4E15C9A}" />
+    <r id="{8C3B1C75-9DBA-49BC-AC49-CD9AD5559FD6}" par="ConfigurationItem=%7bD830E24D-2118-4863-88E9-F7B1E5C46692%7d&amp;Id=MessageBar" ph="DialogWindowMessage.DialogMessage" uid="{A606393E-DAE7-4AE3-A5F7-3D3BC69C1CF9}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=TextMessage&amp;Text=Hello+world" ph="DialogWindowMessage.Content" uid="{22ED6EFB-8481-48A9-80C7-3A4B5DE46B0F}" />
+  </d>
+</r>
+----version----
+language: da
+version: 1
+revision: 9bc6f297-8825-4ab4-995c-f02fa51db904
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 4
+
+Fane
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 4
+
+Demo
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133326Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+9bc6f297-8825-4ab4-995c-f02fa51db904
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133326Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: b534df4d-3938-44e1-a8f0-cf316067d825
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 3
+
+Tab
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 4
+
+Demo
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133453Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b534df4d-3938-44e1-a8f0-cf316067d825
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133453Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 5596b896-331f-41ed-853b-7c0de92c102e
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 3
+
+Tab
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150319T135839Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5596b896-331f-41ed-853b-7c0de92c102e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160415T130829Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 8f226367-b0c9-4631-9b59-5783c50cacd1
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 2
+
+タブ
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 2
+
+デモ
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133620Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+8f226367-b0c9-4631-9b59-5783c50cacd1
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133620Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

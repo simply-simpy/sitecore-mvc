@@ -1,0 +1,263 @@
+----item----
+version: 1
+id: {C6E2AE4F-7E9A-4B5B-B23D-2E0FF761DB6B}
+database: core
+path: /sitecore/client/Business Component Library/version 2/Content/Guidance/Renderings/Lists and Grids/ListControl - TileList/PageSettings/Tabs/Height
+parent: {8C11AAC2-DAA7-485D-9509-513A50752B9C}
+name: Height
+master: {1A934758-1761-446E-AA0E-D19B3369292B}
+template: {8A7ACB1A-0990-4C9E-A6F0-9612D0F5F51C}
+templatekey: Tab
+created: 20160729T132116Z
+
+----field----
+field: {3A98ADC3-530B-4281-880D-2D56DCC605AF}
+name: IsLazyLoaded
+key: islazyloaded
+content-length: 1
+
+1
+----field----
+field: {CE20211A-8144-4D75-82CE-3AF16D69BA5C}
+name: QueryParameterValue
+key: queryparametervalue
+content-length: 6
+
+Height
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+325
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 0
+
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 10778
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{759BEFD1-3323-404D-A243-E0ED81163C03}">
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=BorderHeight&amp;UsePadding=1" ph="Page.Body" uid="{8BBF3A61-694C-4937-B680-BF363191A945}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanelInheritHeight&amp;ConfigurationDetails=IsHeightInherited%3dTrue&amp;Description=The+IsHeightInherited+property+specifies+whether+the+control+inherits+height+from+its+parent+control.+When+True%2c+the+control+will+the+entire+area+with+blank+space+if+it+does+not+have+enough+data+to+fill+it.&amp;Title=Specifying+whether+the+control+inherits+height" ph="BorderHeight.Content" uid="{345319FC-077A-410D-96AF-BA8E351CA6C9}" />
+    <r id="{49E22055-BF50-472B-9B8C-040EA68951D7}" par="Id=ScrollablePanelInheritHeight&amp;Height=400" ph="DemoComponentPanelInheritHeight.Content" uid="{3124CF86-7C7E-43FD-80E5-8E2BA7D34BB7}" />
+    <r id="{6F8AB6DD-9307-4AD3-964E-5B84F0B9B4F0}" par="Id=ListControlInheritHeight&amp;IsHeightInherited=1&amp;ViewMode=TileList&amp;TileWidth=300&amp;StaticData=%7b31056D46-2FAA-4EA2-8759-BE93EAE10001%7d&amp;TileTemplatePath=%2fsitecore%2fshell%2fclient%2fBusiness+Component+Library%2fversion+2%2fContent%2fGuidance%2fRenderings%2fListsAndGrids%2fListControlGuidanceTileList.html&amp;TileCssPath=%2fsitecore%2fshell%2fclient%2fBusiness+Component+Library%2fversion+2%2fContent%2fGuidance%2fRenderings%2fListsAndGrids%2fListControlGuidanceTileList.css" ph="ScrollablePanelInheritHeight.Content" uid="{BB8C16D4-B243-40CC-8399-80C09AE111DC}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanelMinRows&amp;ConfigurationDetails=MinRows%3d3&amp;Description=The+MinRows+property+specifies+the+minimum+number+of+rows+the+control+shows.+If+the+control+does+not+have+enough+data+for+this+number+of+rows%2c+it+adds+empty+rows.&amp;Title=Specifying+the+minimum+number+of+rows" ph="BorderHeight.Content" uid="{345319FC-077A-410D-96AF-BA8E351CA6C9}" />
+    <r id="{6F8AB6DD-9307-4AD3-964E-5B84F0B9B4F0}" par="MinRows=3&amp;Id=ListControlMinRows&amp;ViewMode=TileList&amp;TileWidth=300&amp;StaticData=%7b31056D46-2FAA-4EA2-8759-BE93EAE10001%7d&amp;TileTemplatePath=%2fsitecore%2fshell%2fclient%2fBusiness+Component+Library%2fversion+2%2fContent%2fGuidance%2fRenderings%2fListsAndGrids%2fListControlGuidanceTileList.html&amp;TileCssPath=%2fsitecore%2fshell%2fclient%2fBusiness+Component+Library%2fversion+2%2fContent%2fGuidance%2fRenderings%2fListsAndGrids%2fListControlGuidanceTileList.css" ph="DemoComponentPanelMinRows.Content" uid="{BB8C16D4-B243-40CC-8399-80C09AE111DC}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanelMaxRows&amp;ConfigurationDetails=MaxRows%3d1&amp;Description=The+MaxRows+property+specifies+the+maximum+number+of+rows+the+control+shows.+If+the+control+more+data+rows%2c+it+shows+a+vertical+scrollbar.&amp;Title=Specifying+the+maximum+number+of+rows" ph="BorderHeight.Content" uid="{345319FC-077A-410D-96AF-BA8E351CA6C9}" />
+    <r id="{6F8AB6DD-9307-4AD3-964E-5B84F0B9B4F0}" par="Id=ListControlMaxRows&amp;ViewMode=TileList&amp;TileWidth=300&amp;StaticData=%7b31056D46-2FAA-4EA2-8759-BE93EAE10001%7d&amp;TileTemplatePath=%2fsitecore%2fshell%2fclient%2fBusiness+Component+Library%2fversion+2%2fContent%2fGuidance%2fRenderings%2fListsAndGrids%2fListControlGuidanceTileList.html&amp;MaxRows=1&amp;TileCssPath=%2fsitecore%2fshell%2fclient%2fBusiness+Component+Library%2fversion+2%2fContent%2fGuidance%2fRenderings%2fListsAndGrids%2fListControlGuidanceTileList.css" ph="DemoComponentPanelMaxRows.Content" uid="{BB8C16D4-B243-40CC-8399-80C09AE111DC}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanelAssociatedListPage&amp;ConfigurationDetails=AssociatedListPage%3d%7b386D20C9-5C62-4146-8313-A952BDB59CDE%7d%26MaxRows%3d3&amp;Description=The+AssociatedListPage+property+specifies+a+page+definition+item.+The+control+generates+a+%22View+all%22+link+to+this+page.+The+intended+use+is+in+a+dashboard%2c+where+the+control+shows+a+short+list+of+items+and+the+link+takes+users+to+a+list+page+with+all+items.&amp;Title=Specifying+an+associated+page" ph="BorderHeight.Content" uid="{345319FC-077A-410D-96AF-BA8E351CA6C9}" />
+    <r id="{6F8AB6DD-9307-4AD3-964E-5B84F0B9B4F0}" par="Id=ListControlAssociatedListPage&amp;ViewMode=TileList&amp;AssociatedListPage=%7b386D20C9-5C62-4146-8313-A952BDB59CDE%7d&amp;StaticData=%7b31056D46-2FAA-4EA2-8759-BE93EAE10001%7d&amp;TileTemplatePath=%2fsitecore%2fshell%2fclient%2fBusiness+Component+Library%2fversion+2%2fContent%2fGuidance%2fRenderings%2fListsAndGrids%2fListControlGuidanceTileList.html&amp;MaxRows=3&amp;TileCssPath=%2fsitecore%2fshell%2fclient%2fBusiness+Component+Library%2fversion+2%2fContent%2fGuidance%2fRenderings%2fListsAndGrids%2fListControlGuidanceTileList.css" ph="DemoComponentPanelAssociatedListPage.Content" uid="{BB8C16D4-B243-40CC-8399-80C09AE111DC}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanelFlags&amp;ConfigurationDetails=MaxRows%3d3&amp;Description=The+control+updates+the+HasScroll%2c+IsScrollTop%2c+IsScrollBottom%2c+IsScrollNearTop%2c+and+IsScrollNearBottom+read-only+properties+with+the+current+status.&amp;Title=Reading+scrolling+status" ph="BorderHeight.Content" uid="{345319FC-077A-410D-96AF-BA8E351CA6C9}" />
+    <r id="{6F8AB6DD-9307-4AD3-964E-5B84F0B9B4F0}" par="Id=ListControlFlags&amp;ViewMode=TileList&amp;StaticData=%7b31056D46-2FAA-4EA2-8759-BE93EAE10001%7d&amp;TileTemplatePath=%2fsitecore%2fshell%2fclient%2fBusiness+Component+Library%2fversion+2%2fContent%2fGuidance%2fRenderings%2fListsAndGrids%2fListControlGuidanceTileList.html&amp;MaxRows=3&amp;TileCssPath=%2fsitecore%2fshell%2fclient%2fBusiness+Component+Library%2fversion+2%2fContent%2fGuidance%2fRenderings%2fListsAndGrids%2fListControlGuidanceTileList.css" ph="DemoComponentPanelFlags.Content" uid="{BB8C16D4-B243-40CC-8399-80C09AE111DC}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=BorderHasScroll&amp;PaddingType=Top&amp;UsePadding=1" ph="DemoComponentPanelFlags.Content" uid="{6C9E7FDA-0755-41AB-8380-61F394F9070E}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=TextHasScroll&amp;Text=HasScroll%3a+" ph="BorderHasScroll.Content" uid="{1D0F8C5A-009C-46D1-9955-FF09B7510C6D}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=TextHasScrollBinding&amp;Text=%7bBinding+ListControlFlags.HasScroll%7d" ph="BorderHasScroll.Content" uid="{1D0F8C5A-009C-46D1-9955-FF09B7510C6D}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=BorderIsScrollBottom&amp;PaddingType=Top&amp;UsePadding=1" ph="DemoComponentPanelFlags.Content" uid="{6C9E7FDA-0755-41AB-8380-61F394F9070E}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=TextIsScrollBottom&amp;Text=IsScrollBottom%3a+" ph="BorderIsScrollBottom.Content" uid="{1D0F8C5A-009C-46D1-9955-FF09B7510C6D}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=TextIsScrollBottomBinding&amp;Text=%7bBinding+ListControlFlags.IsScrollBottom%7d" ph="BorderIsScrollBottom.Content" uid="{1D0F8C5A-009C-46D1-9955-FF09B7510C6D}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=BorderIsScrollNearBottom&amp;PaddingType=Top&amp;UsePadding=1" ph="DemoComponentPanelFlags.Content" uid="{6C9E7FDA-0755-41AB-8380-61F394F9070E}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=TextIsScrollNearBottom&amp;Text=IsScrollNearBottom%3a+" ph="BorderIsScrollNearBottom.Content" uid="{1D0F8C5A-009C-46D1-9955-FF09B7510C6D}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=TextIsScrollNearBottomBinding&amp;Text=%7bBinding+ListControlFlags.IsScrollNearBottom%7d" ph="BorderIsScrollNearBottom.Content" uid="{1D0F8C5A-009C-46D1-9955-FF09B7510C6D}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=BorderIsScrollTop&amp;PaddingType=Top&amp;UsePadding=1" ph="DemoComponentPanelFlags.Content" uid="{6C9E7FDA-0755-41AB-8380-61F394F9070E}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=TextIsScrollTop&amp;Text=IsScrollTop%3a+" ph="BorderIsScrollTop.Content" uid="{1D0F8C5A-009C-46D1-9955-FF09B7510C6D}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=TextIsScrollTopBinding&amp;Text=%7bBinding+ListControlFlags.IsScrollTop%7d" ph="BorderIsScrollTop.Content" uid="{1D0F8C5A-009C-46D1-9955-FF09B7510C6D}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=BorderIsScrollNearTop&amp;PaddingType=Top&amp;UsePadding=1" ph="DemoComponentPanelFlags.Content" uid="{6C9E7FDA-0755-41AB-8380-61F394F9070E}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=TextIsScrollNearTop&amp;Text=IsScrollNearTop%3a+" ph="BorderIsScrollNearTop.Content" uid="{1D0F8C5A-009C-46D1-9955-FF09B7510C6D}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=TextIsScrollNearTopBinding&amp;Text=%7bBinding+ListControlFlags.IsScrollNearTop%7d" ph="BorderIsScrollNearTop.Content" uid="{1D0F8C5A-009C-46D1-9955-FF09B7510C6D}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanelEvent&amp;ConfigurationDetails=IsEndlessScrollEnabled%3dTrue%26ScrollEnded%3djavascript%3aapp.DataSourceHeight.next()%3b&amp;Description=The+ScrollEnded+property+specifies+JavaScript+the+control+runs+when+scrolling+is+almost+at+the+bottom.+You+use+this+to+implement+endless+scrolling.+The+control+only+executes+the+JavaScript+when+the+IsEndlessScrollEnabled+is+True.+This+means+that+if+you+bind+this+property+the+the+IsBusy+property+of+a+data+source%2c+the+control+will+not+make+unnecessary+server+requests.&amp;Title=Specifying+code+the+control+executes+at+end+of+scrolling" ph="BorderHeight.Content" uid="{345319FC-077A-410D-96AF-BA8E351CA6C9}" />
+    <r id="{E6FBC365-732C-4DCD-8C56-10E8C3B963F5}" par="SearchRootItemId=%7b775D5EB4-AA0A-4D55-B151-D3694123601F%7d&amp;Id=DataSourceHeight&amp;Database=%24context_database&amp;Language=%24context_language&amp;PageSize=8&amp;SearchQuery=*" ph="Page.Body" uid="{1BA05C99-BBA9-40D6-B60E-E68EBBBC8B82}" />
+    <r id="{6F8AB6DD-9307-4AD3-964E-5B84F0B9B4F0}" par="Id=ListControlScrollEnded&amp;ViewMode=TileList&amp;ScrollEnded=javascript%3aapp.DataSourceHeight.next()%3b&amp;DynamicData=%7bBinding+DataSourceHeight.Items%7d&amp;TileTemplatePath=%2fsitecore%2fshell%2fclient%2fBusiness+Component+Library%2fversion+2%2fContent%2fGuidance%2fRenderings%2fListsAndGrids%2fListControlGuidanceTileList.html&amp;MaxRows=7&amp;TileCssPath=%2fsitecore%2fshell%2fclient%2fBusiness+Component+Library%2fversion+2%2fContent%2fGuidance%2fRenderings%2fListsAndGrids%2fListControlGuidanceTileList.css&amp;IsEndlessScrollEnabled=1" ph="DemoComponentPanelEvent.Content" uid="{BB8C16D4-B243-40CC-8399-80C09AE111DC}" />
+  </d>
+</r>
+----version----
+language: de-DE
+version: 1
+revision: 446ec918-4293-4c76-b30e-ad118a2077c4
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 4
+
+Höhe
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 4
+
+Höhe
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133517Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+446ec918-4293-4c76-b30e-ad118a2077c4
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133517Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 5d09be9a-3658-4d76-b2f7-63b079702689
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 6
+
+Height
+----field----
+field: {772AEA8A-4D70-43F4-BD6B-EDE5FB060623}
+name: Tooltip
+key: tooltip
+content-length: 0
+
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150326T143534Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5d09be9a-3658-4d76-b2f7-63b079702689
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160315T141913Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: af9a5b36-7802-4deb-bd33-7f94b235c2ef
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 2
+
+高さ
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 2
+
+高さ
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133646Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+af9a5b36-7802-4deb-bd33-7f94b235c2ef
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133646Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

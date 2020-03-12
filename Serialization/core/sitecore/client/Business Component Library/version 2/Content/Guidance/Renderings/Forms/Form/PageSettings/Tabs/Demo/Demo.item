@@ -1,0 +1,307 @@
+----item----
+version: 1
+id: {931D449E-F005-44A1-AA0F-71B28607D0FD}
+database: core
+path: /sitecore/client/Business Component Library/version 2/Content/Guidance/Renderings/Forms/Form/PageSettings/Tabs/Demo/Demo
+parent: {8015FD11-088D-4D7C-B00E-97A69A925E26}
+name: Demo
+master: {1A934758-1761-446E-AA0E-D19B3369292B}
+template: {8A7ACB1A-0990-4C9E-A6F0-9612D0F5F51C}
+templatekey: Tab
+created: 20160729T132116Z
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 4
+
+-100
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 0
+
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 13568
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+    <r id="{CB83D434-31ED-4AC3-A280-CCE2B63F9743}" par="PageCodeScriptFileName=%2fsitecore%2fshell%2fclient%2fBusiness+Component+Library%2fversion+2%2fContent%2fGuidance%2fRenderings%2fForms%2fFormPage.js" uid="{CBB92B9A-86FA-4482-873B-F13C985480DB}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanel1&amp;ConfigurationDetails=ConfigurationItem%3d%7b48974706-1060-4DB8-8CBF-68973C4AB750%7d&amp;Description=The+ConfigurationItem+property+specifies+a+folder+with+FormField+definition+items.+The+item+templates+for+these+parameter+items+have+a+%27Form%27+prefix%2c+so+to+add+a+text+box+to+a+form%2c+create+an+item+based+on+the+FormTextBoxParameters+template.+The+supported+parameter+item+templates+include%3a+FormCheckBoxParameters%2c+FormDropListParameters%2c+FormImageParameters%2c+FormListBoxParameters%2c+FormSearchableDropList+Parameters%2c+FormTextParameters%2c+FormTextAreaParameters+and+FormTextBoxParameters.+&amp;Title=Specifying+form+fields+with+parameter+items" uid="{520350ED-0372-4688-8D6E-98B826250588}" />
+    <r id="{59E2A66D-11D2-488D-A3BC-6C1C81326645}" par="FieldDefinitionType=%7b167CCD4C-34CE-4557-985B-0915D86B3D99%7d&amp;ConfigurationItem=%7b48974706-1060-4DB8-8CBF-68973C4AB750%7d&amp;Id=Form3" ph="DemoComponentPanel1.Content" uid="{EB13A5A8-5BE2-4AC2-829C-FEBF946D3F1F}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanel5&amp;ConfigurationDetails=FieldDefinitionRoot%3d%7b4F00D05F-3B53-4958-9285-00E6F53ECED1%7d&amp;Description=The+FieldDefinitionRoot+property+works+the+same+way+as+the+ConfigurationItem+property.+The+FieldDefinitionRoot+overrules+ConfigurationItem%2c+but+if+this+property+is+empty%2c+the+control+looks+for+form+field+definition+items+under+the+ConfigurationItem.&amp;Title=Specifying+form+fields+with+FieldDefinitionRoot+" uid="{BF2C5FC2-52A3-4643-8B6F-09D60353E013}" />
+    <r id="{59E2A66D-11D2-488D-A3BC-6C1C81326645}" par="FieldDefinitionType=%7b167CCD4C-34CE-4557-985B-0915D86B3D99%7d&amp;ConfigurationItem=%7b2F97C2A2-E383-447A-8068-49A19AA0B2B5%7d&amp;Id=Form4&amp;FieldsLayout=%7b0F6F5EFF-73B4-4597-A232-F50DF253514E%7d&amp;FieldDefinitionRoot=%7b4F00D05F-3B53-4958-9285-00E6F53ECED1%7d" ph="DemoComponentPanel5.Content" uid="{EB13A5A8-5BE2-4AC2-829C-FEBF946D3F1F}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanel2&amp;ConfigurationDetails=ConfigurationItem%3d%7b817C0DE2-9AF9-480E-82AD-99A238146681%7d&amp;Description=The+field+definition+item+templates+include+the+properties+from+the+component+they+correspond+to%2c+and+the+following+extra+properties%3a+HelpText%3a+specifies+the+text+the+control+shows+beneath+the+item%2c+FormLabel%3a+specifies+the+text+of+the+field+label%2c+IsLabelOnTop%3a+specifies+whether+the+label+appears+above+or+to+the+left+of+the+field%2c+BindingConfiguration%3a+specifies+name-value+pairs+for+binding+FormData+properties%2c+and+IsRequired%3a+specifies+whether+the+control+shows+an+asterisk+next+to+the+field.&amp;Title=Extra+properties+for+form+fields" uid="{520350ED-0372-4688-8D6E-98B826250588}" />
+    <r id="{59E2A66D-11D2-488D-A3BC-6C1C81326645}" par="FieldDefinitionType=%7b167CCD4C-34CE-4557-985B-0915D86B3D99%7d&amp;ConfigurationItem=%7b817C0DE2-9AF9-480E-82AD-99A238146681%7d&amp;Id=Form2&amp;FieldsLayout=%7b0DD930B7-D6B9-4841-8774-AAB867B2FEA5%7d" ph="DemoComponentPanel2.Content" uid="{EB13A5A8-5BE2-4AC2-829C-FEBF946D3F1F}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanel3&amp;Description=The+FormData+object+represents+the+values+of+the+bound+properties+of+form+fields.+For+example%3a+if+a+form+has+a+TextBox+field+and+this+field+has+BindingConfiguration+%22name%3dText%22+specified%2c+then+the+value+of+FormData.name+will+be+the+same+as+the+value+of+the+Text+property+of+the+TextBox+field.+It+is+a+two-way+binding%2c+so+you+can+read+values+with+Form.getFormData()+and+write+values+with+Form.setFormData().&amp;Title=Reading+and+writing+form+field+data" uid="{520350ED-0372-4688-8D6E-98B826250588}" />
+    <r id="{59E2A66D-11D2-488D-A3BC-6C1C81326645}" par="FieldDefinitionType=%7b167CCD4C-34CE-4557-985B-0915D86B3D99%7d&amp;ConfigurationItem=%7b54A12F96-8ED8-46E6-A1F3-8DCBFA8C487B%7d&amp;Id=Form" ph="DemoComponentPanel3.Content" uid="{EB13A5A8-5BE2-4AC2-829C-FEBF946D3F1F}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=Text1&amp;Text=This+button+uses+the+setFormData+method+to+update+all+the+bound+properties+in+the+Form+above%3a" ph="DemoComponentPanel3.Content" uid="{925DAA7D-419E-4C58-89A9-791E07D6DA79}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border2" ph="DemoComponentPanel3.Content" uid="{D22A33B5-CBDE-4617-A71B-BE12F2867983}" />
+    <r id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" par="Id=Button1&amp;Text=setFormData(%7bName%3a%22Alice%22%2c+Comments%3a%22Great!%22%7d)&amp;Click=javascript%3aapp.Form.setFormData(%7bName%3a%22Alice%22%2c+Comments%3a%22Great!%22%7d)" ph="DemoComponentPanel3.Content" uid="{6B235E35-D9AD-4F3A-94A5-54D30EE632E3}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border3&amp;PaddingType=Top&amp;UsePadding=1" ph="DemoComponentPanel3.Content" uid="{D22A33B5-CBDE-4617-A71B-BE12F2867983}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=Text2&amp;Text=This+button+uses+the+getFormData+method+to+read+all+the+bound+properties+of+the+Form+above%3a" ph="DemoComponentPanel3.Content" uid="{925DAA7D-419E-4C58-89A9-791E07D6DA79}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border1" ph="DemoComponentPanel3.Content" uid="{D22A33B5-CBDE-4617-A71B-BE12F2867983}" />
+    <r id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" par="Id=Button2&amp;Text=getFormData()&amp;Click=javascript%3aapp.showFormData()" ph="DemoComponentPanel3.Content" uid="{6B235E35-D9AD-4F3A-94A5-54D30EE632E3}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border4&amp;PaddingType=Top&amp;UsePadding=1" ph="DemoComponentPanel3.Content" uid="{D22A33B5-CBDE-4617-A71B-BE12F2867983}" />
+    <r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=Text3&amp;Text=You+can+also+get+or+set+individual+values+using+dot+syntax%3a" ph="DemoComponentPanel3.Content" uid="{925DAA7D-419E-4C58-89A9-791E07D6DA79}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border5" ph="DemoComponentPanel3.Content" uid="{D22A33B5-CBDE-4617-A71B-BE12F2867983}" />
+    <r id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" par="Id=Button4&amp;Text=app.Form.FormData.Name%3d%27Bob%27&amp;Click=javascript%3aapp.Form.FormData.Name%3d%27Bob%27" ph="DemoComponentPanel3.Content" uid="{6B235E35-D9AD-4F3A-94A5-54D30EE632E3}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanel&amp;ConfigurationDetails=FieldsLayout%3d4-3-2-1&amp;Description=The+FieldsLayout+property+specifies+how+many+columns+the+control+uses+for+four+different+screen+sizes%2c+going+from+a+mobile+device+form+factor+to+a+the+form+factor+of+a+large+monitor.+There+is+a+number+of+different+options%3a+1-1-1-1%2c+2-2-1-1%2c+2-2-2-1%2c+3-3-1-1%2c+3-3-2-1%2c+4-3-2-1%2c+4-4-2-1%2c+and+4-4-3-1.++If+users+resize+the+browser+window%2c+the+layout+changes+automatically+when+the+size+passes+the+breakpoint+between+sizes.&amp;Title=Specifying+number+of+columns" uid="{BF2C5FC2-52A3-4643-8B6F-09D60353E013}" />
+    <r id="{59E2A66D-11D2-488D-A3BC-6C1C81326645}" par="FieldDefinitionType=%7b167CCD4C-34CE-4557-985B-0915D86B3D99%7d&amp;ConfigurationItem=%7b2F97C2A2-E383-447A-8068-49A19AA0B2B5%7d&amp;Id=Form1&amp;FieldsLayout=%7b3D3E966C-5110-4336-BFB8-4FCA68B73AE7%7d" ph="DemoComponentPanel.Content" uid="{EB13A5A8-5BE2-4AC2-829C-FEBF946D3F1F}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanel6&amp;ConfigurationDetails=FieldDefinitionType%3dSitecoreDataTemplate%26FieldDefinitionRoot%3d%7bEB5CEBA9-E671-4599-857B-81D33592E0A8%7d&amp;Description=The+FieldDefinitionType+property+specifies+whether+the+component+generates+the+form+from+SPEAK+definition+items+or+from+Sitecore+data+template+items.+Use+Sitecore+Data+Template+to+instruct+the+control+that+the+FieldDefinitionRoot+property+points+to+a+Sitecore+Data+Template.+Use+SPEAK+Form+Definition+to+instruct+the+control+that+the+FieldDefinitionRoot+propeety+points+to+a+a+folder+that+contains+field+definition+items.&amp;Title=Specifying+how+the+form+is+generated" uid="{BF2C5FC2-52A3-4643-8B6F-09D60353E013}" />
+    <r id="{59E2A66D-11D2-488D-A3BC-6C1C81326645}" par="FieldDefinitionType=%7b0FC611D6-2A79-4423-BE2D-AD426E9A8A44%7d&amp;Id=Form5&amp;FieldsLayout=%7b0F6F5EFF-73B4-4597-A232-F50DF253514E%7d&amp;FieldDefinitionRoot=%7bEB5CEBA9-E671-4599-857B-81D33592E0A8%7d" ph="DemoComponentPanel6.Content" uid="{EB13A5A8-5BE2-4AC2-829C-FEBF946D3F1F}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanel7&amp;ConfigurationDetails=FieldSections%3dFirstSection%26FieldDefinitionType%3dSitecoreDataTemplate%26FieldDefinitionRoot%3d%7bEB5CEBA9-E671-4599-857B-81D33592E0A8%7d&amp;Description=The+FieldSections+property+specifies+the+sections+the+control+shows+in+the+form+it+generates.+Provide+a+pipe-separated+list+of+sections+to+show.+Leave+the+property++blank+to+show+all+sections.&amp;Title=Specifying+form+sections" uid="{BF2C5FC2-52A3-4643-8B6F-09D60353E013}" />
+    <r id="{59E2A66D-11D2-488D-A3BC-6C1C81326645}" par="FieldDefinitionType=%7b0FC611D6-2A79-4423-BE2D-AD426E9A8A44%7d&amp;FieldSections=FirstSection&amp;Id=Form6&amp;FieldsLayout=%7b0F6F5EFF-73B4-4597-A232-F50DF253514E%7d&amp;FieldDefinitionRoot=%7bEB5CEBA9-E671-4599-857B-81D33592E0A8%7d" ph="DemoComponentPanel7.Content" uid="{EB13A5A8-5BE2-4AC2-829C-FEBF946D3F1F}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanel8&amp;ConfigurationDetails=FieldDefinitionType%3dSitecoreDataTemplate%26FieldDefinitionRoot%3d%7b6D11DAA6-9E23-4A70-A867-A9078CE03049%7d%26FieldDefinitionDatabase%3dcore&amp;Description=The+FieldDefinitionDatabase+property+specifies+the+database+that+contains++the+FieldDefinitionRoot+(default+core).&amp;Title=Specifying+the+database" uid="{BF2C5FC2-52A3-4643-8B6F-09D60353E013}" />
+    <r id="{59E2A66D-11D2-488D-A3BC-6C1C81326645}" par="FieldDefinitionType=%7b0FC611D6-2A79-4423-BE2D-AD426E9A8A44%7d&amp;Id=Form7&amp;FieldDefinitionDatabase=core&amp;FieldDefinitionRoot=%7bEB5CEBA9-E671-4599-857B-81D33592E0A8%7d" ph="DemoComponentPanel8.Content" uid="{EB13A5A8-5BE2-4AC2-829C-FEBF946D3F1F}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanel9&amp;ConfigurationDetails=BindingTarget%3d%7bBinding+ListControl1.SelectedItem%7d&amp;Description=The+BindingTarget+property+specifies+an+object+that+the+control+binds+FormData+to.+In+the+demo+below%2c+the+BindingTarget+property+specifies+that+the+control+binds+FormData+of+the+form+to+the+SelectedtItem+property+of+the+ListControl.&amp;Title=Specifying+the+object+the+control+binds+data+to" uid="{BF2C5FC2-52A3-4643-8B6F-09D60353E013}" />
+    <r id="{6BD31067-6DAB-4028-B5FD-584C3F6208EF}" par="NumberOfCells=2&amp;Id=Grid1&amp;CellAttributes=%7b%22numberOfCells%22%3a2%2c%22layoutType%22%3a%22374b2dbc-bd33-4879-854e-62807ed4aecc%22%2c%22sizeAttributes%22%3a%5b%7b%22cellAttributes%22%3a%5b%7b%22index%22%3a1%2c%22span%22%3a1%7d%2c%7b%22index%22%3a2%2c%22span%22%3a1%7d%5d%2c%22numberOfColumns%22%3a2%2c%22size%22%3a%22Large%22%7d%2c%7b%22cellAttributes%22%3a%5b%7b%22index%22%3a1%2c%22span%22%3a1%7d%2c%7b%22index%22%3a2%2c%22span%22%3a1%7d%5d%2c%22numberOfColumns%22%3a2%2c%22size%22%3a%22Medium%22%7d%2c%7b%22cellAttributes%22%3a%5b%7b%22index%22%3a1%2c%22span%22%3a1%7d%2c%7b%22index%22%3a2%2c%22span%22%3a1%7d%5d%2c%22numberOfColumns%22%3a1%2c%22size%22%3a%22Small%22%7d%2c%7b%22cellAttributes%22%3a%5b%7b%22index%22%3a1%2c%22span%22%3a1%7d%2c%7b%22index%22%3a2%2c%22span%22%3a1%7d%5d%2c%22numberOfColumns%22%3a1%2c%22size%22%3a%22XSmall%22%7d%5d%7d&amp;LayoutType=%7b374B2DBC-BD33-4879-854E-62807ED4AECC%7d" ph="DemoComponentPanel9.Content" uid="{55B71D67-EB22-4389-A439-5532FAC04832}" />
+    <r id="{6F8AB6DD-9307-4AD3-964E-5B84F0B9B4F0}" par="Id=ListControl1&amp;ColumnDefinitionItems=%7bFA2F67B6-84BD-4F51-90E1-5FF502E24DDA%7d%7c%7b0CCAC04F-7785-4896-93EF-29833333A1AB%7d%7c%7b46C10716-573E-4421-97F3-3B49929CF4AA%7d&amp;StaticData=%7b6C7A71E0-258F-4AF4-B8ED-D8CB75169339%7d" ph="Grid1.Cell1" uid="{90603C3F-C4D2-4D46-B19D-7C1226897BC3}" />
+    <r id="{59E2A66D-11D2-488D-A3BC-6C1C81326645}" par="FieldDefinitionType=%7b167CCD4C-34CE-4557-985B-0915D86B3D99%7d&amp;Id=Form8&amp;FieldsLayout=%7b0F6F5EFF-73B4-4597-A232-F50DF253514E%7d&amp;BindingTarget=%7bBinding+ListControl1.SelectedItem%7d&amp;FieldDefinitionRoot=%7b99FFA357-A3E2-4346-A246-54E624A3A8CF%7d" ph="Grid1.Cell2" uid="{EB13A5A8-5BE2-4AC2-829C-FEBF946D3F1F}" />
+    <r id="{6BEE0A52-2765-436D-AF0F-DFE43C2F508E}" par="Id=DemoComponentPanel10&amp;ConfigurationDetails=ExcludedFields%3dSingle-line+text&amp;Description=The+ExcludedFields+property+specifies+a+pipe-separated+list+of++field+names+that+the+control+ignores+when+it+generates+the+form+from+a+data+template.&amp;Title=Specifying+fields+to+ignore" uid="{BF2C5FC2-52A3-4643-8B6F-09D60353E013}" />
+    <r id="{59E2A66D-11D2-488D-A3BC-6C1C81326645}" par="FieldDefinitionType=%7b0FC611D6-2A79-4423-BE2D-AD426E9A8A44%7d&amp;Id=Form9&amp;FieldDefinitionDatabase=core&amp;ExcludedFields=Single-line+text&amp;FieldDefinitionRoot=%7bEB5CEBA9-E671-4599-857B-81D33592E0A8%7d" ph="DemoComponentPanel10.Content" uid="{EB13A5A8-5BE2-4AC2-829C-FEBF946D3F1F}" />
+  </d>
+</r>
+----version----
+language: da
+version: 1
+revision: c903a3e6-7f74-43e6-9745-ec3dea125765
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 4
+
+Fane
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 4
+
+Demo
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133338Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c903a3e6-7f74-43e6-9745-ec3dea125765
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133338Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: b2435f77-a2b0-48b2-8cc6-96a664f3cd6b
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 3
+
+Tab
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 4
+
+Demo
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133507Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b2435f77-a2b0-48b2-8cc6-96a664f3cd6b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133507Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 955fa063-2f38-4536-a051-3dc5688b346b
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 3
+
+Tab
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150324T092150Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+955fa063-2f38-4536-a051-3dc5688b346b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160309T135711Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 552c3011-ac88-472e-9fd3-b36b1e134923
+
+----field----
+field: {F808909E-DC32-4DA6-9E5E-ED69EB9D3ED7}
+name: Header
+key: header
+content-length: 2
+
+タブ
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 2
+
+デモ
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133634Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+552c3011-ac88-472e-9fd3-b36b1e134923
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133634Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

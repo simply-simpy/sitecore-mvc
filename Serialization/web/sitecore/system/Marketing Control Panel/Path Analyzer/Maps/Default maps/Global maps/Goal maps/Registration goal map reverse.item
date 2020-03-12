@@ -1,0 +1,115 @@
+----item----
+version: 1
+id: {2D3DA85C-8FED-46DD-9359-38BC6EC5A50F}
+database: web
+path: /sitecore/system/Marketing Control Panel/Path Analyzer/Maps/Default maps/Global maps/Goal maps/Registration goal map reverse
+parent: {A70A3848-27FF-4847-8634-D6471063636C}
+name: Registration goal map reverse
+master: {00000000-0000-0000-0000-000000000000}
+template: {42540780-99A0-4144-BC9A-5D673FC63B6A}
+templatekey: GoalMap
+created: 20160729T132117Z
+
+----field----
+field: {A41C1159-F6D5-4721-A39C-D620E5EF689D}
+name: Reverse
+key: reverse
+content-length: 1
+
+1
+----field----
+field: {95527FD0-818C-4045-802A-10A27EAAFABE}
+name: TargetGoal
+key: targetgoal
+content-length: 38
+
+{8FFB183B-DA1A-4C74-8F3A-9729E9FCFF6A}
+----field----
+field: {0A6277FF-B5BA-490B-8441-986B4F519FBF}
+name: Rule
+key: rule
+content-length: 0
+
+
+----field----
+field: {9C6106EA-7A5A-48E2-8CAD-F0F693B1E2D4}
+name: __Read Only
+key: __read only
+content-length: 1
+
+1
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+400
+----field----
+field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
+name: __Workflow
+key: __workflow
+content-length: 38
+
+{B879D176-4226-4C74-9ED4-6E61E813CBF7}
+----version----
+language: en
+version: 1
+revision: e48c977b-f927-40a5-82e4-f63e7535231d
+
+----field----
+field: {A44D8693-F962-4F76-8FB8-62525CE67BA1}
+name: Name
+key: name
+content-length: 29
+
+Reverse Registration goal map
+----field----
+field: {31FCBEB2-376A-481F-BB44-EF52301F33CA}
+name: Description
+key: description
+content-length: 76
+
+<p>This map shows visitor experience leading to the "Registration" goal.</p>
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 31
+
+Registration goal map (reverse)
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20140411T183849Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e48c977b-f927-40a5-82e4-f63e7535231d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T132436Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 18
+
+extranet\Anonymous
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 38
+
+{D86A72B4-7C3D-447E-9622-66B0DC1243F8}
