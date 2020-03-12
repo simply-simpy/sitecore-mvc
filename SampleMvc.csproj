@@ -270,7 +270,7 @@
     <Content Include="scss\layout\_services.scss" />
     <Content Include="scss\layout\_team.scss" />
     <Content Include="scss\layout\_timeline.scss" />
-    <Content Include="Views\renderings\hero.cshtml" />
+    <Content Include="Views\Sample\Section.cshtml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -288,7 +288,9 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Views\renderings\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
